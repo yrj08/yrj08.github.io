@@ -10,9 +10,9 @@
   <h2>REM A1 • Brossard - Horaire du 11 décembre 2025 au 28 février 2026</h2>
 </header>
 
-<h3>Current Time in Seconds:</h3>
+<h3>Date et heure actuelle:</h3>
     <!-- This is the HTML element where the time will be displayed -->
-    <p id="date"></p> <p>Current Time: <span id="clock">00:00:00</span></p>
+    <p id="date"> <span id="clock">00:00:00</span></p>
 
 <script>
 n =  new Date();
@@ -27,7 +27,12 @@ document.getElementById("date").innerHTML = "Today is: " + y + "-" + m + "-" + d
         function updateTime() {
             const now = new Date();
             // Formats time as HH:MM:SS
-            const timeString = now.toLocaleTimeString(); 
+            const timeString = now.toLocaleTimeString('fr-CA', { 
+        hour12: false, 
+        hour: '2-digit', 
+        minute: '2-digit', 
+        second: '2-digit' 
+    }); 
             
             // Inject the string into the HTML element
             document.getElementById('clock').textContent = timeString;

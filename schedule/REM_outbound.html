@@ -7,10 +7,10 @@
 <body>
 
 <header>
-  <h2>REM Schedule (A4) - December 11, 2025 to February 28, 2026</h2>
+  <h2>REM A4 • Deux-Montagnes - Horaire du 11 décembre 2025 au 28 février 2026</h2>
 </header>
 
-<p id="date"></p>
+<h3>Date et heure actuelle: <span id="date"></span> <span id="clock">00:00:00</span></h3>
 
 <script>
 n =  new Date();
@@ -18,13 +18,30 @@ y = n.getFullYear();
 m = n.getMonth() + 1;
 d = n.getDate();
 <!--document.getElementById("date").innerHTML = m + "/" + d + "/" + y;-->
-document.getElementById("date").innerHTML = "Today is: " + y + "-" + m + "-" + d;
+document.getElementById("date").innerHTML = y + "-" + m + "-" + d;
 </script>
 
-<header>
-  <h3>PM Commute 1 (Metro → 54/121/171)</h3>
-</header>
+<script>
+        function updateTime() {
+            const now = new Date();
+            // Formats time as HH:MM:SS
+            const timeString = now.toLocaleTimeString('fr-CA', { 
+        hour12: false, 
+        hour: '2-digit', 
+        minute: '2-digit', 
+        second: '2-digit' 
+    }); 
+            
+            // Inject the string into the HTML element
+            document.getElementById('clock').textContent = timeString;
+        }
 
+        // Call the function every 1000ms (1 second)
+        setInterval(updateTime, 1000);
+
+        // Initial call to prevent 1-second delay on page load
+        updateTime();
+</script>
 
 <table border="1" class="dataframe">
   <thead>

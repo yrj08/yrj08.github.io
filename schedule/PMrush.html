@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width">
+<meta charset="UTF-8">
+</head>
+<body>
+
+<header>
+  <h2>PM Rush Commute - June 13 to August [?], 2022</h2>
+</header>
+
+<p id="date"></p>
+
+<script>
+n =  new Date();
+y = n.getFullYear();
+m = n.getMonth() + 1;
+d = n.getDate();
+<!--document.getElementById("date").innerHTML = m + "/" + d + "/" + y;-->
+document.getElementById("date").innerHTML = "Today is: " + y + "-" + m + "-" + d;
+</script>
+
+<header>
+  <h3>PM Commute 1 (Metro → 54/121/171)</h3>
+</header>
+
+<table border>
+  <tr>
+    <th colspan="6">Métro</th>
+    <th rowspan="17"></th>
+    <th colspan="5" rowspan="3">Transferring Buses</th>
+    <!--<th rowspan="5">Home</th>-->
+  </tr>
+  <tr>
+    <th rowspan="2"  style="background-color:#00B300">1</th>
+    <th>Viau</th>
+    <th>Berri</th>
+    <th>L.-Grx</th>
+    <th colspan="2" rowspan="2">–</th>
+  </tr>
+  <tr>
+    <td style="text-align:center">16:43:36<br>16:47:26<br>16:51:16</td>
+    <td style="text-align:center">16:53:08<br>16:56:58<br>17:00:48</td>
+    <td style="text-align:center">17:02:24<br>17:06:14<br>17:10:04</td>
+  </tr>
+  <tr>
+    <td colspan="12"></td>
+  </tr>
+  <tr>
+    <th rowspan="13"  style="background-color:#D95700">2</th>
+    <th rowspan="13">–</th>
+    <th>Berri</th>
+    <th>Créma</th>
+    <th>Sauvé</th>
+    <th>H-Bou</th>
+    <th>Route</th>
+    <th>Trip ID</th>
+    <th>Dep.</th>
+    <th>Arr.</th>
+    <th>Home</th>
+  </tr>
+  <tr>
+    <td rowspan="5" style="text-align:center">16:57:13<br>17:00:13<br>17:03:13</td>
+    <td style="text-align:center">17:08:17<br>17:11:17<br>17:14:17</td>
+    <td></td>
+    <td></td>
+    <th>54-O</th>
+    <td style="text-align:center"><a href="https://gtfstools.site/run.php?trip_id=250280981">250280982</a></td>
+    <td style="text-align:center">17:18</td>
+    <td style="text-align:center">17:42</td>
+    <th>17:52</th>
+  </tr>
+  <tr>
+    <td rowspan="3"></td>
+    <td rowspan="3" style="text-align:center">17:10:17<br>17:13:17<br>17:16:17</td>
+    <td rowspan="3"></td>
+    <th rowspan="3">121-O</th>
+    <td style="text-align:center"><a href="https://gtfstools.site/run.php?trip_id=250276624">250276628</a></td>
+    <td style="text-align:center">17:16</td>
+    <td style="text-align:center">17:31</td>
+    <th>17:33</th>
+  </tr>
+  <tr>
+    <td style="text-align:center"><a href="https://gtfstools.site/run.php?trip_id=250277323">250277324</a></td>
+    <td style="text-align:center">17:27</td>
+    <td style="text-align:center">17:42</td>
+    <th>17:44</th>
+  </tr>
+  <tr>
+    <td style="text-align:center"><a href="https://gtfstools.site/run.php?trip_id=250277221">250277223</a></td>
+    <td style="text-align:center">17:39</td>
+    <td style="text-align:center">17:55</td>
+    <th>17:57</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td style="text-align:center">17:12:12<br>17:15:12<br>17:18:12</td>
+    <th>171-O</th>
+    <td style="text-align:center"><a href="https://gtfstools.site/run.php?trip_id=252234362">252234366</a></td>
+    <td style="text-align:center">17:25</td>
+    <td style="text-align:center">17:46</td>
+    <th>17:48</th>
+  </tr>
+  <tr>
+    <td colspan="10"></td>
+  </tr>
+  <tr>
+    <th>Berri</th>
+    <th>L.-Grx</th>
+    <th>DC</th>
+    <th>CV</th>
+    <th>Route</th>
+    <th>Trip ID</th>
+    <th>Dep.</th>
+    <th>Arr.</th>
+    <th>Home</th>
+  </tr>
+  <tr>
+    <td rowspan="5" style="text-align:center">16:56:00<br>16:59:45<br>17:03:30</td>
+    <td rowspan="5" style="text-align:center">17:04:54<br>17:08:39<br>17:12:24</td>
+    <td style="text-align:center">17:19:24<br>17:23:09<br>17:26:54</td>
+    <td></td>
+    <th>128-S</th>
+    <td style="text-align:center"><a href="https://gtfstools.site/run.php?trip_id=252235502">252235505</a></td>
+    <td style="text-align:center">17:28</td>
+    <td style="text-align:center">17:41</td>
+    <th>17:46</th>
+  </tr>
+  <tr>
+    <td rowspan="4"></td>
+    <td rowspan="4" style="text-align:center">17:21:10<br>17:24:55<br>17:28:40</td>
+    <th>121-E</th>
+    <td style="text-align:center"><a href="https://gtfstools.site/run.php?trip_id=250277192">250277195</a></td>
+    <td style="text-align:center">17:29</td>
+    <td style="text-align:center">17:36</td>
+    <th>17:38</th>
+  </tr>
+  <tr>
+    <th>171-E</th>
+    <td style="text-align:center"><a href="https://gtfstools.site/run.php?trip_id=252236154">252236159</a></td>
+    <td style="text-align:center">17:30</td>
+    <td style="text-align:center">17:38</td>
+    <th>17:40</th>
+  </tr>
+  <tr>
+    <th>121-E</th>
+    <td style="text-align:center"><a href="https://gtfstools.site/run.php?trip_id=250276556">250276559</a></td>
+    <td style="text-align:center">17:37</td>
+    <td style="text-align:center">17:44</td>
+    <th>17:46</th>
+  </tr>
+  <tr>
+    <th>171-E</th>
+    <td style="text-align:center"><a href="https://gtfstools.site/run.php?trip_id=252234535">252234539</a></td>
+    <td style="text-align:center">17:40</td>
+    <td style="text-align:center">17:48</td>
+    <th>17:50</th>
+  </tr>
+</table>
+
+<header>
+  <h3>PM Commute 2 (136-N → 460-O)</h3>
+</header>
+  
+<table border>
+  <tr>
+    <th colspan="5"><b>136 Viau N</b></th>
+    <th rowspan="13"></th>
+    <th colspan="5"><b>460 Express Métropolitaine O</b></th>
+    <th rowspan="3"><b>Home</b></th>
+  </tr>
+  <tr>
+    <td><b>50105</b></td>
+    <td><b>52988</b></td>
+    <td><b>55009</b></td>
+    <td rowspan="2"><b>Trip ID</b></td>
+    <td rowspan="2"><b>FR</b></td>
+    <td><b>54751</b></td>
+    <td><b>50794</b></td>
+    <td><b>55770</b></td>
+    <td rowspan="2"><b>Trip ID</b></td>
+    <td rowspan="2"><b>FR</b></td>
+  </tr>
+  <tr>
+    <td>Station<br>Viau</td>
+    <td>Viau /<br>Olym.</td>
+    <td>Viau /<br>Mét.</td>
+    <td>Mét./<br>Viau</td>
+    <td>Station<br>Crémz.</td>
+    <td>CDL/<br>Mpllier</td>
+  </tr>  
+    <tr>
+    <th colspan="5">[...]</th>
+    <td rowspan="3">16:50</td>
+    <td rowspan="3">17:08</td>
+    <td rowspan="3">17:18</td>
+    <td rowspan="3"><a href="https://gtfstools.site/run.php?trip_id=250280857">250280858</a></td>
+    <!--<td rowspan="5" style="background-color:#F4CCCC">4</td>-->
+    <td rowspan="3" style="background-color:#FFFFFF"></td>
+    <td rowspan="3"><b>17:35</b></td>
+  </tr>
+  <tr>
+    <td>16:09</td>
+    <td>16:12</td>
+    <td>16:29</td>
+    <td><a href="https://gtfstools.site/run.php?trip_id=251982945">251982950</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>16:23</td>
+    <td>16:26</td>
+    <td>16:43</td>
+    <td><a href="https://gtfstools.site/run.php?trip_id=251982969">251982973</a></td>
+    <td>♿</td>
+  </tr>
+  <tr>
+    <td>16:35</td>
+    <td>16:38</td>
+    <td>16:55</td>
+    <td><a href="https://gtfstools.site/run.php?trip_id=251983042">251983043</a></td>
+    <!--<td style="background-color:#D9EAD3">1</td>-->
+    <td style="background-color:#FFFFFF"></td>
+    <td rowspan="4">17:22</td>
+    <td rowspan="4">17:40</td>
+    <td rowspan="4">17:50</td>
+    <td rowspan="4"><a href="https://gtfstools.site/run.php?trip_id=250280920">250280921</a></td>
+    <!--<td rowspan="5" style="background-color:#F4CCCC">4</td>-->
+    <td rowspan="4" style="background-color:#FFFFFF"></td>
+    <td rowspan="4"><b>18:07</b></td>
+  </tr>
+  <tr>
+    <td>16:43</td>
+    <td>16:46</td>
+    <td>17:03</td>
+    <td><a href="https://gtfstools.site/run.php?trip_id=251983003">251983006</a></td>
+    <td>♿</td>
+  </tr>
+  <tr>
+    <td>16:51</td>
+    <td>16:54</td>
+    <td>17:11</td>
+    <td><a href="https://gtfstools.site/run.php?trip_id=251982909">251982912</a></td>
+    <td>♿</td>
+  </tr>
+  <tr>
+    <td>16:58</td>
+    <td>17:01</td>
+    <td>17:18</td>
+    <td><a href="https://gtfstools.site/run.php?trip_id=251982637">251982640</a></td>
+    <td>♿</td>
+  </tr>
+  <tr>
+    <td>17:04</td>
+    <td>17:07</td>
+    <td>17:24</td>
+    <td><a href="https://gtfstools.site/run.php?trip_id=251983056">251983058</a></td>
+    <td style="background-color:#FFFFFF"></td>
+    <td rowspan="3">17:46</td>
+    <td rowspan="3">18:02</td>
+    <td rowspan="3">18:12</td>
+    <td rowspan="3"><a href="https://gtfstools.site/run.php?trip_id=250280976">250280977</a></td>
+    <td rowspan="3" style="background-color:#FFFFFF"></td>
+    <td rowspan="3"><b>18:29</b></td>
+  </tr>
+  <tr>
+    <td>17:10</td>
+    <td>17:13</td>
+    <td>17:30</td>
+    <td><a href="https://gtfstools.site/run.php?trip_id=251983061">251983061</a></td>
+    <td style="background-color:#FFFFFF"></td>
+  </tr>
+  <tr>
+    <td>17:20</td>
+    <td>17:23</td>
+    <td>17:39</td>
+    <td><a href="https://gtfstools.site/run.php?trip_id=251983013">251983016</a></td>
+    <td>♿</td>
+  </tr>
+</table>
+
+
+<header>
+  <h2>PM Rush Commute - May 30 to June 10, 2022</h2>
+</header>
+  
+<header>
+  <h3>PM Commute 1 (136-N → 460-O)</h3>
+</header>
+  
+<table border>
+  <tr>
+    <th colspan="5"><b>136 Viau N</b></th>
+    <th rowspan="13"></th>
+    <th colspan="5"><b>460 Express Métropolitaine O</b></th>
+    <th rowspan="3"><b>Home</b></th>
+  </tr>
+  <tr>
+    <td><b>50105</b></td>
+    <td><b>52988</b></td>
+    <td><b>55009</b></td>
+    <td rowspan="2"><b>Trip ID</b></td>
+    <td rowspan="2"><b>FR</b></td>
+    <td><b>54751</b></td>
+    <td><b>50794</b></td>
+    <td><b>55770</b></td>
+    <td rowspan="2"><b>Trip ID</b></td>
+    <td rowspan="2"><b>FR</b></td>
+  </tr>
+  <tr>
+    <td>Station<br>Viau</td>
+    <td>Viau /<br>Olym.</td>
+    <td>Viau /<br>Mét.</td>
+    <td>Mét./<br>Viau</td>
+    <td>Station<br>Crémz.</td>
+    <td>CDL/<br>Mpllier</td>
+  </tr>   
+  <tr>
+    <td>16:31</td>
+    <td>16:34</td>
+    <td>16:51</td>
+    <td><a href="https://gtfstools.site/run.php?trip_id=250268682">250268684</a></td>
+    <td style="background-color:#D9EAD3">1</td>
+    <td rowspan="5">17:20</td>
+    <td rowspan="5">17:38</td>
+    <td rowspan="5">17:48</td>
+    <td rowspan="5"><a href="https://gtfstools.site/run.php?trip_id=249546947">249546948</a></td>
+    <td rowspan="5" style="background-color:#F4CCCC">4</td>
+    <td rowspan="5"><b>18:05</b></td>
+  </tr>
+  <tr>
+    <td>16:37</td>
+    <td>16:40</td>
+    <td>16:57</td>
+    <td><a href="https://gtfstools.site/run.php?trip_id=250268642">250268645</a></td>
+    <td style="background-color:#F4CCCC">4</td>
+  </tr>
+  <tr>
+    <td>16:43</td>
+    <td>16:46</td>
+    <td>17:03</td>
+    <td><a href="https://gtfstools.site/run.php?trip_id=250268744">250268746</a></td>
+    <td style="background-color:#FCE5CD">3</td>
+  </tr>
+  <tr>
+    <td>16:49</td>
+    <td>16:52</td>
+    <td>17:09</td>
+    <td><a href="https://gtfstools.site/run.php?trip_id=250268596">250268600</a></td>
+    <td style="background-color:#FCE5CD">3</td>
+  </tr>
+  <tr>
+    <td>16:55</td>
+    <td>16:58</td>
+    <td>17:15</td>
+    <td><a href="https://gtfstools.site/run.php?trip_id=250268668">250268670</a></td>
+    <td style="background-color:#D9EAD3">1</td>
+  </tr>
+  <tr>
+    <td>17:01</td>
+    <td>17:04</td>
+    <td>17:21</td>
+    <td><a href="https://gtfstools.site/run.php?trip_id=250268689">250268693</a></td>
+    <td style="background-color:#FFF2CC">2</td>
+    <td rowspan="5">17:46</td>
+    <td rowspan="5">18:02</td>
+    <td rowspan="5">18:12</td>
+    <td rowspan="5"><a href="https://gtfstools.site/run.php?trip_id=249546821">249546824</a></td>
+    <td rowspan="5" style="background-color:#E6B8AF">5</td>
+    <td rowspan="5"><b>18:29</b></td>
+  </tr>
+  <tr>
+    <td>17:06</td>
+    <td>17:09</td>
+    <td>17:26</td>
+    <td><a href="https://gtfstools.site/run.php?trip_id=250268708">250268710</a></td>
+    <td>♿</td>
+  </tr>
+  <tr>
+    <td>17:11</td>
+    <td>17:14</td>
+    <td>17:31</td>
+    <td><a href="https://gtfstools.site/run.php?trip_id=250268734">250268736</a></td>
+    <td style="background-color:#FFF2CC">2</td>
+  </tr>
+  <tr>
+    <td>17:16</td>
+    <td>17:19</td>
+    <td>17:36</td>
+    <td><a href="https://gtfstools.site/run.php?trip_id=250268300">250268303</a></td>
+    <td>♿</td>
+  </tr>
+  <tr>
+    <td>17:21</td>
+    <td>17:24</td>
+    <td>17:40</td>
+    <td><a href="https://gtfstools.site/run.php?trip_id=250154856">250154861</a></td>
+    <td>♿</td>
+  </tr>
+</table>
+
+<header>
+  <h3>PM Commute 2 (Metro → 54/121/171)</h3>
+</header>
+
+<table border>
+  <tr>
+    <th colspan="5">Métro</th>
+    <th rowspan="13"></th>
+    <th colspan="4">Transferring Buses</th>
+    <th rowspan="2">Home</th>
+  </tr>
+  <tr>
+    <td><b>Viau</b></td>
+    <td><b>Berri</b></td>
+    <td><b>Créma</b></td>
+    <td><b>Sauvé</b></td>
+    <td><b>H-Bou</b></td>
+    <td><b>Route</b></td>
+    <td><b>Trip ID</b></td>
+    <td><b>Dep.</b></td>
+    <td><b>Arr.</b></td>
+  </tr>
+  <tr>
+    <td>16:47</td>
+    <td>16:56</td>
+    <th>–</th>
+    <th>–</th>
+    <th>–</th>
+    <th colspan="5">–</th>
+  </tr>
+  <tr>
+    <th>–</th>
+    <td rowspan="6">17:00</td>
+    <td>17:11</td>
+    <td></td>
+    <td></td>
+    <td><b>54-O</b></td>
+    <td><a href="https://gtfstools.site/run.php?trip_id=249546812">249546815</a></td>
+    <td>17:18</td>
+    <td>17:42</td>
+    <th>17:52</th>
+  </tr>
+  <tr>
+    <th rowspan="3">–</th>
+    <td rowspan="3"></td>
+    <td rowspan="3">17:13</td>
+    <td rowspan="3"></td>
+    <td rowspan="3"><b>121-O</b></td>
+    <td><a href="https://gtfstools.site/run.php?trip_id=249548772">249548774</a></td>
+    <td>17:11</td>
+    <td>17:28</td>
+    <th>17:30</th>
+  </tr>
+  <tr>
+    <td><a href="https://gtfstools.site/run.php?trip_id=249548967">249548969</a></td>
+    <td>17:19</td>
+    <td>17:36</td>
+    <th>17:38</th>
+  </tr>
+  <tr>
+    <td><a href="https://gtfstools.site/run.php?trip_id=249548937">249548939</a></td>
+    <td>17:26</td>
+    <td>17:43</td>
+    <th>17:45</th>
+  </tr>
+  <tr>
+    <th>–</th>
+    <td></td>
+    <td></td>
+    <td>17:15</td>
+    <td><b>171-O</b></td>
+    <td><a href="https://gtfstools.site/run.php?trip_id=250224866">250224870</a></td>
+    <td>17:29</td>
+    <td>17:50</td>
+    <th>17:52</th>
+  </tr>
+  <tr>
+    <td colspan="11"></td>
+  </tr>
+  <tr>
+    <th>Viau</th>
+    <th>Berri</th>
+    <th>L.-Gr.</th>
+    <th colspan="2">Côte-Vertu</th>
+    <td colspan="4" rowspan="3">17:21, 22*, 27, 31*, 34, 41, 41*, ...<br>* = 171</td>
+    <th rowspan="3">17:30<br>to<br>17:50</th>
+  </tr>
+  <tr>
+    <td>16:47</td>
+    <td>16:56</td>
+    <td>17:06</td>
+    <th colspan="2">–</th>
+  </tr>
+  <tr>
+    <th>–</th>
+    <th>–</th>
+    <td>17:09</td>
+    <td colspan="2">17:25</td>
+  </tr>
+</table>
+
+</body>
+</html>

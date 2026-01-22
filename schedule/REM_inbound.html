@@ -12,8 +12,7 @@
 
 <h3>Current Time in Seconds:</h3>
     <!-- This is the HTML element where the time will be displayed -->
-    <p id="date"></p>
-    <p id="time-in-seconds">Loading...</p>
+    <p id="date"></p> <p>Current Time: <span id="clock">00:00:00</span></p>
 
 <script>
 n =  new Date();
@@ -25,24 +24,21 @@ document.getElementById("date").innerHTML = "Today is: " + y + "-" + m + "-" + d
 </script>
 
 <script>
-        // Function to get the current time in seconds and update the display
-        function updateTimeInSeconds() {
+        function updateTime() {
             const now = new Date();
-            // Get the current time in milliseconds since the Unix epoch (Jan 1, 1970)
-            const millisecondsSinceEpoch = now.getTime();
-            // Convert milliseconds to seconds and use Math.floor() to get an integer value
-            const secondsSinceEpoch = Math.floor(millisecondsSinceEpoch / 1000);
-
-            // Find the HTML element by its ID and set its text content
-            document.getElementById("time-in-seconds").textContent = secondsSinceEpoch;
+            // Formats time as HH:MM:SS
+            const timeString = now.toLocaleTimeString(); 
+            
+            // Inject the string into the HTML element
+            document.getElementById('clock').textContent = timeString;
         }
 
-        // Call the function once when the page loads
-        updateTimeInSeconds();
+        // Call the function every 1000ms (1 second)
+        setInterval(updateTime, 1000);
 
-        // Update the time every second (1000 milliseconds)
-        setInterval(updateTimeInSeconds, 1000);
-    </script>
+        // Initial call to prevent 1-second delay on page load
+        updateTime();
+</script>
 
 <!--<header>
   <h3>Horaire direction A1 • Brossard</h3>

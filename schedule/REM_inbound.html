@@ -1,0 +1,1339 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width">
+<meta charset="UTF-8">
+</head>
+<body>
+
+<header>
+  <h2>REM A1 • Brossard - Horaire du 11 décembre 2025 au 28 février 2026</h2>
+</header>
+
+<h3>Current Time in Seconds:</h3>
+    <!-- This is the HTML element where the time will be displayed -->
+    <p id="date"></p>
+    <p id="time-in-seconds">Loading...</p>
+
+<script>
+n =  new Date();
+y = n.getFullYear();
+m = n.getMonth() + 1;
+d = n.getDate();
+<!--document.getElementById("date").innerHTML = m + "/" + d + "/" + y;-->
+document.getElementById("date").innerHTML = "Today is: " + y + "-" + m + "-" + d;
+</script>
+
+<script>
+        // Function to get the current time in seconds and update the display
+        function updateTimeInSeconds() {
+            const now = new Date();
+            // Get the current time in milliseconds since the Unix epoch (Jan 1, 1970)
+            const millisecondsSinceEpoch = now.getTime();
+            // Convert milliseconds to seconds and use Math.floor() to get an integer value
+            const secondsSinceEpoch = Math.floor(millisecondsSinceEpoch / 1000);
+
+            // Find the HTML element by its ID and set its text content
+            document.getElementById("time-in-seconds").textContent = secondsSinceEpoch;
+        }
+
+        // Call the function once when the page loads
+        updateTimeInSeconds();
+
+        // Update the time every second (1000 milliseconds)
+        setInterval(updateTimeInSeconds, 1000);
+    </script>
+
+<header>
+  <h3>PM Commute 1 (Metro → 54/121/171)</h3>
+</header>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th>Headsign</th>
+      <th>Station Montpellier - Quai 2</th>
+      <th>Station Côte-de-Liesse - Quai 2</th>
+      <th>Station McGill - Quai 2</th>
+      <th>Station Gare Centrale - Quai 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="text-align: center;">
+      <th>4</th>
+      <td>A1 - Brossard</td>
+      <td>05:53:44</td>
+      <td>05:55:34</td>
+      <td>06:05:10</td>
+      <td>06:07:01</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>5</th>
+      <td>A1 - Brossard</td>
+      <td>06:03:44</td>
+      <td>06:05:34</td>
+      <td>06:15:10</td>
+      <td>06:17:01</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>6</th>
+      <td>A1 - Brossard</td>
+      <td>06:13:44</td>
+      <td>06:15:34</td>
+      <td>06:25:10</td>
+      <td>06:27:01</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>7</th>
+      <td>A1 - Brossard</td>
+      <td>06:23:44</td>
+      <td>06:25:34</td>
+      <td>06:35:10</td>
+      <td>06:37:01</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>8</th>
+      <td>A1 - Brossard</td>
+      <td>06:33:44</td>
+      <td>06:35:34</td>
+      <td>06:45:10</td>
+      <td>06:47:01</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>9</th>
+      <td>A1 - Brossard</td>
+      <td>06:43:44</td>
+      <td>06:45:34</td>
+      <td>06:55:10</td>
+      <td>06:57:01</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>10</th>
+      <td>A1 - Brossard</td>
+      <td>06:53:15</td>
+      <td>06:55:25</td>
+      <td>07:04:54</td>
+      <td>07:06:45</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>11</th>
+      <td>A1 - Brossard</td>
+      <td>06:59:41</td>
+      <td>07:01:51</td>
+      <td>07:11:20</td>
+      <td>07:13:11</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>12</th>
+      <td>A1 - Brossard</td>
+      <td>07:04:07</td>
+      <td>07:06:17</td>
+      <td>07:15:46</td>
+      <td>07:17:37</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>13</th>
+      <td>A1 - Brossard</td>
+      <td>07:08:33</td>
+      <td>07:10:43</td>
+      <td>07:20:12</td>
+      <td>07:22:03</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>14</th>
+      <td>A1 - Brossard</td>
+      <td>07:12:59</td>
+      <td>07:15:09</td>
+      <td>07:24:38</td>
+      <td>07:26:29</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>15</th>
+      <td>A1 - Brossard</td>
+      <td>07:17:25</td>
+      <td>07:19:35</td>
+      <td>07:29:04</td>
+      <td>07:30:55</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>16</th>
+      <td>A1 - Brossard</td>
+      <td>07:21:51</td>
+      <td>07:24:01</td>
+      <td>07:33:30</td>
+      <td>07:35:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>17</th>
+      <td>A1 - Brossard</td>
+      <td>07:26:17</td>
+      <td>07:28:27</td>
+      <td>07:37:56</td>
+      <td>07:39:47</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>18</th>
+      <td>A1 - Brossard</td>
+      <td>07:30:43</td>
+      <td>07:32:53</td>
+      <td>07:42:22</td>
+      <td>07:44:13</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>19</th>
+      <td>A1 - Brossard</td>
+      <td>07:35:09</td>
+      <td>07:37:19</td>
+      <td>07:46:48</td>
+      <td>07:48:39</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>20</th>
+      <td>A1 - Brossard</td>
+      <td>07:39:35</td>
+      <td>07:41:45</td>
+      <td>07:51:14</td>
+      <td>07:53:05</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>21</th>
+      <td>A1 - Brossard</td>
+      <td>07:44:01</td>
+      <td>07:46:11</td>
+      <td>07:55:40</td>
+      <td>07:57:31</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>22</th>
+      <td>A1 - Brossard</td>
+      <td>07:48:27</td>
+      <td>07:50:37</td>
+      <td>08:00:06</td>
+      <td>08:01:57</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>23</th>
+      <td>A1 - Brossard</td>
+      <td>07:52:53</td>
+      <td>07:55:03</td>
+      <td>08:04:32</td>
+      <td>08:06:23</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>24</th>
+      <td>A1 - Brossard</td>
+      <td>07:57:19</td>
+      <td>07:59:29</td>
+      <td>08:08:58</td>
+      <td>08:10:49</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>25</th>
+      <td>A1 - Brossard</td>
+      <td>08:01:45</td>
+      <td>08:03:55</td>
+      <td>08:13:24</td>
+      <td>08:15:15</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>26</th>
+      <td>A1 - Brossard</td>
+      <td>08:06:11</td>
+      <td>08:08:21</td>
+      <td>08:17:50</td>
+      <td>08:19:41</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>27</th>
+      <td>A1 - Brossard</td>
+      <td>08:10:37</td>
+      <td>08:12:47</td>
+      <td>08:22:16</td>
+      <td>08:24:07</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>28</th>
+      <td>A1 - Brossard</td>
+      <td>08:15:03</td>
+      <td>08:17:13</td>
+      <td>08:26:42</td>
+      <td>08:28:33</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>29</th>
+      <td>A1 - Brossard</td>
+      <td>08:19:29</td>
+      <td>08:21:39</td>
+      <td>08:31:08</td>
+      <td>08:32:59</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>30</th>
+      <td>A1 - Brossard</td>
+      <td>08:23:55</td>
+      <td>08:26:05</td>
+      <td>08:35:34</td>
+      <td>08:37:25</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>31</th>
+      <td>A1 - Brossard</td>
+      <td>08:28:21</td>
+      <td>08:30:31</td>
+      <td>08:40:00</td>
+      <td>08:41:51</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>32</th>
+      <td>A1 - Brossard</td>
+      <td>08:32:47</td>
+      <td>08:34:57</td>
+      <td>08:44:26</td>
+      <td>08:46:17</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>33</th>
+      <td>A1 - Brossard</td>
+      <td>08:37:13</td>
+      <td>08:39:23</td>
+      <td>08:48:52</td>
+      <td>08:50:43</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>34</th>
+      <td>A1 - Brossard</td>
+      <td>08:41:39</td>
+      <td>08:43:49</td>
+      <td>08:53:18</td>
+      <td>08:55:09</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>35</th>
+      <td>A1 - Brossard</td>
+      <td>08:46:05</td>
+      <td>08:48:15</td>
+      <td>08:57:44</td>
+      <td>08:59:35</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>36</th>
+      <td>A1 - Brossard</td>
+      <td>08:50:31</td>
+      <td>08:52:41</td>
+      <td>09:02:10</td>
+      <td>09:04:01</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>37</th>
+      <td>A1 - Brossard</td>
+      <td>08:54:57</td>
+      <td>08:57:07</td>
+      <td>09:06:36</td>
+      <td>09:08:27</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>38</th>
+      <td>A1 - Brossard</td>
+      <td>08:59:23</td>
+      <td>09:01:33</td>
+      <td>09:11:02</td>
+      <td>09:12:53</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>39</th>
+      <td>A1 - Brossard</td>
+      <td>09:03:49</td>
+      <td>09:05:59</td>
+      <td>09:15:28</td>
+      <td>09:17:19</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>40</th>
+      <td>A1 - Brossard</td>
+      <td>09:08:15</td>
+      <td>09:10:25</td>
+      <td>09:19:54</td>
+      <td>09:21:45</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>41</th>
+      <td>A1 - Brossard</td>
+      <td>09:12:41</td>
+      <td>09:14:51</td>
+      <td>09:24:20</td>
+      <td>09:26:11</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>42</th>
+      <td>A1 - Brossard</td>
+      <td>09:17:07</td>
+      <td>09:19:17</td>
+      <td>09:28:46</td>
+      <td>09:30:37</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>43</th>
+      <td>A1 - Brossard</td>
+      <td>09:21:33</td>
+      <td>09:23:43</td>
+      <td>09:33:12</td>
+      <td>09:35:03</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>44</th>
+      <td>A1 - Brossard</td>
+      <td>09:25:59</td>
+      <td>09:28:09</td>
+      <td>09:37:38</td>
+      <td>09:39:29</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>45</th>
+      <td>A1 - Brossard</td>
+      <td>09:30:25</td>
+      <td>09:32:35</td>
+      <td>09:42:04</td>
+      <td>09:43:55</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>46</th>
+      <td>A1 - Brossard</td>
+      <td>09:34:51</td>
+      <td>09:37:01</td>
+      <td>09:46:30</td>
+      <td>09:48:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>47</th>
+      <td>A1 - Brossard</td>
+      <td>09:39:17</td>
+      <td>09:41:27</td>
+      <td>09:50:56</td>
+      <td>09:52:47</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>48</th>
+      <td>A1 - Brossard</td>
+      <td>09:43:43</td>
+      <td>09:45:53</td>
+      <td>09:55:22</td>
+      <td>09:57:13</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>49</th>
+      <td>A1 - Brossard</td>
+      <td>09:48:09</td>
+      <td>09:50:19</td>
+      <td>09:59:48</td>
+      <td>10:01:39</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>50</th>
+      <td>A1 - Brossard</td>
+      <td>09:55:04</td>
+      <td>09:56:54</td>
+      <td>10:06:30</td>
+      <td>10:08:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>51</th>
+      <td>A1 - Brossard</td>
+      <td>10:05:04</td>
+      <td>10:06:54</td>
+      <td>10:16:30</td>
+      <td>10:18:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>52</th>
+      <td>A1 - Brossard</td>
+      <td>10:15:04</td>
+      <td>10:16:54</td>
+      <td>10:26:30</td>
+      <td>10:28:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>53</th>
+      <td>A1 - Brossard</td>
+      <td>10:25:04</td>
+      <td>10:26:54</td>
+      <td>10:36:30</td>
+      <td>10:38:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>54</th>
+      <td>A1 - Brossard</td>
+      <td>10:35:04</td>
+      <td>10:36:54</td>
+      <td>10:46:30</td>
+      <td>10:48:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>55</th>
+      <td>A1 - Brossard</td>
+      <td>10:45:04</td>
+      <td>10:46:54</td>
+      <td>10:56:30</td>
+      <td>10:58:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>56</th>
+      <td>A1 - Brossard</td>
+      <td>10:55:04</td>
+      <td>10:56:54</td>
+      <td>11:06:30</td>
+      <td>11:08:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>57</th>
+      <td>A1 - Brossard</td>
+      <td>11:05:04</td>
+      <td>11:06:54</td>
+      <td>11:16:30</td>
+      <td>11:18:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>58</th>
+      <td>A1 - Brossard</td>
+      <td>11:15:04</td>
+      <td>11:16:54</td>
+      <td>11:26:30</td>
+      <td>11:28:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>59</th>
+      <td>A1 - Brossard</td>
+      <td>11:25:04</td>
+      <td>11:26:54</td>
+      <td>11:36:30</td>
+      <td>11:38:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>60</th>
+      <td>A1 - Brossard</td>
+      <td>11:35:04</td>
+      <td>11:36:54</td>
+      <td>11:46:30</td>
+      <td>11:48:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>61</th>
+      <td>A1 - Brossard</td>
+      <td>11:45:04</td>
+      <td>11:46:54</td>
+      <td>11:56:30</td>
+      <td>11:58:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>62</th>
+      <td>A1 - Brossard</td>
+      <td>11:55:04</td>
+      <td>11:56:54</td>
+      <td>12:06:30</td>
+      <td>12:08:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>63</th>
+      <td>A1 - Brossard</td>
+      <td>12:05:04</td>
+      <td>12:06:54</td>
+      <td>12:16:30</td>
+      <td>12:18:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>64</th>
+      <td>A1 - Brossard</td>
+      <td>12:15:04</td>
+      <td>12:16:54</td>
+      <td>12:26:30</td>
+      <td>12:28:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>65</th>
+      <td>A1 - Brossard</td>
+      <td>12:25:04</td>
+      <td>12:26:54</td>
+      <td>12:36:30</td>
+      <td>12:38:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>66</th>
+      <td>A1 - Brossard</td>
+      <td>12:35:04</td>
+      <td>12:36:54</td>
+      <td>12:46:30</td>
+      <td>12:48:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>67</th>
+      <td>A1 - Brossard</td>
+      <td>12:45:04</td>
+      <td>12:46:54</td>
+      <td>12:56:30</td>
+      <td>12:58:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>68</th>
+      <td>A1 - Brossard</td>
+      <td>12:55:04</td>
+      <td>12:56:54</td>
+      <td>13:06:30</td>
+      <td>13:08:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>69</th>
+      <td>A1 - Brossard</td>
+      <td>13:05:04</td>
+      <td>13:06:54</td>
+      <td>13:16:30</td>
+      <td>13:18:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>70</th>
+      <td>A1 - Brossard</td>
+      <td>13:15:04</td>
+      <td>13:16:54</td>
+      <td>13:26:30</td>
+      <td>13:28:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>71</th>
+      <td>A1 - Brossard</td>
+      <td>13:25:04</td>
+      <td>13:26:54</td>
+      <td>13:36:30</td>
+      <td>13:38:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>72</th>
+      <td>A1 - Brossard</td>
+      <td>13:35:04</td>
+      <td>13:36:54</td>
+      <td>13:46:30</td>
+      <td>13:48:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>73</th>
+      <td>A1 - Brossard</td>
+      <td>13:45:04</td>
+      <td>13:46:54</td>
+      <td>13:56:30</td>
+      <td>13:58:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>74</th>
+      <td>A1 - Brossard</td>
+      <td>13:55:04</td>
+      <td>13:56:54</td>
+      <td>14:06:30</td>
+      <td>14:08:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>75</th>
+      <td>A1 - Brossard</td>
+      <td>14:05:04</td>
+      <td>14:06:54</td>
+      <td>14:16:30</td>
+      <td>14:18:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>76</th>
+      <td>A1 - Brossard</td>
+      <td>14:15:04</td>
+      <td>14:16:54</td>
+      <td>14:26:30</td>
+      <td>14:28:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>77</th>
+      <td>A1 - Brossard</td>
+      <td>14:25:04</td>
+      <td>14:26:54</td>
+      <td>14:36:30</td>
+      <td>14:38:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>78</th>
+      <td>A1 - Brossard</td>
+      <td>14:35:04</td>
+      <td>14:36:54</td>
+      <td>14:46:30</td>
+      <td>14:48:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>79</th>
+      <td>A1 - Brossard</td>
+      <td>14:45:04</td>
+      <td>14:46:54</td>
+      <td>14:56:30</td>
+      <td>14:58:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>80</th>
+      <td>A1 - Brossard</td>
+      <td>14:55:04</td>
+      <td>14:56:54</td>
+      <td>15:06:30</td>
+      <td>15:08:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>81</th>
+      <td>A1 - Brossard</td>
+      <td>15:05:04</td>
+      <td>15:06:54</td>
+      <td>15:16:30</td>
+      <td>15:18:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>82</th>
+      <td>A1 - Brossard</td>
+      <td>15:15:04</td>
+      <td>15:16:54</td>
+      <td>15:26:30</td>
+      <td>15:28:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>83</th>
+      <td>A1 - Brossard</td>
+      <td>15:22:35</td>
+      <td>15:24:25</td>
+      <td>15:33:54</td>
+      <td>15:35:45</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>84</th>
+      <td>A1 - Brossard</td>
+      <td>15:27:01</td>
+      <td>15:28:51</td>
+      <td>15:38:20</td>
+      <td>15:40:11</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>85</th>
+      <td>A1 - Brossard</td>
+      <td>15:31:27</td>
+      <td>15:33:17</td>
+      <td>15:42:46</td>
+      <td>15:44:37</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>86</th>
+      <td>A1 - Brossard</td>
+      <td>15:35:53</td>
+      <td>15:37:43</td>
+      <td>15:47:12</td>
+      <td>15:49:03</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>87</th>
+      <td>A1 - Brossard</td>
+      <td>15:40:19</td>
+      <td>15:42:09</td>
+      <td>15:51:38</td>
+      <td>15:53:29</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>88</th>
+      <td>A1 - Brossard</td>
+      <td>15:44:45</td>
+      <td>15:46:35</td>
+      <td>15:56:04</td>
+      <td>15:57:55</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>89</th>
+      <td>A1 - Brossard</td>
+      <td>15:49:11</td>
+      <td>15:51:01</td>
+      <td>16:00:30</td>
+      <td>16:02:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>90</th>
+      <td>A1 - Brossard</td>
+      <td>15:53:37</td>
+      <td>15:55:27</td>
+      <td>16:04:56</td>
+      <td>16:06:47</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>91</th>
+      <td>A1 - Brossard</td>
+      <td>15:58:03</td>
+      <td>15:59:53</td>
+      <td>16:09:22</td>
+      <td>16:11:13</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>92</th>
+      <td>A1 - Brossard</td>
+      <td>16:02:29</td>
+      <td>16:04:19</td>
+      <td>16:13:48</td>
+      <td>16:15:39</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>93</th>
+      <td>A1 - Brossard</td>
+      <td>16:06:55</td>
+      <td>16:08:45</td>
+      <td>16:18:14</td>
+      <td>16:20:05</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>94</th>
+      <td>A1 - Brossard</td>
+      <td>16:11:21</td>
+      <td>16:13:11</td>
+      <td>16:22:40</td>
+      <td>16:24:31</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>95</th>
+      <td>A1 - Brossard</td>
+      <td>16:15:47</td>
+      <td>16:17:37</td>
+      <td>16:27:06</td>
+      <td>16:28:57</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>96</th>
+      <td>A1 - Brossard</td>
+      <td>16:20:13</td>
+      <td>16:22:03</td>
+      <td>16:31:32</td>
+      <td>16:33:23</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>97</th>
+      <td>A1 - Brossard</td>
+      <td>16:24:39</td>
+      <td>16:26:29</td>
+      <td>16:35:58</td>
+      <td>16:37:49</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>98</th>
+      <td>A1 - Brossard</td>
+      <td>16:29:05</td>
+      <td>16:30:55</td>
+      <td>16:40:24</td>
+      <td>16:42:15</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>99</th>
+      <td>A1 - Brossard</td>
+      <td>16:33:31</td>
+      <td>16:35:21</td>
+      <td>16:44:50</td>
+      <td>16:46:41</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>100</th>
+      <td>A1 - Brossard</td>
+      <td>16:37:57</td>
+      <td>16:39:47</td>
+      <td>16:49:16</td>
+      <td>16:51:07</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>101</th>
+      <td>A1 - Brossard</td>
+      <td>16:42:23</td>
+      <td>16:44:13</td>
+      <td>16:53:42</td>
+      <td>16:55:33</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>102</th>
+      <td>A1 - Brossard</td>
+      <td>16:46:49</td>
+      <td>16:48:39</td>
+      <td>16:58:08</td>
+      <td>16:59:59</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>103</th>
+      <td>A1 - Brossard</td>
+      <td>16:51:15</td>
+      <td>16:53:05</td>
+      <td>17:02:34</td>
+      <td>17:04:25</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>104</th>
+      <td>A1 - Brossard</td>
+      <td>16:55:41</td>
+      <td>16:57:31</td>
+      <td>17:07:00</td>
+      <td>17:08:51</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>105</th>
+      <td>A1 - Brossard</td>
+      <td>17:00:07</td>
+      <td>17:01:57</td>
+      <td>17:11:26</td>
+      <td>17:13:17</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>106</th>
+      <td>A1 - Brossard</td>
+      <td>17:04:33</td>
+      <td>17:06:23</td>
+      <td>17:15:52</td>
+      <td>17:17:43</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>107</th>
+      <td>A1 - Brossard</td>
+      <td>17:08:59</td>
+      <td>17:10:49</td>
+      <td>17:20:18</td>
+      <td>17:22:09</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>108</th>
+      <td>A1 - Brossard</td>
+      <td>17:13:25</td>
+      <td>17:15:15</td>
+      <td>17:24:44</td>
+      <td>17:26:35</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>109</th>
+      <td>A1 - Brossard</td>
+      <td>17:17:51</td>
+      <td>17:19:41</td>
+      <td>17:29:10</td>
+      <td>17:31:01</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>110</th>
+      <td>A1 - Brossard</td>
+      <td>17:22:17</td>
+      <td>17:24:07</td>
+      <td>17:33:36</td>
+      <td>17:35:27</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>111</th>
+      <td>A1 - Brossard</td>
+      <td>17:26:43</td>
+      <td>17:28:33</td>
+      <td>17:38:02</td>
+      <td>17:39:53</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>112</th>
+      <td>A1 - Brossard</td>
+      <td>17:31:09</td>
+      <td>17:32:59</td>
+      <td>17:42:28</td>
+      <td>17:44:19</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>113</th>
+      <td>A1 - Brossard</td>
+      <td>17:35:35</td>
+      <td>17:37:25</td>
+      <td>17:46:54</td>
+      <td>17:48:45</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>114</th>
+      <td>A1 - Brossard</td>
+      <td>17:40:01</td>
+      <td>17:41:51</td>
+      <td>17:51:20</td>
+      <td>17:53:11</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>115</th>
+      <td>A1 - Brossard</td>
+      <td>17:44:27</td>
+      <td>17:46:17</td>
+      <td>17:55:46</td>
+      <td>17:57:37</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>116</th>
+      <td>A1 - Brossard</td>
+      <td>17:48:53</td>
+      <td>17:50:43</td>
+      <td>18:00:12</td>
+      <td>18:02:03</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>117</th>
+      <td>A1 - Brossard</td>
+      <td>17:53:19</td>
+      <td>17:55:09</td>
+      <td>18:04:38</td>
+      <td>18:06:29</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>118</th>
+      <td>A1 - Brossard</td>
+      <td>17:57:45</td>
+      <td>17:59:35</td>
+      <td>18:09:04</td>
+      <td>18:10:55</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>119</th>
+      <td>A1 - Brossard</td>
+      <td>18:02:11</td>
+      <td>18:04:01</td>
+      <td>18:13:30</td>
+      <td>18:15:21</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>120</th>
+      <td>A1 - Brossard</td>
+      <td>18:06:37</td>
+      <td>18:08:27</td>
+      <td>18:17:56</td>
+      <td>18:19:47</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>121</th>
+      <td>A1 - Brossard</td>
+      <td>18:11:03</td>
+      <td>18:12:53</td>
+      <td>18:22:22</td>
+      <td>18:24:13</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>122</th>
+      <td>A1 - Brossard</td>
+      <td>18:15:58</td>
+      <td>18:17:48</td>
+      <td>18:27:24</td>
+      <td>18:29:15</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>123</th>
+      <td>A1 - Brossard</td>
+      <td>18:22:24</td>
+      <td>18:24:14</td>
+      <td>18:33:50</td>
+      <td>18:35:41</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>124</th>
+      <td>A1 - Brossard</td>
+      <td>18:32:24</td>
+      <td>18:34:14</td>
+      <td>18:43:50</td>
+      <td>18:45:41</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>125</th>
+      <td>A1 - Brossard</td>
+      <td>18:42:24</td>
+      <td>18:44:14</td>
+      <td>18:53:50</td>
+      <td>18:55:41</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>126</th>
+      <td>A1 - Brossard</td>
+      <td>18:52:24</td>
+      <td>18:54:14</td>
+      <td>19:03:50</td>
+      <td>19:05:41</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>127</th>
+      <td>A1 - Brossard</td>
+      <td>19:02:24</td>
+      <td>19:04:14</td>
+      <td>19:13:50</td>
+      <td>19:15:41</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>128</th>
+      <td>A1 - Brossard</td>
+      <td>19:12:24</td>
+      <td>19:14:14</td>
+      <td>19:23:50</td>
+      <td>19:25:41</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>129</th>
+      <td>A1 - Brossard</td>
+      <td>19:22:24</td>
+      <td>19:24:14</td>
+      <td>19:33:50</td>
+      <td>19:35:41</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>130</th>
+      <td>A1 - Brossard</td>
+      <td>19:32:24</td>
+      <td>19:34:14</td>
+      <td>19:43:50</td>
+      <td>19:45:41</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>131</th>
+      <td>A1 - Brossard</td>
+      <td>19:42:24</td>
+      <td>19:44:14</td>
+      <td>19:53:50</td>
+      <td>19:55:41</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>132</th>
+      <td>A1 - Brossard</td>
+      <td>19:52:24</td>
+      <td>19:54:14</td>
+      <td>20:03:50</td>
+      <td>20:05:41</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>133</th>
+      <td>A1 - Brossard</td>
+      <td>20:02:24</td>
+      <td>20:04:14</td>
+      <td>20:13:50</td>
+      <td>20:15:41</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>134</th>
+      <td>A1 - Brossard</td>
+      <td>20:12:24</td>
+      <td>20:14:14</td>
+      <td>20:23:50</td>
+      <td>20:25:41</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>135</th>
+      <td>A1 - Brossard</td>
+      <td>20:22:24</td>
+      <td>20:24:14</td>
+      <td>20:33:50</td>
+      <td>20:35:41</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>136</th>
+      <td>A1 - Brossard</td>
+      <td>20:32:24</td>
+      <td>20:34:14</td>
+      <td>20:43:50</td>
+      <td>20:45:41</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>137</th>
+      <td>A1 - Brossard</td>
+      <td>20:42:24</td>
+      <td>20:44:14</td>
+      <td>20:53:50</td>
+      <td>20:55:41</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>138</th>
+      <td>A1 - Brossard</td>
+      <td>20:52:24</td>
+      <td>20:54:14</td>
+      <td>21:03:50</td>
+      <td>21:05:41</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>139</th>
+      <td>A1 - Brossard</td>
+      <td>21:02:24</td>
+      <td>21:04:14</td>
+      <td>21:13:50</td>
+      <td>21:15:41</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>140</th>
+      <td>A1 - Brossard</td>
+      <td>21:12:24</td>
+      <td>21:14:14</td>
+      <td>21:23:50</td>
+      <td>21:25:41</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>142</th>
+      <td>A1 - Brossard</td>
+      <td>21:22:24</td>
+      <td>21:24:14</td>
+      <td>21:33:50</td>
+      <td>21:35:41</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>144</th>
+      <td>A1 - Brossard</td>
+      <td>21:32:24</td>
+      <td>21:34:14</td>
+      <td>21:43:50</td>
+      <td>21:45:41</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>146</th>
+      <td>A1 - Brossard</td>
+      <td>––</td>
+      <td>21:43:47</td>
+      <td>21:53:23</td>
+      <td>21:55:14</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>147</th>
+      <td>A1 - Brossard</td>
+      <td>––</td>
+      <td>21:53:47</td>
+      <td>22:03:23</td>
+      <td>22:05:14</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>148</th>
+      <td>A1 - Brossard</td>
+      <td>––</td>
+      <td>22:03:47</td>
+      <td>22:13:23</td>
+      <td>22:15:14</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>149</th>
+      <td>A1 - Brossard</td>
+      <td>––</td>
+      <td>22:13:47</td>
+      <td>22:23:23</td>
+      <td>22:25:14</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>150</th>
+      <td>A1 - Brossard</td>
+      <td>––</td>
+      <td>22:23:47</td>
+      <td>22:33:23</td>
+      <td>22:35:14</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>151</th>
+      <td>A1 - Brossard</td>
+      <td>––</td>
+      <td>22:33:47</td>
+      <td>22:43:23</td>
+      <td>22:45:14</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>152</th>
+      <td>A1 - Brossard</td>
+      <td>––</td>
+      <td>22:43:47</td>
+      <td>22:53:23</td>
+      <td>22:55:14</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>153</th>
+      <td>A1 - Brossard</td>
+      <td>––</td>
+      <td>22:53:47</td>
+      <td>23:03:23</td>
+      <td>23:05:14</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>154</th>
+      <td>A1 - Brossard</td>
+      <td>––</td>
+      <td>23:03:47</td>
+      <td>23:13:23</td>
+      <td>23:15:14</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>155</th>
+      <td>A1 - Brossard</td>
+      <td>––</td>
+      <td>23:13:47</td>
+      <td>23:23:23</td>
+      <td>23:25:14</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>156</th>
+      <td>A1 - Brossard</td>
+      <td>––</td>
+      <td>23:23:47</td>
+      <td>23:33:23</td>
+      <td>23:35:14</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>157</th>
+      <td>A1 - Brossard</td>
+      <td>––</td>
+      <td>23:33:47</td>
+      <td>23:43:23</td>
+      <td>23:45:14</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>158</th>
+      <td>A1 - Brossard</td>
+      <td>––</td>
+      <td>23:43:47</td>
+      <td>23:53:23</td>
+      <td>23:55:14</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>159</th>
+      <td>A1 - Brossard</td>
+      <td>––</td>
+      <td>23:53:47</td>
+      <td>24:03:23</td>
+      <td>24:05:14</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>160</th>
+      <td>A1 - Brossard</td>
+      <td>––</td>
+      <td>24:03:47</td>
+      <td>24:13:23</td>
+      <td>24:15:14</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>161</th>
+      <td>A1 - Brossard</td>
+      <td>––</td>
+      <td>24:13:47</td>
+      <td>24:23:23</td>
+      <td>24:25:14</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>162</th>
+      <td>A1 - Brossard</td>
+      <td>––</td>
+      <td>24:23:47</td>
+      <td>24:33:23</td>
+      <td>24:35:14</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>163</th>
+      <td>A1 - Brossard</td>
+      <td>––</td>
+      <td>24:33:47</td>
+      <td>24:43:23</td>
+      <td>24:45:14</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>164</th>
+      <td>A1 - Brossard</td>
+      <td>––</td>
+      <td>24:43:47</td>
+      <td>24:53:23</td>
+      <td>24:55:14</td>
+    </tr>
+    <tr style="text-align: center;">
+      <th>165</th>
+      <td>A1 - Brossard</td>
+      <td>––</td>
+      <td>24:57:48</td>
+      <td>25:07:24</td>
+      <td>25:09:15</td>
+    </tr>
+  </tbody>
+</table>
+  
+</body>
+</html>

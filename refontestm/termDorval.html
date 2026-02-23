@@ -1,0 +1,66 @@
+<h1>Optimisation d'assignation des quais au Terminus Dorval</h1>
+
+<p>Ici, je propose des optimisations d'assignation des quais au Terminus Dorval, 
+  pour régler divers problèmes d'utilisation d'espaces disponibles. J'énumère 
+  les principales problématiques :</p>
+
+<ol>
+  <li>Certains quais sont sur-utilisés, étant partagés par plusieurs lignes, 
+    parfois ayant des destinations différentes, parfois fréquent ;</li>
+  <li>Un quai est présentement vacant ;</li>
+  <li>Quelques parcours ayant des dessertes similaires sont aux côtés 
+    opposés du terminus ;</li>
+  <li>Les quais ne sont pas regroupés selon les secteurs desservis, mais 
+    sont tous éparpillés.</li>
+</ol>
+
+<p>Le plan du terminus, une fois la refonte mise en place, sera suit :</p>
+
+<img src="termdorval2026.png" alt="Assignation actuelle des quais au Terminus 
+  Dorval lors de la mise en service de la refonte de l'ouest" 
+  width="701" height="336">
+
+<p>Selon le plan ci-dessus, voici quelques exemples illustrant mes 
+  observations quant à l'utilisation sous-optimale du terminus :</p>
+
+<ol>
+  <li>Les quais 57538 et 57539 sont partagés par 3 lignes, soit 204, 211 et 411. 
+    Les lignes 211 et 411 seront relativement fréquentes en pointe, en plus 
+    d'être 7 jours.</li>
+  <li>L'arrêt 57506 est partagé entre les lignes 209 (vers YUL) et 496. La ligne 
+    496 est fréquente en pointe et fonctionne 7 jours. Les deux lignes n'ont aucune 
+    desserte en commun.</li>
+  <li>Le quai 57504 est vacant. Il était occupé par les lignes 204 (hors pointe) 
+    et 460.</li>
+  <li>Les lignes 202 Ouest et 209 Nord desservent désormais tous les deux Dawson, 
+    pour un chevauchement d'environ 5 km. Cependant, six autres quais séparent
+    leurs arrêts à Dorval.</li>
+  <li></li>
+</ol>
+
+<p>Brièvement, les lignes à Dorval (ligne de jour seulement) peuvent être 
+  regroupées comme suit:</p>
+
+<ul>
+  <li>Descente seulement : 195-O*, 198-O*, 203-E, 496-O</li>
+  <li>Desserte vers Lachine / LaSalle : 195-E, 198-E, 496-E</li>
+  <li>Desserte vers Dorval Sud : 195-O*, 198-O*, 202-O, 203-O, 204-E, 209-N</li>
+  <li>Desserte au nord de l'Autoroute 20 : 202-E, 209-S</li>
+  <li>Desserte vers l'est via l'Autoroute 20 : 211-E, 411-E</li>
+</ul>
+
+<p>Parmi ces lignes, plusieurs partagent des tronçons en commun : 195-O 
+  [École Dorval-Jean-XXIII], 198-O [École Dorval-Jean-XXIII], 202-O et 209-N (Dawson), 
+  203-O, 204-E et 211-O (Carson), 211-E et 411-E (A-20 vers Lionel-Groulx). On voit 
+  alors qu'il est possible de regrouper les lignes d'un même secteur au même quai. 
+  Le schéma ci-dessous présente l'assignation de quais suggérée :</p>
+
+<img src="termdorvalsugg.png" 
+  alt="Suggestion d'assignation des quais au Terminus Dorval avec explications" 
+  width="668" height="345">
+
+<p>Des attentions particulières ont été apportées pour jumeler seulement les lignes 
+  passantes au même quai : chaque ligne qui effectue un battement (195, 198, 203 et 
+  496) a son propre quai attribué. De plus, considérant la nature du terminus, ces 
+  dernières utilisent la moitié est du terminus pour permettre assez d'espace pour 
+  effectuer les battements.</p>

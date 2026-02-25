@@ -1,46 +1,149 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Leaflet Polyline TEST</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <style>#map { height: 500px; }</style>
+  <meta charset="utf-8" />
+  <title>Leaflet GeoJSON Multi-Layer Example</title>
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet/dist/leaflet.css"
+  />
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <style>
+    #map {
+      height: 100vh;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>TESTTEST</h1>
 
-  <p>Ligne 376 • Pierrefonds / Centre-Ville</p>
-  
-    <div id="map"></div>
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script>
-        // Initialize map
-        const map = L.map('map').setView([45.4854545,-73.726357], 11);
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+<div id="map"></div>
 
-const routesLayer = L.geoJSON(null, { style: routeStyle });
-const busStopsLayer = L.geoJSON(null, { pointToLayer: busStyle });
-const metroLayer = L.geoJSON(null, { pointToLayer: metroStyle });
+<script>
+
+// ---------------- MAP SETUP ----------------
+
+const map = L.map('map').setView([45.5017, -73.5673], 12);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; OpenStreetMap contributors'
+}).addTo(map);
+
+
+// ---------------- STYLE FUNCTIONS ----------------
+
+// Line style (routes)
+function routeStyle(feature) {
+  return {
+    color: feature.properties.color || "#3388ff",
+    weight: 4
+  };
+}
+
+// Bus stops
+function busStopStyle(feature, latlng) {
+  return L.circleMarker(latlng, {
+    radius: 5,
+    fillColor: "blue",
+    color: "white",
+    weight: 1,
+    fillOpacity: 1
+  });
+}
+
+// Metro stations
+function metroStopStyle(feature, latlng) {
+  return L.circleMarker(latlng, {
+    radius: 8,
+    fillColor: "red",
+    color: "black",
+    weight: 2,
+    fillOpacity: 1
+  });
+}
+
+
+// ---------------- EMPTY LAYERS ----------------
+
+const routesLayer = L.geoJSON(null, {
+  style: routeStyle
+});
+
+const busStopsLayer = L.geoJSON(null, {
+  pointToLayer: busStopStyle,
+  onEachFeature: onEachFeature
+});
+
+const metroLayer = L.geoJSON(null, {
+  pointToLayer: metroStopStyle,
+  onEachFeature: onEachFeature
+});
+
+
+// ---------------- POPUPS ----------------
+
+function onEachFeature(feature, layer) {
+  if (feature.properties && feature.properties.name) {
+    layer.bindPopup(feature.properties.name);
+  }
+}
+
+
+// ---------------- LOAD GEOJSON ----------------
 
 fetch("data.geojson")
   .then(res => res.json())
   .then(data => {
 
-    routesLayer.addData(data.features.filter(f => f.properties.type === "route"));
+    const routes = [];
+    const busStops = [];
+    const metroStops = [];
 
-    busStopsLayer.addData(
-      data.features.filter(f => f.properties.stop_type === "bus")
-    );
+    data.features.forEach(f => {
 
-    metroLayer.addData(
-      data.features.filter(f => f.properties.stop_type === "metro")
-    );
+      if (f.geometry.type === "LineString") {
+        routes.push(f);
+      }
+
+      if (f.properties.stop_type === "bus") {
+        busStops.push(f);
+      }
+
+      if (f.properties.stop_type === "metro") {
+        metroStops.push(f);
+      }
+
+    });
+
+    routesLayer.addData(routes);
+    busStopsLayer.addData(busStops);
+    metroLayer.addData(metroStops);
+
+    // Add to map
+    routesLayer.addTo(map);
+    busStopsLayer.addTo(map);
+    metroLayer.addTo(map);
+
+    // Zoom to data
+    map.fitBounds(routesLayer.getBounds());
 
   });
 
-routesLayer.addTo(map);
-busStopsLayer.addTo(map);
-metroLayer.addTo(map);
 
-    </script>
+// ---------------- LAYER CONTROL ----------------
+
+const overlayMaps = {
+  "Routes": routesLayer,
+  "Bus Stops": busStopsLayer,
+  "Metro Stations": metroLayer
+};
+
+L.control.layers(null, overlayMaps).addTo(map);
+
+</script>
+
 </body>
 </html>

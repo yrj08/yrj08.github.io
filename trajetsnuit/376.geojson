@@ -322,7 +322,7 @@
       "type": "Feature",
       "properties": {
         "name": "Gare Sainte-Anne-de-Bellevue (58582)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -336,7 +336,7 @@
       "type": "Feature",
       "properties": {
         "name": "Sainte-Anne / Saint-Charles (58558)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -350,7 +350,7 @@
       "type": "Feature",
       "properties": {
         "name": "Sainte-Anne / de l'Église (58556)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -364,7 +364,7 @@
       "type": "Feature",
       "properties": {
         "name": "Sainte-Anne / du Collège (58593)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -378,7 +378,7 @@
       "type": "Feature",
       "properties": {
         "name": "du Collège / Saint-Jean-Baptiste (62741)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -392,7 +392,7 @@
       "type": "Feature",
       "properties": {
         "name": "des Anciens-Combattants / Pacific (62771)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -406,7 +406,7 @@
       "type": "Feature",
       "properties": {
         "name": "École secondaire Saint-Georges (62743)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -420,7 +420,7 @@
       "type": "Feature",
       "properties": {
         "name": "des Anciens-Combattants / No 555 (62744)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -434,7 +434,7 @@
       "type": "Feature",
       "properties": {
         "name": "Sainte-Marie / des Pins (62533)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -448,7 +448,7 @@
       "type": "Feature",
       "properties": {
         "name": "Zoo Écomuseum (58587)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -462,7 +462,7 @@
       "type": "Feature",
       "properties": {
         "name": "Sainte-Marie / No 21025 (58581)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -476,7 +476,7 @@
       "type": "Feature",
       "properties": {
         "name": "Sainte-Marie / Meloche (58575)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -490,7 +490,7 @@
       "type": "Feature",
       "properties": {
         "name": "Sainte-Marie / Daoust (58573)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -504,7 +504,7 @@
       "type": "Feature",
       "properties": {
         "name": "Sainte-Marie / Morgan (62521)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -518,7 +518,7 @@
       "type": "Feature",
       "properties": {
         "name": "Station Anse-à-l'Orme (62575)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -532,7 +532,7 @@
       "type": "Feature",
       "properties": {
         "name": "Institut national de santé publique (Sainte-Marie (60987)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -546,7 +546,7 @@
       "type": "Feature",
       "properties": {
         "name": "Sainte-Marie / No 19925 (60799)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -560,7 +560,7 @@
       "type": "Feature",
       "properties": {
         "name": "Sainte-Marie / Meaney (58336)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -574,7 +574,7 @@
       "type": "Feature",
       "properties": {
         "name": "Sainte-Marie / Transcanadienne (58387)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -588,7 +588,7 @@
       "type": "Feature",
       "properties": {
         "name": "Sainte-Marie / Transcanadienne (58393)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -602,7 +602,7 @@
       "type": "Feature",
       "properties": {
         "name": "Transcanadienne / Montrose (58392)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -616,7 +616,7 @@
       "type": "Feature",
       "properties": {
         "name": "Transcanadienne / Daniel (58394)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -630,7 +630,7 @@
       "type": "Feature",
       "properties": {
         "name": "Transcanadienne / Mountain View (58395)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -644,7 +644,7 @@
       "type": "Feature",
       "properties": {
         "name": "Brunswick / du Merlot (58349)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -658,7 +658,7 @@
       "type": "Feature",
       "properties": {
         "name": "Brunswick / Dubonnet (58377)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -672,7 +672,7 @@
       "type": "Feature",
       "properties": {
         "name": "Brunswick / Jonquille (58375)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -686,7 +686,7 @@
       "type": "Feature",
       "properties": {
         "name": "Brunswick / Charles E.-Frosst (58373)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -700,7 +700,7 @@
       "type": "Feature",
       "properties": {
         "name": "Brunswick / de Salaberry (58402)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -714,7 +714,7 @@
       "type": "Feature",
       "properties": {
         "name": "Brunswick / du Syrah (58403)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -728,7 +728,7 @@
       "type": "Feature",
       "properties": {
         "name": "Brunswick / Hermitage (57830)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -742,7 +742,7 @@
       "type": "Feature",
       "properties": {
         "name": "Brunswick / Fairview (57813)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -756,7 +756,7 @@
       "type": "Feature",
       "properties": {
         "name": "Brunswick / Auto Plaza (61381)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -770,7 +770,7 @@
       "type": "Feature",
       "properties": {
         "name": "Brunswick / Revcon (57628)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -784,7 +784,7 @@
       "type": "Feature",
       "properties": {
         "name": "Brunswick / Selkirk (57640)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -798,7 +798,7 @@
       "type": "Feature",
       "properties": {
         "name": "Brunswick / Ellingham (57645)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -812,7 +812,7 @@
       "type": "Feature",
       "properties": {
         "name": "Brunswick / No 195 (57775)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -826,7 +826,7 @@
       "type": "Feature",
       "properties": {
         "name": "Brunswick / Hewitt (57776)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -840,7 +840,7 @@
       "type": "Feature",
       "properties": {
         "name": "Tecumseh / Brunswick (57985)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -854,7 +854,7 @@
       "type": "Feature",
       "properties": {
         "name": "Tecumseh / Labrosse (57672)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -868,7 +868,7 @@
       "type": "Feature",
       "properties": {
         "name": "Tecumseh / Thornhill (57892)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -882,7 +882,7 @@
       "type": "Feature",
       "properties": {
         "name": "Tecumseh / de Salaberry (57890)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -896,7 +896,7 @@
       "type": "Feature",
       "properties": {
         "name": "De Salaberry / D'Iberville (57899)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -910,7 +910,7 @@
       "type": "Feature",
       "properties": {
         "name": "de Salaberry / Hôtel-de-Ville (57903)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -924,7 +924,7 @@
       "type": "Feature",
       "properties": {
         "name": "de Salaberry / Hôtel-de-Ville (57941)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -938,7 +938,7 @@
       "type": "Feature",
       "properties": {
         "name": "de Salaberry / Madrid (61136)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -952,7 +952,7 @@
       "type": "Feature",
       "properties": {
         "name": "de Salaberry / des Sources (61137)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -966,7 +966,7 @@
       "type": "Feature",
       "properties": {
         "name": "Davignon / de Salaberry (57943)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -980,7 +980,7 @@
       "type": "Feature",
       "properties": {
         "name": "Davignon / Fountain (57949)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -994,7 +994,7 @@
       "type": "Feature",
       "properties": {
         "name": "Brunswick / Davignon (57952)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -1008,7 +1008,7 @@
       "type": "Feature",
       "properties": {
         "name": "Saint-Régis / Deacon (57532)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -1022,7 +1022,7 @@
       "type": "Feature",
       "properties": {
         "name": "Saint-Régis / No 2000 (57975)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -1036,7 +1036,7 @@
       "type": "Feature",
       "properties": {
         "name": "Saint-Régis / Séville (57376)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -1050,7 +1050,7 @@
       "type": "Feature",
       "properties": {
         "name": "Saint-Régis / No 1604 (57563)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -1064,7 +1064,7 @@
       "type": "Feature",
       "properties": {
         "name": "Saint-Régis / Sunnybrooke (57384)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -1078,7 +1078,7 @@
       "type": "Feature",
       "properties": {
         "name": "Saint-Régis / Chemin McDonald (57405)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -1092,7 +1092,7 @@
       "type": "Feature",
       "properties": {
         "name": "Saint-Régis / No 1055 (57520)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -1106,7 +1106,7 @@
       "type": "Feature",
       "properties": {
         "name": "Transcanadienne / Abrams (55792)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -1120,7 +1120,7 @@
       "type": "Feature",
       "properties": {
         "name": "Transcanadienne / Halpern (55366)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -1134,7 +1134,7 @@
       "type": "Feature",
       "properties": {
         "name": "Transcanadienne Sud / No 9300 (55343)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -1148,7 +1148,7 @@
       "type": "Feature",
       "properties": {
         "name": "Transcanadienne / No 8150 (55889)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -1162,7 +1162,7 @@
       "type": "Feature",
       "properties": {
         "name": "Transcanadienne / McArthur (55452)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -1176,7 +1176,7 @@
       "type": "Feature",
       "properties": {
         "name": "Transcanadienne / Locke (55469)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -1190,7 +1190,7 @@
       "type": "Feature",
       "properties": {
         "name": "Cavendish / Griffith (55553)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -1204,7 +1204,7 @@
       "type": "Feature",
       "properties": {
         "name": "Dalton / Côte-de-Liesse (55621)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -1218,7 +1218,7 @@
       "type": "Feature",
       "properties": {
         "name": "Passerelle Isabey-Darnley (Côte-de-Liesse/Isabey) (56110)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -1232,7 +1232,7 @@
       "type": "Feature",
       "properties": {
         "name": "Côte-de-Liesse / No 5750 (56139)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -1246,7 +1246,7 @@
       "type": "Feature",
       "properties": {
         "name": "Côte-de-Liesse / No 5430 (56120)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -1260,7 +1260,7 @@
       "type": "Feature",
       "properties": {
         "name": "Station Namur (Décarie / Jean-Talon) (50508)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",
@@ -1274,7 +1274,7 @@
       "type": "Feature",
       "properties": {
         "name": "Station Lionel-Groulx (61339)",
-        "type": "east"
+        "stop_type": "east"
       },
       "geometry": {
         "type": "Point",

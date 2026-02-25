@@ -5,16 +5,13 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "route",
-        "route_id": "10",
         "color": "#ff0000"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [-73.57, 45.50],
-          [-73.56, 45.51],
-          [-73.55, 45.52]
+          [-73.56, 45.51]
         ]
       }
     },
@@ -22,9 +19,8 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "stop",
-        "stop_type": "bus",
-        "name": "Stop A"
+        "name": "Bus Stop 1",
+        "stop_type": "bus"
       },
       "geometry": {
         "type": "Point",
@@ -35,9 +31,8 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "stop",
-        "stop_type": "metro",
-        "name": "Station B"
+        "name": "Metro Station",
+        "stop_type": "metro"
       },
       "geometry": {
         "type": "Point",

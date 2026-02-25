@@ -1,25 +1,49 @@
 {
   "type": "FeatureCollection",
   "features": [
+
     {
       "type": "Feature",
-      "properties": {"name": "Route 1"},
+      "properties": {
+        "type": "route",
+        "route_id": "10",
+        "color": "#ff0000"
+      },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [-73.5673, 45.5017],
-          [-73.55, 45.5080],
-          [-73.56, 45.52]
+          [-73.57, 45.50],
+          [-73.56, 45.51],
+          [-73.55, 45.52]
         ]
       }
     },
+
     {
       "type": "Feature",
-      "properties": {"name": "Stop A"},
+      "properties": {
+        "type": "stop",
+        "stop_type": "bus",
+        "name": "Stop A"
+      },
       "geometry": {
         "type": "Point",
-        "coordinates": [-73.5673, 45.5017]
+        "coordinates": [-73.57, 45.50]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "stop",
+        "stop_type": "metro",
+        "name": "Station B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.56, 45.51]
       }
     }
+
   ]
 }

@@ -6,17 +6,12 @@
 
   <h1>376 • Pierrefonds / Centre-Ville</h1>
   
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/leaflet/dist/leaflet.css"
-  />
-
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
   <style>
-    #map {
-      height: 100vh;
-    }
+    #map {height: 100vh;}
+    .control-box {background: white; padding: 6px;}
   </style>
 </head>
 
@@ -31,119 +26,107 @@
 const map = L.map('map').setView([45.5017, -73.5673], 12);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: '&copy; OpenStreetMap contributors'
-}).addTo(map);
+  attribution: '&copy; OpenStreetMap contributors'}).addTo(map);
 
+// ---------------- LAYERS ----------------
 
-// ---------------- STYLE FUNCTIONS ----------------
+const eastLayer = L.layerGroup();
+const westLayer = L.layerGroup();
 
-// Line style (routes)
-function routeStyle(feature) {
-  return {
-    color: feature.properties.color || "#3388ff",
-    weight: 4
-  };
-}
-
-// Eastbound stops
-function eastStopStyle(feature, latlng) {
-  return L.circleMarker(latlng, {
-    radius: 5,
-    fillColor: "white",
-    color: "#000000",
-    weight: 3,
-    fillOpacity: 1
-  });
-}
-
-// Westbound stops
-function westStopStyle(feature, latlng) {
-  return L.circleMarker(latlng, {
-    radius: 5,
-    fillColor: "white",
-    color: "#6f6f6f",
-    weight: 3,
-    fillOpacity: 1
-  });
-}
-
-
-// ---------------- EMPTY LAYERS ----------------
-
-const routesLayer = L.geoJSON(null, {
-  style: routeStyle
-});
-
-const eastStopsLayer = L.geoJSON(null, {
-  pointToLayer: eastStopStyle,
-  onEachFeature: onEachFeature
-});
-
-const westStopsLayer = L.geoJSON(null, {
-  pointToLayer: westStopStyle,
-  onEachFeature: onEachFeature
-});
-
-
-// ---------------- POPUPS ----------------
-
-function onEachFeature(feature, layer) {
-  if (feature.properties && feature.properties.name) {
-    layer.bindPopup(feature.properties.name);
-  }
-}
-
-
-// ---------------- LOAD GEOJSON ----------------
+// ---------------- LOAD DATA ----------------
 
 fetch("376.geojson")
-  .then(res => res.json())
-  .then(data => {
+.then(res => res.json())
+.then(data => {
 
-    const routes = [];
-    const eastStops = [];
-    const westStops = [];
+  data.features.forEach(f => {
 
-    data.features.forEach(f => {
+    let targetLayer;
 
-      if (f.geometry.type === "LineString") {
-        routes.push(f);
-      }
+    if (f.properties.direction === "east") targetLayer = eastLayer;
+    if (f.properties.direction === "west") targetLayer = westLayer;
 
-      if (f.properties.stop_type === "east") {
-        eastStops.push(f);
-      }
+    // LINES
+    if (f.geometry.type === "LineString") {
+      L.geoJSON(f, {
+        style: { color: f.properties.color, weight: 4 }
+      }).addTo(targetLayer);
+    }
 
-      if (f.properties.stop_type === "west") {
-        westStops.push(f);
-      }
-
-    });
-
-    routesLayer.addData(routes);
-    eastStopsLayer.addData(eastStops);
-    westStopsLayer.addData(westStops);
-
-    // Add to map
-    routesLayer.addTo(map);
-    eastStopsLayer.addTo(map);
-    westStopsLayer.addTo(map);
-
-    // Zoom to data
-    map.fitBounds(routesLayer.getBounds());
+    // STOPS
+    if (f.geometry.type === "Point") {
+      L.geoJSON(f, {
+        pointToLayer: (feature, latlng) =>
+          L.circleMarker(latlng, {
+            radius: 4,
+            fillColor: f.properties.direction === "east" ? "blue" : "red",
+            color: "white",
+            weight: 1,
+            fillOpacity: 1
+          }),
+        onEachFeature: (feature, layer) =>
+          layer.bindPopup(feature.properties.name)
+      }).addTo(targetLayer);
+    }
 
   });
 
+  // Default = both
+  eastLayer.addTo(map);
+  westLayer.addTo(map);
 
-// ---------------- LAYER CONTROL ----------------
+  map.fitBounds(L.featureGroup([eastLayer, westLayer]).getBounds());
 
-const overlayMaps = {
-  "Routes": routesLayer,
-  "Eastbound Stops": eastStopsLayer,
-  "Westbound Stops": westStopsLayer
-};
+});
 
-L.control.layers(null, overlayMaps).addTo(map);
+
+// ---------------- CUSTOM CONTROL ----------------
+
+const DirectionControl = L.Control.extend({
+
+  onAdd: function() {
+
+    const div = L.DomUtil.create("div", "control-box");
+
+    div.innerHTML = `
+      <select id="dirSelect">
+        <option value="both">Both</option>
+        <option value="east">Eastbound</option>
+        <option value="west">Westbound</option>
+      </select>
+    `;
+
+    div.firstChild.onmousedown = div.firstChild.ondblclick =
+    L.DomEvent.stopPropagation;
+
+    return div;
+  }
+
+});
+
+map.addControl(new DirectionControl({ position: "topright" }));
+
+
+// ---------------- SWITCH LOGIC ----------------
+
+document.addEventListener("change", function(e) {
+
+  if (e.target.id === "dirSelect") {
+
+    map.removeLayer(eastLayer);
+    map.removeLayer(westLayer);
+
+    if (e.target.value === "east") eastLayer.addTo(map);
+    if (e.target.value === "west") westLayer.addTo(map);
+
+    if (e.target.value === "both") {
+      eastLayer.addTo(map);
+      westLayer.addTo(map);
+    }
+
+  }
+
+});
 
 </script>
 

@@ -311,7 +311,7 @@
                          [45.483109,-73.580642],[45.483316,-73.580336],[45.483558,-73.579915],
                          [45.483725,-73.579634],[45.482994,-73.57918],[45.482625,-73.578975],
                          [45.4824,-73.578827],[45.481678,-73.580049],[45.481985,-73.580468]];
-        const latlon1 = [[45.468605,-73.875874],[45.468771,-73.875633],[45.468878,-73.87548],
+        const latlon2 = [[45.468605,-73.875874],[45.468771,-73.875633],[45.468878,-73.87548],
                          [45.469215,-73.874955],[45.469287,-73.874842],[45.469587,-73.874509],
                          [45.469904,-73.874151],[45.47034,-73.873782],[45.470703,-73.873515],
                          [45.470887,-73.87341],[45.471038,-73.873324],[45.471517,-73.873095],
@@ -450,11 +450,16 @@
                          [45.48924,-73.584268],[45.489336,-73.584388],[45.489993,-73.583655],
                          [45.49007,-73.583556],[45.489561,-73.582736],[45.489502,-73.582831],
                          [45.489309,-73.583068]];
-        const polyline1 = L.polyline(latlon1, {color: 'blue'}).addTo(map);
-        const polyline2 = L.polyline(latlon2, {color: 'grey'}).addTo(map);
-        
-        // Fit map to line bounds
-        map.fitBounds(polyline.getBounds());
+
+        // Create polylines with specific colors
+        var polyline1 = L.polyline(latlon1, {color: 'blue'}).bindPopup("Line 1");
+        var polyline2 = L.polyline(latlon2, {color: 'grey'}).bindPopup("Line 2");
+
+        // Group the polylines and add them to the map
+        var multiLinesLayer = L.layerGroup([polyline1, polyline2]).addTo(map);
+    
+        // Optional: fit map bounds to the polylines
+        map.fitBounds(multiLinesLayer.getBounds());
     </script>
 </body>
 </html>

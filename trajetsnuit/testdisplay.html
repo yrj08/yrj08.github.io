@@ -17,22 +17,29 @@
         const map = L.map('map').setView([45.4854545,-73.726357], 11);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
+const routesLayer = L.geoJSON(null, { style: routeStyle });
+const busStopsLayer = L.geoJSON(null, { pointToLayer: busStyle });
+const metroLayer = L.geoJSON(null, { pointToLayer: metroStyle });
 
-
-fetch("testdata.geojson")
+fetch("data.geojson")
   .then(res => res.json())
   .then(data => {
-    L.geoJSON(data, {
-      pointToLayer: (feature, latlng) =>
-        L.circleMarker(latlng, { radius: 6, fillColor: "red", fillOpacity: 1, color: "#000", weight: 1 }),
 
-      style: {
-        color: "blue",
-        weight: 4
-      }
-    }).addTo(map);
+    routesLayer.addData(data.features.filter(f => f.properties.type === "route"));
+
+    busStopsLayer.addData(
+      data.features.filter(f => f.properties.stop_type === "bus")
+    );
+
+    metroLayer.addData(
+      data.features.filter(f => f.properties.stop_type === "metro")
+    );
+
   });
 
+routesLayer.addTo(map);
+busStopsLayer.addTo(map);
+metroLayer.addTo(map);
 
     </script>
 </body>

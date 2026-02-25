@@ -2,8 +2,10 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>Leaflet GeoJSON Multi-Layer Example</title>
+  <title>Ligne 376 Pierrefonds / Centre-Ville</title>
 
+  <h1>376 • Pierrefonds / Centre-Ville</h1>
+  
   <link
     rel="stylesheet"
     href="https://unpkg.com/leaflet/dist/leaflet.css"
@@ -47,9 +49,9 @@ function routeStyle(feature) {
 function eastStopStyle(feature, latlng) {
   return L.circleMarker(latlng, {
     radius: 5,
-    fillColor: "blue",
-    color: "white",
-    weight: 1,
+    fillColor: "white",
+    color: "#000000",
+    weight: 3,
     fillOpacity: 1
   });
 }
@@ -57,10 +59,10 @@ function eastStopStyle(feature, latlng) {
 // Westbound stops
 function westStopStyle(feature, latlng) {
   return L.circleMarker(latlng, {
-    radius: 8,
-    fillColor: "red",
-    color: "black",
-    weight: 2,
+    radius: 5,
+    fillColor: "white",
+    color: "#6f6f6f",
+    weight: 3,
     fillOpacity: 1
   });
 }

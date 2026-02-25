@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Leaflet GeoJSON Multi-Layer Example</title>
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet/dist/leaflet.css"
+  />
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <style>
+    #map {
+      height: 100vh;
+    }
+  </style>
+</head>
+
+<body>
+
+<div id="map"></div>
+
+<script>
+
+// ---------------- MAP SETUP ----------------
+
+const map = L.map('map').setView([45.5017, -73.5673], 12);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; OpenStreetMap contributors'
+}).addTo(map);
+
+
+// ---------------- STYLE FUNCTIONS ----------------
+
+// Line style (routes)
+function routeStyle(feature) {
+  return {
+    color: feature.properties.color || "#3388ff",
+    weight: 4
+  };
+}
+
+// Eastbound stops
+function eastStopStyle(feature, latlng) {
+  return L.circleMarker(latlng, {
+    radius: 5,
+    fillColor: "blue",
+    color: "white",
+    weight: 1,
+    fillOpacity: 1
+  });
+}
+
+// Westbound stops
+function westStopStyle(feature, latlng) {
+  return L.circleMarker(latlng, {
+    radius: 8,
+    fillColor: "red",
+    color: "black",
+    weight: 2,
+    fillOpacity: 1
+  });
+}
+
+
+// ---------------- EMPTY LAYERS ----------------
+
+const routesLayer = L.geoJSON(null, {
+  style: routeStyle
+});
+
+const eastStopsLayer = L.geoJSON(null, {
+  pointToLayer: eastStopStyle,
+  onEachFeature: onEachFeature
+});
+
+const westStopsLayer = L.geoJSON(null, {
+  pointToLayer: westStopStyle,
+  onEachFeature: onEachFeature
+});
+
+
+// ---------------- POPUPS ----------------
+
+function onEachFeature(feature, layer) {
+  if (feature.properties && feature.properties.name) {
+    layer.bindPopup(feature.properties.name);
+  }
+}
+
+
+// ---------------- LOAD GEOJSON ----------------
+
+fetch("376.geojson")
+  .then(res => res.json())
+  .then(data => {
+
+    const routes = [];
+    const eastStops = [];
+    const westStops = [];
+
+    data.features.forEach(f => {
+
+      if (f.geometry.type === "LineString") {
+        routes.push(f);
+      }
+
+      if (f.properties.stop_type === "east") {
+        eastStops.push(f);
+      }
+
+      if (f.properties.stop_type === "west") {
+        westStops.push(f);
+      }
+
+    });
+
+    routesLayer.addData(routes);
+    eastStopsLayer.addData(eastStops);
+    westStopsLayer.addData(westStops);
+
+    // Add to map
+    routesLayer.addTo(map);
+    eastStopsLayer.addTo(map);
+    westStopsLayer.addTo(map);
+
+    // Zoom to data
+    map.fitBounds(routesLayer.getBounds());
+
+  });
+
+
+// ---------------- LAYER CONTROL ----------------
+
+const overlayMaps = {
+  "Routes": routesLayer,
+  "Eastbound Stops": eastStopsLayer,
+  "Westbound Stops": westStopsLayer
+};
+
+L.control.layers(null, overlayMaps).addTo(map);
+
+</script>
+
+</body>
+</html>

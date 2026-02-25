@@ -1,0 +1,25 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"name": "Route 1"},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.5673, 45.5017],
+          [-73.55, 45.5080],
+          [-73.56, 45.52]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Stop A"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.5673, 45.5017]
+      }
+    }
+  ]
+}

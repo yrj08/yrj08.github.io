@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Leaflet Direction Toggle + Auto Zoom</title>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<style>
+#map { height: 100vh; }
+
+.control-box {
+  background: white;
+  padding: 6px;
+  font-family: sans-serif;
+}
+</style>
+</head>
+
+<body>
+
+<div id="map"></div>
+
+<script>
+
+// ---------------- CREATE MAP (NO setView!) ----------------
+
+const map = L.map('map');
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; OpenStreetMap contributors'
+}).addTo(map);
+
+
+// ---------------- LAYERS ----------------
+
+const eastLayer = L.layerGroup();
+const westLayer = L.layerGroup();
+
+
+// ---------------- LOAD GEOJSON ----------------
+
+fetch("376.geojson")
+.then(res => res.json())
+.then(data => {
+
+  data.features.forEach(f => {
+
+    let targetLayer = null;
+
+    if (f.properties.direction === "east") targetLayer = eastLayer;
+    if (f.properties.direction === "west") targetLayer = westLayer;
+
+    if (!targetLayer) return;
+
+    // ----- LINESTRINGS -----
+    if (f.geometry.type === "LineString" || f.geometry.type === "MultiLineString") {
+
+      L.geoJSON(f, {
+        style: {
+          color: f.properties.color || "#3388ff",
+          weight: 4
+        }
+      }).addTo(targetLayer);
+
+    }
+
+    // ----- STOPS -----
+    if (f.geometry.type === "Point") {
+
+      L.geoJSON(f, {
+        pointToLayer: (feature, latlng) =>
+          L.circleMarker(latlng, {
+            radius: 6,
+            fillColor: f.properties.direction === "east" ? "blue" : "red",
+            color: "white",
+            weight: 1,
+            fillOpacity: 1
+          }),
+        onEachFeature: (feature, layer) => {
+          if (feature.properties.name) {
+            layer.bindPopup(feature.properties.name);
+          }
+        }
+      }).addTo(targetLayer);
+
+    }
+
+  });
+
+  // Add both by default
+  eastLayer.addTo(map);
+  westLayer.addTo(map);
+
+  zoomToVisibleLayers();
+
+});
+
+
+// ---------------- ZOOM FUNCTION ----------------
+
+function zoomToVisibleLayers() {
+
+  const visible = [];
+
+  if (map.hasLayer(eastLayer) && eastLayer.getLayers().length) {
+    visible.push(eastLayer);
+  }
+
+  if (map.hasLayer(westLayer) && westLayer.getLayers().length) {
+    visible.push(westLayer);
+  }
+
+  if (visible.length === 0) return;
+
+  const bounds = L.featureGroup(visible).getBounds();
+
+  if (bounds.isValid()) {
+    map.fitBounds(bounds, {
+      padding: [20, 20],
+      animate: true,
+      duration: 0.8
+    });
+  }
+
+}
+
+
+// ---------------- CUSTOM DROPDOWN ----------------
+
+const DirectionControl = L.Control.extend({
+
+  onAdd: function() {
+
+    const div = L.DomUtil.create("div", "control-box");
+
+    div.innerHTML = `
+      <select id="dirSelect">
+        <option value="both">Both directions</option>
+        <option value="east">Eastbound only</option>
+        <option value="west">Westbound only</option>
+      </select>
+    `;
+
+    L.DomEvent.disableClickPropagation(div);
+
+    return div;
+  }
+
+});
+
+map.addControl(new DirectionControl({ position: "topright" }));
+
+
+// ---------------- SWITCH LOGIC ----------------
+
+document.addEventListener("change", function(e) {
+
+  if (e.target.id === "dirSelect") {
+
+    map.removeLayer(eastLayer);
+    map.removeLayer(westLayer);
+
+    if (e.target.value === "east") eastLayer.addTo(map);
+    if (e.target.value === "west") westLayer.addTo(map);
+
+    if (e.target.value === "both") {
+      eastLayer.addTo(map);
+      westLayer.addTo(map);
+    }
+
+    zoomToVisibleLayers();
+  }
+
+});
+
+</script>
+
+</body>
+</html>

@@ -4,17 +4,11 @@
   <meta charset="utf-8" />
   <title>Leaflet GeoJSON Multi-Layer Example</title>
 
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/leaflet/dist/leaflet.css"
-  />
-
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
   <style>
-    #map {
-      height: 100vh;
-    }
+    #map {height: 100vh;}
   </style>
 </head>
 
@@ -43,42 +37,46 @@ function routeStyle(feature) {
   };
 }
 
-// Bus stops
-function busStopStyle(feature, latlng) {
+// Outbound stops
+function outboundStopStyle(feature, latlng) {
   return L.circleMarker(latlng, {
     radius: 5,
-    fillColor: "blue",
+    fillColor: "#000000",
     color: "white",
-    weight: 1,
+    weight: 3,
     fillOpacity: 1
   });
 }
 
-// Metro stations
-function metroStopStyle(feature, latlng) {
+// Inbound stops
+function inboundStopStyle(feature, latlng) {
   return L.circleMarker(latlng, {
-    radius: 8,
-    fillColor: "red",
-    color: "black",
-    weight: 2,
+    radius: 5,
+    fillColor: "#6f6f6f",
+    color: "white",
+    weight: 3,
     fillOpacity: 1
   });
 }
 
+function onEachFeature(feature, layer) {
+  if (feature.properties && feature.properties.name) {
+    layer.bindPopup(feature.properties.name);
+  }
+}
 
 // ---------------- EMPTY LAYERS ----------------
 
-const routesLayer = L.geoJSON(null, {
-  style: routeStyle
-});
+const outboundShapeLayer = L.geoJSON(null, { style: routeStyle });
+const inboundShapeLayer  = L.geoJSON(null, { style: routeStyle });
 
-const busStopsLayer = L.geoJSON(null, {
-  pointToLayer: busStopStyle,
+const outboundStopsLayer = L.geoJSON(null, {
+  pointToLayer: outboundStopStyle,
   onEachFeature: onEachFeature
 });
 
-const metroLayer = L.geoJSON(null, {
-  pointToLayer: metroStopStyle,
+const inboundStopsLayer = L.geoJSON(null, {
+  pointToLayer: inboundStopStyle,
   onEachFeature: onEachFeature
 });
 
@@ -98,31 +96,39 @@ fetch("376.geojson")
   .then(res => res.json())
   .then(data => {
 
-    const routes = [];
-    const busStops = [];
-    const metroStops = [];
+    const outboundShapes = [];
+    const inboundShapes = [];
+    const outboundStops = [];
+    const inboundStops = [];
 
     data.features.forEach(f => {
 
       if (f.geometry.type === "LineString") {
-        routes.push(f);
+
+        if (f.properties.direction === "outbound") {
+          outboundShapes.push(f);}
+  
+        if (f.properties.direction === "inbound") {
+          inboundShapes.push(f);}
       }
 
-      if (f.properties.stop_type === "east") {
-        busStops.push(f);
-      }
+    if (f.geometry.type === "Point") {
 
-      if (f.properties.stop_type === "west") {
-        metroStops.push(f);
-      }
+      if (f.properties.stop_type === "outbound") {
+        outboundStops.push(f);}
 
-    });
+      if (f.properties.stop_type === "inbound") {
+        inboundStops.push(f);}
+    }
 
-    routesLayer.addData(routes);
-    busStopsLayer.addData(busStops);
-    metroLayer.addData(metroStops);
+  });
 
-    // Add to map
+    outboundShapeLayer.addData(outboundShapes).addTo(map);
+    inboundShapeLayer.addData(inboundShapes).addTo(map);
+    outboundStopsLayer.addData(outboundStops).addTo(map);
+    inboundStopsLayer.addData(inboundStops).addTo(map);
+
+<!--    // Add to map
     routesLayer.addTo(map);
     busStopsLayer.addTo(map);
     metroLayer.addTo(map);
@@ -130,18 +136,30 @@ fetch("376.geojson")
     // Zoom to data
     map.fitBounds(routesLayer.getBounds());
 
+  });-->
+
+    // ✅ AUTO ZOOM (same logic as your working version)
+    const bounds = L.featureGroup([
+      outboundShapeLayer,
+      inboundShapeLayer
+    ]).getBounds();
+  
+    map.fitBounds(bounds);
+  
   });
+
 
 
 // ---------------- LAYER CONTROL ----------------
 
 const overlayMaps = {
-  "Routes": routesLayer,
-  "Bus Stops": busStopsLayer,
-  "Metro Stations": metroLayer
+  "Outbound shape": outboundShapeLayer
+  "Inbound Shape": inboundShapeLayer,
+  "Outbound Stops": outboundStopsLayer,
+  "INbound Staos": inboundStopsLayer
 };
 
-L.control.layers(null, overlayMaps).addTo(map);
+L.control.layers(null, overlays, { collapsed: false }).addTo(map);
 
 </script>
 

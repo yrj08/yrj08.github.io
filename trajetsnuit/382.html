@@ -1,179 +1,172 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8" />
-<title>Leaflet Direction Toggle + Auto Zoom</title>
+  <meta charset="utf-8" />
+  <title>Ligne 382</title>
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet/dist/leaflet.css"
+  />
 
-<style>
-#map { height: 100vh; }
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
-.control-box {
-  background: white;
-  padding: 6px;
-  font-family: sans-serif;
-}
-</style>
+  <style>
+    #map {
+      height: 100vh;
+    }
+  </style>
 </head>
 
 <body>
-
+<h1>Ligne 382 • Pierrefonds / Saint-Charles</h1>
+  
 <div id="map"></div>
 
 <script>
 
-// ---------------- CREATE MAP (NO setView!) ----------------
+// ---------------- MAP SETUP ----------------
 
-const map = L.map('map');
+const map = L.map('map').setView([45.5017, -73.5673], 12);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
 
 
-// ---------------- LAYERS ----------------
+// ---------------- STYLE FUNCTIONS ----------------
 
-const eastLayer = L.layerGroup();
-const westLayer = L.layerGroup();
+// Outbound line style
+function outboundrouteStyle(feature) {
+  return {
+    color: feature.properties.color || "#000000",
+    weight: 4
+  };
+}
+
+// Inbound line style
+function inboundrouteStyle(feature) {
+  return {
+    color: feature.properties.color || "#6f6f6f",
+    weight: 4
+  };
+}
+
+// Outbound stops
+function outboundStopStyle(feature, latlng) {
+  return L.circleMarker(latlng, {
+    radius: 4,
+    fillColor: "white",
+    color: "#000000",
+    weight: 3,
+    fillOpacity: 1
+  });
+}
+
+// Inbound stops
+function inboundStopStyle(feature, latlng) {
+  return L.circleMarker(latlng, {
+    radius: 4,
+    fillColor: "white",
+    color: "#6f6f6f",
+    weight: 3,
+    fillOpacity: 1
+  });
+}
+
+
+// ---------------- EMPTY LAYERS ----------------
+
+const outboundroutesLayer = L.geoJSON(null, {
+  style: outboundrouteStyle
+});
+
+const inboundroutesLayer = L.geoJSON(null, {
+  style: inboundrouteStyle
+});
+
+const outboundStopsLayer = L.geoJSON(null, {
+  pointToLayer: outboundStopStyle,
+  onEachFeature: onEachFeature
+});
+
+const inboundStopsLayer = L.geoJSON(null, {
+  pointToLayer: inboundStopStyle,
+  onEachFeature: onEachFeature
+});
+
+
+// ---------------- POPUPS ----------------
+
+function onEachFeature(feature, layer) {
+  if (feature.properties && feature.properties.name) {
+    layer.bindPopup(feature.properties.name);
+  }
+}
 
 
 // ---------------- LOAD GEOJSON ----------------
 
-fetch("376.geojson")
-.then(res => res.json())
-.then(data => {
+fetch("382.geojson")
+  .then(res => res.json())
+  .then(data => {
 
-  data.features.forEach(f => {
+    const outboundroutes = [];
+    const inboundroutes = [];
+    const outboundStops = [];
+    const inboundStops = [];
 
-    let targetLayer = null;
+    data.features.forEach(f => {
 
-    if (f.properties.direction === "east") targetLayer = eastLayer;
-    if (f.properties.direction === "west") targetLayer = westLayer;
-
-    if (!targetLayer) return;
-
-    // ----- LINESTRINGS -----
-    if (f.geometry.type === "LineString" || f.geometry.type === "MultiLineString") {
-
-      L.geoJSON(f, {
-        style: {
-          color: f.properties.color || "#3388ff",
-          weight: 4
+      if (f.geometry.type === "LineString") {
+        if (f.properties.direction === "outbound") {
+          outboundroutes.push(f);
         }
-      }).addTo(targetLayer);
 
-    }
-
-    // ----- STOPS -----
-    if (f.geometry.type === "Point") {
-
-      L.geoJSON(f, {
-        pointToLayer: (feature, latlng) =>
-          L.circleMarker(latlng, {
-            radius: 6,
-            fillColor: f.properties.direction === "east" ? "blue" : "red",
-            color: "white",
-            weight: 1,
-            fillOpacity: 1
-          }),
-        onEachFeature: (feature, layer) => {
-          if (feature.properties.name) {
-            layer.bindPopup(feature.properties.name);
-          }
+        if (f.properties.direction === "inbound") {
+          inboundroutes.push(f);
         }
-      }).addTo(targetLayer);
+      }
 
-    }
+      if (f.geometry.type === "Point") {
+        if (f.properties.direction === "outbound") {
+          outboundStops.push(f);
+        }
+
+        if (f.properties.direction === "inbound") {
+          inboundStops.push(f);
+        }
+      }
+
+    });
+
+    outboundroutesLayer.addData(outboundroutes);
+    inboundroutesLayer.addData(inboundroutes);
+    outboundStopsLayer.addData(outboundStops);
+    inboundStopsLayer.addData(inboundStops);
+
+    // Add to map
+    outboundroutesLayer.addTo(map);
+    inboundroutesLayer.addTo(map);
+    outboundStopsLayer.addTo(map);
+    inboundStopsLayer.addTo(map);
+
+    // Zoom to data
+    map.fitBounds(outboundroutesLayer.getBounds());
 
   });
 
-  // Add both by default
-  eastLayer.addTo(map);
-  westLayer.addTo(map);
 
-  zoomToVisibleLayers();
+// ---------------- LAYER CONTROL ----------------
 
-});
+const overlayMaps = {
+  "Tracé direction est": outboundroutesLayer,
+  "Tracé direction ouest": inboundroutesLayer,
+  "Arrêts direction est": outboundStopsLayer,
+  "Arrêts direction ouest": inboundStopsLayer
+};
 
-
-// ---------------- ZOOM FUNCTION ----------------
-
-function zoomToVisibleLayers() {
-
-  const visible = [];
-
-  if (map.hasLayer(eastLayer) && eastLayer.getLayers().length) {
-    visible.push(eastLayer);
-  }
-
-  if (map.hasLayer(westLayer) && westLayer.getLayers().length) {
-    visible.push(westLayer);
-  }
-
-  if (visible.length === 0) return;
-
-  const bounds = L.featureGroup(visible).getBounds();
-
-  if (bounds.isValid()) {
-    map.fitBounds(bounds, {
-      padding: [20, 20],
-      animate: true,
-      duration: 0.8
-    });
-  }
-
-}
-
-
-// ---------------- CUSTOM DROPDOWN ----------------
-
-const DirectionControl = L.Control.extend({
-
-  onAdd: function() {
-
-    const div = L.DomUtil.create("div", "control-box");
-
-    div.innerHTML = `
-      <select id="dirSelect">
-        <option value="both">Both directions</option>
-        <option value="east">Eastbound only</option>
-        <option value="west">Westbound only</option>
-      </select>
-    `;
-
-    L.DomEvent.disableClickPropagation(div);
-
-    return div;
-  }
-
-});
-
-map.addControl(new DirectionControl({ position: "topright" }));
-
-
-// ---------------- SWITCH LOGIC ----------------
-
-document.addEventListener("change", function(e) {
-
-  if (e.target.id === "dirSelect") {
-
-    map.removeLayer(eastLayer);
-    map.removeLayer(westLayer);
-
-    if (e.target.value === "east") eastLayer.addTo(map);
-    if (e.target.value === "west") westLayer.addTo(map);
-
-    if (e.target.value === "both") {
-      eastLayer.addTo(map);
-      westLayer.addTo(map);
-    }
-
-    zoomToVisibleLayers();
-  }
-
-});
+L.control.layers(null, overlayMaps).addTo(map);
 
 </script>
 

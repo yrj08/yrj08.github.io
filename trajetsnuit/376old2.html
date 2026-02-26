@@ -1,37 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8" />
-  <title>Ligne 376 Pierrefonds / Centre-Ville</title>
+<meta charset="utf-8" />
+<title>Ligne 376</title>
 
-  <h1>376 • Pierrefonds / Centre-Ville</h1>
-  
-  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
-  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
-  <style>
-    #map {height: 100vh;}
-    .control-box {background: white; padding: 6px;}
-  </style>
+<style>
+#map { height: 100vh; }
+
+.control-box {
+  background: white;
+  padding: 6px;
+}
+</style>
 </head>
 
 <body>
-
+<h1>Ligne 376 • Pierrefonds / Centre-Ville</h1>
 <div id="map"></div>
 
 <script>
 
-// ---------------- MAP SETUP ----------------
+// ---------------- MAP ----------------
 
-const map = L.map('map').setView([45.5017, -73.5673], 12);
+const map = L.map('map').setView([45.510575, -73.679061], 12);
 
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: '&copy; OpenStreetMap contributors'}).addTo(map);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+
 
 // ---------------- LAYERS ----------------
 
 const eastLayer = L.layerGroup();
 const westLayer = L.layerGroup();
+
 
 // ---------------- LOAD DATA ----------------
 
@@ -58,8 +61,8 @@ fetch("376.geojson")
       L.geoJSON(f, {
         pointToLayer: (feature, latlng) =>
           L.circleMarker(latlng, {
-            radius: 4,
-            fillColor: f.properties.direction === "east" ? "#000000" : "#6f6f6f",
+            radius: 6,
+            fillColor: f.properties.direction === "east" ? "black" : "#6f6f6f",
             color: "white",
             weight: 1,
             fillOpacity: 1
@@ -75,7 +78,8 @@ fetch("376.geojson")
   eastLayer.addTo(map);
   westLayer.addTo(map);
 
-  map.fitBounds(L.featureGroup([eastLayer, westLayer]).getBounds());
+  const allLayers = L.featureGroup([eastLayer, westLayer]);
+  map.fitBounds(allLayers.getBounds());
 
 });
 
@@ -90,9 +94,9 @@ const DirectionControl = L.Control.extend({
 
     div.innerHTML = `
       <select id="dirSelect">
-        <option value="both">Both</option>
-        <option value="east">Eastbound</option>
-        <option value="west">Westbound</option>
+        <option value="both">Toutes les directions</option>
+        <option value="east">Est</option>
+        <option value="west">Ouest</option>
       </select>
     `;
 
@@ -104,8 +108,7 @@ const DirectionControl = L.Control.extend({
 
 });
 
-map.fitBounds(routesLayer.getBounds());
-<!-- map.addControl(new DirectionControl({ position: "topright" })); -->
+map.addControl(new DirectionControl({ position: "topright" }));
 
 
 // ---------------- SWITCH LOGIC ----------------

@@ -127,12 +127,14 @@ fetch("380.geojson")
         }
       }
 
-      if (f.properties.direction === "outbound") {
-        outboundStops.push(f);
-      }
+      if (f.geometry.type === "Point") {
+        if (f.properties.direction === "outbound") {
+          outboundStops.push(f);
+        }
 
-      if (f.properties.direction === "inbound") {
-        inboundStops.push(f);
+        if (f.properties.direction === "inbound") {
+          inboundStops.push(f);
+        }
       }
 
     });

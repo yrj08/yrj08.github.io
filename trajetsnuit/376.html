@@ -78,7 +78,8 @@ fetch("376.geojson")
   eastLayer.addTo(map);
   westLayer.addTo(map);
 
-  map.fitBounds(L.featureGroup([eastLayer, westLayer]).getBounds());
+  const allLayers = L.featureGroup([eastLayer, westLayer]);
+  map.fitBounds(allLayers.getBounds());
 
 });
 

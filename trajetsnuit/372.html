@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Ligne 372</title>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="routeMap.js"></script>
+
+<style>
+#map { height: 100vh; }
+</style>
+</head>
+
+<body>
+<h1>Ligne 372 • Jean-Talon</h1>
+<div id="map"></div>
+
+<script>
+createRouteMap({
+  geojsonFile: "372.geojson",
+  outboundRouteLabel: "Tracé direction est",
+  inboundRouteLabel: "Tracé direction ouest",
+  outboundStopsLabel: "Arrêts direction est",
+  inboundStopsLabel: "Arrêts direction ouest"
+});
+</script>
+
+</body>
+</html>

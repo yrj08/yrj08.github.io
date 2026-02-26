@@ -59,7 +59,7 @@ fetch("376.geojson")
         pointToLayer: (feature, latlng) =>
           L.circleMarker(latlng, {
             radius: 4,
-            fillColor: f.properties.direction === "east" ? "blue" : "red",
+            fillColor: f.properties.direction === "east" ? "#000000" : "#6f6f6f",
             color: "white",
             weight: 1,
             fillOpacity: 1

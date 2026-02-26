@@ -1,0 +1,46 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+
+    {
+      "type": "Feature",
+      "properties": {
+        "direction": "outbound",
+        "color": "#000000"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "direction": "inbound",
+        "color": "#6f6f6f"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cavendish / Côte-de-Liesse (55600)",
+        "direction": "east"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.688077,45.487588]
+      }
+    },
+
+
+
+
+
+  ]
+}

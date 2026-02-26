@@ -104,7 +104,8 @@ const DirectionControl = L.Control.extend({
 
 });
 
-map.addControl(new DirectionControl({ position: "topright" }));
+map.fitBounds(routesLayer.getBounds());
+<!-- map.addControl(new DirectionControl({ position: "topright" })); -->
 
 
 // ---------------- SWITCH LOGIC ----------------

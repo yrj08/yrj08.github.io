@@ -321,6 +321,17 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Cavendish / Côte-de-Liesse (55600)",
+        "direction": "east"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.688077,45.487588]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Gare Sainte-Anne-de-Bellevue (58582)",
         "direction": "west"
       },

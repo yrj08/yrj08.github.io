@@ -108,11 +108,11 @@ fetch("380.geojson")
         routes.push(f);
       }
 
-      if (f.properties.stop_type === "outbound") {
+      if (f.properties.direction === "outbound") {
         busStops.push(f);
       }
 
-      if (f.properties.stop_type === "inbound") {
+      if (f.properties.direction === "inbound") {
         metroStops.push(f);
       }
 

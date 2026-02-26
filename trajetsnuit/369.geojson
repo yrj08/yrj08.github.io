@@ -301,7 +301,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "de la Côte-des-Neiges / Sherbrooke (52113)",
+        "name": "Côte-des-Neiges / Sherbrooke (52113)",
         "direction": "outbound"
       },
       "geometry": {
@@ -315,7 +315,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "des Pins / de la Côte-des-Neiges (53761)",
+        "name": "des Pins / Côte-des-Neiges (53761)",
         "direction": "outbound"
       },
       "geometry": {
@@ -329,7 +329,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "de la Côte-des-Neiges / Cedar (51840)",
+        "name": "Côte-des-Neiges / Cedar (51840)",
         "direction": "outbound"
       },
       "geometry": {
@@ -343,7 +343,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "de la Côte-des-Neiges / The Boulevard (51732)",
+        "name": "Côte-des-Neiges / The Boulevard (51732)",
         "direction": "outbound"
       },
       "geometry": {
@@ -357,7 +357,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "de la Côte-des-Neiges / Blueridge (51626)",
+        "name": "Côte-des-Neiges / Blueridge (51626)",
         "direction": "outbound"
       },
       "geometry": {
@@ -371,21 +371,21 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "de la Côte-des-Neiges / Remembrance (62119)",
+        "name": "Côte-des-Neiges / Remembrance (62119)",
         "direction": "outbound"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.60472,
-          45.495237
+          -73.604538,
+          45.495079
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "de la Côte-des-Neiges / Forest Hill (51486)",
+        "name": "Côte-des-Neiges / Forest Hill (51486)",
         "direction": "outbound"
       },
       "geometry": {
@@ -399,7 +399,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "de la Côte-des-Neiges / Ridgewood (51426)",
+        "name": "Côte-des-Neiges / Ridgewood (51426)",
         "direction": "outbound"
       },
       "geometry": {
@@ -413,7 +413,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "de la Côte-des-Neiges / Decelles (51321)",
+        "name": "Côte-des-Neiges / Decelles (51321)",
         "direction": "outbound"
       },
       "geometry": {
@@ -427,7 +427,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "de la Côte-des-Neiges / Queen-Mary (51251)",
+        "name": "Côte-des-Neiges / Queen-Mary (51251)",
         "direction": "outbound"
       },
       "geometry": {
@@ -455,7 +455,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "de la Côte-des-Neiges / Côte-Sainte-Catherine (51045)",
+        "name": "Côte-des-Neiges / Côte-Sainte-Catherine (51045)",
         "direction": "outbound"
       },
       "geometry": {
@@ -469,7 +469,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "de la Côte-des-Neiges / De La Peltrie (53864)",
+        "name": "Côte-des-Neiges / De La Peltrie (53864)",
         "direction": "outbound"
       },
       "geometry": {
@@ -483,7 +483,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "de la Côte-des-Neiges / Van Horne (50940)",
+        "name": "Côte-des-Neiges / Van Horne (50940)",
         "direction": "outbound"
       },
       "geometry": {
@@ -623,7 +623,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Station De la Savane (Décarie / de Sorel) (50377)",
+        "name": "Station De la Savane (Décarie / De Sorel) (50377)",
         "direction": "outbound"
       },
       "geometry": {
@@ -1029,7 +1029,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "de la Côte-des-Neiges / Van Horne (50942)",
+        "name": "Côte-des-Neiges / Van Horne (50942)",
         "direction": "inbound"
       },
       "geometry": {
@@ -1043,7 +1043,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "de la Côte-des-Neiges / De La Peltrie (53865)",
+        "name": "Côte-des-Neiges / De La Peltrie (53865)",
         "direction": "inbound"
       },
       "geometry": {
@@ -1057,7 +1057,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "de la Côte-des-Neiges / Queen-Mary (51253)",
+        "name": "Côte-des-Neiges / Queen-Mary (51253)",
         "direction": "inbound"
       },
       "geometry": {
@@ -1071,7 +1071,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "de la Côte-des-Neiges / No 4858 (51391)",
+        "name": "Côte-des-Neiges / No 4858 (51391)",
         "direction": "inbound"
       },
       "geometry": {
@@ -1085,7 +1085,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "de la Côte-des-Neiges / Ridgewood (51427)",
+        "name": "Côte-des-Neiges / Ridgewood (51427)",
         "direction": "inbound"
       },
       "geometry": {
@@ -1099,7 +1099,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "de la Côte-des-Neiges / Forest Hill (51487)",
+        "name": "Côte-des-Neiges / Forest Hill (51487)",
         "direction": "inbound"
       },
       "geometry": {
@@ -1113,21 +1113,21 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "de la Côte-des-Neiges / Remembrance (51546)",
+        "name": "Côte-des-Neiges / Remembrance (51546)",
         "direction": "inbound"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.605299,
-          45.494966
+          -73.6055216,
+          45.4949485
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "de la Côte-des-Neiges / Blueridge (51627)",
+        "name": "Côte-des-Neiges / Blueridge (51627)",
         "direction": "inbound"
       },
       "geometry": {
@@ -1155,7 +1155,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "de la Côte-des-Neiges / Cedar (51841)",
+        "name": "Côte-des-Neiges / Cedar (51841)",
         "direction": "inbound"
       },
       "geometry": {
@@ -1169,7 +1169,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "du Docteur-Penfield / de la Côte-des-Neiges (51985)",
+        "name": "du Docteur-Penfield / Côte-des-Neiges (51985)",
         "direction": "inbound"
       },
       "geometry": {

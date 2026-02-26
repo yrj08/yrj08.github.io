@@ -35,7 +35,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // ---------------- STYLE FUNCTIONS ----------------
 
-// Line style (routes)
+// Outbound line style
 function outboundrouteStyle(feature) {
   return {
     color: feature.properties.color || "#000000",
@@ -43,7 +43,7 @@ function outboundrouteStyle(feature) {
   };
 }
 
-// Line style (routes)
+// Inbound line style
 function inboundrouteStyle(feature) {
   return {
     color: feature.properties.color || "#6f6f6f",
@@ -51,8 +51,8 @@ function inboundrouteStyle(feature) {
   };
 }
 
-// Bus stops
-function busStopStyle(feature, latlng) {
+// Outbound stops
+function outboundStopStyle(feature, latlng) {
   return L.circleMarker(latlng, {
     radius: 4,
     fillColor: "white",
@@ -62,8 +62,8 @@ function busStopStyle(feature, latlng) {
   });
 }
 
-// Metro stations
-function metroStopStyle(feature, latlng) {
+// Inbound stops
+function inboundStopStyle(feature, latlng) {
   return L.circleMarker(latlng, {
     radius: 4,
     fillColor: "white",
@@ -84,13 +84,13 @@ const inboundroutesLayer = L.geoJSON(null, {
   style: inboundrouteStyle
 });
 
-const busStopsLayer = L.geoJSON(null, {
-  pointToLayer: busStopStyle,
+const outboundStopsLayer = L.geoJSON(null, {
+  pointToLayer: outboundStopStyle,
   onEachFeature: onEachFeature
 });
 
-const metroLayer = L.geoJSON(null, {
-  pointToLayer: metroStopStyle,
+const inboundStopsLayer = L.geoJSON(null, {
+  pointToLayer: inboundStopStyle,
   onEachFeature: onEachFeature
 });
 
@@ -112,8 +112,8 @@ fetch("380.geojson")
 
     const outboundroutes = [];
     const inboundroutes = [];
-    const busStops = [];
-    const metroStops = [];
+    const outboundStops = [];
+    const inboundStops = [];
 
     data.features.forEach(f => {
 
@@ -128,25 +128,25 @@ fetch("380.geojson")
       }
 
       if (f.properties.direction === "outbound") {
-        busStops.push(f);
+        outboundStops.push(f);
       }
 
       if (f.properties.direction === "inbound") {
-        metroStops.push(f);
+        inboundStops.push(f);
       }
 
     });
 
     outboundroutesLayer.addData(outboundroutes);
     inboundroutesLayer.addData(inboundroutes);
-    busStopsLayer.addData(busStops);
-    metroLayer.addData(metroStops);
+    outboundStopsLayer.addData(outboundStops);
+    inboundStopsLayer.addData(inboundStops);
 
     // Add to map
     outboundroutesLayer.addTo(map);
     inboundroutesLayer.addTo(map);
-    busStopsLayer.addTo(map);
-    metroLayer.addTo(map);
+    outboundStopsLayer.addTo(map);
+    inboundStopsLayer.addTo(map);
 
     // Zoom to data
     map.fitBounds(outboundroutesLayer.getBounds());
@@ -157,10 +157,10 @@ fetch("380.geojson")
 // ---------------- LAYER CONTROL ----------------
 
 const overlayMaps = {
-  "Routes1": outboundroutesLayer,
-  "Routes2": inboundroutesLayer,
-  "Bus Stops": busStopsLayer,
-  "Metro Stations": metroLayer
+  "Tracé direction est": outboundroutesLayer,
+  "Tracé direction ouest": inboundroutesLayer,
+  "Arrêts direction est": outboundStopsLayer,
+  "Arrêts direction ouest": inboundStopsLayer
 };
 
 L.control.layers(null, overlayMaps).addTo(map);

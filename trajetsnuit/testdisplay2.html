@@ -36,9 +36,17 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // ---------------- STYLE FUNCTIONS ----------------
 
 // Line style (routes)
-function routeStyle(feature) {
+function outboundrouteStyle(feature) {
   return {
-    color: feature.properties.color || "#3388ff",
+    color: feature.properties.color || "#000000",
+    weight: 4
+  };
+}
+
+// Line style (routes)
+function inboundrouteStyle(feature) {
+  return {
+    color: feature.properties.color || "#6f6f6f",
     weight: 4
   };
 }
@@ -46,10 +54,10 @@ function routeStyle(feature) {
 // Bus stops
 function busStopStyle(feature, latlng) {
   return L.circleMarker(latlng, {
-    radius: 5,
-    fillColor: "blue",
-    color: "white",
-    weight: 1,
+    radius: 4,
+    fillColor: "white",
+    color: "#000000",
+    weight: 3,
     fillOpacity: 1
   });
 }
@@ -57,10 +65,10 @@ function busStopStyle(feature, latlng) {
 // Metro stations
 function metroStopStyle(feature, latlng) {
   return L.circleMarker(latlng, {
-    radius: 8,
-    fillColor: "red",
-    color: "black",
-    weight: 2,
+    radius: 4,
+    fillColor: "white",
+    color: "#6f6f6f",
+    weight: 3,
     fillOpacity: 1
   });
 }
@@ -68,8 +76,12 @@ function metroStopStyle(feature, latlng) {
 
 // ---------------- EMPTY LAYERS ----------------
 
-const routesLayer = L.geoJSON(null, {
-  style: routeStyle
+const outboundroutesLayer = L.geoJSON(null, {
+  style: outboundrouteStyle
+});
+
+const inboundroutesLayer = L.geoJSON(null, {
+  style: inboundrouteStyle
 });
 
 const busStopsLayer = L.geoJSON(null, {
@@ -98,14 +110,21 @@ fetch("380.geojson")
   .then(res => res.json())
   .then(data => {
 
-    const routes = [];
+    const outboundroutes = [];
+    const inboundroutes = [];
     const busStops = [];
     const metroStops = [];
 
     data.features.forEach(f => {
 
       if (f.geometry.type === "LineString") {
-        routes.push(f);
+        if (f.properties.direction === "outbound") {
+          outboundroutes.push(f);
+        }
+
+        if (f.properties.direction === "inbound") {
+          inboundroutes.push(f);
+        }
       }
 
       if (f.properties.direction === "outbound") {
@@ -118,17 +137,19 @@ fetch("380.geojson")
 
     });
 
-    routesLayer.addData(routes);
+    outboundroutesLayer.addData(outboundroutes);
+    inboundroutesLayer.addData(inboundroutes);
     busStopsLayer.addData(busStops);
     metroLayer.addData(metroStops);
 
     // Add to map
-    routesLayer.addTo(map);
+    outboundroutesLayer.addTo(map);
+    inboundroutesLayer.addTo(map);
     busStopsLayer.addTo(map);
     metroLayer.addTo(map);
 
     // Zoom to data
-    map.fitBounds(routesLayer.getBounds());
+    map.fitBounds(outboundroutesLayer.getBounds());
 
   });
 
@@ -136,7 +157,8 @@ fetch("380.geojson")
 // ---------------- LAYER CONTROL ----------------
 
 const overlayMaps = {
-  "Routes": routesLayer,
+  "Routes1": outboundroutesLayer,
+  "Routes2": inboundroutesLayer,
   "Bus Stops": busStopsLayer,
   "Metro Stations": metroLayer
 };

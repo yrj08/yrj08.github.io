@@ -1,0 +1,1237 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+
+    {
+      "type": "Feature",
+      "properties": {
+        "direction": "outbound",
+        "color": "#000000"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-73.555239,45.50679],[-73.555434,45.506535],[-73.555659,45.506235],
+                         [-73.556367,45.506518],[-73.556776,45.506688],[-73.557217,45.50689],
+                         [-73.556967,45.507201],[-73.556711,45.507534],[-73.556417,45.50794],
+                         [-73.556263,45.508174],[-73.555804,45.508785],[-73.555585,45.50909],
+                         [-73.555369,45.509389],[-73.555241,45.509569],[-73.555024,45.509884],
+                         [-73.554959,45.509984],[-73.55478,45.5103],[-73.554537,45.510741],
+                         [-73.554384,45.510975],[-73.553745,45.512101],[-73.553247,45.512983],
+                         [-73.553246,45.513002],[-73.553273,45.513014],[-73.55354,45.513077],
+                         [-73.553767,45.513139],[-73.553915,45.513204],[-73.55397,45.513228],
+                         [-73.554252,45.513345],[-73.55428,45.513351],[-73.554301,45.513339],
+                         [-73.55471,45.51288],[-73.555011,45.51254],[-73.556132,45.513037],
+                         [-73.557027,45.513447],[-73.55731,45.513576],[-73.557451,45.513648],
+                         [-73.558001,45.513891],[-73.559051,45.514367],[-73.559652,45.514664],
+                         [-73.55982,45.514745],[-73.560014,45.514834],[-73.560665,45.515131],
+                         [-73.560922,45.515257],[-73.561087,45.515338],[-73.561753,45.515653],
+                         [-73.563226,45.516345],[-73.56411,45.516767],[-73.564603,45.516995],
+                         [-73.564742,45.51706],[-73.56488,45.517271],[-73.564885,45.517277],
+                         [-73.564891,45.517281],[-73.566327,45.517905],[-73.566542,45.517999],
+                         [-73.5669,45.518187],[-73.568301,45.518811],[-73.568477,45.518889],
+                         [-73.568888,45.519069],[-73.568983,45.519106],[-73.569198,45.519133],
+                         [-73.569705,45.519426],[-73.571388,45.520192],[-73.571648,45.520248],
+                         [-73.571663,45.520249],[-73.571679,45.520236],[-73.572075,45.519804],
+                         [-73.57224,45.519635],[-73.57224,45.519636],[-73.57259,45.519277],
+                         [-73.575848,45.52076],[-73.576297,45.520966],[-73.578154,45.52182],
+                         [-73.57851,45.521984],[-73.580549,45.522916],[-73.580747,45.523006],
+                         [-73.582894,45.523985],[-73.583188,45.524118],[-73.584713,45.524803],
+                         [-73.585099,45.524975],[-73.585801,45.525288],[-73.587824,45.526212],
+                         [-73.587875,45.526239],[-73.587954,45.526275],[-73.588128,45.526356],
+                         [-73.588127,45.526356],[-73.589465,45.526977],[-73.589969,45.527205],
+                         [-73.591707,45.527992],[-73.592071,45.528157],[-73.593194,45.528665],
+                         [-73.59386,45.528962],[-73.594172,45.529107],[-73.594825,45.529407],
+                         [-73.594858,45.529461],[-73.594862,45.529469],[-73.594872,45.529473],
+                         [-73.595258,45.529653],[-73.59545,45.529734],[-73.595794,45.529895],
+                         [-73.596281,45.530121],[-73.597449,45.53066],[-73.597783,45.530803],
+                         [-73.597873,45.530839],[-73.598046,45.530916],[-73.598222,45.530993],
+                         [-73.598477,45.531047],[-73.598908,45.531251],[-73.601868,45.532599],
+                         [-73.602209,45.532753],[-73.604866,45.533948],[-73.604982,45.534],
+                         [-73.608322,45.535547],[-73.608454,45.535608],[-73.611902,45.537133],
+                         [-73.612244,45.537295],[-73.61421,45.538222],[-73.614211,45.538222],
+                         [-73.614416,45.538319],[-73.614944,45.5385],[-73.61729,45.539173],
+                         [-73.617768,45.539311],[-73.620101,45.539986],[-73.620238,45.540025],
+                         [-73.621315,45.540321],[-73.622837,45.540775],[-73.622966,45.540814],
+                         [-73.625961,45.54169],[-73.626093,45.541728],[-73.628971,45.542556],
+                         [-73.629181,45.542616],[-73.632235,45.543496],[-73.63232,45.543521],
+                         [-73.63526,45.544372],[-73.635383,45.544408],[-73.63828,45.545225],
+                         [-73.638519,45.545293],[-73.638415,45.54541],[-73.638173,45.545688],
+                         [-73.638032,45.545842],[-73.637635,45.546329],[-73.637631,45.546351],
+                         [-73.637655,45.546367],[-73.637872,45.54643],[-73.638154,45.54652],
+                         [-73.638559,45.546641],[-73.638782,45.546708],[-73.63959,45.546941],
+                         [-73.641731,45.547564],[-73.641961,45.547631],[-73.645037,45.548518],
+                         [-73.645311,45.548597],[-73.648113,45.549414],[-73.648447,45.549509],
+                         [-73.651176,45.550291],[-73.651809,45.550479],[-73.653047,45.550847],
+                         [-73.653419,45.550954],[-73.653932,45.551107],[-73.65547,45.551554],
+                         [-73.65579,45.551644],[-73.656014,45.551709],[-73.658828,45.552531],
+                         [-73.659245,45.552653],[-73.661696,45.553374],[-73.661696,45.553373],
+                         [-73.661904,45.553435],[-73.664862,45.554284],[-73.664994,45.554321],
+                         [-73.667545,45.555065],[-73.667574,45.555074],[-73.668049,45.555215],
+                         [-73.667846,45.555578],[-73.667527,45.556127],[-73.667319,45.556516],
+                         [-73.66719,45.556482],[-73.667058,45.556436],[-73.667244,45.556106]]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "direction": "inbound",
+        "color": "#6f6f6f"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-73.667001,45.556447],[-73.667002,45.556449],[-73.667041,45.556523],
+                         [-73.667092,45.556613],[-73.667096,45.556618],[-73.6671,45.556621],
+                         [-73.667152,45.556648],[-73.667258,45.556693],[-73.667438,45.556756],
+                         [-73.66747,45.556764],[-73.667486,45.556747],[-73.667535,45.556616],
+                         [-73.667944,45.55594],[-73.668136,45.55558],[-73.668338,45.555265],
+                         [-73.668784,45.554518],[-73.668784,45.554499],[-73.668768,45.554483],
+                         [-73.668652,45.554439],[-73.668647,45.554438],[-73.668639,45.554436],
+                         [-73.66857,45.554428],[-73.668162,45.554294],[-73.667657,45.55415],
+                         [-73.665456,45.553524],[-73.665013,45.553397],[-73.663867,45.553068],
+                         [-73.662544,45.552694],[-73.66238,45.552647],[-73.659304,45.551752],
+                         [-73.65876,45.551596],[-73.656431,45.550929],[-73.656394,45.550919],
+                         [-73.655944,45.550792],[-73.655829,45.550766],[-73.653831,45.550228],
+                         [-73.6516,45.549593],[-73.651235,45.549489],[-73.648537,45.548716],
+                         [-73.648176,45.548612],[-73.645448,45.547829],[-73.645065,45.547719],
+                         [-73.642373,45.546951],[-73.642027,45.54685],[-73.640029,45.54627],
+                         [-73.639865,45.546217],[-73.639784,45.546177],[-73.639672,45.546089],
+                         [-73.639585,45.545993],[-73.63951,45.545882],[-73.639459,45.545729],
+                         [-73.639354,45.545556],[-73.639348,45.54555],[-73.639345,45.545546],
+                         [-73.639222,45.545469],[-73.639102,45.545394],[-73.639095,45.545392],
+                         [-73.639089,45.545388],[-73.63859,45.545254],[-73.638145,45.545128],
+                         [-73.638145,45.545129],[-73.635412,45.544359],[-73.634957,45.544227],
+                         [-73.63235,45.543471],[-73.631922,45.543348],[-73.62921,45.542566],
+                         [-73.6287,45.54242],[-73.626122,45.541679],[-73.625722,45.541562],
+                         [-73.622996,45.540764],[-73.622481,45.54061],[-73.621343,45.540271],
+                         [-73.620266,45.539975],[-73.619699,45.539811],[-73.61732,45.539124],
+                         [-73.617044,45.539045],[-73.614975,45.538451],[-73.614452,45.538273],
+                         [-73.614098,45.538106],[-73.611944,45.537088],[-73.611545,45.536911],
+                         [-73.608497,45.535562],[-73.608242,45.535443],[-73.605024,45.533954],
+                         [-73.604647,45.533785],[-73.60191,45.532553],[-73.601386,45.532315],
+                         [-73.59895,45.531206],[-73.598518,45.531002],[-73.598338,45.530876],
+                         [-73.59769,45.530593],[-73.597553,45.530533],[-73.596439,45.530021],
+                         [-73.595401,45.529554],[-73.594978,45.529365],[-73.594969,45.529363],
+                         [-73.594956,45.529361],[-73.594868,45.529361],[-73.593902,45.528916],
+                         [-73.593489,45.528732],[-73.593236,45.52862],[-73.59175,45.527946],
+                         [-73.591406,45.52779],[-73.589508,45.526931],[-73.58913,45.526756],
+                         [-73.587996,45.52623],[-73.58792,45.526195],[-73.587869,45.526168],
+                         [-73.587526,45.526011],[-73.585844,45.525242],[-73.585359,45.525026],
+                         [-73.584755,45.524757],[-73.582936,45.523939],[-73.582499,45.523741],
+                         [-73.580592,45.52287],[-73.580238,45.522708],[-73.578196,45.521774],
+                         [-73.577856,45.521617],[-73.575891,45.520714],[-73.575668,45.520612],
+                         [-73.572612,45.519222],[-73.572295,45.519084],[-73.571792,45.518863],
+                         [-73.570358,45.518207],[-73.570126,45.518108],[-73.570105,45.518104],
+                         [-73.570085,45.518121],[-73.56945,45.51878],[-73.569381,45.518851],
+                         [-73.569281,45.519007],[-73.569012,45.518851],[-73.567296,45.518077],
+                         [-73.567001,45.517934],[-73.56668,45.517781],[-73.565088,45.517106],
+                         [-73.564779,45.517024],[-73.564313,45.516808],[-73.564315,45.516808],
+                         [-73.564145,45.51673],[-73.563262,45.516308],[-73.561788,45.515616],
+                         [-73.561123,45.515301],[-73.560701,45.515094],[-73.559855,45.514708],
+                         [-73.559841,45.514701],[-73.559689,45.514627],[-73.559087,45.51433],
+                         [-73.558036,45.513853],[-73.557654,45.513685],[-73.557486,45.51361],
+                         [-73.557346,45.513539],[-73.556166,45.512999],[-73.555046,45.512501],
+                         [-73.555487,45.512001],[-73.555822,45.51162],[-73.555826,45.5116],
+                         [-73.55581,45.511583],[-73.55526,45.511331],[-73.554629,45.511047],
+                         [-73.55444,45.510963],[-73.554289,45.510903],[-73.553858,45.510701],
+                         [-73.553358,45.510467],[-73.552545,45.51013],[-73.55277,45.50985],
+                         [-73.552769,45.50985],[-73.553376,45.509092],[-73.55399,45.508344],
+                         [-73.554143,45.508155],[-73.55454,45.507651],[-73.555089,45.506985],
+                         [-73.555239,45.50679]]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Notre-Dame / Saint-Gabriel (52968)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.555286,
+          45.506808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Champ-de-Mars (St-Antoine / Gosford) (53674)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5554,
+          45.509293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Hubert / Viger (52997)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.553893,
+          45.513229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Berri / René-Lévesque (52904)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.556972,
+          45.513505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Berri-UQAM (61153)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.560191,
+          45.514987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Berri / Ontario (52662)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.564555,
+          45.517045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Sherbrooke (Édicule Est) (52506)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.568301,
+          45.518812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Roy / Rivard (52390)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.572294,
+          45.519662
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / Duluth (61891)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.576246,
+          45.52102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / Rachel (61895)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.578467,
+          45.52203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / du Mont-Royal (61896)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.58315,
+          45.52416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / De Bienville (61898)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.585052,
+          45.525028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / Saint-Joseph (61899)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.588074,
+          45.526413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / Boucher (61902)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.592026,
+          45.528206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / du Carmel (61904)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.594128,
+          45.529154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Rosemont (Saint-Denis / Rosemont) (51646)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.598042,
+          45.53092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / de Bellechasse (61906)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.602161,
+          45.532804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Beaubien (Saint-Denis / Beaubien) (51508)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.604813,
+          45.534008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / Saint-Zotique (51438)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.608285,
+          45.535586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / Bélanger (61910)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.612186,
+          45.537355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / Jean-Talon (51310)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.614174,
+          45.538261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / De Castelnau (61949)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.617739,
+          45.539362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / Faillon (51196)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.620069,
+          45.54004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / Villeray (51130)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.622801,
+          45.540833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / Gounod (51052)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.625934,
+          45.541737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Jarry (Saint-Denis / Jarry) (50979)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.628947,
+          45.5426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / Guizot (50914)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.632208,
+          45.543543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / de Liège (50840)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.635237,
+          45.54441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Crémazie Nord (Lajeunesse / Crémazie) (50793)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.638544,
+          45.546668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lajeunesse / Émile-Journault (50678)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.641717,
+          45.547588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lajeunesse / Legendre (61965)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.645292,
+          45.54863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lajeunesse / Chabanel (61967)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.64843,
+          45.549541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lajeunesse / de Louvain (53760)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.651786,
+          45.550516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lajeunesse / Sauvé (61970)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.655997,
+          45.551741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lajeunesse / Sauriol (61972)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.659228,
+          45.552681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lajeunesse / Fleury (50360)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.661679,
+          45.553404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Henri-Bourassa (50305)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.667558,
+          45.555102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Henri-Bourassa (54127)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.667282,
+          45.556117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Henri-Bourassa (53757)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.666911,
+          45.556468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Henri-Bourassa (50304)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.667669,
+          45.55413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Berri / Fleury (50358)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.662566,
+          45.552655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Berri / Sauriol (61973)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.658779,
+          45.551562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Sauvé (Édicule Sud) (50440)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.655392,
+          45.550643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Berri / de Louvain (61969)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.651255,
+          45.549454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Berri / Chabanel (61968)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.648196,
+          45.548577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Berri / Legendre (61966)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.645084,
+          45.547686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Berri / Émile-Journault (61964)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.642047,
+          45.546815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Crémazie Nord (Berri / Crémazie) (50768)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.639253,
+          45.545445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / de Liège (61963)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.634989,
+          45.544172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / Guizot (61961)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.631951,
+          45.543297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Jarry (Saint-Denis / Jarry) (61959)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.628727,
+          45.542374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / Gounod (61957)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.625749,
+          45.541516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / Villeray (61955)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.6225,
+          45.540577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / Faillon (61953)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.619723,
+          45.539772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / De Castelnau (61951)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.617071,
+          45.538999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / Jean-Talon (61912)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.614148,
+          45.538054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / Bélanger (61911)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.611571,
+          45.536882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / Saint-Zotique (61909)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.60829,
+          45.535392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / Beaubien (61908)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.604679,
+          45.53375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / de Bellechasse (61907)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.601424,
+          45.532273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Rosemont (Saint-Denis / Rosemont) (51649)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.597706,
+          45.530575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / Saint-Grégoire (61905)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.593529,
+          45.528689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / Boucher (61903)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.591448,
+          45.527745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / Saint-Joseph (60993)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.587556,
+          45.52598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / Gilford (52011)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.585394,
+          45.524987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / du Mont-Royal (61897)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.582546,
+          45.52369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / Rachel (61892)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.577896,
+          45.521573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / Duluth (52288)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.575704,
+          45.520574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / Roy (52422)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57234,
+          45.519033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cherrier / Berri (52507)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.569428,
+          45.51877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Berri / Ontario (52665)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.564353,
+          45.516768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Berri-UQAM (Berri / Ste-Catherine) (52844)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.559885,
+          45.514657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Berri / René-Lévesque (52906)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.557687,
+          45.513648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Denis / Saint-Antoine (52995)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.554652,
+          45.511023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Notre-Dame / de Bonsecours (53698)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.552828,
+          45.509872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Notre-Dame / Saint-Gabriel (52968)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.555286,
+          45.506808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Berri / Prieur (61974)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.665029,
+          45.553369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lajeunesse / Prieur (50334)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.664845,
+          45.554314
+        ]
+      }
+    }
+  ]
+}

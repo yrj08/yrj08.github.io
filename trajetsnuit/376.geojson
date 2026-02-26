@@ -321,15 +321,913 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Metro Station",
+        "name": "Gare Sainte-Anne-de-Bellevue (58582)",
         "direction": "west"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-73.56, 45.51]
+        "coordinates": [
+          -73.951927,
+          45.407765
+        ]
       }
     },
-
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Lionel-Groulx (61337)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.58095,
+          45.482421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Namur (Décarie / Jean-Talon) (54262)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.653153,
+          45.494913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Côte-de-Liesse Nord / No 5415 (55356)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.670027,
+          45.500679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Côte-de-Liesse / No 5805 (55843)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.678009,
+          45.495805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Passerelle Isabey-Darnley (Côte-de-Liesse/Isabey) (55655)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.681548,
+          45.491644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Côte-de-Liesse / No 6015 (55855)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.686274,
+          45.489746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Côte-de-Liesse / Cavendish (55602)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.689302,
+          45.487738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Migneron / Griffith (62018)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.692747,
+          45.48922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Transcanadienne / No 7101 (55558)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.702247,
+          45.491387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Transcanadienne / Bégin (55473)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.705822,
+          45.490257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Transcanadienne / Pomba (55789)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.721262,
+          45.489741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Transcanadienne / No 9379 (55928)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.747191,
+          45.491132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Transcanadienne / Halpern (55365)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.750166,
+          45.491038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Transcanadienne / No 9775 (55958)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.754404,
+          45.490778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Transcanadienne / No 1255 (57533)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.770487,
+          45.489734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sunnybrooke / Transcanadienne (57567)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.774887,
+          45.489491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Régis / Sunnybrooke (57521)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.777004,
+          45.490366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Régis / No 1611 (57564)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.779362,
+          45.489228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Régis / Séville (57990)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.782214,
+          45.487847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Régis / No 2000 (57991)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.785564,
+          45.486225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Régis / Deacon (57992)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.789424,
+          45.484355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brunswick / Davignon (57951)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.793455,
+          45.484489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Davignon / Fountain (57948)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.795656,
+          45.485595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Davignon / de Salaberry (57942)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.79753,
+          45.488189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "de Salaberry / Barcelone (61131)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.800761,
+          45.48683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "de Salaberry / No 12001 (57907)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.807939,
+          45.483421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "de Salaberry / Hôtel-de-Ville (57904)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.810416,
+          45.482563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "de Salaberry / Montevista (57897)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.813504,
+          45.482755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tecumseh / de Salaberry (57982)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.818406,
+          45.480994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tecumseh / Thornhill (57891)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.816779,
+          45.479326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tecumseh / Labrosse (57669)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.815215,
+          45.477761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tecumseh / Brunswick (57901)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.813421,
+          45.475774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brunswick / Hewitt (57777)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.816394,
+          45.47417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brunswick / No 195 (57654)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.81895,
+          45.472885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brunswick / Ellingham (57644)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.822599,
+          45.47104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brunswick / Selkirk (57639)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.824262,
+          45.470197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brunswick / Revcon (57627)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.827859,
+          45.468378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brunswick / Auto Plaza (57827)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.832193,
+          45.466146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brunswick / Plymouth (57814)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.838339,
+          45.462992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brunswick / Hermitage (57831)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.840761,
+          45.461744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brunswick / du Syrah (58415)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.845224,
+          45.460017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brunswick / de Salaberry (58369)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.849556,
+          45.458554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brunswick / Argyle (58372)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.853276,
+          45.457403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brunswick / Jonquille (58374)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.85526,
+          45.456783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brunswick / Jonquille (58376)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.858035,
+          45.456209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brunswick / du Merlot (58347)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.861492,
+          45.456441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Transcanadienne / Houde (58398)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.875512,
+          45.444815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sainte-Marie / No 18111 (58416)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.879663,
+          45.442774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Kirkland (62603)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.886903,
+          45.439893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sainte-Marie / Meaney (58337)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.89484,
+          45.437585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sainte-Marie / de l'Anse-à-l'Orme (58333)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.898291,
+          45.436391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sainte-Marie / No 19925 (60800)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.903203,
+          45.434854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Institut national de santé publique (Sainte-Marie (58335)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.907033,
+          45.433356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Anse-à-l'Orme (62574)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.911105,
+          45.431281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sainte-Marie / Morgan (58413)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.917056,
+          45.42966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sainte-Marie / Daoust (58595)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.920758,
+          45.427706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sainte-Marie / Meloche (58574)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.923978,
+          45.426465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sainte-Marie / Émile A.-Lods (58552)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.927288,
+          45.425449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zoo Écomuseum (58588)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.932617,
+          45.423845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sainte-Marie / des Pins (58553)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936081,
+          45.422477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "des Anciens-Combattants / Caserne 51 (62738)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.949788,
+          45.417359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "École secondaire Saint-Georges (62739)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.949732,
+          45.413917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "des Anciens-Combattants / Pacific (62740)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.951172,
+          45.411617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sainte-Anne / Garden City (58563)",
+        "direction": "west"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.952566,
+          45.410402
+        ]
+      }
+    },
 
     {
       "type": "Feature",

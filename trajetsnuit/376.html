@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Direction Toggle</title>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<style>
+#map { height: 100vh; }
+
+.control-box {
+  background: white;
+  padding: 6px;
+}
+</style>
+</head>
+
+<body>
+
+<div id="map"></div>
+
+<script>
+
+// ---------------- MAP ----------------
+
+const map = L.map('map').setView([45.5017, -73.5673], 12);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+
+
+// ---------------- LAYERS ----------------
+
+const eastLayer = L.layerGroup();
+const westLayer = L.layerGroup();
+
+
+// ---------------- LOAD DATA ----------------
+
+fetch("376.geojson")
+.then(res => res.json())
+.then(data => {
+
+  data.features.forEach(f => {
+
+    let targetLayer;
+
+    if (f.properties.direction === "east") targetLayer = eastLayer;
+    if (f.properties.direction === "west") targetLayer = westLayer;
+
+    // LINES
+    if (f.geometry.type === "LineString") {
+      L.geoJSON(f, {
+        style: { color: f.properties.color, weight: 4 }
+      }).addTo(targetLayer);
+    }
+
+    // STOPS
+    if (f.geometry.type === "Point") {
+      L.geoJSON(f, {
+        pointToLayer: (feature, latlng) =>
+          L.circleMarker(latlng, {
+            radius: 6,
+            fillColor: f.properties.direction === "east" ? "black" : "#6f6f6f",
+            color: "white",
+            weight: 1,
+            fillOpacity: 1
+          }),
+        onEachFeature: (feature, layer) =>
+          layer.bindPopup(feature.properties.name)
+      }).addTo(targetLayer);
+    }
+
+  });
+
+  // Default = both
+  eastLayer.addTo(map);
+  westLayer.addTo(map);
+
+  map.fitBounds(L.featureGroup([eastLayer, westLayer]).getBounds());
+
+});
+
+
+// ---------------- CUSTOM CONTROL ----------------
+
+const DirectionControl = L.Control.extend({
+
+  onAdd: function() {
+
+    const div = L.DomUtil.create("div", "control-box");
+
+    div.innerHTML = `
+      <select id="dirSelect">
+        <option value="both">Both</option>
+        <option value="east">Eastbound</option>
+        <option value="west">Westbound</option>
+      </select>
+    `;
+
+    div.firstChild.onmousedown = div.firstChild.ondblclick =
+    L.DomEvent.stopPropagation;
+
+    return div;
+  }
+
+});
+
+map.addControl(new DirectionControl({ position: "topright" }));
+
+
+// ---------------- SWITCH LOGIC ----------------
+
+document.addEventListener("change", function(e) {
+
+  if (e.target.id === "dirSelect") {
+
+    map.removeLayer(eastLayer);
+    map.removeLayer(westLayer);
+
+    if (e.target.value === "east") eastLayer.addTo(map);
+    if (e.target.value === "west") westLayer.addTo(map);
+
+    if (e.target.value === "both") {
+      eastLayer.addTo(map);
+      westLayer.addTo(map);
+    }
+
+  }
+
+});
+
+</script>
+
+</body>
+</html>

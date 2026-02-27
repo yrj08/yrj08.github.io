@@ -427,14 +427,14 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Station Frontenac (du Havre / Ontario) (54040)",
+        "name": "Station Frontenac (du Havre / Ontario) (53016)",
         "direction": "outbound"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.551792,
-          45.533275
+          -73.551485,
+          45.533157
         ]
       }
     },
@@ -2233,14 +2233,14 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Station Frontenac (du Havre / Ontario) (54040)",
+        "name": "Station Frontenac (du Havre / Ontario) (53016)",
         "direction": "inbound"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.551792,
-          45.533275
+          -73.551485,
+          45.533157
         ]
       }
     }

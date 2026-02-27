@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>System Overview Map</title>
+  <title>Réseau global</title>
 
   <link
     rel="stylesheet"
@@ -23,7 +23,7 @@
 
 <script>
 
-// ---------------- MAP SETUP ----------------
+// ================= MAP SETUP =================
 
 const map = L.map('map');
 
@@ -32,77 +32,69 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 
-// ---------------- CONFIG ----------------
+// ================= PANES (LAYER ORDER) =================
 
-// Add all route files here
+// Rapid transit below
+map.createPane("rapidTransitPane");
+map.getPane("rapidTransitPane").style.zIndex = 400;
+
+// Night routes above
+map.createPane("nightRoutesPane");
+map.getPane("nightRoutesPane").style.zIndex = 500;
+
+
+// ================= CONFIG =================
+
+// Night route files + display names
 const routes = [
-  { file: "350.geojson", name: "350 Verdun / LaSalle" },
-  { file: "352.geojson", name: "352 Centrale" },
-  { file: "353.geojson", name: "353 Lacordaire / Maurice-Duplessis" },
-  { file: "354.geojson", name: "354 Des Sources / YUL Aéroport" },
-  { file: "355.geojson", name: "355 Pie-IX" },
-  { file: "356.geojson", name: "356 Sherbrooke / YUL Aéroport" },
-  { file: "357.geojson", name: "357 Saint-Michel" },
-  { file: "359.geojson", name: "359 Papineau" },
-  { file: "361.geojson", name: "361 Saint-Denis" },
-  { file: "362.geojson", name: "362 Hochelaga / Notre-Dame" },
-  { file: "363.geojson", name: "363 Saint-Laurent" },
-  { file: "364.geojson", name: "364 Sherbrooke / Joseph-Renaud" },
-  { file: "365.geojson", name: "365 Du Parc" },
-  { file: "368.geojson", name: "368 Édouard-Montpetit" },
-  { file: "369.geojson", name: "369 Côte-des-Neiges" },
-  { file: "370.geojson", name: "370 Rosemont" },
-  { file: "371.geojson", name: "371 Décarie" },
-  { file: "372.geojson", name: "372 Jean-Talon" },
-  { file: "375.geojson", name: "375 Côte-de-Liesse / YUL Aéroport" },
-  { file: "376.geojson", name: "376 Brunswick / Centre-Ville" },
-  { file: "378.geojson", name: "378 Sauvé / Côte-Vertu" },
   { file: "380.geojson", name: "380 Henri-Bourassa" },
-  { file: "382.geojson", name: "382 Pierrefonds / Saint-Charles" }
+  { file: "376.geojson", name: "376 Pierrefonds" }
 ];
 
-// Default color (used if no branch style defined)
-const defaultColor = "#000000";
-
-// Optional branch overrides
-// Only define what you want to override
-const branchStyles = {
-
-  "east_cancelled": { color: "#FF2600" },
-  "west_cancelled": { color: "#FF2600" },
-  "west_temporary": { color: "#1F3BFF" },
-  "east_temporary": { color: "#1F3BFF" }
-
+// Rapid transit color mapping
+const rapidTransitColors = {
+  green: "#009B3A",
+  orange: "#F58220",
+  blue: "#0072CE",
+  yellow: "#FFD100"
 };
 
+const defaultNightColor = "#000000";
 
-// ---------------- STYLE FUNCTION ----------------
 
-function routeStyle(feature) {
+// ================= NIGHT ROUTE STYLE =================
+
+function nightRouteStyle(feature) {
 
   const branch = feature.properties.branch;
 
-  if (branch && branchStyles[branch] && branchStyles[branch].color) {
+  if (branch && rapidTransitColors[branch]) {
     return {
-      color: branchStyles[branch].color,
+      color: rapidTransitColors[branch],
       weight: 3
     };
   }
 
   return {
-    color: defaultColor,
+    color: defaultNightColor,
     weight: 3
   };
 }
 
 
-// ---------------- LAYER GROUP ----------------
+// Highlight style
+const highlightStyle = {
+  weight: 7,
+  opacity: 1
+};
 
-const allRoutesLayer = L.layerGroup().addTo(map);
+let activeRouteLayer = null;
+
+
+// ================= LOAD NIGHT ROUTES =================
+
+const allNightRoutesLayer = L.layerGroup().addTo(map);
 let bounds = L.latLngBounds([]);
-
-
-// ---------------- LOAD FILES ----------------
 
 routes.forEach(route => {
 
@@ -112,19 +104,44 @@ routes.forEach(route => {
 
       const routeLayer = L.geoJSON(data, {
 
+        pane: "nightRoutesPane",
+
         filter: function(feature) {
           return feature.geometry.type === "LineString";
         },
 
-        style: routeStyle,
+        style: nightRouteStyle,
 
         onEachFeature: function(feature, layer) {
+
           layer.bindPopup(route.name);
+
+          layer.on("click", function() {
+
+            // Reset previous highlight
+            if (activeRouteLayer) {
+              activeRouteLayer.eachLayer(l => {
+                l.setStyle(nightRouteStyle(l.feature));
+              });
+            }
+
+            // Highlight entire route
+            routeLayer.eachLayer(l => {
+              l.setStyle({
+                ...nightRouteStyle(l.feature),
+                ...highlightStyle
+              });
+            });
+
+            activeRouteLayer = routeLayer;
+
+          });
+
         }
 
       });
 
-      routeLayer.addTo(allRoutesLayer);
+      routeLayer.addTo(allNightRoutesLayer);
       bounds.extend(routeLayer.getBounds());
 
       if (bounds.isValid()) {
@@ -134,6 +151,71 @@ routes.forEach(route => {
     });
 
 });
+
+
+// ================= RAPID TRANSIT STYLE =================
+
+function rapidTransitStyle(feature) {
+
+  const branchName = feature.properties.branch;
+  const color = rapidTransitColors[branchName] || "#000000";
+
+  return {
+    color: color,
+    weight: 6,
+    opacity: 0.9
+  };
+}
+
+function rapidTransitStops(feature, latlng) {
+
+  const branchName = feature.properties.branch;
+  const color = rapidTransitColors[branchName] || "#000000";
+
+  return L.circleMarker(latlng, {
+    radius: 5,
+    fillColor: "white",
+    color: color,
+    weight: 4,
+    fillOpacity: 1
+  });
+}
+
+
+// ================= LOAD RAPID TRANSIT =================
+
+fetch("modeslourds.geojson")
+  .then(res => res.json())
+  .then(data => {
+
+    const rapidTransitLines = L.geoJSON(data, {
+
+      pane: "rapidTransitPane",
+
+      filter: function(feature) {
+        return feature.geometry.type === "LineString";
+      },
+
+      style: rapidTransitStyle
+
+    });
+
+    const rapidTransitPoints = L.geoJSON(data, {
+
+      pane: "rapidTransitPane",
+
+      filter: function(feature) {
+        return feature.geometry.type === "Point";
+      },
+
+      pointToLayer: rapidTransitStops
+
+    });
+
+    rapidTransitLines.addTo(map);
+    rapidTransitPoints.addTo(map);
+
+  });
 
 </script>
 

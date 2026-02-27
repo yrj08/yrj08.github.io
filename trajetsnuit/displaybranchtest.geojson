@@ -100,7 +100,7 @@
       "type": "Feature",
       "properties": {
         "direction": "outbound",
-        "branch": "2"
+        "branch": "2",
         "color": "#000000"
       },
       "geometry": {
@@ -165,7 +165,7 @@
       "type": "Feature",
       "properties": {
         "direction": "inbound",
-        "color": "#6f6f6f"
+        "color": "#6f6f6f",
         "branch": "3"
       },
       "geometry": {
@@ -235,7 +235,7 @@
       "type": "Feature",
       "properties": {
         "direction": "inbound",
-        "color": "#6f6f6f"
+        "color": "#6f6f6f",
         "branch": "4"
       },
       "geometry": {

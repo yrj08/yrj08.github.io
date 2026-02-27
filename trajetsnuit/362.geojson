@@ -2124,14 +2124,14 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "privé Honoré-Beaugrand sud / Station Honoré-Beaug (53277)",
+        "name": "Station Honoré-Beaugrand / Terminus Sud (53277)",
         "direction": "inbound"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.534199,
-          45.596697
+          -73.534164,
+          45.596717
         ]
       }
     },

@@ -35,10 +35,13 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // ---------------- CONFIG ----------------
 
 // Add all route files here
-const geojsonFiles = [
-  "350.geojson",
-  "352.geojson",
-  "354.geojson"
+const routes = [
+  { file: "350.geojson", name: "350 Verdun / LaSalle" },
+  { file: "352.geojson", name: "352 Centrale" },
+  { file: "353.geojson", name: "353 Lacordaire / Maurice-Duplessis" },
+  { file: "354.geojson", name: "354 Des Sources / YUL Aéroport" },
+  { file: "355.geojson", name: "355 Pie-IX" },
+  { file: "356.geojson", name: "356 Sherbrooke / YUL Aéroport" }
 ];
 
 // Default color (used if no branch style defined)
@@ -83,9 +86,9 @@ let bounds = L.latLngBounds([]);
 
 // ---------------- LOAD FILES ----------------
 
-geojsonFiles.forEach(file => {
+routes.forEach(route => {
 
-  fetch(file)
+  fetch(route.file)
     .then(res => res.json())
     .then(data => {
 
@@ -98,15 +101,7 @@ geojsonFiles.forEach(file => {
         style: routeStyle,
 
         onEachFeature: function(feature, layer) {
-
-          // Use route_number if exists, fallback to route_id
-          const routeNumber =
-            feature.properties.route_number ||
-            feature.properties.route_id ||
-            "Route";
-
-          layer.bindPopup("Route " + routeNumber);
-
+          layer.bindPopup(route.name);
         }
 
       });

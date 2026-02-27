@@ -1957,14 +1957,14 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "René-Lévesque / du Beaver Hall (52626)",
+        "name": "René-Lévesque / Union (53918)",
         "direction": "inbound"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.566273,
-          45.502845
+          -73.566770,
+          45.502309
         ]
       }
     },

@@ -18,12 +18,46 @@ function createRouteMap(config) {
   }).addTo(map);
 
 
-  // ---------------- STYLE HELPERS ----------------
+// ---------------- DEFAULT STYLES ----------------
 
-  function getBranchStyle(feature) {
-    const branch = feature.properties.branch;
-    return branchStyles[branch] || {};
-  }
+const defaultOutboundStyle = {
+  color: "#000000",
+  weight: 4,
+  radius: 4,
+  borderWeight: 3,
+  shape: "circle",
+  dashArray: null
+};
+
+const defaultInboundStyle = {
+  color: "#6f6f6f",
+  weight: 4,
+  radius: 4,
+  borderWeight: 3,
+  shape: "circle",
+  dashArray: null
+};
+
+
+// ---------------- STYLE HELPER ----------------
+
+function getBranchStyle(feature) {
+
+  const branch = feature.properties.branch;
+  const direction = feature.properties.direction;
+
+  // Choose correct base default
+  const baseStyle =
+    direction === "inbound"
+      ? defaultInboundStyle
+      : defaultOutboundStyle;
+
+  // User override (from HTML)
+  const userStyle = branchStyles[branch] || {};
+
+  // Merge base + override
+  return { ...baseStyle, ...userStyle };
+}
 
 
   // ROUTE STYLE

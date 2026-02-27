@@ -1245,14 +1245,14 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Place Vertu entrée sud-est (Côte-Vertu/No 3131) (55801)",
+        "name": "Côte-Vertu / Cavendish (55486)",
         "direction": "inbound"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.70386,
-          45.497618
+          -73.701338,
+          45.499629
         ]
       }
     },

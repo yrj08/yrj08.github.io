@@ -233,7 +233,90 @@
                         [-73.578827,45.4824],[-73.580049,45.481678],[-73.580468,45.481985]]
       }
     },
-
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Michel / Masson (52349)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.573333,
+          45.550947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Masson / 3e Avenue (52259)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.575924,
+          45.54653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Masson / 7e Avenue (––)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.574583,
+          45.548767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Masson / Molson (––)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.577304,
+          45.544327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Masson / 3e Avenue (––)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.575892,
+          45.546323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Frontenac / Rachel (52712)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.562772,
+          45.537366
+        ]
+      }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -601,14 +684,14 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Masson / 2e Avenue (52248)",
+        "name": "Masson / Molson (61698)",
         "direction": "outbound"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.576232,
-          45.545727
+          -73.577078,
+          45.544345
         ]
       }
     },
@@ -629,14 +712,14 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Masson / 9e Avenue (52317)",
+        "name": "Masson / 7e Avenue (52299)",
         "direction": "outbound"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.573869,
-          45.549632
+          -73.574549,
+          45.548517
         ]
       }
     },
@@ -1245,28 +1328,28 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Masson / 9e Avenue (52316)",
-        "direction": "inbound"
+        "name": "Masson / Saint-Michel (52350)",
+        "direction": "outbound"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.573899,
-          45.549863
+          -73.573142,
+          45.550830
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Masson / 6e Avenue (52294)",
+        "name": "Masson / 3e Avenue (52259)",
         "direction": "inbound"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.574911,
-          45.548192
+          -73.575924,
+          45.54653
         ]
       }
     },

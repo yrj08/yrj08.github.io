@@ -250,6 +250,20 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "D'Iberville / Hochelaga (61810)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.558703,
+          45.534735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Masson / 3e Avenue (52259)",
         "direction": "inbound"
       },

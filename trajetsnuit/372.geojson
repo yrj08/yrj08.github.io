@@ -502,6 +502,34 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Henri-Bourassa / Marco-Polo (51932)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.584163,
+          45.623391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Henri-Bourassa / Marco-Polo (51931)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.584165,
+          45.623706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Jean-Talon / Mountain Sights (50509)",
         "direction": "outbound"
       },

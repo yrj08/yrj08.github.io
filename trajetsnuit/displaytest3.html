@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Ligne 350</title>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="routeMap.js"></script>
+
+<style>
+#map { height: 100vh; }
+</style>
+</head>
+
+<body>
+<h1>Ligne 350 • Verdun / LaSalle</h1>
+<div id="map"></div>
+
+
+<script>
+createRouteMap({
+  geojsonFile: "350.geojson",
+
+  outboundRouteLabel: "Tracé direction est",
+  inboundRouteLabel: "Tracé direction ouest",
+  outboundStopsLabel: "Arrêts direction est",
+  inboundStopsLabel: "Arrêts direction ouest",
+
+  branchStyles: {
+
+    "A": {
+      color: "#E4002B",
+      shape: "circle",
+      radius: 5,
+      weight: 5
+    },
+
+    "B": {
+      color: "#0072CE",
+      shape: "square",
+      radius: 5,
+      dashArray: "6,4"
+    },
+
+    "SHORT": {
+      color: "#2E8B57",
+      shape: "triangle",
+      radius: 6
+    }
+
+  }
+
+});
+</script>
+
+</body>
+</html>

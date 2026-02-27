@@ -766,14 +766,14 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Saint-Laurent / Prieur (50309)",
+        "name": "Saint-Laurent / Prieur (50310)",
         "direction": "inbound"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.667752,
-          45.549468
+          -73.668118,
+          45.549398
         ]
       }
     },

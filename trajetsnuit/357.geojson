@@ -1342,20 +1342,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Masson / 3e Avenue (52259)",
-        "direction": "inbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.575924,
-          45.54653
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "D'Iberville / No 5184 (52192)",
         "direction": "inbound"
       },

@@ -1088,7 +1088,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "du Tricentenaire / Joseph-d'Argent (53710)",
+        "name": "du Tricentenaire / Joseph-Dargent (53710)",
         "direction": "outbound"
       },
       "geometry": {
@@ -1774,7 +1774,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "du Tricentenaire / Joseph-d'Argent (53547)",
+        "name": "du Tricentenaire / Joseph-Dargent (53547)",
         "direction": "inbound"
       },
       "geometry": {

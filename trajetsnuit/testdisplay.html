@@ -2,13 +2,12 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>Leaflet GeoJSON Multi-Layer Example</title>
+  <title>System Overview Map</title>
 
   <link
     rel="stylesheet"
     href="https://unpkg.com/leaflet/dist/leaflet.css"
   />
-
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
   <style>
@@ -26,122 +25,102 @@
 
 // ---------------- MAP SETUP ----------------
 
-const map = L.map('map').setView([45.5017, -73.5673], 12);
+const map = L.map('map');
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
 
 
-// ---------------- STYLE FUNCTIONS ----------------
+// ---------------- CONFIG ----------------
 
-// Line style (routes)
+// Add all route files here
+const geojsonFiles = [
+  "350.geojson",
+  "352.geojson",
+  "354.geojson"
+];
+
+// Default color (used if no branch style defined)
+const defaultColor = "#000000";
+
+// Optional branch overrides
+// Only define what you want to override
+const branchStyles = {
+
+  "A": { color: "#E4002B" },
+  "B": { color: "#0072CE" },
+  "EXP": { color: "#FF8C00" }
+
+};
+
+
+// ---------------- STYLE FUNCTION ----------------
+
 function routeStyle(feature) {
+
+  const branch = feature.properties.branch;
+
+  if (branch && branchStyles[branch] && branchStyles[branch].color) {
+    return {
+      color: branchStyles[branch].color,
+      weight: 3
+    };
+  }
+
   return {
-    color: feature.properties.color || "#3388ff",
-    weight: 4
+    color: defaultColor,
+    weight: 3
   };
 }
 
-// Bus stops
-function busStopStyle(feature, latlng) {
-  return L.circleMarker(latlng, {
-    radius: 5,
-    fillColor: "blue",
-    color: "white",
-    weight: 1,
-    fillOpacity: 1
-  });
-}
 
-// Metro stations
-function metroStopStyle(feature, latlng) {
-  return L.circleMarker(latlng, {
-    radius: 8,
-    fillColor: "red",
-    color: "black",
-    weight: 2,
-    fillOpacity: 1
-  });
-}
+// ---------------- LAYER GROUP ----------------
+
+const allRoutesLayer = L.layerGroup().addTo(map);
+let bounds = L.latLngBounds([]);
 
 
-// ---------------- EMPTY LAYERS ----------------
+// ---------------- LOAD FILES ----------------
 
-const routesLayer = L.geoJSON(null, {
-  style: routeStyle
-});
+geojsonFiles.forEach(file => {
 
-const busStopsLayer = L.geoJSON(null, {
-  pointToLayer: busStopStyle,
-  onEachFeature: onEachFeature
-});
+  fetch(file)
+    .then(res => res.json())
+    .then(data => {
 
-const metroLayer = L.geoJSON(null, {
-  pointToLayer: metroStopStyle,
-  onEachFeature: onEachFeature
-});
+      const routeLayer = L.geoJSON(data, {
 
+        filter: function(feature) {
+          return feature.geometry.type === "LineString";
+        },
 
-// ---------------- POPUPS ----------------
+        style: routeStyle,
 
-function onEachFeature(feature, layer) {
-  if (feature.properties && feature.properties.name) {
-    layer.bindPopup(feature.properties.name);
-  }
-}
+        onEachFeature: function(feature, layer) {
 
+          // Use route_number if exists, fallback to route_id
+          const routeNumber =
+            feature.properties.route_number ||
+            feature.properties.route_id ||
+            "Route";
 
-// ---------------- LOAD GEOJSON ----------------
+          layer.bindPopup("Route " + routeNumber);
 
-fetch("testdata.geojson")
-  .then(res => res.json())
-  .then(data => {
+        }
 
-    const routes = [];
-    const busStops = [];
-    const metroStops = [];
+      });
 
-    data.features.forEach(f => {
+      routeLayer.addTo(allRoutesLayer);
+      bounds.extend(routeLayer.getBounds());
 
-      if (f.geometry.type === "LineString") {
-        routes.push(f);
-      }
-
-      if (f.properties.stop_type === "bus") {
-        busStops.push(f);
-      }
-
-      if (f.properties.stop_type === "metro") {
-        metroStops.push(f);
+      if (bounds.isValid()) {
+        map.fitBounds(bounds);
       }
 
     });
 
-    routesLayer.addData(routes);
-    busStopsLayer.addData(busStops);
-    metroLayer.addData(metroStops);
-
-    // Add to map
-    routesLayer.addTo(map);
-    busStopsLayer.addTo(map);
-    metroLayer.addTo(map);
-
-    // Zoom to data
-    map.fitBounds(routesLayer.getBounds());
-
-  });
-
-
-// ---------------- LAYER CONTROL ----------------
-
-const overlayMaps = {
-  "Routes": routesLayer,
-  "Bus Stops": busStopsLayer,
-  "Metro Stations": metroLayer
-};
-
-L.control.layers(null, overlayMaps).addTo(map);
+});
 
 </script>
 

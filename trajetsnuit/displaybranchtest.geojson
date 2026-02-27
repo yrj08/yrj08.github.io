@@ -166,7 +166,7 @@
       "properties": {
         "direction": "inbound",
         "color": "#6f6f6f"
-        "branch": "1"
+        "branch": "3"
       },
       "geometry": {
         "type": "LineString",
@@ -236,7 +236,7 @@
       "properties": {
         "direction": "inbound",
         "color": "#6f6f6f"
-        "branch": "2"
+        "branch": "4"
       },
       "geometry": {
         "type": "LineString",
@@ -297,7 +297,7 @@
       "properties": {
         "name": "Côte-Vertu / Muir (55718)",
         "direction": "inbound",
-        "branch": "1"
+        "branch": "3"
       },
       "geometry": {
         "type": "Point",
@@ -312,7 +312,7 @@
       "properties": {
         "name": "Côte-Vertu / Champigny (55707)",
         "direction": "inbound",
-        "branch": "1"
+        "branch": "3"
       },
       "geometry": {
         "type": "Point",
@@ -327,7 +327,7 @@
       "properties": {
         "name": "Station Côte-Vertu (Côte-Vertu / Décarie) (55945)",
         "direction": "inbound",
-        "branch": "1"
+        "branch": "3"
       },
       "geometry": {
         "type": "Point",
@@ -342,7 +342,7 @@
       "properties": {
         "name": "Jules-Poitras / Thompson (55716)",
         "direction": "inbound",
-        "branch": "1"
+        "branch": "3"
       },
       "geometry": {
         "type": "Point",
@@ -357,7 +357,7 @@
       "properties": {
         "name": "Jules-Poitras / No 1385 (55815)",
         "direction": "inbound",
-        "branch": "1"
+        "branch": "3"
       },
       "geometry": {
         "type": "Point",
@@ -372,7 +372,7 @@
       "properties": {
         "name": "Côte-Vertu / Dutrisac (55689)",
         "direction": "inbound",
-        "branch": "1"
+        "branch": "3"
       },
       "geometry": {
         "type": "Point",
@@ -387,7 +387,7 @@
       "properties": {
         "name": "Côte-Vertu / Sainte-Croix (55661)",
         "direction": "inbound",
-        "branch": "1"
+        "branch": "3"
       },
       "geometry": {
         "type": "Point",
@@ -402,7 +402,7 @@
       "properties": {
         "name": "Côte-Vertu / Leduc (55594)",
         "direction": "inbound",
-        "branch": "1"
+        "branch": "3"
       },
       "geometry": {
         "type": "Point",
@@ -417,7 +417,7 @@
       "properties": {
         "name": "Henri-Bourassa / Jules-Poitras (62443)",
         "direction": "inbound",
-        "branch": "2"
+        "branch": "4"
       },
       "geometry": {
         "type": "Point",
@@ -432,7 +432,7 @@
       "properties": {
         "name": "Station Du Ruisseau (Henri-Bourassa / Dutrisac) (55996)",
         "direction": "inbound",
-        "branch": "2"
+        "branch": "4"
       },
       "geometry": {
         "type": "Point",
@@ -447,7 +447,7 @@
       "properties": {
         "name": "Henri-Bourassa / No 1405 (54394)",
         "direction": "inbound",
-        "branch": "2"
+        "branch": "4"
       },
       "geometry": {
         "type": "Point",
@@ -462,7 +462,7 @@
       "properties": {
         "name": "Henri-Bourassa / de l'Acadie (50260)",
         "direction": "inbound",
-        "branch": "2"
+        "branch": "4"
       },
       "geometry": {
         "type": "Point",
@@ -477,7 +477,7 @@
       "properties": {
         "name": "SAAQ (Henri-Bourassa / No 750) (53727)",
         "direction": "inbound",
-        "branch": "2"
+        "branch": "4"
       },
       "geometry": {
         "type": "Point",
@@ -492,7 +492,7 @@
       "properties": {
         "name": "Henri-Bourassa / Tanguay (50279)",
         "direction": "inbound",
-        "branch": "2"
+        "branch": "4"
       },
       "geometry": {
         "type": "Point",
@@ -507,7 +507,7 @@
       "properties": {
         "name": "Henri-Bourassa / Saint-Laurent (62372)",
         "direction": "inbound",
-        "branch": "2"
+        "branch": "4"
       },
       "geometry": {
         "type": "Point",
@@ -522,7 +522,7 @@
       "properties": {
         "name": "Henri-Bourassa / de l'Esplanade (62373)",
         "direction": "inbound",
-        "branch": "2"
+        "branch": "4"
       },
       "geometry": {
         "type": "Point",

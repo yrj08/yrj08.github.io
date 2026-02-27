@@ -329,6 +329,62 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "D'Iberville / de Rouen (61889)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.557016,
+          45.534014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Frontenac / de Rouen (52934)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.555701,
+          45.534357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sherbrooke / Gascon (52772)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.560725,
+          45.536865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sherbrooke / Gascon (52771)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.560907,
+          45.537003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Atwater / Saint-Antoine (56303)",
         "direction": "outbound"
       },

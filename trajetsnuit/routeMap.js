@@ -11,7 +11,7 @@ function createRouteMap(config) {
     branchStyles = {}   // <-- NEW
   } = config;
 
-  const map = L.map('map').setView([45.5017, -73.5673], 12);
+  const map = L.map('map').setView([45.5526446, -73.7279665], 12);
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; OpenStreetMap contributors'

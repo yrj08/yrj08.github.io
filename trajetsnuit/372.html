@@ -19,13 +19,50 @@
 
 <script>
 createRouteMap({
-  geojsonFile: "372.geojson",
+  geojsonFile: "displaybranchtest.geojson",
+
   outboundRouteLabel: "Tracé direction est",
   inboundRouteLabel: "Tracé direction ouest",
   outboundStopsLabel: "Arrêts direction est",
-  inboundStopsLabel: "Arrêts direction ouest"
+  inboundStopsLabel: "Arrêts direction ouest",
+
+  branchStyles: {
+
+    "east_cancelled": {
+      color: "#FF2600",
+      shape: "circle",
+      radius: 4,
+      weight: 4
+    },
+
+    "west_cancelled": {
+      color: "#FFA59B",
+      shape: "circle",
+      radius: 4,
+      weight: 4
+    },
+
+    "east_temporary": {
+      color: "#1F3BFF",
+      shape: "circle",
+      radius: 4,
+      weight: 4
+
+    "west_temporary": {
+      color: "#7498FF",
+      shape: "circle",
+      radius: 4,
+      weight: 4
+    }
+
+  }
+
 });
 </script>
 
+
 </body>
 </html>
+
+
+

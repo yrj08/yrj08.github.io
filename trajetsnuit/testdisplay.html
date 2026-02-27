@@ -41,7 +41,24 @@ const routes = [
   { file: "353.geojson", name: "353 Lacordaire / Maurice-Duplessis" },
   { file: "354.geojson", name: "354 Des Sources / YUL Aéroport" },
   { file: "355.geojson", name: "355 Pie-IX" },
-  { file: "356.geojson", name: "356 Sherbrooke / YUL Aéroport" }
+  { file: "356.geojson", name: "356 Sherbrooke / YUL Aéroport" },
+  { file: "357.geojson", name: "357 Saint-Michel" },
+  { file: "359.geojson", name: "359 Papineau" },
+  { file: "361.geojson", name: "361 Saint-Denis" },
+  { file: "362.geojson", name: "362 Hochelaga / Notre-Dame" },
+  { file: "363.geojson", name: "363 Saint-Laurent" },
+  { file: "364.geojson", name: "364 Sherbrooke / Joseph-Renaud" },
+  { file: "365.geojson", name: "365 Du Parc" },
+  { file: "368.geojson", name: "368 Édouard-Montpetit" },
+  { file: "369.geojson", name: "369 Côte-des-Neiges" },
+  { file: "370.geojson", name: "370 Rosemont" },
+  { file: "371.geojson", name: "371 Décarie" },
+  { file: "372.geojson", name: "372 Jean-Talon" },
+  { file: "375.geojson", name: "375 Côte-de-Liesse / YUL Aéroport" },
+  { file: "376.geojson", name: "376 Brunswick / Centre-Ville" },
+  { file: "378.geojson", name: "378 Sauvé / Côte-Vertu" },
+  { file: "380.geojson", name: "380 Henri-Bourassa" },
+  { file: "382.geojson", name: "382 Pierrefonds / Saint-Charles" }
 ];
 
 // Default color (used if no branch style defined)
@@ -51,9 +68,10 @@ const defaultColor = "#000000";
 // Only define what you want to override
 const branchStyles = {
 
-  "A": { color: "#E4002B" },
-  "B": { color: "#0072CE" },
-  "EXP": { color: "#FF8C00" }
+  "east_cancelled": { color: "#FF2600" },
+  "west_cancelled": { color: "#FF2600" },
+  "west_temporary": { color: "#1F3BFF" },
+  "east_temporary": { color: "#1F3BFF" }
 
 };
 

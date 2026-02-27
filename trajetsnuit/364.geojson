@@ -315,6 +315,34 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Frontenac / La Fontaine (53067)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.549723,
+          45.531822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "du Havre / La Fontaine (53075)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.549709,
+          45.532467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Station Lionel-Groulx (61338)",
         "direction": "outbound"
       },

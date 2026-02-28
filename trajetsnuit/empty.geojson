@@ -6,6 +6,30 @@
       "type": "Feature",
       "properties": {
         "direction": "outbound",
+        "color": "#FBB268",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "direction": "inbound",
+        "color": "#FBB268",
+        "branch": "current_inbound"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": []
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "direction": "outbound",
         "color": "#000000"
       },
       "geometry": {

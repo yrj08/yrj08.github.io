@@ -296,7 +296,20 @@
                          [-73.6608567,45.5205064],[-73.660868,45.520512],[-73.6630964,45.5211578]]
       }
     },
-
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lacordaire / Claude (55197)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.626887,
+          45.613368
+        ]
+      }
+    },
    {
       "type": "Feature",
       "properties": {

@@ -6,7 +6,7 @@
       "type": "Feature",
       "properties": {
         "direction": "outbound",
-        "color": "#000000",
+        "color": "#FBB268",
         "branch": "current_outbound"
       },
       "geometry": {
@@ -232,7 +232,7 @@
       "type": "Feature",
       "properties": {
         "direction": "inbound",
-        "color": "#000000",
+        "color": "#FFDEB2",
         "branch": "current_inbound"
       },
       "geometry": {

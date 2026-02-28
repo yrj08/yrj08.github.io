@@ -863,14 +863,14 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Papineau / Papineau/des Carrières (51905)",
+        "name": "Papineau / escalier des Carrières (51905)",
         "direction": "inbound"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.587812,
-          45.538986
+          -73.587893,
+          45.538996
         ]
       }
     },

@@ -2515,7 +2515,7 @@
       "type": "Feature",
       "properties": {
         "name": "René-Lévesque / de l'Hôtel-de-Ville (52835)",
-        "direction": "outbound",
+        "direction": "outbound"
       },
       "geometry": {
         "type": "Point",

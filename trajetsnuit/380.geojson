@@ -1374,6 +1374,62 @@
         ]
       }
     },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Armand-Bombardier / Philippe-Lebon (51670)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.595223,
+          45.636639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Armand-Bombardier / André-Ampère (51723)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.593232,
+          45.634774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Armand-Bombardier / Jean-Vincent (51767)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.591503,
+          45.633152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Armand-Bombardier / Maurice-Duplessis (51810)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.589748,
+          45.631509
+        ]
+      }
+    },
    {
       "type": "Feature",
       "properties": {

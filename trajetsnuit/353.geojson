@@ -448,20 +448,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Lacordaire / Claude (55197)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.626887,
-          45.613368
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Lacordaire / Claude (55198)",
         "direction": "inbound"
       },

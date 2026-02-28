@@ -308,6 +308,146 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Maurice-Duplessis / Désy (55227)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.623099,
+          45.612771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / Rolland (55263)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.619176,
+          45.614814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / Langelier (55288)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.615098,
+          45.616888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / Albert-Hudon (55291)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.613073,
+          45.617928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / No 7000 (54236)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.610369,
+          45.619335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / Marie-Victorin (Cégep Marie-Vi (51464)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.607518,
+          45.620819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / 6e Avenue (54048)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.601698,
+          45.623842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / Marc-Aurèle-Fortin (51610)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.597391,
+          45.626078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / La Valinière (51698)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.593373,
+          45.628367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / Armand-Bombardier (51811)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.589598,
+          45.631239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Lacordaire / Claude (55197)",
         "direction": "outbound"
       },
@@ -1008,160 +1148,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Lacordaire / No 11955 (60309)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.62538,
-          45.61219
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Lacordaire / Léger (55166)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.629323,
-          45.615676
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Léger / Fortin (55193)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.627792,
-          45.61862
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Léger / Rolland (55208)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.62559,
-          45.620854
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Léger / Allard (55235)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.620944,
-          45.623798
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Perras / Ozias-Leduc (Hôpital Rivière-des-Prairies (54139)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.615033,
-          45.627142
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Perras / 6e Avenue (54053)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.609243,
-          45.631142
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Perras / Marc-Aurèle-Fortin (51443)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.605601,
-          45.633659
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Perras / Fernand-Gauthier (51488)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.60364,
-          45.63489
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Perras / Élie-Beauregard (51543)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.601019,
-          45.636243
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Perras / Armand-Bombardier (51621)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.597123,
-          45.638251
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Perras / 27e Avenue (51720)",
         "direction": "outbound"
       },
@@ -1170,6 +1156,20 @@
         "coordinates": [
           -73.592625,
           45.64057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lacordaire / Maurice-Duplessis (55209)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.625056,
+          45.611642
         ]
       }
     },

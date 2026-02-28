@@ -322,6 +322,34 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "René-Lévesque / Lambert-Closse (––)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.582248,
+          45.488485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Atwater / du Souvenir (52085)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.582399,
+          45.487664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Centre de transport LaSalle (St-Patrick / No 7770) (57089)",
         "direction": "outbound"
       },

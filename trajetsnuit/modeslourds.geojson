@@ -712,7 +712,7 @@
       "type": "Feature",
       "properties": {
         "Stop": "Édouard-Montpetit",
-        "branch": "transfer"
+        "branch": "bleue"
       },
       "geometry": {
         "type": "Point",
@@ -894,7 +894,7 @@
       "type": "Feature",
       "properties": {
         "Stop": "Snowdon",
-        "branch": "transfer"
+        "branch": "bleue"
       },
       "geometry": {
         "type": "Point",
@@ -908,7 +908,7 @@
       "type": "Feature",
       "properties": {
         "Stop": "Jean-Talon",
-        "branch": "transfer"
+        "branch": "bleue"
       },
       "geometry": {
         "type": "Point",
@@ -922,7 +922,7 @@
       "type": "Feature",
       "properties": {
         "Stop": "Berri-UQAM",
-        "branch": "transfer"
+        "branch": "jaune"
       },
       "geometry": {
         "type": "Point",
@@ -1216,7 +1216,7 @@
       "type": "Feature",
       "properties": {
         "Stop": "Édouard-Montpetit",
-        "branch": "transfer"
+        "branch": "rem"
       },
       "geometry": {
         "type": "Point",
@@ -1230,7 +1230,7 @@
       "type": "Feature",
       "properties": {
         "Stop": "McGill",
-        "branch": "transfer"
+        "branch": "rem"
       },
       "geometry": {
         "type": "Point",
@@ -1244,7 +1244,7 @@
       "type": "Feature",
       "properties": {
         "Stop": "Gare Centrale",
-        "branch": "transfer"
+        "branch": "rem"
       },
       "geometry": {
         "type": "Point",
@@ -1454,7 +1454,7 @@
       "type": "Feature",
       "properties": {
         "Stop": "McGill",
-        "branch": "transfer"
+        "branch": "verte"
       },
       "geometry": {
         "type": "Point",
@@ -1664,7 +1664,7 @@
       "type": "Feature",
       "properties": {
         "Stop": "Berri-UQAM",
-        "branch": "transfer"
+        "branch": "verte"
       },
       "geometry": {
         "type": "Point",
@@ -1678,7 +1678,7 @@
       "type": "Feature",
       "properties": {
         "Stop": "Lionel-Groulx",
-        "branch": "transfer"
+        "branch": "verte"
       },
       "geometry": {
         "type": "Point",
@@ -1846,7 +1846,7 @@
       "type": "Feature",
       "properties": {
         "Stop": "Bonaventure",
-        "branch": "transfer"
+        "branch": "orange"
       },
       "geometry": {
         "type": "Point",
@@ -2070,7 +2070,7 @@
       "type": "Feature",
       "properties": {
         "Stop": "Snowdon",
-        "branch": "transfer"
+        "branch": "orange"
       },
       "geometry": {
         "type": "Point",
@@ -2084,7 +2084,7 @@
       "type": "Feature",
       "properties": {
         "Stop": "Lionel-Groulx",
-        "branch": "transfer"
+        "branch": "orange"
       },
       "geometry": {
         "type": "Point",
@@ -2098,7 +2098,7 @@
       "type": "Feature",
       "properties": {
         "Stop": "Berri–UQAM",
-        "branch": "transfer"
+        "branch": "orange"
       },
       "geometry": {
         "type": "Point",
@@ -2112,7 +2112,7 @@
       "type": "Feature",
       "properties": {
         "Stop": "Jean-Talon",
-        "branch": "transfer"
+        "branch": "orange"
       },
       "geometry": {
         "type": "Point",

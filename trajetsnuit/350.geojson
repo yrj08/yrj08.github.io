@@ -820,7 +820,8 @@
       "type": "Feature",
       "properties": {
         "name": "Elmslie / No 7900 (60458)",
-        "direction": "outbound"
+        "direction": "outbound",
+        "branch: "added_outbound"
       },
       "geometry": {
         "type": "Point",
@@ -1527,20 +1528,6 @@
         "coordinates": [
           -73.561497,
           45.508675
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "René-Lévesque / Sanguinet (CHUM) (60994)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.559019,
-          45.511568
         ]
       }
     },
@@ -2521,6 +2508,1010 @@
         "coordinates": [
           -73.633975,
           45.441988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "René-Lévesque / de l'Hôtel-de-Ville (52835)",
+        "direction": "outbound",
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.559927,
+          45.510553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Terminus Lafleur / Newman (56759)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.647908,
+          45.4255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lafleur / Centrale (56769)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.650712,
+          45.423235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LaSalle / Lafleur (56766)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.651193,
+          45.4208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LaSalle / Orchard (56774)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.648979,
+          45.419952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "90e Avenue / Centrale (56791)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.64403,
+          45.41759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Centrale / Cavelier-De LaSalle (56813)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.640003,
+          45.416975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Centrale / Duquette (56824)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.636408,
+          45.416758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Centrale / Terrasse Centrale (56725)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.634079,
+          45.417004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "75e Avenue / LaSalle (57098)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.632462,
+          45.416173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "LaSalle / No 8912 (56870)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.629263,
+          45.415719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "68e Avenue / LaSalle (56871)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.627297,
+          45.415817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "68e Avenue / Centrale (57093)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.627299,
+          45.416693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Centrale / 66e Avenue (56883)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.625791,
+          45.416789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Centrale / 63e Avenue (56911)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.621205,
+          45.416976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Centrale / 43e Avenue (56927)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.61879,
+          45.417595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Centrale / 40e Avenue (56937)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.61666,
+          45.418164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Centrale / 35e Avenue (56954)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.613199,
+          45.419017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Centrale / 31e Avenue (56958)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.611615,
+          45.419406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Raymond / Mongeau (57026)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.609176,
+          45.420831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Raymond / Lévis-Sauvé (56961)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.610069,
+          45.422032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "George / Gamelin (56967)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.60982,
+          45.424196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "George / Gagné (56977)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.608395,
+          45.425025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bishop-Power / Champlain (56971)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.60742,
+          45.428683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shevchenko / De La Vérendrye (56964)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.610372,
+          45.430405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shevchenko / Bouvier (56948)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.612694,
+          45.430665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shevchenko / Jean-Chevalier (56728)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.615888,
+          45.431181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shevchenko / Jean-Brillon (56922)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.618507,
+          45.431266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shevchenko / Robert (56912)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.621008,
+          45.431266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shevchenko / Lefebvre (56884)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.624675,
+          45.431328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shevchenko / David-Boyer (56868)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.626754,
+          45.431783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shevchenko / Newman (56850)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.62914,
+          45.432356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Newman / No 7700 (56889)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.623933,
+          45.437691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Newman / No 7475 (56726)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.620222,
+          45.440516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Léger / Newman (56921)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.619457,
+          45.441719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cordner / Lapierre (56856)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.628899,
+          45.442665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lapierre / Cordner (57033)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.631318,
+          45.443603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lapierre / Saint-Patrick (56830)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.633665,
+          45.444683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Patrick / Lapierre (56831)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.634617,
+          45.444768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lapierre / Cordner (57034)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.630988,
+          45.443294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cordner / Lapierre (56857)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.628449,
+          45.44273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cordner / Léger (57036)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.625788,
+          45.444242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Léger / Newman (56919)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.619966,
+          45.441777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Newman / Guy-Bouchard (56951)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.612076,
+          45.445685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Angrignon (54109)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.604288,
+          45.446607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Monk (Monk / Allard) (53858)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.593284,
+          45.451428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Monk / Springland (51800)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.594221,
+          45.453924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Monk / Jolicoeur (51779)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.595308,
+          45.456809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jolicoeur / Hadley (51837)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.593069,
+          45.45706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jolicoeur / Eadie (51900)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.590751,
+          45.456976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jolicoeur / Dubois (51963)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.589101,
+          45.456914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "De La Vérendrye / Desmarchais (53951)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.582092,
+          45.455323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wellington / de l'Église (56636)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.56695,
+          45.462658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wellington / Hickson (56638)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.566754,
+          45.464801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Atwater / Sainte-Émilie (52290)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.577642,
+          45.480087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Lionel-Groulx (Atwater / Lionel-Groulx) (54181)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.578888,
+          45.482998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Atwater (Atwater / Sainte-Catherine) (56297)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.584235,
+          45.489262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "René-Lévesque / Saint-Mathieu (52286)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.576516,
+          45.49205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "René-Lévesque / Guy (52329)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.574992,
+          45.493641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "René-Lévesque / Drummond (52437)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.571559,
+          45.497204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Basilique St-Patrick (R.-Lévesque / St-Alexandre) (52627)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.565648,
+          45.503774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "René-Lévesque / Saint-Denis (CHUM) (52882)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.558157,
+          45.512559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "René-Lévesque / Saint-Hubert (52931)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.556603,
+          45.514247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "René-Lévesque / Papineau (Maison Radio-Canada) (53073)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.549902,
+          45.52106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Frontenac / Logan (53092)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.548302,
+          45.53122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Frontenac (Frontenac / Ontario) (53014)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.552143,
+          45.532848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Frontenac (du Havre / Ontario) (53016)",
+        "direction": "outbound",
+        "branch": "current_outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.551485,
+          45.533157
         ]
       }
     }

@@ -1279,6 +1279,20 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Léger / Albert-Hudon (55259)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.618737,
+          45.624944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Léger / Allard (55235)",
         "direction": "outbound"
       },

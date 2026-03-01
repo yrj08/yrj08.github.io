@@ -308,6 +308,216 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Maurice-Duplessis / 27e Avenue (51907)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.585804,
+          45.634124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / André-Dumas (51994)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.583056,
+          45.636214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / Rita-Levi-Montalcini (52073)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.580249,
+          45.638348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / Pierre-Baillargeon (52157)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.576573,
+          45.641142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / Rodolphe-Forget (52266)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.573251,
+          45.643668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / J.-J.-Joubert (52378)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.570039,
+          45.646102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / 54e Avenue (54061)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.565397,
+          45.648624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / Rivière-des-Prairies (52655)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.561664,
+          45.650543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / 54e Avenue (54060)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.565189,
+          45.648984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / J.-J.-Joubert (52379)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.569884,
+          45.646495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / Rodolphe-Forget (52264)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.573013,
+          45.644149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / Pierre-Baillargeon (52156)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.576535,
+          45.641471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / Rita-Levi-Montalcini (52071)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.58014,
+          45.638733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / André-Dumas (51993)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.582982,
+          45.636574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / 27e Avenue (51906)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.585746,
+          45.634469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Maurice-Duplessis / Désy (55227)",
         "direction": "outbound"
       },
@@ -470,62 +680,6 @@
         "coordinates": [
           -73.623254,
           45.609931
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Perras / 49e Avenue (53684)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.575365,
-          45.652292
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Perras / 51e Avenue (53683)",
-        "direction": "inbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.574654,
-          45.65325
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Rivière-des-Prairies / 4e Rue (52470)",
-        "direction": "inbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.566319,
-          45.655463
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Rivière-des-Prairies / 4e Rue (52471)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.566625,
-          45.65555
         ]
       }
     },
@@ -1120,20 +1274,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Rivière-des-Prairies / 5e Rue (52567)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.564186,
-          45.653214
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Maurice-Duplessis / 63e Avenue (54271)",
         "direction": "outbound"
       },
@@ -1394,20 +1534,6 @@
         "coordinates": [
           -73.561423,
           45.650896
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Rivière-des-Prairies / 5e Rue (52566)",
-        "direction": "inbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.563863,
-          45.65311
         ]
       }
     },

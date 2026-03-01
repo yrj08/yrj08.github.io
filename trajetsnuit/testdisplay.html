@@ -38,6 +38,9 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 map.createPane("rapidTransitPane");
 map.getPane("rapidTransitPane").style.zIndex = 400;
 
+map.createPane("currentOutboundPane");
+map.getPane("currentOutboundPane").style.zIndex = 450;
+  
 // Night routes above
 map.createPane("nightRoutesPane");
 map.getPane("nightRoutesPane").style.zIndex = 500;
@@ -108,6 +111,14 @@ function nightRouteStyle(feature) {
   };
 }
 
+function currentOutboundStyle(feature) {
+  return {
+    color: nightRouteStyle(feature).color,
+    weight: 8,
+    opacity: 0.4
+  };
+}
+
 
 // Highlight style
 const highlightStyle = {
@@ -129,48 +140,68 @@ routes.forEach(route => {
     .then(res => res.json())
     .then(data => {
 
+      const currentOutboundLayer = L.geoJSON(data, {
+
+        pane: "currentOutboundPane",
+      
+        filter: function(feature) {
+          return (
+            feature.geometry.type === "LineString" &&
+            feature.properties.branch === "current_outbound"
+          );
+        },
+      
+        style: currentOutboundStyle
+      
+      });
+      
+      currentOutboundLayer.addTo(allNightRoutesLayer);
+      bounds.extend(currentOutboundLayer.getBounds());
+
       const routeLayer = L.geoJSON(data, {
 
         pane: "nightRoutesPane",
-
+      
         filter: function(feature) {
-          return feature.geometry.type === "LineString";
+          return (
+            feature.geometry.type === "LineString" &&
+            feature.properties.branch !== "current_outbound"
+          );
         },
-
+      
         style: nightRouteStyle,
-
+      
         onEachFeature: function(feature, layer) {
-
+      
           layer.bindPopup(route.name);
-
+      
           layer.on("click", function() {
-
-            // Reset previous highlight
+      
             if (activeRouteLayer) {
               activeRouteLayer.eachLayer(l => {
                 l.setStyle(nightRouteStyle(l.feature));
               });
             }
-
-            // Highlight entire route
+      
             routeLayer.eachLayer(l => {
               l.setStyle({
                 ...nightRouteStyle(l.feature),
-                ...highlightStyle
+                weight: 7,
+                opacity: 1
               });
             });
-
+      
             activeRouteLayer = routeLayer;
-
+      
           });
-
+      
         }
-
+      
       });
-
+      
       routeLayer.addTo(allNightRoutesLayer);
       bounds.extend(routeLayer.getBounds());
-
+     
       if (bounds.isValid()) {
         map.fitBounds(bounds);
       }

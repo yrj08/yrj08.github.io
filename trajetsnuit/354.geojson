@@ -245,7 +245,7 @@
       "properties": {
         "direction": "inbound",
         "color": "#FBB268",
-        "branch": "current_inbound"
+        "branch": "current_outbound"
       },
       "geometry": {
         "type": "LineString",

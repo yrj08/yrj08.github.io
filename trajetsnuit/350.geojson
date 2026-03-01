@@ -233,7 +233,7 @@
       "properties": {
         "direction": "inbound",
         "color": "#FFDEB2",
-        "branch": "current_inbound"
+        "branch": "current_outbound"
       },
       "geometry": {
         "type": "LineString",

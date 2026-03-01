@@ -299,6 +299,62 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Armand-Bombardier / Maurice-Duplessis (61888)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.589709,
+          45.631943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Armand-Bombardier / Jean-Vincent (51766)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.591032,
+          45.633091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Armand-Bombardier / André-Ampère (51722)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.592743,
+          45.634695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Armand-Bombardier / Philippe-Lebon (51669)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.594742,
+          45.636568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Lacordaire / Claude (55197)",
         "direction": "outbound"
       },

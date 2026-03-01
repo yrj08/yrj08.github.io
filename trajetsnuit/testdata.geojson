@@ -86,7 +86,7 @@
     {
       "type": "Feature",
       "properties": {
-        "direction": "inbound"
+        "direction": "inbound",
         "color": "#FBB268",
         "branch": "current_outbound"
       },

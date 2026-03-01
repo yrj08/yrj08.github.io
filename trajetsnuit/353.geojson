@@ -1120,118 +1120,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Perras / 27e Avenue (51720)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.592625,
-          45.64057
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Lacordaire / Maurice-Duplessis (55209)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.625056,
-          45.611642
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Perras / Alfred-Nobel (62699)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.588936,
-          45.642465
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Perras / Rita-Levi-Montalcini (51890)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.5861,
-          45.643952
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Perras / Pierre-Baillargeon (54050)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.582185,
-          45.646472
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Perras / Rodolphe-Forget (54152)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.57912,
-          45.649116
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Perras / 54e Avenue (52303)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.571631,
-          45.654683
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Perras / Rivière-des-Prairies (52429)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.567884,
-          45.656615
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Rivière-des-Prairies / 5e Rue (52567)",
         "direction": "outbound"
       },
@@ -1526,90 +1414,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Perras / 54e Avenue (52302)",
-        "direction": "inbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.571534,
-          45.655016
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Perras / Rodolphe-Forget (54151)",
-        "direction": "inbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.57895,
-          45.649589
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Perras / Pierre-Baillargeon (54049)",
-        "direction": "inbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.582101,
-          45.646902
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Perras / Rita-Levi-Montalcini (51889)",
-        "direction": "inbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.585965,
-          45.644259
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Perras / Alfred-Nobel (51806)",
-        "direction": "inbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.589189,
-          45.64262
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Perras / 27e Avenue (51719)",
-        "direction": "inbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.59257,
-          45.640878
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Lacordaire / des Tulipes (55211)",
         "direction": "inbound"
       },
@@ -1618,6 +1422,20 @@
         "coordinates": [
           -73.624889,
           45.611146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lacordaire / Maurice-Duplessis (55209)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.625056,
+          45.611642
         ]
       }
     },

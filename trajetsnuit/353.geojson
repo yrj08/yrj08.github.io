@@ -448,20 +448,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Lacordaire / Claude (55198)",
-        "direction": "inbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.627309,
-          45.613441
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Lacordaire / des Iris (55230)",
         "direction": "inbound"
       },
@@ -798,14 +784,14 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "centre sportif Pierre-Charbonneau / Viau / de Mars (60922)",
+        "name": "Viau / de Marseille (50107)",
         "direction": "outbound"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.549384,
-          45.563907
+          -73.549051,
+          45.563712
         ]
       }
     },
@@ -1316,6 +1302,146 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Maurice-Duplessis / Armand-Bombardier (51809)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.589396,
+          45.631699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / La Valinière (51699)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.593929,
+          45.628252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / No 7588 (54051)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.597331,
+          45.626363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / 5e Avenue (51521)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.602124,
+          45.623875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / Marie-Victorin (Cégep Marie-Vi (53930)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.607383,
+          45.621145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / No 7000 (Hôpital Rivière-des-P (53931)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.61024,
+          45.61966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / Albert-Hudon (55290)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.61233,
+          45.618573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / Monty (55282)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.615904,
+          45.616661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / Rolland (55261)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.618927,
+          45.615084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maurice-Duplessis / Laurier (55232)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.622179,
+          45.613394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Gare Rivière-des-Prairies (61605)",
         "direction": "inbound"
       },
@@ -1478,146 +1604,6 @@
         "coordinates": [
           -73.59257,
           45.640878
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Perras / Armand-Bombardier (51622)",
-        "direction": "inbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.597536,
-          45.638319
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Perras / Élie-Beauregard (51542)",
-        "direction": "inbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.600864,
-          45.636602
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Perras / Fernand-Gauthier (54154)",
-        "direction": "inbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.603553,
-          45.635222
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Perras / Marc-Aurèle-Fortin (51442)",
-        "direction": "inbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.605526,
-          45.634026
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Perras / 6e Avenue (54054)",
-        "direction": "inbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.6092,
-          45.631489
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Perras / Ozias-Leduc (Hôpital Rivière-des-Prairies (51283)",
-        "direction": "inbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.61492,
-          45.627536
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Léger / Langelier (55233)",
-        "direction": "inbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.621518,
-          45.623768
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Léger / Rolland (55207)",
-        "direction": "inbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.625365,
-          45.621374
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Léger / Fortin (55192)",
-        "direction": "inbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.627697,
-          45.619168
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Lacordaire / Léger (55171)",
-        "direction": "inbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.629255,
-          45.615284
         ]
       }
     },

@@ -85,8 +85,7 @@ const rapidTransitColors = {
   east_cancelled: "#FF2600",
   west_cancelled: "#FF2600",
   west_temporary: "#1F3BFF",
-  east_temporary: "#1F3BFF",
-  current_outbound: "FBB268"
+  east_temporary: "#1F3BFF"
   
 };
 
@@ -114,12 +113,12 @@ function nightRouteStyle(feature) {
 
 function currentOutboundStyle(feature) {
   return {
-    color: nightRouteStyle(feature).color,
+    color: "#FBB268",
     weight: 8,
     opacity: 0.4
   };
 }
-
+<!--nightRouteStyle(feature).color,-->
 
 // Highlight style
 const highlightStyle = {

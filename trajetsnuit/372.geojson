@@ -517,20 +517,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Lacordaire / Maurice-Duplessis (55209)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.625056,
-          45.611642
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Perras / Alfred-Nobel (62699)",
         "direction": "outbound"
       },
@@ -1678,14 +1664,14 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "26e Avenue / Gouin (51616)",
-        "direction": "outbound"
+        "name": "Perras / 51e Avenue (53683)",
+        "direction": "inbound"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.596738,
-          45.643742
+          -73.574654,
+          45.65325
         ]
       }
     },

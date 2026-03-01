@@ -244,7 +244,286 @@
                        [-73.567232,45.596534],[-73.569972,45.597437],[-73.570221,45.597518]]
       }
     },
-
+{
+"type": "Feature",
+"properties": {
+"name": "Perras / 70e Avenue (52727)",
+"direction": "outbound"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.559404,
+45.661003
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"name": "Perras / Primat-Paré (52824)",
+"direction": "outbound"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.55607,
+45.663164
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"name": "Perras / Voltaire (52932)",
+"direction": "outbound"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.552794,
+45.66586
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"name": "Perras / Saint-Jean-Baptiste (53026)",
+"direction": "outbound"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.548979,
+45.668127
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"name": "Saint-Jean-Baptiste / Émilie-Du Châtelet (53060)",
+"direction": "outbound"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.546997,
+45.666092
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"name": "Saint-Jean-Baptiste / No 12120 (53686)",
+"direction": "outbound"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.544304,
+45.662329
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"name": "Maurice-Duplessis / Saint-Jean-Baptiste (61638)",
+"direction": "outbound"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.541353,
+45.659542
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"name": "Gare Rivière-des-Prairies (61606)",
+"direction": "outbound"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.538248,
+45.661782
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"name": "Gare Rivière-des-Prairies (61536)",
+"direction": "inbound"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.538735,
+45.661811
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"name": "Maurice-Duplessis / Saint-Jean-Baptiste (60316)",
+"direction": "inbound"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.541707,
+45.659521
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"name": "Saint-Jean-Baptiste / Cité des Prairies (60319)",
+"direction": "inbound"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.543599,
+45.661685
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"name": "Saint-Jean-Baptiste / Émilie-Du Châtelet (60320)",
+"direction": "inbound"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.546685,
+45.665987
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"name": "Perras / 81e Avenue (60515)",
+"direction": "inbound"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.549411,
+45.668193
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"name": "Perras / Voltaire (52927)",
+"direction": "inbound"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.552787,
+45.666175
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"name": "Perras / Primat-Paré (52825)",
+"direction": "inbound"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.555964,
+45.663601
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"name": "Perras / 70e Avenue (52726)",
+"direction": "inbound"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.559274,
+45.661312
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"name": "Perras / 64e Avenue (52557)",
+"direction": "inbound"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.564201,
+45.658794
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"name": "Perras / 62e Avenue (52518)",
+"direction": "inbound"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.565364,
+45.658194
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"name": "Perras / Rivière-des-Prairies (52428)",
+"direction": "inbound"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-73.567762,
+45.656958
+]
+}
+},
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Perras / 49e Avenue (53684)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.575365,
+          45.652292
+        ]
+      }
+    },
     {
       "type": "Feature",
       "properties": {

@@ -23,7 +23,45 @@ createRouteMap({
   outboundRouteLabel: "Tracé direction est",
   inboundRouteLabel: "Tracé direction ouest",
   outboundStopsLabel: "Arrêts direction est",
-  inboundStopsLabel: "Arrêts direction ouest"
+  inboundStopsLabel: "Arrêts direction ouest",
+
+  branchStyles: {
+
+    "current_outbound": {
+      color: "#E28D1D",
+      shape: "circle",
+      radius: 3,
+      weight: 8,
+      opacity: 0.5
+    },
+  }
+
+});
+</script>
+
+<h2>Modifications proposées</h2>
+<ul>
+  <li>Retrait du segment à l'ouest de YUL Aéroport: service remplacé par des 
+    modifications à la ligne 354;</li>
+  <li>Retrait du service à la station Atwater: pôle d'échange déplacé à la 
+    station Lionel-Groulx;</li>
+  <li>Retrait du service sur Saint-Joseph à Lachine;</li>
+  <li>Ajout du service sur Cherrier entre Atateken et Berri;</li>
+  <li>Retrait de quelques arrêts trop rapprochés.</li>
+</ul>
+
+<h2>Raisonnement des modifications</h2>
+<ul>
+  <li>Réduire la longueur du trajet pour améliorer la performance et ponctualité, 
+    ainsi de concentrer les ressources sur le segment plus achalandé;</li>
+  <li>Permettre de rejoindre Lachine plus rapidement à partir du centre-ville;</li>
+  <li>Reprendre un segment (Cherrier) délaissé par le retrait de la 
+    ligne 360 sur ce tronçon ainsi qu'une meilleure correspondance vers d'autres 
+    lignes à la station Sherbrooke;</li>
+  <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
+    nombre d'arrêts.</li>
+</ul>
+  
 });
 </script>
 

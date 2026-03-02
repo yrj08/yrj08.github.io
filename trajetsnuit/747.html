@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Ligne 360</title>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="routeMap.js"></script>
+
+<style>
+#map { height: 100vh; }
+</style>
+</head>
+
+<body>
+<h1>Ligne 747 • YUL Aéroport / Centre-Ville</h1>
+  
+<p><a href="#changements">Modifications proposées</a></p>
+<p><a href="#pourquoi">Raisonnement des modifications</a></p>
+  
+<div id="map"></div>
+
+<script>
+createRouteMap({
+  geojsonFile: "747.geojson",
+  outboundRouteLabel: "Tracé direction est",
+  inboundRouteLabel: "Tracé direction ouest",
+  outboundStopsLabel: "Arrêts direction est",
+  inboundStopsLabel: "Arrêts direction ouest",
+  
+  branchStyles: {
+
+    "current_outbound": {
+      color: "#E28D1D",
+      shape: "circle",
+      radius: 3,
+      weight: 8,
+      opacity: 0.5
+    },
+  }
+
+});
+</script>
+
+<h2 id="changements">Modifications proposées</h2>
+<ul>
+  <li>Retrait complet du service; service remplacé par des modifications à la ligne 354.</li>
+</ul>
+
+<h2 id="pourquoi">Raisonnement des modifications</h2>
+<ul>
+  <li>Permet de concentrer les ressources sur d'autres lignes en donnant un accès plus rapide 
+    du centre-ville vers l'ouest de l'île.</li>
+  <li>Permet de relier plusieurs stations du REM lorsque celui-ci n'est pas en exploitation.</li>
+</ul>
+
+</body>
+</html>

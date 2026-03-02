@@ -591,6 +591,20 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Station Côte-Vertu (55890)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.683454,
+          45.514565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "René-Lévesque / Lambert-Closse (––)",
         "direction": "outbound"
       },
@@ -1733,20 +1747,6 @@
         "coordinates": [
           -73.688159,
           45.513699
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Station Côte-Vertu (Décarie / No 1150) (62708)",
-        "direction": "inbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.683968,
-          45.514976
         ]
       }
     },

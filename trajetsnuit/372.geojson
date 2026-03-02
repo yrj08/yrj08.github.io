@@ -631,6 +631,36 @@
       }
     },
 {
+      "type": "Feature",
+      "properties": {
+        "name": "Buies / Gênes (61943)",
+        "direction": "inbound",
+        "branch": "west_temporary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.592569,
+          45.569256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bélanger / 26e Avenue (51968)",
+        "direction": "outbound",
+        "branch": "east_temporary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5853,
+          45.567168
+        ]
+      }
+    },
+{
 "type": "Feature",
 "properties": {
 "name": "Perras / 70e Avenue (52727)",

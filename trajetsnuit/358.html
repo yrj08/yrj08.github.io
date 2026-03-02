@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Ligne 358</title>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="routeMap.js"></script>
+
+<style>
+#map { height: 100vh; }
+</style>
+</head>
+
+<body>
+<h1>Ligne 358 • René-Lévesque</h1>
+  
+<p><a href="#changements">Modifications proposées</a></p>
+<p><a href="#pourquoi">Raisonnement des modifications</a></p>
+  
+<div id="map"></div>
+
+<script>
+createRouteMap({
+  geojsonFile: "358.geojson",
+  outboundRouteLabel: "Tracé direction est",
+  inboundRouteLabel: "Tracé direction ouest",
+  outboundStopsLabel: "Arrêts direction est",
+  inboundStopsLabel: "Arrêts direction ouest",
+  
+  branchStyles: {
+
+    "current_outbound": {
+      color: "#E28D1D",
+      shape: "circle",
+      radius: 3,
+      weight: 8,
+      opacity: 0.5
+    },
+  }
+
+});
+</script>
+
+<h2 id="changements">Modifications proposées</h2>
+<ul>
+  <li>Retrait complet du service; service sur l'ensemble du trajet maintenu par les 
+    lignes modifiées 350, 354, 357, 364 et 371, avec tracé via Sainte-Catherine et 
+    De Maisonneuve à l'est de la station Papineau.</li>
+</ul>
+
+<h2 id="pourquoi">Raisonnement des modifications</h2>
+<ul>
+  <li>Permet de réduire le dédoublement des trajets, de concentrer les ressources 
+    sur d'autres lignes, et d'offrir plus de trajets sans correspondances à partir 
+    du centre-ville par l'ajout des lignes 354 et 371.</li>
+</ul>
+
+</body>
+</html>

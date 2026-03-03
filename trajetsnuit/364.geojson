@@ -881,14 +881,14 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "René-Lévesque / Sanguinet (CHUM) (60994)",
+        "name": "René-Lévesque / de l'Hôtel-de-Ville (52835)",
         "direction": "outbound"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.559019,
-          45.511568
+          -73.559927,
+          45.510553
         ]
       }
     },

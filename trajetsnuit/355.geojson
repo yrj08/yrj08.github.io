@@ -583,21 +583,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Saint-Antoine / Saint-Hubert (60613)",
-        "direction": "outbound",
-        "branch": "east_temporary"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.553269,
-          45.512869
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Atateken / De Maisonneuve (52872)",
         "direction": "outbound",
         "branch": "east_temporary"
@@ -644,8 +629,7 @@
       "type": "Feature",
       "properties": {
         "name": "Saint-Hubert / Viger (52997)",
-        "direction": "outbound",
-        "branch": "east_cancelled"
+        "direction": "outbound"
       },
       "geometry": {
         "type": "Point",

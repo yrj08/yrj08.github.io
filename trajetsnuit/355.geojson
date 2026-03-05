@@ -598,21 +598,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Atateken / René-Lévesque (52983)",
-        "direction": "outbound",
-        "branch": "east_temporary"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.55525,
-          45.516703
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Atateken / De Maisonneuve (52872)",
         "direction": "outbound",
         "branch": "east_temporary"
@@ -674,8 +659,7 @@
       "type": "Feature",
       "properties": {
         "name": "Berri / René-Lévesque (52904)",
-        "direction": "outbound",
-        "branch": "east_cancelled"
+        "direction": "outbound"
       },
       "geometry": {
         "type": "Point",

@@ -1022,14 +1022,14 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Station Frontenac (Frontenac / Ontario) (54039)",
+        "name": "Station Frontenac (Frontenac / Ontario) (54038)",
         "direction": "outbound"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.551866,
-          45.53273
+          -73.552399,
+          45.532958
         ]
       }
     },

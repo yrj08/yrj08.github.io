@@ -5,6 +5,17 @@
     {
       "type": "Feature",
       "properties": {
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-73.598322,45.558918],[-73.599497,45.559435],[-73.600035,45.559675]]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
         "direction": "outbound",
         "color": "#FBB268",
         "branch": "current_outbound"
@@ -630,7 +641,22 @@
                        [-73.567232,45.596534],[-73.569972,45.597437],[-73.570221,45.597518]]
       }
     },
-{
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Saint-Michel (Saint-Michel / Shaughnessy) (54294)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.600006,
+          45.559709
+        ]
+      }
+    },
+    {
       "type": "Feature",
       "properties": {
         "name": "Buies / Gênes (61943)",

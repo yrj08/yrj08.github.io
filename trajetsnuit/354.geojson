@@ -1786,6 +1786,34 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "René-Lévesque / Saint-Mathieu (52284)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.576541,
+          45.492441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "René-Lévesque / Saint-Mathieu (52286)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.576516,
+          45.49205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Station Pierrefonds-Roxboro (62578)",
         "direction": "inbound"
       },

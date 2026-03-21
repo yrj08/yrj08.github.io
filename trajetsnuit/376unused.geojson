@@ -7,7 +7,7 @@
     {
       "type": "Feature",
       "properties": {
-        "direction": "inbound"
+        "direction": "outbound"
       },
       "geometry": {
         "type": "LineString",

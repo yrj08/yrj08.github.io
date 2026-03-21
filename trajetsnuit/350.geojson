@@ -1463,14 +1463,14 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "René-Lévesque / Amesbury (54163)",
+        "name": "René-Lévesque / Saint-Mathieu (52286)",
         "direction": "outbound"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.575752,
-          45.492848
+          -73.576516,
+          45.49205
         ]
       }
     },

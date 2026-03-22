@@ -616,20 +616,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Station Guy-Concordia (St-Mathieu/De Maisonneuve) (52147)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.580727,
-          45.494608
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Papineau / René-Lévesque (––)",
         "direction": "outbound"
       },
@@ -2339,7 +2325,7 @@
       "type": "Feature",
       "properties": {
         "name": "Guy / René-Lévesque (52330)",
-        "direction": "outbound"
+        "direction": "inbound"
       },
       "geometry": {
         "type": "Point",

@@ -1599,20 +1599,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Station Lionel-Groulx (61339)",
-        "direction": "inbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.580436,
-          45.482006
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "D'Iberville / de Rouen (61889)",
         "direction": "inbound"
       },

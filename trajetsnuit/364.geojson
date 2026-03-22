@@ -613,7 +613,20 @@
                         [-73.577811,45.495059],[-73.579232,45.495715],[-73.579701,45.495892]]
       }
     },
-
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Guy-Concordia (St-Mathieu/De Maisonneuve) (52147)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.580727,
+          45.494608
+        ]
+      }
+    },
     {
       "type": "Feature",
       "properties": {

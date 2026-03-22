@@ -1,9 +1,35 @@
-<!-- Ligne 369 entre Lionel-Groulx et Guy-Concordia -->
- == NORTHBOUND
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Lionel-Groulx (61332)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.580068,
+          45.483413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Lionel-Groulx (61333)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.579325,
+          45.483112
+        ]
+      }
+    },
 
 
 
- == SOUTHBOUND
+
 
 
 

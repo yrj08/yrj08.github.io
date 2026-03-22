@@ -324,17 +324,14 @@
       },
       "geometry": {
         "type": "LineString",
-        "coordinates": [[-73.581192,45.482539],[-73.5814,45.482697],[-73.580642,45.483109],
-                        [-73.580336,45.483316],[-73.579915,45.483558],[-73.579593,45.483748],
-                        [-73.579532,45.483793],[-73.579457,45.483828],[-73.579441,45.483842],
-                        [-73.579443,45.483861],[-73.579841,45.484499],[-73.580033,45.484814],
-                        [-73.58056,45.485643],[-73.581433,45.486795],[-73.581627,45.487013],
-                        [-73.581821,45.487186],[-73.582231,45.487501],[-73.582937,45.488064],
-                        [-73.582451,45.488196],[-73.582012,45.488351],[-73.581549,45.488568],
-                        [-73.581473,45.488604],[-73.580666,45.489001],[-73.580116,45.489289],
-                        [-73.579234,45.489731],[-73.578502,45.490138],[-73.578214,45.49036],
-                        [-73.578213,45.49036],[-73.577936,45.490574],[-73.577449,45.491106],
-                        [-73.576874,45.491692],[-73.576552,45.492065],[-73.57644,45.492197],
+        "coordinates": [[-73.579701,45.495892],[-73.580233,45.496093],[-73.580875,45.496317],
+                        [-73.581506,45.496517],[-73.581758,45.496563],[-73.5817793,45.496559],
+                        [-73.581794,45.49655],[-73.582522,45.495713],[-73.5825219,45.4956968],
+                        [-73.582507,45.495685],[-73.581431,45.495065],[-73.581136,45.494876],
+                        [-73.580696,45.494636],[-73.580674,45.494624],[-73.580546,45.494552],
+                        [-73.579424,45.493892],[-73.579278,45.493806],[-73.578408,45.493294],
+                        [-73.577729,45.492898],[-73.576603,45.492278],[-73.576490,45.492198],
+                        [-73.576461,45.492186],[-73.57644,45.492197],
                         [-73.575711,45.492934],[-73.575028,45.493658],[-73.575027,45.493658],
                         [-73.574919,45.493771],[-73.574229,45.494465],[-73.573685,45.495043],
                         [-73.573526,45.495212],[-73.573015,45.495734],[-73.572236,45.496537],
@@ -658,42 +655,28 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "René-Lévesque / Lambert-Closse (––)",
+        "name": "Station Guy-Concordia (Guy / De Maisonneuve) (52195)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.579665,
+          45.495939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Station Guy-Concordia (Guy / De Maisonneuve) (52195)",
         "direction": "inbound"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.582248,
-          45.488485
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Atwater / du Souvenir (52085)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.582399,
-          45.487664
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Frontenac / La Fontaine (53067)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.549723,
-          45.531822
+          -73.579665,
+          45.495939
         ]
       }
     },
@@ -708,20 +691,6 @@
         "coordinates": [
           -73.549709,
           45.532467
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Station Lionel-Groulx (61338)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.581152,
-          45.482564
         ]
       }
     },
@@ -784,42 +753,14 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Atwater / Saint-Antoine (56303)",
+        "name": "Saint-Mathieu / Baile (53762)",
         "direction": "outbound"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.580447,
-          45.485522
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "René-Lévesque / du Fort (52227)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.578173,
-          45.490334
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "René-Lévesque / Amesbury (54163)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.575752,
-          45.492848
+          -73.577883,
+          45.492961
         ]
       }
     },
@@ -2394,56 +2335,14 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "René-Lévesque / Saint-Mathieu (52284)",
-        "direction": "inbound"
+        "name": "Guy / René-Lévesque (52330)",
+        "direction": "outbound"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.576541,
-          45.492441
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "René-Lévesque / Seymour (52198)",
-        "direction": "inbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.579385,
-          45.489889
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Atwater / Saint-Antoine (56304)",
-        "direction": "inbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.580821,
-          45.485585
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Station Lionel-Groulx (61339)",
-        "direction": "inbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.580436,
-          45.482006
+          -73.576023,
+          45.494345
         ]
       }
     },

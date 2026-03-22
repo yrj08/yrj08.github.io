@@ -535,20 +535,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Station Guy-Concordia (St-Mathieu/De Maisonneuve) (52147)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.580727,
-          45.494608
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Saint-Mathieu / Baile (53762)",
         "direction": "outbound"
       },

@@ -2435,6 +2435,34 @@
           45.533157
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sainte-Catherine / Aird (53309)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.532036,
+          45.55394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sainte-Catherine / Aird (53310)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.532018,
+          45.553694
+        ]
+      }
     }
   ]
 }

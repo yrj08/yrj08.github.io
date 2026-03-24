@@ -2463,6 +2463,34 @@
           45.553694
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gare Saint-Léonard-Montréal-Nord (61547)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.613056,
+          45.600558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gare Saint-Léonard-Montréal-Nord (61546)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.613584,
+          45.600631
+        ]
+      }
     }
   ]
 }

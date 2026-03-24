@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ligne 354</title>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
@@ -9,6 +9,27 @@
 <script src="routeMap.js"></script>
 
 <style>
+* {box-sizing: border-box;}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
 #map { height: 100vh; }
 </style>
 </head>
@@ -16,8 +37,12 @@
 <body>
 <h1>Ligne 354 • Des Sources / YUL Aéroport</h1>
 
-<p><a href="#changements">Modifications proposées</a></p>
-<p><a href="#pourquoi">Raisonnement des modifications</a></p>
+<p>
+  <a href="#changements">Modifications proposées</a><br>
+  <a href="#pourquoi">Raisonnement des modifications</a><br>
+  <a href="#arrets">Liste d'arrêts desservis</a><br>
+  <a href="#horaire">Horaire suggéré</a>
+</p>
   
 <div id="map"></div>
 
@@ -74,6 +99,455 @@ createRouteMap({
   <li>Permet de relier plusieurs stations du REM lorsque ce dernier n'est pas 
     en service pendant la nuit.</li>
 </ul>
+
+<h2 id="arrets">Liste d'arrêts desservis</h2>
+
+<div class="row">
+  <div class="column">
+    <h3>Direction Est</h3>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th>Repère</th>
+      <th>Séq</th>
+      <th colspan="2">Arrêt / Intersection</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>A</th>
+      <th>1</th>
+      <td>62578</td>
+      <td>Station Pierrefonds-Roxboro</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>2</th>
+      <td>58203</td>
+      <td>Gouin / de Pierrefonds</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>3</th>
+      <td>58199</td>
+      <td>des Sources / de Pierrefonds</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>4</th>
+      <td>58206</td>
+      <td>des Sources / Ross</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>5</th>
+      <td>57894</td>
+      <td>des Sources / Anselme-Lavigne</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>6</th>
+      <td>57898</td>
+      <td>des Sources / Belcourt</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>7</th>
+      <td>58001</td>
+      <td>des Sources / 14e Rue</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>8</th>
+      <td>57906</td>
+      <td>des Sources / Roger-Pilon</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>9</th>
+      <td>57912</td>
+      <td>des Sources / Churchill</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>10</th>
+      <td>57924</td>
+      <td>des Sources / Hyman</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>11</th>
+      <td>57932</td>
+      <td>des Sources / de Salaberry</td>
+    </tr>
+    <tr>
+      <th>B</th>
+      <th>12</th>
+      <td>57945</td>
+      <td>des Sources / Brunswick</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>13</th>
+      <td>57369</td>
+      <td>des Sources / Hymus</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>14</th>
+      <td>57781</td>
+      <td>des Sources / Avro</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>15</th>
+      <td>57596</td>
+      <td>des Sources / de l'Aviation</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>16</th>
+      <td>57597</td>
+      <td>des Sources / Avro</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>17</th>
+      <td>57755</td>
+      <td>des Sources / Saint-Louis</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>18</th>
+      <td>57791</td>
+      <td>des Sources / No 1733</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>19</th>
+      <td>57760</td>
+      <td>des Sources / Belmont</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>20</th>
+      <td>57762</td>
+      <td>des Sources / Chanteclerc</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>21</th>
+      <td>57379</td>
+      <td>Cardinal / Strathmore</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>22</th>
+      <td>57394</td>
+      <td>Cardinal / Neptune</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>23</th>
+      <td>57421</td>
+      <td>Gare Pine Beach (Cardinal / Pine Beach)</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>24</th>
+      <td>57535</td>
+      <td>Cardinal / Stuart-Graham</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>25</th>
+      <td>57516</td>
+      <td>Albert-de-Niverville / Arthur-Fecteau</td>
+    </tr>
+    <tr>
+      <th>C</th>
+      <th>26</th>
+      <td>61261</td>
+      <td>YUL Aéroport Montréal-Trudeau</td>
+    </tr>
+    <tr>
+      <th>D</th>
+      <th>27</th>
+      <td>57507</td>
+      <td>Terminus Dorval</td>
+    </tr>
+    <tr>
+      <th>E</th>
+      <th>28</th>
+      <td>52286</td>
+      <td>René-Lévesque / Saint-Mathieu</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>29</th>
+      <td>52374</td>
+      <td>René-Lévesque / Bishop</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>30</th>
+      <td>61807</td>
+      <td>René-Lévesque / Stanley</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>31</th>
+      <td>52530</td>
+      <td>René-Lévesque / Mansfield</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>32</th>
+      <td>53918</td>
+      <td>René-Lévesque / Union</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>33</th>
+      <td>60683</td>
+      <td>René-Lévesque / Jeanne-Mance</td>
+    </tr>
+    <tr>
+      <th>▲</th>
+      <th>34</th>
+      <td>61042</td>
+      <td>Station Place-des-Arts (Président-Kennedy / Jeanne</td>
+    </tr>
+  </tbody>
+</table>
+
+
+  </div>
+  <div class="column">
+    <h3>Direction Ouest</h3>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th>Repère</th>
+      <th>Séq</th>
+      <th colspan="2">Arrêt / Intersection</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>F</th>
+      <th>1</th>
+      <td>61042</td>
+      <td>Station Place-des-Arts (Président-Kennedy / Jeanne</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>2</th>
+      <td>52679</td>
+      <td>De Bleury / René-Lévesque</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>3</th>
+      <td>52625</td>
+      <td>Place du Frère-André</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>4</th>
+      <td>52529</td>
+      <td>René-Lévesque / Mansfield</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>5</th>
+      <td>52463</td>
+      <td>René-Lévesque / Stanley</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>6</th>
+      <td>52373</td>
+      <td>René-Lévesque / Bishop</td>
+    </tr>
+    <tr>
+      <th>G</th>
+      <th>7</th>
+      <td>52284</td>
+      <td>René-Lévesque / Saint-Mathieu</td>
+    </tr>
+    <tr>
+      <th>H</th>
+      <th>8</th>
+      <td>57540</td>
+      <td>Terminus Dorval</td>
+    </tr>
+    <tr>
+      <th>I</th>
+      <th>9</th>
+      <td>57508</td>
+      <td>YUL Aéroport Montréal-Trudeau</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>10</th>
+      <td>57515</td>
+      <td>Albert-de-Niverville / Rodolphe-Pagé</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>11</th>
+      <td>57534</td>
+      <td>Cardinal / Stuart-Graham</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>12</th>
+      <td>57420</td>
+      <td>Gare Pine Beach (Cardinal / Westwood)</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>13</th>
+      <td>57392</td>
+      <td>Cardinal / Neptune</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>14</th>
+      <td>60402</td>
+      <td>Cardinal / Strathmore</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>15</th>
+      <td>57761</td>
+      <td>des Sources / Chanteclerc</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>16</th>
+      <td>57759</td>
+      <td>des Sources / Belmont</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>17</th>
+      <td>57366</td>
+      <td>des Sources / No 1733</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>18</th>
+      <td>57756</td>
+      <td>des Sources / Reverchon</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>19</th>
+      <td>57598</td>
+      <td>des Sources / Gérald-Hervey</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>20</th>
+      <td>57783</td>
+      <td>des Sources / de l'Aviation</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>21</th>
+      <td>57782</td>
+      <td>des Sources / Avro</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>22</th>
+      <td>57367</td>
+      <td>des Sources / Transcanadienne</td>
+    </tr>
+    <tr>
+      <th>J</th>
+      <th>23</th>
+      <td>57947</td>
+      <td>des Sources / Brunswick</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>24</th>
+      <td>57930</td>
+      <td>des Sources / de Salaberry</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>25</th>
+      <td>57923</td>
+      <td>des Sources / Hyman</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>26</th>
+      <td>57910</td>
+      <td>des Sources / Sunnydale</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>27</th>
+      <td>57905</td>
+      <td>des Sources / Roger-Pilon</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>28</th>
+      <td>58000</td>
+      <td>des Sources / 14e Rue</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>29</th>
+      <td>57999</td>
+      <td>des Sources / 9e Rue</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>30</th>
+      <td>57893</td>
+      <td>des Sources / Anselme-Lavigne</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>31</th>
+      <td>58205</td>
+      <td>des Sources / Ross</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>32</th>
+      <td>58198</td>
+      <td>des Sources / de Pierrefonds</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>33</th>
+      <td>58202</td>
+      <td>de Pierrefonds / Gouin</td>
+    </tr>
+    <tr>
+      <th>▲</th>
+      <th>34</th>
+      <td>62578</td>
+      <td>Station Pierrefonds-Roxboro</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+</div>
+
+<h2 id="horaire">Horaire suggéré</h2>
+
+    
   
 </body>
 </html>

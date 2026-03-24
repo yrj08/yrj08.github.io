@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <title>Ligne 350</title>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
@@ -9,10 +10,30 @@
 <script src="routeMap.js"></script>
 
 <style>
+* {box-sizing: border-box;}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
 #map { height: 100vh; }
 </style>
 </head>
-
 <body>
 <h1>Ligne 350 • Verdun / LaSalle</h1>
 
@@ -39,32 +60,28 @@ createRouteMap({
       shape: "circle",
       radius: 3,
       weight: 8,
-      opacity: 0.5
-    },
+      opacity: 0.5},
 
     "current_inbound": {
       color: "#E28D1D",
       shape: "circle",
       radius: 3,
       weight: 8,
-      opacity: 0.5
-    },
+      opacity: 0.5},
 
     "added_outbound": {
       color: "#9C2DFB",
       shape: "circle",
       radius: 4,
       weight: 4,
-      borderweight: 3
-    },
+      borderweight: 3},
 
     "added_inbound": {
       color: "#CF9CFF",
       shape: "circle",
       radius: 4,
       weight: 4, 
-      borderweight: 3
-    }
+      borderweight: 3}
   }
   
 });
@@ -73,7 +90,7 @@ createRouteMap({
 <h2 id="changements">Modifications proposées</h2>
 <ul>
   <li>Retrait du service via métro Atwater : pôle d'échange déplacé à la station 
-    Lionel-Groulx;</li>
+    Guy-Concordia;</li>
   <li>Ajustement du parcours entre Papineau et Frontenac pour compenser au retrait 
     de la ligne 358;</li>
   <li>Retrait du service à l'ouest de Shevchenko jusqu'au Terminus Lafleur / Newman; 
@@ -117,14 +134,16 @@ createRouteMap({
 
 <h2 id="arrets">Liste d'arrêts desservis</h2>
 
-<h3>Direction Est</h3>
+<div class="row">
+  <div class="column">
+    <h3>Direction Est</h3>
 
 <table border="1" class="dataframe">
   <thead>
     <tr>
       <th>Repère</th>
       <th>Séq</th>
-      <th colspan=""2"">Arrêt / Intersection</th>
+      <th colspan="2">Arrêt / Intersection</th>
     </tr>
   </thead>
   <tbody>
@@ -514,14 +533,16 @@ createRouteMap({
     </tr>
   </tbody>
 </table>
+  </div>
+  <div class="column">
+    <h3>Direction Ouest</h3>
   
-<h3>Direction Ouest</h3>
 <table border="1" class="dataframe">
   <thead>
     <tr>
       <th>Repère</th>
       <th>Séq</th>
-      <th colspan=""2"">Arrêt / Intersection</th>
+      <th colspan="2">Arrêt / Intersection</th>
     </tr>
   </thead>
   <tbody>
@@ -905,8 +926,13 @@ createRouteMap({
     </tr>
   </tbody>
 </table>
-  
+  </div>
+</div>
+
 <h2 id="horaire">Horaire suggéré</h2>
+
+
+
   
 </body>
 </html>

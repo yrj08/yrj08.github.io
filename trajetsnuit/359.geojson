@@ -262,7 +262,34 @@
                         [-73.551704,45.523278],[-73.551729,45.523294],[-73.552782,45.523773]]
       }
     },
-
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Papineau / Prieur (50431)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.655548,
+          45.569139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fleury / Charton (50485)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.652519,
+          45.569678
+        ]
+      }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -728,14 +755,14 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Fleury / Papineau (50471)",
+        "name": "Papineau / Fleury (62368)",
         "direction": "inbound"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.653374,
-          45.568339
+          -73.652737,
+          45.567694
         ]
       }
     },

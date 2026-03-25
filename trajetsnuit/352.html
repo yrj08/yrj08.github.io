@@ -89,6 +89,8 @@ createRouteMap({
       <th>Repère</th>
       <th>Séq</th>
       <th colspan="2">Arrêt / Intersection</th>
+      <th>Dist<br>(m)</th>
+      <th>Cumul<br>(km)</th>
     </tr>
   </thead>
   <tbody>
@@ -97,372 +99,496 @@ createRouteMap({
       <th>1</th>
       <td>56759</td>
       <td>Terminus Lafleur / Newman</td>
+      <td>––</td>
+      <td>––</td>
     </tr>
     <tr>
       <th></th>
       <th>2</th>
       <td>61551</td>
       <td>Lafleur / Centrale</td>
+      <td>403</td>
+      <td>0.4</td>
     </tr>
     <tr>
       <th></th>
       <th>3</th>
       <td>56766</td>
       <td>LaSalle / Lafleur</td>
+      <td>311</td>
+      <td>0.7</td>
     </tr>
     <tr>
       <th></th>
       <th>4</th>
       <td>56774</td>
       <td>LaSalle / Orchard</td>
+      <td>198</td>
+      <td>0.9</td>
     </tr>
     <tr>
       <th></th>
       <th>5</th>
       <td>56791</td>
       <td>90e Avenue / Centrale</td>
+      <td>520</td>
+      <td>1.4</td>
     </tr>
     <tr>
       <th></th>
       <th>6</th>
       <td>56813</td>
       <td>Centrale / Cavelier-De LaSalle</td>
+      <td>360</td>
+      <td>1.8</td>
     </tr>
     <tr>
       <th></th>
       <th>7</th>
       <td>56824</td>
       <td>Centrale / Duquette</td>
+      <td>282</td>
+      <td>2.1</td>
     </tr>
     <tr>
       <th></th>
       <th>8</th>
       <td>57098</td>
       <td>75e Avenue / LaSalle</td>
+      <td>434</td>
+      <td>2.5</td>
     </tr>
     <tr>
       <th></th>
       <th>9</th>
       <td>56870</td>
       <td>LaSalle / No 8912</td>
+      <td>283</td>
+      <td>2.8</td>
     </tr>
     <tr>
       <th></th>
       <th>10</th>
       <td>56883</td>
       <td>Centrale / 66e Avenue</td>
+      <td>429</td>
+      <td>3.2</td>
     </tr>
     <tr>
       <th>B</th>
       <th>11</th>
       <td>56911</td>
       <td>Centrale / 63e Avenue</td>
+      <td>359</td>
+      <td>3.6</td>
     </tr>
     <tr>
       <th></th>
       <th>12</th>
       <td>56927</td>
       <td>Centrale / 43e Avenue</td>
+      <td>201</td>
+      <td>3.8</td>
     </tr>
     <tr>
       <th></th>
       <th>13</th>
       <td>56937</td>
       <td>Centrale / 40e Avenue</td>
+      <td>178</td>
+      <td>4.0</td>
     </tr>
     <tr>
       <th></th>
       <th>14</th>
       <td>56954</td>
       <td>Centrale / 35e Avenue</td>
+      <td>287</td>
+      <td>4.2</td>
     </tr>
     <tr>
       <th></th>
       <th>15</th>
       <td>56958</td>
       <td>Centrale / 31e Avenue</td>
+      <td>131</td>
+      <td>4.4</td>
     </tr>
     <tr>
       <th></th>
       <th>16</th>
       <td>57026</td>
       <td>Raymond / Mongeau</td>
+      <td>318</td>
+      <td>4.7</td>
     </tr>
     <tr>
       <th></th>
       <th>17</th>
       <td>56961</td>
       <td>Raymond / Lévis-Sauvé</td>
+      <td>151</td>
+      <td>4.8</td>
     </tr>
     <tr>
       <th></th>
       <th>18</th>
       <td>56967</td>
       <td>George / Gamelin</td>
+      <td>349</td>
+      <td>5.2</td>
     </tr>
     <tr>
       <th></th>
       <th>19</th>
       <td>56977</td>
       <td>George / Gagné</td>
+      <td>145</td>
+      <td>5.3</td>
     </tr>
     <tr>
       <th></th>
       <th>20</th>
       <td>56971</td>
       <td>Bishop-Power / Champlain</td>
+      <td>505</td>
+      <td>5.8</td>
     </tr>
     <tr>
       <th></th>
       <th>21</th>
       <td>57087</td>
       <td>Bourdeau / No 7675</td>
+      <td>429</td>
+      <td>6.3</td>
     </tr>
     <tr>
       <th>C</th>
       <th>22</th>
       <td>57059</td>
       <td>Cégep André-Laurendeau</td>
+      <td>707</td>
+      <td>7.0</td>
     </tr>
     <tr>
       <th></th>
       <th>23</th>
       <td>56965</td>
       <td>Lapierre / Leclerc</td>
+      <td>316</td>
+      <td>7.3</td>
     </tr>
     <tr>
       <th></th>
       <th>24</th>
       <td>56955</td>
       <td>Lapierre / Jean-Chevalier</td>
+      <td>221</td>
+      <td>7.5</td>
     </tr>
     <tr>
       <th></th>
       <th>25</th>
       <td>62321</td>
       <td>Lapierre / Jean-Brillon</td>
+      <td>194</td>
+      <td>7.7</td>
     </tr>
     <tr>
       <th></th>
       <th>26</th>
       <td>62322</td>
       <td>Lapierre / Chouinard</td>
+      <td>261</td>
+      <td>8.0</td>
     </tr>
     <tr>
       <th></th>
       <th>27</th>
       <td>62323</td>
       <td>Lapierre / Newman</td>
+      <td>371</td>
+      <td>8.3</td>
     </tr>
     <tr>
       <th>D</th>
       <th>28</th>
       <td>56920</td>
       <td>Newman / Léger</td>
+      <td>361</td>
+      <td>8.7</td>
     </tr>
     <tr>
       <th></th>
       <th>29</th>
       <td>56938</td>
       <td>Newman / No 7214</td>
+      <td>257</td>
+      <td>9.0</td>
     </tr>
     <tr>
       <th></th>
       <th>30</th>
       <td>56945</td>
       <td>Newman / Senkus</td>
+      <td>226</td>
+      <td>9.2</td>
     </tr>
     <tr>
       <th></th>
       <th>31</th>
       <td>56960</td>
       <td>Newman / Angrignon</td>
+      <td>516</td>
+      <td>9.7</td>
     </tr>
     <tr>
       <th></th>
       <th>32</th>
       <td>56970</td>
       <td>Carrefour Angrignon (Newman / No 6900)</td>
+      <td>274</td>
+      <td>10.0</td>
     </tr>
     <tr>
       <th></th>
       <th>33</th>
       <td>57085</td>
       <td>Newman / Irwin</td>
+      <td>280</td>
+      <td>10.3</td>
     </tr>
     <tr>
       <th></th>
       <th>34</th>
       <td>51569</td>
       <td>Newman / Résidence Y.-Brunet</td>
+      <td>306</td>
+      <td>10.6</td>
     </tr>
     <tr>
       <th></th>
       <th>35</th>
-      <td>61613</td>
-      <td>Marc-Chagall / Kildare</td>
+      <td>51613</td>
+      <td>Jolicoeur / Jogues</td>
+      <td>240</td>
+      <td>10.8</td>
     </tr>
     <tr>
       <th></th>
       <th>36</th>
       <td>51668</td>
       <td>Jolicoeur / Dumas</td>
+      <td>204</td>
+      <td>11.0</td>
     </tr>
     <tr>
       <th></th>
       <th>37</th>
       <td>51778</td>
       <td>Jolicoeur / Monk</td>
+      <td>336</td>
+      <td>11.3</td>
     </tr>
     <tr>
       <th></th>
       <th>38</th>
       <td>62111</td>
       <td>Monk / Jacques-Hertel</td>
+      <td>340</td>
+      <td>11.7</td>
     </tr>
     <tr>
       <th></th>
       <th>39</th>
       <td>51696</td>
       <td>Monk / Pierre-Héroux</td>
+      <td>324</td>
+      <td>12.0</td>
     </tr>
     <tr>
       <th></th>
       <th>40</th>
       <td>54392</td>
       <td>Monk / de la Côte-Saint-Paul</td>
+      <td>313</td>
+      <td>12.3</td>
     </tr>
     <tr>
       <th>E</th>
       <th>41</th>
       <td>51775</td>
       <td>École James-Lyng (Notre-Dame / de Carillon)</td>
+      <td>573</td>
+      <td>12.9</td>
     </tr>
     <tr>
       <th></th>
       <th>42</th>
       <td>51874</td>
       <td>Notre-Dame / Saint-Rémi</td>
+      <td>404</td>
+      <td>13.3</td>
     </tr>
     <tr>
       <th></th>
       <th>43</th>
       <td>51936</td>
       <td>Notre-Dame / De Courcelle</td>
+      <td>335</td>
+      <td>13.6</td>
     </tr>
     <tr>
       <th></th>
       <th>44</th>
       <td>53954</td>
       <td>Square Sir-George-Étienne-Cartier</td>
+      <td>198</td>
+      <td>13.8</td>
     </tr>
     <tr>
       <th></th>
       <th>45</th>
       <td>51987</td>
       <td>Station Place-Saint-Henri / Saint-Ferdinand</td>
+      <td>559</td>
+      <td>14.4</td>
     </tr>
     <tr>
       <th></th>
       <th>46</th>
       <td>52123</td>
       <td>Notre-Dame / Turgeon</td>
+      <td>481</td>
+      <td>14.9</td>
     </tr>
     <tr>
       <th></th>
       <th>47</th>
       <td>62063</td>
       <td>Notre-Dame / Bérard</td>
+      <td>245</td>
+      <td>15.1</td>
     </tr>
     <tr>
       <th>F</th>
       <th>48</th>
       <td>52246</td>
       <td>Notre-Dame / Atwater</td>
+      <td>143</td>
+      <td>15.3</td>
     </tr>
     <tr>
       <th></th>
       <th>49</th>
       <td>52321</td>
       <td>Notre-Dame / Charlevoix</td>
+      <td>258</td>
+      <td>15.5</td>
     </tr>
     <tr>
       <th></th>
       <th>50</th>
       <td>52447</td>
       <td>Notre-Dame / Georges-Vanier</td>
+      <td>404</td>
+      <td>15.9</td>
     </tr>
     <tr>
       <th></th>
       <th>51</th>
       <td>52548</td>
       <td>Notre-Dame / des Seigneurs</td>
+      <td>378</td>
+      <td>16.3</td>
     </tr>
     <tr>
       <th></th>
       <th>52</th>
       <td>61743</td>
       <td>Notre-Dame / Guy</td>
+      <td>302</td>
+      <td>16.6</td>
     </tr>
     <tr>
       <th></th>
       <th>53</th>
       <td>58803</td>
       <td>Notre-Dame / de la Montagne</td>
+      <td>357</td>
+      <td>17.0</td>
     </tr>
     <tr>
       <th>G</th>
       <th>54</th>
       <td>62248</td>
       <td>Notre-Dame / Peel</td>
+      <td>307</td>
+      <td>17.3</td>
     </tr>
     <tr>
       <th></th>
       <th>55</th>
       <td>62249</td>
       <td>Notre-Dame / de l'Inspecteur</td>
+      <td>280</td>
+      <td>17.5</td>
     </tr>
     <tr>
       <th></th>
       <th>56</th>
       <td>52666</td>
       <td>Robert-Bourassa / De La Gauchetière</td>
+      <td>523</td>
+      <td>18.1</td>
     </tr>
     <tr>
       <th></th>
       <th>57</th>
       <td>52588</td>
       <td>Robert-Bourassa / René-Lévesque</td>
+      <td>262</td>
+      <td>18.3</td>
     </tr>
     <tr>
       <th></th>
       <th>58</th>
       <td>52499</td>
       <td>Robert-Bourassa / Sainte-Catherine</td>
+      <td>222</td>
+      <td>18.6</td>
     </tr>
     <tr>
       <th></th>
       <th>59</th>
       <td>52412</td>
       <td>Station McGill (R.-Bourassa / Président-Kennedy)</td>
+      <td>208</td>
+      <td>18.8</td>
     </tr>
     <tr>
       <th></th>
       <th>60</th>
       <td>52439</td>
       <td>du Président-Kennedy / Aylmer</td>
+      <td>186</td>
+      <td>18.9</td>
     </tr>
     <tr>
       <th></th>
       <th>61</th>
       <td>52517</td>
       <td>Station Place-des-Arts (Pr.-Kennedy/Bleury)</td>
+      <td>208</td>
+      <td>19.2</td>
     </tr>
     <tr>
       <th>▲</th>
       <th>62</th>
       <td>61108</td>
       <td>du Président-Kennedy / Saint-Urbain</td>
+      <td>830</td>
+      <td>20.0</td>
     </tr>
   </tbody>
 </table>
@@ -477,380 +603,506 @@ createRouteMap({
       <th>Repère</th>
       <th>Séq</th>
       <th colspan="2">Arrêt / Intersection</th>
+      <th>Dist<br>(m)</th>
+      <th>Cumul<br>(km)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>A</th>
+      <th>H</th>
       <th>1</th>
       <td>61108</td>
       <td>du Président-Kennedy / Saint-Urbain</td>
+      <td>––</td>
+      <td>––</td>
     </tr>
     <tr>
       <th></th>
       <th>2</th>
       <td>52516</td>
       <td>Station Place-des-Arts (Président-Kennedy / De Ble</td>
+      <td>237</td>
+      <td>0.2</td>
     </tr>
     <tr>
       <th></th>
       <th>3</th>
       <td>52438</td>
       <td>du Président-Kennedy / Aylmer</td>
+      <td>265</td>
+      <td>0.5</td>
     </tr>
     <tr>
       <th></th>
       <th>4</th>
       <td>52451</td>
       <td>Station McGill (Union / De Maisonneuve)</td>
+      <td>141</td>
+      <td>0.6</td>
     </tr>
     <tr>
       <th></th>
       <th>5</th>
       <td>52527</td>
       <td>Union / Sainte-Catherine</td>
+      <td>180</td>
+      <td>0.8</td>
     </tr>
     <tr>
       <th></th>
       <th>6</th>
       <td>52669</td>
       <td>du Beaver Hall / Belmont</td>
+      <td>407</td>
+      <td>1.2</td>
     </tr>
     <tr>
       <th></th>
       <th>7</th>
       <td>52705</td>
       <td>Station Square-Victoria-OACI</td>
+      <td>231</td>
+      <td>1.5</td>
     </tr>
     <tr>
       <th></th>
       <th>8</th>
       <td>62354</td>
       <td>Saint-Jacques / Mansfield</td>
+      <td>518</td>
+      <td>2.0</td>
     </tr>
     <tr>
-      <th>B</th>
+      <th>I</th>
       <th>9</th>
       <td>62355</td>
       <td>Notre-Dame / Peel</td>
+      <td>405</td>
+      <td>2.4</td>
     </tr>
     <tr>
       <th></th>
       <th>10</th>
       <td>62254</td>
       <td>Notre-Dame / de la Montagne</td>
+      <td>303</td>
+      <td>2.7</td>
     </tr>
     <tr>
       <th></th>
       <th>11</th>
       <td>61751</td>
       <td>Notre-Dame / Guy</td>
+      <td>321</td>
+      <td>3.0</td>
     </tr>
     <tr>
       <th></th>
       <th>12</th>
       <td>52549</td>
       <td>Notre-Dame / des Seigneurs</td>
+      <td>357</td>
+      <td>3.4</td>
     </tr>
     <tr>
       <th></th>
       <th>13</th>
       <td>52446</td>
       <td>Notre-Dame / Georges-Vanier</td>
+      <td>323</td>
+      <td>3.7</td>
     </tr>
     <tr>
       <th></th>
       <th>14</th>
       <td>62229</td>
       <td>Notre-Dame / Charlevoix</td>
+      <td>376</td>
+      <td>4.1</td>
     </tr>
     <tr>
-      <th>C</th>
+      <th>J</th>
       <th>15</th>
       <td>52244</td>
       <td>Notre-Dame / Atwater</td>
+      <td>257</td>
+      <td>4.3</td>
     </tr>
     <tr>
       <th></th>
       <th>16</th>
       <td>52169</td>
       <td>Notre-Dame / Rose-de-Lima</td>
+      <td>234</td>
+      <td>4.6</td>
     </tr>
     <tr>
       <th></th>
       <th>17</th>
       <td>52122</td>
       <td>Notre-Dame / Turgeon</td>
+      <td>173</td>
+      <td>4.7</td>
     </tr>
     <tr>
       <th></th>
       <th>18</th>
       <td>53816</td>
       <td>Notre-Dame / Place Saint-Henri</td>
+      <td>266</td>
+      <td>5.0</td>
     </tr>
     <tr>
       <th></th>
       <th>19</th>
       <td>62162</td>
       <td>Notre-Dame / Lacasse</td>
+      <td>420</td>
+      <td>5.4</td>
     </tr>
     <tr>
       <th></th>
       <th>20</th>
       <td>51935</td>
       <td>Notre-Dame / De Courcelle</td>
+      <td>205</td>
+      <td>5.6</td>
     </tr>
     <tr>
       <th></th>
       <th>21</th>
       <td>51872</td>
       <td>Notre-Dame / Saint-Rémi</td>
+      <td>284</td>
+      <td>5.9</td>
     </tr>
     <tr>
-      <th>D</th>
+      <th>K</th>
       <th>22</th>
       <td>51774</td>
       <td>Notre-Dame / de Carillon</td>
+      <td>405</td>
+      <td>6.3</td>
     </tr>
     <tr>
       <th></th>
       <th>23</th>
       <td>54393</td>
       <td>Monk / Philippe-Turcot</td>
+      <td>585</td>
+      <td>6.9</td>
     </tr>
     <tr>
       <th></th>
       <th>24</th>
       <td>51697</td>
       <td>Monk / Pierre-Héroux</td>
+      <td>433</td>
+      <td>7.3</td>
     </tr>
     <tr>
       <th></th>
       <th>25</th>
       <td>51747</td>
       <td>Monk / Jacques-Hertel</td>
+      <td>250</td>
+      <td>7.6</td>
     </tr>
     <tr>
       <th></th>
       <th>26</th>
       <td>51777</td>
       <td>Monk / Jolicoeur</td>
+      <td>331</td>
+      <td>7.9</td>
     </tr>
     <tr>
       <th></th>
       <th>27</th>
       <td>51667</td>
       <td>Jolicoeur / Dumas</td>
+      <td>337</td>
+      <td>8.2</td>
     </tr>
     <tr>
       <th></th>
       <th>28</th>
       <td>51612</td>
       <td>Jolicoeur / Jogues</td>
+      <td>201</td>
+      <td>8.4</td>
     </tr>
     <tr>
       <th></th>
       <th>29</th>
       <td>51568</td>
       <td>Newman / Jean-Béraud</td>
+      <td>329</td>
+      <td>8.8</td>
     </tr>
     <tr>
       <th></th>
       <th>30</th>
       <td>51547</td>
       <td>Newman / Joseph-Arthur-Cousineau</td>
+      <td>125</td>
+      <td>8.9</td>
     </tr>
     <tr>
       <th></th>
       <th>31</th>
       <td>56969</td>
       <td>Carrefour Angrignon (Newman / No 6767)</td>
+      <td>365</td>
+      <td>9.3</td>
     </tr>
     <tr>
-      <th>E</th>
+      <th>L</th>
       <th>32</th>
       <td>57060</td>
       <td>Newman / Angrignon</td>
+      <td>430</td>
+      <td>9.7</td>
     </tr>
     <tr>
       <th></th>
       <th>33</th>
       <td>56943</td>
       <td>Newman / Senkus</td>
+      <td>347</td>
+      <td>10.0</td>
     </tr>
     <tr>
       <th></th>
       <th>34</th>
       <td>57046</td>
       <td>Newman / No 7214</td>
+      <td>271</td>
+      <td>10.3</td>
     </tr>
     <tr>
       <th></th>
       <th>35</th>
       <td>56918</td>
       <td>Newman / Léger</td>
+      <td>214</td>
+      <td>10.5</td>
     </tr>
     <tr>
       <th></th>
       <th>36</th>
       <td>62324</td>
       <td>Lapierre / Newman</td>
+      <td>431</td>
+      <td>11.0</td>
     </tr>
     <tr>
       <th></th>
       <th>37</th>
       <td>62325</td>
       <td>Lapierre / Chouinard</td>
+      <td>333</td>
+      <td>11.3</td>
     </tr>
     <tr>
       <th></th>
       <th>38</th>
       <td>62326</td>
       <td>Lapierre / Jean-Brillon</td>
+      <td>263</td>
+      <td>11.6</td>
     </tr>
     <tr>
       <th></th>
       <th>39</th>
       <td>56956</td>
       <td>Lapierre / Jean-Chevalier</td>
+      <td>198</td>
+      <td>11.8</td>
     </tr>
     <tr>
       <th></th>
       <th>40</th>
       <td>56966</td>
       <td>Lapierre / Leclerc</td>
+      <td>224</td>
+      <td>12.0</td>
     </tr>
     <tr>
-      <th>F</th>
+      <th>M</th>
       <th>41</th>
       <td>57058</td>
       <td>Cégep André-Laurendeau</td>
+      <td>352</td>
+      <td>12.3</td>
     </tr>
     <tr>
       <th></th>
       <th>42</th>
       <td>57086</td>
       <td>De La Vérendrye / Melatti</td>
+      <td>570</td>
+      <td>12.9</td>
     </tr>
     <tr>
       <th></th>
       <th>43</th>
       <td>56973</td>
       <td>Bishop-Power / George</td>
+      <td>618</td>
+      <td>13.5</td>
     </tr>
     <tr>
       <th></th>
       <th>44</th>
       <td>56976</td>
       <td>George / Gagné</td>
+      <td>416</td>
+      <td>13.9</td>
     </tr>
     <tr>
       <th></th>
       <th>45</th>
       <td>60242</td>
       <td>George / Albert-Couture</td>
+      <td>263</td>
+      <td>14.2</td>
     </tr>
     <tr>
       <th></th>
       <th>46</th>
       <td>56962</td>
       <td>Raymond / Lévis-Sauvé</td>
+      <td>232</td>
+      <td>14.4</td>
     </tr>
     <tr>
       <th></th>
       <th>47</th>
       <td>57027</td>
       <td>Raymond / Mongeau</td>
+      <td>168</td>
+      <td>14.6</td>
     </tr>
     <tr>
       <th></th>
       <th>48</th>
       <td>56957</td>
       <td>Centrale / 31e Avenue</td>
+      <td>302</td>
+      <td>14.9</td>
     </tr>
     <tr>
       <th></th>
       <th>49</th>
       <td>56952</td>
       <td>Centrale / 35e Avenue</td>
+      <td>136</td>
+      <td>15.0</td>
     </tr>
     <tr>
       <th></th>
       <th>50</th>
       <td>56936</td>
       <td>Centrale / 40e Avenue</td>
+      <td>276</td>
+      <td>15.3</td>
     </tr>
     <tr>
       <th></th>
       <th>51</th>
       <td>56926</td>
       <td>Centrale / 43e Avenue</td>
+      <td>189</td>
+      <td>15.5</td>
     </tr>
     <tr>
-      <th>G</th>
+      <th>N</th>
       <th>52</th>
       <td>56910</td>
       <td>Centrale / 63e Avenue</td>
+      <td>238</td>
+      <td>15.7</td>
     </tr>
     <tr>
       <th></th>
       <th>53</th>
       <td>56882</td>
       <td>Centrale / 66e Avenue</td>
+      <td>327</td>
+      <td>16.1</td>
     </tr>
     <tr>
       <th></th>
       <th>54</th>
       <td>56872</td>
       <td>LaSalle / No 8912</td>
+      <td>402</td>
+      <td>16.5</td>
     </tr>
     <tr>
       <th></th>
       <th>55</th>
       <td>57099</td>
       <td>75e Avenue / LaSalle</td>
+      <td>345</td>
+      <td>16.8</td>
     </tr>
     <tr>
       <th></th>
       <th>56</th>
       <td>56823</td>
       <td>Centrale / Duquette</td>
+      <td>391</td>
+      <td>17.2</td>
     </tr>
     <tr>
       <th></th>
       <th>57</th>
       <td>56814</td>
       <td>Centrale / Cavelier-De LaSalle</td>
+      <td>271</td>
+      <td>17.5</td>
     </tr>
     <tr>
       <th></th>
       <th>58</th>
       <td>62274</td>
       <td>90e Avenue / Centrale</td>
+      <td>400</td>
+      <td>17.9</td>
     </tr>
     <tr>
       <th></th>
       <th>59</th>
       <td>57064</td>
       <td>LaSalle / Orchard</td>
+      <td>493</td>
+      <td>18.4</td>
     </tr>
     <tr>
       <th></th>
       <th>60</th>
       <td>56765</td>
       <td>LaSalle / Lafleur</td>
+      <td>246</td>
+      <td>18.6</td>
     </tr>
     <tr>
       <th></th>
       <th>61</th>
       <td>56768</td>
       <td>Lafleur / Chatelle</td>
+      <td>206</td>
+      <td>18.8</td>
     </tr>
     <tr>
       <th>▲</th>
       <th>62</th>
       <td>56759</td>
       <td>Terminus Lafleur / Newman</td>
+      <td>487</td>
+      <td>19.3</td>
     </tr>
   </tbody>
 </table>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ligne 361</title>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
@@ -9,6 +9,27 @@
 <script src="routeMap.js"></script>
 
 <style>
+* {box-sizing: border-box;}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
 #map { height: 100vh; }
 </style>
 </head>
@@ -16,8 +37,12 @@
 <body>
 <h1>Ligne 361 • Saint-Denis</h1>
   
-<p><a href="#changements">Modifications proposées</a></p>
-<p><a href="#pourquoi">Raisonnement des modifications</a></p>
+<p>
+  <a href="#changements">Modifications proposées</a><br>
+  <a href="#pourquoi">Raisonnement des modifications</a><br>
+  <a href="#arrets">Liste d'arrêts desservis</a><br>
+  <a href="#horaire">Horaire suggéré</a>
+</p>
   
 <div id="map"></div>
 
@@ -92,5 +117,677 @@ createRouteMap({
     nombre d'arrêts.</li>
 </ul>
 
+<h2 id="arrets">Liste d'arrêts desservis</h2>
+
+<div class="row">
+  <div class="column">
+    <h3>Direction Nord</h3>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th>Repère</th>
+      <th>Séq</th>
+      <th colspan="2">Arrêt / Intersection</th>
+      <th>Dist<br>(m)</th>
+      <th>Cumul<br>(km)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>A</th>
+      <th>1</th>
+      <td>52968</td>
+      <td>Notre-Dame / Saint-Gabriel</td>
+      <td>––</td>
+      <td>––</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>2</th>
+      <td>53674</td>
+      <td>Station Champ-de-Mars (St-Antoine / Gosford)</td>
+      <td>514</td>
+      <td>0.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>3</th>
+      <td>52976</td>
+      <td>Berri / Viger</td>
+      <td>432</td>
+      <td>0.9</td>
+    </tr>
+    <tr>
+      <th>B</th>
+      <th>4</th>
+      <td>52904</td>
+      <td>Berri / René-Lévesque</td>
+      <td>204</td>
+      <td>1.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>5</th>
+      <td>61153</td>
+      <td>Station Berri-UQAM</td>
+      <td>301</td>
+      <td>1.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>6</th>
+      <td>52662</td>
+      <td>Berri / Ontario</td>
+      <td>411</td>
+      <td>1.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>7</th>
+      <td>52506</td>
+      <td>Station Sherbrooke (Édicule Est)</td>
+      <td>357</td>
+      <td>2.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>8</th>
+      <td>52390</td>
+      <td>Roy / Rivard</td>
+      <td>392</td>
+      <td>2.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>9</th>
+      <td>61891</td>
+      <td>Saint-Denis / Duluth</td>
+      <td>393</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>10</th>
+      <td>61895</td>
+      <td>Saint-Denis / Rachel</td>
+      <td>207</td>
+      <td>3.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>11</th>
+      <td>61896</td>
+      <td>Saint-Denis / du Mont-Royal</td>
+      <td>436</td>
+      <td>3.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>12</th>
+      <td>61898</td>
+      <td>Saint-Denis / De Bienville</td>
+      <td>177</td>
+      <td>3.8</td>
+    </tr>
+    <tr>
+      <th>C</th>
+      <th>13</th>
+      <td>61899</td>
+      <td>Saint-Denis / Saint-Joseph</td>
+      <td>282</td>
+      <td>4.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>14</th>
+      <td>61902</td>
+      <td>Saint-Denis / Boucher</td>
+      <td>367</td>
+      <td>4.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>15</th>
+      <td>61904</td>
+      <td>Saint-Denis / du Carmel</td>
+      <td>195</td>
+      <td>4.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>16</th>
+      <td>51646</td>
+      <td>Station Rosemont (Saint-Denis / Rosemont)</td>
+      <td>365</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>17</th>
+      <td>61906</td>
+      <td>Saint-Denis / de Bellechasse</td>
+      <td>385</td>
+      <td>5.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>18</th>
+      <td>51508</td>
+      <td>Station Beaubien (Saint-Denis / Beaubien)</td>
+      <td>247</td>
+      <td>5.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>19</th>
+      <td>51438</td>
+      <td>Saint-Denis / Saint-Zotique</td>
+      <td>323</td>
+      <td>6.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>20</th>
+      <td>61910</td>
+      <td>Saint-Denis / Bélanger</td>
+      <td>363</td>
+      <td>6.3</td>
+    </tr>
+    <tr>
+      <th>D</th>
+      <th>21</th>
+      <td>51310</td>
+      <td>Saint-Denis / Jean-Talon</td>
+      <td>185</td>
+      <td>6.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>22</th>
+      <td>61949</td>
+      <td>Saint-Denis / De Castelnau</td>
+      <td>304</td>
+      <td>6.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>23</th>
+      <td>51196</td>
+      <td>Saint-Denis / Faillon</td>
+      <td>197</td>
+      <td>7.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>24</th>
+      <td>51130</td>
+      <td>Saint-Denis / Villeray</td>
+      <td>231</td>
+      <td>7.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>25</th>
+      <td>51052</td>
+      <td>Saint-Denis / Gounod</td>
+      <td>264</td>
+      <td>7.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>26</th>
+      <td>50979</td>
+      <td>Station Jarry (Saint-Denis / Jarry)</td>
+      <td>254</td>
+      <td>7.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>27</th>
+      <td>50914</td>
+      <td>Saint-Denis / Guizot</td>
+      <td>275</td>
+      <td>8.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>28</th>
+      <td>50840</td>
+      <td>Saint-Denis / de Liège</td>
+      <td>255</td>
+      <td>8.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>29</th>
+      <td>50793</td>
+      <td>Station Crémazie Nord (Lajeunesse / Crémazie)</td>
+      <td>491</td>
+      <td>8.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>30</th>
+      <td>50678</td>
+      <td>Lajeunesse / Émile-Journault</td>
+      <td>268</td>
+      <td>9.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>31</th>
+      <td>61965</td>
+      <td>Lajeunesse / Legendre</td>
+      <td>302</td>
+      <td>9.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>32</th>
+      <td>61967</td>
+      <td>Lajeunesse / Chabanel</td>
+      <td>265</td>
+      <td>9.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>33</th>
+      <td>53760</td>
+      <td>Lajeunesse / de Louvain</td>
+      <td>284</td>
+      <td>9.9</td>
+    </tr>
+    <tr>
+      <th>E</th>
+      <th>34</th>
+      <td>61970</td>
+      <td>Lajeunesse / Sauvé</td>
+      <td>356</td>
+      <td>10.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>35</th>
+      <td>61972</td>
+      <td>Lajeunesse / Sauriol</td>
+      <td>273</td>
+      <td>10.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>36</th>
+      <td>50360</td>
+      <td>Lajeunesse / Fleury</td>
+      <td>207</td>
+      <td>10.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>37</th>
+      <td>50334</td>
+      <td>Lajeunesse / Prieur</td>
+      <td>267</td>
+      <td>11.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>38</th>
+      <td>50305</td>
+      <td>Station Henri-Bourassa</td>
+      <td>229</td>
+      <td>11.3</td>
+    </tr>
+    <tr>
+      <th>▲</th>
+      <th>39</th>
+      <td>54127</td>
+      <td>Station Henri-Bourassa</td>
+      <td>257</td>
+      <td>11.5</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="column">
+    <h3>Direction Sud</h3>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th>Repère</th>
+      <th>Séq</th>
+      <th colspan="2">Arrêt / Intersection</th>
+      <th>Dist<br>(m)</th>
+      <th>Cumul<br>(km)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>F</th>
+      <th>1</th>
+      <td>53757</td>
+      <td>Station Henri-Bourassa</td>
+      <td>––</td>
+      <td>––</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>2</th>
+      <td>50304</td>
+      <td>Station Henri-Bourassa</td>
+      <td>423</td>
+      <td>0.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>3</th>
+      <td>61974</td>
+      <td>Berri / Prieur</td>
+      <td>223</td>
+      <td>0.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>4</th>
+      <td>50358</td>
+      <td>Berri / Fleury</td>
+      <td>208</td>
+      <td>0.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>5</th>
+      <td>61973</td>
+      <td>Berri / Sauriol</td>
+      <td>320</td>
+      <td>1.2</td>
+    </tr>
+    <tr>
+      <th>G</th>
+      <th>6</th>
+      <td>50440</td>
+      <td>Station Sauvé (Édicule Sud)</td>
+      <td>283</td>
+      <td>1.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>7</th>
+      <td>61969</td>
+      <td>Berri / de Louvain</td>
+      <td>349</td>
+      <td>1.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>8</th>
+      <td>61968</td>
+      <td>Berri / Chabanel</td>
+      <td>258</td>
+      <td>2.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>9</th>
+      <td>61966</td>
+      <td>Berri / Legendre</td>
+      <td>262</td>
+      <td>2.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>10</th>
+      <td>61964</td>
+      <td>Berri / Émile-Journault</td>
+      <td>256</td>
+      <td>2.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>11</th>
+      <td>50768</td>
+      <td>Station Crémazie Nord (Berri / Crémazie)</td>
+      <td>282</td>
+      <td>2.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>12</th>
+      <td>61963</td>
+      <td>Saint-Denis / de Liège</td>
+      <td>361</td>
+      <td>3.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>13</th>
+      <td>61961</td>
+      <td>Saint-Denis / Guizot</td>
+      <td>256</td>
+      <td>3.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>14</th>
+      <td>61959</td>
+      <td>Station Jarry (Saint-Denis / Jarry)</td>
+      <td>272</td>
+      <td>3.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>15</th>
+      <td>61957</td>
+      <td>Saint-Denis / Gounod</td>
+      <td>251</td>
+      <td>4.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>16</th>
+      <td>61955</td>
+      <td>Saint-Denis / Villeray</td>
+      <td>274</td>
+      <td>4.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>17</th>
+      <td>61953</td>
+      <td>Saint-Denis / Faillon</td>
+      <td>235</td>
+      <td>4.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>18</th>
+      <td>61951</td>
+      <td>Saint-Denis / De Castelnau</td>
+      <td>224</td>
+      <td>4.7</td>
+    </tr>
+    <tr>
+      <th>H</th>
+      <th>19</th>
+      <td>61912</td>
+      <td>Saint-Denis / Jean-Talon</td>
+      <td>253</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>20</th>
+      <td>61911</td>
+      <td>Saint-Denis / Bélanger</td>
+      <td>240</td>
+      <td>5.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>21</th>
+      <td>61909</td>
+      <td>Saint-Denis / Saint-Zotique</td>
+      <td>305</td>
+      <td>5.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>22</th>
+      <td>61908</td>
+      <td>Saint-Denis / Beaubien</td>
+      <td>336</td>
+      <td>5.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>23</th>
+      <td>61907</td>
+      <td>Saint-Denis / de Bellechasse</td>
+      <td>303</td>
+      <td>6.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>24</th>
+      <td>51649</td>
+      <td>Station Rosemont (Saint-Denis / Rosemont)</td>
+      <td>347</td>
+      <td>6.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>25</th>
+      <td>61905</td>
+      <td>Saint-Denis / Saint-Grégoire</td>
+      <td>389</td>
+      <td>6.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>26</th>
+      <td>61903</td>
+      <td>Saint-Denis / Boucher</td>
+      <td>193</td>
+      <td>7.1</td>
+    </tr>
+    <tr>
+      <th>I</th>
+      <th>27</th>
+      <td>60993</td>
+      <td>Saint-Denis / Saint-Joseph</td>
+      <td>362</td>
+      <td>7.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>28</th>
+      <td>52011</td>
+      <td>Saint-Denis / Gilford</td>
+      <td>202</td>
+      <td>7.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>29</th>
+      <td>61897</td>
+      <td>Saint-Denis / du Mont-Royal</td>
+      <td>265</td>
+      <td>7.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>30</th>
+      <td>61892</td>
+      <td>Saint-Denis / Rachel</td>
+      <td>433</td>
+      <td>8.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>31</th>
+      <td>52288</td>
+      <td>Saint-Denis / Duluth</td>
+      <td>204</td>
+      <td>8.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>32</th>
+      <td>52422</td>
+      <td>Saint-Denis / Roy</td>
+      <td>314</td>
+      <td>8.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>33</th>
+      <td>52507</td>
+      <td>Cherrier / Berri</td>
+      <td>294</td>
+      <td>9.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>34</th>
+      <td>52665</td>
+      <td>Berri / Ontario</td>
+      <td>488</td>
+      <td>9.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>35</th>
+      <td>52844</td>
+      <td>Station Berri-UQAM (Berri / Ste-Catherine)</td>
+      <td>421</td>
+      <td>10.1</td>
+    </tr>
+    <tr>
+      <th>J</th>
+      <th>36</th>
+      <td>52906</td>
+      <td>Berri / René-Lévesque</td>
+      <td>205</td>
+      <td>10.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>37</th>
+      <td>52995</td>
+      <td>Saint-Denis / Saint-Antoine</td>
+      <td>472</td>
+      <td>10.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>38</th>
+      <td>53698</td>
+      <td>Notre-Dame / de Bonsecours</td>
+      <td>228</td>
+      <td>11.0</td>
+    </tr>
+    <tr>
+      <th>▲</th>
+      <th>39</th>
+      <td>52968</td>
+      <td>Notre-Dame / Saint-Gabriel</td>
+      <td>391</td>
+      <td>11.4</td>
+    </tr>
+
+  </tbody>
+</table>
+  </div>
+</div>
+
+<h2 id="horaire">Horaire suggéré</h2>
+
+
+
+
+
+  
 </body>
 </html>

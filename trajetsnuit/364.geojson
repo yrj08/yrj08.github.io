@@ -616,6 +616,20 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Frontenac / La Fontaine (53067)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.549723,
+          45.531822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "René-Lévesque / Papineau (Maison Radio-Canada) (53073)",
         "direction": "outbound"
       },

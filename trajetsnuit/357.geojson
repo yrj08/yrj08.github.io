@@ -386,6 +386,34 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Saint-Michel / Everett (51570)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.600981,
+          45.560114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint-Michel / L.-O.-David (51557)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.602006,
+          45.560332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Saint-Michel / Henri-Bourassa (55334)",
         "direction": "outbound"
       },

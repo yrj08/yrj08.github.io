@@ -1282,14 +1282,14 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Saint-Michel / Sauvé (54216)",
+        "name": "Saint-Michel / Sauvé (50733)",
         "direction": "inbound"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.637892,
-          45.576441
+          -73.638828,
+          45.576833
         ]
       }
     },

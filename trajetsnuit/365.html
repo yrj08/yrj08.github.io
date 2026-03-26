@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ligne 365</title>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
@@ -9,12 +9,41 @@
 <script src="routeMap.js"></script>
 
 <style>
+* {box-sizing: border-box;}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
 #map { height: 100vh; }
 </style>
 </head>
 
 <body>
 <h1>Ligne 365 • Du Parc</h1>
+
+<p>
+  <a href="#changements">Modifications proposées</a><br>
+  <a href="#pourquoi">Raisonnement des modifications</a><br>
+  <a href="#arrets">Liste d'arrêts desservis</a><br>
+  <a href="#horaire">Horaire suggéré</a>
+</p>
+  
 <div id="map"></div>
 
 <script>
@@ -39,21 +68,832 @@ createRouteMap({
 });
 </script>
 
-<h2>Modifications proposées</h2>
+<h2 id="changements">Modifications proposées</h2>
 <ul>
   <li></li>
   <li>Retrait de quelques arrêts trop rapprochés.</li>
 </ul>
 
-<h2>Raisonnement des modifications</h2>
+<h2 id="pourquoi">Raisonnement des modifications</h2>
 <ul>
   <li></li>
   <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
     nombre d'arrêts.</li>
 </ul>
   
-});
-</script>
+<h2 id="arrets">Liste d'arrêts desservis</h2>
+
+<div class="row">
+  <div class="column">
+    <h3>Direction Est</h3>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th>Repère</th>
+      <th>Séq</th>
+      <th colspan="2">Arrêt / Intersection</th>
+      <th>Dist<br>(m)</th>
+      <th>Cumul<br>(km)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>A</th>
+      <th>1</th>
+      <td>59308</td>
+      <td>Saint-Antoine / Saint-Urbain</td>
+      <td>––</td>
+      <td>––</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>2</th>
+      <td>52780</td>
+      <td>Saint-Laurent / René-Lévesque</td>
+      <td>567</td>
+      <td>0.6</td>
+    </tr>
+    <tr>
+      <th>B</th>
+      <th>3</th>
+      <td>61049</td>
+      <td>Jeanne-Mance / du Président-Kennedy</td>
+      <td>920</td>
+      <td>1.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>4</th>
+      <td>50111</td>
+      <td>du Parc / Milton</td>
+      <td>480</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>5</th>
+      <td>50112</td>
+      <td>du Parc / Prince-Arthur</td>
+      <td>186</td>
+      <td>2.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>6</th>
+      <td>60663</td>
+      <td>du Parc / des Pins</td>
+      <td>230</td>
+      <td>2.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>7</th>
+      <td>53702</td>
+      <td>Monument Sir-George-Étienne-Cartier</td>
+      <td>630</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>8</th>
+      <td>51880</td>
+      <td>du Parc / du Mont-Royal</td>
+      <td>396</td>
+      <td>3.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>9</th>
+      <td>51798</td>
+      <td>du Parc / Villeneuve</td>
+      <td>311</td>
+      <td>3.7</td>
+    </tr>
+    <tr>
+      <th>C</th>
+      <th>10</th>
+      <td>51709</td>
+      <td>du Parc / Laurier</td>
+      <td>312</td>
+      <td>4.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>11</th>
+      <td>51671</td>
+      <td>du Parc / Fairmount</td>
+      <td>157</td>
+      <td>4.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>12</th>
+      <td>51576</td>
+      <td>du Parc / Saint-Viateur</td>
+      <td>424</td>
+      <td>4.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>13</th>
+      <td>51501</td>
+      <td>du Parc / Bernard</td>
+      <td>301</td>
+      <td>4.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>14</th>
+      <td>51406</td>
+      <td>du Parc / Van Horne</td>
+      <td>419</td>
+      <td>5.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>15</th>
+      <td>51349</td>
+      <td>du Parc / Thérèse-Lavoie-Roux</td>
+      <td>354</td>
+      <td>5.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>16</th>
+      <td>51258</td>
+      <td>du Parc / Beaumont</td>
+      <td>425</td>
+      <td>6.1</td>
+    </tr>
+    <tr>
+      <th>D</th>
+      <th>17</th>
+      <td>51093</td>
+      <td>Station Parc (Hutchison / Ogilvy)</td>
+      <td>538</td>
+      <td>6.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>18</th>
+      <td>51056</td>
+      <td>Ogilvy / Champagneur</td>
+      <td>355</td>
+      <td>7.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>19</th>
+      <td>50964</td>
+      <td>Champagneur / Saint-Roch</td>
+      <td>318</td>
+      <td>7.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>20</th>
+      <td>50896</td>
+      <td>Champagneur / Ball</td>
+      <td>263</td>
+      <td>7.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>21</th>
+      <td>50829</td>
+      <td>Champagneur / Jarry</td>
+      <td>263</td>
+      <td>7.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>22</th>
+      <td>50782</td>
+      <td>Jarry / de l'Acadie</td>
+      <td>304</td>
+      <td>8.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>23</th>
+      <td>50698</td>
+      <td>de l'Acadie / d'Anvers</td>
+      <td>267</td>
+      <td>8.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>24</th>
+      <td>50632</td>
+      <td>de l'Acadie / de Liège</td>
+      <td>261</td>
+      <td>8.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>25</th>
+      <td>50573</td>
+      <td>de l'Acadie / Crémazie</td>
+      <td>253</td>
+      <td>8.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>26</th>
+      <td>53823</td>
+      <td>Marché Central (de l'Acadie / Crémazie)</td>
+      <td>315</td>
+      <td>9.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>27</th>
+      <td>50481</td>
+      <td>de l'Acadie / Legendre</td>
+      <td>369</td>
+      <td>9.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>28</th>
+      <td>50428</td>
+      <td>de l'Acadie / Chabanel</td>
+      <td>286</td>
+      <td>9.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>29</th>
+      <td>50380</td>
+      <td>de l'Acadie / de Louvain</td>
+      <td>289</td>
+      <td>10.2</td>
+    </tr>
+    <tr>
+      <th>E</th>
+      <th>30</th>
+      <td>50324</td>
+      <td>de l'Acadie / Sauvé</td>
+      <td>343</td>
+      <td>10.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>31</th>
+      <td>54082</td>
+      <td>de l'Acadie / Arthur-Lismer</td>
+      <td>257</td>
+      <td>10.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>32</th>
+      <td>50292</td>
+      <td>de l'Acadie / du Liban</td>
+      <td>202</td>
+      <td>11.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>33</th>
+      <td>53822</td>
+      <td>de l'Acadie / Persillier</td>
+      <td>286</td>
+      <td>11.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>34</th>
+      <td>54350</td>
+      <td>de l'Acadie / Place de l'Acadie</td>
+      <td>346</td>
+      <td>11.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>35</th>
+      <td>50259</td>
+      <td>de l'Acadie / Henri-Bourassa</td>
+      <td>143</td>
+      <td>11.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>36</th>
+      <td>50251</td>
+      <td>Aréna Marcelin-Wilson (de l'Acadie / C.-Gill)</td>
+      <td>316</td>
+      <td>12.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>37</th>
+      <td>50246</td>
+      <td>de l'Acadie / Dudemaine</td>
+      <td>425</td>
+      <td>12.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>38</th>
+      <td>50242</td>
+      <td>de l'Acadie / de Louisbourg</td>
+      <td>312</td>
+      <td>12.8</td>
+    </tr>
+    <tr>
+      <th>F</th>
+      <th>39</th>
+      <td>50232</td>
+      <td>De Salaberry / Frigon</td>
+      <td>381</td>
+      <td>13.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>40</th>
+      <td>50225</td>
+      <td>De Salaberry / Taylor</td>
+      <td>199</td>
+      <td>13.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>41</th>
+      <td>50217</td>
+      <td>De Salaberry / De Poutrincourt</td>
+      <td>246</td>
+      <td>13.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>42</th>
+      <td>50203</td>
+      <td>De Salaberry / Guertin</td>
+      <td>549</td>
+      <td>14.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>43</th>
+      <td>50196</td>
+      <td>De Salaberry / O'Brien</td>
+      <td>233</td>
+      <td>14.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>44</th>
+      <td>50178</td>
+      <td>De Salaberry / De Meulles</td>
+      <td>487</td>
+      <td>14.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>45</th>
+      <td>50172</td>
+      <td>De Salaberry / Grenet</td>
+      <td>214</td>
+      <td>15.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>46</th>
+      <td>61864</td>
+      <td>Lachapelle / Périnault</td>
+      <td>339</td>
+      <td>15.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>47</th>
+      <td>61865</td>
+      <td>Lachapelle / Ranger</td>
+      <td>266</td>
+      <td>15.7</td>
+    </tr>
+    <tr>
+      <th>▲</th>
+      <th>48</th>
+      <td>50150</td>
+      <td>De Serres / Grenet</td>
+      <td>872</td>
+      <td>16.6</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="column">
+    <h3>Direction Ouest</h3>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th>Repère</th>
+      <th>Séq</th>
+      <th colspan="2">Arrêt / Intersection</th>
+      <th>Dist<br>(m)</th>
+      <th>Cumul<br>(km)</th>
+    </tr>
+  </thead>
+  <tbody>
+   <tr>
+      <th>G</th>
+      <th>1</th>
+      <td>50150</td>
+      <td>De Serres / Grenet</td>
+      <td>––</td>
+      <td>––</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>2</th>
+      <td>61871</td>
+      <td>Centre Cartierville</td>
+      <td>790</td>
+      <td>0.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>3</th>
+      <td>61866</td>
+      <td>Laurentien / Périnault</td>
+      <td>333</td>
+      <td>1.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>4</th>
+      <td>50174</td>
+      <td>De Salaberry / Grenet</td>
+      <td>430</td>
+      <td>1.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>5</th>
+      <td>50179</td>
+      <td>De Salaberry / De Meulles</td>
+      <td>226</td>
+      <td>1.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>6</th>
+      <td>50198</td>
+      <td>De Salaberry / O'Brien</td>
+      <td>479</td>
+      <td>2.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>7</th>
+      <td>50204</td>
+      <td>De Salaberry / Guertin</td>
+      <td>235</td>
+      <td>2.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>8</th>
+      <td>50218</td>
+      <td>De Salaberry / De Poutrincourt</td>
+      <td>536</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>9</th>
+      <td>50226</td>
+      <td>De Salaberry / Taylor</td>
+      <td>251</td>
+      <td>3.3</td>
+    </tr>
+    <tr>
+      <th>H</th>
+      <th>10</th>
+      <td>54006</td>
+      <td>de l'Acadie / De Salaberry</td>
+      <td>305</td>
+      <td>3.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>11</th>
+      <td>50243</td>
+      <td>de l'Acadie / de Louisbourg</td>
+      <td>261</td>
+      <td>3.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>12</th>
+      <td>50249</td>
+      <td>de l'Acadie / Dudemaine</td>
+      <td>367</td>
+      <td>4.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>13</th>
+      <td>50252</td>
+      <td>de l'Acadie / Charles-Gill</td>
+      <td>363</td>
+      <td>4.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>14</th>
+      <td>50261</td>
+      <td>de l'Acadie / Henri-Bourassa</td>
+      <td>308</td>
+      <td>4.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>15</th>
+      <td>53978</td>
+      <td>de l'Acadie / Place de l'Acadie</td>
+      <td>209</td>
+      <td>5.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>16</th>
+      <td>50273</td>
+      <td>de l'Acadie / Persillier</td>
+      <td>384</td>
+      <td>5.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>17</th>
+      <td>50293</td>
+      <td>de l'Acadie / Olivier-Berthelet</td>
+      <td>195</td>
+      <td>5.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>18</th>
+      <td>54083</td>
+      <td>de l'Acadie / Arthur-Lismer</td>
+      <td>215</td>
+      <td>5.9</td>
+    </tr>
+    <tr>
+      <th>I</th>
+      <th>19</th>
+      <td>50326</td>
+      <td>de l'Acadie / Sauvé</td>
+      <td>232</td>
+      <td>6.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>20</th>
+      <td>50378</td>
+      <td>de l'Acadie / de Louvain</td>
+      <td>416</td>
+      <td>6.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>21</th>
+      <td>50427</td>
+      <td>de l'Acadie / Chabanel</td>
+      <td>286</td>
+      <td>6.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>22</th>
+      <td>50482</td>
+      <td>de l'Acadie / Legendre</td>
+      <td>317</td>
+      <td>7.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>23</th>
+      <td>50539</td>
+      <td>Marché Central (de l'Acadie / Crémazie)</td>
+      <td>302</td>
+      <td>7.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>24</th>
+      <td>53828</td>
+      <td>de l'Acadie / Crémazie</td>
+      <td>267</td>
+      <td>7.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>25</th>
+      <td>50633</td>
+      <td>de l'Acadie / de Liège</td>
+      <td>301</td>
+      <td>8.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>26</th>
+      <td>50699</td>
+      <td>de l'Acadie / d'Anvers</td>
+      <td>262</td>
+      <td>8.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>27</th>
+      <td>50781</td>
+      <td>Jarry / de l'Acadie</td>
+      <td>318</td>
+      <td>8.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>28</th>
+      <td>50838</td>
+      <td>Jarry / Bloomfield</td>
+      <td>334</td>
+      <td>8.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>29</th>
+      <td>50907</td>
+      <td>Bloomfield / Ball</td>
+      <td>263</td>
+      <td>9.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>30</th>
+      <td>50970</td>
+      <td>Bloomfield / Saint-Roch</td>
+      <td>259</td>
+      <td>9.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>31</th>
+      <td>51062</td>
+      <td>Bloomfield / Ogilvy</td>
+      <td>305</td>
+      <td>9.7</td>
+    </tr>
+    <tr>
+      <th>J</th>
+      <th>32</th>
+      <td>51094</td>
+      <td>Station Parc (Ogilvy / Hutchison)</td>
+      <td>298</td>
+      <td>10.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>33</th>
+      <td>51257</td>
+      <td>du Parc / Beaumont</td>
+      <td>573</td>
+      <td>10.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>34</th>
+      <td>51348</td>
+      <td>du Parc / Beaubien</td>
+      <td>473</td>
+      <td>11.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>35</th>
+      <td>51408</td>
+      <td>du Parc / Van Horne</td>
+      <td>292</td>
+      <td>11.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>36</th>
+      <td>51503</td>
+      <td>du Parc / Bernard</td>
+      <td>384</td>
+      <td>11.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>37</th>
+      <td>51578</td>
+      <td>du Parc / Saint-Viateur</td>
+      <td>308</td>
+      <td>12.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>38</th>
+      <td>51673</td>
+      <td>du Parc / Fairmount</td>
+      <td>415</td>
+      <td>12.5</td>
+    </tr>
+    <tr>
+      <th>K</th>
+      <th>39</th>
+      <td>51711</td>
+      <td>du Parc / Laurier</td>
+      <td>159</td>
+      <td>12.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>40</th>
+      <td>51799</td>
+      <td>du Parc / Villeneuve</td>
+      <td>318</td>
+      <td>13.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>41</th>
+      <td>51881</td>
+      <td>du Mont-Royal / du Parc</td>
+      <td>286</td>
+      <td>13.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>42</th>
+      <td>53703</td>
+      <td>Monument Sir-George-Étienne-Cartier</td>
+      <td>424</td>
+      <td>13.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>43</th>
+      <td>60664</td>
+      <td>du Parc / des Pins</td>
+      <td>616</td>
+      <td>14.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>44</th>
+      <td>52298</td>
+      <td>du Parc / Prince-Arthur</td>
+      <td>236</td>
+      <td>14.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>45</th>
+      <td>52365</td>
+      <td>du Parc / Milton</td>
+      <td>190</td>
+      <td>14.7</td>
+    </tr>
+    <tr>
+      <th>L</th>
+      <th>46</th>
+      <td>52534</td>
+      <td>Station Place-des-Arts (De Bleury / De Maisonneuve</td>
+      <td>452</td>
+      <td>15.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>47</th>
+      <td>52679</td>
+      <td>De Bleury / René-Lévesque</td>
+      <td>384</td>
+      <td>15.6</td>
+    </tr>
+    <tr>
+      <th>▲</th>
+      <th>48</th>
+      <td>59308</td>
+      <td>Saint-Antoine / Saint-Urbain</td>
+      <td>718</td>
+      <td>16.3</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+</div>
+
+<h2 id="horaire">Horaire suggéré</h2>
+
+
+
+  
 
 </body>
 </html>

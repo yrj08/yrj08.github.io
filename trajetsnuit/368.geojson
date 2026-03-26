@@ -610,7 +610,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Station du Collège (du Collège/Ouimet) (61994)",
+        "name": "Station Du Collège (du Collège / Ouimet) (61994)",
         "direction": "outbound"
       },
       "geometry": {
@@ -1044,7 +1044,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "de la Côte-Sainte-Catherine / Courcelette (56196)",
+        "name": "Côte-Sainte-Catherine / Courcelette (56196)",
         "direction": "outbound"
       },
       "geometry": {
@@ -1772,7 +1772,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "de la Côte-Sainte-Catherine / Claude-Champagne (56187)",
+        "name": "Côte-Sainte-Catherine / Claude-Champagne (56187)",
         "direction": "inbound"
       },
       "geometry": {
@@ -1898,7 +1898,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Queen-Mary / de la Côte-des-Neiges (51252)",
+        "name": "Queen-Mary / Côte-des-Neiges (51252)",
         "direction": "inbound"
       },
       "geometry": {
@@ -2122,7 +2122,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Station De la Savane (Décarie / de Sorel) (50377)",
+        "name": "Station De la Savane (Décarie / De Sorel) (50377)",
         "direction": "inbound"
       },
       "geometry": {

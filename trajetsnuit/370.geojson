@@ -1609,7 +1609,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Rosemont / Duquesne (52848)",
+        "name": "Rosemont / Du Quesne (52848)",
         "direction": "outbound"
       },
       "geometry": {
@@ -1847,7 +1847,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Rosemont / Duquesne (52847)",
+        "name": "Rosemont / Du Quesne (52847)",
         "direction": "inbound"
       },
       "geometry": {

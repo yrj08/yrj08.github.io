@@ -5,7 +5,8 @@
     {
       "type": "Feature",
       "properties": {
-        "direction": "inbound"
+        "direction": "inbound",
+        "branch": "inbound_2"
       },
       "geometry": {
         "type": "LineString",

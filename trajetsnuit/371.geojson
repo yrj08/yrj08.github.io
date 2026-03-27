@@ -611,7 +611,7 @@
       "type": "Feature",
       "properties": {
         "name": "René-Lévesque / Papineau (Maison Radio-Canada) (53073)",
-        "direction": "outbound"
+        "direction": "inbound"
       },
       "geometry": {
         "type": "Point",
@@ -625,7 +625,7 @@
       "type": "Feature",
       "properties": {
         "name": "René-Lévesque / De Champlain (53845)",
-        "direction": "inbound"
+        "direction": "outbound"
       },
       "geometry": {
         "type": "Point",
@@ -639,7 +639,7 @@
       "type": "Feature",
       "properties": {
         "name": "René-Lévesque / Atateken (52982)",
-        "direction": "outbound"
+        "direction": "inbound"
       },
       "geometry": {
         "type": "Point",
@@ -653,7 +653,7 @@
       "type": "Feature",
       "properties": {
         "name": "René-Lévesque / Panet (53032)",
-        "direction": "outbound"
+        "direction": "inbound"
       },
       "geometry": {
         "type": "Point",
@@ -667,7 +667,7 @@
       "type": "Feature",
       "properties": {
         "name": "René-Lévesque / Panet (53031)",
-        "direction": "inbound"
+        "direction": "outbound"
       },
       "geometry": {
         "type": "Point",
@@ -681,7 +681,7 @@
       "type": "Feature",
       "properties": {
         "name": "René-Lévesque / Atateken (52980)",
-        "direction": "inbound"
+        "direction": "outbound"
       },
       "geometry": {
         "type": "Point",

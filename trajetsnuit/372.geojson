@@ -1554,7 +1554,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Jean-Talon / de la Côte-des-Neiges (50694)",
+        "name": "Jean-Talon / Côte-des-Neiges (50694)",
         "direction": "outbound"
       },
       "geometry": {
@@ -1582,7 +1582,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Station Canora (Jean-Talon/Wilderton) (50104)",
+        "name": "Station Canora (Jean-Talon / Wilderton) (50104)",
         "direction": "outbound"
       },
       "geometry": {
@@ -1764,7 +1764,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Station Jean-Talon Sud / De Saint-Vallier (51322)",
+        "name": "Station Jean-Talon (Jean-Talon / De Saint-Vallier) (51322)",
         "direction": "outbound"
       },
       "geometry": {
@@ -1778,7 +1778,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Station Jean-Talon Est / Saint-Hubert (51337)",
+        "name": "Station Jean-Talon (Jean-Talon / Saint-Hubert) (51337)",
         "direction": "outbound"
       },
       "geometry": {
@@ -3504,15 +3504,15 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Jean-Talon / Dollier (54954)",
+        "name": "Jean-Talon / Michelet (54951)",
         "direction": "outbound",
         "branch": "east_cancelled"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.582665,
-          45.577905
+          -73.58369,
+          45.576153
         ]
       }
     },
@@ -3789,15 +3789,15 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Jean-Talon / Dollier (54953)",
+        "name": "Jean-Talon / Michelet (54950)",
         "direction": "inbound",
         "branch": "west_cancelled"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.582572,
-          45.578388
+          -73.583619,
+          45.576588
         ]
       }
     },

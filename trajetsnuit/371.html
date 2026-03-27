@@ -71,7 +71,7 @@ createRouteMap({
 <h2 id="changements">Modifications proposées</h2>
 <ul>
   <li>Retrait de la desserte à la station Atwater et prolongement du parcours 
-    vers Saint-Hubert / Viger via René-Lévesque en compensation au retrait 
+    vers station Papineau via René-Lévesque en compensation au retrait 
     de la ligne 358;</li>
   <li>Retrait de la desserte sur Girouard et ajout du service sur Décarie, 
     entre Saint-Jacques et Côte-Saint-Luc;</li>
@@ -84,8 +84,8 @@ createRouteMap({
 
 <h2 id="pourquoi">Raisonnement des modifications</h2>
 <ul>
-  <li>Créer un pôle d'échange plus sécuritaire et convivial pour la clientèle 
-    et pour les employés;</li>
+  <li>Créer un pôle d'échange secondaire à l'est du centre-ville à la station 
+    Papineau (pour diminuer le nombre de ligne terminant à la station Frontenac);</li>
   <li>Améliorer l'accès vers les secteurs résidentiels de Saint-Laurent et 
     Ahuntsic-Cartierville depuis le centre-ville;</li>
   <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
@@ -96,7 +96,7 @@ createRouteMap({
 
 <div class="row">
   <div class="column">
-    <h3>Direction Est</h3>
+    <h3>Direction Nord</h3>
 
 <table border="1" class="dataframe">
   <thead>
@@ -618,7 +618,7 @@ createRouteMap({
 
   </div>
   <div class="column">
-    <h3>Direction Ouest</h3>
+    <h3>Direction Sud</h3>
 
 <table border="1" class="dataframe">
   <thead>
@@ -1142,7 +1142,621 @@ createRouteMap({
 
 <h2 id="horaire">Horaire suggéré</h2>
 
+<h3>Semaine</h3>
+
+<h4>Direction Nord</h4>
   
+<table border="1" class="dataframe">
+  <tbody>
+    <tr>
+      <td>A</td>
+      <td>54117</td>
+      <td>Station Papineau (Dorion / Sainte-Catherine)</td>
+      <td>01:10</td>
+      <td>01:40</td>
+      <td>02:10</td>
+      <td>02:40</td>
+      <td>03:10</td>
+      <td>03:40</td>
+      <td>04:10</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>52529</td>
+      <td>René-Lévesque / Mansfield</td>
+      <td>01:23</td>
+      <td>01:53</td>
+      <td>02:23</td>
+      <td>02:53</td>
+      <td>03:23</td>
+      <td>03:53</td>
+      <td>04:23</td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td>56305</td>
+      <td>Saint-Antoine / Greene</td>
+      <td>01:31</td>
+      <td>02:01</td>
+      <td>02:31</td>
+      <td>03:01</td>
+      <td>03:31</td>
+      <td>04:01</td>
+      <td>04:31</td>
+    </tr>
+    <tr>
+      <td>D</td>
+      <td>51460</td>
+      <td>Décarie / Sherbrooke</td>
+      <td>01:39</td>
+      <td>02:09</td>
+      <td>02:39</td>
+      <td>03:09</td>
+      <td>03:39</td>
+      <td>04:09</td>
+      <td>04:39</td>
+    </tr>
+    <tr>
+      <td>E</td>
+      <td>51018</td>
+      <td>Décarie / Queen-Mary</td>
+      <td>01:45</td>
+      <td>02:15</td>
+      <td>02:45</td>
+      <td>03:15</td>
+      <td>03:45</td>
+      <td>04:15</td>
+      <td>04:45</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>54262</td>
+      <td>Station Namur (Décarie / Jean-Talon)</td>
+      <td>01:51</td>
+      <td>02:21</td>
+      <td>02:51</td>
+      <td>03:21</td>
+      <td>03:51</td>
+      <td>04:21</td>
+      <td>04:51</td>
+    </tr>
+    <tr>
+      <td>G</td>
+      <td>55640</td>
+      <td>Station Côte-Vertu (Décarie / Côte-Vertu)</td>
+      <td>02:01</td>
+      <td>02:31</td>
+      <td>03:01</td>
+      <td>03:31</td>
+      <td>04:01</td>
+      <td>04:31</td>
+      <td>05:01</td>
+    </tr>
+    <tr>
+      <td>▲</td>
+      <td>50151</td>
+      <td>Grenet / Gouin</td>
+      <td>02:14</td>
+      <td>02:44</td>
+      <td>03:14</td>
+      <td>03:44</td>
+      <td>04:14</td>
+      <td>04:44</td>
+      <td>05:14</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Direction Sud</h4>
+
+<table border="1" class="dataframe">
+  <tbody>
+    <tr>
+      <td>H</td>
+      <td>50151</td>
+      <td>Grenet / Gouin</td>
+      <td>01:23</td>
+      <td>01:53</td>
+      <td>02:23</td>
+      <td>02:53</td>
+      <td>03:23</td>
+      <td>03:53</td>
+      <td>04:23</td>
+    </tr>
+    <tr>
+      <td>I</td>
+      <td>55890</td>
+      <td>Station Côte-Vertu</td>
+      <td>01:33</td>
+      <td>02:03</td>
+      <td>02:33</td>
+      <td>03:03</td>
+      <td>03:33</td>
+      <td>04:03</td>
+      <td>04:33</td>
+    </tr>
+    <tr>
+      <td>J</td>
+      <td>50508</td>
+      <td>Station Namur (Décarie / Jean-Talon)</td>
+      <td>01:43</td>
+      <td>02:13</td>
+      <td>02:43</td>
+      <td>03:13</td>
+      <td>03:43</td>
+      <td>04:13</td>
+      <td>04:43</td>
+    </tr>
+    <tr>
+      <td>K</td>
+      <td>51019</td>
+      <td>Décarie / Queen-Mary</td>
+      <td>01:48</td>
+      <td>02:18</td>
+      <td>02:48</td>
+      <td>03:18</td>
+      <td>03:48</td>
+      <td>04:18</td>
+      <td>04:48</td>
+    </tr>
+    <tr>
+      <td>L</td>
+      <td>51462</td>
+      <td>Décarie / Sherbrooke</td>
+      <td>01:54</td>
+      <td>02:24</td>
+      <td>02:54</td>
+      <td>03:24</td>
+      <td>03:54</td>
+      <td>04:24</td>
+      <td>04:54</td>
+    </tr>
+    <tr>
+      <td>M</td>
+      <td>61330</td>
+      <td>Station Lionel-Groulx</td>
+      <td>02:02</td>
+      <td>02:32</td>
+      <td>03:02</td>
+      <td>03:32</td>
+      <td>04:02</td>
+      <td>04:32</td>
+      <td>05:02</td>
+    </tr>
+    <tr>
+      <td>N</td>
+      <td>52530</td>
+      <td>René-Lévesque / Mansfield</td>
+      <td>02:09</td>
+      <td>02:39</td>
+      <td>03:09</td>
+      <td>03:39</td>
+      <td>04:09</td>
+      <td>04:39</td>
+      <td>05:09</td>
+    </tr>
+    <tr>
+      <td>▲</td>
+      <td>54117</td>
+      <td>Station Papineau (Dorion / Sainte-Catherine)</td>
+      <td>02:23</td>
+      <td>02:53</td>
+      <td>03:23</td>
+      <td>03:53</td>
+      <td>04:23</td>
+      <td>04:53</td>
+      <td>05:23</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>Nuit de samedi à dimanche</h3>
+
+<h4>Direction Nord</h4>
+
+<table border="1" class="dataframe">
+  <tbody>
+    <tr>
+      <td>A</td>
+      <td>54117</td>
+      <td>Station Papineau (Dorion / Sainte-Catherine)</td>
+      <td>01:30</td>
+      <td>01:53</td>
+      <td>02:16</td>
+      <td>02:40</td>
+      <td>03:10</td>
+      <td>03:40</td>
+      <td>04:10</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>52529</td>
+      <td>René-Lévesque / Mansfield</td>
+      <td>01:43</td>
+      <td>02:06</td>
+      <td>02:29</td>
+      <td>02:53</td>
+      <td>03:23</td>
+      <td>03:53</td>
+      <td>04:23</td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td>56305</td>
+      <td>Saint-Antoine / Greene</td>
+      <td>01:51</td>
+      <td>02:14</td>
+      <td>02:37</td>
+      <td>03:00</td>
+      <td>03:30</td>
+      <td>04:00</td>
+      <td>04:30</td>
+    </tr>
+    <tr>
+      <td>D</td>
+      <td>51460</td>
+      <td>Décarie / Sherbrooke</td>
+      <td>01:59</td>
+      <td>02:22</td>
+      <td>02:45</td>
+      <td>03:08</td>
+      <td>03:38</td>
+      <td>04:08</td>
+      <td>04:38</td>
+    </tr>
+    <tr>
+      <td>E</td>
+      <td>51018</td>
+      <td>Décarie / Queen-Mary</td>
+      <td>02:05</td>
+      <td>02:28</td>
+      <td>02:51</td>
+      <td>03:14</td>
+      <td>03:44</td>
+      <td>04:14</td>
+      <td>04:44</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>54262</td>
+      <td>Station Namur (Décarie / Jean-Talon)</td>
+      <td>02:11</td>
+      <td>02:34</td>
+      <td>02:57</td>
+      <td>03:20</td>
+      <td>03:50</td>
+      <td>04:20</td>
+      <td>04:50</td>
+    </tr>
+    <tr>
+      <td>G</td>
+      <td>55640</td>
+      <td>Station Côte-Vertu (Décarie / Côte-Vertu)</td>
+      <td>02:21</td>
+      <td>02:44</td>
+      <td>03:07</td>
+      <td>03:30</td>
+      <td>04:00</td>
+      <td>04:30</td>
+      <td>05:00</td>
+    </tr>
+    <tr>
+      <td>▲</td>
+      <td>50151</td>
+      <td>Grenet / Gouin</td>
+      <td>02:34</td>
+      <td>02:57</td>
+      <td>03:20</td>
+      <td>03:43</td>
+      <td>04:13</td>
+      <td>04:43</td>
+      <td>05:13</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Direction Sud</h4>
+
+<table border="1" class="dataframe">
+  <tbody>
+    <tr>
+      <td>H</td>
+      <td>50151</td>
+      <td>Grenet / Gouin</td>
+      <td>01:53</td>
+      <td>02:23</td>
+      <td>02:53</td>
+      <td>03:23</td>
+      <td>03:53</td>
+      <td>04:23</td>
+    </tr>
+    <tr>
+      <td>I</td>
+      <td>55890</td>
+      <td>Station Côte-Vertu</td>
+      <td>02:02</td>
+      <td>02:32</td>
+      <td>03:02</td>
+      <td>03:32</td>
+      <td>04:02</td>
+      <td>04:32</td>
+    </tr>
+    <tr>
+      <td>J</td>
+      <td>50508</td>
+      <td>Station Namur (Décarie / Jean-Talon)</td>
+      <td>02:11</td>
+      <td>02:41</td>
+      <td>03:11</td>
+      <td>03:41</td>
+      <td>04:11</td>
+      <td>04:41</td>
+    </tr>
+    <tr>
+      <td>K</td>
+      <td>51019</td>
+      <td>Décarie / Queen-Mary</td>
+      <td>02:16</td>
+      <td>02:46</td>
+      <td>03:16</td>
+      <td>03:46</td>
+      <td>04:16</td>
+      <td>04:46</td>
+    </tr>
+    <tr>
+      <td>L</td>
+      <td>51462</td>
+      <td>Décarie / Sherbrooke</td>
+      <td>02:22</td>
+      <td>02:52</td>
+      <td>03:22</td>
+      <td>03:52</td>
+      <td>04:22</td>
+      <td>04:52</td>
+    </tr>
+    <tr>
+      <td>M</td>
+      <td>61330</td>
+      <td>Station Lionel-Groulx</td>
+      <td>02:30</td>
+      <td>03:00</td>
+      <td>03:30</td>
+      <td>04:00</td>
+      <td>04:30</td>
+      <td>05:00</td>
+    </tr>
+    <tr>
+      <td>N</td>
+      <td>52530</td>
+      <td>René-Lévesque / Mansfield</td>
+      <td>02:37</td>
+      <td>03:07</td>
+      <td>03:37</td>
+      <td>04:07</td>
+      <td>04:37</td>
+      <td>05:07</td>
+    </tr>
+    <tr>
+      <td>▲</td>
+      <td>54117</td>
+      <td>Station Papineau (Dorion / Sainte-Catherine)</td>
+      <td>02:51</td>
+      <td>03:21</td>
+      <td>03:51</td>
+      <td>04:21</td>
+      <td>04:51</td>
+      <td>05:21</td>
+    </tr>
+  </tbody>
+</table>
+  
+<h3>Nuit de dimanche à lundi</h3>
+
+<h4>Direction Nord</h4>
+
+<table border="1" class="dataframe">
+  <tbody>
+    <tr>
+      <td>A</td>
+      <td>54117</td>
+      <td>Station Papineau (Dorion / Sainte-Catherine)</td>
+      <td>01:10</td>
+      <td>01:40</td>
+      <td>02:10</td>
+      <td>02:40</td>
+      <td>03:10</td>
+      <td>03:40</td>
+      <td>04:10</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>52529</td>
+      <td>René-Lévesque / Mansfield</td>
+      <td>01:23</td>
+      <td>01:53</td>
+      <td>02:23</td>
+      <td>02:53</td>
+      <td>03:23</td>
+      <td>03:53</td>
+      <td>04:23</td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td>56305</td>
+      <td>Saint-Antoine / Greene</td>
+      <td>01:30</td>
+      <td>02:00</td>
+      <td>02:30</td>
+      <td>03:00</td>
+      <td>03:30</td>
+      <td>04:00</td>
+      <td>04:31</td>
+    </tr>
+    <tr>
+      <td>D</td>
+      <td>51460</td>
+      <td>Décarie / Sherbrooke</td>
+      <td>01:38</td>
+      <td>02:08</td>
+      <td>02:38</td>
+      <td>03:08</td>
+      <td>03:38</td>
+      <td>04:08</td>
+      <td>04:39</td>
+    </tr>
+    <tr>
+      <td>E</td>
+      <td>51018</td>
+      <td>Décarie / Queen-Mary</td>
+      <td>01:44</td>
+      <td>02:14</td>
+      <td>02:44</td>
+      <td>03:14</td>
+      <td>03:44</td>
+      <td>04:14</td>
+      <td>04:45</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>54262</td>
+      <td>Station Namur (Décarie / Jean-Talon)</td>
+      <td>01:50</td>
+      <td>02:20</td>
+      <td>02:50</td>
+      <td>03:20</td>
+      <td>03:50</td>
+      <td>04:20</td>
+      <td>04:51</td>
+    </tr>
+    <tr>
+      <td>G</td>
+      <td>55640</td>
+      <td>Station Côte-Vertu (Décarie / Côte-Vertu)</td>
+      <td>02:00</td>
+      <td>02:30</td>
+      <td>03:00</td>
+      <td>03:30</td>
+      <td>04:00</td>
+      <td>04:30</td>
+      <td>05:01</td>
+    </tr>
+    <tr>
+      <td>▲</td>
+      <td>50151</td>
+      <td>Grenet / Gouin</td>
+      <td>02:13</td>
+      <td>02:43</td>
+      <td>03:13</td>
+      <td>03:43</td>
+      <td>04:13</td>
+      <td>04:43</td>
+      <td>05:14</td>
+    <tr>
+  </tbody>
+</table>
+
+<h4>Direction Sud</h4>
+
+<table border="1" class="dataframe">
+  <tbody>
+    <tr>
+      <td>H</td>
+      <td>50151</td>
+      <td>Grenet / Gouin</td>
+      <td>01:23</td>
+      <td>01:53</td>
+      <td>02:23</td>
+      <td>02:53</td>
+      <td>03:23</td>
+      <td>03:53</td>
+      <td>04:23</td>
+    </tr>
+    <tr>
+      <td>I</td>
+      <td>55890</td>
+      <td>Station Côte-Vertu</td>
+      <td>01:32</td>
+      <td>02:02</td>
+      <td>02:32</td>
+      <td>03:02</td>
+      <td>03:32</td>
+      <td>04:02</td>
+      <td>04:33</td>
+    </tr>
+    <tr>
+      <td>J</td>
+      <td>50508</td>
+      <td>Station Namur (Décarie / Jean-Talon)</td>
+      <td>01:41</td>
+      <td>02:11</td>
+      <td>02:41</td>
+      <td>03:11</td>
+      <td>03:41</td>
+      <td>04:11</td>
+      <td>04:43</td>
+    </tr>
+    <tr>
+      <td>K</td>
+      <td>51019</td>
+      <td>Décarie / Queen-Mary</td>
+      <td>01:46</td>
+      <td>02:16</td>
+      <td>02:46</td>
+      <td>03:16</td>
+      <td>03:46</td>
+      <td>04:16</td>
+      <td>04:48</td>
+    </tr>
+    <tr>
+      <td>L</td>
+      <td>51462</td>
+      <td>Décarie / Sherbrooke</td>
+      <td>01:52</td>
+      <td>02:22</td>
+      <td>02:52</td>
+      <td>03:22</td>
+      <td>03:52</td>
+      <td>04:22</td>
+      <td>04:54</td>
+    </tr>
+    <tr>
+      <td>M</td>
+      <td>61330</td>
+      <td>Station Lionel-Groulx</td>
+      <td>02:00</td>
+      <td>02:30</td>
+      <td>03:00</td>
+      <td>03:30</td>
+      <td>04:00</td>
+      <td>04:30</td>
+      <td>05:02</td>
+    </tr>
+    <tr>
+      <td>N</td>
+      <td>52530</td>
+      <td>René-Lévesque / Mansfield</td>
+      <td>02:07</td>
+      <td>02:37</td>
+      <td>03:07</td>
+      <td>03:37</td>
+      <td>04:07</td>
+      <td>04:37</td>
+      <td>05:09</td>
+    </tr>
+    <tr>
+      <td>▲</td>
+      <td>54117</td>
+      <td>Station Papineau (Dorion / Sainte-Catherine)</td>
+      <td>02:21</td>
+      <td>02:51</td>
+      <td>03:21</td>
+      <td>03:51</td>
+      <td>04:21</td>
+      <td>04:51</td>
+      <td>05:23</td>
+    <tr>
+  </tbody>
+</table>
 
 </body>
 </html>

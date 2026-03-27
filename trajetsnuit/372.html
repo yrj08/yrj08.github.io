@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ligne 372</title>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
@@ -9,12 +9,41 @@
 <script src="routeMap.js"></script>
 
 <style>
+* {box-sizing: border-box;}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
 #map { height: 100vh; }
 </style>
 </head>
 
 <body>
 <h1>Ligne 372 • Jean-Talon</h1>
+
+<p>
+  <a href="#changements">Modifications proposées</a><br>
+  <a href="#pourquoi">Raisonnement des modifications</a><br>
+  <a href="#arrets">Liste d'arrêts desservis</a><br>
+  <a href="#horaire">Horaire suggéré</a>
+</p>
+  
 <div id="map"></div>
 
 
@@ -70,5 +99,1518 @@ createRouteMap({
 });
 </script>
 
+<h2 id="changements">Modifications proposées</h2>
+<ul>
+  <li>Prolongement du trajet vers la gare Rivière-des-Prairies via 
+    Perras et Saint-Jean-Baptiste;</li>
+  <li>Légère modification du trajet à la station Namur pour retirer 
+    la circulation sur Mountain Sights et Paré;</li>
+  <li>Retrait de quelques arrêts trop rapprochés.</li>
+</ul>
+
+<h2 id="pourquoi">Raisonnement des modifications</h2>
+<ul>
+  <li>Permet un service bi-directionnel tout au long de Perras;</li>
+  <li>Élargir le bassin de desserte dans l'est de l'île, de concert 
+    avec les modifications aux lignes 353 et 380;</li>
+  <li>Tirer avantage d'un nouveau terminus disponible depuis 
+    l'ouverture de la ligne Mascouche;</li>
+  <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
+    nombre d'arrêts.</li>
+</ul>
+
+<h2 id="arrets">Liste d'arrêts desservis</h2>
+
+<div class="row">
+  <div class="column">
+    <h3>Direction Est</h3>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th>Repère</th>
+      <th>Séq</th>
+      <th colspan="2">Arrêt / Intersection</th>
+      <th>Dist<br>(m)</th>
+      <th>Cumul<br>(km)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>A</th>
+      <th>1</th>
+      <td>50509</td>
+      <td>Jean-Talon / Mountain Sights</td>
+      <td>––</td>
+      <td>––</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>2</th>
+      <td>53776</td>
+      <td>Jean-Talon / No 5000</td>
+      <td>163</td>
+      <td>0.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>3</th>
+      <td>50583</td>
+      <td>Jean-Talon / Victoria</td>
+      <td>315</td>
+      <td>0.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>4</th>
+      <td>50609</td>
+      <td>Jean-Talon / de la Savane</td>
+      <td>175</td>
+      <td>0.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>5</th>
+      <td>54318</td>
+      <td>Jean-Talon / Lucerne</td>
+      <td>329</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>6</th>
+      <td>54068</td>
+      <td>Jean-Talon / de Nancy</td>
+      <td>198</td>
+      <td>1.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>7</th>
+      <td>50694</td>
+      <td>Jean-Talon / Côte-des-Neiges</td>
+      <td>243</td>
+      <td>1.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>8</th>
+      <td>50822</td>
+      <td>Jean-Talon / de Dieppe</td>
+      <td>422</td>
+      <td>1.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>9</th>
+      <td>50104</td>
+      <td>Station Canora (Jean-Talon / Wilderton)</td>
+      <td>727</td>
+      <td>2.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>10</th>
+      <td>56093</td>
+      <td>Dresden / Aberdare</td>
+      <td>325</td>
+      <td>2.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>11</th>
+      <td>56121</td>
+      <td>Dresden / Clyde</td>
+      <td>210</td>
+      <td>3.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>12</th>
+      <td>56122</td>
+      <td>Dresden / Rockland</td>
+      <td>267</td>
+      <td>3.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>13</th>
+      <td>56100</td>
+      <td>Graham / Markham</td>
+      <td>267</td>
+      <td>3.6</td>
+    </tr>
+    <tr>
+      <th>B</th>
+      <th>14</th>
+      <td>51064</td>
+      <td>Jean-Talon / de l'Acadie</td>
+      <td>199</td>
+      <td>3.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>15</th>
+      <td>51085</td>
+      <td>Jean-Talon / Wiseman</td>
+      <td>190</td>
+      <td>4.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>16</th>
+      <td>51114</td>
+      <td>Jean-Talon / Bloomfield</td>
+      <td>197</td>
+      <td>4.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>17</th>
+      <td>51140</td>
+      <td>Station Parc (Jean-Talon / Hutchison)</td>
+      <td>273</td>
+      <td>4.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>18</th>
+      <td>51199</td>
+      <td>Jean-Talon / Alexandra</td>
+      <td>358</td>
+      <td>4.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>19</th>
+      <td>51227</td>
+      <td>Jean-Talon / Clark</td>
+      <td>213</td>
+      <td>5.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>20</th>
+      <td>51266</td>
+      <td>Jean-Talon / Saint-Dominique</td>
+      <td>176</td>
+      <td>5.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>21</th>
+      <td>53774</td>
+      <td>Jean-Talon / Drolet</td>
+      <td>313</td>
+      <td>5.6</td>
+    </tr>
+    <tr>
+      <th>C</th>
+      <th>22</th>
+      <td>51322</td>
+      <td>Station Jean-Talon (Jean-Talon / De Saint-Vallier)</td>
+      <td>200</td>
+      <td>5.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>23</th>
+      <td>51337</td>
+      <td>Station Jean-Talon (Jean-Talon / Saint-Hubert)</td>
+      <td>184</td>
+      <td>5.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>24</th>
+      <td>51358</td>
+      <td>Jean-Talon / Christophe-Colomb</td>
+      <td>222</td>
+      <td>6.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>25</th>
+      <td>51413</td>
+      <td>Jean-Talon / De Lanaudière</td>
+      <td>383</td>
+      <td>6.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>26</th>
+      <td>62398</td>
+      <td>Jean-Talon / Papineau</td>
+      <td>371</td>
+      <td>6.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>27</th>
+      <td>62400</td>
+      <td>Jean-Talon / De Lorimier</td>
+      <td>299</td>
+      <td>7.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>28</th>
+      <td>51528</td>
+      <td>Jean-Talon / Louis-Hémon</td>
+      <td>182</td>
+      <td>7.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>29</th>
+      <td>62401</td>
+      <td>Jean-Talon / D'Iberville</td>
+      <td>258</td>
+      <td>7.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>30</th>
+      <td>51588</td>
+      <td>Jean-Talon / 1re Avenue</td>
+      <td>137</td>
+      <td>7.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>31</th>
+      <td>51609</td>
+      <td>Jean-Talon / 8e Avenue</td>
+      <td>248</td>
+      <td>8.0</td>
+    </tr>
+    <tr>
+      <th>D</th>
+      <th>32</th>
+      <td>51633</td>
+      <td>Jean-Talon / Saint-Michel</td>
+      <td>236</td>
+      <td>8.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>33</th>
+      <td>51663</td>
+      <td>Jean-Talon / 13e Avenue</td>
+      <td>198</td>
+      <td>8.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>34</th>
+      <td>51707</td>
+      <td>Jean-Talon / 17e Avenue</td>
+      <td>346</td>
+      <td>8.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>35</th>
+      <td>51758</td>
+      <td>Jean-Talon / 20e Avenue</td>
+      <td>269</td>
+      <td>9.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>36</th>
+      <td>51794</td>
+      <td>Jean-Talon / Pie-IX</td>
+      <td>194</td>
+      <td>9.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>37</th>
+      <td>60774</td>
+      <td>Jean-Talon / No 4290</td>
+      <td>299</td>
+      <td>9.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>38</th>
+      <td>54930</td>
+      <td>Jean-Talon / Provencher</td>
+      <td>321</td>
+      <td>9.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>39</th>
+      <td>54936</td>
+      <td>Jean-Talon / Buies</td>
+      <td>190</td>
+      <td>10.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>40</th>
+      <td>54948</td>
+      <td>Jean-Talon / Viau</td>
+      <td>244</td>
+      <td>10.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>41</th>
+      <td>54951</td>
+      <td>Jean-Talon / Michelet</td>
+      <td>200</td>
+      <td>10.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>42</th>
+      <td>54961</td>
+      <td>Jean-Talon / de Lisieux</td>
+      <td>372</td>
+      <td>10.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>43</th>
+      <td>54966</td>
+      <td>Jean-Talon / de l'Assomption</td>
+      <td>214</td>
+      <td>11.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>44</th>
+      <td>54971</td>
+      <td>Jean-Talon / Lacordaire</td>
+      <td>201</td>
+      <td>11.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>45</th>
+      <td>54973</td>
+      <td>Jean-Talon / Mainville</td>
+      <td>210</td>
+      <td>11.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>46</th>
+      <td>54978</td>
+      <td>Jean-Talon / Valdombre</td>
+      <td>278</td>
+      <td>11.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>47</th>
+      <td>54986</td>
+      <td>Jean-Talon / Villanelle</td>
+      <td>233</td>
+      <td>12.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>48</th>
+      <td>54994</td>
+      <td>Jean-Talon / Langelier</td>
+      <td>397</td>
+      <td>12.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>49</th>
+      <td>54710</td>
+      <td>Jean-Talon / No 6695</td>
+      <td>207</td>
+      <td>12.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>50</th>
+      <td>55017</td>
+      <td>Jean-Talon / No 6875</td>
+      <td>249</td>
+      <td>12.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>51</th>
+      <td>54577</td>
+      <td>Jean-Talon / des Halles</td>
+      <td>261</td>
+      <td>13.2</td>
+    </tr>
+    <tr>
+      <th>E</th>
+      <th>52</th>
+      <td>54582</td>
+      <td>Jean-Talon / des Galeries-d'Anjou</td>
+      <td>151</td>
+      <td>13.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>53</th>
+      <td>54565</td>
+      <td>des Galeries-d'Anjou / de Belfroy</td>
+      <td>469</td>
+      <td>13.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>54</th>
+      <td>54549</td>
+      <td>des Galeries-d'Anjou / Jarry</td>
+      <td>204</td>
+      <td>14.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>55</th>
+      <td>54540</td>
+      <td>des Galeries-d'Anjou / Fontevrault</td>
+      <td>276</td>
+      <td>14.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>56</th>
+      <td>54533</td>
+      <td>des Galeries-d'Anjou / de l'Alsace</td>
+      <td>348</td>
+      <td>14.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>57</th>
+      <td>54516</td>
+      <td>des Galeries-d'Anjou / Bombardier</td>
+      <td>369</td>
+      <td>15.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>58</th>
+      <td>54528</td>
+      <td>Bombardier / Renaude-Lapointe</td>
+      <td>379</td>
+      <td>15.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>59</th>
+      <td>54534</td>
+      <td>Colbert / Ravenel</td>
+      <td>601</td>
+      <td>16.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>60</th>
+      <td>54520</td>
+      <td>Colbert / Larrey</td>
+      <td>492</td>
+      <td>16.5</td>
+    </tr>
+    <tr>
+      <th>F</th>
+      <th>61</th>
+      <td>54731</td>
+      <td>Larrey / L.-J.-Forget</td>
+      <td>359</td>
+      <td>16.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>62</th>
+      <td>54515</td>
+      <td>L.-J.- Forget / Henri-Bourassa</td>
+      <td>457</td>
+      <td>17.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>63</th>
+      <td>51932</td>
+      <td>Henri-Bourassa / Marco-Polo</td>
+      <td>446</td>
+      <td>17.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>64</th>
+      <td>52026</td>
+      <td>Armand-Bombardier / Henri-Bourassa</td>
+      <td>369</td>
+      <td>18.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>65</th>
+      <td>51878</td>
+      <td>Armand-Bombardier / Blaise-Pascal</td>
+      <td>572</td>
+      <td>18.7</td>
+    </tr>
+    <tr>
+      <th>G</th>
+      <th>66</th>
+      <td>61888</td>
+      <td>Armand-Bombardier / Maurice-Duplessis</td>
+      <td>346</td>
+      <td>19.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>67</th>
+      <td>51766</td>
+      <td>Armand-Bombardier / Jean-Vincent</td>
+      <td>164</td>
+      <td>19.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>68</th>
+      <td>51722</td>
+      <td>Armand-Bombardier / André-Ampère</td>
+      <td>222</td>
+      <td>19.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>69</th>
+      <td>51669</td>
+      <td>Armand-Bombardier / Philippe-Lebon</td>
+      <td>260</td>
+      <td>19.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>70</th>
+      <td>51619</td>
+      <td>Armand-Bombardier / Perras</td>
+      <td>253</td>
+      <td>19.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>71</th>
+      <td>51691</td>
+      <td>Perras / 25e Avenue</td>
+      <td>283</td>
+      <td>20.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>72</th>
+      <td>51720</td>
+      <td>Perras / 27e Avenue</td>
+      <td>126</td>
+      <td>20.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>73</th>
+      <td>62699</td>
+      <td>Perras / Alfred-Nobel</td>
+      <td>356</td>
+      <td>20.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>74</th>
+      <td>51890</td>
+      <td>Perras / Rita-Levi-Montalcini</td>
+      <td>276</td>
+      <td>20.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>75</th>
+      <td>54050</td>
+      <td>Perras / Pierre-Baillargeon</td>
+      <td>416</td>
+      <td>21.4</td>
+    </tr>
+    <tr>
+      <th>H</th>
+      <th>76</th>
+      <td>54152</td>
+      <td>Perras / Rodolphe-Forget</td>
+      <td>379</td>
+      <td>21.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>77</th>
+      <td>52125</td>
+      <td>Perras / René-Masson</td>
+      <td>223</td>
+      <td>22.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>78</th>
+      <td>53684</td>
+      <td>Perras / 49e Avenue</td>
+      <td>235</td>
+      <td>22.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>79</th>
+      <td>52303</td>
+      <td>Perras / 54e Avenue</td>
+      <td>397</td>
+      <td>22.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>80</th>
+      <td>52429</td>
+      <td>Perras / Rivière-des-Prairies</td>
+      <td>362</td>
+      <td>23.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>81</th>
+      <td>52519</td>
+      <td>Perras / 62e Avenue</td>
+      <td>234</td>
+      <td>23.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>82</th>
+      <td>52558</td>
+      <td>Perras / Marien</td>
+      <td>176</td>
+      <td>23.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>83</th>
+      <td>52727</td>
+      <td>Perras / 70e Avenue</td>
+      <td>412</td>
+      <td>23.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>84</th>
+      <td>52824</td>
+      <td>Perras / Primat-Paré</td>
+      <td>355</td>
+      <td>24.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>85</th>
+      <td>52932</td>
+      <td>Perras / Voltaire</td>
+      <td>394</td>
+      <td>24.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>86</th>
+      <td>53026</td>
+      <td>Perras / Saint-Jean-Baptiste</td>
+      <td>391</td>
+      <td>24.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>87</th>
+      <td>53060</td>
+      <td>Saint-Jean-Baptiste / Émilie-Du Châtelet</td>
+      <td>321</td>
+      <td>25.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>88</th>
+      <td>53686</td>
+      <td>Saint-Jean-Baptiste / No 12120</td>
+      <td>468</td>
+      <td>25.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>89</th>
+      <td>61638</td>
+      <td>Maurice-Duplessis / Saint-Jean-Baptiste</td>
+      <td>453</td>
+      <td>26.2</td>
+    </tr>
+    <tr>
+      <th>▲</th>
+      <th>90</th>
+      <td>61606</td>
+      <td>Gare Rivière-des-Prairies</td>
+      <td>376</td>
+      <td>26.5</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="column">
+    <h3>Direction Ouest</h3>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th>Repère</th>
+      <th>Séq</th>
+      <th colspan="2">Arrêt / Intersection</th>
+      <th>Dist<br>(m)</th>
+      <th>Cumul<br>(km)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>I</th>
+      <th>1</th>
+      <td>61605</td>
+      <td>Gare Rivière-des-Prairies</td>
+      <td>––</td>
+      <td>––</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>2</th>
+      <td>60316</td>
+      <td>Maurice-Duplessis / Saint-Jean-Baptiste</td>
+      <td>410</td>
+      <td>0.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>3</th>
+      <td>60319</td>
+      <td>Saint-Jean-Baptiste / Cité des Prairies</td>
+      <td>304</td>
+      <td>0.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>4</th>
+      <td>60320</td>
+      <td>Saint-Jean-Baptiste / Émilie-Du Châtelet</td>
+      <td>535</td>
+      <td>1.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>5</th>
+      <td>60515</td>
+      <td>Perras / 81e Avenue</td>
+      <td>395</td>
+      <td>1.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>6</th>
+      <td>52927</td>
+      <td>Perras / Voltaire</td>
+      <td>345</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>7</th>
+      <td>52825</td>
+      <td>Perras / Primat-Paré</td>
+      <td>378</td>
+      <td>2.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>8</th>
+      <td>52726</td>
+      <td>Perras / 70e Avenue</td>
+      <td>364</td>
+      <td>2.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>9</th>
+      <td>52557</td>
+      <td>Perras / 64e Avenue</td>
+      <td>475</td>
+      <td>3.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>10</th>
+      <td>52518</td>
+      <td>Perras / 62e Avenue</td>
+      <td>113</td>
+      <td>3.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>11</th>
+      <td>52428</td>
+      <td>Perras / Rivière-des-Prairies</td>
+      <td>232</td>
+      <td>3.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>12</th>
+      <td>52302</td>
+      <td>Perras / 54e Avenue</td>
+      <td>365</td>
+      <td>3.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>13</th>
+      <td>53683</td>
+      <td>Perras / 51e Avenue</td>
+      <td>312</td>
+      <td>4.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>14</th>
+      <td>52124</td>
+      <td>Perras / René-Masson</td>
+      <td>310</td>
+      <td>4.5</td>
+    </tr>
+    <tr>
+      <th>J</th>
+      <th>15</th>
+      <td>54151</td>
+      <td>Perras / Rodolphe-Forget</td>
+      <td>217</td>
+      <td>4.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>16</th>
+      <td>54049</td>
+      <td>Perras / Pierre-Baillargeon</td>
+      <td>387</td>
+      <td>5.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>17</th>
+      <td>51889</td>
+      <td>Perras / Rita-Levi-Montalcini</td>
+      <td>424</td>
+      <td>5.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>18</th>
+      <td>51806</td>
+      <td>Perras / Alfred-Nobel</td>
+      <td>310</td>
+      <td>5.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>19</th>
+      <td>51719</td>
+      <td>Perras / 27e Avenue</td>
+      <td>327</td>
+      <td>6.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>20</th>
+      <td>53694</td>
+      <td>Perras / 25e Avenue</td>
+      <td>126</td>
+      <td>6.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>21</th>
+      <td>54000</td>
+      <td>Armand-Bombardier / Perras</td>
+      <td>380</td>
+      <td>6.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>22</th>
+      <td>51670</td>
+      <td>Armand-Bombardier / Philippe-Lebon</td>
+      <td>189</td>
+      <td>6.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>23</th>
+      <td>51723</td>
+      <td>Armand-Bombardier / André-Ampère</td>
+      <td>259</td>
+      <td>7.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>24</th>
+      <td>51767</td>
+      <td>Armand-Bombardier / Jean-Vincent</td>
+      <td>225</td>
+      <td>7.4</td>
+    </tr>
+    <tr>
+      <th>K</th>
+      <th>25</th>
+      <td>51810</td>
+      <td>Armand-Bombardier / Maurice-Duplessis</td>
+      <td>228</td>
+      <td>7.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>26</th>
+      <td>51877</td>
+      <td>Armand-Bombardier / Blaise-Pascal</td>
+      <td>336</td>
+      <td>7.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>27</th>
+      <td>52025</td>
+      <td>Armand-Bombardier / Henri-Bourassa</td>
+      <td>575</td>
+      <td>8.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>28</th>
+      <td>51931</td>
+      <td>Henri-Bourassa / Marco-Polo</td>
+      <td>279</td>
+      <td>8.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>29</th>
+      <td>54721</td>
+      <td>L.-J.- Forget / Henri-Bourassa</td>
+      <td>529</td>
+      <td>9.3</td>
+    </tr>
+    <tr>
+      <th>L</th>
+      <th>30</th>
+      <td>54717</td>
+      <td>Larrey / L.-J.-Forget</td>
+      <td>417</td>
+      <td>9.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>31</th>
+      <td>54692</td>
+      <td>Colbert / Larrey</td>
+      <td>384</td>
+      <td>10.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>32</th>
+      <td>54537</td>
+      <td>Colbert / Bombardier</td>
+      <td>527</td>
+      <td>10.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>33</th>
+      <td>54529</td>
+      <td>Bombardier / Renaude-Lapointe</td>
+      <td>561</td>
+      <td>11.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>34</th>
+      <td>54519</td>
+      <td>des Galeries-d'Anjou / Bombardier</td>
+      <td>392</td>
+      <td>11.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>35</th>
+      <td>54532</td>
+      <td>des Galeries-d'Anjou / de l'Alsace</td>
+      <td>391</td>
+      <td>12.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>36</th>
+      <td>54536</td>
+      <td>des Galeries-d'Anjou / Giraud</td>
+      <td>249</td>
+      <td>12.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>37</th>
+      <td>54551</td>
+      <td>des Galeries-d'Anjou / Jarry</td>
+      <td>302</td>
+      <td>12.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>38</th>
+      <td>54564</td>
+      <td>des Galeries-d'Anjou / de la Pléiade</td>
+      <td>266</td>
+      <td>12.8</td>
+    </tr>
+    <tr>
+      <th>M</th>
+      <th>39</th>
+      <td>54583</td>
+      <td>Jean-Talon / des Galeries-d'Anjou</td>
+      <td>402</td>
+      <td>13.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>40</th>
+      <td>54576</td>
+      <td>Jean-Talon / des Halles</td>
+      <td>140</td>
+      <td>13.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>41</th>
+      <td>54998</td>
+      <td>Jean-Talon / No 6875</td>
+      <td>354</td>
+      <td>13.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>42</th>
+      <td>54995</td>
+      <td>Jean-Talon / No 6695</td>
+      <td>146</td>
+      <td>13.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>43</th>
+      <td>54992</td>
+      <td>Jean-Talon / Langelier</td>
+      <td>212</td>
+      <td>14.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>44</th>
+      <td>54985</td>
+      <td>Jean-Talon / Villanelle</td>
+      <td>404</td>
+      <td>14.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>45</th>
+      <td>54977</td>
+      <td>Jean-Talon / Valdombre</td>
+      <td>233</td>
+      <td>14.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>46</th>
+      <td>54972</td>
+      <td>Jean-Talon / Mainville</td>
+      <td>273</td>
+      <td>15.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>47</th>
+      <td>54969</td>
+      <td>Jean-Talon / Lacordaire</td>
+      <td>190</td>
+      <td>15.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>48</th>
+      <td>54965</td>
+      <td>Jean-Talon / de l'Assomption</td>
+      <td>213</td>
+      <td>15.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>49</th>
+      <td>54959</td>
+      <td>Jean-Talon / de Lisieux</td>
+      <td>217</td>
+      <td>15.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>50</th>
+      <td>54950</td>
+      <td>Jean-Talon / Michelet</td>
+      <td>364</td>
+      <td>16.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>51</th>
+      <td>54946</td>
+      <td>Jean-Talon / Viau</td>
+      <td>143</td>
+      <td>16.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>52</th>
+      <td>54935</td>
+      <td>Jean-Talon / Buies</td>
+      <td>320</td>
+      <td>16.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>53</th>
+      <td>54929</td>
+      <td>Jean-Talon / Provencher</td>
+      <td>177</td>
+      <td>16.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>54</th>
+      <td>60775</td>
+      <td>Jean-Talon / No 4325</td>
+      <td>319</td>
+      <td>16.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>55</th>
+      <td>51792</td>
+      <td>Jean-Talon / Pie-IX</td>
+      <td>287</td>
+      <td>17.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>56</th>
+      <td>51757</td>
+      <td>Jean-Talon / 20e Avenue</td>
+      <td>226</td>
+      <td>17.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>57</th>
+      <td>51706</td>
+      <td>Jean-Talon / 17e Avenue</td>
+      <td>268</td>
+      <td>17.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>58</th>
+      <td>51662</td>
+      <td>Jean-Talon / 13e Avenue</td>
+      <td>349</td>
+      <td>18.1</td>
+    <tr>
+    <tr>
+    <tr>
+      <th>▲</th>
+      <th>59</th>
+      <td>54294</td>
+      <td>Station Saint-Michel (Saint-Michel / Shaughnessy)</td>
+      <td>348</td>
+      <td>18.4</td>
+    <tr>
+    <tr>
+    <tr>
+      <th>N</th>
+      <th>59</th>
+      <td>51631</td>
+      <td>Jean-Talon / Saint-Michel</td>
+      <td>180</td>
+      <td>18.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>60</th>
+      <td>51608</td>
+      <td>Jean-Talon / 8e Avenue</td>
+      <td>250</td>
+      <td>18.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>61</th>
+      <td>51587</td>
+      <td>Jean-Talon / 1re Avenue</td>
+      <td>254</td>
+      <td>18.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>62</th>
+      <td>51564</td>
+      <td>Station D'Iberville (Jean-Talon / D'Iberville)</td>
+      <td>159</td>
+      <td>18.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>63</th>
+      <td>51527</td>
+      <td>Jean-Talon / Louis-Hémon</td>
+      <td>234</td>
+      <td>19.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>64</th>
+      <td>51498</td>
+      <td>Jean-Talon / De Lorimier</td>
+      <td>203</td>
+      <td>19.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>65</th>
+      <td>51454</td>
+      <td>Station Fabre (Jean-Talon / Papineau)</td>
+      <td>351</td>
+      <td>19.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>66</th>
+      <td>62269</td>
+      <td>Jean-Talon / De Lanaudière</td>
+      <td>346</td>
+      <td>20.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>67</th>
+      <td>51356</td>
+      <td>Jean-Talon / Christophe-Colomb</td>
+      <td>327</td>
+      <td>20.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>68</th>
+      <td>51336</td>
+      <td>Station Jean-Talon (Jean-Talon / Saint-Hubert)</td>
+      <td>219</td>
+      <td>20.6</td>
+    </tr>
+    <tr>
+      <th>O</th>
+      <th>69</th>
+      <td>51311</td>
+      <td>Station Jean-Talon (Jean-Talon / Saint-Denis)</td>
+      <td>280</td>
+      <td>20.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>70</th>
+      <td>51296</td>
+      <td>Jean-Talon / Henri-Julien</td>
+      <td>165</td>
+      <td>21.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>71</th>
+      <td>51269</td>
+      <td>Jean-Talon / Casgrain</td>
+      <td>180</td>
+      <td>21.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>72</th>
+      <td>51226</td>
+      <td>Jean-Talon / Clark</td>
+      <td>249</td>
+      <td>21.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>73</th>
+      <td>51198</td>
+      <td>Jean-Talon / Alexandra</td>
+      <td>213</td>
+      <td>21.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>74</th>
+      <td>54170</td>
+      <td>Station Parc (Jean-Talon / du Parc)</td>
+      <td>297</td>
+      <td>22.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>75</th>
+      <td>51113</td>
+      <td>Jean-Talon / Bloomfield</td>
+      <td>342</td>
+      <td>22.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>76</th>
+      <td>51084</td>
+      <td>Jean-Talon / Wiseman</td>
+      <td>198</td>
+      <td>22.5</td>
+    </tr>
+    <tr>
+      <th>P</th>
+      <th>77</th>
+      <td>51063</td>
+      <td>Jean-Talon / de l'Acadie</td>
+      <td>177</td>
+      <td>22.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>78</th>
+      <td>56123</td>
+      <td>Graham / Markham</td>
+      <td>211</td>
+      <td>22.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>79</th>
+      <td>56124</td>
+      <td>Graham / Rockland</td>
+      <td>181</td>
+      <td>23.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>80</th>
+      <td>56126</td>
+      <td>Dresden / Clyde</td>
+      <td>341</td>
+      <td>23.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>81</th>
+      <td>56127</td>
+      <td>Dresden / Aberdare</td>
+      <td>266</td>
+      <td>23.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>82</th>
+      <td>50933</td>
+      <td>Station Canora (Jean-Talon / Wilderton)</td>
+      <td>245</td>
+      <td>23.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>83</th>
+      <td>50821</td>
+      <td>Jean-Talon / de Dieppe</td>
+      <td>756</td>
+      <td>24.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>84</th>
+      <td>50693</td>
+      <td>Jean-Talon / Côte-des-Neiges</td>
+      <td>494</td>
+      <td>25.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>85</th>
+      <td>54067</td>
+      <td>Jean-Talon / de Nancy</td>
+      <td>97</td>
+      <td>25.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>86</th>
+      <td>56104</td>
+      <td>Jean-Talon / Lucerne</td>
+      <td>273</td>
+      <td>25.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>87</th>
+      <td>50608</td>
+      <td>Jean-Talon / de la Savane</td>
+      <td>279</td>
+      <td>25.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>88</th>
+      <td>50587</td>
+      <td>Jean-Talon / No 4855</td>
+      <td>280</td>
+      <td>26.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>89</th>
+      <td>53892</td>
+      <td>Jean-Talon / No 5005</td>
+      <td>274</td>
+      <td>26.4</td>
+    </tr>
+    <tr>
+      <th>▲</th>
+      <th>90</th>
+      <td>62434</td>
+      <td>Station Namur (Jean-Talon / Décarie)</td>
+      <td>225</td>
+      <td>26.6</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+</div>
+
+<h2 id="horaire">Horaire suggéré</h2>
+
+  
 </body>
 </html>

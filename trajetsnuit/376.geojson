@@ -1049,7 +1049,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Davignon / de Salaberry (57942)",
+        "name": "Davignon / De Salaberry (57942)",
         "direction": "inbound"
       },
       "geometry": {
@@ -1063,7 +1063,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "de Salaberry / Barcelone (61131)",
+        "name": "De Salaberry / Barcelone (61131)",
         "direction": "inbound"
       },
       "geometry": {
@@ -1077,7 +1077,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "de Salaberry / No 12001 (57907)",
+        "name": "De Salaberry / No 12001 (57907)",
         "direction": "inbound"
       },
       "geometry": {
@@ -1091,7 +1091,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "de Salaberry / Hôtel-de-Ville (57904)",
+        "name": "De Salaberry / Hôtel-de-Ville (57904)",
         "direction": "inbound"
       },
       "geometry": {
@@ -1105,7 +1105,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "de Salaberry / Montevista (57897)",
+        "name": "De Salaberry / Montevista (57897)",
         "direction": "inbound"
       },
       "geometry": {
@@ -1119,7 +1119,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Tecumseh / de Salaberry (57982)",
+        "name": "Tecumseh / De Salaberry (57982)",
         "direction": "inbound"
       },
       "geometry": {
@@ -1301,7 +1301,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Brunswick / de Salaberry (58369)",
+        "name": "Brunswick / De Salaberry (58369)",
         "direction": "inbound"
       },
       "geometry": {
@@ -1455,7 +1455,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Institut national de santé publique (Sainte-Marie (58335)",
+        "name": "Sainte-Marie / No 20045 (INSPQ) (58335)",
         "direction": "inbound"
       },
       "geometry": {
@@ -1834,7 +1834,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Institut national de santé publique (Sainte-Marie (60987)",
+        "name": "Sainte-Marie / No 20045 (INSPQ) (60987)",
         "direction": "outbound"
       },
       "geometry": {
@@ -2002,7 +2002,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Brunswick / de Salaberry (58402)",
+        "name": "Brunswick / De Salaberry (58402)",
         "direction": "outbound"
       },
       "geometry": {
@@ -2184,7 +2184,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Tecumseh / de Salaberry (57890)",
+        "name": "Tecumseh / De Salaberry (57890)",
         "direction": "outbound"
       },
       "geometry": {
@@ -2212,7 +2212,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "de Salaberry / Hôtel-de-Ville (57903)",
+        "name": "De Salaberry / Hôtel-de-Ville (57903)",
         "direction": "outbound"
       },
       "geometry": {
@@ -2226,7 +2226,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "de Salaberry / Hôtel-de-Ville (57941)",
+        "name": "De Salaberry / Hôtel-de-Ville (57941)",
         "direction": "outbound"
       },
       "geometry": {
@@ -2240,7 +2240,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "de Salaberry / Madrid (61136)",
+        "name": "De Salaberry / Madrid (61136)",
         "direction": "outbound"
       },
       "geometry": {
@@ -2254,7 +2254,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "de Salaberry / des Sources (61137)",
+        "name": "De Salaberry / des Sources (61137)",
         "direction": "outbound"
       },
       "geometry": {
@@ -2268,7 +2268,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Davignon / de Salaberry (57943)",
+        "name": "Davignon / De Salaberry (57943)",
         "direction": "outbound"
       },
       "geometry": {

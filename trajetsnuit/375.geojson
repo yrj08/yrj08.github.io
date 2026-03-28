@@ -6,6 +6,7 @@
       "type": "Feature",
       "properties": {
         "direction": "inbound",
+        "branch": "inbound_2",
         "color": "#6f6f6f"
       },
       "geometry": {
@@ -1390,7 +1391,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Côte-de-Liesse Nord / McArthur (55521)",
+        "name": "Côte-de-Liesse / McArthur (55521)",
         "direction": "inbound"
       },
       "geometry": {
@@ -1572,7 +1573,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Côte-de-Liesse Nord / No 12055 (57527)",
+        "name": "Côte-de-Liesse / No 12055 (57527)",
         "direction": "inbound"
       },
       "geometry": {

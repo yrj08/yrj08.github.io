@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ligne 378</title>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
@@ -9,12 +9,41 @@
 <script src="routeMap.js"></script>
 
 <style>
+* {box-sizing: border-box;}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
 #map { height: 100vh; }
 </style>
 </head>
 
 <body>
 <h1>Ligne 378 • Sauvé / Côte-Vertu</h1>
+
+<p>
+  <a href="#changements">Modifications proposées</a><br>
+  <a href="#pourquoi">Raisonnement des modifications</a><br>
+  <a href="#arrets">Liste d'arrêts desservis</a><br>
+  <a href="#horaire">Horaire suggéré</a>
+</p>
+  
 <div id="map"></div>
 
 <script>
@@ -39,21 +68,770 @@ createRouteMap({
 });
 </script>
 
-<h2>Modifications proposées</h2>
+<h2 id="changements">Modifications proposées</h2>
 <ul>
   <li></li>
   <li>Retrait de quelques arrêts trop rapprochés.</li>
 </ul>
 
-<h2>Raisonnement des modifications</h2>
+<h2 id="pourquoi">Raisonnement des modifications</h2>
 <ul>
   <li></li>
   <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
     nombre d'arrêts.</li>
 </ul>
   
-});
-</script>
+<h2 id="arrets">Liste d'arrêts desservis</h2>
+
+<div class="row">
+  <div class="column">
+    <h3>Direction Est</h3>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th>Repère</th>
+      <th>Séq</th>
+      <th colspan="2">Arrêt / Intersection</th>
+      <th>Dist<br>(m)</th>
+      <th>Cumul<br>(km)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>A</th>
+      <th>1</th>
+      <td>55887</td>
+      <td>Centre de transport St-Laurent (Guénette / Cousens</td>
+      <td>––</td>
+      <td>––</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>2</th>
+      <td>55864</td>
+      <td>Thimens / Bois-Franc</td>
+      <td>516</td>
+      <td>0.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>3</th>
+      <td>55870</td>
+      <td>Thimens / Dobrin</td>
+      <td>373</td>
+      <td>0.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>4</th>
+      <td>55872</td>
+      <td>Thimens / No 4900</td>
+      <td>341</td>
+      <td>1.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>5</th>
+      <td>55871</td>
+      <td>Thimens / Poirier</td>
+      <td>255</td>
+      <td>1.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>6</th>
+      <td>55800</td>
+      <td>Thimens / Pomba</td>
+      <td>376</td>
+      <td>1.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>7</th>
+      <td>55441</td>
+      <td>Thimens / Bégin</td>
+      <td>408</td>
+      <td>2.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>8</th>
+      <td>55955</td>
+      <td>Côte-Vertu / Bégin</td>
+      <td>614</td>
+      <td>2.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>9</th>
+      <td>55466</td>
+      <td>Côte-Vertu / Beaulac</td>
+      <td>378</td>
+      <td>3.3</td>
+    </tr>
+    <tr>
+      <th>B</th>
+      <th>10</th>
+      <td>55487</td>
+      <td>Côte-Vertu / Cavendish</td>
+      <td>515</td>
+      <td>3.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>11</th>
+      <td>55503</td>
+      <td>Côte-Vertu / Hocquart</td>
+      <td>263</td>
+      <td>4.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>12</th>
+      <td>55516</td>
+      <td>Côte-Vertu / Hills</td>
+      <td>227</td>
+      <td>4.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>13</th>
+      <td>55898</td>
+      <td>Côte-Vertu / No 2308</td>
+      <td>435</td>
+      <td>4.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>14</th>
+      <td>55556</td>
+      <td>Côte-Vertu / Alexis-Nihon</td>
+      <td>176</td>
+      <td>4.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>15</th>
+      <td>55581</td>
+      <td>Côte-Vertu / Marlatt</td>
+      <td>304</td>
+      <td>5.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>16</th>
+      <td>55604</td>
+      <td>Côte-Vertu / Leduc</td>
+      <td>402</td>
+      <td>5.6</td>
+    </tr>
+    <tr>
+      <th>C</th>
+      <th>17</th>
+      <td>55639</td>
+      <td>Station Côte-Vertu (Côte-Vertu / Décarie)</td>
+      <td>455</td>
+      <td>6.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>18</th>
+      <td>55662</td>
+      <td>Côte-Vertu / Sainte-Croix</td>
+      <td>322</td>
+      <td>6.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>19</th>
+      <td>55688</td>
+      <td>Côte-Vertu / Dutrisac</td>
+      <td>406</td>
+      <td>6.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>20</th>
+      <td>55712</td>
+      <td>Côte-Vertu / Montpellier</td>
+      <td>291</td>
+      <td>7.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>21</th>
+      <td>55720</td>
+      <td>Côte-Vertu / Muir</td>
+      <td>314</td>
+      <td>7.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>22</th>
+      <td>55734</td>
+      <td>Côte-Vertu / Grimard</td>
+      <td>457</td>
+      <td>7.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>23</th>
+      <td>55865</td>
+      <td>Côte-Vertu / No 100</td>
+      <td>299</td>
+      <td>8.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>24</th>
+      <td>53682</td>
+      <td>Sauvé / Elzéar-Soucy</td>
+      <td>485</td>
+      <td>8.6</td>
+    </tr>
+    <tr>
+      <th>D</th>
+      <th>25</th>
+      <td>50328</td>
+      <td>Sauvé / de l'Acadie</td>
+      <td>276</td>
+      <td>8.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>26</th>
+      <td>50342</td>
+      <td>Sauvé / Meilleur</td>
+      <td>532</td>
+      <td>9.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>27</th>
+      <td>50354</td>
+      <td>Sauvé / Tolhurst</td>
+      <td>235</td>
+      <td>9.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>28</th>
+      <td>––</td>
+      <td>Sauvé / Saint-Urbain</td>
+      <td>320</td>
+      <td>10.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>29</th>
+      <td>50393</td>
+      <td>Sauvé / Grande Allée</td>
+      <td>283</td>
+      <td>10.3</td>
+    </tr>
+    <tr>
+      <th>E</th>
+      <th>30</th>
+      <td>50438</td>
+      <td>Station Sauvé (Édicule Sud)</td>
+      <td>426</td>
+      <td>10.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>31</th>
+      <td>50469</td>
+      <td>Sauvé / Saint-Hubert</td>
+      <td>471</td>
+      <td>11.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>32</th>
+      <td>50488</td>
+      <td>Sauvé / Georges-Baril</td>
+      <td>249</td>
+      <td>11.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>33</th>
+      <td>50505</td>
+      <td>Sauvé / Christophe-Colomb</td>
+      <td>322</td>
+      <td>11.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>34</th>
+      <td>50528</td>
+      <td>Sauvé / Curotte</td>
+      <td>258</td>
+      <td>12.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>35</th>
+      <td>50543</td>
+      <td>Sauvé / Garnier</td>
+      <td>272</td>
+      <td>12.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>36</th>
+      <td>50558</td>
+      <td>Sauvé / Papineau</td>
+      <td>230</td>
+      <td>12.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>37</th>
+      <td>50595</td>
+      <td>Sauvé / De Lorimier</td>
+      <td>388</td>
+      <td>12.9</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>38</th>
+      <td>50617</td>
+      <td>Sauvé / Parthenais</td>
+      <td>161</td>
+      <td>13.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>39</th>
+      <td>50634</td>
+      <td>Sauvé / de Lille</td>
+      <td>239</td>
+      <td>13.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>40</th>
+      <td>50667</td>
+      <td>Sauvé / D'Iberville</td>
+      <td>165</td>
+      <td>13.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>41</th>
+      <td>50719</td>
+      <td>Sauvé / Larose</td>
+      <td>345</td>
+      <td>13.8</td>
+    </tr>
+    <tr>
+      <th>▲</th>
+      <th>42</th>
+      <td>54216</td>
+      <td>Saint-Michel / Sauvé</td>
+      <td>200</td>
+      <td>14.0</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="column">
+    <h3>Direction Ouest</h3>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th>Repère</th>
+      <th>Séq</th>
+      <th colspan="2">Arrêt / Intersection</th>
+      <th>Dist<br>(m)</th>
+      <th>Cumul<br>(km)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>F</th>
+      <th>1</th>
+      <td>54216</td>
+      <td>Saint-Michel / Sauvé</td>
+      <td>––</td>
+      <td>––</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>2</th>
+      <td>50802</td>
+      <td>Charland / J.-J.-Gagnier</td>
+      <td>251</td>
+      <td>0.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>3</th>
+      <td>50754</td>
+      <td>Charland / Sackville</td>
+      <td>233</td>
+      <td>0.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>4</th>
+      <td>50704</td>
+      <td>Charland / de Lille</td>
+      <td>335</td>
+      <td>0.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>5</th>
+      <td>50625</td>
+      <td>Sauvé / Rancourt</td>
+      <td>352</td>
+      <td>1.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>6</th>
+      <td>50616</td>
+      <td>Sauvé / Parthenais</td>
+      <td>140</td>
+      <td>1.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>7</th>
+      <td>50594</td>
+      <td>Sauvé / De Lorimier</td>
+      <td>182</td>
+      <td>1.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>8</th>
+      <td>61707</td>
+      <td>Sauvé / Papineau</td>
+      <td>351</td>
+      <td>1.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>9</th>
+      <td>50542</td>
+      <td>Sauvé / Garnier</td>
+      <td>251</td>
+      <td>2.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>10</th>
+      <td>50527</td>
+      <td>Sauvé / Curotte</td>
+      <td>288</td>
+      <td>2.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>11</th>
+      <td>50503</td>
+      <td>Sauvé / Christophe-Colomb</td>
+      <td>247</td>
+      <td>2.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>12</th>
+      <td>50487</td>
+      <td>Sauvé / Georges-Baril</td>
+      <td>333</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>13</th>
+      <td>50467</td>
+      <td>Sauvé / Saint-Hubert</td>
+      <td>248</td>
+      <td>3.2</td>
+    </tr>
+    <tr>
+      <th>G</th>
+      <th>14</th>
+      <td>50439</td>
+      <td>Station Sauvé (Édicule Nord)</td>
+      <td>501</td>
+      <td>3.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>15</th>
+      <td>50391</td>
+      <td>Sauvé / Saint-Laurent</td>
+      <td>472</td>
+      <td>4.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>16</th>
+      <td>––</td>
+      <td>Sauvé / Waverly</td>
+      <td>257</td>
+      <td>4.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>17</th>
+      <td>50353</td>
+      <td>Sauvé / Tolhurst</td>
+      <td>274</td>
+      <td>4.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>18</th>
+      <td>50341</td>
+      <td>Sauvé / Meilleur</td>
+      <td>293</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <th>H</th>
+      <th>19</th>
+      <td>50325</td>
+      <td>Sauvé / de l'Acadie (côté est)</td>
+      <td>521</td>
+      <td>5.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>20</th>
+      <td>53681</td>
+      <td>Sauvé / Elzéar-Soucy</td>
+      <td>221</td>
+      <td>5.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>21</th>
+      <td>55736</td>
+      <td>Côte-Vertu / Lebeau</td>
+      <td>539</td>
+      <td>6.3</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>22</th>
+      <td>55733</td>
+      <td>Côte-Vertu / Grimard</td>
+      <td>223</td>
+      <td>6.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>23</th>
+      <td>55718</td>
+      <td>Côte-Vertu / Muir</td>
+      <td>445</td>
+      <td>7.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>24</th>
+      <td>55707</td>
+      <td>Côte-Vertu / Champigny</td>
+      <td>400</td>
+      <td>7.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>25</th>
+      <td>55689</td>
+      <td>Côte-Vertu / Dutrisac</td>
+      <td>329</td>
+      <td>7.7</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>26</th>
+      <td>55661</td>
+      <td>Côte-Vertu / Sainte-Croix</td>
+      <td>317</td>
+      <td>8.0</td>
+    </tr>
+    <tr>
+      <th>I</th>
+      <th>27</th>
+      <td>55641</td>
+      <td>Station Côte-Vertu (Côte-Vertu / Décarie)</td>
+      <td>383</td>
+      <td>8.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>28</th>
+      <td>55594</td>
+      <td>Côte-Vertu / Leduc</td>
+      <td>462</td>
+      <td>8.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>29</th>
+      <td>55580</td>
+      <td>Côte-Vertu / Marlatt</td>
+      <td>321</td>
+      <td>9.2</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>30</th>
+      <td>55554</td>
+      <td>Côte-Vertu / Alexis-Nihon</td>
+      <td>297</td>
+      <td>9.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>31</th>
+      <td>55802</td>
+      <td>Côte-Vertu / Bourgoin</td>
+      <td>323</td>
+      <td>9.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>32</th>
+      <td>55517</td>
+      <td>Côte-Vertu / Duguay</td>
+      <td>300</td>
+      <td>10.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>33</th>
+      <td>55502</td>
+      <td>Côte-Vertu / Hocquart</td>
+      <td>222</td>
+      <td>10.3</td>
+    </tr>
+    <tr>
+      <th>J</th>
+      <th>34</th>
+      <td>55486</td>
+      <td>Côte-Vertu / Cavendish</td>
+      <td>198</td>
+      <td>10.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>35</th>
+      <td>55464</td>
+      <td>Côte-Vertu / Beaulac</td>
+      <td>571</td>
+      <td>11.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>36</th>
+      <td>55445</td>
+      <td>Côte-Vertu / Bégin</td>
+      <td>483</td>
+      <td>11.6</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>37</th>
+      <td>55933</td>
+      <td>Bégin / Thimens</td>
+      <td>472</td>
+      <td>12.0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>38</th>
+      <td>55426</td>
+      <td>Thimens / Pomba</td>
+      <td>438</td>
+      <td>12.5</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>39</th>
+      <td>55874</td>
+      <td>Thimens / Poirier</td>
+      <td>355</td>
+      <td>12.8</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>40</th>
+      <td>55875</td>
+      <td>Thimens / Steinberg</td>
+      <td>318</td>
+      <td>13.1</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>41</th>
+      <td>55873</td>
+      <td>Thimens / Dobrin</td>
+      <td>274</td>
+      <td>13.4</td>
+    </tr>
+    <tr>
+      <th></th>
+      <th>42</th>
+      <td>55394</td>
+      <td>Thimens / Bois-Franc</td>
+      <td>441</td>
+      <td>13.9</td>
+    </tr>
+    <tr>
+      <th>▲</th>
+      <th>43</th>
+      <td>55887</td>
+      <td>Centre de transport St-Laurent (Guénette / Cousens</td>
+      <td>685</td>
+      <td>14.5</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+</div>
+
+<h2 id="horaire">Horaire suggéré</h2>
+
+<h3>Semaine</h3>
+
+<h4>Direction Est</h4>
+
+
+
+<h4>Direction Ouest</h4>
+
+
+
+<h3>Nuit de samedi à dimanche</h3>
+
+<h4>Direction Est</h4>
+
+
+
+<h4>Direction Ouest</h4>
+
+
+
+<h3>Nuit de dimanche à lundi</h3>
+
+<h4>Direction Est</h4>
+
+
+
+<h4>Direction Ouest</h4>
+
+
 
 </body>
 </html>

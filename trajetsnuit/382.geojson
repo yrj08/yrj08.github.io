@@ -397,6 +397,18 @@
     {
       "type": "Feature",
       "properties": {
+        "direction": "inbound",
+        "branch": "inbound_2",
+        "color": "#6f6f6f"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-73.7351787,45.5042957],[-73.735160,45.504283],[-73.733755,45.503347]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "direction": "outbound",
         "color": "#000000"
       },
@@ -615,7 +627,6 @@
                         [-73.580172,45.494908]]
       }
     },
-
     {
       "type": "Feature",
       "properties": {
@@ -835,7 +846,20 @@
                          [-73.848276,45.435093],[-73.847843,45.435221],[-73.847805,45.435231]]
       }
     },
-
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Centre de transport St-Laurent (Guénette / Cousens (55887)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.73376,
+          45.503345
+        ]
+      }
+    },
     {
       "type": "Feature",
       "properties": {

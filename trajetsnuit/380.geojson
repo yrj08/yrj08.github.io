@@ -604,6 +604,20 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Station Côte-Vertu (61654)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.683583,
+          45.514253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Armand-Bombardier / Maurice-Duplessis (61888)",
         "direction": "inbound"
       },
@@ -1669,7 +1683,7 @@
       "type": "Feature",
       "properties": {
         "name": "Léger / Albert-Hudon (55259)",
-        "direction": "inbound"
+        "direction": "outbound"
       },
       "geometry": {
         "type": "Point",

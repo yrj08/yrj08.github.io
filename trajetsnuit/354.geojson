@@ -1300,7 +1300,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Station Place-des-Arts (Président-Kennedy / Jeanne (61042)",
+        "name": "Station Place-des-Arts (Prés.-Kennedy / J.-Mance) (61042)",
         "direction": "outbound"
       },
       "geometry": {
@@ -1314,7 +1314,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Station Place-des-Arts (Président-Kennedy / Jeanne (61042)",
+        "name": "Station Place-des-Arts (Prés.-Kennedy / J.-Mance) (61042)",
         "direction": "inbound"
       },
       "geometry": {

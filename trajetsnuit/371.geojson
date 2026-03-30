@@ -582,6 +582,34 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "René-Lévesque / Guy (52327)",
+        "direction": "outbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.575041,
+          45.494002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "René-Lévesque / Guy (52329)",
+        "direction": "inbound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.574992,
+          45.493641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Station Papineau (Dorion / Sainte-Catherine) (54117)",
         "direction": "outbound"
       },

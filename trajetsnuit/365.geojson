@@ -494,28 +494,28 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Jeanne-Mance / du Président-Kennedy (61049)",
+        "name": "Station Place-des-Arts (52540)",
         "direction": "outbound"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.569153,
-          45.508638
+          -73.568669,
+          45.508539
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "du Parc / Milton (50111)",
+        "name": "du Parc / Sherbrooke (––)",
         "direction": "outbound"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.573516,
-          45.509507
+          -73.572027,
+          45.508819
         ]
       }
     },
@@ -1754,14 +1754,14 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "du Parc / Milton (52365)",
+        "name": "du Parc / Sherbrooke (––)",
         "direction": "inbound"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.573866,
-          45.509484
+          -73.572206,
+          45.508713
         ]
       }
     },

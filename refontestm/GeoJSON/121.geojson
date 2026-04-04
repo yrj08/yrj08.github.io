@@ -5,6 +5,7 @@
             "type": "Feature",
             "properties": {
                 "route": "121",
+                "direction": "outbound",
                 "branch": "current",
                 "variant": "main",
                 "stops": "",
@@ -224,6 +225,7 @@
             "type": "Feature",
             "properties": {
                 "route": "121",
+                "direction": "inbound",
                 "branch": "current",
                 "variant": "main",
                 "stops": "",
@@ -455,6 +457,7 @@
             "type": "Feature",
             "properties": {
                 "route": "121",
+                "direction": "outbound",
                 "branch": "1219001",
                 "variant": "main",
                 "stops": "",
@@ -687,6 +690,7 @@
             "type": "Feature",
             "properties": {
                 "route": "121",
+                "direction": "inbound",
                 "branch": "1210002",
                 "variant": "main",
                 "stops": "",

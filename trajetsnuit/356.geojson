@@ -1947,14 +1947,14 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Sherbrooke / Jeanne-Mance (52459)",
+        "name": "Sherbrooke / De Bleury (52444)",
         "direction": "outbound"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.570755,
-          45.509167
+          -73.571251,
+          45.508188
         ]
       }
     },

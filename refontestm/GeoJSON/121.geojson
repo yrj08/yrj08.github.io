@@ -5,8 +5,8 @@
             "type": "Feature",
             "properties": {
                 "route": "121",
-                "shape": "current",
-                "branch": "main",
+                "branch": "current",
+                "variant": "main",
                 "stops": "",
                 "headsign": "Est"
             },
@@ -224,8 +224,8 @@
             "type": "Feature",
             "properties": {
                 "route": "121",
-                "shape": "current",
-                "branch": "main",
+                "branch": "current",
+                "variant": "main",
                 "stops": "",
                 "headsign": "Ouest"
             },
@@ -455,8 +455,8 @@
             "type": "Feature",
             "properties": {
                 "route": "121",
-                "shape": "1219001",
-                "branch": "main",
+                "branch": "1219001",
+                "variant": "main",
                 "stops": "",
                 "headsign": "Est"
             },
@@ -687,8 +687,8 @@
             "type": "Feature",
             "properties": {
                 "route": "121",
-                "shape": "1210002",
-                "branch": "main",
+                "branch": "1210002",
+                "variant": "main",
                 "stops": "",
                 "headsign": "Ouest"
             },

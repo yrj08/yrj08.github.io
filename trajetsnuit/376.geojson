@@ -1333,20 +1333,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Brunswick / Jonquille (58374)",
-        "direction": "inbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.85526,
-          45.456783
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Brunswick / Jonquille (58376)",
         "direction": "inbound"
       },
@@ -1972,20 +1958,6 @@
         "coordinates": [
           -73.858441,
           45.456055
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Brunswick / Jonquille (58375)",
-        "direction": "outbound"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.855485,
-          45.456487
         ]
       }
     },

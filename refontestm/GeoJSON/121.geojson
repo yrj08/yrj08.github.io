@@ -8,7 +8,7 @@
                 "direction": "outbound",
                 "branch": "current",
                 "variant": "main",
-                "stops": "",
+                "stops": ["55934","55936","55349","55454","55892","55503"],
                 "headsign": "Est"
             },
             "geometry": {
@@ -228,7 +228,7 @@
                 "direction": "inbound",
                 "branch": "current",
                 "variant": "main",
-                "stops": "",
+                "stops": ["54216","50802"],
                 "headsign": "Ouest"
             },
             "geometry": {
@@ -460,7 +460,7 @@
                 "direction": "outbound",
                 "branch": "1219001",
                 "variant": "main",
-                "stops": "",
+                "stops": ["55934","55955","55466","55463","55503"],
                 "headsign": "Est"
             },
             "geometry": {
@@ -693,7 +693,7 @@
                 "direction": "inbound",
                 "branch": "1210002",
                 "variant": "main",
-                "stops": "",
+                "stops": ["54216","50802"],
                 "headsign": "Ouest"
             },
             "geometry": {

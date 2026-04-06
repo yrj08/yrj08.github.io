@@ -42,28 +42,65 @@ function createRouteMap(config) {
     const props = feature.properties;
     const branch = props.branch;
     const direction = props.direction;
-
-    const overrideColor = branchColors[branch];
-
-    let color = overrideColor || (datasetType === "current" ? "#666" : "#0077ff");
-
-    let weight = 4;
-    let opacity = 1;
-
-    if (datasetType === "current") {
-      weight = 6;
-      opacity = 0.3;
-    }
-
-    if (direction === "inbound") {
-      opacity *= 0.6;
-    }
-
-    return {
-      color,
-      weight,
-      opacity
+  
+    const overrides = branchStyles[branch]?.line || {};
+  
+    let baseStyle = {
+      color: datasetType === "current" ? "#666" : "#0077ff",
+      weight: datasetType === "current" ? 6 : 4,
+      opacity: datasetType === "current" ? 0.3 : 1
     };
+  
+    if (direction === "inbound") {
+      baseStyle.opacity *= 0.6;
+    }
+  
+    return { ...baseStyle, ...overrides };
+  }
+
+  function createStopLayer(stopIds, datasetType, branch, lineColor) {
+    const group = L.layerGroup();
+  
+    const stopStyle = branchStyles[branch]?.stop || {};
+  
+    stopIds.forEach(id => {
+      const stopFeature = stopLookup[datasetType][id];
+      if (!stopFeature) return;
+  
+      const coords = stopFeature.geometry.coordinates;
+      const name = stopFeature.properties.stop_name;
+  
+      const color = stopStyle.color || lineColor;
+      const radius = stopStyle.radius || 5;
+      const fillOpacity = stopStyle.fillOpacity ?? 1;
+      const shape = stopStyle.shape || "circle";
+  
+      let marker;
+  
+      if (shape === "square") {
+        const size = radius * 2;
+  
+        marker = L.rectangle([
+          [coords[1] - 0.0002, coords[0] - 0.0002],
+          [coords[1] + 0.0002, coords[0] + 0.0002]
+        ], {
+          color: color,
+          weight: 1,
+          fillOpacity: fillOpacity
+        });
+      } else {
+        marker = L.circleMarker([coords[1], coords[0]], {
+          radius: radius,
+          color: color,
+          fillOpacity: fillOpacity
+        });
+      }
+  
+      marker.bindPopup(name);
+      group.addLayer(marker);
+    });
+  
+    return group;
   }
 
   function createStopLayer(stopIds, datasetType, color) {
@@ -115,6 +152,7 @@ function createRouteMap(config) {
       const stopLayer = createStopLayer(
         props.stops || [],
         datasetType,
+        branch,
         style.color
       );
 

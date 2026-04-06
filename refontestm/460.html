@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ligne 460</title>
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet/dist/leaflet.css"
+  />
+
+  <style>
+    #map {
+      height: 100vh;
+      width: 80%;
+      float: left;
+    }
+
+    #controls {
+      width: 20%;
+      float: left;
+      padding: 10px;
+      overflow-y: auto;
+      height: 100vh;
+      background: #f5f5f5;
+    }
+
+    label {
+      margin-left: 6px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="controls"></div>
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="routeMap.js"></script>
+
+<script>
+createRouteMap({
+  mapId: "map",
+
+  center: [45.55, -73.7],
+  zoom: 12,
+
+  // Your files
+  currentShapes: "data/curr-121.geojson",
+  newShapes: "data/121.geojson",
+
+  currentStops: "GeoJSON/oldstops.geojson",
+  newStops: "GeoJSON/oldstops.geojson",
+
+  // Manual overrides by branch ID
+branchStyles: {
+    "1210001": {
+      line: {
+        color: "#781B7D",
+        weight: 4,
+        opacity: 1
+      },
+      stop: {
+        radius: 4,
+        borderweight: 3,
+        color: "#781B7D",
+        fillOpacity: 1,
+        shape: "circle"
+      }
+    },
+
+    "1210002": {
+      line: {
+        color: "#A261AA",
+        weight: 4,
+        opacity: 0.8,
+        dashArray: "4,6"
+      },
+      stop: {
+        radius: 4,
+        borderweight: 3,
+        color: "#A261AA",
+        shape: "circle",
+        fillOpacity: 0.9
+      }
+    },
+
+    "current": {
+      line: {
+        color: "#E28D1D",
+        weight: 8,
+        opacity: 0.3
+      },
+      stop: {
+        radius: 5,
+        color: "#E28D1D",
+        shape: "circle",
+        fillOpacity: 0.3
+      }
+    }
+  }
+  
+  checkboxContainerId: "controls"
+});
+</script>
+
+</body>
+</html>

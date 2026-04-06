@@ -13,7 +13,7 @@ function createRouteMap(config) {
     newStops,
 
     // Optional overrides
-    branchColors = {},
+    branchStyles = {},
 
     // UI container
     checkboxContainerId = "controls"

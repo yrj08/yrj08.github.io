@@ -43,6 +43,22 @@ function createRouteMap(config) {
     });
   }
 
+  function getStopFeature(stopId, datasetType) {
+    if (datasetType === "new") {
+      return (
+        stopLookup.new[stopId] ||
+        stopLookup.current[stopId] ||
+        null
+      );
+    }
+  
+    if (datasetType === "current") {
+      return stopLookup.current[stopId] || null;
+    }
+  
+    return null;
+  }
+  
   // Styling logic
   function getBranchStyle(feature, datasetType) {
     const props = feature.properties;
@@ -72,7 +88,7 @@ function createRouteMap(config) {
     const stopStyle = branchStyles[branch]?.stop || {};
   
     stopIds.forEach(id => {
-      const stopFeature = stopLookup[datasetType][id];
+      const stopFeature = getStopFeature(id, datasetType);
       if (!stopFeature) return;
   
       const coords = stopFeature.geometry.coordinates;

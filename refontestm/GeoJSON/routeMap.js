@@ -21,6 +21,12 @@ function createRouteMap(config) {
 
   const map = L.map(mapId).setView(center, zoom);
 
+  map.createPane('pane_current');
+  map.getPane('pane_current').style.zIndex = 200;
+  
+  map.createPane('pane_new');
+  map.getPane('pane_new').style.zIndex = 400;
+  
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: "&copy; OpenStreetMap contributors"
   }).addTo(map);
@@ -59,6 +65,8 @@ function createRouteMap(config) {
   }
 
   function createStopLayer(stopIds, datasetType, branch, lineColor) {
+    const paneName = datasetType === "current" ? "pane_current" : "pane_new";
+    
     const group = L.layerGroup();
   
     const stopStyle = branchStyles[branch]?.stop || {};
@@ -94,7 +102,8 @@ function createRouteMap(config) {
           color: color,
           fillColor: color,
           fillOpacity: fillOpacity,
-          weight: stopStyle.weight || 1
+          weight: stopStyle.weight || 1,
+          pane: paneName   // 👈 ADD THIS
         });
       }
   
@@ -122,8 +131,11 @@ function createRouteMap(config) {
 
       const style = getBranchStyle(feature, datasetType);
 
+      const paneName = datasetType === "current" ? "pane_current" : "pane_new";
+      
       const line = L.geoJSON(feature, {
-        style: style
+        style: style,
+        pane: paneName
       });
 
       branchGroups[branch].group.addLayer(line);

@@ -47,7 +47,7 @@
 <div id="map"></div>
 
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-<script src="GeoJSON/routeMap.js"></script>
+<script src="../GeoJSON/routeMap.js"></script>
 
 <script>
 createRouteMap({
@@ -57,11 +57,11 @@ createRouteMap({
   zoom: 12,
 
   // Your files
-  currentShapes: "GeoJSON/curr-460.geojson",
-  newShapes: "GeoJSON/460.geojson",
+  currentShapes: "../GeoJSON/curr-460.geojson",
+  newShapes: "../GeoJSON/460.geojson",
 
-  currentStops: "GeoJSON/oldstops.geojson",
-  newStops: "GeoJSON/newstops.geojson",
+  currentStops: "../GeoJSON/oldstops.geojson",
+  newStops: "../GeoJSON/newstops.geojson",
 
   // Manual overrides by branch ID
 branchStyles: {

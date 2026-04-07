@@ -100,10 +100,10 @@ function createRouteMap(config) {
         marker = L.circleMarker([coords[1], coords[0]], {
           radius: radius,
           color: color,
-          fillColor: color,
+          fillColor: "#ffffff",
           fillOpacity: fillOpacity,
           weight: stopStyle.weight || 1,
-          pane: paneName   // 👈 ADD THIS
+          pane: paneName
         });
       }
   

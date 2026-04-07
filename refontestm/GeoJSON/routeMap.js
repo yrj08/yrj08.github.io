@@ -21,14 +21,17 @@ function createRouteMap(config) {
 
   const map = L.map(mapId).setView(center, zoom);
 
-  map.createPane('pane_lines_current');
-  map.getPane('pane_lines_current').style.zIndex = 200;
+  map.createPane('pane_current_lines');
+  map.getPane('pane_current_lines').style.zIndex = 200;
   
-  map.createPane('pane_lines_new');
-  map.getPane('pane_lines_new').style.zIndex = 300;
+  map.createPane('pane_current_stops');
+  map.getPane('pane_current_stops').style.zIndex = 300;
   
-  map.createPane('pane_stops');
-  map.getPane('pane_stops').style.zIndex = 500; // 👈 ALWAYS on top
+  map.createPane('pane_new_lines');
+  map.getPane('pane_new_lines').style.zIndex = 400;
+  
+  map.createPane('pane_new_stops');
+  map.getPane('pane_new_stops').style.zIndex = 500;
   
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: "&copy; OpenStreetMap contributors"
@@ -84,7 +87,10 @@ function createRouteMap(config) {
   }
 
   function createStopLayer(stopIds, datasetType, branch, lineColor) {
-    const paneName = "pane_stops";
+    const paneName =
+      datasetType === "current"
+        ? "pane_current_stops"
+        : "pane_new_stops";
     
     const group = L.layerGroup();
   
@@ -152,8 +158,8 @@ function createRouteMap(config) {
 
       const paneName =
         datasetType === "current"
-          ? "pane_lines_current"
-          : "pane_lines_new";
+          ? "pane_current_lines"
+          : "pane_new_lines";
       
       const line = L.geoJSON(feature, {
         style: style,

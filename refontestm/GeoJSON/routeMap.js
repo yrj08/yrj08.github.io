@@ -92,7 +92,9 @@ function createRouteMap(config) {
         marker = L.circleMarker([coords[1], coords[0]], {
           radius: radius,
           color: color,
-          fillOpacity: fillOpacity
+          fillColor: color,
+          fillOpacity: fillOpacity,
+          weight: stopStyle.weight || 1
         });
       }
   
@@ -100,29 +102,6 @@ function createRouteMap(config) {
       group.addLayer(marker);
     });
   
-    return group;
-  }
-
-  function createStopLayer(stopIds, datasetType, color) {
-    const group = L.layerGroup();
-
-    stopIds.forEach(id => {
-      const stopFeature = stopLookup[datasetType][id];
-      if (!stopFeature) return;
-
-      const coords = stopFeature.geometry.coordinates;
-      const name = stopFeature.properties.stop_name;
-
-      const marker = L.circleMarker([coords[1], coords[0]], {
-        radius: 5,
-        color: color,
-        fillOpacity: 1
-      });
-
-      marker.bindPopup(name);
-      group.addLayer(marker);
-    });
-
     return group;
   }
 

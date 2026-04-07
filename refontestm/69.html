@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ligne 121</title>
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet/dist/leaflet.css"
+  />
+
+<style>
+* {box-sizing: border-box;}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+#map { height: 100vh; }
+</style>
+</head>
+<body>
+<h1>Ligne 69 • Henri-Bourassa</h1>
+
+<p>
+  <a href="#changements">Modifications proposées</a><br>
+  <a href="#pourquoi">Raisonnement des modifications</a><br>
+  <a href="#arrets">Liste d'arrêts desservis</a><br>
+</p>
+
+<div id="controls"></div>
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="GeoJSON/routeMap.js"></script>
+
+<script>
+createRouteMap({
+  mapId: "map",
+
+  center: [45.55, -73.7],
+  zoom: 12,
+
+  // Your files
+  currentShapes: "GeoJSON/curr-69.geojson",
+  newShapes: "GeoJSON/69.geojson",
+
+  currentStops: "GeoJSON/oldstops.geojson",
+  newStops: "GeoJSON/newstops.geojson",
+
+  // Manual overrides by branch ID
+branchStyles: {
+    "1219001": {
+      line: {
+        color: "#781B7D",
+        weight: 4,
+        opacity: 1
+      },
+      stop: {
+        radius: 4,
+        weight: 3,
+        color: "#781B7D",
+        fillOpacity: 1,
+        fillColor: "#ffffff",
+        shape: "circle"
+      }
+    },
+
+    "1210002": {
+      line: {
+        color: "#8B469E",
+        weight: 4,
+        opacity: 0.8
+      },
+      stop: {
+        radius: 4,
+        weight: 3,
+        color: "#8B469E",
+        shape: "circle",
+        fillColor: "#ffffff",
+        fillOpacity: 1
+      }
+    },
+
+    "current": {
+      line: {
+        color: "#FFB350",
+        weight: 10,
+        opacity: 1
+      },
+      stop: {
+        radius: 5,
+        weight: 5,
+        color: "#FFB350",
+        shape: "circle",
+        fillColor: "#ffffff",
+        fillOpacity: 1
+      }
+    }
+  },
+  
+  checkboxContainerId: "controls"
+});
+</script>
+
+<h2 id="changements">Modifications proposées</h2>
+<ul>
+  <li></li>
+  <li>Retrait de quelques arrêts trop rapprochés.</li>
+</ul>
+
+<h2 id="pourquoi">Raisonnement des modifications</h2>
+<ul>
+  <li></li>
+  <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
+    nombre d'arrêts.</li>
+</ul>
+
+<h2 id="arrets">Liste d'arrêts desservis</h2>
+
+<div class="row">
+  <div class="column">
+    <h3>Direction Est</h3>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th>Repère</th>
+      <th>Séq</th>
+      <th colspan="2">Arrêt / Intersection</th>
+      <th>Dist<br>(m)</th>
+      <th>Cumul<br>(km)</th>
+    </tr>
+  </thead>
+  <tbody>
+
+  </tbody>
+</table>
+  </div>
+  <div class="column">
+    <h3>Direction Ouest</h3>
+  
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th>Repère</th>
+      <th>Séq</th>
+      <th colspan="2">Arrêt / Intersection</th>
+      <th>Dist<br>(m)</th>
+      <th>Cumul<br>(km)</th>
+    </tr>
+  </thead>
+  <tbody>
+
+  </tbody>
+</table>
+  </div>
+</div>
+  
+</body>
+</html>

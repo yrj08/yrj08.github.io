@@ -35,6 +35,13 @@
 </style>
 </head>
 <body>
+<h1>Ligne 460 • Express Métropolitaine</h1>
+
+<p>
+  <a href="#changements">Modifications proposées</a><br>
+  <a href="#pourquoi">Raisonnement des modifications</a><br>
+  <a href="#arrets">Liste d'arrêts desservis</a><br>
+</p>
 
 <div id="controls"></div>
 <div id="map"></div>
@@ -50,39 +57,39 @@ createRouteMap({
   zoom: 12,
 
   // Your files
-  currentShapes: "GeoJSON/curr-121.geojson",
-  newShapes: "GeoJSON/121.geojson",
+  currentShapes: "GeoJSON/curr-460.geojson",
+  newShapes: "GeoJSON/460.geojson",
 
   currentStops: "GeoJSON/oldstops.geojson",
-  newStops: "GeoJSON/oldstops.geojson",
+  newStops: "GeoJSON/newstops.geojson",
 
   // Manual overrides by branch ID
 branchStyles: {
-    "1219001": {
+    "4600004": {
       line: {
-        color: "#781B7D",
+        color: "#009EE0",
         weight: 4,
         opacity: 1
       },
       stop: {
         radius: 4,
         weight: 3,
-        color: "#781B7D",
+        color: "#009EE0",
         fillOpacity: 1,
         shape: "circle"
       }
     },
 
-    "1210002": {
+    "4600001": {
       line: {
-        color: "#8B469E",
+        color: "#5DBDEA",
         weight: 4,
         opacity: 0.8
       },
       stop: {
         radius: 4,
         weight: 3,
-        color: "#8B469E",
+        color: "#5DBDEA",
         shape: "circle",
         fillOpacity: 1
       }
@@ -90,14 +97,14 @@ branchStyles: {
 
     "current": {
       line: {
-        color: "#E78278",
+        color: "#FFB350",
         weight: 9,
         opacity: 1
       },
       stop: {
         radius: 4,
         weight: 4,
-        color: "#E78278",
+        color: "#FFB350",
         shape: "circle",
         fillOpacity: 1
       }
@@ -108,5 +115,59 @@ branchStyles: {
 });
 </script>
 
+<h2 id="changements">Modifications proposées</h2>
+<ul>
+  <li></li>
+  <li>Retrait de quelques arrêts trop rapprochés.</li>
+</ul>
+
+<h2 id="pourquoi">Raisonnement des modifications</h2>
+<ul>
+  <li></li>
+  <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
+    nombre d'arrêts.</li>
+</ul>
+
+<h2 id="arrets">Liste d'arrêts desservis</h2>
+
+<div class="row">
+  <div class="column">
+    <h3>Direction Est</h3>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th>Repère</th>
+      <th>Séq</th>
+      <th colspan="2">Arrêt / Intersection</th>
+      <th>Dist<br>(m)</th>
+      <th>Cumul<br>(km)</th>
+    </tr>
+  </thead>
+  <tbody>
+
+  </tbody>
+</table>
+  </div>
+  <div class="column">
+    <h3>Direction Ouest</h3>
+  
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th>Repère</th>
+      <th>Séq</th>
+      <th colspan="2">Arrêt / Intersection</th>
+      <th>Dist<br>(m)</th>
+      <th>Cumul<br>(km)</th>
+    </tr>
+  </thead>
+  <tbody>
+
+  </tbody>
+</table>
+  </div>
+</div>
+  
 </body>
 </html>

@@ -1,0 +1,9 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {"type":"Feature","properties":{"stop_id":"A0001","stop_name":"Sauvé / Saint-Urbain (––)"},
+     "geometry": {"type": "Point","coordinates": [-73.660917,45.545147]}},
+    {"type":"Feature","properties":{"stop_id":"A0002","stop_name":"Sauvé / Waverly (––)"},
+     "geometry": {"type": "Point","coordinates": [-73.661175,45.545017]}}
+  ]
+}

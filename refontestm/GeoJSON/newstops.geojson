@@ -1,11 +1,13 @@
 {
   "type": "FeatureCollection",
   "features": [
-    {"type":"Feature","properties":{"stop_id":"A0001","stop_name":"Sauvé / Saint-Urbain (––)"},
-     "geometry": {"type": "Point","coordinates": [-73.660917,45.545147]}},
-    {"type":"Feature","properties":{"stop_id":"A0002","stop_name":"Sauvé / Waverly (––)"},
-     "geometry": {"type": "Point","coordinates": [-73.661175,45.545017]}},
-    {"type":"Feature","properties":{"stop_id":"A0003","stop_name":"Bégin / Thimens (––)"},
-     "geometry": {"type": "Point","coordinates": [-73.714428,45.494861]}}
+{"type":"Feature","properties":{"stop_id":"55839","stop_name":"Station Du Collège (Cartier / Ouimet) (55839)"},
+ "geometry":{"type":"Point","coordinates":[-73.672862,45.508654]}},
+{"type":"Feature","properties":{"stop_id":"A0001","stop_name":"Sauvé / Saint-Urbain (––)"},
+ "geometry":{"type":"Point","coordinates":[-73.660917,45.545147]}},
+{"type":"Feature","properties":{"stop_id":"A0002","stop_name":"Sauvé / Waverly (––)"},
+ "geometry":{"type":"Point","coordinates":[-73.661175,45.545017]}},
+{"type":"Feature","properties":{"stop_id":"A0003","stop_name":"Bégin / Thimens (––)"},
+ "geometry":{"type":"Point","coordinates":[-73.714428,45.494861]}}
   ]
 }

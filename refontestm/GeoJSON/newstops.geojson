@@ -1,6 +1,8 @@
 {
   "type": "FeatureCollection",
   "features": [
+{"type":"Feature","properties":{"stop_id":"54394","stop_name":"Henri-Bourassa / du Bois-de-Boulogne (54394)"},
+ "geometry":{"type":"Point","coordinates":[-73.678270,45.538841]}},
 {"type":"Feature","properties":{"stop_id":"55839","stop_name":"Station Du Collège (Cartier / Ouimet) (55839)"},
  "geometry":{"type":"Point","coordinates":[-73.672862,45.508654]}},
 {"type":"Feature","properties":{"stop_id":"A0001","stop_name":"Sauvé / Saint-Urbain (––)"},
@@ -8,6 +10,20 @@
 {"type":"Feature","properties":{"stop_id":"A0002","stop_name":"Sauvé / Waverly (––)"},
  "geometry":{"type":"Point","coordinates":[-73.661175,45.545017]}},
 {"type":"Feature","properties":{"stop_id":"A0003","stop_name":"Bégin / Thimens (––)"},
- "geometry":{"type":"Point","coordinates":[-73.714428,45.494861]}}
+ "geometry":{"type":"Point","coordinates":[-73.714428,45.494861]}},
+{"type":"Feature","properties":{"stop_id":"A0004","stop_name":"Henri-Bourassa / Christophe-Colomb (––)"},
+ "geometry":{"type":"Point","coordinates":[-73.662045,45.562782]}},
+{"type":"Feature","properties":{"stop_id":"A0005","stop_name":"Henri-Bourassa / Francis (––)"},
+ "geometry":{"type":"Point","coordinates":[-73.660606,45.565551]}},
+{"type":"Feature","properties":{"stop_id":"A0006","stop_name":"Henri-Bourassa / Laperle (––)"},
+ "geometry":{"type":"Point","coordinates":[-73.660139,45.567439]}},
+{"type":"Feature","properties":{"stop_id":"A0007","stop_name":"Henri-Bourassa / Christophe-Colomb (––)"},
+ "geometry":{"type":"Point","coordinates":[-73.663173,45.562537]}},
+{"type":"Feature","properties":{"stop_id":"A0008","stop_name":"Henri-Bourassa / Péloquin (––)"},
+ "geometry":{"type":"Point","coordinates":[-73.667050,45.558854]}},
+{"type":"Feature","properties":{"stop_id":"A0009","stop_name":"Station Bois-Franc (––)"},
+ "geometry":{"type":"Point","coordinates":[-73.711492,45.521597]}},
+{"type":"Feature","properties":{"stop_id":"A0010","stop_name":"Cavendish / Henri-Bourassa (––)"},
+ "geometry":{"type":"Point","coordinates":[-73.719628,45.513305]}}
   ]
 }

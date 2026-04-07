@@ -21,11 +21,14 @@ function createRouteMap(config) {
 
   const map = L.map(mapId).setView(center, zoom);
 
-  map.createPane('pane_current');
-  map.getPane('pane_current').style.zIndex = 200;
+  map.createPane('pane_lines_current');
+  map.getPane('pane_lines_current').style.zIndex = 200;
   
-  map.createPane('pane_new');
-  map.getPane('pane_new').style.zIndex = 400;
+  map.createPane('pane_lines_new');
+  map.getPane('pane_lines_new').style.zIndex = 300;
+  
+  map.createPane('pane_stops');
+  map.getPane('pane_stops').style.zIndex = 500; // 👈 ALWAYS on top
   
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: "&copy; OpenStreetMap contributors"
@@ -81,7 +84,7 @@ function createRouteMap(config) {
   }
 
   function createStopLayer(stopIds, datasetType, branch, lineColor) {
-    const paneName = datasetType === "current" ? "pane_current" : "pane_new";
+    const paneName = "pane_stops";
     
     const group = L.layerGroup();
   
@@ -147,7 +150,10 @@ function createRouteMap(config) {
 
       const style = getBranchStyle(feature, datasetType);
 
-      const paneName = datasetType === "current" ? "pane_current" : "pane_new";
+      const paneName =
+        datasetType === "current"
+          ? "pane_lines_current"
+          : "pane_lines_new";
       
       const line = L.geoJSON(feature, {
         style: style,
@@ -170,37 +176,19 @@ function createRouteMap(config) {
   }
 
   function buildCheckboxUI(branchGroupsCombined) {
-    const container = document.getElementById(checkboxContainerId);
-
+    const overlays = {};
+  
     Object.entries(branchGroupsCombined).forEach(([branch, data]) => {
-      const id = `chk_${branch}`;
-
-      const wrapper = document.createElement("div");
-
-      const checkbox = document.createElement("input");
-      checkbox.type = "checkbox";
-      checkbox.id = id;
-      checkbox.checked = true;
-
-      const label = document.createElement("label");
-      label.htmlFor = id;
-      label.innerText = data.headsign || branch;
-
-      checkbox.onchange = () => {
-        if (checkbox.checked) {
-          data.group.addTo(map);
-        } else {
-          map.removeLayer(data.group);
-        }
-      };
-
-      wrapper.appendChild(checkbox);
-      wrapper.appendChild(label);
-      container.appendChild(wrapper);
-
-      // Add by default
-      data.group.addTo(map);
+      const label = data.headsign || branch;
+      overlays[label] = data.group;
     });
+  
+    L.control.layers(null, overlays, {
+      collapsed: true   // 👈 gives you the small icon
+    }).addTo(map);
+  
+    // Add all layers by default
+    Object.values(branchGroupsCombined).forEach(d => d.group.addTo(map));
   }
 
   // Load everything

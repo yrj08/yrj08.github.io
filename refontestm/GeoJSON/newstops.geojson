@@ -3,6 +3,8 @@
   "features": [
 {"type":"Feature","properties":{"stop_id":"51905","stop_name":"Papineau / escalier des Carrières (51905)"},
  "geometry":{"type":"Point","coordinates":[-73.587893,45.538996]}},
+{"type":"Feature","properties":{"stop_id":"54104","stop_name":"Station Vendôme (54104)"},
+ "geometry":{"type":"Point","coordinates":[-73.603806,45.473704]}},
 {"type":"Feature","properties":{"stop_id":"54394","stop_name":"Henri-Bourassa / du Bois-de-Boulogne (54394)"},
  "geometry":{"type":"Point","coordinates":[-73.678270,45.538841]}},
 {"type":"Feature","properties":{"stop_id":"55053","stop_name":"Henri-Bourassa / de London (55053)"},

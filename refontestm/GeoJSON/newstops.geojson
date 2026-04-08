@@ -42,6 +42,12 @@
 {"type":"Feature","properties":{"stop_id":"A0009","stop_name":"Station Bois-Franc (––)"},
  "geometry":{"type":"Point","coordinates":[-73.711492,45.521597]}},
 {"type":"Feature","properties":{"stop_id":"A0010","stop_name":"Cavendish / Henri-Bourassa (––)"},
- "geometry":{"type":"Point","coordinates":[-73.719628,45.513305]}}
+ "geometry":{"type":"Point","coordinates":[-73.719628,45.513305]}},
+{"type":"Feature","properties":{"stop_id":"A0011","stop_name":"Royalmount / Montview (––)"},
+ "geometry":{"type":"Point","coordinates":[-73.669757,45.491598]}},
+{"type":"Feature","properties":{"stop_id":"A0012","stop_name":"Lucerne / Mitchell (––)"},
+ "geometry":{"type":"Point","coordinates":[-73.656445,45.506045]}},
+{"type":"Feature","properties":{"stop_id":"A0013","stop_name":"Lucerne / Mitchell (––)"},
+ "geometry":{"type":"Point","coordinates":[-73.656774,45.506016]}}
   ]
 }

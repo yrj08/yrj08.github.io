@@ -52,6 +52,9 @@
 {"type":"Feature","properties":{"stop_id":"A0012","stop_name":"Lucerne / Mitchell (––)"},
  "geometry":{"type":"Point","coordinates":[-73.656445,45.506045]}},
 {"type":"Feature","properties":{"stop_id":"A0013","stop_name":"Lucerne / Mitchell (––)"},
- "geometry":{"type":"Point","coordinates":[-73.656774,45.506016]}}
+ "geometry":{"type":"Point","coordinates":[-73.656774,45.506016]}},
+{"type":"Feature","properties":{"stop_id":"A0014","stop_name":"Côte-Vertu / O'Brien (––)"},
+ "geometry":{"type":"Point","coordinates":[-73.680492,45.516049]}}
+
   ]
 }

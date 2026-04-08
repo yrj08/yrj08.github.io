@@ -230,5 +230,19 @@ function createRouteMap(config) {
     mergeBranches(newBranches);
 
     buildCheckboxUI(combined);
+
+    const allBounds = L.latLngBounds();
+    
+    Object.values(combined).forEach(d => {
+      d.group.eachLayer(layer => {
+        if (layer.getBounds) {
+          allBounds.extend(layer.getBounds());
+        }
+      });
+    });
+    
+    if (allBounds.isValid()) {
+      map.fitBounds(allBounds, { padding: [20, 20] });
+    }
   });
 }

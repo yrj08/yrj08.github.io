@@ -1,6 +1,10 @@
 {
   "type": "FeatureCollection",
   "features": [
+{"type":"Feature","properties":{"stop_id":"50314","stop_name":"Millen / Henri-Bourassa (50314)"},
+ "geometry":{"type":"Point","coordinates":[-73.668103,45.556965]}},
+{"type":"Feature","properties":{"stop_id":"51242","stop_name":"Décarie / Brillon (51242)"},
+ "geometry":{"type":"Point","coordinates":[-73.618819,45.478879]}},
 {"type":"Feature","properties":{"stop_id":"51905","stop_name":"Papineau / escalier des Carrières (51905)"},
  "geometry":{"type":"Point","coordinates":[-73.587893,45.538996]}},
 {"type":"Feature","properties":{"stop_id":"54104","stop_name":"Station Vendôme (54104)"},
@@ -9,6 +13,8 @@
  "geometry":{"type":"Point","coordinates":[-73.678270,45.538841]}},
 {"type":"Feature","properties":{"stop_id":"55053","stop_name":"Henri-Bourassa / de London (55053)"},
  "geometry":{"type":"Point","coordinates":[-73.644131,45.593636]}},
+{"type":"Feature","properties":{"stop_id":"55817","stop_name":"Thimens / No 3075 (55817)"},
+ "geometry":{"type":"Point","coordinates":[-73.708089,45.501442]}},
 {"type":"Feature","properties":{"stop_id":"55839","stop_name":"Station Du Collège (Cartier / Ouimet) (55839)"},
  "geometry":{"type":"Point","coordinates":[-73.672862,45.508654]}},
 {"type":"Feature","properties":{"stop_id":"55983","stop_name":"Jules-Poitras / Henri-Bourassa (55983)"},
@@ -23,8 +29,14 @@
  "geometry":{"type":"Point","coordinates":[-73.940448,45.403648]}},
 {"type":"Feature","properties":{"stop_id":"60195","stop_name":"Thimens / Alexis-Nihon (60195)"},
  "geometry":{"type":"Point","coordinates":[-73.697452,45.509760]}},
+{"type":"Feature","properties":{"stop_id":"61055","stop_name":"Cavendish / Mackle (61055)"},
+ "geometry":{"type":"Point","coordinates":[-73.666138,45.478099]}},
+{"type":"Feature","properties":{"stop_id":"61086","stop_name":"Gouin / Grenet (61086)"},
+ "geometry":{"type":"Point","coordinates":[-73.719591,45.532332]}},
 {"type":"Feature","properties":{"stop_id":"61558","stop_name":"Décarie / No 1000 (CUSM) (61558)"},
  "geometry":{"type":"Point","coordinates":[-73.603233,45.471740]}},
+{"type":"Feature","properties":{"stop_id":"61816","stop_name":"de Monkland / Décarie (61816)"},
+ "geometry":{"type":"Point","coordinates":[-73.619642,45.478989]}},
 {"type":"Feature","properties":{"stop_id":"61994","stop_name":"Station Du Collège (du Collège / Décarie) (61994)"},
  "geometry":{"type":"Point","coordinates":[-73.674627,45.509668]}},
 {"type":"Feature","properties":{"stop_id":"A0001","stop_name":"Sauvé / Saint-Urbain (––)"},
@@ -54,7 +66,10 @@
 {"type":"Feature","properties":{"stop_id":"A0013","stop_name":"Lucerne / Mitchell (––)"},
  "geometry":{"type":"Point","coordinates":[-73.656774,45.506016]}},
 {"type":"Feature","properties":{"stop_id":"A0014","stop_name":"Côte-Vertu / O'Brien (––)"},
- "geometry":{"type":"Point","coordinates":[-73.680492,45.516049]}}
-
+ "geometry":{"type":"Point","coordinates":[-73.680492,45.516049]}},
+{"type":"Feature","properties":{"stop_id":"A0015","stop_name":"Millen / Henri-Bourassa (––)"},
+ "geometry":{"type":"Point","coordinates":[-73.667836,45.556888]}},
+{"type":"Feature","properties":{"stop_id":"A0016","stop_name":"Jules-Poitras / Henri-Bourassa (––)"},
+ "geometry":{"type":"Point","coordinates":[-73.683757,45.529396]}}
   ]
 }

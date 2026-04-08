@@ -231,18 +231,39 @@ function createRouteMap(config) {
 
     buildCheckboxUI(combined);
 
-    const allBounds = L.latLngBounds();
+    function computeBounds(geojsonList) {
+      const bounds = L.latLngBounds();
     
-    Object.values(combined).forEach(d => {
-      d.group.eachLayer(layer => {
-        if (layer.getBounds) {
-          allBounds.extend(layer.getBounds());
-        }
+      geojsonList.forEach(gj => {
+        gj.features.forEach(f => {
+          const geom = f.geometry;
+    
+          if (!geom) return;
+    
+          const coords = geom.coordinates;
+    
+          function addCoords(c) {
+            if (typeof c[0] === "number") {
+              bounds.extend([c[1], c[0]]);
+            } else {
+              c.forEach(addCoords);
+            }
+          }
+    
+          addCoords(coords);
+        });
       });
-    });
     
-    if (allBounds.isValid()) {
-      map.fitBounds(allBounds, { padding: [20, 20] });
+      return bounds;
+    }
+    
+    const bounds = computeBounds([currShapes, newShapesData]);
+    
+    if (bounds.isValid()) {
+      map.fitBounds(bounds, {
+        padding: [20, 20],
+        maxZoom: 16
+      });
     }
   });
 }

@@ -3,8 +3,12 @@
   "features": [
 {"type":"Feature","properties":{"stop_id":"54394","stop_name":"Henri-Bourassa / du Bois-de-Boulogne (54394)"},
  "geometry":{"type":"Point","coordinates":[-73.678270,45.538841]}},
+{"type":"Feature","properties":{"stop_id":"55053","stop_name":"Henri-Bourassa / de London (55053)"},
+ "geometry":{"type":"Point","coordinates":[-73.644131,45.593636]}},
 {"type":"Feature","properties":{"stop_id":"55839","stop_name":"Station Du Collège (Cartier / Ouimet) (55839)"},
  "geometry":{"type":"Point","coordinates":[-73.672862,45.508654]}},
+{"type":"Feature","properties":{"stop_id":"58591","stop_name":"Lakeshore / Macdonald (58591)"},
+ "geometry":{"type":"Point","coordinates":[-73.940448,45.403648]}},
 {"type":"Feature","properties":{"stop_id":"A0001","stop_name":"Sauvé / Saint-Urbain (––)"},
  "geometry":{"type":"Point","coordinates":[-73.660917,45.545147]}},
 {"type":"Feature","properties":{"stop_id":"A0002","stop_name":"Sauvé / Waverly (––)"},

@@ -70,6 +70,8 @@
 {"type":"Feature","properties":{"stop_id":"A0015","stop_name":"Millen / Henri-Bourassa (––)"},
  "geometry":{"type":"Point","coordinates":[-73.667836,45.556888]}},
 {"type":"Feature","properties":{"stop_id":"A0016","stop_name":"Jules-Poitras / Henri-Bourassa (––)"},
- "geometry":{"type":"Point","coordinates":[-73.683757,45.529396]}}
+ "geometry":{"type":"Point","coordinates":[-73.683757,45.529396]}},
+{"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},
+ "geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]
 }

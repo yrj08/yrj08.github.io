@@ -13,6 +13,8 @@
  "geometry":{"type":"Point","coordinates":[-73.684064,45.529225]}},
 {"type":"Feature","properties":{"stop_id":"55997","stop_name":"Dutrisac / Henri-Bourassa (55997)"},
  "geometry":{"type":"Point","coordinates":[-73.692354,45.527969]}},
+{"type":"Feature","properties":{"stop_id":"56225","stop_name":"Victoria / The Boulevard (56225)"},
+ "geometry":{"type":"Point","coordinates":[-73.615965,45.484671]}},
 {"type":"Feature","properties":{"stop_id":"57505","stop_name":"Terminus Dorval (57505)"},
  "geometry":{"type":"Point","coordinates":[-73.743173,45.448549]}},
 {"type":"Feature","properties":{"stop_id":"58591","stop_name":"Lakeshore / Macdonald (58591)"},

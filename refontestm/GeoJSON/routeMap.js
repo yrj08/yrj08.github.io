@@ -284,5 +284,30 @@ function createRouteMap(config) {
         maxZoom: 16
       });
     }
+    
+    // --- Generate stop tables
+    const tablesContainer = document.getElementById("tables");
+    
+    const directions = [...new Set(
+      newShapesData.features.map(f => f.properties.direction)
+    )];
+    
+    directions.forEach(dir => {
+      const div = document.createElement("div");
+      div.id = `table-${dir}`;
+    
+      const title = document.createElement("h3");
+      title.innerText = `Direction: ${dir}`;
+    
+      tablesContainer.appendChild(title);
+      tablesContainer.appendChild(div);
+    
+      generateStopTable({
+        shapes: newShapesData,
+        stopsLookup: stopLookup,
+        direction: dir,
+        containerId: div.id
+      });
+    });
   });
 }

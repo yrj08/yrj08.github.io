@@ -81,9 +81,14 @@ function generateStopTable({
   container.innerHTML = "";
 
   const mainFeature = shapes.features.find(f =>
-    f.properties.branch === mainBranch &&
-    f.properties.direction === direction
+    f.properties.direction === direction &&
+    f.properties.variant === "main"
   );
+
+  if (!mainFeature) {
+    container.innerHTML = `<p>No main variant found for direction: ${direction}</p>`;
+    return;
+  }
 
   if (!mainFeature) {
     container.innerHTML = "<p>No data</p>";
@@ -142,7 +147,7 @@ function generateStopTable({
   // --- VARIANTS
   shapes.features.forEach(f => {
     if (f.properties.direction !== direction) return;
-    if (f.properties.branch === mainBranch) return;
+    if (f.properties.variant === "main") return;
 
     (f.properties.stops || []).forEach(id => {
       if (!mainSet.has(id)) {

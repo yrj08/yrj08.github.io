@@ -34,99 +34,53 @@
 #map { height: 100vh; }
 </style>
 </head>
-<body>
-<h1>Ligne 16 • Graham</h1>
 
-<p>
-  <a href="#changements">Modifications proposées</a><br>
-  <a href="#pourquoi">Raisonnement des modifications</a><br>
-  <a href="#arrets">Liste d'arrêts desservis</a><br>
-</p>
+<body>
+
+<h1 id="title"></h1>
 
 <div id="controls"></div>
 <div id="map"></div>
 
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<h2>Liste d'arrêts desservis</h2>
+<div class="row">
+  <div class="column">
+    <h3 id="title-left"></h3>
+    <div id="table-left"></div>
+  </div>
+  <div class="column">
+    <h3 id="title-right"></h3>
+    <div id="table-right"></div>
+  </div>
+</div>
+
+<h2>Modifications proposées</h2>
+<ul id="changements"></ul>
+
+<h2>Raisonnement</h2>
+<ul id="pourquoi"></ul>
+
+<script src="../GeoJSON/routeConfig.js"></script>
 <script src="../GeoJSON/routeMap.js"></script>
 <script src="../GeoJSON/stopTable.js"></script>
 
 <script>
+const routeId = "16";
+const cfg = routeConfigs[routeId];
+
+// Inject text
+document.getElementById("title").innerText = cfg.title;
+document.getElementById("changements").innerHTML = cfg.changements;
+document.getElementById("pourquoi").innerHTML = cfg.pourquoi;
+
+// Create map
 createRouteMap({
   mapId: "map",
-
-  center: [45.55, -73.7],
-  zoom: 12,
-
-  // Your files
-  currentShapes: "../GeoJSON/curr-16.geojson",
-  newShapes: "../GeoJSON/16.geojson",
-
-  currentStops: "../GeoJSON/oldstops.geojson",
-  newStops: "../GeoJSON/newstops.geojson",
-
-  // Manual overrides by branch ID
-branchStyles: {
-    "168888": {
-      line: {
-        color: "#009EE0",
-        weight: 4,
-        opacity: 1
-      },
-      stop: {
-        radius: 4,
-        weight: 3,
-        color: "#009EE0",
-        fillOpacity: 1,
-        shape: "circle"
-      }
-    },
-
-    "169999": {
-      line: {
-        color: "#5DBDEA",
-        weight: 4,
-        opacity: 0.8
-      },
-      stop: {
-        radius: 4,
-        weight: 3,
-        color: "#5DBDEA",
-        shape: "circle",
-        fillOpacity: 1
-      }
-    },
-
-    "current": {
-      line: {
-        color: "#FFB350",
-        weight: 10,
-        opacity: 1
-      },
-      stop: {
-        radius: 5,
-        weight: 5,
-        color: "#FFB350",
-        shape: "circle",
-        fillOpacity: 1
-      }
-    }
-  },
-  
-  checkboxContainerId: "controls"
+  ...cfg.files,
+  branchStyles: cfg.branchStyles,
+  directionLabels: cfg.directionLabels
 });
 </script>
-
-<h2 id="changements">Modifications proposées</h2>
-<ul>
-  <li></li>
-  <li>Retrait de quelques arrêts trop rapprochés.</li>
-</ul>
-
-<h2 id="pourquoi">Raisonnement des modifications</h2>
-<ul>
-  <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
-    nombre d'arrêts.</li>
-</ul>
   
 </body>
 </html>

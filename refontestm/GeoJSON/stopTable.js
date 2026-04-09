@@ -101,15 +101,20 @@ function generateStopTable({
   let prevDist = null;
 
   const table = document.createElement("table");
+  table.className = "dataframe";
   table.style.borderCollapse = "collapse";
+  table.style.width = "100%";
 
   table.innerHTML = `
-    <tr>
-      <th>Séq</th>
-      <th>Arrêt / intersection</th>
-      <th>Dist<br>(m)</th>
-      <th>Cumul<br>(km)</th>
-    </tr>
+    <thead>
+      <tr>
+        <th>Séq</th>
+        <th>Arrêt / Intersection</th>
+        <th>Dist<br>(m)</th>
+        <th>Cumul<br>(km)</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
   `;
 
   const mainSet = new Set(stopIds);
@@ -136,12 +141,12 @@ function generateStopTable({
 
     tr.innerHTML = `
       <td>${idx + 1}</td>
-      <td>${stop.properties.stop_name} (${id})</td>
-      <td>${delta ? (delta / 1000).toFixed(2) : "––"}</td>
-      <td>${delta ? (cumulative / 1000).toFixed(2) : "––"}</td>
+      <td>${stop.properties.stop_name}</td>
+      <td>${delta != null ? Math.round(delta) : "––"}</td>
+      <td>${delta != null ? (cumulative / 1000).toFixed(2) : "––"}</td>
     `;
 
-    table.appendChild(tr);
+    table.querySelector("tbody").appendChild(tr);
   });
 
   // --- VARIANTS
@@ -166,7 +171,7 @@ function generateStopTable({
           <td>––</td>
         `;
 
-        table.appendChild(tr);
+        table.querySelector("tbody").appendChild(tr);
       }
     });
   });

@@ -7,7 +7,7 @@
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-<script src="routeMap.js"></script>
+<script src="../refontestm/GeoJSON/routeMap.js"></script>
 
 <style>
 * {box-sizing: border-box;}
@@ -47,45 +47,70 @@
 
 <script>
 createRouteMap({
-  geojsonFile: "350.geojson",
-  outboundRouteLabel: "Tracé direction est",
-  inboundRouteLabel: "Tracé direction ouest",
-  outboundStopsLabel: "Arrêts direction est",
-  inboundStopsLabel: "Arrêts direction ouest",
+  mapId: "map",
 
-  branchStyles: {
-    "current_outbound": {
-      color: "#E28D1D",
-      shape: "circle",
-      radius: 3,
-      weight: 8,
-      opacity: 0.5},
+  center: [45.55, -73.7],
+  zoom: 12,
 
-    "current_inbound": {
-      color: "#E28D1D",
-      shape: "circle",
-      radius: 3,
-      weight: 8,
-      opacity: 0.5},
+  // Your files
+  currentShapes: "curr-350.geojson",
+  newShapes: "350.geojson",
 
-    "added_outbound": {
-      color: "#9C2DFB",
-      shape: "circle",
-      radius: 4,
-      weight: 4,
-      borderweight: 3},
+  currentStops: "../refontestm/GeoJSON/oldstops.geojson",
+  newStops: "../refontestm/GeoJSON/newstops.geojson",
 
-    "added_inbound": {
-      color: "#CF9CFF",
-      shape: "circle",
-      radius: 4,
-      weight: 4, 
-      borderweight: 3}
-  }
+  // Manual overrides by branch ID
+branchStyles: {
+    "3508888": {
+      line: {
+        color: "#000000",
+        weight: 4,
+        opacity: 1
+      },
+      stop: {
+        radius: 4,
+        weight: 3,
+        color: "#000000",
+        fillOpacity: 1,
+        shape: "circle"
+      }
+    },
+
+    "3509999": {
+      line: {
+        color: "#6F6F6F",
+        weight: 4,
+        opacity: 0.8
+      },
+      stop: {
+        radius: 4,
+        weight: 3,
+        color: "#6F6F6F",
+        shape: "circle",
+        fillOpacity: 1
+      }
+    },
+
+    "current": {
+      line: {
+        color: "#FFB350",
+        weight: 10,
+        opacity: 1
+      },
+      stop: {
+        radius: 5,
+        weight: 5,
+        color: "#FFB350",
+        shape: "circle",
+        fillOpacity: 1
+      }
+    }
+  },
   
+  checkboxContainerId: "controls"
 });
 </script>
-
+  
 <h2 id="changements">Modifications proposées</h2>
 <ul>
   <li>Retrait du service via métro Atwater : pôle d'échange déplacé à la station 

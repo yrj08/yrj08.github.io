@@ -72,9 +72,11 @@ function generateStopTable({
   shapes,
   stopsLookup,
   direction,
-  mainBranch,
-  containerId
+  containerId,
+  directionLabels = {}
 }) {
+  const displayName = directionLabels[direction] || direction;
+  
   const container = document.getElementById(containerId);
   if (!container) return;
 

@@ -197,12 +197,31 @@ function createRouteMap(config) {
     Object.values(branchGroupsCombined).forEach(d => d.group.addTo(map));
   }
 
+  function fetchGeoJSON(url) {
+    if (!url) {
+      return Promise.resolve({ type: "FeatureCollection", features: [] });
+    }
+  
+    return fetch(url)
+      .then(res => {
+        if (!res.ok) {
+          console.warn(`Failed to load ${url}`);
+          return { type: "FeatureCollection", features: [] };
+        }
+        return res.json();
+      })
+      .catch(err => {
+        console.warn(`Error loading ${url}`, err);
+        return { type: "FeatureCollection", features: [] };
+      });
+  }
+  
   // Load everything
   Promise.all([
-    fetch(currentShapes).then(r => r.json()),
-    fetch(newShapes).then(r => r.json()),
-    fetch(currentStops).then(r => r.json()),
-    fetch(newStops).then(r => r.json())
+    fetchGeoJSON(currentShapes),
+    fetchGeoJSON(newShapes),
+    fetchGeoJSON(currentStops),
+    fetchGeoJSON(newStops)
   ]).then(([currShapes, newShapesData, currStops, newStopsData]) => {
 
     buildStopLookup(currStops, "current");

@@ -8,15 +8,15 @@
 {"type":"Feature","properties":{"stop_id":"51905","stop_name":"Papineau / escalier des Carrières (51905)"},
  "geometry":{"type":"Point","coordinates":[-73.587893,45.538996]}},
 {"type":"Feature","properties":{"stop_id":"52506","stop_name":"Station Sherbrooke (Édicule Est) (52506)"},
- "geometry":{"type":"Point","coordinates":[-73.568301,45.518812]}}
+ "geometry":{"type":"Point","coordinates":[-73.568301,45.518812]}},
 {"type":"Feature","properties":{"stop_id":"52662","stop_name":"Berri / Ontario (52662)"},
- "geometry":{"type":"Point","coordinates":[-73.564555,45.517045]}}
+ "geometry":{"type":"Point","coordinates":[-73.564555,45.517045]}},
 {"type":"Feature","properties":{"stop_id":"52665","stop_name":"Berri / Ontario (52665)"},
- "geometry":{"type":"Point","coordinates":[-73.564353,45.516768]}}
+ "geometry":{"type":"Point","coordinates":[-73.564353,45.516768]}},
 {"type":"Feature","properties":{"stop_id":"52844","stop_name":"Station Berri-UQAM (Berri / Ste-Catherine) (52844)"},
- "geometry":{"type":"Point","coordinates":[-73.559885,45.514657]}}
+ "geometry":{"type":"Point","coordinates":[-73.559885,45.514657]}},
 {"type":"Feature","properties":{"stop_id":"52906","stop_name":"Berri / René-Lévesque (52906)"},
- "geometry":{"type":"Point","coordinates":[-73.557687,45.513648]}}
+ "geometry":{"type":"Point","coordinates":[-73.557687,45.513648]}},
 {"type":"Feature","properties":{"stop_id":"54104","stop_name":"Station Vendôme (54104)"},
  "geometry":{"type":"Point","coordinates":[-73.603806,45.473704]}},
 {"type":"Feature","properties":{"stop_id":"54394","stop_name":"Henri-Bourassa / du Bois-de-Boulogne (54394)"},
@@ -44,7 +44,7 @@
 {"type":"Feature","properties":{"stop_id":"61086","stop_name":"Gouin / Grenet (61086)"},
  "geometry":{"type":"Point","coordinates":[-73.719591,45.532332]}},
 {"type":"Feature","properties":{"stop_id":"61153","stop_name":"Station Berri-UQAM (61153)"},
- "geometry":{"type":"Point","coordinates":[-73.560191,45.514987]}}
+ "geometry":{"type":"Point","coordinates":[-73.560191,45.514987]}},
 {"type":"Feature","properties":{"stop_id":"61558","stop_name":"Décarie / No 1000 (CUSM) (61558)"},
  "geometry":{"type":"Point","coordinates":[-73.603233,45.471740]}},
 {"type":"Feature","properties":{"stop_id":"61816","stop_name":"de Monkland / Décarie (61816)"},

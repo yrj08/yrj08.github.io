@@ -105,10 +105,10 @@ function generateStopTable({
 
   table.innerHTML = `
     <tr>
-      <th>#</th>
-      <th>Stop</th>
-      <th>Δ (km)</th>
-      <th>Cumul (km)</th>
+      <th>Séq</th>
+      <th>Arrêt / intersection</th>
+      <th>Dist<br>(m)</th>
+      <th>Cumul<br>(km)</th>
     </tr>
   `;
 
@@ -161,7 +161,7 @@ function generateStopTable({
 
         tr.innerHTML = `
           <td>––</td>
-          <td>${stop.properties.stop_name} (${id})</td>
+          <td>${stop.properties.stop_name}</td>
           <td>––</td>
           <td>––</td>
         `;

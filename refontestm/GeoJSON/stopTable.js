@@ -102,7 +102,7 @@ function generateStopTable({
 
   const table = document.createElement("table");
   table.className = "dataframe";
-  table.style.borderCollapse = "collapse";
+  <!--table.style.borderCollapse = "collapse";-->
   table.style.width = "100%";
 
   table.innerHTML = `

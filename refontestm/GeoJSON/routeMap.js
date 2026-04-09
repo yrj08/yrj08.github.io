@@ -286,28 +286,59 @@ function createRouteMap(config) {
     }
     
     // --- Generate stop tables
-    const tablesContainer = document.getElementById("tables");
     
-    const directions = [...new Set(
-      newShapesData.features.map(f => f.properties.direction)
-    )];
+    const preferredOrder = ["outbound", "inbound"];
     
-    directions.forEach(dir => {
-      const div = document.createElement("div");
-      div.id = `table-${dir}`;
+    const directions = [
+      ...preferredOrder.filter(d =>
+        newShapesData.features.some(f => f.properties.direction === d)
+      ),
+      ...new Set(
+        newShapesData.features
+          .map(f => f.properties.direction)
+          .filter(d => d != null && !preferredOrder.includes(d))
+      )
+    ];
     
-      const title = document.createElement("h3");
-      title.innerText = `Direction: ${dir}`;
+    // Customize labels per page
+    const directionLabels = {
+      outbound: "Est",
+      inbound: "Ouest"
+    };
     
-      tablesContainer.appendChild(title);
-      tablesContainer.appendChild(div);
+    // Limit to max 2 directions (your design)
+    const leftDir = directions[0];
+    const rightDir = directions[1];
+    
+    // LEFT COLUMN
+    if (leftDir) {
+      document.getElementById("title-left").innerText =
+        directionLabels[leftDir] || leftDir;
     
       generateStopTable({
         shapes: newShapesData,
         stopsLookup: stopLookup,
-        direction: dir,
-        containerId: div.id
+        direction: leftDir,
+        containerId: "table-left"
       });
-    });
+    }
+
+    // RIGHT COLUMN
+    if (rightDir) {
+      document.getElementById("title-right").innerText =
+        directionLabels[rightDir] || rightDir;
+    
+      generateStopTable({
+        shapes: newShapesData,
+        stopsLookup: stopLookup,
+        direction: rightDir,
+        containerId: "table-right"
+      });
+    }
+    
+    // Optional: hide right column if unused
+    if (!rightDir) {
+      document.getElementById("table-right").parentElement.style.display = "none";
+    }
   });
 }

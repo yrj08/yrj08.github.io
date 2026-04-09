@@ -16,7 +16,8 @@ function createRouteMap(config) {
     branchStyles = {},
 
     // UI container
-    checkboxContainerId = "controls"
+    checkboxContainerId = "controls",
+    directionLabels = {}   // 👈 ADD THIS
   } = config;
 
   const map = L.map(mapId).setView(center, zoom);
@@ -301,10 +302,6 @@ function createRouteMap(config) {
     ];
     
     // Customize labels per page
-    const directionLabels = {
-      outbound: "Est",
-      inbound: "Ouest"
-    };
     
     // Limit to max 2 directions (your design)
     const leftDir = directions[0];

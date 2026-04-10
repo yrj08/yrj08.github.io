@@ -35,8 +35,6 @@
  "geometry":{"type":"Point","coordinates":[-73.615965,45.484671]}},
 {"type":"Feature","properties":{"stop_id":"57505","stop_name":"Terminus Dorval (57505)"},
  "geometry":{"type":"Point","coordinates":[-73.743173,45.448549]}},
-{"type":"Feature","properties":{"stop_id":"58096","stop_name":"de Pierrefonds / Saint-Charles (58096)"},
- "geometry":{"type":"Point","coordinates":[-73.874908,45.469178]}},
 {"type":"Feature","properties":{"stop_id":"58098","stop_name":"Saint-Charles / Claude (58098)"},
  "geometry":{"type":"Point","coordinates":[-73.875081,45.467875]}},
 {"type":"Feature","properties":{"stop_id":"58591","stop_name":"Lakeshore / Macdonald (58591)"},

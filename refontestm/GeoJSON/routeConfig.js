@@ -418,6 +418,33 @@ window.routeConfigs = {
         nombre d'arrêts.</li>
     `},
 
+  "352": {title: "Ligne 352 • Centrale",
+    files: {currentShapes: "../GeoJSON/curr-352.geojson", newShapes: "../GeoJSON/352.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est", inbound: "Ouest"},
+    branchStyles: {
+      "3528888": {line: {color: "#000000", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
+      "3529999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Nouvelle ligne pour reprendre le segment délaissé par des modifications 
+        à la ligne 350, entre Shevchenko et Terminus Lafleur / Newman;</li>
+      <li>Retrait du service via Shevchenko ; remplacé par trajet via Lapierre.</li>
+    `,
+    pourquoi: `
+      <li>Réduire le temps de trajet pour les résidents de LaSalle depuis 
+        le centre-ville ; le trajet prend Jolicoeur, Monk et Notre-Dame au 
+        lieu de desservir presque toutes les stations sur la ligne verte du 
+        métro;</li>
+      <li>Élargir le bassin desservi par les lignes de nuit en créant une 
+        nouvelle desserte via Notre-Dame, Monk, et Jolicoeur;</li>
+      <li>Concorder avec le réseau de jour en suivant (plus ou moins) la ligne 
+        110 Centrale à l'ouest du boul. Angrignon;</li>
+      <li>Permettre de concentrer les ressources sur la ligne 350 avec une 
+        demande plus forte.</li>
+    `},
+  
   "353": {title: "Ligne 353 • Lacordaire / Maurice-Duplessis",
     files: {currentShapes: "../GeoJSON/curr-353.geojson", newShapes: "../GeoJSON/353.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
@@ -516,7 +543,7 @@ window.routeConfigs = {
     branchStyles: {
       "3708888": {line: {color: "#000000", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
-      "3709999": {line: {color: "#6F6F6F", weight: 4, opacity: 0.8},
+      "3709999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -539,7 +566,7 @@ window.routeConfigs = {
     branchStyles: {
       "3718888": {line: {color: "#000000", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
-      "3719999": {line: {color: "#6F6F6F", weight: 4, opacity: 0.8},
+      "3719999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -665,7 +692,7 @@ window.routeConfigs = {
     branchStyles: {
       "3828888": {line: {color: "#000000", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
-      "3829999": {line: {color: "#6F6F6F", weight: 4, opacity: 0.8},
+      "3829999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},

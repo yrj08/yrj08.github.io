@@ -17,6 +17,8 @@
  "geometry":{"type":"Point","coordinates":[-73.559885,45.514657]}},
 {"type":"Feature","properties":{"stop_id":"52906","stop_name":"Berri / René-Lévesque (52906)"},
  "geometry":{"type":"Point","coordinates":[-73.557687,45.513648]}},
+{"type":"Feature","properties":{"stop_id":"53277","stop_name":"Station Honoré-Beaugrand (Terminus Sud) (53277)"},
+ "geometry":{"type":"Point","coordinates":[-73.534164,45.596717]}},
 {"type":"Feature","properties":{"stop_id":"54104","stop_name":"Station Vendôme (54104)"},
  "geometry":{"type":"Point","coordinates":[-73.603806,45.473704]}},
 {"type":"Feature","properties":{"stop_id":"54394","stop_name":"Henri-Bourassa / du Bois-de-Boulogne (54394)"},

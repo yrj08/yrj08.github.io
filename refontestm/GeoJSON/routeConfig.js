@@ -399,6 +399,67 @@ window.routeConfigs = {
         nombre d'arrêts.</li>
     `},
 
+  "353": {title: "Ligne 353 • Lacordaire / Maurice-Duplessis",
+    files: {currentShapes: "../GeoJSON/curr-353.geojson", newShapes: "../GeoJSON/353.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est", inbound: "Ouest"},
+    branchStyles: {
+      "3538888": {line: {color: "#000000", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
+      "3539999": {line: {color: "#6F6F6F", weight: 4, opacity: 0.8},
+          stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Prolongement du parcours jusqu'à la Gare Rivière-des-Prairies;</li>
+      <li>Retrait du service via Perras et Armand-Bombardier; segment remplacé par 
+        des modifications aux lignes 372 et 380;</li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Offrir un service tout au long de Maurice-Duplessis et un service 
+        bi-directionnel à l'est du boulevard de la Rivière-des-Prairies;</li>
+      <li>Élargir le bassin de desserte dans l'est de l'île, de concert avec les 
+        modifications aux lignes 372 et 380;</li>
+      <li>Tirer avantage d'un nouveau terminus disponible depuis l'ouverture 
+        de la ligne Mascouche;</li>
+      <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
+        nombre d'arrêts.</li>
+    `},
+
+  "354": {title: "Ligne 354 • Des Sources / YUL Aéroport",
+    files: {currentShapes: "../GeoJSON/curr-354.geojson", newShapes: "../GeoJSON/354.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est", inbound: "Ouest"},
+    branchStyles: {
+      "3548888": {line: {color: "#000000", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
+      "3549999": {line: {color: "#6F6F6F", weight: 4, opacity: 0.8},
+          stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Retrait du service au métro Atwater;</li>
+      <li>Ajout de desserte via YUL Aéroport Montréal-Trudeau et boul. René-Lévesque 
+        (jusqu'au métro Place-des-Arts) en remplacement au retrait de la ligne 747;</li>
+      <li>Retrait du service entre des Sources et Sainte-Anne-de-Bellevue via 
+        Autoroute 20; segment remplacé par des modifications à la ligne 376 
+        avec un tracé via Brunswick et Autoroute 40;</li>
+      <li>Ajout du service via des Sources jusqu'au REM Pierrefonds-Roxboro 
+        en remplacement au segment délaissé par des modifications à la ligne 356;</li>
+    `,
+    pourquoi: `
+      <li>Créer un pôle d'échange plus sécuritaire et convivial pour la clientèle et 
+        pour les employés au métro Guy-Concordia au lieu de Lionel-Groulx;</li>
+      <li>Réduire la longueur du trajet de la ligne 356 pour une meilleure 
+        régularité;</li>
+      <li>Concentrer le service là où la demande et plus forte sur la ligne 356, soit 
+        principalement sur Sherbrooke et Victoria;</li>
+      <li>Réduire le temps de trajet vers boul. des Sources depuis le centre-ville;</li>
+      <li>Permet de relier plusieurs stations du REM lorsque ce dernier n'est pas 
+        en service pendant la nuit.</li>
+    `},
+  
   "376": {title: "Ligne 376 • Brunswick / Anse-à-l'Orme",
     files: {currentShapes: "../GeoJSON/curr-376.geojson", newShapes: "../GeoJSON/376.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},

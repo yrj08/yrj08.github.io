@@ -508,6 +508,61 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
         nombre d'arrêts.</li>
     `},
+
+  "370": {title: "Ligne 370 • Rosemont",
+    files: {currentShapes: "../GeoJSON/curr-370.geojson", newShapes: "../GeoJSON/370.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est", inbound: "Ouest"},
+    branchStyles: {
+      "3708888": {line: {color: "#000000", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
+      "3709999": {line: {color: "#6F6F6F", weight: 4, opacity: 0.8},
+          stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Ajustement du trajet en direction ouest pour emprunter Kildare 
+        dans les deux directions, entre Westminster et Parkhaven;</li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Permettre un service bi-directionnel sur Kildare et retirer la 
+        circulation d'autobus sur Parkhaven et Westminster;</li>
+      <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
+        nombre d'arrêts.</li>
+    `},
+
+  "371": {title: "Ligne 371 • Décarie",
+    files: {currentShapes: "../GeoJSON/curr-371.geojson", newShapes: "../GeoJSON/371.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Nord", inbound: "Sud"},
+    branchStyles: {
+      "3718888": {line: {color: "#000000", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
+      "3719999": {line: {color: "#6F6F6F", weight: 4, opacity: 0.8},
+          stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Retrait de la desserte à la station Atwater et prolongement du parcours 
+        vers station Papineau via René-Lévesque en compensation au retrait 
+        de la ligne 358;</li>
+      <li>Retrait de la desserte sur Girouard et ajout du service sur Décarie, 
+        entre Saint-Jacques et Côte-Saint-Luc;</li>
+      <li>Retrait du service à l'ouest de la station Côte-Vertu (trajet via 
+        Côte-Vertu et Thimens); parcours prolongé vers le terminus Grenet / 
+        De Serres (via Cardinal/Crevier et Grenet) en remplacement des 
+        modifications à la ligne 382;</li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Créer un pôle d'échange secondaire à l'est du centre-ville à la station 
+        Papineau (pour diminuer le nombre de ligne terminant à la station Frontenac);</li>
+      <li>Améliorer l'accès vers les secteurs résidentiels de Saint-Laurent et 
+        Ahuntsic-Cartierville depuis le centre-ville;</li>
+      <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
+        nombre d'arrêts.</li>
+    `},
   
   "376": {title: "Ligne 376 • Brunswick / Anse-à-l'Orme",
     files: {currentShapes: "../GeoJSON/curr-376.geojson", newShapes: "../GeoJSON/376.geojson", 
@@ -599,6 +654,41 @@ window.routeConfigs = {
         d'informations;</li>
       <li>Permet d'élargir le bassin desservi dans l'est de l'île, conjointement avec 
         modifications aux lignes 353 et 372;</li>
+      <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
+        nombre d'arrêts.</li>
+    `},
+
+  "382": {title: "Ligne 382 • Pierrefonds / Saint-Charles",
+    files: {currentShapes: "../GeoJSON/curr-382.geojson", newShapes: "../GeoJSON/382.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est", inbound: "Ouest"},
+    branchStyles: {
+      "3828888": {line: {color: "#000000", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
+      "3829999": {line: {color: "#6F6F6F", weight: 4, opacity: 0.8},
+          stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Retrait du service sur Hymus et Saint-Jean et ajout du service sur 
+        Saint-Charles et Pierrefonds (à l'ouest de Saint-Jean);</li>
+      <li>Retrait du service sur Gouin (entre l'Autoroute 13 et Grenet) et 
+        ajout du service sur l'Autoroute 13, Henri-Bourassa, Cousens et Marcel-Laurin;</li>
+      <li>Retrait des arrêts locaux entre les stations Côte-Vertu et Namur;</li>
+      <li>Prolongement de la ligne vers la station Guy-Concordia en remplacement 
+        de la ligne 376;</li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Permet de concorder les dessertes de jour et de nuit en suivant l'axe 
+        Saint-Charles;</li>
+      <li>Permet d'élargir le bassin desservi globalement avec des 
+        modifications proposées sur les lignes 354, 356 et 376;</li>
+      <li>Permet d'élargir le bassin couvert en ajoutant un service de nuit 
+        dans le secteur Bois-Franc en retirant le service sur un axe peu dense 
+        (Gouin / Saraguay);</li>
+      <li>Permet un service express à partir du centre-ville vers un plus grand 
+        nombre de pôles d'échange majeurs (métro Namur, Du Collège et Côte-Vertu);</li>
       <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
         nombre d'arrêts.</li>
     `},

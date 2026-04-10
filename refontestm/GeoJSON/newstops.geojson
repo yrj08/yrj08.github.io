@@ -49,6 +49,8 @@
  "geometry":{"type":"Point","coordinates":[-73.560191,45.514987]}},
 {"type":"Feature","properties":{"stop_id":"61558","stop_name":"Décarie / No 1000 (CUSM) (61558)"},
  "geometry":{"type":"Point","coordinates":[-73.603233,45.471740]}},
+{"type":"Feature","properties":{"stop_id":"61625","stop_name":"Boucle Thimens (61625)"},
+ "geometry":{"type":"Point","coordinates":[-73.707814,45.501661]}},
 {"type":"Feature","properties":{"stop_id":"61769","stop_name":"Côte-Vertu / Alexis-Nihon (61769)"},
  "geometry":{"type":"Point","coordinates":[-73.692829,45.506042]}},
 {"type":"Feature","properties":{"stop_id":"61816","stop_name":"de Monkland / Décarie (61816)"},

@@ -365,10 +365,205 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
+
+
+
+
+
+
+  "212": {title: "Ligne 212 • Sainte-Anne",
+    files: {currentShapes: "../GeoJSON/curr-212.geojson", newShapes: "../GeoJSON/212.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Boucle - Gare Sainte-Anne-de-Bellevue", 
+                      inbound: "Boucle - Station Anse-à-l'Orme"},
+    branchStyles: {
+      "2129999": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "2128888": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Aucune modification de trajet: desserte en boucle maintenue avec deux directions
+          indiquées pour mieux guider la clientèle;</li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer l'expérience client en ayant deux destinations pour éviter 
+          des confusions;</li>
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+
+  "215": {title: "Ligne 215 • Henri-Bourassa / Brunswick",
+    files: {currentShapes: "../GeoJSON/curr-215.geojson", newShapes: "../GeoJSON/215.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est - Station Côte-Vertu", 
+                      inbound: "Ouest - Station Fairview–Pointe-Claire"},
+    branchStyles: {
+      "2150014": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "2150016": {line: {color: "#009EE0", weight: 4, opacity: 1, dashArray: "5,10"},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "2150015": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "2150017": {line: {color: "#5DBDEA", weight: 4, opacity: 1, dashArray: "5,10"},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+
+  "216": {title: "Ligne 216 • Transcanadienne",
+    files: {currentShapes: "../GeoJSON/curr-216.geojson", newShapes: "../GeoJSON/216.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est - Station Côte-Vertu", 
+                      inbound: "Ouest - Station Des Sources"},
+    branchStyles: {
+      "2160006": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "2160005": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+
+  "218": {title: "Ligne 218 • Antoine-Faucon",
+    files: {currentShapes: "../GeoJSON/curr-218.geojson", newShapes: "../GeoJSON/218.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Nord", inbound: "Sud"},
+    branchStyles: {
+      "2180005": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "2180004": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+
+  "220": {title: "Ligne 220 • Kieran",
+    files: {currentShapes: "../GeoJSON/curr-220.geojson", newShapes: "../GeoJSON/220.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est - Station Du Collège", 
+                      inbound: "Ouest - Kieran / Douglas-B.-Floreani"},
+    branchStyles: {
+      "2208888": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "2200003": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+
+  "221": {title: "Ligne 221 • Saint-Jean",
+    files: {currentShapes: "../GeoJSON/curr-221.geojson", newShapes: "../GeoJSON/221.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Nord - Station Fairview–Pointe-Claire", 
+                      inbound: "Sud - Gare Beaconsfield"},
+    branchStyles: {
+      "2210002": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "2210001": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+
+  "222": {title: "Ligne 222 • Senneville",
+    files: {currentShapes: "../GeoJSON/curr-222.geojson", newShapes: "../GeoJSON/222.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Boucle - Senneville", 
+                      inbound: "Boucle - Station Anse-à-l'Orme"},
+    branchStyles: {
+      "2229999": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "2228888": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Aucune modification de trajet: desserte en boucle maintenue avec deux 
+          directions indiquées pour mieux guider la clientèle.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer l'expérience client en ayant deux destinations pour éviter 
+          des confusions.</li>
+    `},
+
+  "223": {title: "Ligne 223 • Parc Industriel Baie-D'Urfé",
+    files: {currentShapes: "../GeoJSON/curr-223.geojson", newShapes: "../GeoJSON/223.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Boucle - Parc Industriel Baie-D'Urfé", 
+                      inbound: "Boucle - Station Anse-à-l'Orme"},
+    branchStyles: {
+      "2239999": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "2238888": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Aucune modification de trajet: desserte en boucle maintenue avec deux 
+          directions indiquées pour mieux guider la clientèle.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer l'expérience client en ayant deux destinations pour éviter 
+          des confusions.</li>
+    `},
+
+  "225": {title: "Ligne 225 • Hymus",
+    files: {currentShapes: "../GeoJSON/curr-225.geojson", newShapes: "../GeoJSON/225.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est - Station Côte-Vertu", 
+                      inbound: "Ouest - Station Fairview–Pointe-Claire"},
+    branchStyles: {
+      "2250013": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "2250012": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+  
   "350": {title: "Ligne 350 • Verdun / LaSalle",
     files: {currentShapes: "../GeoJSON/curr-350.geojson", newShapes: "../GeoJSON/350.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est", inbound: "Ouest"},
+    directionLabels: {outbound: "Est - Station Frontenac", 
+                      inbound: "Ouest - Centre de transport LaSalle"},
     branchStyles: {
       "3508888": {line: {color: "#000000", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
@@ -421,7 +616,8 @@ window.routeConfigs = {
   "352": {title: "Ligne 352 • Centrale",
     files: {currentShapes: "../GeoJSON/curr-352.geojson", newShapes: "../GeoJSON/352.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est", inbound: "Ouest"},
+    directionLabels: {outbound: "Est - Station Place-des-Arts", 
+                      inbound: "Ouest - Terminus Lafleur / Newman"},
     branchStyles: {
       "3528888": {line: {color: "#000000", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
@@ -515,6 +711,14 @@ window.routeConfigs = {
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
       "3559999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
+      "3558888_cancelled": {line: {color: "#FF2600", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#FF2600", fillOpacity: 1, shape: "circle"}},
+      "3559999_cancelled": {line: {color: "#", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#", fillOpacity: 1, shape: "circle"}},
+      "3558888_temporary": {line: {color: "#1F3BFF", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#1F3BFF", fillOpacity: 1, shape: "circle"}},
+      "3559999_temporary": {line: {color: "#", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `

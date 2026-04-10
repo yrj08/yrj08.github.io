@@ -7,7 +7,7 @@ window.routeConfigs = {
     branchStyles: {
       "138888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "139999": {line: {color: "#5DBDEA", weight: 4, opacity: 0.8},
+      "139999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -26,7 +26,7 @@ window.routeConfigs = {
     branchStyles: {
       "168888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "169999": {line: {color: "#5DBDEA", weight: 4, opacity: 0.8},
+      "169999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -45,7 +45,7 @@ window.routeConfigs = {
     branchStyles: {
       "318888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "319999": {line: {color: "#5DBDEA", weight: 4, opacity: 0.8},
+      "319999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -64,7 +64,7 @@ window.routeConfigs = {
     branchStyles: {
       "548888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "549999": {line: {color: "#5DBDEA", weight: 4, opacity: 0.8},
+      "549999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -83,7 +83,7 @@ window.routeConfigs = {
     branchStyles: {
       "558888": {line: {color: "#781B7D", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},
-      "559999": {line: {color: "#8B469E", weight: 4, opacity: 0.8},
+      "559999": {line: {color: "#8B469E", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#8B469E", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -102,7 +102,7 @@ window.routeConfigs = {
     branchStyles: {
       "568888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "569999": {line: {color: "#5DBDEA", weight: 4, opacity: 0.8},
+      "569999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -121,7 +121,7 @@ window.routeConfigs = {
     branchStyles: {
       "690028": {line: {color: "#781B7D", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},
-      "690027": {line: {color: "#8B469E", weight: 4, opacity: 0.8},
+      "690027": {line: {color: "#8B469E", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#8B469E", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -140,7 +140,7 @@ window.routeConfigs = {
     branchStyles: {
       "700010": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "700009": {line: {color: "#5DBDEA", weight: 4, opacity: 0.8},
+      "700009": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -159,7 +159,7 @@ window.routeConfigs = {
     branchStyles: {
       "720012": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "720011": {line: {color: "#5DBDEA", weight: 4, opacity: 0.8},
+      "720011": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -179,7 +179,7 @@ window.routeConfigs = {
     branchStyles: {
       "790002": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "790001": {line: {color: "#5DBDEA", weight: 4, opacity: 0.8},
+      "790001": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -198,7 +198,7 @@ window.routeConfigs = {
     branchStyles: {
       "1178888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "1179999": {line: {color: "#5DBDEA", weight: 4, opacity: 0.8},
+      "1179999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -217,7 +217,7 @@ window.routeConfigs = {
     branchStyles: {
       "1190007": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "1190006": {line: {color: "#5DBDEA", weight: 4, opacity: 0.8},
+      "1190006": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -236,7 +236,7 @@ window.routeConfigs = {
     branchStyles: {
       "1200001": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "1200003": {line: {color: "#5DBDEA", weight: 4, opacity: 0.8},
+      "1200003": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -255,7 +255,7 @@ window.routeConfigs = {
     branchStyles: {
       "1219001": {line: {color: "#781B7D", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},
-      "1210002": {line: {color: "#8B469E", weight: 4, opacity: 0.8},
+      "1210002": {line: {color: "#8B469E", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#8B469E", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -274,7 +274,7 @@ window.routeConfigs = {
     branchStyles: {
       "1240010": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "1240011": {line: {color: "#5DBDEA", weight: 4, opacity: 0.8},
+      "1240011": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -293,7 +293,7 @@ window.routeConfigs = {
     branchStyles: {
       "1278888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "1279999": {line: {color: "#5DBDEA", weight: 4, opacity: 0.8},
+      "1279999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -313,7 +313,7 @@ window.routeConfigs = {
     branchStyles: {
       "1280023": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "1280022": {line: {color: "#5DBDEA", weight: 4, opacity: 0.8},
+      "1280022": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -332,7 +332,7 @@ window.routeConfigs = {
     branchStyles: {
       "1700010": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "1700009": {line: {color: "#5DBDEA", weight: 4, opacity: 0.8},
+      "1700009": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -351,7 +351,7 @@ window.routeConfigs = {
     branchStyles: {
       "1740005": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "1740004": {line: {color: "#5DBDEA", weight: 4, opacity: 0.8},
+      "1740004": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -372,7 +372,7 @@ window.routeConfigs = {
     branchStyles: {
       "3508888": {line: {color: "#000000", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
-      "3509999": {line: {color: "#6F6F6F", weight: 4, opacity: 0.8},
+      "3509999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -425,7 +425,7 @@ window.routeConfigs = {
     branchStyles: {
       "3538888": {line: {color: "#000000", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
-      "3539999": {line: {color: "#6F6F6F", weight: 4, opacity: 0.8},
+      "3539999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -453,7 +453,7 @@ window.routeConfigs = {
     branchStyles: {
       "3548888": {line: {color: "#000000", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
-      "3549999": {line: {color: "#6F6F6F", weight: 4, opacity: 0.8},
+      "3549999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -478,6 +478,36 @@ window.routeConfigs = {
       <li>Permet de relier plusieurs stations du REM lorsque ce dernier n'est pas 
         en service pendant la nuit.</li>
     `},
+
+  "369": {title: "Ligne 369 • Côte-des-Neiges",
+    files: {currentShapes: "../GeoJSON/curr-369.geojson", newShapes: "../GeoJSON/369.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Nord", inbound: "Sud"},
+    branchStyles: {
+      "3698888": {line: {color: "#000000", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
+      "3698887": {line: {color: "#000000", weight: 4, opacity: 1, dashArray: "5,10"},
+          stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
+      "3699999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Prolongement du parcours via Décarie, Sainte-Croix et Hodge 
+        jusqu'au REM Côte-de-Liesse;</li>
+      <li>Retrait du service entre Atwater et Guy-Concordia;</li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Permettre de créer un pôle d'échange plus sécuritaire à la 
+        station Guy-Concordia au lieu d'Atwater;</li>
+      <li>Permettre de desservir un quartier défavorisé et créer un pôle 
+        d'échange au REM Côte-de-Liesse;</li>
+      <li>Permettre de relier des stations du REM lorsque ce dernier 
+        n'est pas en service;</li>
+      <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
+        nombre d'arrêts.</li>
+    `},
   
   "376": {title: "Ligne 376 • Brunswick / Anse-à-l'Orme",
     files: {currentShapes: "../GeoJSON/curr-376.geojson", newShapes: "../GeoJSON/376.geojson", 
@@ -486,7 +516,7 @@ window.routeConfigs = {
     branchStyles: {
       "3768888": {line: {color: "#000000", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
-      "3769999": {line: {color: "#6F6F6F", weight: 4, opacity: 0.8},
+      "3769999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -517,6 +547,30 @@ window.routeConfigs = {
         nombre d'arrêts.</li>
     `},
 
+  "378": {title: "Ligne 378 • Sauvé / Côte-Vertu",
+    files: {currentShapes: "../GeoJSON/curr-378.geojson", newShapes: "../GeoJSON/378.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est", inbound: "Ouest"},
+    branchStyles: {
+      "3788888": {line: {color: "#000000", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
+      "3789999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Ajout du service via Côte-Vertu et Thimens à l'ouest du métro 
+        Côte-Vertu et retrait du service via Côte-de-Liesse pour reprendre 
+        la portion délaissée par les modifications proposées à la ligne 371.</li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Permettre une desserte linéaire sur Sauvé / Côte-Vertu et de 
+        concorder les dessertes jour et nuit (lignes 121 et 177);</li>
+      <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
+        nombre d'arrêts.</li>
+    `},
+  
   "380": {title: "Ligne 380 • Henri-Bourassa",
     files: {currentShapes: "../GeoJSON/curr-380.geojson", newShapes: "../GeoJSON/380.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
@@ -524,9 +578,9 @@ window.routeConfigs = {
     branchStyles: {
       "3808888": {line: {color: "#000000", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
-      "3809999": {line: {color: "#6F6F6F", weight: 4, opacity: 0.8},
+      "3809999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
-      "3809998": {line: {color: "#6F6F6F", weight: 4, opacity: 0.8, dashArray: "5,10"},
+      "3809998": {line: {color: "#6F6F6F", weight: 4, opacity: 1, dashArray: "5,10"},
           stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -556,7 +610,7 @@ window.routeConfigs = {
     branchStyles: {
       "4110005": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "4110006": {line: {color: "#5DBDEA", weight: 4, opacity: 0.8},
+      "4110006": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -577,7 +631,7 @@ window.routeConfigs = {
     branchStyles: {
       "4600004": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "4600001": {line: {color: "#5DBDEA", weight: 4, opacity: 0.8},
+      "4600001": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},

@@ -107,6 +107,16 @@
  "geometry":{"type":"Point","coordinates":[-73.572027,45.508819]}},
 {"type":"Feature","properties":{"stop_id":"A0023","stop_name":"du Parc / Sherbrooke (––)"},
  "geometry":{"type":"Point","coordinates":[-73.572206,45.508713]}},
+{"type":"Feature","properties":{"stop_id":"A0024","stop_name":"Sherbrooke / Dézéry (––)"},
+ "geometry":{"type":"Point","coordinates":[-73.557040,45.543795]}},
+{"type":"Feature","properties":{"stop_id":"A0025","stop_name":"Saint-Donat / de Verneuil (––)"},
+ "geometry":{"type":"Point","coordinates":[-73.538840,45.603237]}},
+{"type":"Feature","properties":{"stop_id":"A0026","stop_name":"Robitaille / Des Ormeaux (––)"},
+ "geometry":{"type":"Point","coordinates":[-73.543253,45.609638]}},
+{"type":"Feature","properties":{"stop_id":"A0027","stop_name":"Saint-Donat / de Verneuil (––)"},
+ "geometry":{"type":"Point","coordinates":[-73.539279,45.603304]}},
+{"type":"Feature","properties":{"stop_id":"A0028","stop_name":"Sherbrooke / Dézéry (––)"},
+ "geometry":{"type":"Point","coordinates":[-73.557156,45.544067]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},
  "geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]

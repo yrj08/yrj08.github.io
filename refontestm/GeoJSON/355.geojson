@@ -144,7 +144,7 @@
       "properties": {
         "direction": "outbound",
         "headsign": "Nord (déviation)",
-        "branch": "3588888_temporary",
+        "branch": "3558888_temporary",
         "route": "355",
         "variant": "temporary",
         "stops": ["52872","52728"]
@@ -289,7 +289,7 @@
       "properties": {
         "direction": "inbound",
         "route": "355",
-        "branch": "3599999_cancelled",
+        "branch": "3559999_cancelled",
         "variant": "cancelled",
         "headsign": "Sud (section annulée)",
         "stops": ["52665","52844","52906"]

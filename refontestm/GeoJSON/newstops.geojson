@@ -99,6 +99,10 @@
  "geometry":{"type":"Point","coordinates":[-73.622477,45.496346]}},
 {"type":"Feature","properties":{"stop_id":"A0021","stop_name":"De Lorimier / René-Lévesque (––)"},
  "geometry":{"type":"Point","coordinates":[-73.548175,45.523899]}},
+{"type":"Feature","properties":{"stop_id":"A0022","stop_name":"du Parc / Sherbrooke (––)"},
+ "geometry":{"type":"Point","coordinates":[-73.572027,45.508819]}},
+{"type":"Feature","properties":{"stop_id":"A0023","stop_name":"du Parc / Sherbrooke (––)"},
+ "geometry":{"type":"Point","coordinates":[-73.572206,45.508713]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},
  "geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]

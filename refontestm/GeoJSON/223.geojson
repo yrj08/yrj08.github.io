@@ -104,7 +104,7 @@
                 "variant": "main",
                 "stops": ["58544","62522","62523","62524","62525","58572","62526","62527",
                           "62528","62529","60674","58530","62531","62572"],
-                "headsign": "Sud"
+                "headsign": "Boucle - Station Anse-à-l'Orme"
             },
             "geometry": {
                 "type": "LineString",

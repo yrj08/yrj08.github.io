@@ -694,6 +694,8 @@ window.routeConfigs = {
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
       "3829999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
+      "3829998": {line: {color: "#6F6F6F", weight: 4, opacity: 1, dashArray: "5,10"},
+          stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `

@@ -325,6 +325,25 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
+  "170": {title: "Ligne 170 • Keller",
+    files: {currentShapes: "../GeoJSON/curr-170.geojson", newShapes: "../GeoJSON/170.geojson",
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Nord", inbound: "Sud"},
+    branchStyles: {
+      "1700010": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "1700009": {line: {color: "#5DBDEA", weight: 4, opacity: 0.8},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Aucune modification de trajet;</li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+  
   "174": {title: "Ligne 174 • Côte-Vertu",
     files: {currentShapes: "../GeoJSON/curr-174.geojson", newShapes: "../GeoJSON/174.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},

@@ -173,7 +173,7 @@
       "properties": {
         "direction": "inbound",
         "route": "364",
-        "branch": "36499998,
+        "branch": "3649999",
         "headsign": "Ouest",
         "variant": "main",
         "stops": ["54531","54705","54725","54726","54556","54568","54587","54597",

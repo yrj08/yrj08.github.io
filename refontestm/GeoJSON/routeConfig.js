@@ -798,10 +798,29 @@ window.routeConfigs = {
         nombre d'arrêts.</li>
     `},
 
+  "358": {title: "Ligne 358 • René-Lévesque",
+    files: {currentShapes: "../GeoJSON/curr-358.geojson", newShapes: "../GeoJSON/358.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est", inbound: "Ouest"},
+    branchStyles: {
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Retrait complet du service; service sur l'ensemble du trajet maintenu par les 
+        lignes modifiées 350, 354, 357, 364 et 371, avec tracé via Sainte-Catherine et 
+        De Maisonneuve à l'est de la station Papineau.</li>
+    `,
+    pourquoi: `
+      <li>Permet de réduire le dédoublement des trajets, de concentrer les ressources 
+        sur d'autres lignes, et d'offrir plus de trajets sans correspondances à partir 
+        du centre-ville par l'ajout des lignes 354 et 371.</li>
+    `},
+  
   "359": {title: "Ligne 359 • Papineau",
     files: {currentShapes: "../GeoJSON/curr-359.geojson", newShapes: "../GeoJSON/359.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Nord", inbound: "Sud"},
+    directionLabels: {outbound: "Nord - Henri-Bourassa / De Saint-Firmin", 
+                      inbound: "Sud - Station Papineau"},
     branchStyles: {
       "3598888": {line: {color: "#000000", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
@@ -817,16 +836,41 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
         nombre d'arrêts.</li>
     `},
+
+  "360": {title: "Ligne 360 • Avenue des Pins",
+    files: {currentShapes: "../GeoJSON/curr-360.geojson", newShapes: "../GeoJSON/360.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est", inbound: "Ouest"},
+    branchStyles: {
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Retrait complet du service; segment à l'est de la rue Saint-Denis remplacé 
+        par des modifications aux lignes 355 et 356.</li>
+    `,
+    pourquoi: `
+      <li>Permet de concentrer les ressources sur d'autres lignes en enlevant une 
+        portion sous-utilisée du trajet.</li>
+    `},
   
   "361": {title: "Ligne 361 • Saint-Denis",
     files: {currentShapes: "../GeoJSON/curr-361.geojson", newShapes: "../GeoJSON/361.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Nord", inbound: "Sud"},
+    directionLabels: {outbound: "Nord - Station Henri-Bourassa", 
+                      inbound: "Sud - Station Place-d'Armes"},
     branchStyles: {
       "3618888": {line: {color: "#000000", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
       "3619999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
+      "3618888_cancelled": {line: {color: "#FF2600", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#FF2600", fillOpacity: 1, shape: "circle"}},
+      "3619999_cancelled": {line: {color: "#", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#", fillOpacity: 1, shape: "circle"}},
+      "3618888_temporary": {line: {color: "#1F3BFF", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#1F3BFF", fillOpacity: 1, shape: "circle"}},
+      "3619999_temporary": {line: {color: "#", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
@@ -1041,6 +1085,43 @@ window.routeConfigs = {
         nombre d'arrêts.</li>
     `},
 
+  "372": {title: "Ligne 372 • Jean-Talon",
+    files: {currentShapes: "../GeoJSON/curr-372.geojson", newShapes: "../GeoJSON/372.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est - Gare Rivière-des-Prairies", 
+                      inbound: "Ouest - Station Namur"},
+    branchStyles: {
+      "3728888": {line: {color: "#000000", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
+      "3729999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
+      "3728888_cancelled": {line: {color: "#FF2600", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#FF2600", fillOpacity: 1, shape: "circle"}},
+      "3729999_cancelled": {line: {color: "#", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#", fillOpacity: 1, shape: "circle"}},
+      "3728888_temporary": {line: {color: "#1F3BFF", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#1F3BFF", fillOpacity: 1, shape: "circle"}},
+      "3729999_temporary": {line: {color: "#", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Prolongement du trajet vers la gare Rivière-des-Prairies via 
+        Perras et Saint-Jean-Baptiste;</li>
+      <li>Légère modification du trajet à la station Namur pour retirer 
+        la circulation sur Mountain Sights et Paré;</li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Permet un service bi-directionnel tout au long de Perras;</li>
+      <li>Élargir le bassin de desserte dans l'est de l'île, de concert 
+        avec les modifications aux lignes 353 et 380;</li>
+      <li>Tirer avantage d'un nouveau terminus disponible depuis 
+        l'ouverture de la ligne Mascouche;</li>
+      <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
+        nombre d'arrêts.</li>
+    `},
+  
   "375": {title: "Ligne 375 • Côte-de-Liesse / YUL Aéroport",
     files: {currentShapes: "../GeoJSON/curr-375.geojson", newShapes: "../GeoJSON/375.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},

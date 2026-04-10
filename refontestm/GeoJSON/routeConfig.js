@@ -590,6 +590,33 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
         nombre d'arrêts.</li>
     `},
+
+  "375": {title: "Ligne 375 • Côte-de-Liesse / YUL Aéroport",
+    files: {currentShapes: "../GeoJSON/curr-375.geojson", newShapes: "../GeoJSON/375.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est", inbound: "Ouest"},
+    branchStyles: {
+      "3758888": {line: {color: "#000000", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
+      "3759999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
+      "3759998": {line: {color: "#6F6F6F", weight: 4, opacity: 1, dashArray: "5,10"},
+          stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Nouvelle ligne desservant les axes Saint-Louis, Côte-de-Liesse, 
+        Cardinal, A-20 et Saint-Jean pour reprendre les axes délaissés 
+        suite aux modifications des lignes 354, 378 et 382. Ajout du 
+        service sur Saint-Louis et Saint-Jean (entre A-20 et Hymus) 
+        par rapport au réseau actuel;</li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Permet d'élargir le bassin desservi par le réseau de nuit;</li>
+      <li>Permet de réduire la longueur de la ligne 356 par des modifications 
+        aux lignes 354 et 356;</li>
+      <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
+        nombre d'arrêts.</li>
+    `},
   
   "376": {title: "Ligne 376 • Brunswick / Anse-à-l'Orme",
     files: {currentShapes: "../GeoJSON/curr-376.geojson", newShapes: "../GeoJSON/376.geojson", 

@@ -117,6 +117,12 @@
  "geometry":{"type":"Point","coordinates":[-73.539279,45.603304]}},
 {"type":"Feature","properties":{"stop_id":"A0028","stop_name":"Sherbrooke / Dézéry (––)"},
  "geometry":{"type":"Point","coordinates":[-73.557156,45.544067]}},
+{"type":"Feature","properties":{"stop_id":"A0029","stop_name":"Masson / 3e Avenue (––)"},
+ "geometry":{"type":"Point","coordinates":[-73.575892,45.546323]}},
+{"type":"Feature","properties":{"stop_id":"A0030","stop_name":"Masson / 7e Avenue (––)"},
+ "geometry":{"type":"Point","coordinates":[-73.574583,45.548767]}},
+{"type":"Feature","properties":{"stop_id":"A0031","stop_name":"Masson / Molson (––)"},
+ "geometry":{"type":"Point","coordinates":[-73.577304,45.544327]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},
  "geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]

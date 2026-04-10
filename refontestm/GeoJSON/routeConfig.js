@@ -516,6 +516,38 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
         nombre d'arrêts.</li>
     `},
+
+  "380": {title: "Ligne 380 • Henri-Bourassa",
+    files: {currentShapes: "../GeoJSON/curr-380.geojson", newShapes: "../GeoJSON/380.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est", inbound: "Ouest"},
+    branchStyles: {
+      "3808888": {line: {color: "#000000", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
+      "3809999": {line: {color: "#6F6F6F", weight: 4, opacity: 0.8},
+          stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
+      "3809998": {line: {color: "#6F6F6F", weight: 4, opacity: 0.8, dashArray: "5,10"},
+          stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Changement de sens de circulation près du CT Stinson avec terminer devant 
+        la station REM Côte-de-Liesse;</li>
+      <li>Retrait du segment sur le terrain privé au CT Anjou;</li>
+      <li>Ajout du service sur Perras et retrait du service sur Maurice-Duplessis pour 
+        compenser aux modifications à la ligne 353;</li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Permettre une correspondance au REM pour les derniers départs en direction 
+        ouest et de concorder avec le réseau de jour;</li>
+      <li>Enlever la portion du trajet inaccessible au public des outils 
+        d'informations;</li>
+      <li>Permet d'élargir le bassin desservi dans l'est de l'île, conjointement avec 
+        modifications aux lignes 353 et 372;</li>
+      <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
+        nombre d'arrêts.</li>
+    `},
   
   "411": {title: "Ligne 411 • Express Lionel-Groulx",
     files: {currentShapes: "../GeoJSON/curr-411.geojson", newShapes: "../GeoJSON/411.geojson", 

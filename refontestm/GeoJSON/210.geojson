@@ -6,7 +6,7 @@
             "properties": {
                 "route": "210",
                 "direction": "outbound",
-                "branch": "0001",
+                "branch": "2100001",
                 "variant": "main",
                 "stops": ["58580","58586","58578","58587","58581","58575","58573","62521","62575"],
                 "headsign": "Est - Station Anse-à-l'Orme"
@@ -154,7 +154,7 @@
             "properties": {
                 "route": "210",
                 "direction": "inbound",
-                "branch": "0002",
+                "branch": "2100002",
                 "variant": "main",
                 "stops": ["62575","58413","58595","58574","58552","58588","58553","58585","58580"],
                 "headsign": "Ouest - Collège John Abbott"

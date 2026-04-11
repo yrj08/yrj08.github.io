@@ -267,6 +267,31 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
+  "73": {title: "Ligne 73 • Dalton",
+    files: {currentShapes: "../GeoJSON/curr-73.geojson", newShapes: "../GeoJSON/73.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Boucle - Cavendish / Griffith", 
+                      inbound: "Boucle - Station Côte-Vertu"},
+    branchStyles: {
+      "739999": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "738888": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Aucune modification de trajet: desserte en boucle maintenue avec deux 
+          directions indiquées pour mieux guider la clientèle.</li>
+      <li>Service redirigé vers Côte-Vertu puisque toutes les autres lignes du 
+          secteur se dirige vers Du Collège ou De La Savane;</li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer l'expérience client en ayant deux destinations pour éviter 
+          des confusions.</li>
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+  
   "79": {title: "Ligne 79 • Gouin",
     files: {currentShapes: "../GeoJSON/curr-79.geojson", newShapes: "../GeoJSON/79.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},

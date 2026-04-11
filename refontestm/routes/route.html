@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ligne 16</title>
+<title>Erreur</title>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
 
@@ -52,9 +52,21 @@ table.dataframe th {
 
 <h1 id="title"></h1>
 
+<p>
+  <a href="#changements">Modifications proposées</a><br>
+  <a href="#pourquoi">Raisonnement des modifications</a><br>
+  <a href="#arrets">Liste d'arrêts desservis</a><br>
+</p>
+  
 <div id="controls"></div>
 <div id="map"></div>
 
+<h2>Modifications proposées</h2>
+<ul id="changements"></ul>
+
+<h2>Raisonnement</h2>
+<ul id="pourquoi"></ul>
+  
 <h2>Liste d'arrêts desservis</h2>
 <div class="row">
   <div class="column">
@@ -67,12 +79,6 @@ table.dataframe th {
   </div>
 </div>
 
-<h2>Modifications proposées</h2>
-<ul id="changements"></ul>
-
-<h2>Raisonnement</h2>
-<ul id="pourquoi"></ul>
-
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 <script src="../GeoJSON/routeConfig.js"></script>
 <script src="../GeoJSON/routeMap.js"></script>
@@ -84,14 +90,14 @@ document.addEventListener("DOMContentLoaded", () => {
   const routeId = params.get("route");
 
   if (!routeId) {
-    document.body.innerHTML = "<h2>No route specified</h2>";
+    document.body.innerHTML = "<h2>Veuillez entrer une ligne valide</h2>";
     return;
   }
 
   const cfg = routeConfigs[routeId];
 
   if (!cfg) {
-    document.body.innerHTML = `<h2>Route ${routeId} not found</h2>`;
+    document.body.innerHTML = `<h2>Ligne ${routeId} non retrouvée</h2>`;
     return;
   }
 

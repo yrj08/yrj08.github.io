@@ -1340,6 +1340,22 @@ window.routeConfigs = {
     pourquoi: `
       <li>Pour accélérer le parcours en une vraie ligne express tout au long du trajet;</li>
       <li>Améliorer la vitesse commerciale.</li>
+    `},
+
+  "747": {title: "Ligne 747 • YUL Aéroport / Centre-Ville",
+    files: {currentShapes: "../GeoJSON/curr-747.geojson", newShapes: "../GeoJSON/747.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est", inbound: "Ouest"},
+    branchStyles: {
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Retrait complet du service; service remplacé par des modifications à la ligne 354.</li>
+    `,
+    pourquoi: `
+      <li>Permet de concentrer les ressources sur d'autres lignes en donnant un accès plus rapide 
+        du centre-ville vers l'ouest de l'île;</li>
+      <li>Permet de relier plusieurs stations du REM lorsque celui-ci n'est pas en exploitation.</li>
     `}
   
 };

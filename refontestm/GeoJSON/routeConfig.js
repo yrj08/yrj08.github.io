@@ -1045,7 +1045,7 @@ window.routeConfigs = {
       "2328888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
       "2329999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
-          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}}},
     changements: `
       <li>Reprend la portion du trajet sur la ligne 202 entre Dorval et Côte-de-Liesse;</li>
       <li>Trajet via du Collège au lieu de Saint-Louis pour conformer au trajet de la ligne 128;</li>

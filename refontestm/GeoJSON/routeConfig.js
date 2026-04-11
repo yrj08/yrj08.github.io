@@ -310,6 +310,25 @@ window.routeConfigs = {
     pourquoi: `
       <li>Améliorer la vitesse commerciale.</li>
     `},
+
+  "100": {title: "Ligne 100 • Crémazie",
+    files: {currentShapes: "../GeoJSON/curr-100.geojson", newShapes: "../GeoJSON/100.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est", inbound: "Ouest"},
+    branchStyles: {
+      "1008888": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "1009999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
   
   "117": {title: "Ligne 117 • O'Brien",
     files: {currentShapes: "../GeoJSON/curr-117.geojson", newShapes: "../GeoJSON/117.geojson",
@@ -802,17 +821,15 @@ window.routeConfigs = {
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est", inbound: "Ouest"},
     branchStyles: {
-      "2148888": {line: {color: "#009EE0", weight: 4, opacity: 1},
-          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "2149999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
-          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
-      <li></li>
+      <li>Retrait complet du service: remplacé par des modifications de la ligne 202;</li>
       <li>Retrait de quelques arrêts trop rapprochés.</li>
     `,
     pourquoi: `
+      <li>Permet de réduire la longueur de la ligne 202 et concentrer le niveau de service
+          entre Dorval et REM Côte-de-Liesse par la nouvelle ligne 232;</li>
       <li>Améliorer la vitesse commerciale.</li>
     `},
   
@@ -1020,7 +1037,25 @@ window.routeConfigs = {
     `},
 
 
-  
+  "232": {title: "Ligne 232 • Côte-de-Liesse",
+    files: {currentShapes: "../GeoJSON/curr-232.geojson", newShapes: "../GeoJSON/232.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est", inbound: "Ouest"},
+    branchStyles: {
+      "2328888": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "2329999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+    changements: `
+      <li>Reprend la portion du trajet sur la ligne 202 entre Dorval et Côte-de-Liesse;</li>
+      <li>Trajet via du Collège au lieu de Saint-Louis pour conformer au trajet de la ligne 128;</li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Permet de concentrer les ressources sur le segment plus achalandé;</li>
+      <li>Permet d'améliorer la ponctualité;</li>
+      <li>Améliorer la vitesse commerciale.</li>
+    `},  
   
   "350": {title: "Ligne 350 • Verdun / LaSalle",
     files: {currentShapes: "../GeoJSON/curr-350.geojson", newShapes: "../GeoJSON/350.geojson", 

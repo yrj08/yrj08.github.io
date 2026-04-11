@@ -64,6 +64,8 @@
 {"type":"Feature","properties":{"stop_id":"A0034","stop_name":"Broadway / Dorchester (––)"},"geometry":{"type":"Point","coordinates":[-73.503203,45.631369]}},
 {"type":"Feature","properties":{"stop_id":"A0035","stop_name":"des Sources / Place Transcanadienne (––)"},"geometry":{"type":"Point","coordinates":[-73.791034,45.477911]}},
 {"type":"Feature","properties":{"stop_id":"A0036","stop_name":"Griffith / Cavendish (––)"},"geometry":{"type":"Point","coordinates":[-73.692285,45.489843]}},
+{"type":"Feature","properties":{"stop_id":"A0037","stop_name":"Marcel-Laurin / de l'Église (––)"},"geometry":{"type":"Point","coordinates":[-73.683988,45.507412]}},
+{"type":"Feature","properties":{"stop_id":"A0038","stop_name":"Marcel-Laurin / de l'Église (––)"},"geometry":{"type":"Point","coordinates":[-73.683535,45.507388]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]
 }

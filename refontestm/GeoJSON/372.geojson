@@ -6,7 +6,7 @@
       "type": "Feature",
       "properties": {
         "route": "372",
-        "headsign": "Est - Gare Rivière-des-Prairies (trajet régulier)",
+        "headsign": "Est - Gare Rivière-des-Prairies",
         "direction": "outbound",
         "variant": "main",
         "branch": "3728888",
@@ -305,7 +305,7 @@
       "type": "Feature",
       "properties": {
         "route": "372",
-        "headsign": "Ouest - Station Namur (trajet régulier)",
+        "headsign": "Ouest - Station Namur",
         "direction": "inbound",
         "variant": "main",
         "branch": "3729999",
@@ -508,9 +508,9 @@
       "type": "Feature",
       "properties": {
         "route": "372",
-        "headsign": "Ouest - Station Saint-Michel (trajet régulier)",
+        "headsign": "Ouest - [X] Station Saint-Michel",
         "direction": "inbound",
-        "variant": "secondaire",
+        "variant": "short",
         "branch": "3729998",
         "stops": ["61605","60316","60319","60320","60515","52927","52825","52726",
                   "52557","52518","52428","52302","53683","52124","54151","54049",

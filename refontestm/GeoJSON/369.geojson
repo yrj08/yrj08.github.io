@@ -7,7 +7,7 @@
       "properties": {
         "direction": "outbound",
         "variant": "main",
-        "headsign": "Nord",
+        "headsign": "Nord - Station Côte-de-Liesse",
         "branch": "3698888",
         "route": "369",
         "stops": ["53762","52330","52201","52113","53761","51840","51732","51626",
@@ -112,7 +112,7 @@
       "type": "Feature",
       "properties": {
         "direction": "outbound",
-        "variant": "secondaire",
+        "variant": "short",
         "headsign": "Nord - Station Namur",
         "branch": "3698887",
         "route": "369",
@@ -188,7 +188,7 @@
         "route": "369",
         "branch": "3699999",
         "variant": "main",
-        "headsign": "Sud",
+        "headsign": "Sud - Saint-Mathieu / René-Lévesque",
         "stops": ["62669","62408","62412","55753","55750","55744","55740","55755",
                   "56116","56105","50398","50436","50477","54195","53776","50583",
                   "50609","54318","54068","A0019","50942","53865","51047","A0020",

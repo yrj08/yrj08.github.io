@@ -262,7 +262,7 @@
                 "variant": "main",
                 "stops": ["60303","55286","55261","55322","55293","55255","55145","55064",
                           "50513","62763","50306","62373","54394","62443","55996"],
-                "headsign": "Ouest - x"
+                "headsign": "Ouest - Station Du Ruisseau"
             },
             "geometry": {
                 "type": "LineString",

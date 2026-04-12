@@ -1881,6 +1881,72 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
+  "444": {title: "Ligne 444 • Express Marie-Victorin",
+    files: {currentShapes: "../GeoJSON/curr-444.geojson", newShapes: "../GeoJSON/444.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Nord - Cégep Marie-Victorin", 
+                      inbound: "Sud - Station Radisson"},
+    branchStyles: {
+      "4448888": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "4449999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>;</li>
+      <li>;</li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>;</li>
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+  
+  "448": {title: "Ligne 448 • Express Maurice-Duplessis",
+    files: {currentShapes: "../GeoJSON/curr-448.geojson", newShapes: "../GeoJSON/448.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est - Rodolphe-Forget / Fernand-Forest", 
+                      inbound: "Ouest - Station Radisson"},
+    branchStyles: {
+      "4488888": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "4489999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>;</li>
+      <li>;</li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>;</li>
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+
+  "449": {title: "Ligne 449 • Express Rivière-des-Prairies",
+    files: {currentShapes: "../GeoJSON/curr-449.geojson", newShapes: "../GeoJSON/449.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Nord - Gare Rivière-des-Prairies", 
+                      inbound: "Sud - Station Radisson"},
+    branchStyles: {
+      "4498888": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "4499999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>;</li>
+      <li>;</li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>;</li>
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+  
   "460": {title: "Ligne 460 • Express Métropolitaine",
     files: {currentShapes: "../GeoJSON/curr-460.geojson", newShapes: "../GeoJSON/460.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},

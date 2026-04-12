@@ -6,7 +6,7 @@
       "type": "Feature",
       "properties": {
         "direction": "outbound",
-        "headsign": "Nord",
+        "headsign": "Nord - Terminus Grenet / De Serres",
         "route": "365",
         "variant": "main",
         "branch": "3658888",
@@ -134,7 +134,7 @@
         "direction": "inbound",
         "branch": "3659999",
         "variant": "main",
-        "headsign": "Sud",
+        "headsign": "Sud - Station Place-d'Armes",
         "route": "365",
         "stops": ["50150","61871","61866","50174","50179","50198","50204","50218",
                   "50226","54006","50243","50249","50252","50261","53978","50273",

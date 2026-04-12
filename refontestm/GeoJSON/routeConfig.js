@@ -588,7 +588,7 @@ window.routeConfigs = {
   "166": {title: "Ligne 166 • Queen-Mary",
     files: {currentShapes: "../GeoJSON/curr-166.geojson", newShapes: "../GeoJSON/166.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Nord – Vézina / Macdonald", 
+    directionLabels: {outbound: "Nord – Station Côte-des-Neiges", 
                       inbound: "Sud – Station Guy-Concordia"},
     branchStyles: {
       "1668888": {line: {color: "#009EE0", weight: 4, opacity: 1},

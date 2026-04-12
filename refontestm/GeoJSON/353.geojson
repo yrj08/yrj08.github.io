@@ -9,7 +9,7 @@
         "direction": "outbound",
         "branch": "3538888",
         "variant": "main",
-        "headsign": "Est",
+        "headsign": "Est - Gare Rivière-des-Prairies",
         "stops": ["53016","53075","53112","53172","53193","53213","53227","53236",
                   "53244","53271","53286","53299","53310","53325","53317","53274",
                   "53223","53166","53118","50107","52988","52706","52571","52357",
@@ -164,7 +164,7 @@
     {
       "type": "Feature",
       "properties": {
-        "headsign": "Ouest",
+        "headsign": "Ouest - Station Frontenac",
         "route": "353",
         "direction": "inbound",
         "branch": "3539999",

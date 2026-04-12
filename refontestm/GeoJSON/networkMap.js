@@ -1,6 +1,13 @@
+let highlightedLayers = [];
+
 function createNetworkMap({ mapId, routeConfigs }) {
 
   const map = L.map(mapId).setView([45.55, -73.7], 11);
+  map.on("click", () => {
+    highlightedLayers.forEach(l => l.setStyle(l.defaultStyle));
+    highlightedLayers = [];
+    map.closePopup();
+  });
 
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: "&copy; OpenStreetMap contributors"
@@ -49,15 +56,47 @@ function createNetworkMap({ mapId, routeConfigs }) {
       if (visible.length === 0) return;
 
       const marker = L.circleMarker(stop.coords, {
-        radius: 5,
+        radius: 4,
         color: "#000",
         fillColor: "#fff",
         fillOpacity: 1
       });
 
-      marker.bindPopup(
-        visible.map(s => `${s.routeId} ${s.headsign}`).join("<br>")
-      );
+      const stopName = stop.name;
+      
+      const html = `
+        <div style="font-size:16px; font-weight:bold; margin-bottom:6px;">
+          ${stopName}
+        </div>
+        ${visible
+          .sort((a, b) => a.routeId.localeCompare(b.routeId, undefined, { numeric: true }))
+          .map(s => {
+          const cfg = routeConfigs[s.routeId];
+          const color =
+            Object.values(cfg.branchStyles || {})[0]?.line?.color || "#333";
+      
+          return `
+            <div style="margin:3px 0;">
+              <span style="
+                display:inline-block;
+                min-width:32px;
+                text-align:center;
+                background:${color};
+                color:#fff;
+                font-weight:bold;
+                border-radius:4px;
+                padding:2px 6px;
+                margin-right:6px;
+              ">
+                ${s.routeId}
+              </span>
+              ${s.headsign}
+            </div>
+          `;
+        }).join("")}
+      `;
+      
+      marker.bindPopup(html);
 
       stopLayer.addLayer(marker);
     });
@@ -86,8 +125,37 @@ function createNetworkMap({ mapId, routeConfigs }) {
 
         const line = L.geoJSON(f, { style });
 
-        line.on("click", () => {
-          line.setStyle({ weight: 8 });
+        line.on("click", (e) => {
+          L.DomEvent.stopPropagation(e);
+        
+          // Reset previous highlight
+          highlightedLayers.forEach(l => l.setStyle(l.defaultStyle));
+          highlightedLayers = [];
+        
+          const direction = f.properties.direction;
+          const label =
+            cfg.directionLabels?.[direction] || direction;
+        
+          group.eachLayer(layer => {
+            if (!layer.feature) return;
+        
+            if (layer.feature.properties.direction === direction) {
+              layer.defaultStyle = layer.options.style || layer.options;
+        
+              layer.setStyle({
+                weight: 8,
+                color: "#ffff00",
+                opacity: 1
+              });
+        
+              highlightedLayers.push(layer);
+            }
+          });
+        
+          L.popup()
+            .setLatLng(e.latlng)
+            .setContent(`<b>${cfg.title}</b><br>${label}`)
+            .openOn(map);
         });
 
         group.addLayer(line);

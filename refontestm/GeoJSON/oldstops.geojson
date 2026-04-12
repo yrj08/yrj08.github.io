@@ -8553,7 +8553,7 @@
 {"type":"Feature","properties":{"stop_id":"62672","stop_name":"Ridgewood / No 3360 (62672)"},"geometry":{"type":"Point","coordinates":[-73.610328,45.494337]}},
 {"type":"Feature","properties":{"stop_id":"62673","stop_name":"Ridgewood / No 3440 (62673)"},"geometry":{"type":"Point","coordinates":[-73.612545,45.493844]}},
 {"type":"Feature","properties":{"stop_id":"62674","stop_name":"Ridgewood / No 3550 (62674)"},"geometry":{"type":"Point","coordinates":[-73.611276,45.492916]}},
-{"type":"Feature","properties":{"stop_id":"62675","stop_name":"Ridgewood / Ridgewood (62675)"},"geometry":{"type":"Point","coordinates":[-73.612521,45.492575]}},
+{"type":"Feature","properties":{"stop_id":"62675","stop_name":"Ridgewood / No 3600 (62675)"},"geometry":{"type":"Point","coordinates":[-73.612521,45.492575]}},
 {"type":"Feature","properties":{"stop_id":"62676","stop_name":"Ridgewood / No 3635 (62676)"},"geometry":{"type":"Point","coordinates":[-73.613455,45.492695]}},
 {"type":"Feature","properties":{"stop_id":"62677","stop_name":"Ridgewood / Ridgewood (62677)"},"geometry":{"type":"Point","coordinates":[-73.612002,45.492313]}},
 {"type":"Feature","properties":{"stop_id":"62678","stop_name":"Ridgewood / No 3550 (62678)"},"geometry":{"type":"Point","coordinates":[-73.611126,45.493132]}},

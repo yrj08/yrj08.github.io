@@ -8160,7 +8160,7 @@
 {"type":"Feature","properties":{"stop_id":"62121","stop_name":"Roi-René / Chaumont (62121)"},"geometry":{"type":"Point","coordinates":[-73.548565,45.609600]}},
 {"type":"Feature","properties":{"stop_id":"62124","stop_name":"Molson / Pierre-Falardeau (62124)"},"geometry":{"type":"Point","coordinates":[-73.574653,45.543263]}},
 {"type":"Feature","properties":{"stop_id":"62125","stop_name":"Molson / Pierre-Falardeau (62125)"},"geometry":{"type":"Point","coordinates":[-73.575434,45.543627]}},
-{"type":"Feature","properties":{"stop_id":"62127","stop_name":"Jean-Brillant / Côte-des-Neiges (62127)"},"geometry":{"type":"Point","coordinates":[-73.622100,45.495754]}},
+{"type":"Feature","properties":{"stop_id":"62127","stop_name":"Station Côte-des-Neiges (62127)"},"geometry":{"type":"Point","coordinates":[-73.622100,45.495754]}},
 {"type":"Feature","properties":{"stop_id":"62129","stop_name":"Perras / Gilbert-Barbier (62129)"},"geometry":{"type":"Point","coordinates":[-73.607672,45.632563]}},
 {"type":"Feature","properties":{"stop_id":"62130","stop_name":"de la Pointe-Sud / André-Prévost (62130)"},"geometry":{"type":"Point","coordinates":[-73.558560,45.448024]}},
 {"type":"Feature","properties":{"stop_id":"62131","stop_name":"Papineau / Laurier (62131)"},"geometry":{"type":"Point","coordinates":[-73.581636,45.536258]}},

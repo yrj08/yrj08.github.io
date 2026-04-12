@@ -1903,7 +1903,7 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
-  "469": {title: "Ligne 460 • Express Henri-Bourassa",
+  "469": {title: "Ligne 469 • Express Henri-Bourassa",
     files: {currentShapes: "../GeoJSON/curr-469.geojson", newShapes: "../GeoJSON/469.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est - Cégep Marie-Victorin", 

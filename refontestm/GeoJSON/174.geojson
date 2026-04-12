@@ -10,7 +10,7 @@
                 "variant": "main",
                 "stops": ["57594","57586","59931","57588","57583","57590","55831","55811",
                           "55446","55466","55487","61769","59510","55721"],
-                "headsign": "Est"
+                "headsign": "Est - Station Montpellier"
             },
             "geometry": {
                 "type": "LineString",
@@ -149,7 +149,7 @@
                 "variant": "main",
                 "stops": ["55721","55945","55554","55488","55464","55785","55810","55830",
                           "57591","57582","57589","57543","57584","57594"],
-                "headsign": "Ouest"
+                "headsign": "Ouest - Air Canada"
             },
             "geometry": {
                 "type": "LineString",

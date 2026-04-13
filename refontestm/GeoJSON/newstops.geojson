@@ -25,6 +25,7 @@
 {"type":"Feature","properties":{"stop_id":"61055","stop_name":"Cavendish / Mackle (61055)"},"geometry":{"type":"Point","coordinates":[-73.666138,45.478099]}},
 {"type":"Feature","properties":{"stop_id":"61086","stop_name":"Gouin / Grenet (61086)"},"geometry":{"type":"Point","coordinates":[-73.719591,45.532332]}},
 {"type":"Feature","properties":{"stop_id":"61126","stop_name":"De Salaberry / de Madrid (61126)"},"geometry":{"type":"Point","coordinates":[-73.803604,45.485447]}},
+{"type":"Feature","properties":{"stop_id":"61336","stop_name":"Station Lionel-Groulx (61336)"},"geometry":{"type":"Point","coordinates":[-73.580781,45.482262]}},
 {"type":"Feature","properties":{"stop_id":"61390","stop_name":"Station Henri-Bourassa (61390)"},"geometry":{"type":"Point","coordinates":[-73.667649,45.555849]}},
 {"type":"Feature","properties":{"stop_id":"61558","stop_name":"Décarie / No 1000 (CUSM) (61558)"},"geometry":{"type":"Point","coordinates":[-73.603233,45.471740]}},
 {"type":"Feature","properties":{"stop_id":"61625","stop_name":"Boucle Thimens (61625)"},"geometry":{"type":"Point","coordinates":[-73.707814,45.501661]}},

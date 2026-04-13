@@ -159,6 +159,87 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
+
+  "35": {title: "Ligne 35 • Griffintown",
+    files: {currentShapes: "../GeoJSON/curr-35.geojson", newShapes: "../GeoJSON/35.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – Station Square-Victoria–OACI", 
+                      inbound: "Ouest – Station Angrignon"},
+    branchStyles: {
+      "358888": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "359999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+
+  "36": {title: "Ligne 36 • Monk",
+    files: {currentShapes: "../GeoJSON/curr-36.geojson", newShapes: "../GeoJSON/36.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – Station Square-Victoria–OACI", 
+                      inbound: "Ouest – Station Angrignon"},
+    branchStyles: {
+      "368888": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "369999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+
+  "37": {title: "Ligne 37 • Jolicoeur",
+    files: {currentShapes: "../GeoJSON/curr-37.geojson", newShapes: "../GeoJSON/37.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – Station LaSalle", 
+                      inbound: "Ouest – Station Angrignon"},
+    branchStyles: {
+      "370002": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "370001": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+
+  "38": {title: "Ligne 38 • De l'Église",
+    files: {currentShapes: "../GeoJSON/curr-38.geojson", newShapes: "../GeoJSON/38.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Nord – Station Vendôme", 
+                      inbound: "Sud – Station LaSalle"},
+    branchStyles: {
+      "388888": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "389999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},  
+  
   "48": {title: "Ligne 48 • Perras",
     files: {currentShapes: "../GeoJSON/curr-48.geojson", newShapes: "../GeoJSON/48.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},

@@ -75,3 +75,4 @@
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]
 }
+// {"type":"Feature","properties":{"stop_id":"","stop_name":""},"geometry":{"type":"Point","coordinates":[]}},

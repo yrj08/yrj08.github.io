@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "direction": "outbound",
-        "headsign": "Est",
+        "headsign": "Est - Station Guy-Concordia",
         "variant": "main",
         "route": "382",
         "branch": "3828888",
@@ -240,7 +240,7 @@
       "properties": {
         "direction": "inbound",
         "route": "382",
-        "headsign": "Ouest",
+        "headsign": "Ouest - Gare Beaconsfield",
         "branch": "3829999",
         "variant": "main",
         "stops": ["60999","52285","54262","62433","55703","55945","55594","55961",
@@ -474,7 +474,7 @@
         "route": "382",
         "headsign": "Ouest - Centre de transport Saint-Laurent",
         "branch": "3829998",
-        "variant": "secondaire",
+        "variant": "short",
         "stops": ["60999","52285","54262","62433","55703","55945","55594","55961",
                   "61248","55496","55909","55451","55353","55442","55805","55427",
                   "55423","55417","55411","55402","55392","55386","55887"]

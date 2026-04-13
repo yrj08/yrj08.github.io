@@ -6,7 +6,7 @@
       "type": "Feature",
       "properties": {
         "route": "380",
-        "headsign": "Est",
+        "headsign": "Est - Centre de transport Anjou",
         "variant": "main",
         "stops": ["62418","62408","62412","55753","55750","55744","55740","55727",
                   "55704","55675","61323","55662","55688","55712","55720","55715",
@@ -168,7 +168,7 @@
         "route": "380",
         "variant": "main",
         "branch": "3809999",
-        "headsign": "Ouest",
+        "headsign": "Ouest - Station Côte-de-Liesse",
         "stops": ["54526","54515","51932","52026","51878","61888","51766","51722",
                   "51669","51622","51542","54154","51442","54054","51283","55260",
                   "55233","55207","55192","55171","55198","55211","55230","55256",
@@ -333,7 +333,7 @@
       "properties": {
         "direction": "inbound",
         "route": "380",
-        "variant": "secondary",
+        "variant": "short",
         "branch": "3809998",
         "headsign": "Ouest - Station Côte-Vertu",
         "stops": ["54526","54515","51932","52026","51878","61888","51766","51722",

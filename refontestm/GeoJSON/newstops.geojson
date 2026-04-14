@@ -73,6 +73,10 @@
 {"type":"Feature","properties":{"stop_id":"A0037","stop_name":"Marcel-Laurin / de l'Église (––)"},"geometry":{"type":"Point","coordinates":[-73.683988,45.507412]}},
 {"type":"Feature","properties":{"stop_id":"A0038","stop_name":"Marcel-Laurin / de l'Église (––)"},"geometry":{"type":"Point","coordinates":[-73.683535,45.507388]}},
 {"type":"Feature","properties":{"stop_id":"A0039","stop_name":"Transcanadienne / CF Fairview Pointe-Claire (––)"},"geometry":{"type":"Point","coordinates":[-73.828969,45.462790]}},
+{"type":"Feature","properties":{"stop_id":"A0040","stop_name":"Masson / 16e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.571179,45.554433]}},
+{"type":"Feature","properties":{"stop_id":"A0041","stop_name":"Masson / Bourbonnière (––)"},"geometry":{"type":"Point","coordinates":[-73.570054,45.556503]}},
+{"type":"Feature","properties":{"stop_id":"A0042","stop_name":"Masson / Bourbonnière (––)"},"geometry":{"type":"Point","coordinates":[-73.570079,45.556733]}},
+{"type":"Feature","properties":{"stop_id":"A0043","stop_name":"Masson / 16e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.571188,45.554739]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]
 }

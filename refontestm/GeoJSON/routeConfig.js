@@ -2526,7 +2526,7 @@ window.routeConfigs = {
     `},
 
   "470": {title: "Ligne 470 • Express Pierrefonds",
-    files: {currentShapes: "../GeoJSON/curr-468.geojson", newShapes: "../GeoJSON/468.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-470.geojson", newShapes: "../GeoJSON/470.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Côte-Vertu", 
                       inbound: "Ouest – Usine de filtration de Pierrefonds"},

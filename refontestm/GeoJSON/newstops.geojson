@@ -79,6 +79,7 @@
 {"type":"Feature","properties":{"stop_id":"A0043","stop_name":"Masson / 16e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.571188,45.554739]}},
 {"type":"Feature","properties":{"stop_id":"A0044","stop_name":"Donegani / King (––)"},"geometry":{"type":"Point","coordinates":[-73.788422,45.450362]}},
 {"type":"Feature","properties":{"stop_id":"A0045","stop_name":"Herron / Caledonia (––)"},"geometry":{"type":"Point","coordinates":[-73.760019,45.448628]}},
+{"type":"Feature","properties":{"stop_id":"A0046","stop_name":"Notre-Dame / Saint-Pierre (––)"},"geometry":{"type":"Point","coordinates":[-73.646706,45.442801]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]
 }

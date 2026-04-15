@@ -694,6 +694,166 @@ window.routeConfigs = {
     pourquoi: `
       <li>Améliorer la vitesse commerciale.</li>
     `},
+
+  "105": {title: "Ligne 105 • Sherbrooke",
+    files: {currentShapes: "../GeoJSON/curr-105.geojson", newShapes: "../GeoJSON/105.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – Station Vendôme", 
+                      inbound: "Ouest – Gare Montréal-Ouest"},
+    branchStyles: {
+      "1050002": {line: {color: "#781B7D", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},
+      "1050001": {line: {color: "#8B469E", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#8B469E", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+
+  "106": {title: "Ligne 106 • Newman",
+    files: {currentShapes: "../GeoJSON/curr-106.geojson", newShapes: "../GeoJSON/106.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – Station Angrignon", 
+                      inbound: "Ouest – Terminus Lafleur / Newman"},
+    branchStyles: {
+      "1060002": {line: {color: "#781B7D", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},
+      "1060001": {line: {color: "#8B469E", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#8B469E", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+
+  "107": {title: "Ligne 107 • Verdun",
+    files: {currentShapes: "../GeoJSON/curr-107.geojson", newShapes: "../GeoJSON/107.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – Square Dorchester", 
+                      inbound: "Ouest – Place LaSalle"},
+    branchStyles: {
+      "1078888": {line: {color: "#781B7D", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},
+      "1079999": {line: {color: "#8B469E", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#8B469E", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+
+  "108": {title: "Ligne 108 • Bannantyne",
+    files: {currentShapes: "../GeoJSON/curr-108.geojson", newShapes: "../GeoJSON/108.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – Station Atwater", 
+                      inbound: "Ouest – Parc Hadley"},
+    branchStyles: {
+      "1080001": {line: {color: "#781B7D", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},
+      "1080011": {line: {color: "#8B469E", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#8B469E", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+  
+  "110": {title: "Ligne 110 • Centrale",
+    files: {currentShapes: "../GeoJSON/curr-110.geojson", newShapes: "../GeoJSON/110.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – Station Angrignon", 
+                      inbound: "Ouest – Galeries Lachine"},
+    branchStyles: {
+      "270002": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "270001": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+  
+  "112": {title: "Ligne 112 • Airlie",
+    files: {currentShapes: "../GeoJSON/curr-112.geojson", newShapes: "../GeoJSON/112.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – Station Angrignon", 
+                      inbound: "Ouest – Terminus Lafleur / Newman"},
+    branchStyles: {
+      "1120001": {line: {color: "#781B7D", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},
+      "1120002": {line: {color: "#8B469E", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#8B469E", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+
+  "113": {title: "Ligne 113 • Lapierre",
+    files: {currentShapes: "../GeoJSON/curr-113.geojson", newShapes: "../GeoJSON/113.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – Station Angrignon", 
+                      inbound: "Ouest – Terminus Lafleur / Newman"},
+    branchStyles: {
+      "1130002": {line: {color: "#781B7D", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},
+      "1130001": {line: {color: "#8B469E", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#8B469E", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+
+  "114": {title: "Ligne 114 • Angrignon",
+    files: {currentShapes: "../GeoJSON/curr-114.geojson", newShapes: "../GeoJSON/114.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Nord – Gare Montréal-Ouest", 
+                      inbound: "Sud – Place LaSalle"},
+    branchStyles: {
+      "1148888": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "1149999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
   
   "117": {title: "Ligne 117 • O'Brien",
     files: {currentShapes: "../GeoJSON/curr-117.geojson", newShapes: "../GeoJSON/117.geojson",
@@ -775,6 +935,26 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
+  "123": {title: "Ligne 123 • Dollard / Shevchenko",
+    files: {currentShapes: "../GeoJSON/curr-123.geojson", newShapes: "../GeoJSON/123.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Nord – Centre de transport LaSalle", 
+                      inbound: "Sud – Place LaSalle"},
+    branchStyles: {
+      "1238888": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "1239999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+  
   "124": {title: "Ligne 124 • Victoria",
     files: {currentShapes: "../GeoJSON/curr-124.geojson", newShapes: "../GeoJSON/124.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
@@ -795,6 +975,26 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
+  "125": {title: "Ligne 125 • Ontario",
+    files: {currentShapes: "../GeoJSON/curr-125.geojson", newShapes: "../GeoJSON/125.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – Station Viau", 
+                      inbound: "Ouest – Station Place-des-Arts"},
+    branchStyles: {
+      "1250002": {line: {color: "#781B7D", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},
+      "1250001": {line: {color: "#8B469E", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#8B469E", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+  
   "127": {title: "Ligne 127 • Alexis-Nihon",
     files: {currentShapes: "../GeoJSON/curr-127.geojson", newShapes: "../GeoJSON/127.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},

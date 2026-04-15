@@ -84,6 +84,8 @@
 {"type":"Feature","properties":{"stop_id":"A0047","stop_name":"Jarry / Malouin (––)"},"geometry":{"type":"Point","coordinates":[-73.586993,45.588997]}},
 {"type":"Feature","properties":{"stop_id":"A0048","stop_name":"Jarry / Malouin (––)"},"geometry":{"type":"Point","coordinates":[-73.586931,45.589248]}},
 {"type":"Feature","properties":{"stop_id":"A0049","stop_name":"Fairway / 50e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.715551,45.452974]}},
+{"type":"Feature","properties":{"stop_id":"A0050","stop_name":"Provost / 13e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.676039,45.441926]}},
+{"type":"Feature","properties":{"stop_id":"A0051","stop_name":"Provost / 13e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.675775,45.442037]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]
 }

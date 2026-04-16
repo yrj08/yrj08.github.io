@@ -1,7 +1,7 @@
 window.routeConfigs = {
 
   "10": {title: "Ligne 10 • De Lorimier",
-    files: {currentShapes: "../GeoJSON/curr-10.geojson", newShapes: "../GeoJSON/10.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-010.geojson", newShapes: "../GeoJSON/010.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – ", 
                       inbound: "Sud – "},
@@ -21,7 +21,7 @@ window.routeConfigs = {
     `},
 
   "11": {title: "Ligne 11 • Parc du Mont-Royal",
-    files: {currentShapes: "../GeoJSON/curr-11.geojson", newShapes: "../GeoJSON/11.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-011.geojson", newShapes: "../GeoJSON/011.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Christophe-Colomb / Rachel", 
                       inbound: "Ouest – Station Snowdon"},
@@ -53,7 +53,7 @@ window.routeConfigs = {
     `},
 
   "12": {title: "Ligne 12 • Île-des-Soeurs",
-    files: {currentShapes: "../GeoJSON/curr-12.geojson", newShapes: "../GeoJSON/12.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-012.geojson", newShapes: "../GeoJSON/012.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – Station De L'Église", 
                       inbound: "Sud – Pointe-Sud"},
@@ -80,7 +80,7 @@ window.routeConfigs = {
     `},
   
   "13": {title: "Ligne 13 • Christophe-Colomb",
-    files: {currentShapes: "../GeoJSON/curr-13.geojson", newShapes: "../GeoJSON/13.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-013.geojson", newShapes: "../GeoJSON/013.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – Station Henri-Bourassa", 
                       inbound: "Sud – Station Rosemont"},
@@ -100,7 +100,7 @@ window.routeConfigs = {
     `},
 
   "14": {title: "Ligne 14 • Atateken",
-    files: {currentShapes: "../GeoJSON/curr-14.geojson", newShapes: "../GeoJSON/14.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-014.geojson", newShapes: "../GeoJSON/014.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord", inbound: "Sud"},
     branchStyles: {
@@ -114,7 +114,7 @@ window.routeConfigs = {
     `},
   
   "16": {title: "Ligne 16 • Graham",
-    files: {currentShapes: "../GeoJSON/curr-16.geojson", newShapes: "../GeoJSON/16.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-016.geojson", newShapes: "../GeoJSON/016.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Acadie", 
                       inbound: "Ouest – Boucle Thimens"},
@@ -134,7 +134,7 @@ window.routeConfigs = {
     `},
 
   "17": {title: "Ligne 17 • Décarie",
-    files: {currentShapes: "../GeoJSON/curr-17.geojson", newShapes: "../GeoJSON/17.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-017.geojson", newShapes: "../GeoJSON/017.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – Station Côte-Vertu", 
                       inbound: "Sud – Station Lionel-Groulx"},
@@ -154,7 +154,7 @@ window.routeConfigs = {
     `},
 
   "18": {title: "Ligne 18 • Beaubien",
-    files: {currentShapes: "../GeoJSON/curr-18.geojson", newShapes: "../GeoJSON/18.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-018.geojson", newShapes: "../GeoJSON/018.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Honoré-Beaugrand", 
                       inbound: "Ouest – Station Beaubien"},
@@ -174,7 +174,7 @@ window.routeConfigs = {
     `},
 
   "20": {title: "Ligne 20 • Crémazie / Marché Central",
-    files: {currentShapes: "../GeoJSON/curr-20.geojson", newShapes: "../GeoJSON/20.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-020.geojson", newShapes: "../GeoJSON/020.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – ", 
                       inbound: "Ouest – "},
@@ -194,7 +194,7 @@ window.routeConfigs = {
     `},
 
   "22": {title: "Ligne 22 • Notre-Dame",
-    files: {currentShapes: "../GeoJSON/curr-22.geojson", newShapes: "../GeoJSON/22.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-022.geojson", newShapes: "../GeoJSON/022.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – ", 
                       inbound: "Ouest – "},
@@ -214,7 +214,7 @@ window.routeConfigs = {
     `},
   
   "24": {title: "Ligne 24 • Sherbrooke",
-    files: {currentShapes: "../GeoJSON/curr-24.geojson", newShapes: "../GeoJSON/24.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-024.geojson", newShapes: "../GeoJSON/024.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Frontenac", 
                       inbound: "Ouest – Station Villa-Maria"},
@@ -234,7 +234,7 @@ window.routeConfigs = {
     `},
 
   "25": {title: "Ligne 25 • Angus",
-    files: {currentShapes: "../GeoJSON/curr-25.geojson", newShapes: "../GeoJSON/25.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-025.geojson", newShapes: "../GeoJSON/025.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – Station Rosemont", 
                       inbound: "Sud – "},
@@ -256,7 +256,7 @@ window.routeConfigs = {
 
 
   "27": {title: "Ligne 27 • Saint-Joseph",
-    files: {currentShapes: "../GeoJSON/curr-27.geojson", newShapes: "../GeoJSON/27.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-027.geojson", newShapes: "../GeoJSON/027.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Laurier / Pie-IX", 
                       inbound: "Ouest – Station Laurier"},
@@ -278,7 +278,7 @@ window.routeConfigs = {
   
   
   "31": {title: "Ligne 31 • Saint-Denis",
-    files: {currentShapes: "../GeoJSON/curr-31.geojson", newShapes: "../GeoJSON/31.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-031.geojson", newShapes: "../GeoJSON/031.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – Station Henri-Bourassa", 
                       inbound: "Sud – Saint-Hubert / Viger"},
@@ -299,7 +299,7 @@ window.routeConfigs = {
 
 
   "35": {title: "Ligne 35 • Griffintown",
-    files: {currentShapes: "../GeoJSON/curr-35.geojson", newShapes: "../GeoJSON/35.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-035.geojson", newShapes: "../GeoJSON/035.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Square-Victoria–OACI", 
                       inbound: "Ouest – Station Angrignon"},
@@ -319,7 +319,7 @@ window.routeConfigs = {
     `},
 
   "36": {title: "Ligne 36 • Monk",
-    files: {currentShapes: "../GeoJSON/curr-36.geojson", newShapes: "../GeoJSON/36.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-036.geojson", newShapes: "../GeoJSON/036.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Square-Victoria–OACI", 
                       inbound: "Ouest – Station Angrignon"},
@@ -339,7 +339,7 @@ window.routeConfigs = {
     `},
 
   "37": {title: "Ligne 37 • Jolicoeur",
-    files: {currentShapes: "../GeoJSON/curr-37.geojson", newShapes: "../GeoJSON/37.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-037.geojson", newShapes: "../GeoJSON/037.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station LaSalle", 
                       inbound: "Ouest – Station Angrignon"},
@@ -359,7 +359,7 @@ window.routeConfigs = {
     `},
 
   "38": {title: "Ligne 38 • De l'Église",
-    files: {currentShapes: "../GeoJSON/curr-38.geojson", newShapes: "../GeoJSON/38.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-038.geojson", newShapes: "../GeoJSON/038.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – Station Vendôme", 
                       inbound: "Sud – Station LaSalle"},
@@ -379,7 +379,7 @@ window.routeConfigs = {
     `},  
 
   "47": {title: "Ligne 47 • Masson",
-    files: {currentShapes: "../GeoJSON/curr-47.geojson", newShapes: "../GeoJSON/47.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-047.geojson", newShapes: "../GeoJSON/047.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Saint-Joseph / Pie-IX", 
                       inbound: "Ouest – Station Laurier"},
@@ -399,7 +399,7 @@ window.routeConfigs = {
     `},
   
   "48": {title: "Ligne 48 • Perras",
-    files: {currentShapes: "../GeoJSON/curr-48.geojson", newShapes: "../GeoJSON/48.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-048.geojson", newShapes: "../GeoJSON/048.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Gare Rivière-des-Prairies", 
                       inbound: "Ouest – Station Henri-Bourassa"},
@@ -419,7 +419,7 @@ window.routeConfigs = {
     `},
 
   "49": {title: "Ligne 49 • Maurice-Duplessis",
-    files: {currentShapes: "../GeoJSON/curr-49.geojson", newShapes: "../GeoJSON/49.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-049.geojson", newShapes: "../GeoJSON/049.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Gare Rivière-des-Prairies", 
                       inbound: "Ouest – Station Henri-Bourassa"},
@@ -439,7 +439,7 @@ window.routeConfigs = {
     `},
 
   "50": {title: "Ligne 50 • Vieux-Montréal / Vieux-Port",
-    files: {currentShapes: "../GeoJSON/curr-50.geojson", newShapes: "../GeoJSON/50.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-050.geojson", newShapes: "../GeoJSON/050.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Champ-de-Mars", 
                       inbound: "Ouest – des Pins / du Docteur-Penfield"},
@@ -459,7 +459,7 @@ window.routeConfigs = {
     `},
 
   "51": {title: "Ligne 51 • Édouard-Montpetit",
-    files: {currentShapes: "../GeoJSON/curr-51.geojson", newShapes: "../GeoJSON/51.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-051.geojson", newShapes: "../GeoJSON/051.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Laurier", 
                       inbound: "Ouest – Gare Montréal-Ouest"},
@@ -480,7 +480,7 @@ window.routeConfigs = {
 
   
   "54": {title: "Ligne 54 • Charland / Chabanel",
-    files: {currentShapes: "../GeoJSON/curr-54.geojson", newShapes: "../GeoJSON/54.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-054.geojson", newShapes: "../GeoJSON/054.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – ", 
                       inbound: "Ouest – "},
@@ -500,7 +500,7 @@ window.routeConfigs = {
     `},
 
   "55": {title: "Ligne 55 • Saint-Laurent",
-    files: {currentShapes: "../GeoJSON/curr-55.geojson", newShapes: "../GeoJSON/55.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-055.geojson", newShapes: "../GeoJSON/055.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – Station Henri-Bourassa", 
                       inbound: "Sud – Station Place-d'Armes"},
@@ -520,7 +520,7 @@ window.routeConfigs = {
     `},
 
   "56": {title: "Ligne 56 • Saint-Hubert",
-    files: {currentShapes: "../GeoJSON/curr-56.geojson", newShapes: "../GeoJSON/56.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-056.geojson", newShapes: "../GeoJSON/056.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – Station Henri-Bourassa", 
                       inbound: "Sud – Station Jean-Talon"},
@@ -540,7 +540,7 @@ window.routeConfigs = {
     `},
 
   "64": {title: "Ligne 64 • Grenet",
-    files: {currentShapes: "../GeoJSON/curr-64.geojson", newShapes: "../GeoJSON/64.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-064.geojson", newShapes: "../GeoJSON/064.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – ", 
                       inbound: "Sud – "},
@@ -560,7 +560,7 @@ window.routeConfigs = {
     `},
 
   "68": {title: "Ligne 68 • Pierrefonds",
-    files: {currentShapes: "../GeoJSON/curr-68.geojson", newShapes: "../GeoJSON/68.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-068.geojson", newShapes: "../GeoJSON/068.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Pierrefonds–Roxboro", 
                       inbound: "Ouest – Station Anse-à-l'Orme"},
@@ -580,7 +580,7 @@ window.routeConfigs = {
     `},
   
   "69": {title: "Ligne 69 • Henri-Bourassa",
-    files: {currentShapes: "../GeoJSON/curr-69.geojson", newShapes: "../GeoJSON/69.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-069.geojson", newShapes: "../GeoJSON/069.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Cégep Marie-Victorin", 
                       inbound: "Ouest – Station Bois-Franc"},
@@ -600,7 +600,7 @@ window.routeConfigs = {
     `},
 
   "70": {title: "Ligne 70 • Poirier",
-    files: {currentShapes: "../GeoJSON/curr-70.geojson", newShapes: "../GeoJSON/70.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-070.geojson", newShapes: "../GeoJSON/070.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Côte-Vertu", 
                       inbound: "Ouest – Levy / No 5060"},
@@ -620,7 +620,7 @@ window.routeConfigs = {
     `},
 
   "72": {title: "Ligne 72 • Alfred-Nobel",
-    files: {currentShapes: "../GeoJSON/curr-72.geojson", newShapes: "../GeoJSON/72.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-072.geojson", newShapes: "../GeoJSON/072.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Côte-Vertu", 
                       inbound: "Ouest – Station Fairview–Pointe-Claire"},
@@ -641,7 +641,7 @@ window.routeConfigs = {
     `},
 
   "73": {title: "Ligne 73 • Dalton",
-    files: {currentShapes: "../GeoJSON/curr-73.geojson", newShapes: "../GeoJSON/73.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-073.geojson", newShapes: "../GeoJSON/073.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Boucle - Cavendish / Griffith", 
                       inbound: "Boucle - Station Côte-Vertu"},
@@ -666,7 +666,7 @@ window.routeConfigs = {
     `},
   
   "79": {title: "Ligne 79 • Gouin",
-    files: {currentShapes: "../GeoJSON/curr-79.geojson", newShapes: "../GeoJSON/79.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-079.geojson", newShapes: "../GeoJSON/079.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Henri-Bourassa", 
                       inbound: "Ouest – Station Pierrefonds–Roxboro"},
@@ -686,7 +686,7 @@ window.routeConfigs = {
     `},
 
   "80": {title: "Ligne 80 • Avenue du Parc",
-    files: {currentShapes: "../GeoJSON/curr-80.geojson", newShapes: "../GeoJSON/80.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-080.geojson", newShapes: "../GeoJSON/080.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – Aréna Howie-Morenz", 
                       inbound: "Sud – Station Place-des-Arts"},
@@ -706,7 +706,7 @@ window.routeConfigs = {
     `},
 
   "92": {title: "Ligne 92 • Jean-Talon Ouest",
-    files: {currentShapes: "../GeoJSON/curr-92.geojson", newShapes: "../GeoJSON/92.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-092.geojson", newShapes: "../GeoJSON/092.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Jean-Talon", 
                       inbound: "Ouest – Station De La Savane"},
@@ -725,8 +725,6 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
-
-  
 
   
   "100": {title: "Ligne 100 • Crémazie",
@@ -1474,10 +1472,10 @@ window.routeConfigs = {
     `},
 
   "192": {title: "Ligne 192 • Robert",
-    files: {currentShapes: "../GeoJSON/curr-10.geojson", newShapes: "../GeoJSON/10.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-192.geojson", newShapes: "../GeoJSON/192.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Nord – ", 
-                      inbound: "Sud – "},
+    directionLabels: {outbound: "Est – Centre de transport Anjou", 
+                      inbound: "Ouest – Station Crémazie"},
     branchStyles: {
       "1920002": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},

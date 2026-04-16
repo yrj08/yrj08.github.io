@@ -781,9 +781,9 @@ window.routeConfigs = {
     directionLabels: {outbound: "Est – Station Angrignon", 
                       inbound: "Ouest – Galeries Lachine"},
     branchStyles: {
-      "270002": {line: {color: "#009EE0", weight: 4, opacity: 1},
+      "1100018": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "270001": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+      "1100003": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},

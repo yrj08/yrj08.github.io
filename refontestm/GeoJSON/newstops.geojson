@@ -18,6 +18,7 @@
 {"type":"Feature","properties":{"stop_id":"58591","stop_name":"Lakeshore / Macdonald (58591)"},"geometry":{"type":"Point","coordinates":[-73.940448,45.403648]}},
 {"type":"Feature","properties":{"stop_id":"59510","stop_name":"Station Côte-Vertu (Côte-Vertu / Décarie) (59510)"},"geometry":{"type":"Point","coordinates":[-73.683040,45.513855]}},
 {"type":"Feature","properties":{"stop_id":"60195","stop_name":"Thimens / Alexis-Nihon (60195)"},"geometry":{"type":"Point","coordinates":[-73.697452,45.509760]}},
+{"type":"Feature","properties":{"stop_id":"60368","stop_name":"Lake / Churchill (60368)"},"geometry":{"type":"Point","coordinates":[-73.810643,45.491551]}},
 {"type":"Feature","properties":{"stop_id":"60709","stop_name":"Côte-Saint-Paul / Saint-Ambroise (60709)"},"geometry":{"type":"Point","coordinates":[-73.593816,45.467836]}},
 {"type":"Feature","properties":{"stop_id":"60774","stop_name":"Jean-Talon / No 4290 (60774)"},"geometry":{"type":"Point","coordinates":[-73.589431,45.568569]}},
 {"type":"Feature","properties":{"stop_id":"60775","stop_name":"Jean-Talon / No 4325 (60775)"},"geometry":{"type":"Point","coordinates":[-73.58932,45.568986]}},
@@ -91,6 +92,8 @@
 {"type":"Feature","properties":{"stop_id":"A0054","stop_name":"Elm / Allancroft (––)"},"geometry":{"type":"Point","coordinates":[-73.856507,45.432772]}},
 {"type":"Feature","properties":{"stop_id":"A0055","stop_name":"Laurentien / Émile-Nelligan (––)"},"geometry":{"type":"Point","coordinates":[-73.718990,45.527408]}},
 {"type":"Feature","properties":{"stop_id":"A0056","stop_name":"28e Avenue / Remembrance (––)"},"geometry":{"type":"Point","coordinates":[-73.688705,45.437560]}},
+{"type":"Feature","properties":{"stop_id":"A0057","stop_name":"Lake / Churchill (––)"},"geometry":{"type":"Point","coordinates":[-73.810823,45.491955]}},
+{"type":"Feature","properties":{"stop_id":"A0058","stop_name":"Westpark / Roger-Pilon (––)"},"geometry":{"type":"Point","coordinates":[-73.818987,45.491883]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]
 }

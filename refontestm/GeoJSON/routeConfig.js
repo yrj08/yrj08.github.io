@@ -540,7 +540,7 @@ window.routeConfigs = {
     `},
 
   "64": {title: "Ligne 64 • Grenet",
-    files: {currentShapes: "../GeoJSON/curr-10.geojson", newShapes: "../GeoJSON/10.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-64.geojson", newShapes: "../GeoJSON/64.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – ", 
                       inbound: "Sud – "},

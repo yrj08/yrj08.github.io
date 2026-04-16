@@ -835,10 +835,10 @@ window.routeConfigs = {
     directionLabels: {outbound: "Est – Station Atwater", 
                       inbound: "Ouest – Parc Hadley"},
     branchStyles: {
-      "1080001": {line: {color: "#781B7D", weight: 4, opacity: 1},
-          stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},
-      "1080011": {line: {color: "#8B469E", weight: 4, opacity: 1},
-          stop: {radius: 4, weight: 3, color: "#8B469E", fillOpacity: 1, shape: "circle"}},
+      "1080001": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "1080011": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `

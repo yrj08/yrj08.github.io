@@ -156,12 +156,12 @@ window.routeConfigs = {
   "18": {title: "Ligne 18 • Beaubien",
     files: {currentShapes: "../GeoJSON/curr-18.geojson", newShapes: "../GeoJSON/18.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est – Gare Rivière-des-Prairies", 
-                      inbound: "Ouest – Station Henri-Bourassa"},
+    directionLabels: {outbound: "Est – Station Honoré-Beaugrand", 
+                      inbound: "Ouest – Station Beaubien"},
     branchStyles: {
-      "498888": {line: {color: "#781B7D", weight: 4, opacity: 1},
+      "188888": {line: {color: "#781B7D", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},
-      "499999": {line: {color: "#8B469E", weight: 4, opacity: 1},
+      "189999": {line: {color: "#8B469E", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#8B469E", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -1773,7 +1773,29 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
-  
+  "211": {title: "Ligne 211 • Bord-du-Lac",
+    files: {currentShapes: "../GeoJSON/curr-211.geojson", newShapes: "../GeoJSON/211.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – Station Lionel-Groulx", 
+                      inbound: "Ouest – Station Anse-à-l'Orme"},
+    branchStyles: {
+      "2110016": {line: {color: "#781B7D", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},
+      "2110017": {line: {color: "#8B469E", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#8B469E", fillOpacity: 1, shape: "circle"}},
+      "2110015": {line: {color: "#781B7D", weight: 4, opacity: 1, dashArray: "5,10"},
+          stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},
+      "2110018": {line: {color: "#8B469E", weight: 4, opacity: 1, dashArray: "5,10"},
+          stop: {radius: 4, weight: 3, color: "#8B469E", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
 
   "212": {title: "Ligne 212 • Sainte-Anne",
     files: {currentShapes: "../GeoJSON/curr-212.geojson", newShapes: "../GeoJSON/212.geojson", 

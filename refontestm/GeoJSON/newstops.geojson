@@ -89,6 +89,7 @@
 {"type":"Feature","properties":{"stop_id":"A0052","stop_name":"Elm / Shannon Park (––)"},"geometry":{"type":"Point","coordinates":[-73.870224,45.430274]}},
 {"type":"Feature","properties":{"stop_id":"A0053","stop_name":"Elm / Westcroft (––)"},"geometry":{"type":"Point","coordinates":[-73.862158,45.431561]}},
 {"type":"Feature","properties":{"stop_id":"A0054","stop_name":"Elm / Allancroft (––)"},"geometry":{"type":"Point","coordinates":[-73.856507,45.432772]}},
+{"type":"Feature","properties":{"stop_id":"A0055","stop_name":"Laurentien / Émile-Nelligan (––)"},"geometry":{"type":"Point","coordinates":[-73.718990,45.527408]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]
 }

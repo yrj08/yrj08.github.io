@@ -90,6 +90,7 @@
 {"type":"Feature","properties":{"stop_id":"A0053","stop_name":"Elm / Westcroft (––)"},"geometry":{"type":"Point","coordinates":[-73.862158,45.431561]}},
 {"type":"Feature","properties":{"stop_id":"A0054","stop_name":"Elm / Allancroft (––)"},"geometry":{"type":"Point","coordinates":[-73.856507,45.432772]}},
 {"type":"Feature","properties":{"stop_id":"A0055","stop_name":"Laurentien / Émile-Nelligan (––)"},"geometry":{"type":"Point","coordinates":[-73.718990,45.527408]}},
+{"type":"Feature","properties":{"stop_id":"A0056","stop_name":"28e Avenue / Remembrance (––)"},"geometry":{"type":"Point","coordinates":[-73.688705,45.437560]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]
 }

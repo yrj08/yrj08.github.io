@@ -86,6 +86,9 @@
 {"type":"Feature","properties":{"stop_id":"A0049","stop_name":"Fairway / 50e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.715551,45.452974]}},
 {"type":"Feature","properties":{"stop_id":"A0050","stop_name":"Provost / 13e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.676039,45.441926]}},
 {"type":"Feature","properties":{"stop_id":"A0051","stop_name":"Provost / 13e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.675775,45.442037]}},
+{"type":"Feature","properties":{"stop_id":"A0052","stop_name":"Elm / Shannon Park (––)"},"geometry":{"type":"Point","coordinates":[-73.870224,45.430274]}},
+{"type":"Feature","properties":{"stop_id":"A0053","stop_name":"Elm / Westcroft (––)"},"geometry":{"type":"Point","coordinates":[-73.862158,45.431561]}},
+{"type":"Feature","properties":{"stop_id":"A0054","stop_name":"Elm / Allancroft (––)"},"geometry":{"type":"Point","coordinates":[-73.856507,45.432772]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]
 }

@@ -539,6 +539,46 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
+  "64": {title: "Ligne 64 • Grenet",
+    files: {currentShapes: "../GeoJSON/curr-10.geojson", newShapes: "../GeoJSON/10.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Nord – ", 
+                      inbound: "Sud – "},
+    branchStyles: {
+      "640007": {line: {color: "#781B7D", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},
+      "640008": {line: {color: "#8B469E", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#8B469E", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+
+  "68": {title: "Ligne 68 • Pierrefonds",
+    files: {currentShapes: "../GeoJSON/curr-68.geojson", newShapes: "../GeoJSON/68.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – Station Pierrefonds–Roxboro", 
+                      inbound: "Ouest – Station Anse-à-l'Orme"},
+    branchStyles: {
+      "680026": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "680027": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+  
   "69": {title: "Ligne 69 • Henri-Bourassa",
     files: {currentShapes: "../GeoJSON/curr-69.geojson", newShapes: "../GeoJSON/69.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},

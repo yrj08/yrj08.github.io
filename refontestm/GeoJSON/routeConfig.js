@@ -798,7 +798,7 @@ window.routeConfigs = {
   "112": {title: "Ligne 112 • Airlie",
     files: {currentShapes: "../GeoJSON/curr-112.geojson", newShapes: "../GeoJSON/112.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est – Station Angrignon", 
+    directionLabels: {outbound: "Est – Station Jolicoeur", 
                       inbound: "Ouest – Terminus Lafleur / Newman"},
     branchStyles: {
       "1120001": {line: {color: "#781B7D", weight: 4, opacity: 1},

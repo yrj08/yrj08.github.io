@@ -1292,7 +1292,7 @@ window.routeConfigs = {
     files: {currentShapes: "../GeoJSON/curr-162.geojson", newShapes: "../GeoJSON/162.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Villa-Maria", 
-                      inbound: "Ouest – TBD"},
+                      inbound: "Ouest – Heywood / Cavendish"},
     branchStyles: {
       "1628888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},

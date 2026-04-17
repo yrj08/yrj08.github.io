@@ -94,7 +94,10 @@
 {"type":"Feature","properties":{"stop_id":"A0056","stop_name":"28e Avenue / Remembrance (––)"},"geometry":{"type":"Point","coordinates":[-73.688705,45.437560]}},
 {"type":"Feature","properties":{"stop_id":"A0057","stop_name":"Lake / Churchill (––)"},"geometry":{"type":"Point","coordinates":[-73.810823,45.491955]}},
 {"type":"Feature","properties":{"stop_id":"A0058","stop_name":"Westpark / Roger-Pilon (––)"},"geometry":{"type":"Point","coordinates":[-73.818987,45.491883]}},
-{"type":"Feature","properties":{"stop_id":"A0059","stop_name":"Donegani / Applebee"},"geometry":{"type":"Point","coordinates":[-73.822064,45.442037]}},
+{"type":"Feature","properties":{"stop_id":"A0059","stop_name":"Donegani / Applebee (––)"},"geometry":{"type":"Point","coordinates":[-73.822064,45.442037]}},
+{"type":"Feature","properties":{"stop_id":"A0060","stop_name":"Esther-Blondin / Duff Court (––)"},"geometry":{"type":"Point","coordinates":[-73.680337,45.445133]}},
+
+
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]
 }

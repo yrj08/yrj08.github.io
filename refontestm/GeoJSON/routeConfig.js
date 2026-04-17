@@ -705,6 +705,26 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
+  "90": {title: "Ligne 90 • Saint-Jacques",
+    files: {currentShapes: "../GeoJSON/curr-090.geojson", newShapes: "../GeoJSON/090.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – Station Vendôme", 
+                      inbound: "Ouest – Esther-Blondin / Duff Court"},
+    branchStyles: {
+      "900001": {line: {color: "#781B7D", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},
+      "900004": {line: {color: "#8B469E", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#8B469E", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+  
   "92": {title: "Ligne 92 • Jean-Talon Ouest",
     files: {currentShapes: "../GeoJSON/curr-092.geojson", newShapes: "../GeoJSON/092.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
@@ -791,7 +811,7 @@ window.routeConfigs = {
     files: {currentShapes: "../GeoJSON/curr-104.geojson", newShapes: "../GeoJSON/104.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Atwater", 
-                      inbound: "Ouest – "},
+                      inbound: "Ouest – Collins / Cavendish"},
     branchStyles: {
       "1048888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},

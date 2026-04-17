@@ -12,6 +12,8 @@
 {"type":"Feature","properties":{"stop_id":"55983","stop_name":"Jules-Poitras / Henri-Bourassa (55983)"},"geometry":{"type":"Point","coordinates":[-73.684064,45.529225]}},
 {"type":"Feature","properties":{"stop_id":"55997","stop_name":"Dutrisac / Henri-Bourassa (55997)"},"geometry":{"type":"Point","coordinates":[-73.692354,45.527969]}},
 {"type":"Feature","properties":{"stop_id":"56225","stop_name":"Victoria / The Boulevard (56225)"},"geometry":{"type":"Point","coordinates":[-73.615965,45.484671]}},
+{"type":"Feature","properties":{"stop_id":"57108","stop_name":"Carr. Angrignon entrée est (Angrignon / No 2221) (57108)"},"geometry":{"type":"Point","coordinates":[-73.612799,45.449002]}},
+{"type":"Feature","properties":{"stop_id":"57109","stop_name":"Carr. Angrignon entrée nord (Angrignon / No 2500) (57109)"},"geometry":{"type":"Point","coordinates":[-73.617895,45.449632]}},
 {"type":"Feature","properties":{"stop_id":"57505","stop_name":"Terminus Dorval (57505)"},"geometry":{"type":"Point","coordinates":[-73.743173,45.448549]}},
 {"type":"Feature","properties":{"stop_id":"58098","stop_name":"Saint-Charles / Claude (58098)"},"geometry":{"type":"Point","coordinates":[-73.875081,45.467875]}},
 {"type":"Feature","properties":{"stop_id":"58591","stop_name":"Lakeshore / Macdonald (58591)"},"geometry":{"type":"Point","coordinates":[-73.940448,45.403648]}},
@@ -101,6 +103,8 @@
 {"type":"Feature","properties":{"stop_id":"A0064","stop_name":"Girouard / de Monkland (––)"},"geometry":{"type":"Point","coordinates":[-73.622032,45.476973]}},
 {"type":"Feature","properties":{"stop_id":"A0065","stop_name":"Saint-Patrick / Eadie (––)"},"geometry":{"type":"Point","coordinates":[-73.590821,45.466499]}},
 {"type":"Feature","properties":{"stop_id":"A0066","stop_name":"Saint-Patrick / No 5870 (––)"},"geometry":{"type":"Point","coordinates":[-73.602866,45.460948]}},
+{"type":"Feature","properties":{"stop_id":"A0067","stop_name":"Saint-Patrick / Irwin (––)"},"geometry":{"type":"Point","coordinates":[-73.613026,45.457584]}},
+{"type":"Feature","properties":{"stop_id":"A0068","stop_name":"Saint-Patrick / No 6000 (––)"},"geometry":{"type":"Point","coordinates":[-73.609132,45.458866]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]
 }

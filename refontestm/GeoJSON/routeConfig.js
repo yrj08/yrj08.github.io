@@ -599,6 +599,26 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
+  "66": {title: "Ligne 66 • The Boulevard",
+    files: {currentShapes: "../GeoJSON/curr-066.geojson", newShapes: "../GeoJSON/066.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Nord – Connaught / Westmore", 
+                      inbound: "Sud – Station Guy-Concordia"},
+    branchStyles: {
+      "668888": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "669999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+  
   "68": {title: "Ligne 68 • Pierrefonds",
     files: {currentShapes: "../GeoJSON/curr-068.geojson", newShapes: "../GeoJSON/068.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
@@ -827,6 +847,20 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
+  "102": {title: "Ligne 102 • Somerled",
+    files: {currentShapes: "../GeoJSON/curr-102.geojson", newShapes: "../GeoJSON/102.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est", inbound: "Ouest"},
+    branchStyles: {
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Retrait du service: ligne fusionnée avec la ligne 66.</li>
+    `,
+    pourquoi: `
+      <li>Permettre un accès direct au centre-ville.</li>
+    `},
+  
   "103": {title: "Ligne 103 • Monkland",
     files: {currentShapes: "../GeoJSON/curr-103.geojson", newShapes: "../GeoJSON/103.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},

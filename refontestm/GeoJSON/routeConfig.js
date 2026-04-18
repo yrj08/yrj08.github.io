@@ -3024,8 +3024,8 @@ window.routeConfigs = {
   "410": {title: "Ligne 410 • Express Notre-Dame",
     files: {currentShapes: "../GeoJSON/curr-410.geojson", newShapes: "../GeoJSON/410.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est – ", 
-                      inbound: "Ouest – "},
+    directionLabels: {outbound: "Est – 100e Avenue / Bureau", 
+                      inbound: "Ouest – Station Bonaventure"},
     branchStyles: {
       "4108888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
@@ -3066,8 +3066,8 @@ window.routeConfigs = {
   "420": {title: "Ligne 420 • Express Notre-Dame-de-Grâce",
     files: {currentShapes: "../GeoJSON/curr-420.geojson", newShapes: "../GeoJSON/420.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est – ", 
-                      inbound: "Ouest – "},
+    directionLabels: {outbound: "Est – Station Saint-Laurent", 
+                      inbound: "Ouest – Côte-Saint-Luc / Westminster"},
     branchStyles: {
       "4208888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},

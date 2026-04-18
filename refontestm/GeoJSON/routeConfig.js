@@ -1187,10 +1187,10 @@ window.routeConfigs = {
     directionLabels: {outbound: "Est – Station Viau", 
                       inbound: "Ouest – Station Place-des-Arts"},
     branchStyles: {
-      "1250002": {line: {color: "#781B7D", weight: 4, opacity: 1},
-          stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},
-      "1250001": {line: {color: "#8B469E", weight: 4, opacity: 1},
-          stop: {radius: 4, weight: 3, color: "#8B469E", fillOpacity: 1, shape: "circle"}},
+      "1250002": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "1250001": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `

@@ -108,6 +108,11 @@
 {"type":"Feature","properties":{"stop_id":"A0068","stop_name":"Saint-Patrick / No 6000 (––)"},"geometry":{"type":"Point","coordinates":[-73.609132,45.458866]}},
 {"type":"Feature","properties":{"stop_id":"A0069","stop_name":"Beaubien / 21e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.580341,45.561988]}},
 {"type":"Feature","properties":{"stop_id":"A0070","stop_name":"Beaubien / Cartier (––)"},"geometry":{"type":"Point","coordinates":[-73.596394,45.543547]}},
+{"type":"Feature","properties":{"stop_id":"A0071","stop_name":"Notre-Dame / Pie-IX (––)"},"geometry":{"type":"Point","coordinates":[-73.533423,45.547497]}},
+{"type":"Feature","properties":{"stop_id":"A0072","stop_name":"de la Cathédrale / René-Lévesque (––)"},"geometry":{"type":"Point","coordinates":[-73.568824,45.498811]}},
+{"type":"Feature","properties":{"stop_id":"A0073","stop_name":"Notre-Dame / Pie-IX (––)"},"geometry":{"type":"Point","coordinates":[-73.533365,45.548039]}},
+{"type":"Feature","properties":{"stop_id":"A0074","stop_name":"Aylwin / Adam (––)"},"geometry":{"type":"Point","coordinates":[-73.541565,45.543117]}},
+{"type":"Feature","properties":{"stop_id":"A0075","stop_name":"Aylwin / Ontario (––)"},"geometry":{"type":"Point","coordinates":[-73.545551,45.544322]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]
 }

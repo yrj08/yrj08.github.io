@@ -113,6 +113,8 @@
 {"type":"Feature","properties":{"stop_id":"A0073","stop_name":"Notre-Dame / Pie-IX (––)"},"geometry":{"type":"Point","coordinates":[-73.533365,45.548039]}},
 {"type":"Feature","properties":{"stop_id":"A0074","stop_name":"Aylwin / Adam (––)"},"geometry":{"type":"Point","coordinates":[-73.541565,45.543117]}},
 {"type":"Feature","properties":{"stop_id":"A0075","stop_name":"Aylwin / Ontario (––)"},"geometry":{"type":"Point","coordinates":[-73.545551,45.544322]}},
+{"type":"Feature","properties":{"stop_id":"A0076","stop_name":"32e Avenue / Sherbrooke (––)"},"geometry":{"type":"Point","coordinates":[-73.508402,45.658434]}},
+{"type":"Feature","properties":{"stop_id":"A0077","stop_name":"32e Avenue / Sherbrooke (––)"},"geometry":{"type":"Point","coordinates":[-73.508271,45.658300]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]
 }

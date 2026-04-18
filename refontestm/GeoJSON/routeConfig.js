@@ -3423,7 +3423,7 @@ window.routeConfigs = {
     `},
 
   "777": {title: "Ligne 777 • Jean-Drapeau / Casino / Bonaventure",
-    files: {currentShapes: "../GeoJSON/curr-010.geojson", newShapes: "../GeoJSON/010.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-777.geojson", newShapes: "../GeoJSON/777.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Jean-Drapeau", 
                       inbound: "Ouest – Station Bonaventure"},

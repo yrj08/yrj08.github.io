@@ -8,6 +8,8 @@
 {"type":"Feature","properties":{"stop_id":"54225","stop_name":"Aréna Howie-Morenz (54225)"},"geometry":{"type":"Point","coordinates":[-73.644102,45.534572]}},
 {"type":"Feature","properties":{"stop_id":"54394","stop_name":"Henri-Bourassa / du Bois-de-Boulogne (54394)"},"geometry":{"type":"Point","coordinates":[-73.678270,45.538841]}},
 {"type":"Feature","properties":{"stop_id":"55053","stop_name":"Henri-Bourassa / de London (55053)"},"geometry":{"type":"Point","coordinates":[-73.644131,45.593636]}},
+{"type":"Feature","properties":{"stop_id":"55307","stop_name":"Albert-Hudon / Henri-Bourassa (55307)"},"geometry":{"type":"Point","coordinates":[-73.605983,45.612221]}},
+{"type":"Feature","properties":{"stop_id":"55308","stop_name":"Albert-Hudon / Henri-Bourassa (55308)"},"geometry":{"type":"Point","coordinates":[-73.606998,45.613373]}},
 {"type":"Feature","properties":{"stop_id":"55817","stop_name":"Thimens / No 3075 (55817)"},"geometry":{"type":"Point","coordinates":[-73.708089,45.501442]}},
 {"type":"Feature","properties":{"stop_id":"55839","stop_name":"Station Du Collège (Cartier / Ouimet) (55839)"},"geometry":{"type":"Point","coordinates":[-73.672862,45.508654]}},
 {"type":"Feature","properties":{"stop_id":"55983","stop_name":"Jules-Poitras / Henri-Bourassa (55983)"},"geometry":{"type":"Point","coordinates":[-73.684064,45.529225]}},

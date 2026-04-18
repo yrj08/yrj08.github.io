@@ -107,6 +107,7 @@
 {"type":"Feature","properties":{"stop_id":"A0067","stop_name":"Saint-Patrick / Irwin (––)"},"geometry":{"type":"Point","coordinates":[-73.613026,45.457584]}},
 {"type":"Feature","properties":{"stop_id":"A0068","stop_name":"Saint-Patrick / No 6000 (––)"},"geometry":{"type":"Point","coordinates":[-73.609132,45.458866]}},
 {"type":"Feature","properties":{"stop_id":"A0069","stop_name":"Beaubien / 21e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.580341,45.561988]}},
+{"type":"Feature","properties":{"stop_id":"A0070","stop_name":"Beaubien / Cartier (––)"},"geometry":{"type":"Point","coordinates":[-73.596394,45.543547]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]
 }

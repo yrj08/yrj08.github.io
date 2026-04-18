@@ -3362,6 +3362,83 @@ window.routeConfigs = {
       <li>Permet de concentrer les ressources sur d'autres lignes en donnant un accès plus rapide 
         du centre-ville vers l'ouest de l'île;</li>
       <li>Permet de relier plusieurs stations du REM lorsque celui-ci n'est pas en exploitation.</li>
+    `},
+
+  "767": {title: "Ligne 767 • La Ronde / Station Jean-Drapeau",
+    files: {currentShapes: "../GeoJSON/curr-767.geojson", newShapes: "../GeoJSON/767.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – La Ronde", 
+                      inbound: "Ouest – Station Jean-Drapeau"},
+    branchStyles: {
+      "7670002": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "7670001": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Service saisonnier : aucune modification.</li>
+    `,
+    pourquoi: `
+      <li>N/A</li>
+    `},
+
+  "768": {title: "Ligne 768 • Plage Jean-Doré",
+    files: {currentShapes: "../GeoJSON/curr-768.geojson", newShapes: "../GeoJSON/768.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – Station Jean-Drapeau", 
+                      inbound: "Ouest – Plage Jean-Doré"},
+    branchStyles: {
+      "7680011": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "7680001": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Retrait des arrêts intermédiaires sur le circuit Gilles-Villeneuve;</li>
+      <li>Ajustement du quai à Jean-Drapeau.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale et assurer un service bi-directionnel direct au plage.</li>
+    `},
+
+  "769": {title: "Ligne 769 • La Ronde / Station Papineau",
+    files: {currentShapes: "../GeoJSON/curr-769.geojson", newShapes: "../GeoJSON/769.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Nord – Station Papineau", 
+                      inbound: "Sud – La Ronde"},
+    branchStyles: {
+      "7690019": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "7690001": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Retrait de l'arrêt devant le pont Papineau.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale et assurer un service direct vers La Ronde.</li>
+    `},
+
+  "777": {title: "Ligne 777 • Jean-Drapeau / Casino / Bonaventure",
+    files: {currentShapes: "../GeoJSON/curr-010.geojson", newShapes: "../GeoJSON/010.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – Station Jean-Drapeau", 
+                      inbound: "Ouest – Station Bonaventure"},
+    branchStyles: {
+      "7770001": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "7770002": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Ajustement de quai à Jean-Drapeau.</li>
+    `,
+    pourquoi: `
+      <li>N/A</li>
     `}
   
 };

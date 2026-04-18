@@ -34,6 +34,7 @@
 {"type":"Feature","properties":{"stop_id":"61625","stop_name":"Boucle Thimens (61625)"},"geometry":{"type":"Point","coordinates":[-73.707814,45.501661]}},
 {"type":"Feature","properties":{"stop_id":"61660","stop_name":"Station Angrignon (61660)"},"geometry":{"type":"Point","coordinates":[-73.602744,45.446423]}},
 {"type":"Feature","properties":{"stop_id":"61769","stop_name":"Côte-Vertu / Alexis-Nihon (61769)"},"geometry":{"type":"Point","coordinates":[-73.692829,45.506042]}},
+{"type":"Feature","properties":{"stop_id":"61806","stop_name":"Saint-Laurent / De Maisonneuve (61806)"},"geometry":{"type":"Point","coordinates":[-73.564873,45.510425]}},
 {"type":"Feature","properties":{"stop_id":"61816","stop_name":"de Monkland / Décarie (61816)"},"geometry":{"type":"Point","coordinates":[-73.619642,45.478989]}},
 {"type":"Feature","properties":{"stop_id":"61994","stop_name":"Station Du Collège (du Collège / Décarie) (61994)"},"geometry":{"type":"Point","coordinates":[-73.674627,45.509668]}},
 {"type":"Feature","properties":{"stop_id":"62239","stop_name":"Côte-Saint-Paul / Monk (62239)"},"geometry":{"type":"Point","coordinates":[-73.599123,45.465394]}},

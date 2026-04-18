@@ -3104,7 +3104,7 @@ window.routeConfigs = {
     `},
 
   "430": {title: "Ligne 430 • Express Pointe-aux-Trembles",
-    files: {currentShapes: "../GeoJSON/curr-010.geojson", newShapes: "../GeoJSON/010.geojson", 
+    files: {currentShapes: "../GeoJSON/curr-430.geojson", newShapes: "../GeoJSON/430.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est", inbound: "Ouest"},
     branchStyles: {

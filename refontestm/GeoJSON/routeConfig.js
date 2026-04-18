@@ -1282,6 +1282,26 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
+  "139": {title: "Ligne 139 • Pie-IX",
+    files: {currentShapes: "../GeoJSON/curr-139.geojson", newShapes: "../GeoJSON/139.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Nord – Carrefour Henri-Bourassa / Pie-IX", 
+                      inbound: "Sud – Pie-IX / Notre-Dame"},
+    branchStyles: {
+      "1390001": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "1390002": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+  
   "144": {title: "Ligne 144 • Des Pins",
     files: {currentShapes: "../GeoJSON/curr-144.geojson", newShapes: "../GeoJSON/144.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},

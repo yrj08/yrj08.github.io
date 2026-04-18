@@ -3000,6 +3000,26 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
         nombre d'arrêts.</li>
     `},
+
+  "410": {title: "Ligne 410 • Express Notre-Dame",
+    files: {currentShapes: "../GeoJSON/curr-410.geojson", newShapes: "../GeoJSON/410.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – ", 
+                      inbound: "Ouest – "},
+    branchStyles: {
+      "4108888": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "4109999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
   
   "411": {title: "Ligne 411 • Express Lionel-Groulx",
     files: {currentShapes: "../GeoJSON/curr-411.geojson", newShapes: "../GeoJSON/411.geojson", 
@@ -3023,6 +3043,40 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
+  "420": {title: "Ligne 420 • Express Notre-Dame-de-Grâce",
+    files: {currentShapes: "../GeoJSON/curr-420.geojson", newShapes: "../GeoJSON/420.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – ", 
+                      inbound: "Ouest – "},
+    branchStyles: {
+      "4208888": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "4209999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+
+  "430": {title: "Ligne 430 • Express Pointe-aux-Trembles",
+    files: {currentShapes: "../GeoJSON/curr-010.geojson", newShapes: "../GeoJSON/010.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est", inbound: "Ouest"},
+    branchStyles: {
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Retrait du service: ligne fusionnée avec 410 Express Notre-Dame.</li>
+    `,
+    pourquoi: `
+      <li>Consolider la desserte sur une seule ligne pour améliorer la fréquence.</li>
+    `},
+  
   "444": {title: "Ligne 444 • Express Marie-Victorin",
     files: {currentShapes: "../GeoJSON/curr-444.geojson", newShapes: "../GeoJSON/444.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
@@ -3042,6 +3096,26 @@ window.routeConfigs = {
     `,
     pourquoi: `
       <li>;</li>
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+
+  "445": {title: "Ligne 445 • Express Papineau",
+    files: {currentShapes: "../GeoJSON/curr-445.geojson", newShapes: "../GeoJSON/445.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – Beaubien / Pie-IX", 
+                      inbound: "Ouest – Station Bonaventure"},
+    branchStyles: {
+      "4458888": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "4459999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
       <li>Améliorer la vitesse commerciale.</li>
     `},
   

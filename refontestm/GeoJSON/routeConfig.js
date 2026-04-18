@@ -3347,6 +3347,20 @@ window.routeConfigs = {
     pourquoi: `
       <li>Améliorer la vitesse commerciale.</li>
     `},
+
+  "711": {title: "Ligne 711 • Parc-du-Mont-Royal / Oratoire",
+    files: {currentShapes: "../GeoJSON/curr-711.geojson", newShapes: "../GeoJSON/711.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est", inbound: "Ouest"},
+    branchStyles: {
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Retrait du service; ligne remplacée par des modifications à la ligne 11.</li>
+    `,
+    pourquoi: `
+      <li>Retrait des services redondants.</li>
+    `},
   
   "747": {title: "Ligne 747 • YUL Aéroport / Centre-Ville",
     files: {currentShapes: "../GeoJSON/curr-747.geojson", newShapes: "../GeoJSON/747.geojson", 

@@ -17,6 +17,8 @@
 {"type":"Feature","properties":{"stop_id":"55983","stop_name":"Jules-Poitras / Henri-Bourassa (55983)"},"geometry":{"type":"Point","coordinates":[-73.684064,45.529225]}},
 {"type":"Feature","properties":{"stop_id":"55997","stop_name":"Dutrisac / Henri-Bourassa (55997)"},"geometry":{"type":"Point","coordinates":[-73.692354,45.527969]}},
 {"type":"Feature","properties":{"stop_id":"56225","stop_name":"Victoria / The Boulevard (56225)"},"geometry":{"type":"Point","coordinates":[-73.615965,45.484671]}},
+{"type":"Feature","properties":{"stop_id":"56596","stop_name":"de Verdun / Regina (56596)"},"geometry":{"type":"Point","coordinates":[-73.571026,45.46743]}},
+{"type":"Feature","properties":{"stop_id":"56598","stop_name":"de Verdun / Strathmore (56598)"},"geometry":{"type":"Point","coordinates":[-73.570885,45.468985]}},
 {"type":"Feature","properties":{"stop_id":"57108","stop_name":"Carr. Angrignon entrée est (Angrignon / No 2221) (57108)"},"geometry":{"type":"Point","coordinates":[-73.612799,45.449002]}},
 {"type":"Feature","properties":{"stop_id":"57109","stop_name":"Carr. Angrignon entrée nord (Angrignon / No 2500) (57109)"},"geometry":{"type":"Point","coordinates":[-73.617895,45.449632]}},
 {"type":"Feature","properties":{"stop_id":"57505","stop_name":"Terminus Dorval (57505)"},"geometry":{"type":"Point","coordinates":[-73.743173,45.448549]}},

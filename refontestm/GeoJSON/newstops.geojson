@@ -127,6 +127,7 @@
 {"type":"Feature","properties":{"stop_id":"A0078","stop_name":"Bridge / No 220 (––)"},"geometry":{"type":"Point","coordinates":[-73.549430,45.486537]}},
 {"type":"Feature","properties":{"stop_id":"A0079","stop_name":"Dézéry / Sherbrooke (––)"},"geometry":{"type":"Point","coordinates":[-73.556755,45.543786]}},
 {"type":"Feature","properties":{"stop_id":"A0080","stop_name":"Édouard / 2e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.593995,45.432185]}},
+{"type":"Feature","properties":{"stop_id":"A0081","stop_name":"Lacharité / Bannon (––)"},"geometry":{"type":"Point","coordinates":[-73.594655,45.435070]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]
 }

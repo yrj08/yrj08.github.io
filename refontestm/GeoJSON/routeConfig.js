@@ -518,6 +518,20 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
+  "52": {title: "Ligne 52 • De Liège",
+    files: {currentShapes: "../GeoJSON/curr-052.geojson", newShapes: "../GeoJSON/052.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est", inbound: "Ouest"},
+    branchStyles: {
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Retrait du service; ligne remplacée par des modifications à la ligne 440 par le 
+          remplacement du trajet industriel par une nouvelle ligne 143.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer l'efficacité du service et bonification du service sur des tronçons affectés.</li>
+    `},
   
   "54": {title: "Ligne 54 • Charland / Chabanel",
     files: {currentShapes: "../GeoJSON/curr-054.geojson", newShapes: "../GeoJSON/054.geojson", 

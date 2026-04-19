@@ -782,8 +782,8 @@ window.routeConfigs = {
   "74": {title: "Ligne 74 • Bridge",
     files: {currentShapes: "../GeoJSON/curr-074.geojson", newShapes: "../GeoJSON/074.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Nord – Station Bonaventure", 
-                      inbound: "Sud – Marc-Cantin / Studio MELS"},
+    directionLabels: {outbound: "Nord – Gare Lucien-L'Allier", 
+                      inbound: "Sud – Carrie-Derick / Marc-Cantin"},
     branchStyles: {
       "748888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},

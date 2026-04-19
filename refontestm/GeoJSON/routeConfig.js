@@ -321,7 +321,7 @@ window.routeConfigs = {
   "35": {title: "Ligne 35 • Griffintown",
     files: {currentShapes: "../GeoJSON/curr-035.geojson", newShapes: "../GeoJSON/035.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est – Station Square-Victoria–OACI", 
+    directionLabels: {outbound: "Est – Station McGill", 
                       inbound: "Ouest – Station Angrignon"},
     branchStyles: {
       "358888": {line: {color: "#009EE0", weight: 4, opacity: 1},
@@ -2357,7 +2357,7 @@ window.routeConfigs = {
   "352": {title: "Ligne 352 • Centrale",
     files: {currentShapes: "../GeoJSON/curr-352.geojson", newShapes: "../GeoJSON/352.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est – Station Place-des-Arts", 
+    directionLabels: {outbound: "Est – Station McGill", 
                       inbound: "Ouest – Terminus Lafleur / Newman"},
     branchStyles: {
       "3528888": {line: {color: "#000000", weight: 4, opacity: 1},

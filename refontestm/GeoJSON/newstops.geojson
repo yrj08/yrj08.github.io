@@ -120,6 +120,8 @@
 {"type":"Feature","properties":{"stop_id":"A0075","stop_name":"Aylwin / Ontario (––)"},"geometry":{"type":"Point","coordinates":[-73.545551,45.544322]}},
 {"type":"Feature","properties":{"stop_id":"A0076","stop_name":"32e Avenue / Sherbrooke (––)"},"geometry":{"type":"Point","coordinates":[-73.508402,45.658434]}},
 {"type":"Feature","properties":{"stop_id":"A0077","stop_name":"32e Avenue / Sherbrooke (––)"},"geometry":{"type":"Point","coordinates":[-73.508271,45.658300]}},
+{"type":"Feature","properties":{"stop_id":"A0078","stop_name":"Bridge / No 220 (––)"},"geometry":{"type":"Point","coordinates":[45.486537,-73.549430]}},
+{"type":"Feature","properties":{"stop_id":"A0079","stop_name":"Dézéry / Sherbrooke (––)"},"geometry":{"type":"Point","coordinates":[-73.556755,45.543786]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]
 }

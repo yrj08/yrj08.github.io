@@ -1523,6 +1523,20 @@ window.routeConfigs = {
           proche des lignes 121 et 177;</li>
       <li>Améliorer la vitesse commerciale.</li>
     `},
+
+  "172": {title: "Ligne 172 • Du Golf",
+    files: {currentShapes: "../GeoJSON/curr-172.geojson", newShapes: "../GeoJSON/172.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Nord", inbound: "Sud"},
+    branchStyles: {
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Retrait du service; ligne remplacée par des lignes courtes sur la ligne 12.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer l'efficacité du service et bonification du service entre REM et Pointe-Sud.</li>
+    `},
   
   "174": {title: "Ligne 174 • Côte-Vertu",
     files: {currentShapes: "../GeoJSON/curr-174.geojson", newShapes: "../GeoJSON/174.geojson", 
@@ -1566,6 +1580,20 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
+  "176": {title: "Ligne 176 • Berlioz",
+    files: {currentShapes: "../GeoJSON/curr-176.geojson", newShapes: "../GeoJSON/176.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Nord", inbound: "Sud"},
+    branchStyles: {
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Retrait du service; ligne remplacée par des lignes courtes sur la ligne 168.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer l'efficacité du service et bonification du service entre le REM et la pointe-Sud.</li>
+    `},
+  
   "177": {title: "Ligne 177 • Thimens",
     files: {currentShapes: "../GeoJSON/curr-177.geojson", newShapes: "../GeoJSON/177.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},

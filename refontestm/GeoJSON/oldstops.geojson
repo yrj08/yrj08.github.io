@@ -5741,7 +5741,7 @@
 {"type":"Feature","properties":{"stop_id":"56694","stop_name":"LaSalle / Godin (56694)"},"geometry":{"type":"Point","coordinates":[-73.572360,45.446691]}},
 {"type":"Feature","properties":{"stop_id":"56695","stop_name":"René-Lévesque / Berlioz (56695)"},"geometry":{"type":"Point","coordinates":[-73.537794,45.467200]}},
 {"type":"Feature","properties":{"stop_id":"56696","stop_name":"LaSalle / No 6875 (56696)"},"geometry":{"type":"Point","coordinates":[-73.579110,45.441431]}},
-{"type":"Feature","properties":{"stop_id":"56697","stop_name":"Station LaSalle (56697)"},"geometry":{"type":"Point","coordinates":[-73.566509,45.470696]}},
+{"type":"Feature","properties":{"stop_id":"56697","stop_name":"Station LaSalle (56697)"},"geometry":{"type":"Point","coordinates":[-73.566367,45.470699]}},
 {"type":"Feature","properties":{"stop_id":"56698","stop_name":"Marguerite-Bourgeoys / Marie-Le Ber (56698)"},"geometry":{"type":"Point","coordinates":[-73.552066,45.461175]}},
 {"type":"Feature","properties":{"stop_id":"56699","stop_name":"Marguerite-Bourgeoys / de la Forêt (56699)"},"geometry":{"type":"Point","coordinates":[-73.551977,45.461067]}},
 {"type":"Feature","properties":{"stop_id":"56700","stop_name":"de l'Île-des-Soeurs / Berlioz (56700)"},"geometry":{"type":"Point","coordinates":[-73.544023,45.458786]}},

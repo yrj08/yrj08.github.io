@@ -243,24 +243,6 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
         nombre d'arrêts.</li>
     `},
-
-  "358": {title: "Ligne 358 • René-Lévesque",
-    files: {currentShapes: "../refontestm/GeoJSON/curr-358.geojson", newShapes: "../refontestm/GeoJSON/358.geojson", 
-            currentStops: "../refontestm/GeoJSON/oldstops.geojson", newStops: "../refontestm/GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est", inbound: "Ouest"},
-    branchStyles: {
-      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
-          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
-    changements: `
-      <li>Retrait complet du service; service sur l'ensemble du trajet maintenu par les 
-        lignes modifiées 350, 354, 357, 364 et 371, avec tracé via Sainte-Catherine et 
-        De Maisonneuve à l'est de la station Papineau.</li>
-    `,
-    pourquoi: `
-      <li>Permet de réduire le dédoublement des trajets, de concentrer les ressources 
-        sur d'autres lignes, et d'offrir plus de trajets sans correspondances à partir 
-        du centre-ville par l'ajout des lignes 354 et 371.</li>
-    `},
   
   "359": {title: "Ligne 359 • Papineau",
     files: {currentShapes: "../refontestm/GeoJSON/curr-359.geojson", newShapes: "../refontestm/GeoJSON/359.geojson", 
@@ -281,22 +263,6 @@ window.routeConfigs = {
     pourquoi: `
       <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
         nombre d'arrêts.</li>
-    `},
-
-  "360": {title: "Ligne 360 • Avenue des Pins",
-    files: {currentShapes: "../refontestm/GeoJSON/curr-360.geojson", newShapes: "../refontestm/GeoJSON/360.geojson", 
-            currentStops: "../refontestm/GeoJSON/oldstops.geojson", newStops: "../refontestm/GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est", inbound: "Ouest"},
-    branchStyles: {
-      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
-          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
-    changements: `
-      <li>Retrait complet du service; segment à l'est de la rue Saint-Denis remplacé 
-        par des modifications aux lignes 355 et 356.</li>
-    `,
-    pourquoi: `
-      <li>Permet de concentrer les ressources sur d'autres lignes en enlevant une 
-        portion sous-utilisée du trajet.</li>
     `},
   
   "361": {title: "Ligne 361 • Saint-Denis",
@@ -739,22 +705,6 @@ window.routeConfigs = {
         nombre de pôles d'échange majeurs (métro Namur, Du Collège et Côte-Vertu);</li>
       <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
         nombre d'arrêts.</li>
-    `},
-  
-  "747": {title: "Ligne 747 • YUL Aéroport / Centre-Ville",
-    files: {currentShapes: "../refontestm/GeoJSON/curr-747.geojson", newShapes: "../refontestm/GeoJSON/747.geojson", 
-            currentStops: "../refontestm/GeoJSON/oldstops.geojson", newStops: "../refontestm/GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est", inbound: "Ouest"},
-    branchStyles: {
-      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
-          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
-    changements: `
-      <li>Retrait complet du service; service remplacé par des modifications à la ligne 354.</li>
-    `,
-    pourquoi: `
-      <li>Permet de concentrer les ressources sur d'autres lignes en donnant un accès plus rapide 
-        du centre-ville vers l'ouest de l'île;</li>
-      <li>Permet de relier plusieurs stations du REM lorsque celui-ci n'est pas en exploitation.</li>
     `}
   
 };

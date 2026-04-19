@@ -5,6 +5,7 @@
 {"type":"Feature","properties":{"stop_id":"51242","stop_name":"Décarie / Brillon (51242)"},"geometry":{"type":"Point","coordinates":[-73.618819,45.478879]}},
 {"type":"Feature","properties":{"stop_id":"51905","stop_name":"Papineau / escalier des Carrières (51905)"},"geometry":{"type":"Point","coordinates":[-73.587893,45.538996]}},
 {"type":"Feature","properties":{"stop_id":"53277","stop_name":"Station Honoré-Beaugrand (Terminus Sud) (53277)"},"geometry":{"type":"Point","coordinates":[-73.534164,45.596717]}},
+{"type":"Feature","properties":{"stop_id":"53296","stop_name":"Pie-IX / Notre-Dame (53296)"},"geometry":{"type":"Point","coordinates":[-73.534001,45.547857]}},
 {"type":"Feature","properties":{"stop_id":"54225","stop_name":"Aréna Howie-Morenz (54225)"},"geometry":{"type":"Point","coordinates":[-73.644102,45.534572]}},
 {"type":"Feature","properties":{"stop_id":"54394","stop_name":"Henri-Bourassa / du Bois-de-Boulogne (54394)"},"geometry":{"type":"Point","coordinates":[-73.678270,45.538841]}},
 {"type":"Feature","properties":{"stop_id":"55053","stop_name":"Henri-Bourassa / de London (55053)"},"geometry":{"type":"Point","coordinates":[-73.644131,45.593636]}},

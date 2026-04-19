@@ -778,6 +778,26 @@ window.routeConfigs = {
           des confusions.</li>
       <li>Améliorer la vitesse commerciale.</li>
     `},
+
+  "74": {title: "Ligne 74 • Bridge",
+    files: {currentShapes: "../GeoJSON/curr-074.geojson", newShapes: "../GeoJSON/074.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Nord – Station Bonaventure", 
+                      inbound: "Sud – Marc-Cantin / Studio MELS"},
+    branchStyles: {
+      "748888": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "749999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
   
   "79": {title: "Ligne 79 • Gouin",
     files: {currentShapes: "../GeoJSON/curr-079.geojson", newShapes: "../GeoJSON/079.geojson", 

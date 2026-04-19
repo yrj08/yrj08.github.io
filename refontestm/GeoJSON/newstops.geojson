@@ -42,6 +42,7 @@
 {"type":"Feature","properties":{"stop_id":"61994","stop_name":"Station Du Collège (du Collège / Décarie) (61994)"},"geometry":{"type":"Point","coordinates":[-73.674627,45.509668]}},
 {"type":"Feature","properties":{"stop_id":"62239","stop_name":"Côte-Saint-Paul / Monk (62239)"},"geometry":{"type":"Point","coordinates":[-73.599123,45.465394]}},
 {"type":"Feature","properties":{"stop_id":"62240","stop_name":"Côte-Saint-Paul / Centre Gadbois (62240)"},"geometry":{"type":"Point","coordinates":[-73.595591,45.465737]}},
+{"type":"Feature","properties":{"stop_id":"62618","stop_name":"Station Bonaventure (Gauchetière / Mansfield) (62618)"},"geometry":{"type":"Point","coordinates":[-73.566229,45.499402]}},
 {"type":"Feature","properties":{"stop_id":"A0001","stop_name":"Sauvé / Saint-Urbain (––)"},"geometry":{"type":"Point","coordinates":[-73.660917,45.545147]}},
 {"type":"Feature","properties":{"stop_id":"A0002","stop_name":"Sauvé / Waverly (––)"},"geometry":{"type":"Point","coordinates":[-73.661175,45.545017]}},
 {"type":"Feature","properties":{"stop_id":"A0003","stop_name":"Bégin / Thimens (––)"},"geometry":{"type":"Point","coordinates":[-73.714428,45.494861]}},

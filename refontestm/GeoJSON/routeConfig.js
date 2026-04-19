@@ -3086,7 +3086,7 @@ window.routeConfigs = {
   "420": {title: "Ligne 420 • Express Notre-Dame-de-Grâce",
     files: {currentShapes: "../GeoJSON/curr-420.geojson", newShapes: "../GeoJSON/420.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est – Station Saint-Laurent", 
+    directionLabels: {outbound: "Est – Station Place-des-Arts", 
                       inbound: "Ouest – Côte-Saint-Luc / Westminster"},
     branchStyles: {
       "4208888": {line: {color: "#009EE0", weight: 4, opacity: 1},

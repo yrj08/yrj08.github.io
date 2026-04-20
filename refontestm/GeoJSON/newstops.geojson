@@ -162,6 +162,7 @@
 {"type":"Feature","properties":{"stop_id":"A0102","stop_name":"des Grandes-Prairies / Pascal-Gagnon (––)"},"geometry":{"type":"Point","coordinates":[-73.601316,45.608291]}},
 {"type":"Feature","properties":{"stop_id":"A0103","stop_name":"Pascal-Gagnon / Henri-Bourassa (––)"},"geometry":{"type":"Point","coordinates":[-73.600729,45.612951]}},
 {"type":"Feature","properties":{"stop_id":"A0104","stop_name":"Rachel / Bourbonnière (––)"},"geometry":{"type":"Point","coordinates":[-73.556420,45.552117]}},
+{"type":"Feature","properties":{"stop_id":"A0105","stop_name":"Atateken / Viger (––)"},"geometry":{"type":"Point","coordinates":[-73.552589,45.515344]}},
 {"type":"Feature","properties":{"stop_id":"A9998","stop_name":"Côte-Sainte-Catherine / Maplewood (––)"},"geometry":{"type":"Point","coordinates":[-73.594684,45.515841]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]

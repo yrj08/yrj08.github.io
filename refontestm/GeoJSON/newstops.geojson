@@ -31,6 +31,9 @@
 {"type":"Feature","properties":{"stop_id":"59510","stop_name":"Station Côte-Vertu (Côte-Vertu / Décarie) (59510)"},"geometry":{"type":"Point","coordinates":[-73.683040,45.513855]}},
 {"type":"Feature","properties":{"stop_id":"60195","stop_name":"Thimens / Alexis-Nihon (60195)"},"geometry":{"type":"Point","coordinates":[-73.697452,45.509760]}},
 {"type":"Feature","properties":{"stop_id":"60368","stop_name":"Lake / Churchill (60368)"},"geometry":{"type":"Point","coordinates":[-73.810643,45.491551]}},
+{"type":"Feature","properties":{"stop_id":"60613","stop_name":"Saint-Antoine / Saint-Hubert (60613)"},"geometry":{"type":"Point","coordinates":[-73.553269,45.512869]}},
+{"type":"Feature","properties":{"stop_id":"60614","stop_name":"Atateken / Viger (60614)"},"geometry":{"type":"Point","coordinates":[-73.552096,45.515254]}},
+{"type":"Feature","properties":{"stop_id":"60615","stop_name":"Viger / Saint-Hubert (60615)"},"geometry":{"type":"Point","coordinates":[-73.554237,45.513449]}},
 {"type":"Feature","properties":{"stop_id":"60709","stop_name":"Côte-Saint-Paul / Saint-Ambroise (60709)"},"geometry":{"type":"Point","coordinates":[-73.593816,45.467836]}},
 {"type":"Feature","properties":{"stop_id":"60745","stop_name":"Robert-Bourassa / De La Gauchetière (60745)"},"geometry":{"type":"Point","coordinates":[-73.565527,45.500737]}},
 {"type":"Feature","properties":{"stop_id":"60774","stop_name":"Jean-Talon / No 4290 (60774)"},"geometry":{"type":"Point","coordinates":[-73.589431,45.568569]}},
@@ -155,6 +158,7 @@
 {"type":"Feature","properties":{"stop_id":"A0100","stop_name":"Robitaille / Paul-Pau (––)"},"geometry":{"type":"Point","coordinates":[-73.542135,45.611932]}},
 {"type":"Feature","properties":{"stop_id":"A0101","stop_name":"Sherbrooke / De Contrecoeur (––)"},"geometry":{"type":"Point","coordinates":[-73.526404,45.611583]}},
 {"type":"Feature","properties":{"stop_id":"A0102","stop_name":"des Grandes-Prairies / Pascal-Gagnon (––)"},"geometry":{"type":"Point","coordinates":[-73.601316,45.608291]}},
+{"type":"Feature","properties":{"stop_id":"A0103","stop_name":"Atateken / Viger (––)"},"geometry":{"type":"Point","coordinates":[-73.552580,45.515340]}},
 {"type":"Feature","properties":{"stop_id":"A9998","stop_name":"Côte-Sainte-Catherine / Maplewood (––)"},"geometry":{"type":"Point","coordinates":[-73.594684,45.515841]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]

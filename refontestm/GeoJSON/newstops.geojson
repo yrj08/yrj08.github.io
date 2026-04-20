@@ -138,6 +138,7 @@
 {"type":"Feature","properties":{"stop_id":"A0087","stop_name":"Wellington / Gilberte-Dubé (––)"},"geometry":{"type":"Point","coordinates":[-73.563603,45.471617]}},
 {"type":"Feature","properties":{"stop_id":"A0088","stop_name":"Charlevoix / Saint-Patrick (––)"},"geometry":{"type":"Point","coordinates":[-73.571392,45.479663]}},
 {"type":"Feature","properties":{"stop_id":"A0089","stop_name":"Charlevoix / Saint-Patrick (––)"},"geometry":{"type":"Point","coordinates":[-73.571959,45.479835]}},
+{"type":"Feature","properties":{"stop_id":"A0090","stop_name":"Station Frontenac (Frontenac / Ontario) (––)"},"geometry":{"type":"Point","coordinates":[-73.551624,45.532632]}},
 {"type":"Feature","properties":{"stop_id":"A9998","stop_name":"Côte-Sainte-Catherine / Maplewood (––)"},"geometry":{"type":"Point","coordinates":[-73.594684,45.515841]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]

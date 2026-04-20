@@ -9,6 +9,7 @@
 {"type":"Feature","properties":{"stop_id":"54225","stop_name":"Aréna Howie-Morenz (54225)"},"geometry":{"type":"Point","coordinates":[-73.644102,45.534572]}},
 {"type":"Feature","properties":{"stop_id":"54394","stop_name":"Henri-Bourassa / du Bois-de-Boulogne (54394)"},"geometry":{"type":"Point","coordinates":[-73.678270,45.538841]}},
 {"type":"Feature","properties":{"stop_id":"54402","stop_name":"Carrie-Derick / Marc-Cantin (54402)"},"geometry":{"type":"Point","coordinates":[-73.548934,45.474665]}},
+{"type":"Feature","properties":{"stop_id":"54619","stop_name":"Roi-René / de Châteauneuf (54619)"},"geometry":{"type":"Point","coordinates":[-73.554882,45.612340]}},
 {"type":"Feature","properties":{"stop_id":"55053","stop_name":"Henri-Bourassa / de London (55053)"},"geometry":{"type":"Point","coordinates":[-73.644131,45.593636]}},
 {"type":"Feature","properties":{"stop_id":"55307","stop_name":"Albert-Hudon / Henri-Bourassa (55307)"},"geometry":{"type":"Point","coordinates":[-73.605983,45.612221]}},
 {"type":"Feature","properties":{"stop_id":"55308","stop_name":"Albert-Hudon / Henri-Bourassa (55308)"},"geometry":{"type":"Point","coordinates":[-73.606998,45.613373]}},

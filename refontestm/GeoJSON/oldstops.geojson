@@ -3529,7 +3529,7 @@
 {"type":"Feature","properties":{"stop_id":"54145","stop_name":"Lajeunesse / de Castelnau (54145)"},"geometry":{"type":"Point","coordinates":[-73.616112,45.540276]}},
 {"type":"Feature","properties":{"stop_id":"54146","stop_name":"Lajeunesse / Faillon (54146)"},"geometry":{"type":"Point","coordinates":[-73.619247,45.541172]}},
 {"type":"Feature","properties":{"stop_id":"54147","stop_name":"Notre-Dame / Antoine-Bazinet (54147)"},"geometry":{"type":"Point","coordinates":[-73.492777,45.676248]}},
-{"type":"Feature","properties":{"stop_id":"54148","stop_name":"Station Atwater (Ste-Catherine / Lambert-Closse) (54148)"},"geometry":{"type":"Point","coordinates":[-73.583756,45.489847]}},
+{"type":"Feature","properties":{"stop_id":"54148","stop_name":"Station Atwater (Ste-Catherine / Lambert-Closse) (54148)"},"geometry":{"type":"Point","coordinates":[-73.583639,45.489955]}},
 {"type":"Feature","properties":{"stop_id":"54151","stop_name":"Perras / Rodolphe-Forget (54151)"},"geometry":{"type":"Point","coordinates":[-73.578950,45.649589]}},
 {"type":"Feature","properties":{"stop_id":"54152","stop_name":"Perras / Rodolphe-Forget (54152)"},"geometry":{"type":"Point","coordinates":[-73.579120,45.649116]}},
 {"type":"Feature","properties":{"stop_id":"54154","stop_name":"Perras / Fernand-Gauthier (54154)"},"geometry":{"type":"Point","coordinates":[-73.603553,45.635222]}},

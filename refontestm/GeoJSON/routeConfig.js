@@ -1218,7 +1218,7 @@ window.routeConfigs = {
   "123": {title: "Ligne 123 • Dollard / Shevchenko",
     files: {currentShapes: "../GeoJSON/curr-123.geojson", newShapes: "../GeoJSON/123.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Nord – Centre de transport LaSalle", 
+    directionLabels: {outbound: "Nord – Saint-Jacques / Richardson", 
                       inbound: "Sud – Place LaSalle"},
     branchStyles: {
       "1238888": {line: {color: "#009EE0", weight: 4, opacity: 1},

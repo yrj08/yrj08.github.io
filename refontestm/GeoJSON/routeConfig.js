@@ -196,8 +196,8 @@ window.routeConfigs = {
   "22": {title: "Ligne 22 • Notre-Dame",
     files: {currentShapes: "../GeoJSON/curr-022.geojson", newShapes: "../GeoJSON/022.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est – ", 
-                      inbound: "Ouest – "},
+    directionLabels: {outbound: "Est – Station Honoré-Beaugrand", 
+                      inbound: "Ouest – Station Assomption"},
     branchStyles: {
       "228888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
@@ -253,7 +253,25 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
-
+  "26": {title: "Ligne 26 • Mercier Est",
+    files: {currentShapes: "../GeoJSON/curr-026.geojson", newShapes: "../GeoJSON/026.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – Terminus Roger-Rousseau", 
+                      inbound: "Ouest – Station Honoré-Beaugrand"},
+    branchStyles: {
+      "268888": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "269999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
 
   "27": {title: "Ligne 27 • Saint-Joseph",
     files: {currentShapes: "../GeoJSON/curr-027.geojson", newShapes: "../GeoJSON/027.geojson", 

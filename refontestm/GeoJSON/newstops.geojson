@@ -131,6 +131,9 @@
 {"type":"Feature","properties":{"stop_id":"A0081","stop_name":"Lacharité / Bannon (––)"},"geometry":{"type":"Point","coordinates":[-73.594655,45.435070]}},
 {"type":"Feature","properties":{"stop_id":"A0082","stop_name":"Shevchenko / Lemieux (––)"},"geometry":{"type":"Point","coordinates":[-73.623481,45.431282]}},
 {"type":"Feature","properties":{"stop_id":"A0083","stop_name":"Senkus / Carrefour Angrignon (––)"},"geometry":{"type":"Point","coordinates":[-73.616124,45.445099]}},
+{"type":"Feature","properties":{"stop_id":"A0084","stop_name":"Colbert / No 10500 (––)"},"geometry":{"type":"Point","coordinates":[-73.583208,45.614337]}},
+{"type":"Feature","properties":{"stop_id":"A0085","stop_name":"Gare Anjou (––)"},"geometry":{"type":"Point","coordinates":[-73.595863,45.618212]}},
+{"type":"Feature","properties":{"stop_id":"A0086","stop_name":"Colbert / No 10700 (––)"},"geometry":{"type":"Point","coordinates":[-73.583527,45.614619]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]
 }

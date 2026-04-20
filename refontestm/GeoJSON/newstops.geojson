@@ -164,6 +164,14 @@
 {"type":"Feature","properties":{"stop_id":"A0104","stop_name":"Rachel / Bourbonnière (––)"},"geometry":{"type":"Point","coordinates":[-73.556420,45.552117]}},
 {"type":"Feature","properties":{"stop_id":"A0105","stop_name":"Atateken / Viger (––)"},"geometry":{"type":"Point","coordinates":[-73.552589,45.515344]}},
 {"type":"Feature","properties":{"stop_id":"A0106","stop_name":"Rosemont / D'Iberville (––)"},"geometry":{"type":"Point","coordinates":[-73.586568,45.546286]}},
+{"type":"Feature","properties":{"stop_id":"A0107","stop_name":"Dickson / Sherbrooke (––)"},"geometry":{"type":"Point","coordinates":[-73.549306,45.573708]}},
+{"type":"Feature","properties":{"stop_id":"A0108","stop_name":"Dickson / De Jumonville (––)"},"geometry":{"type":"Point","coordinates":[-73.551879,45.574566]}},
+{"type":"Feature","properties":{"stop_id":"A0109","stop_name":"Dickson / Turenne (––)"},"geometry":{"type":"Point","coordinates":[-73.554481,45.575438]}},
+{"type":"Feature","properties":{"stop_id":"A0110","stop_name":"Dickson / Pierre-Bédard (––)"},"geometry":{"type":"Point","coordinates":[-73.557577,45.577549]}},
+{"type":"Feature","properties":{"stop_id":"A0111","stop_name":"Dickson / Pierre-Bédard (––)"},"geometry":{"type":"Point","coordinates":[-73.557744,45.577326]}},
+{"type":"Feature","properties":{"stop_id":"A0112","stop_name":"Dickson / Turenne (––)"},"geometry":{"type":"Point","coordinates":[-73.554346,45.575138]}},
+{"type":"Feature","properties":{"stop_id":"A0113","stop_name":"Dickson / De Jumonville (––)"},"geometry":{"type":"Point","coordinates":[-73.552366,45.574481]}},
+{"type":"Feature","properties":{"stop_id":"A0114","stop_name":"Dickson / Sherbrooke (––)"},"geometry":{"type":"Point","coordinates":[-73.548481,45.573276]}},
 {"type":"Feature","properties":{"stop_id":"A9998","stop_name":"Côte-Sainte-Catherine / Maplewood (––)"},"geometry":{"type":"Point","coordinates":[-73.594684,45.515841]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]

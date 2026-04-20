@@ -38,6 +38,8 @@
 {"type":"Feature","properties":{"stop_id":"60745","stop_name":"Robert-Bourassa / De La Gauchetière (60745)"},"geometry":{"type":"Point","coordinates":[-73.565527,45.500737]}},
 {"type":"Feature","properties":{"stop_id":"60774","stop_name":"Jean-Talon / No 4290 (60774)"},"geometry":{"type":"Point","coordinates":[-73.589431,45.568569]}},
 {"type":"Feature","properties":{"stop_id":"60775","stop_name":"Jean-Talon / No 4325 (60775)"},"geometry":{"type":"Point","coordinates":[-73.58932,45.568986]}},
+{"type":"Feature","properties":{"stop_id":"60783","stop_name":"Rachel / De Chambly (60783)"},"geometry":{"type":"Point","coordinates":[-73.558244,45.549386]}},
+{"type":"Feature","properties":{"stop_id":"60907","stop_name":"Joliette / Charles-Wilson (60907)"},"geometry":{"type":"Point","coordinates":[-73.537301,45.542572]}},
 {"type":"Feature","properties":{"stop_id":"60999","stop_name":"Station Guy-Concordia (60999)"},"geometry":{"type":"Point","coordinates":[-73.580236,45.494947]}},
 {"type":"Feature","properties":{"stop_id":"61055","stop_name":"Cavendish / Mackle (61055)"},"geometry":{"type":"Point","coordinates":[-73.666138,45.478099]}},
 {"type":"Feature","properties":{"stop_id":"61086","stop_name":"Gouin / Grenet (61086)"},"geometry":{"type":"Point","coordinates":[-73.719591,45.532332]}},
@@ -159,6 +161,7 @@
 {"type":"Feature","properties":{"stop_id":"A0101","stop_name":"Sherbrooke / De Contrecoeur (––)"},"geometry":{"type":"Point","coordinates":[-73.526404,45.611583]}},
 {"type":"Feature","properties":{"stop_id":"A0102","stop_name":"des Grandes-Prairies / Pascal-Gagnon (––)"},"geometry":{"type":"Point","coordinates":[-73.601316,45.608291]}},
 {"type":"Feature","properties":{"stop_id":"A0103","stop_name":"Atateken / Viger (––)"},"geometry":{"type":"Point","coordinates":[-73.552580,45.515340]}},
+{"type":"Feature","properties":{"stop_id":"A0104","stop_name":"Rachel / Bourbonnière (––)"},"geometry":{"type":"Point","coordinates":[-73.556420,45.552117]}},
 {"type":"Feature","properties":{"stop_id":"A9998","stop_name":"Côte-Sainte-Catherine / Maplewood (––)"},"geometry":{"type":"Point","coordinates":[-73.594684,45.515841]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]

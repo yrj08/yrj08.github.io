@@ -19,6 +19,7 @@
 {"type":"Feature","properties":{"stop_id":"56225","stop_name":"Victoria / The Boulevard (56225)"},"geometry":{"type":"Point","coordinates":[-73.615965,45.484671]}},
 {"type":"Feature","properties":{"stop_id":"56596","stop_name":"de Verdun / Regina (56596)"},"geometry":{"type":"Point","coordinates":[-73.571026,45.46743]}},
 {"type":"Feature","properties":{"stop_id":"56598","stop_name":"de Verdun / Strathmore (56598)"},"geometry":{"type":"Point","coordinates":[-73.570885,45.468985]}},
+{"type":"Feature","properties":{"stop_id":"56682","stop_name":"Gaétan-Laberge / Gilberte-Dubé (56682)"},"geometry":{"type":"Point","coordinates":[-73.562301,45.469859]}},
 {"type":"Feature","properties":{"stop_id":"57108","stop_name":"Carr. Angrignon entrée est (Angrignon / No 2221) (57108)"},"geometry":{"type":"Point","coordinates":[-73.612799,45.449002]}},
 {"type":"Feature","properties":{"stop_id":"57109","stop_name":"Carr. Angrignon entrée nord (Angrignon / No 2500) (57109)"},"geometry":{"type":"Point","coordinates":[-73.617895,45.449632]}},
 {"type":"Feature","properties":{"stop_id":"57505","stop_name":"Terminus Dorval (57505)"},"geometry":{"type":"Point","coordinates":[-73.743173,45.448549]}},
@@ -134,6 +135,7 @@
 {"type":"Feature","properties":{"stop_id":"A0084","stop_name":"Colbert / No 10500 (––)"},"geometry":{"type":"Point","coordinates":[-73.583208,45.614337]}},
 {"type":"Feature","properties":{"stop_id":"A0085","stop_name":"Gare Anjou (––)"},"geometry":{"type":"Point","coordinates":[-73.595863,45.618212]}},
 {"type":"Feature","properties":{"stop_id":"A0086","stop_name":"Colbert / No 10700 (––)"},"geometry":{"type":"Point","coordinates":[-73.583527,45.614619]}},
+{"type":"Feature","properties":{"stop_id":"A0087","stop_name":"Wellington / Gilberte-Dubé (––)"},"geometry":{"type":"Point","coordinates":[-73.563603,45.471617]}},
 {"type":"Feature","properties":{"stop_id":"A9998","stop_name":"Côte-Sainte-Catherine / Maplewood (––)"},"geometry":{"type":"Point","coordinates":[-73.594684,45.515841]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]

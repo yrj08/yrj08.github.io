@@ -38,6 +38,7 @@
 {"type":"Feature","properties":{"stop_id":"61336","stop_name":"Station Lionel-Groulx (61336)"},"geometry":{"type":"Point","coordinates":[-73.580781,45.482262]}},
 {"type":"Feature","properties":{"stop_id":"61390","stop_name":"Station Henri-Bourassa (61390)"},"geometry":{"type":"Point","coordinates":[-73.667649,45.555849]}},
 {"type":"Feature","properties":{"stop_id":"61558","stop_name":"Décarie / No 1000 (CUSM) (61558)"},"geometry":{"type":"Point","coordinates":[-73.603233,45.471740]}},
+{"type":"Feature","properties":{"stop_id":"61565","stop_name":"Station De L'Église (Galt / Wellington) (61565)"},"geometry":{"type":"Point","coordinates":[-73.567319,45.461872]}},
 {"type":"Feature","properties":{"stop_id":"61625","stop_name":"Boucle Thimens (61625)"},"geometry":{"type":"Point","coordinates":[-73.707814,45.501661]}},
 {"type":"Feature","properties":{"stop_id":"61660","stop_name":"Station Angrignon (61660)"},"geometry":{"type":"Point","coordinates":[-73.602744,45.446423]}},
 {"type":"Feature","properties":{"stop_id":"61769","stop_name":"Côte-Vertu / Alexis-Nihon (61769)"},"geometry":{"type":"Point","coordinates":[-73.692829,45.506042]}},

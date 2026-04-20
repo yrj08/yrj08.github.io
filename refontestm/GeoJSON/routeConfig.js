@@ -361,6 +361,45 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
+  "32": {title: "Ligne 32 • Lacordaire",
+    files: {currentShapes: "../GeoJSON/curr-032.geojson", newShapes: "../GeoJSON/032.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Nord – Ozias-Leduc / Paul-Letondal", 
+                      inbound: "Sud – Station Assomption"},
+    branchStyles: {
+      "328888": {line: {color: "#781B7D", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},
+      "329999": {line: {color: "#8B469E", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#8B469E", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+
+  "33": {title: "Ligne 33 • Langelier",
+    files: {currentShapes: "../GeoJSON/curr-033.geojson", newShapes: "../GeoJSON/033.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Nord – Ozias-Leduc / Paul-Letondal", 
+                      inbound: "Sud – Hector-Barsalou / De Boucherville"},
+    branchStyles: {
+      "338888": {line: {color: "#781B7D", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},
+      "339999": {line: {color: "#8B469E", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#8B469E", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
 
   "34": {title: "Ligne 34 • Sainte-Catherine",
     files: {currentShapes: "../GeoJSON/curr-034.geojson", newShapes: "../GeoJSON/034.geojson", 
@@ -1523,8 +1562,8 @@ window.routeConfigs = {
   "131": {title: "Ligne 131 • De l'Assomption",
     files: {currentShapes: "../GeoJSON/curr-131.geojson", newShapes: "../GeoJSON/131.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Nord – ", 
-                      inbound: "Sud – "},
+    directionLabels: {outbound: "Nord – Antonio-Dagenais / Lespinay", 
+                      inbound: "Sud – Viau / Sainte-Catherine"},
     branchStyles: {
       "1318888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},

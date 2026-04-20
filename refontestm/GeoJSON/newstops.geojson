@@ -172,6 +172,8 @@
 {"type":"Feature","properties":{"stop_id":"A0112","stop_name":"Dickson / Turenne (––)"},"geometry":{"type":"Point","coordinates":[-73.554346,45.575138]}},
 {"type":"Feature","properties":{"stop_id":"A0113","stop_name":"Dickson / De Jumonville (––)"},"geometry":{"type":"Point","coordinates":[-73.552366,45.574481]}},
 {"type":"Feature","properties":{"stop_id":"A0114","stop_name":"Dickson / Sherbrooke (––)"},"geometry":{"type":"Point","coordinates":[-73.548481,45.573276]}},
+{"type":"Feature","properties":{"stop_id":"A0115","stop_name":"Simone-Dénéchaud / Ozias-Leduc (––)"},"geometry":{"type":"Point","coordinates":[-73.616885,45.629700]}},
+{"type":"Feature","properties":{"stop_id":"A0116","stop_name":"Simone-Dénéchaud / Ozias-Leduc (––)"},"geometry":{"type":"Point","coordinates":[-73.616713,45.629794]}},
 {"type":"Feature","properties":{"stop_id":"A9998","stop_name":"Côte-Sainte-Catherine / Maplewood (––)"},"geometry":{"type":"Point","coordinates":[-73.594684,45.515841]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]

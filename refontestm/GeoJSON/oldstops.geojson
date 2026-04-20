@@ -8180,7 +8180,7 @@
 {"type":"Feature","properties":{"stop_id":"62142","stop_name":"Gare Beaurepaire (62142)"},"geometry":{"type":"Point","coordinates":[-73.885918,45.427135]}},
 {"type":"Feature","properties":{"stop_id":"62143","stop_name":"Côte-des-Neiges / Belvédère (62143)"},"geometry":{"type":"Point","coordinates":[-73.602941,45.494987]}},
 {"type":"Feature","properties":{"stop_id":"62144","stop_name":"Remembrance / Côte-des-Neiges (62144)"},"geometry":{"type":"Point","coordinates":[-73.604976,45.495317]}},
-{"type":"Feature","properties":{"stop_id":"62145","stop_name":"Station Pie-IX (Pierre-De Coubertin / Pie-IX) (62145)"},"geometry":{"type":"Point","coordinates":[-73.551696,45.553509]}},
+{"type":"Feature","properties":{"stop_id":"62145","stop_name":"Station Pie-IX (Pierre-De Coubertin / Pie-IX) (62145)"},"geometry":{"type":"Point","coordinates":[-73.551751,45.553335]}},
 {"type":"Feature","properties":{"stop_id":"62146","stop_name":"Saint-François / André (62146)"},"geometry":{"type":"Point","coordinates":[-73.776250,45.478831]}},
 {"type":"Feature","properties":{"stop_id":"62147","stop_name":"Charlemagne / Laurier (62147)"},"geometry":{"type":"Point","coordinates":[-73.566900,45.557071]}},
 {"type":"Feature","properties":{"stop_id":"62148","stop_name":"Station Bonaventure (Gauchetière / Mansfield) (62148)"},"geometry":{"type":"Point","coordinates":[-73.566596,45.499185]}},

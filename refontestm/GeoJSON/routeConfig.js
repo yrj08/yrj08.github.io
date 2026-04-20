@@ -312,6 +312,34 @@ window.routeConfigs = {
     pourquoi: `
       <li>Améliorer la vitesse commerciale.</li>
     `},
+
+  "29": {title: "Ligne 29 • Rachel",
+    files: {currentShapes: "../GeoJSON/curr-029.geojson", newShapes: "../GeoJSON/029.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – Station Pie-IX", 
+                      inbound: "Ouest – Station Place-d'Armes"},
+    branchStyles: {
+      "298888": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "299999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Prolongement du trajet via Atateken, Viger et Notre-Dame avec terminus devant le
+          Palais de justice pour remplacer la ligne 14. Trajet via Rachel jusqu'au métro
+          Pie-IX pour remplacer un segment de la ligne 97;</li>
+      <li>Retrait du service via Davidson et Joliette via métro Joliette (segment remplacé
+          par des modifications à la ligne 25);</li>
+      <li>Retrait du service sur Rachel à l'ouest du Parc La Fontaine;</li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Permet de rejoindre le centre-ville et le réseau de métro du côté ouest;</li>
+      <li>Permet d'avoir un service bi-directionnel dans le secteur de Davidson/Joliette;</li>
+      <li>Permet une amélioration du service sur Parc-La Fontaine et Atateken;</li>
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
   
   "31": {title: "Ligne 31 • Saint-Denis",
     files: {currentShapes: "../GeoJSON/curr-031.geojson", newShapes: "../GeoJSON/031.geojson", 

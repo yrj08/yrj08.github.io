@@ -237,7 +237,7 @@ window.routeConfigs = {
     files: {currentShapes: "../GeoJSON/curr-025.geojson", newShapes: "../GeoJSON/025.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – Station Rosemont", 
-                      inbound: "Sud – "},
+                      inbound: "Sud – Joliette / Charles-Wilson"},
     branchStyles: {
       "258888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},

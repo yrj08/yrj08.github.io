@@ -3,8 +3,8 @@ window.routeConfigs = {
   "10": {title: "Ligne 10 • De Lorimier",
     files: {currentShapes: "../GeoJSON/curr-010.geojson", newShapes: "../GeoJSON/010.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Nord – ", 
-                      inbound: "Sud – "},
+    directionLabels: {outbound: "Nord – Crémazie / Fabre", 
+                      inbound: "Sud – Station Papineau"},
     branchStyles: {
       "108888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},

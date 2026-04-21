@@ -1658,6 +1658,26 @@ window.routeConfigs = {
     pourquoi: `
       <li>Améliorer la vitesse commerciale.</li>
     `},
+
+  "136": {title: "Ligne 136 • Viau",
+    files: {currentShapes: "../GeoJSON/curr-136.geojson", newShapes: "../GeoJSON/136.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Nord – des Grandes-Prairies / No 5940", 
+                      inbound: "Sud – Station Viau"},
+    branchStyles: {
+      "1360001": {line: {color: "#781B7D", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},
+      "1360002": {line: {color: "#8B469E", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#8B469E", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
   
   "139": {title: "Ligne 139 • Pie-IX",
     files: {currentShapes: "../GeoJSON/curr-139.geojson", newShapes: "../GeoJSON/139.geojson", 

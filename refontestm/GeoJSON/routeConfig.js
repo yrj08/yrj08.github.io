@@ -501,6 +501,26 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},  
 
+  "39": {title: "Ligne 39 • Des Grandes-Prairies",
+    files: {currentShapes: "../GeoJSON/curr-039.geojson", newShapes: "../GeoJSON/039.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – des Sciences / des Bâtisseurs", 
+                      inbound: "Ouest – d'Amiens / de l'Hôtel-de-Ville"},
+    branchStyles: {
+      "390001": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "390002": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+  
   "40": {title: "Ligne 40 • Henri-Bourassa",
     files: {currentShapes: "../GeoJSON/curr-040.geojson", newShapes: "../GeoJSON/040.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
@@ -521,6 +541,26 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
+  "41": {title: "Ligne 41 • Ahuntsic / Saint-Michel",
+    files: {currentShapes: "../GeoJSON/curr-041.geojson", newShapes: "../GeoJSON/041.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – d'Amiens / de l'Hôtel-de-Ville", 
+                      inbound: "Ouest – de Liège / Jeanne-Mance"},
+    branchStyles: {
+      "418888": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "419999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+  
   "43": {title: "Ligne 43 • Monselet",
     files: {currentShapes: "../GeoJSON/curr-043.geojson", newShapes: "../GeoJSON/043.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},

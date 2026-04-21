@@ -4,6 +4,7 @@
 {"type":"Feature","properties":{"stop_id":"50314","stop_name":"Millen / Henri-Bourassa (50314)"},"geometry":{"type":"Point","coordinates":[-73.668103,45.556965]}},
 {"type":"Feature","properties":{"stop_id":"51242","stop_name":"Décarie / Brillon (51242)"},"geometry":{"type":"Point","coordinates":[-73.618819,45.478879]}},
 {"type":"Feature","properties":{"stop_id":"51905","stop_name":"Papineau / escalier des Carrières (51905)"},"geometry":{"type":"Point","coordinates":[-73.587893,45.538996]}},
+{"type":"Feature","properties":{"stop_id":"53047","stop_name":"Station Papineau (Cartier / Sainte-Catherine) (53047)"},"geometry":{"type":"Point","coordinates":[-73.552124,45.523512]}},
 {"type":"Feature","properties":{"stop_id":"53277","stop_name":"Station Honoré-Beaugrand (Terminus Sud) (53277)"},"geometry":{"type":"Point","coordinates":[-73.534164,45.596717]}},
 {"type":"Feature","properties":{"stop_id":"53296","stop_name":"Pie-IX / Notre-Dame (53296)"},"geometry":{"type":"Point","coordinates":[-73.534001,45.547857]}},
 {"type":"Feature","properties":{"stop_id":"54225","stop_name":"Aréna Howie-Morenz (54225)"},"geometry":{"type":"Point","coordinates":[-73.644102,45.534572]}},
@@ -175,6 +176,8 @@
 {"type":"Feature","properties":{"stop_id":"A0115","stop_name":"Simone-Dénéchaud / Ozias-Leduc (––)"},"geometry":{"type":"Point","coordinates":[-73.616885,45.629700]}},
 {"type":"Feature","properties":{"stop_id":"A0116","stop_name":"Simone-Dénéchaud / Ozias-Leduc (––)"},"geometry":{"type":"Point","coordinates":[-73.616713,45.629794]}},
 {"type":"Feature","properties":{"stop_id":"A0117","stop_name":"Langelier / Pierre-De Coubertin (––)"},"geometry":{"type":"Point","coordinates":[-73.535318,45.580463]}},
+{"type":"Feature","properties":{"stop_id":"A0118","stop_name":"Crémazie / Fabre (––)"},"geometry":{"type":"Point","coordinates":[-73.624329,45.553263]}},
+{"type":"Feature","properties":{"stop_id":"A0119","stop_name":"de Louvain / de l'Acadie (––)"},"geometry":{"type":"Point","coordinates":[-73.661329,45.533507]}},
 {"type":"Feature","properties":{"stop_id":"A9998","stop_name":"Côte-Sainte-Catherine / Maplewood (––)"},"geometry":{"type":"Point","coordinates":[-73.594684,45.515841]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]

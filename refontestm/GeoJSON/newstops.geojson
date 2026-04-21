@@ -178,6 +178,7 @@
 {"type":"Feature","properties":{"stop_id":"A0117","stop_name":"Langelier / Pierre-De Coubertin (––)"},"geometry":{"type":"Point","coordinates":[-73.535318,45.580463]}},
 {"type":"Feature","properties":{"stop_id":"A0118","stop_name":"Crémazie / Fabre (––)"},"geometry":{"type":"Point","coordinates":[-73.624329,45.553263]}},
 {"type":"Feature","properties":{"stop_id":"A0119","stop_name":"de Louvain / de l'Acadie (––)"},"geometry":{"type":"Point","coordinates":[-73.661329,45.533507]}},
+{"type":"Feature","properties":{"stop_id":"A0120","stop_name":"Fleury / Saint-Laurent (––)"},"geometry":{"type":"Point","coordinates":[-73.665137,45.548256]}},
 {"type":"Feature","properties":{"stop_id":"A9998","stop_name":"Côte-Sainte-Catherine / Maplewood (––)"},"geometry":{"type":"Point","coordinates":[-73.594684,45.515841]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]

@@ -181,6 +181,7 @@
 {"type":"Feature","properties":{"stop_id":"A0120","stop_name":"Fleury / Saint-Laurent (––)"},"geometry":{"type":"Point","coordinates":[-73.665137,45.548256]}},
 {"type":"Feature","properties":{"stop_id":"A0121","stop_name":"Fleury / De Saint-Firmin (––)"},"geometry":{"type":"Point","coordinates":[-73.651793,45.570354]}},
 {"type":"Feature","properties":{"stop_id":"A0122","stop_name":"Fleury / De Saint-Firmin (––)"},"geometry":{"type":"Point","coordinates":[-73.651657,45.570718]}},
+{"type":"Feature","properties":{"stop_id":"A0123","stop_name":"de Charleroi / Jean-Meunier (––)"},"geometry":{"type":"Point","coordinates":[-73.620508,45.602294]}},
 {"type":"Feature","properties":{"stop_id":"A9998","stop_name":"Côte-Sainte-Catherine / Maplewood (––)"},"geometry":{"type":"Point","coordinates":[-73.594684,45.515841]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]

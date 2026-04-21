@@ -176,8 +176,8 @@ window.routeConfigs = {
   "20": {title: "Ligne 20 • Crémazie / Marché Central",
     files: {currentShapes: "../GeoJSON/curr-020.geojson", newShapes: "../GeoJSON/020.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est – ", 
-                      inbound: "Ouest – "},
+    directionLabels: {outbound: "Est – Parc Frédéric-Back", 
+                      inbound: "Ouest – Gare Ahuntsic"},
     branchStyles: {
       "208888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
@@ -1598,6 +1598,26 @@ window.routeConfigs = {
     pourquoi: `
       <li>Améliorer la vitesse commerciale.</li>
     `},
+
+  "140": {title: "Ligne 140 • Fleury",
+    files: {currentShapes: "../GeoJSON/curr-140.geojson", newShapes: "../GeoJSON/140.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – d'Amos / Lacordaire", 
+                      inbound: "Ouest – Gare Ahuntsic"},
+    branchStyles: {
+      "1408888": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "1409999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
   
   "144": {title: "Ligne 144 • Des Pins",
     files: {currentShapes: "../GeoJSON/curr-144.geojson", newShapes: "../GeoJSON/144.geojson", 
@@ -1934,7 +1954,8 @@ window.routeConfigs = {
   "179": {title: "Ligne 179 • De l'Acadie",
     files: {currentShapes: "../GeoJSON/curr-179.geojson", newShapes: "../GeoJSON/179.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Nord – ", inbound: "Sud – "},
+    directionLabels: {outbound: "Nord – de l'Acadie / De Salaberry", 
+                      inbound: "Sud – Station Parc"},
     branchStyles: {
       "1798888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
@@ -1970,6 +1991,8 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
+
+  
   "190": {title: "Ligne 190 • Norman",
     files: {currentShapes: "../GeoJSON/curr-190.geojson", newShapes: "../GeoJSON/190.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},

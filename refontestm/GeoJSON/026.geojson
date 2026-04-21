@@ -131,7 +131,7 @@
                 "stops": ["62361","A0098","A0099","54724","54738","59343","A0026","A0100",
                           "61223","61224","61225","62421","61761","61228","53339","61877",
                           "53312","53301","53287","53278","54237"],
-                "headsign": "Ouest - Station Honor-Beaugrand"
+                "headsign": "Ouest - Station Honoré-Beaugrand"
             },
             "geometry": {
                 "type": "LineString",

@@ -246,6 +246,7 @@
 {"type":"Feature","properties":{"stop_id":"A0171","stop_name":"Claveau / Grenache (––)"},"geometry":{"type":"Point","coordinates":[-73.571872,45.611499]}},
 {"type":"Feature","properties":{"stop_id":"A0172","stop_name":"Henri-Bourassa / No 12200 (––)"},"geometry":{"type":"Point","coordinates":[-73.525912,45.657264]}},
 {"type":"Feature","properties":{"stop_id":"A0173","stop_name":"Henri-Bourassa / Armand-Chaput (––)"},"geometry":{"type":"Point","coordinates":[-73.526722,45.657143]}},
+{"type":"Feature","properties":{"stop_id":"A0174","stop_name":"Henri-Bourassa / des Générations (––)"},"geometry":{"type":"Point","coordinates":[-73.559303,45.639982]}},
 {"type":"Feature","properties":{"stop_id":"A9998","stop_name":"Côte-Sainte-Catherine / Maplewood (––)"},"geometry":{"type":"Point","coordinates":[-73.594684,45.515841]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]

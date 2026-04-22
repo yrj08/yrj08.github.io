@@ -504,7 +504,7 @@ window.routeConfigs = {
   "39": {title: "Ligne 39 • Des Grandes-Prairies",
     files: {currentShapes: "../GeoJSON/curr-039.geojson", newShapes: "../GeoJSON/039.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est – des Sciences / des Bâtisseurs", 
+    directionLabels: {outbound: "Est – Centre de transport Anjou", 
                       inbound: "Ouest – d'Amiens / de l'Hôtel-de-Ville"},
     branchStyles: {
       "390001": {line: {color: "#009EE0", weight: 4, opacity: 1},

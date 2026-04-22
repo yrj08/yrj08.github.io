@@ -35,6 +35,7 @@
 {"type":"Feature","properties":{"stop_id":"57505","stop_name":"Terminus Dorval (57505)"},"geometry":{"type":"Point","coordinates":[-73.743173,45.448549]}},
 {"type":"Feature","properties":{"stop_id":"58098","stop_name":"Saint-Charles / Claude (58098)"},"geometry":{"type":"Point","coordinates":[-73.875081,45.467875]}},
 {"type":"Feature","properties":{"stop_id":"58591","stop_name":"Lakeshore / Macdonald (58591)"},"geometry":{"type":"Point","coordinates":[-73.940448,45.403648]}},
+{"type":"Feature","properties":{"stop_id":"59237","stop_name":"Armand-Chaput / No 11400 (59237)"},"geometry":{"type":"Point","coordinates":[-73.529748,45.657786]}},
 {"type":"Feature","properties":{"stop_id":"59374","stop_name":"des Grandes-Prairies / Viau (59374)"},"geometry":{"type":"Point","coordinates":[-73.617978,45.590465]}},
 {"type":"Feature","properties":{"stop_id":"59510","stop_name":"Station Côte-Vertu (Côte-Vertu / Décarie) (59510)"},"geometry":{"type":"Point","coordinates":[-73.683040,45.513855]}},
 {"type":"Feature","properties":{"stop_id":"60191","stop_name":"Louis-H.-La Fontaine / Ravenel (60191)"},"geometry":{"type":"Point","coordinates":[-73.581857,45.611632]}},
@@ -253,6 +254,12 @@
 {"type":"Feature","properties":{"stop_id":"A0177","stop_name":"Gare Rivière-des-Prairies (––)"},"geometry":{"type":"Point","coordinates":[-73.537888,45.662300]}},
 {"type":"Feature","properties":{"stop_id":"A0178","stop_name":"Gouin / Trefflé-Berthiaume (––)"},"geometry":{"type":"Point","coordinates":[-73.535646,45.676574]}},
 {"type":"Feature","properties":{"stop_id":"A0179","stop_name":"Gouin / Trefflé-Berthiaume (––)"},"geometry":{"type":"Point","coordinates":[-73.535377,45.676674]}},
+{"type":"Feature","properties":{"stop_id":"A0180","stop_name":"32e Avenue / De Montigny (––)"},"geometry":{"type":"Point","coordinates":[-73.503415,45.657545]}},
+{"type":"Feature","properties":{"stop_id":"A0181","stop_name":"32e Avenue / De Montigny (––)"},"geometry":{"type":"Point","coordinates":[-73.503086,45.657614]}},
+{"type":"Feature","properties":{"stop_id":"A0182","stop_name":"32e Avenue / René-Lévesque (––)"},"geometry":{"type":"Point","coordinates":[-73.500147,45.657046]}},
+{"type":"Feature","properties":{"stop_id":"A0183","stop_name":"32e Avenue / Notre-Dame (––)"},"geometry":{"type":"Point","coordinates":[-73.492062,45.655796]}},
+{"type":"Feature","properties":{"stop_id":"A0184","stop_name":"32e Avenue / De La Gauchetière (––)"},"geometry":{"type":"Point","coordinates":[-73.496502,45.656597]}},
+{"type":"Feature","properties":{"stop_id":"A0185","stop_name":"32e Avenue / René-Lévesque (––)"},"geometry":{"type":"Point","coordinates":[-73.499790,45.657106]}},
 {"type":"Feature","properties":{"stop_id":"A9998","stop_name":"Côte-Sainte-Catherine / Maplewood (––)"},"geometry":{"type":"Point","coordinates":[-73.594684,45.515841]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]

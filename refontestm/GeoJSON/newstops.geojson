@@ -38,6 +38,7 @@
 {"type":"Feature","properties":{"stop_id":"60368","stop_name":"Lake / Churchill (60368)"},"geometry":{"type":"Point","coordinates":[-73.810643,45.491551]}},
 {"type":"Feature","properties":{"stop_id":"60441","stop_name":"de l'Assomption / Pierre-De Coubertin (60441)"},"geometry":{"type":"Point","coordinates":[-73.542831,45.567895]}},
 {"type":"Feature","properties":{"stop_id":"60442","stop_name":"de l'Assomption / Pierre-De Coubertin (60442)"},"geometry":{"type":"Point","coordinates":[-73.543245,45.567829]}},
+{"type":"Feature","properties":{"stop_id":"60499","stop_name":"Larrey / L.-J.-Forget (60499)"},"geometry":{"type":"Point","coordinates":[-73.583628,45.618386]}},
 {"type":"Feature","properties":{"stop_id":"60613","stop_name":"Saint-Antoine / Saint-Hubert (60613)"},"geometry":{"type":"Point","coordinates":[-73.553269,45.512869]}},
 {"type":"Feature","properties":{"stop_id":"60614","stop_name":"Atateken / Viger (60614)"},"geometry":{"type":"Point","coordinates":[-73.552096,45.515254]}},
 {"type":"Feature","properties":{"stop_id":"60615","stop_name":"Viger / Saint-Hubert (60615)"},"geometry":{"type":"Point","coordinates":[-73.554237,45.513449]}},

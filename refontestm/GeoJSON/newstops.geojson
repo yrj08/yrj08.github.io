@@ -230,6 +230,8 @@
 {"type":"Feature","properties":{"stop_id":"A0158","stop_name":"Louis-H.-La Fontaine / Larrey (––)"},"geometry":{"type":"Point","coordinates":[-73.588418,45.613775]}},
 {"type":"Feature","properties":{"stop_id":"A0159","stop_name":"Larrey / L.-J.-Forget (––)"},"geometry":{"type":"Point","coordinates":[-73.583399,45.618852]}},
 {"type":"Feature","properties":{"stop_id":"A0160","stop_name":"Louis-H.-La Fontaine / Béclard (––)"},"geometry":{"type":"Point","coordinates":[-73.583873,45.611471]}},
+{"type":"Feature","properties":{"stop_id":"A0161","stop_name":"des Grandes-Prairies / 25e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.623793,45.583717]}},
+{"type":"Feature","properties":{"stop_id":"A0162","stop_name":"des Grandes-Prairies / 25e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.623844,45.583443]}},
 {"type":"Feature","properties":{"stop_id":"A9998","stop_name":"Côte-Sainte-Catherine / Maplewood (––)"},"geometry":{"type":"Point","coordinates":[-73.594684,45.515841]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]

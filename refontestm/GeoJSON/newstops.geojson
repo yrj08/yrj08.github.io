@@ -2,6 +2,7 @@
   "type": "FeatureCollection",
   "features": [
 {"type":"Feature","properties":{"stop_id":"50314","stop_name":"Millen / Henri-Bourassa (50314)"},"geometry":{"type":"Point","coordinates":[-73.668103,45.556965]}},
+{"type":"Feature","properties":{"stop_id":"50536","stop_name":"de Louvain / Saint-Hubert (50536)"},"geometry":{"type":"Point","coordinates":[-73.649386,45.553768]}},
 {"type":"Feature","properties":{"stop_id":"51242","stop_name":"Décarie / Brillon (51242)"},"geometry":{"type":"Point","coordinates":[-73.618819,45.478879]}},
 {"type":"Feature","properties":{"stop_id":"51905","stop_name":"Papineau / escalier des Carrières (51905)"},"geometry":{"type":"Point","coordinates":[-73.587893,45.538996]}},
 {"type":"Feature","properties":{"stop_id":"53047","stop_name":"Station Papineau (Cartier / Sainte-Catherine) (53047)"},"geometry":{"type":"Point","coordinates":[-73.552124,45.523512]}},
@@ -33,6 +34,7 @@
 {"type":"Feature","properties":{"stop_id":"58591","stop_name":"Lakeshore / Macdonald (58591)"},"geometry":{"type":"Point","coordinates":[-73.940448,45.403648]}},
 {"type":"Feature","properties":{"stop_id":"59510","stop_name":"Station Côte-Vertu (Côte-Vertu / Décarie) (59510)"},"geometry":{"type":"Point","coordinates":[-73.683040,45.513855]}},
 {"type":"Feature","properties":{"stop_id":"60195","stop_name":"Thimens / Alexis-Nihon (60195)"},"geometry":{"type":"Point","coordinates":[-73.697452,45.509760]}},
+{"type":"Feature","properties":{"stop_id":"60248","stop_name":"Guizot / de l'Esplanade (60248)"},"geometry":{"type":"Point","coordinates":[-73.637333,45.53702]}},
 {"type":"Feature","properties":{"stop_id":"60368","stop_name":"Lake / Churchill (60368)"},"geometry":{"type":"Point","coordinates":[-73.810643,45.491551]}},
 {"type":"Feature","properties":{"stop_id":"60441","stop_name":"de l'Assomption / Pierre-De Coubertin (60441)"},"geometry":{"type":"Point","coordinates":[-73.542831,45.567895]}},
 {"type":"Feature","properties":{"stop_id":"60442","stop_name":"de l'Assomption / Pierre-De Coubertin (60442)"},"geometry":{"type":"Point","coordinates":[-73.543245,45.567829]}},
@@ -197,6 +199,17 @@
 {"type":"Feature","properties":{"stop_id":"A0131","stop_name":"Colbert / Vauban (––)"},"geometry":{"type":"Point","coordinates":[-73.590216,45.617469]}},
 {"type":"Feature","properties":{"stop_id":"A0132","stop_name":"Colbert / Larrey (––)"},"geometry":{"type":"Point","coordinates":[-73.586574,45.615917]}},
 {"type":"Feature","properties":{"stop_id":"A0133","stop_name":"Colbert / Larrey (––)"},"geometry":{"type":"Point","coordinates":[-73.586648,45.615802]}},
+{"type":"Feature","properties":{"stop_id":"A0134","stop_name":"Bombardier / Colbert (––)"},"geometry":{"type":"Point","coordinates":[-73.579159,45.613601]}},
+{"type":"Feature","properties":{"stop_id":"A0135","stop_name":"Bombardier / Colbert (––)"},"geometry":{"type":"Point","coordinates":[-73.578945,45.613572]}},
+{"type":"Feature","properties":{"stop_id":"A0136","stop_name":"Monselet / de London (––)"},"geometry":{"type":"Point","coordinates":[-73.639506,45.588610]}},
+{"type":"Feature","properties":{"stop_id":"A0137","stop_name":"Monselet / de London (––)"},"geometry":{"type":"Point","coordinates":[-73.639382,45.588837]}},
+{"type":"Feature","properties":{"stop_id":"A0138","stop_name":"de Louvain / Christophe-Colomb (––)"},"geometry":{"type":"Point","coordinates":[-73.646522,45.558218]}},
+{"type":"Feature","properties":{"stop_id":"A0139","stop_name":"de Louvain / Christophe-Colomb (––)"},"geometry":{"type":"Point","coordinates":[-73.646562,45.557585]}},
+{"type":"Feature","properties":{"stop_id":"A0140","stop_name":"de Louvain / André-Grasset (––)"},"geometry":{"type":"Point","coordinates":[-73.644214,45.561249]}},
+{"type":"Feature","properties":{"stop_id":"A0141","stop_name":"Jarry / No 85 (Centre Sainte-Croix) (––)"},"geometry":{"type":"Point","coordinates":[-73.631839,45.537884]}},
+{"type":"Feature","properties":{"stop_id":"A0142","stop_name":"de Liège / De Gaspé (––)"},"geometry":{"type":"Point","coordinates":[-73.636502,45.542394]}},
+{"type":"Feature","properties":{"stop_id":"A0143","stop_name":"de Louvain / André-Grasset (––)"},"geometry":{"type":"Point","coordinates":[-73.644443,45.561459]}},
+{"type":"Feature","properties":{"stop_id":"A0144","stop_name":"32e Avenue / De La Gauchetière (––)"},"geometry":{"type":"Point","coordinates":[-73.496841,45.656538]}},
 {"type":"Feature","properties":{"stop_id":"A9998","stop_name":"Côte-Sainte-Catherine / Maplewood (––)"},"geometry":{"type":"Point","coordinates":[-73.594684,45.515841]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]

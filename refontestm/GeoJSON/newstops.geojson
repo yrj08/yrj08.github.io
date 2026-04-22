@@ -15,6 +15,7 @@
 {"type":"Feature","properties":{"stop_id":"54426","stop_name":"Notre-Dame / Georges-V (54426)"},"geometry":{"type":"Point","coordinates":[-73.510297,45.611319]}},
 {"type":"Feature","properties":{"stop_id":"54619","stop_name":"Roi-René / de Châteauneuf (54619)"},"geometry":{"type":"Point","coordinates":[-73.554882,45.612340]}},
 {"type":"Feature","properties":{"stop_id":"54667","stop_name":"Yves-Prévost / Des Ormeaux (54667)"},"geometry":{"type":"Point","coordinates":[-73.543442,45.609564]}},
+{"type":"Feature","properties":{"stop_id":"54695","stop_name":"Larrey / L.-J.-Forget (54695)"},"geometry":{"type":"Point","coordinates":[-73.584025,45.618141]}},
 {"type":"Feature","properties":{"stop_id":"54739","stop_name":"De La Vérendrye / Rhéaume (54739)"},"geometry":{"type":"Point","coordinates":[-73.546249,45.612934]}},
 {"type":"Feature","properties":{"stop_id":"55053","stop_name":"Henri-Bourassa / de London (55053)"},"geometry":{"type":"Point","coordinates":[-73.644131,45.593636]}},
 {"type":"Feature","properties":{"stop_id":"55307","stop_name":"Albert-Hudon / Henri-Bourassa (55307)"},"geometry":{"type":"Point","coordinates":[-73.605983,45.612221]}},
@@ -33,6 +34,7 @@
 {"type":"Feature","properties":{"stop_id":"58098","stop_name":"Saint-Charles / Claude (58098)"},"geometry":{"type":"Point","coordinates":[-73.875081,45.467875]}},
 {"type":"Feature","properties":{"stop_id":"58591","stop_name":"Lakeshore / Macdonald (58591)"},"geometry":{"type":"Point","coordinates":[-73.940448,45.403648]}},
 {"type":"Feature","properties":{"stop_id":"59510","stop_name":"Station Côte-Vertu (Côte-Vertu / Décarie) (59510)"},"geometry":{"type":"Point","coordinates":[-73.683040,45.513855]}},
+{"type":"Feature","properties":{"stop_id":"60191","stop_name":"Louis-H.-La Fontaine / Ravenel (60191)"},"geometry":{"type":"Point","coordinates":[-73.581857,45.611632]}},
 {"type":"Feature","properties":{"stop_id":"60195","stop_name":"Thimens / Alexis-Nihon (60195)"},"geometry":{"type":"Point","coordinates":[-73.697452,45.509760]}},
 {"type":"Feature","properties":{"stop_id":"60248","stop_name":"Guizot / de l'Esplanade (60248)"},"geometry":{"type":"Point","coordinates":[-73.637333,45.53702]}},
 {"type":"Feature","properties":{"stop_id":"60368","stop_name":"Lake / Churchill (60368)"},"geometry":{"type":"Point","coordinates":[-73.810643,45.491551]}},
@@ -223,6 +225,10 @@
 {"type":"Feature","properties":{"stop_id":"A0154","stop_name":"Lionel-Groulx / Lavoisier (––)"},"geometry":{"type":"Point","coordinates":[-73.612152,45.583096]}},
 {"type":"Feature","properties":{"stop_id":"A0155","stop_name":"Provencher / Robert (––)"},"geometry":{"type":"Point","coordinates":[-73.608769,45.580258]}},
 {"type":"Feature","properties":{"stop_id":"A0156","stop_name":"Crémazie / 19e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.601990,45.568408]}},
+{"type":"Feature","properties":{"stop_id":"A0157","stop_name":"L.-J.- Forget / Larrey (––)"},"geometry":{"type":"Point","coordinates":[-73.583800,45.618581]}},
+{"type":"Feature","properties":{"stop_id":"A0158","stop_name":"Louis-H.-La Fontaine / Larrey (––)"},"geometry":{"type":"Point","coordinates":[-73.588418,45.613775]}},
+{"type":"Feature","properties":{"stop_id":"A0159","stop_name":"Larrey / L.-J.-Forget (––)"},"geometry":{"type":"Point","coordinates":[-73.583399,45.618852]}},
+{"type":"Feature","properties":{"stop_id":"A0160","stop_name":"Louis-H.-La Fontaine / Béclard (––)"},"geometry":{"type":"Point","coordinates":[-73.583873,45.611471]}},
 {"type":"Feature","properties":{"stop_id":"A9998","stop_name":"Côte-Sainte-Catherine / Maplewood (––)"},"geometry":{"type":"Point","coordinates":[-73.594684,45.515841]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]

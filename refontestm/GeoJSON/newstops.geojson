@@ -240,6 +240,7 @@
 {"type":"Feature","properties":{"stop_id":"A0167","stop_name":"Louis-H.-La Fontaine / Beaubien (––)"},"geometry":{"type":"Point","coordinates":[-73.553541,45.598821]}},
 {"type":"Feature","properties":{"stop_id":"A0168","stop_name":"Louis-H.-La Fontaine / Galeries d'Anjou (––)"},"geometry":{"type":"Point","coordinates":[-73.559679,45.601525]}},
 {"type":"Feature","properties":{"stop_id":"A0169","stop_name":"Louis-H.-La Fontaine / Saint-Zotique (––)"},"geometry":{"type":"Point","coordinates":[-73.557091,45.600396]}},
+{"type":"Feature","properties":{"stop_id":"A0170","stop_name":"Bourgneuf / de Châteauneuf (––)"},"geometry":{"type":"Point","coordinates":[-73.559758,45.603255]}},
 {"type":"Feature","properties":{"stop_id":"A9998","stop_name":"Côte-Sainte-Catherine / Maplewood (––)"},"geometry":{"type":"Point","coordinates":[-73.594684,45.515841]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]

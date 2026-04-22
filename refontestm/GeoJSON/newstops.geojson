@@ -210,6 +210,18 @@
 {"type":"Feature","properties":{"stop_id":"A0142","stop_name":"de Liège / De Gaspé (––)"},"geometry":{"type":"Point","coordinates":[-73.636502,45.542394]}},
 {"type":"Feature","properties":{"stop_id":"A0143","stop_name":"de Louvain / André-Grasset (––)"},"geometry":{"type":"Point","coordinates":[-73.644443,45.561459]}},
 {"type":"Feature","properties":{"stop_id":"A0144","stop_name":"32e Avenue / De La Gauchetière (––)"},"geometry":{"type":"Point","coordinates":[-73.496841,45.656538]}},
+{"type":"Feature","properties":{"stop_id":"A0145","stop_name":"Crémazie / 20e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.601021,45.568456]}},
+{"type":"Feature","properties":{"stop_id":"A0146","stop_name":"Provencher / Métropolitain (––)"},"geometry":{"type":"Point","coordinates":[-73.598578,45.571804]}},
+{"type":"Feature","properties":{"stop_id":"A0147","stop_name":"Provencher / Robert (––)"},"geometry":{"type":"Point","coordinates":[-73.608795,45.580414]}},
+{"type":"Feature","properties":{"stop_id":"A0148","stop_name":"Lionel-Groulx / Lavoisier (––)"},"geometry":{"type":"Point","coordinates":[-73.612364,45.583205]}},
+{"type":"Feature","properties":{"stop_id":"A0149","stop_name":"Couture / de L'Aiglon (––)"},"geometry":{"type":"Point","coordinates":[-73.616601,45.585719]}},
+{"type":"Feature","properties":{"stop_id":"A0150","stop_name":"Couture / Viau (––)"},"geometry":{"type":"Point","coordinates":[-73.614550,45.588559]}},
+{"type":"Feature","properties":{"stop_id":"A0151","stop_name":"Lavoisier / Blomidon (––)"},"geometry":{"type":"Point","coordinates":[-73.609796,45.587885]}},
+{"type":"Feature","properties":{"stop_id":"A0152","stop_name":"Lavoisier / J.-M.-Lefebvre (––)"},"geometry":{"type":"Point","coordinates":[-73.606141,45.590316]}},
+{"type":"Feature","properties":{"stop_id":"A0153","stop_name":"Lavoisier / Viau (––)"},"geometry":{"type":"Point","coordinates":[-73.610533,45.587321]}},
+{"type":"Feature","properties":{"stop_id":"A0154","stop_name":"Lionel-Groulx / Lavoisier (––)"},"geometry":{"type":"Point","coordinates":[-73.612152,45.583096]}},
+{"type":"Feature","properties":{"stop_id":"A0155","stop_name":"Provencher / Robert (––)"},"geometry":{"type":"Point","coordinates":[-73.608769,45.580258]}},
+{"type":"Feature","properties":{"stop_id":"A0156","stop_name":"Crémazie / 19e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.601990,45.568408]}},
 {"type":"Feature","properties":{"stop_id":"A9998","stop_name":"Côte-Sainte-Catherine / Maplewood (––)"},"geometry":{"type":"Point","coordinates":[-73.594684,45.515841]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]

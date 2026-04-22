@@ -14,6 +14,7 @@
 {"type":"Feature","properties":{"stop_id":"54394","stop_name":"Henri-Bourassa / du Bois-de-Boulogne (54394)"},"geometry":{"type":"Point","coordinates":[-73.678270,45.538841]}},
 {"type":"Feature","properties":{"stop_id":"54402","stop_name":"Carrie-Derick / Marc-Cantin (54402)"},"geometry":{"type":"Point","coordinates":[-73.548934,45.474665]}},
 {"type":"Feature","properties":{"stop_id":"54426","stop_name":"Notre-Dame / Georges-V (54426)"},"geometry":{"type":"Point","coordinates":[-73.510297,45.611319]}},
+{"type":"Feature","properties":{"stop_id":"54495","stop_name":"Place Marien / No 8555 (54495)"},"geometry":{"type":"Point","coordinates":[-73.542121,45.643349]}},
 {"type":"Feature","properties":{"stop_id":"54619","stop_name":"Roi-René / de Châteauneuf (54619)"},"geometry":{"type":"Point","coordinates":[-73.554882,45.612340]}},
 {"type":"Feature","properties":{"stop_id":"54667","stop_name":"Yves-Prévost / Des Ormeaux (54667)"},"geometry":{"type":"Point","coordinates":[-73.543442,45.609564]}},
 {"type":"Feature","properties":{"stop_id":"54695","stop_name":"Larrey / L.-J.-Forget (54695)"},"geometry":{"type":"Point","coordinates":[-73.584025,45.618141]}},
@@ -260,6 +261,8 @@
 {"type":"Feature","properties":{"stop_id":"A0183","stop_name":"32e Avenue / Notre-Dame (––)"},"geometry":{"type":"Point","coordinates":[-73.492062,45.655796]}},
 {"type":"Feature","properties":{"stop_id":"A0184","stop_name":"32e Avenue / De La Gauchetière (––)"},"geometry":{"type":"Point","coordinates":[-73.496502,45.656597]}},
 {"type":"Feature","properties":{"stop_id":"A0185","stop_name":"32e Avenue / René-Lévesque (––)"},"geometry":{"type":"Point","coordinates":[-73.499790,45.657106]}},
+{"type":"Feature","properties":{"stop_id":"A0186","stop_name":"Place Marien / No 8801 (––)"},"geometry":{"type":"Point","coordinates":[-73.544934,45.644631]}},
+{"type":"Feature","properties":{"stop_id":"A0187","stop_name":"Marien / Sherbrooke (––)"},"geometry":{"type":"Point","coordinates":[-73.517014,45.635928]}},
 {"type":"Feature","properties":{"stop_id":"A9998","stop_name":"Côte-Sainte-Catherine / Maplewood (––)"},"geometry":{"type":"Point","coordinates":[-73.594684,45.515841]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]

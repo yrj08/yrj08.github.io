@@ -7,6 +7,7 @@
 {"type":"Feature","properties":{"stop_id":"51905","stop_name":"Papineau / escalier des Carrières (51905)"},"geometry":{"type":"Point","coordinates":[-73.587893,45.538996]}},
 {"type":"Feature","properties":{"stop_id":"53047","stop_name":"Station Papineau (Cartier / Sainte-Catherine) (53047)"},"geometry":{"type":"Point","coordinates":[-73.552124,45.523512]}},
 {"type":"Feature","properties":{"stop_id":"53082","stop_name":"Station Assomption (53082)"},"geometry":{"type":"Point","coordinates":[-73.547025,45.569087]}},
+{"type":"Feature","properties":{"stop_id":"53133","stop_name":"Perras / 87e Avenue (53133)"},"geometry":{"type":"Point","coordinates":[-73.541705,45.671189]}},
 {"type":"Feature","properties":{"stop_id":"53277","stop_name":"Station Honoré-Beaugrand (Terminus Sud) (53277)"},"geometry":{"type":"Point","coordinates":[-73.534164,45.596717]}},
 {"type":"Feature","properties":{"stop_id":"53296","stop_name":"Pie-IX / Notre-Dame (53296)"},"geometry":{"type":"Point","coordinates":[-73.534001,45.547857]}},
 {"type":"Feature","properties":{"stop_id":"54225","stop_name":"Aréna Howie-Morenz (54225)"},"geometry":{"type":"Point","coordinates":[-73.644102,45.534572]}},
@@ -249,6 +250,9 @@
 {"type":"Feature","properties":{"stop_id":"A0174","stop_name":"Henri-Bourassa / des Générations (––)"},"geometry":{"type":"Point","coordinates":[-73.559303,45.639982]}},
 {"type":"Feature","properties":{"stop_id":"A0175","stop_name":"Gare Pointe-aux-Trembles (––)"},"geometry":{"type":"Point","coordinates":[-73.505183,45.674704]}},
 {"type":"Feature","properties":{"stop_id":"A0176","stop_name":"Gare Pointe-aux-Trembles (––)"},"geometry":{"type":"Point","coordinates":[-73.505753,45.674594]}},
+{"type":"Feature","properties":{"stop_id":"A0177","stop_name":"Gare Rivière-des-Prairies (––)"},"geometry":{"type":"Point","coordinates":[-73.537888,45.662300]}},
+{"type":"Feature","properties":{"stop_id":"A0178","stop_name":"Gouin / Trefflé-Berthiaume (––)"},"geometry":{"type":"Point","coordinates":[-73.535646,45.676574]}},
+{"type":"Feature","properties":{"stop_id":"A0179","stop_name":"Gouin / Trefflé-Berthiaume (––)"},"geometry":{"type":"Point","coordinates":[-73.535377,45.676674]}},
 {"type":"Feature","properties":{"stop_id":"A9998","stop_name":"Côte-Sainte-Catherine / Maplewood (––)"},"geometry":{"type":"Point","coordinates":[-73.594684,45.515841]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]

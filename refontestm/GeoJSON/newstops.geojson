@@ -16,6 +16,7 @@
 {"type":"Feature","properties":{"stop_id":"54619","stop_name":"Roi-René / de Châteauneuf (54619)"},"geometry":{"type":"Point","coordinates":[-73.554882,45.612340]}},
 {"type":"Feature","properties":{"stop_id":"54667","stop_name":"Yves-Prévost / Des Ormeaux (54667)"},"geometry":{"type":"Point","coordinates":[-73.543442,45.609564]}},
 {"type":"Feature","properties":{"stop_id":"54695","stop_name":"Larrey / L.-J.-Forget (54695)"},"geometry":{"type":"Point","coordinates":[-73.584025,45.618141]}},
+{"type":"Feature","properties":{"stop_id":"54722","stop_name":"Louis-H.-La Fontaine / de la Seine (54722)"},"geometry":{"type":"Point","coordinates":[-73.549830,45.597904]}},
 {"type":"Feature","properties":{"stop_id":"54739","stop_name":"De La Vérendrye / Rhéaume (54739)"},"geometry":{"type":"Point","coordinates":[-73.546249,45.612934]}},
 {"type":"Feature","properties":{"stop_id":"55053","stop_name":"Henri-Bourassa / de London (55053)"},"geometry":{"type":"Point","coordinates":[-73.644131,45.593636]}},
 {"type":"Feature","properties":{"stop_id":"55307","stop_name":"Albert-Hudon / Henri-Bourassa (55307)"},"geometry":{"type":"Point","coordinates":[-73.605983,45.612221]}},
@@ -232,6 +233,13 @@
 {"type":"Feature","properties":{"stop_id":"A0160","stop_name":"Louis-H.-La Fontaine / Béclard (––)"},"geometry":{"type":"Point","coordinates":[-73.583873,45.611471]}},
 {"type":"Feature","properties":{"stop_id":"A0161","stop_name":"des Grandes-Prairies / 25e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.623793,45.583717]}},
 {"type":"Feature","properties":{"stop_id":"A0162","stop_name":"des Grandes-Prairies / 25e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.623844,45.583443]}},
+{"type":"Feature","properties":{"stop_id":"A0163","stop_name":"Louis-H.-La Fontaine / Villars (––)"},"geometry":{"type":"Point","coordinates":[-73.552790,45.599226]}},
+{"type":"Feature","properties":{"stop_id":"A0164","stop_name":"Louis-H.-La Fontaine / Wilfrid-Pelletier (––)"},"geometry":{"type":"Point","coordinates":[-73.555024,45.600232]}},
+{"type":"Feature","properties":{"stop_id":"A0165","stop_name":"Louis-H.-La Fontaine / de Châteauneuf (––)"},"geometry":{"type":"Point","coordinates":[-73.560570,45.602656]}},
+{"type":"Feature","properties":{"stop_id":"A0166","stop_name":"Louis-H.-La Fontaine / des Roseraies (––)"},"geometry":{"type":"Point","coordinates":[-73.550027,45.597246]}},
+{"type":"Feature","properties":{"stop_id":"A0167","stop_name":"Louis-H.-La Fontaine / Beaubien (––)"},"geometry":{"type":"Point","coordinates":[-73.553541,45.598821]}},
+{"type":"Feature","properties":{"stop_id":"A0168","stop_name":"Louis-H.-La Fontaine / Galeries d'Anjou (––)"},"geometry":{"type":"Point","coordinates":[-73.559679,45.601525]}},
+{"type":"Feature","properties":{"stop_id":"A0169","stop_name":"Louis-H.-La Fontaine / Saint-Zotique (––)"},"geometry":{"type":"Point","coordinates":[-73.557091,45.600396]}},
 {"type":"Feature","properties":{"stop_id":"A9998","stop_name":"Côte-Sainte-Catherine / Maplewood (––)"},"geometry":{"type":"Point","coordinates":[-73.594684,45.515841]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]

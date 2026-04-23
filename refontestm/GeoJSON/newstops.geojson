@@ -266,6 +266,7 @@
 {"type":"Feature","properties":{"stop_id":"A0187","stop_name":"Marien / Sherbrooke (––)"},"geometry":{"type":"Point","coordinates":[-73.517014,45.635928]}},
 {"type":"Feature","properties":{"stop_id":"A0188","stop_name":"Broadway / Ontario (––)"},"geometry":{"type":"Point","coordinates":[-73.512561,45.632904]}},
 {"type":"Feature","properties":{"stop_id":"A0189","stop_name":"Notre-Dame / de la Grande-Allée (––)"},"geometry":{"type":"Point","coordinates":[-73.497403,45.629931]}},
+{"type":"Feature","properties":{"stop_id":"A0190","stop_name":"Saint-Jean-Baptiste / Henri-Bourassa (––)"},"geometry":{"type":"Point","coordinates":[-73.535779,45.651558]}},
 {"type":"Feature","properties":{"stop_id":"A9998","stop_name":"Côte-Sainte-Catherine / Maplewood (––)"},"geometry":{"type":"Point","coordinates":[-73.594684,45.515841]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]

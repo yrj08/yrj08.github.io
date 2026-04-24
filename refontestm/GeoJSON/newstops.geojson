@@ -11,6 +11,7 @@
 {"type":"Feature","properties":{"stop_id":"53277","stop_name":"Station Honoré-Beaugrand (Terminus Sud) (53277)"},"geometry":{"type":"Point","coordinates":[-73.534164,45.596717]}},
 {"type":"Feature","properties":{"stop_id":"53296","stop_name":"Pie-IX / Notre-Dame (53296)"},"geometry":{"type":"Point","coordinates":[-73.534001,45.547857]}},
 {"type":"Feature","properties":{"stop_id":"54225","stop_name":"Aréna Howie-Morenz (54225)"},"geometry":{"type":"Point","coordinates":[-73.644102,45.534572]}},
+{"type":"Feature","properties":{"stop_id":"54357","stop_name":"Crémazie / De Chateaubriand (54357)"},"geometry":{"type":"Point","coordinates":[-73.636178,45.548717]}},
 {"type":"Feature","properties":{"stop_id":"54394","stop_name":"Henri-Bourassa / du Bois-de-Boulogne (54394)"},"geometry":{"type":"Point","coordinates":[-73.678270,45.538841]}},
 {"type":"Feature","properties":{"stop_id":"54402","stop_name":"Carrie-Derick / Marc-Cantin (54402)"},"geometry":{"type":"Point","coordinates":[-73.548934,45.474665]}},
 {"type":"Feature","properties":{"stop_id":"54426","stop_name":"Notre-Dame / Georges-V (54426)"},"geometry":{"type":"Point","coordinates":[-73.510297,45.611319]}},
@@ -271,6 +272,8 @@
 {"type":"Feature","properties":{"stop_id":"A0192","stop_name":"Notre-Dame / No 5372 (––)"},"geometry":{"type":"Point","coordinates":[-73.524451,45.562139]}},
 {"type":"Feature","properties":{"stop_id":"A0193","stop_name":"De Cadillac / La Fontaine (––)"},"geometry":{"type":"Point","coordinates":[-73.525420,45.569848]}},
 {"type":"Feature","properties":{"stop_id":"A0194","stop_name":"de Charleroi / Arthur-Buies (––)"},"geometry":{"type":"Point","coordinates":[-73.618077,45.603560]}},
+{"type":"Feature","properties":{"stop_id":"A0195","stop_name":"Industriel / de Belleville (––)"},"geometry":{"type":"Point","coordinates":[-73.636328,45.576874]}},
+{"type":"Feature","properties":{"stop_id":"A0196","stop_name":"Industriel / de Lausanne (––)"},"geometry":{"type":"Point","coordinates":[-73.636288,45.576463]}},
 {"type":"Feature","properties":{"stop_id":"A9998","stop_name":"Côte-Sainte-Catherine / Maplewood (––)"},"geometry":{"type":"Point","coordinates":[-73.594684,45.515841]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]

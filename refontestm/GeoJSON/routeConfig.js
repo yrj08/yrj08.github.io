@@ -895,6 +895,26 @@ window.routeConfigs = {
     pourquoi: `
       <li>Améliorer la vitesse commerciale.</li>
     `},
+
+  "67": {title: "Ligne 67 • Saint-Michel",
+    files: {currentShapes: "../GeoJSON/curr-067.geojson", newShapes: "../GeoJSON/067.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Nord – Saint-Michel / Henri-Bourassa", 
+                      inbound: "Sud – Station Joliette"},
+    branchStyles: {
+      "678888": {line: {color: "#781B7D", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},
+      "679999": {line: {color: "#8B469E", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#8B469E", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
   
   "68": {title: "Ligne 68 • Pierrefonds",
     files: {currentShapes: "../GeoJSON/curr-068.geojson", newShapes: "../GeoJSON/068.geojson", 
@@ -1222,7 +1242,65 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
-  
+  "95": {title: "Ligne 95 • Bélanger",
+    files: {currentShapes: "../GeoJSON/curr-095.geojson", newShapes: "../GeoJSON/095.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – Station Anjou", 
+                      inbound: "Ouest – Station Jean-Talon"},
+    branchStyles: {
+      "958888": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "959999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+
+  "97": {title: "Ligne 97 • Avenue du Mont-Royal",
+    files: {currentShapes: "../GeoJSON/curr-097.geojson", newShapes: "../GeoJSON/097.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – Station Préfontaine", 
+                      inbound: "Ouest – Parc du Mont-Royal"},
+    branchStyles: {
+      "978888": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "979999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+
+  "99": {title: "Ligne 99 • Villeray",
+    files: {currentShapes: "../GeoJSON/curr-099.geojson", newShapes: "../GeoJSON/099.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – Station Vertières", 
+                      inbound: "Ouest – Station Jean-Talon"},
+    branchStyles: {
+      "998888": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "999999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
   
   "100": {title: "Ligne 100 • Crémazie",
     files: {currentShapes: "../GeoJSON/curr-100.geojson", newShapes: "../GeoJSON/100.geojson", 
@@ -1717,6 +1795,20 @@ window.routeConfigs = {
     `,
     pourquoi: `
       <li>Améliorer la vitesse commerciale.</li>
+    `},
+
+  "138": {title: "Ligne 138 • Notre-Dame-de-Grâce",
+    files: {currentShapes: "../GeoJSON/curr-138.geojson", newShapes: "../GeoJSON/138.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est", inbound: "Ouest"},
+    branchStyles: {
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Retrait du service: service absorbé par la ligne 104.</li>
+    `,
+    pourquoi: `
+      <li>Permet de concentrer les ressources sur la ligne 104.</li>
     `},
   
   "139": {title: "Ligne 139 • Pie-IX",
@@ -3787,6 +3879,34 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
+  "427": {title: "Ligne 427 • Express Saint-Joseph",
+    files: {currentShapes: "../GeoJSON/curr-427.geojson", newShapes: "../GeoJSON/427.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est", inbound: "Ouest"},
+    branchStyles: {
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Retrait définitif du service.</li>
+    `,
+    pourquoi: `
+      <li>Permet de concentrer les ressources sur la ligne 27 pour améliorer sa fréquence.</li>
+    `},
+
+  "428": {title: "Ligne 428 • Express Parcs Industriels de l'Est",
+    files: {currentShapes: "../GeoJSON/curr-428.geojson", newShapes: "../GeoJSON/428.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Nord", inbound: "Sud"},
+    branchStyles: {
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Ligne remplacée par des modifications à la ligne 40.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer l'accès hors pointe vers les stations Anjou et Radisson.</li>
+    `},
+  
   "430": {title: "Ligne 430 • Express Pointe-aux-Trembles",
     files: {currentShapes: "../GeoJSON/curr-430.geojson", newShapes: "../GeoJSON/430.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
@@ -3799,6 +3919,46 @@ window.routeConfigs = {
     `,
     pourquoi: `
       <li>Consolider la desserte sur une seule ligne pour améliorer la fréquence.</li>
+    `},
+
+  "432": {title: "Ligne 432 • Express Lacordaire",
+    files: {currentShapes: "../GeoJSON/curr-432.geojson", newShapes: "../GeoJSON/432.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Nord – Cégep Marie-Victorin", 
+                      inbound: "Sud – Station Assomption"},
+    branchStyles: {
+      "4328888": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "4329999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+
+  "440": {title: "Ligne 440 • Express Charleroi",
+    files: {currentShapes: "../GeoJSON/curr-440.geojson", newShapes: "../GeoJSON/440.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – d'Amos / Lacordaire", 
+                      inbound: "Ouest – Station Sauvé"},
+    branchStyles: {
+      "4408888": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "4409999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li></li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la vitesse commerciale.</li>
     `},
   
   "444": {title: "Ligne 444 • Express Marie-Victorin",
@@ -3990,6 +4150,20 @@ window.routeConfigs = {
     `,
     pourquoi: `
       <li>Améliorer la vitesse commerciale.</li>
+    `},
+
+  "480": {title: "Ligne 480 • Express du Parc",
+    files: {currentShapes: "../GeoJSON/curr-480.geojson", newShapes: "../GeoJSON/480.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Nord", inbound: "Sud"},
+    branchStyles: {
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Retrait de la desserte: service remplacé par ajouts sur la ligne 80.</li>
+    `,
+    pourquoi: `
+      <li>Permet de concentrer les ressources sur des segments plus achalandés.</li>
     `},
   
   "491": {title: "Ligne 491 • Express Provost",

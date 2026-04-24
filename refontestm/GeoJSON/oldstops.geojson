@@ -4198,6 +4198,7 @@
 {"type":"Feature","properties":{"stop_id":"54941","stop_name":"Jarry / de la Salette (54941)"},"geometry":{"type":"Point","coordinates":[-73.585422,45.590721]}},
 {"type":"Feature","properties":{"stop_id":"54942","stop_name":"Jarry / du Béarn (54942)"},"geometry":{"type":"Point","coordinates":[-73.584941,45.591407]}},
 {"type":"Feature","properties":{"stop_id":"54943","stop_name":"Jean-Talon / Cannes (54943)"},"geometry":{"type":"Point","coordinates":[-73.585051,45.574177]}},
+{"type":"Feature","properties":{"stop_id":"54944","stop_name":"Jean-Talon / Cannes (54944)"},"geometry":{"type":"Point","coordinates":[-73.585064,45.573916]}},
 {"type":"Feature","properties":{"stop_id":"54945","stop_name":"Viau / Jean-Talon (54945)"},"geometry":{"type":"Point","coordinates":[-73.583999,45.574867]}},
 {"type":"Feature","properties":{"stop_id":"54946","stop_name":"Jean-Talon / Viau (54946)"},"geometry":{"type":"Point","coordinates":[-73.584316,45.575402]}},
 {"type":"Feature","properties":{"stop_id":"54947","stop_name":"Viau / Jean-Talon (54947)"},"geometry":{"type":"Point","coordinates":[-73.584801,45.574924]}},

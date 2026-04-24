@@ -270,6 +270,7 @@
 {"type":"Feature","properties":{"stop_id":"A0191","stop_name":"Notre-Dame / No 5372 (––)"},"geometry":{"type":"Point","coordinates":[-73.524584,45.562457]}},
 {"type":"Feature","properties":{"stop_id":"A0192","stop_name":"Notre-Dame / No 5372 (––)"},"geometry":{"type":"Point","coordinates":[-73.524451,45.562139]}},
 {"type":"Feature","properties":{"stop_id":"A0193","stop_name":"De Cadillac / La Fontaine (––)"},"geometry":{"type":"Point","coordinates":[-73.525420,45.569848]}},
+{"type":"Feature","properties":{"stop_id":"A0194","stop_name":"de Charleroi / Arthur-Buies (––)"},"geometry":{"type":"Point","coordinates":[-73.618077,45.603560]}},
 {"type":"Feature","properties":{"stop_id":"A9998","stop_name":"Côte-Sainte-Catherine / Maplewood (––)"},"geometry":{"type":"Point","coordinates":[-73.594684,45.515841]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]

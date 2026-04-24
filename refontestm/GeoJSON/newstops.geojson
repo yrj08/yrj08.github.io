@@ -44,6 +44,7 @@
 {"type":"Feature","properties":{"stop_id":"60195","stop_name":"Thimens / Alexis-Nihon (60195)"},"geometry":{"type":"Point","coordinates":[-73.697452,45.509760]}},
 {"type":"Feature","properties":{"stop_id":"60248","stop_name":"Guizot / de l'Esplanade (60248)"},"geometry":{"type":"Point","coordinates":[-73.637333,45.53702]}},
 {"type":"Feature","properties":{"stop_id":"60341","stop_name":"Broadway / Forsyth (60341)"},"geometry":{"type":"Point","coordinates":[-73.515093,45.633317]}},
+{"type":"Feature","properties":{"stop_id":"60348","stop_name":"Saint-Laurent / Jarry (60348)"},"geometry":{"type":"Point","coordinates":[-73.632007,45.539005]}},
 {"type":"Feature","properties":{"stop_id":"60368","stop_name":"Lake / Churchill (60368)"},"geometry":{"type":"Point","coordinates":[-73.810643,45.491551]}},
 {"type":"Feature","properties":{"stop_id":"60441","stop_name":"de l'Assomption / Pierre-De Coubertin (60441)"},"geometry":{"type":"Point","coordinates":[-73.542831,45.567895]}},
 {"type":"Feature","properties":{"stop_id":"60442","stop_name":"de l'Assomption / Pierre-De Coubertin (60442)"},"geometry":{"type":"Point","coordinates":[-73.543245,45.567829]}},

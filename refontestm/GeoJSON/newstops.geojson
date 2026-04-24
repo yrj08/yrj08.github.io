@@ -202,7 +202,7 @@
 {"type":"Feature","properties":{"stop_id":"A0123","stop_name":"de Charleroi / Jean-Meunier (––)"},"geometry":{"type":"Point","coordinates":[-73.620508,45.602294]}},
 {"type":"Feature","properties":{"stop_id":"A0124","stop_name":"Prince-Arthur / 52e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.508957,45.671922]}},
 {"type":"Feature","properties":{"stop_id":"A0125","stop_name":"Prince-Arthur / 52e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.508739,45.672073]}},
-{"type":"Feature","properties":{"stop_id":"A0126","stop_name":"Hochelaga / de l'Assomption"},"geometry":{"type":"Point","coordinates":[-73.539453,45.567000]}},
+{"type":"Feature","properties":{"stop_id":"A0126","stop_name":"Hochelaga / de l'Assomption (––)"},"geometry":{"type":"Point","coordinates":[-73.539453,45.567000]}},
 {"type":"Feature","properties":{"stop_id":"A0127","stop_name":"De Cadillac / Notre-Dame (––)"},"geometry":{"type":"Point","coordinates":[-73.522438,45.568859]}},
 {"type":"Feature","properties":{"stop_id":"A0128","stop_name":"Secant / Bombardier (––)"},"geometry":{"type":"Point","coordinates":[-73.576358,45.617413]}},
 {"type":"Feature","properties":{"stop_id":"A0129","stop_name":"Secant / No 10700 (––)"},"geometry":{"type":"Point","coordinates":[-73.579995,45.618985]}},

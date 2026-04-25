@@ -3896,15 +3896,24 @@ window.routeConfigs = {
   "428": {title: "Ligne 428 • Express Parcs Industriels de l'Est",
     files: {currentShapes: "../GeoJSON/curr-428.geojson", newShapes: "../GeoJSON/428.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Nord", inbound: "Sud"},
+    directionLabels: {outbound: "Nord – Rodolphe-Forget / Fernand-Forest", 
+                      inbound: "Sud – Station Radisson"},
     branchStyles: {
+      "4288888": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "4289999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
-      <li>Ligne remplacée par des modifications à la ligne 40.</li>
+      <li>Trajet à l'Est de Rodolphe-Forget supprimé; service remplacé par des 
+          modifications à la ligne 40;</li>
+      <li>Trajet via Du Golf pour remplacer la ligne 448 (trajet industriel).</li>
     `,
     pourquoi: `
-      <li>Améliorer l'accès hors pointe vers les stations Anjou et Radisson.</li>
+      <li>Améliorer l'accès hors pointe vers les stations Anjou et Radisson;</li>
+      <li>Permet d'avoir un seul trajet par numéro de parcours pour simplifier
+          le repérage.</li>
     `},
   
   "430": {title: "Ligne 430 • Express Pointe-aux-Trembles",

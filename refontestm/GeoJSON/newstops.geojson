@@ -9,7 +9,6 @@
 {"type":"Feature","properties":{"stop_id":"53082","stop_name":"Station Assomption (53082)"},"geometry":{"type":"Point","coordinates":[-73.547025,45.569087]}},
 {"type":"Feature","properties":{"stop_id":"53133","stop_name":"Perras / 87e Avenue (53133)"},"geometry":{"type":"Point","coordinates":[-73.541705,45.671189]}},
 {"type":"Feature","properties":{"stop_id":"53277","stop_name":"Station Honoré-Beaugrand (Terminus Sud) (53277)"},"geometry":{"type":"Point","coordinates":[-73.534164,45.596717]}},
-{"type":"Feature","properties":{"stop_id":"53296","stop_name":"Pie-IX / Notre-Dame (53296)"},"geometry":{"type":"Point","coordinates":[-73.534001,45.547857]}},
 {"type":"Feature","properties":{"stop_id":"54225","stop_name":"Aréna Howie-Morenz (54225)"},"geometry":{"type":"Point","coordinates":[-73.644102,45.534572]}},
 {"type":"Feature","properties":{"stop_id":"54357","stop_name":"Crémazie / De Chateaubriand (54357)"},"geometry":{"type":"Point","coordinates":[-73.636178,45.548717]}},
 {"type":"Feature","properties":{"stop_id":"54394","stop_name":"Henri-Bourassa / du Bois-de-Boulogne (54394)"},"geometry":{"type":"Point","coordinates":[-73.678270,45.538841]}},

@@ -2796,6 +2796,7 @@
 {"type":"Feature","properties":{"stop_id":"53292","stop_name":"Des Ormeaux / De Forbin-Janson (53292)"},"geometry":{"type":"Point","coordinates":[-73.532378,45.605147]}},
 {"type":"Feature","properties":{"stop_id":"53293","stop_name":"Honoré-Beaugrand / Roux (53293)"},"geometry":{"type":"Point","coordinates":[-73.532321,45.595719]}},
 {"type":"Feature","properties":{"stop_id":"53295","stop_name":"Viau / La Fontaine (53295)"},"geometry":{"type":"Point","coordinates":[-73.533215,45.558526]}},
+{"type":"Feature","properties":{"stop_id":"53296","stop_name":"Pie-IX / Notre-Dame (53296)"},"geometry":{"type":"Point","coordinates":[-73.534001,45.547857]}},
 {"type":"Feature","properties":{"stop_id":"53297","stop_name":"Hochelaga / de Granby (53297)"},"geometry":{"type":"Point","coordinates":[-73.532483,45.578972]}},
 {"type":"Feature","properties":{"stop_id":"53298","stop_name":"Sainte-Catherine / William-David (53298)"},"geometry":{"type":"Point","coordinates":[-73.533033,45.552505]}},
 {"type":"Feature","properties":{"stop_id":"53299","stop_name":"Sainte-Catherine / William-David (53299)"},"geometry":{"type":"Point","coordinates":[-73.533032,45.552227]}},

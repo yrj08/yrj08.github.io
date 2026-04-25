@@ -142,7 +142,7 @@
                 "direction": "inbound",
                 "branch": "4449999",
                 "variant": "main",
-                "stops": ["54381","55307","54746","54680","54678","53196"],
+                "stops": ["54381","55307","54746","54680","54678","60236"],
                 "headsign": "Sud - Station Radisson"
             },
             "geometry": {

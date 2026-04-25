@@ -274,6 +274,7 @@
 {"type":"Feature","properties":{"stop_id":"A0197","stop_name":"Fleury / Jeanne-Mance (––)"},"geometry":{"type":"Point","coordinates":[-73.667887,45.543465]}},
 {"type":"Feature","properties":{"stop_id":"A0198","stop_name":"Meilleur / du Mont-Cassin (––)"},"geometry":{"type":"Point","coordinates":[-73.668326,45.540950]}},
 {"type":"Feature","properties":{"stop_id":"A0199","stop_name":"Fleury / de Rome (––)"},"geometry":{"type":"Point","coordinates":[-73.637316,45.583946]}},
+{"type":"Feature","properties":{"stop_id":"A0200","stop_name":"Henri-Bourassa / Léger (––)"},"geometry":{"type":"Point","coordinates":[-73.638972,45.599673]}},
 {"type":"Feature","properties":{"stop_id":"A9998","stop_name":"Côte-Sainte-Catherine / Maplewood (––)"},"geometry":{"type":"Point","coordinates":[-73.594684,45.515841]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]

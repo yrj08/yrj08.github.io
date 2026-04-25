@@ -278,6 +278,7 @@
 {"type":"Feature","properties":{"stop_id":"A0201","stop_name":"d'Amiens / Racette (––)"},"geometry":{"type":"Point","coordinates":[-73.622428,45.596011]}},
 {"type":"Feature","properties":{"stop_id":"A0202","stop_name":"d'Amiens / Racette (––)"},"geometry":{"type":"Point","coordinates":[-73.622328,45.596212]}},
 {"type":"Feature","properties":{"stop_id":"A0203","stop_name":"d'Amiens / Salk (––)"},"geometry":{"type":"Point","coordinates":[-73.619571,45.597492]}},
+{"type":"Feature","properties":{"stop_id":"A0204","stop_name":"de Châteauneuf / Louis-H.-La Fontaine (––)"},"geometry":{"type":"Point","coordinates":[-73.559371,45.602653]}},
 {"type":"Feature","properties":{"stop_id":"A9998","stop_name":"Côte-Sainte-Catherine / Maplewood (––)"},"geometry":{"type":"Point","coordinates":[-73.594684,45.515841]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]

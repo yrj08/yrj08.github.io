@@ -71,6 +71,7 @@
 {"type":"Feature","properties":{"stop_id":"61806","stop_name":"Saint-Laurent / De Maisonneuve (61806)"},"geometry":{"type":"Point","coordinates":[-73.564873,45.510425]}},
 {"type":"Feature","properties":{"stop_id":"61816","stop_name":"de Monkland / Décarie (61816)"},"geometry":{"type":"Point","coordinates":[-73.619642,45.478989]}},
 {"type":"Feature","properties":{"stop_id":"61994","stop_name":"Station Du Collège (du Collège / Décarie) (61994)"},"geometry":{"type":"Point","coordinates":[-73.674627,45.509668]}},
+{"type":"Feature","properties":{"stop_id":"62211","stop_name":"Hochelaga / De Chambly (62211)"},"geometry":{"type":"Point","coordinates":[-73.551201,45.547398]}},
 {"type":"Feature","properties":{"stop_id":"62239","stop_name":"Côte-Saint-Paul / Monk (62239)"},"geometry":{"type":"Point","coordinates":[-73.599123,45.465394]}},
 {"type":"Feature","properties":{"stop_id":"62240","stop_name":"Côte-Saint-Paul / Centre Gadbois (62240)"},"geometry":{"type":"Point","coordinates":[-73.595591,45.465737]}},
 {"type":"Feature","properties":{"stop_id":"62361","stop_name":"Terminus Roger-Rousseau (62361)"},"geometry":{"type":"Point","coordinates":[-73.551446,45.620086]}},

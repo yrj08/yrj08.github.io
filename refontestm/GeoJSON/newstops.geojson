@@ -284,6 +284,8 @@
 {"type":"Feature","properties":{"stop_id":"A0206","stop_name":"Saint-Michel / Rachel (––)"},"geometry":{"type":"Point","coordinates":[-73.559874,45.547002]}},
 {"type":"Feature","properties":{"stop_id":"A0207","stop_name":"Hochelaga / Bourbonnière (––)"},"geometry":{"type":"Point","coordinates":[-73.549637,45.550197]}},
 {"type":"Feature","properties":{"stop_id":"A0208","stop_name":"Hochelaga / Bourbonnière (––)"},"geometry":{"type":"Point","coordinates":[-73.549535,45.549920]}},
+{"type":"Feature","properties":{"stop_id":"A9996","stop_name":"Station Vertières (localisation provisoire) (––)"},"geometry":{"type":"Point","coordinates":[-73.590132,45.566855]}},
+{"type":"Feature","properties":{"stop_id":"A9997","stop_name":"Station Vertières (localisation provisoire) (––)"},"geometry":{"type":"Point","coordinates":[-73.590355,45.566949]}},
 {"type":"Feature","properties":{"stop_id":"A9998","stop_name":"Côte-Sainte-Catherine / Maplewood (––)"},"geometry":{"type":"Point","coordinates":[-73.594684,45.515841]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]

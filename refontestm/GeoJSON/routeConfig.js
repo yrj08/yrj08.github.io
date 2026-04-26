@@ -1855,7 +1855,7 @@ window.routeConfigs = {
     files: {currentShapes: "../GeoJSON/curr-141.geojson", newShapes: "../GeoJSON/141.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Anjou", 
-                      inbound: "Ouest – Station Vertières"},
+                      inbound: "Ouest – Station Saint-Michel"},
     branchStyles: {
       "1418888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},

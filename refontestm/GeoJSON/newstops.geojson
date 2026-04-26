@@ -282,6 +282,8 @@
 {"type":"Feature","properties":{"stop_id":"A0204","stop_name":"de Châteauneuf / Louis-H.-La Fontaine (––)"},"geometry":{"type":"Point","coordinates":[-73.559371,45.602653]}},
 {"type":"Feature","properties":{"stop_id":"A0205","stop_name":"Sherbrooke / Cuvillier (––)"},"geometry":{"type":"Point","coordinates":[-73.555626,45.546505]}},
 {"type":"Feature","properties":{"stop_id":"A0206","stop_name":"Saint-Michel / Rachel (––)"},"geometry":{"type":"Point","coordinates":[-73.559874,45.547002]}},
+{"type":"Feature","properties":{"stop_id":"A0207","stop_name":"Hochelaga / Bourbonnière (––)"},"geometry":{"type":"Point","coordinates":[-73.549637,45.550197]}},
+{"type":"Feature","properties":{"stop_id":"A0208","stop_name":"Hochelaga / Bourbonnière (––)"},"geometry":{"type":"Point","coordinates":[-73.549535,45.549920]}},
 {"type":"Feature","properties":{"stop_id":"A9998","stop_name":"Côte-Sainte-Catherine / Maplewood (––)"},"geometry":{"type":"Point","coordinates":[-73.594684,45.515841]}},
 {"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
   ]

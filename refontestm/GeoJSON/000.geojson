@@ -8,7 +8,7 @@
         "route": "0",
         "variant": "main",
         "stops": "",
-        "direction": "none",
+        "direction": "Ligne 2 - Orange",
         "headsign": "Ligne 2 - Orange",
         "branch": "orange"
       },
@@ -77,7 +77,7 @@
         "route": "0",
         "variant": "main",
         "stops": "",
-        "direction": "none",
+        "direction": "Ligne 1 - Verte",
         "headsign": "Ligne 1 - Verte",
         "branch": "verte"
       },
@@ -141,7 +141,7 @@
         "route": "0",
         "variant": "main",
         "stops": "",
-        "direction": "none",
+        "direction": "Ligne 5 - Bleue",
         "headsign": "Ligne 5 - Bleue",
         "branch": "bleue"
       },
@@ -191,32 +191,7 @@
         "route": "0",
         "variant": "main",
         "stops": "",
-        "direction": "none",
-        "headsign": "Ligne 4 - Jaune",
-        "branch": "jaune"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [[-73.5637607,45.5152891],[-73.5555746,45.51153],[-73.5552017,45.5114379],
-                        [-73.5548182,45.5114059],[-73.5544507,45.5113702],[-73.5540832,45.5112819],
-                        [-73.5509075,45.5099361],[-73.5504086,45.5097669],[-73.5498024,45.5095978],
-                        [-73.5471299,45.5089007],[-73.5459878,45.5086951],[-73.5448458,45.5085798],
-                        [-73.5436793,45.5085372],[-73.5426737,45.5085547],[-73.5417437,45.508654],
-                        [-73.5408352,45.5088285],[-73.5397584,45.5090947],[-73.5389142,45.5093369],
-                        [-73.5382846,45.509564],[-73.5376228,45.5098663],[-73.5369181,45.5102062],
-                        [-73.5355736,45.5109475],[-73.5343371,45.5116877],[-73.532089,45.5131681],
-                        [-73.5307418,45.514101],[-73.5235717,45.5193261],[-73.5230871,45.5198638],
-                        [-73.5226883,45.5204616],[-73.5224454,45.5210337],[-73.5222883,45.5217561],
-                        [-73.522089,45.5236085],[-73.5218834,45.5261858]]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "route": "0",
-        "variant": "main",
-        "stops": "",
-        "direction": "none",
+        "direction": "REM - Réseau express métropolitain",
         "headsign": "REM - Réseau express métropolitain",
         "branch": "rem"
       },
@@ -909,48 +884,6 @@
         "coordinates": [
           -73.6133226,
           45.5396133
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Stop": "Berri-UQAM",
-        "branch": "jaune"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.5609275,
-          45.5139859
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Stop": "Jean-Drapeau",
-        "branch": "jaune"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.5331512,
-          45.5124313
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Stop": "Longueuil–Université-de-Sherbrooke",
-        "branch": "jaune"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.5220121,
-          45.5248629
         ]
       }
     },

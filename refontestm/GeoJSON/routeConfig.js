@@ -36,6 +36,20 @@ window.routeConfigs = {
     `},
 
 
+
+
+  "4": {title: "Ligne 4 • Jaune",
+    files: {currentShapes: "../GeoJSON/curr-004.geojson", newShapes: "../GeoJSON/004.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Berri-UQAM / Longueuil-U.-de-S."},
+    branchStyles: {
+      "jaune": {line: {color: "#FFD900", weight: 7, opacity: 1},
+          stop: {radius: 7, weight: 3, color: "#FFD900", fillOpacity: 1, shape: "circle"}}},
+    changements: ``,
+    pourquoi: ``},
+
+
+
   
   "10": {title: "Ligne 10 • De Lorimier",
     files: {currentShapes: "../GeoJSON/curr-010.geojson", newShapes: "../GeoJSON/010.geojson", 

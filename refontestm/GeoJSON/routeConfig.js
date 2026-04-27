@@ -1,6 +1,79 @@
 window.routeConfigs = {
 
-  "0": {title: "Modes lourds",
+  "1": {title: "Ligne 1 • Verte", type: "modes_lourds",
+    files: {currentShapes: "../GeoJSON/curr-001.geojson", newShapes: "../GeoJSON/001.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: ""},
+    branchStyles: {
+      "verte": {line: {color: "#00B300", weight: 7, opacity: 1},
+          stop: {radius: 7, weight: 3, color: "#00B300", fillOpacity: 1, shape: "circle"}}},
+    changements: ``,
+    pourquoi: ``},
+
+  "2": {title: "Ligne 2 • Orange", type: "modes_lourds",
+    files: {currentShapes: "../GeoJSON/curr-002.geojson", newShapes: "../GeoJSON/002.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: ""},
+    branchStyles: {
+      "orange": {line: {color: "#D95700", weight: 7, opacity: 1},
+          stop: {radius: 7, weight: 3, color: "#D95700", fillOpacity: 1, shape: "circle"}}},
+    changements: ``,
+    pourquoi: ``},
+
+  "3": {title: "REM • Réseau express métropolitain", type: "modes_lourds",
+    files: {currentShapes: "../GeoJSON/curr-003.geojson", newShapes: "../GeoJSON/003.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: ""},
+    branchStyles: {
+      "rem": {line: {color: "#73A400", weight: 7, opacity: 1},
+          stop: {radius: 7, weight: 3, color: "#73A400", fillOpacity: 1, shape: "circle"}}},
+    changements: ``,
+    pourquoi: ``},
+  
+  "4": {title: "Ligne 4 • Jaune", type: "modes_lourds",
+    files: {currentShapes: "../GeoJSON/curr-004.geojson", newShapes: "../GeoJSON/004.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Berri-UQAM / Longueuil-U.-de-S."},
+    branchStyles: {
+      "jaune": {line: {color: "#FFD900", weight: 7, opacity: 1},
+          stop: {radius: 7, weight: 3, color: "#FFD900", fillOpacity: 1, shape: "circle"}}},
+    changements: ``,
+    pourquoi: ``},
+
+  "5": {title: "Ligne 5 • Bleue", type: "modes_lourds",
+    files: {currentShapes: "../GeoJSON/curr-005.geojson", newShapes: "../GeoJSON/005.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: ""},
+    branchStyles: {
+      "bleue": {line: {color: "#0095E6", weight: 7, opacity: 1},
+          stop: {radius: 7, weight: 3, color: "#0095E6", fillOpacity: 1, shape: "circle"}}},
+    changements: ``,
+    pourquoi: ``},
+
+  "0": {title: "Modes lourds", type: "modes_lourds",
+    files: {currentShapes: "../GeoJSON/curr-000.geojson", newShapes: "../GeoJSON/000.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "", inbound: ""},
+    branchStyles: {
+      "vh": {line: {color: "#F16179", weight: 5, opacity: 1},
+          stop: {radius: 5, weight: 3, color: "#F16179", fillOpacity: 1, shape: "circle"}},
+      "sj": {line: {color: "#FBD06C", weight: 5, opacity: 1},
+          stop: {radius: 5, weight: 3, color: "#FBD06C", fillOpacity: 1, shape: "circle"}},
+      "sh": {line: {color: "#999AC6", weight: 5, opacity: 1},
+          stop: {radius: 5, weight: 3, color: "#999AC6", fillOpacity: 1, shape: "circle"}},
+      "ca": {line: {color: "#5AB6B2", weight: 5, opacity: 1},
+          stop: {radius: 5, weight: 3, color: "#5AB6B2", fillOpacity: 1, shape: "circle"}},
+      "ma": {line: {color: "#CA5898", weight: 5, opacity: 1},
+          stop: {radius: 5, weight: 3, color: "#CA5898", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: ``,
+    pourquoi: ``},
+
+
+
+  
+  "11": {title: "Modes lourds", type: "modes_lourds",
     files: {currentShapes: "../GeoJSON/curr-000.geojson", newShapes: "../GeoJSON/000.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "", inbound: ""},
@@ -27,29 +100,8 @@ window.routeConfigs = {
           stop: {radius: 5, weight: 3, color: "#CA5898", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
-    changements: `
-      <li></li>
-      <li>Retrait de quelques arrêts trop rapprochés.</li>
-    `,
-    pourquoi: `
-      <li>Améliorer la vitesse commerciale.</li>
-    `},
-
-
-
-
-  "4": {title: "Ligne 4 • Jaune",
-    files: {currentShapes: "../GeoJSON/curr-004.geojson", newShapes: "../GeoJSON/004.geojson", 
-            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Berri-UQAM / Longueuil-U.-de-S."},
-    branchStyles: {
-      "jaune": {line: {color: "#FFD900", weight: 7, opacity: 1},
-          stop: {radius: 7, weight: 3, color: "#FFD900", fillOpacity: 1, shape: "circle"}}},
     changements: ``,
     pourquoi: ``},
-
-
-
   
   "10": {title: "Ligne 10 • De Lorimier", type: "regulier",
     files: {currentShapes: "../GeoJSON/curr-010.geojson", newShapes: "../GeoJSON/010.geojson", 

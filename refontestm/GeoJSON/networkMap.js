@@ -1,4 +1,5 @@
 let highlightedLayers = [];
+const allLineLayers = [];
 
 function createNetworkMap({ mapId, routeConfigs }) {
 
@@ -6,6 +7,7 @@ function createNetworkMap({ mapId, routeConfigs }) {
   map.on("click", () => {
     highlightedLayers.forEach(l => l.setStyle(l.defaultStyle));
     highlightedLayers = [];
+    updateStops();
     map.closePopup();
   });
 
@@ -26,11 +28,11 @@ function createNetworkMap({ mapId, routeConfigs }) {
     frequent_pointe:  {color: "#8B469E"},
     nuit:             {color: "#000000"},
     saisonnier:       {color: "#FF9300"},
-    lourd_verte:      {color: "#00B300"},
-    lourd_orange:     {color: "#D95700"},
-    lourd_rem:        {color: "#73A400"},
-    lourd_jaune:      {color: "#FFD900"},
-    lourd_bleue:      {color: "#0095E6"},
+    lourd_verte:      {color: "#00B300", weight: 7},
+    lourd_orange:     {color: "#D95700", weight: 7},
+    lourd_rem:        {color: "#73A400", weight: 7},
+    lourd_jaune:      {color: "#FFD900", weight: 7},
+    lourd_bleue:      {color: "#0095E6", weight: 7},
     lourd_vh:         {color: "#F16179"},
     lourd_sj:         {color: "#FBD06C"},
     lourd_sh:         {color: "#999AC6"},
@@ -49,7 +51,7 @@ function createNetworkMap({ mapId, routeConfigs }) {
         || null;
   }
 
-  function registerStop(stopId, feature, routeId, headsign) {
+  function registerStop(stopId, feature, routeId, headsign, direction) {
     if (!stops[stopId]) {
       stops[stopId] = {
         coords: [
@@ -61,7 +63,19 @@ function createNetworkMap({ mapId, routeConfigs }) {
       };
     }
 
-    stops[stopId].services.push({ routeId, headsign });
+    const exists = stops[stopId].services.some(
+      s =>
+        s.routeId === routeId &&
+        s.direction === direction
+    );
+    
+    if (!exists) {
+      stops[stopId].services.push({
+        routeId,
+        headsign,
+        direction
+      });
+    }
   }
 
   function updateStops() {
@@ -72,13 +86,21 @@ function createNetworkMap({ mapId, routeConfigs }) {
         activeRoutes.has(s.routeId)
       );
 
+      const isHighlighted = visible.some(s =>
+        highlightedLayers.some(l =>
+          l._routeMeta.routeId === s.routeId &&
+          l._routeMeta.direction === s.direction
+        )
+      );
+
       if (visible.length === 0) return;
 
       const marker = L.circleMarker(stop.coords, {
-        radius: 4,
-        color: "#000",
+        radius: isHighlighted ? 7 : 5,
+        color: isHighlighted ? "#ff0000" : "#000",
         fillColor: "#fff",
-        fillOpacity: 1
+        fillOpacity: 1,
+        weight: isHighlighted ? 3 : 1
       });
 
       const stopName = stop.name;
@@ -135,17 +157,27 @@ function createNetworkMap({ mapId, routeConfigs }) {
       if (!shapes) return;
 
       shapes.features.forEach(f => {
-        if (f.properties.variant !== "main") return;
+        if (["cancelled", "temporary", "short"].includes(f.properties.variant)) return;
 
         const base = ROUTE_TYPE_STYLES[cfg.type] || { color: "#333" };
         
         const style = {
           color: base.color,
-          weight: 4,
+          weight: base.weight || 4,
           opacity: f.properties.direction === "inbound" ? 0.6 : 1
         };
 
         const line = L.geoJSON(f, { style });
+        
+        line.eachLayer(l => {
+          l._routeMeta = {
+            routeId: routeId,
+            direction: f.properties.direction
+          };
+        
+          l.defaultStyle = { ...style };
+          allLineLayers.push(l);
+        });
 
         line.on("click", (e) => {
           L.DomEvent.stopPropagation(e);
@@ -154,29 +186,36 @@ function createNetworkMap({ mapId, routeConfigs }) {
           highlightedLayers.forEach(l => l.setStyle(l.defaultStyle));
           highlightedLayers = [];
         
-          const direction = f.properties.direction;
-          const label =
-            cfg.directionLabels?.[direction] || direction;
+          const clickedDirection = f.properties.direction;
+          const clickedRouteId = routeId;
         
-          group.eachLayer(layer => {
-            if (!layer.feature) return;
+          const directionLabel =
+            cfg.directionLabels?.[clickedDirection] || clickedDirection;
         
-            if (layer.feature.properties.direction === direction) {
-              layer.defaultStyle = layer.options.style || layer.options;
-        
-              layer.setStyle({
-                weight: 8,
+          // Highlight all same route + same direction
+          allLineLayers.forEach(l => {
+            if (
+              l._routeMeta.routeId === clickedRouteId &&
+              l._routeMeta.direction === clickedDirection
+            ) {
+              l.setStyle({
                 color: "#ffff00",
+                weight: 8,
                 opacity: 1
               });
         
-              highlightedLayers.push(layer);
+              highlightedLayers.push(l);
             }
           });
         
+          updateStops(); // refresh stop highlighting
+        
           L.popup()
             .setLatLng(e.latlng)
-            .setContent(`<b>${cfg.title}</b><br>${label}`)
+            .setContent(`
+              <b>${cfg.title}</b><br>
+              ${directionLabel}
+            `)
             .openOn(map);
         });
 
@@ -186,7 +225,11 @@ function createNetworkMap({ mapId, routeConfigs }) {
           const sf = getStopFeature(stopId, newStops, oldStops);
           if (!sf) return;
 
-          registerStop(stopId, sf, routeId, f.properties.headsign);
+          registerStop(
+            stopId,sf,routeId,
+            f.properties.headsign,
+            f.properties.direction
+          );
         });
       });
 

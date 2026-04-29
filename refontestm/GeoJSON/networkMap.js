@@ -96,11 +96,11 @@ function createNetworkMap({ mapId, routeConfigs }) {
       if (visible.length === 0) return;
 
       const marker = L.circleMarker(stop.coords, {
-        radius: isHighlighted ? 7 : 5,
+        radius: isHighlighted ? 5 : 4,
         color: isHighlighted ? "#ff0000" : "#000",
         fillColor: "#fff",
         fillOpacity: 1,
-        weight: isHighlighted ? 3 : 1
+        weight: isHighlighted ? 4 : 3
       });
 
       const stopName = stop.name;

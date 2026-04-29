@@ -644,7 +644,7 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
-  "41": {title: "Ligne 41 • Ahuntsic / Saint-Michel", type: "pointe",
+  "41": {title: "Ligne 41 • Ahuntsic / Saint-Michel", type: "regulier",
     files: {currentShapes: "../GeoJSON/curr-041.geojson", newShapes: "../GeoJSON/041.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – d'Amiens / de l'Hôtel-de-Ville", 
@@ -2289,7 +2289,7 @@ window.routeConfigs = {
   "177": {title: "Ligne 177 • Thimens", type: "frequent_pointe",
     files: {currentShapes: "../GeoJSON/curr-177.geojson", newShapes: "../GeoJSON/177.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est - Thompson / Grimard", 
+    directionLabels: {outbound: "Est - Station Montpellier", 
                       inbound: "Ouest – Centre de transport Saint-Laurent"},
     branchStyles: {
       "1770007": {line: {color: "#781B7D", weight: 4, opacity: 1},

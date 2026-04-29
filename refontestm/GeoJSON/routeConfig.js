@@ -2607,7 +2607,7 @@ window.routeConfigs = {
   "197": {title: "Ligne 197 • Rosemont", type: "frequent_pointe",
     files: {currentShapes: "../GeoJSON/curr-197.geojson", newShapes: "../GeoJSON/197.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est - ?", 
+    directionLabels: {outbound: "Est - Station Cadillac", 
                       inbound: "Ouest – Station Rosemont"},
     branchStyles: {
       "1978888": {line: {color: "#781B7D", weight: 4, opacity: 1},

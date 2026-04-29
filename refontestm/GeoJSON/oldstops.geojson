@@ -5015,7 +5015,7 @@
 {"type":"Feature","properties":{"stop_id":"55835","stop_name":"Hymus / No 1300 (55835)"},"geometry":{"type":"Point","coordinates":[-73.768624,45.486459]}},
 {"type":"Feature","properties":{"stop_id":"55836","stop_name":"Hymus / No 1300 (55836)"},"geometry":{"type":"Point","coordinates":[-73.768686,45.486587]}},
 {"type":"Feature","properties":{"stop_id":"55837","stop_name":"Cousens / No 4600 (55837)"},"geometry":{"type":"Point","coordinates":[-73.739643,45.500680]}},
-{"type":"Feature","properties":{"stop_id":"55840","stop_name":"Station Du Collège (Cartier / Ouimet) (55840)"},"geometry":{"type":"Point","coordinates":[-73.672745,45.508760]}},
+{"type":"Feature","properties":{"stop_id":"55840","stop_name":"Station Du Collège (Cartier / Ouimet) (55840)"},"geometry":{"type":"Point","coordinates":[-73.672616,45.508887]}},
 {"type":"Feature","properties":{"stop_id":"55841","stop_name":"Station Du Collège (Ouimet / Cartier) (55841)"},"geometry":{"type":"Point","coordinates":[-73.672314,45.508870]}},
 {"type":"Feature","properties":{"stop_id":"55842","stop_name":"Passerelle Barr (Côte-de-Liesse / No 6600) (55842)"},"geometry":{"type":"Point","coordinates":[-73.693021,45.484346]}},
 {"type":"Feature","properties":{"stop_id":"55843","stop_name":"Côte-de-Liesse / No 5805 (55843)"},"geometry":{"type":"Point","coordinates":[-73.678009,45.495805]}},

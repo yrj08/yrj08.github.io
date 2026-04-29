@@ -647,21 +647,17 @@ window.routeConfigs = {
   "41": {title: "Ligne 41 • Ahuntsic / Saint-Michel", type: "regulier",
     files: {currentShapes: "../GeoJSON/curr-041.geojson", newShapes: "../GeoJSON/041.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est – d'Amiens / de l'Hôtel-de-Ville", 
-                      inbound: "Ouest – de Liège / Jeanne-Mance"},
+    directionLabels: {outbound: "Est", inbound: "Ouest"},
     branchStyles: {
-      "418888": {line: {color: "#009EE0", weight: 4, opacity: 1},
-          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "419999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
-          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
-      <li></li>
-      <li>Retrait de quelques arrêts trop rapprochés.</li>
+      <li>Retrait du service: remplacé par le service (existant) sur les lignes 39, 67, 139, 
+          439, 440 et 467, ainsi que par l'ajout de la nouvelle ligne 143 sur l'axe De Louvain.</li>
     `,
     pourquoi: `
-      <li>Améliorer la vitesse commerciale.</li>
+      <li>Permet de réduire les dédoublements du service et améliorer l'accès vers les
+          redéveloppements dans le secteur De Louvain.</li>
     `},
   
   "43": {title: "Ligne 43 • Monselet", type: "regulier",
@@ -1972,6 +1968,29 @@ window.routeConfigs = {
     `,
     pourquoi: `
       <li>Améliorer la vitesse commerciale.</li>
+    `},
+
+  "143": {title: "Ligne 143 • De Louvain", type: "regulier",
+    files: {currentShapes: "../GeoJSON/curr-143.geojson", newShapes: "../GeoJSON/143.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – d'Amiens / de l'Hôtel-de-Ville", 
+                      inbound: "Ouest – de Liège / Jeanne-Mance"},
+    branchStyles: {
+      "1438888": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "1439999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Nouvelle desserte en semaine pour reprendre le service sur la ligne 440 (trajet
+          industriel) et remplacer en partie le service sur la ligne 41.</li>
+      <li>Ce nouveau service remplace également la ligne 52 De Liège.</li>
+    `,
+    pourquoi: `
+      <li>Permet de créer un accès vers l'écoquartier De Louvain, dont plusieurs projets 
+          résidentiels sont en cours de planification.</li>
+      <li>Permet un lien renforcé vers le secteur de Liège / de l'Esplanade.</li>
     `},
   
   "144": {title: "Ligne 144 • Des Pins", type: "regulier",

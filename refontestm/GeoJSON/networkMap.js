@@ -19,6 +19,25 @@ function createNetworkMap({ mapId, routeConfigs }) {
 
   const stopLayer = L.layerGroup().addTo(map);
 
+  const ROUTE_TYPE_STYLES = {
+    regulier:         {color: "#009EE0"},
+    pointe:           {color: "#5DBDEA"},
+    frequent_journee: {color: "#781B7D"},
+    frequent_pointe:  {color: "#8B469E"},
+    nuit:             {color: "#000000"},
+    saisonnier:       {color: "#FF9300"},
+    lourd_verte:      {color: "#00B300"},
+    lourd_orange:     {color: "#D95700"},
+    lourd_rem:        {color: "#73A400"},
+    lourd_jaune:      {color: "#FFD900"},
+    lourd_bleue:      {color: "#0095E6"},
+    lourd_vh:         {color: "#F16179"},
+    lourd_sj:         {color: "#FBD06C"},
+    lourd_sh:         {color: "#999AC6"},
+    lourd_ca:         {color: "#5AB6B2"},
+    lourd_ma:         {color: "#CA5898"}
+  };
+  
   function safeFetch(url) {
     if (!url) return Promise.resolve(null);
     return fetch(url).then(r => r.ok ? r.json() : null).catch(() => null);
@@ -73,7 +92,7 @@ function createNetworkMap({ mapId, routeConfigs }) {
           .map(s => {
           const cfg = routeConfigs[s.routeId];
           const color =
-            Object.values(cfg.branchStyles || {})[0]?.line?.color || "#333";
+            ROUTE_TYPE_STYLES[cfg.type]?.color || "#333";
       
           return `
             <div style="margin:3px 0;">
@@ -118,9 +137,12 @@ function createNetworkMap({ mapId, routeConfigs }) {
       shapes.features.forEach(f => {
         if (f.properties.variant !== "main") return;
 
-        const style = cfg.branchStyles?.[f.properties.branch]?.line || {
-          color: "#0077ff",
-          weight: 4
+        const base = ROUTE_TYPE_STYLES[cfg.type] || { color: "#333" };
+        
+        const style = {
+          color: base.color,
+          weight: 4,
+          opacity: f.properties.direction === "inbound" ? 0.6 : 1
         };
 
         const line = L.geoJSON(f, { style });

@@ -307,6 +307,7 @@
 {"type":"Feature","properties":{"stop_id":"A0226","stop_name":"de Louvain / Olivier-Maurault (––)"},"geometry":{"type":"Point","coordinates":[-73.647739,45.556315]}},
 {"type":"Feature","properties":{"stop_id":"A0227","stop_name":"Forest / Pelletier (––)"},"geometry":{"type":"Point","coordinates":[-73.630123,45.589331]}},
 {"type":"Feature","properties":{"stop_id":"A0228","stop_name":"Forest / Pelletier (––)"},"geometry":{"type":"Point","coordinates":[-73.630206,45.589126]}},
+{"type":"Feature","properties":{"stop_id":"A0229","stop_name":"Centre de transport Anjou (––)"},"geometry":{"type":"Point","coordinates":[-73.582892,45.619238]}},
 {"type":"Feature","properties":{"stop_id":"A9993","stop_name":"Station Anjou (localisation provisoire) (––)"},"geometry":{"type":"Point","coordinates":[-73.560248,45.601091]}},
 {"type":"Feature","properties":{"stop_id":"A9994","stop_name":"Station Anjou (localisation provisoire) (––)"},"geometry":{"type":"Point","coordinates":[-73.560462,45.601061]}},
 {"type":"Feature","properties":{"stop_id":"A9995","stop_name":"Station Anjou (localisation provisoire) (––)"},"geometry":{"type":"Point","coordinates":[-73.560662,45.601275]}},

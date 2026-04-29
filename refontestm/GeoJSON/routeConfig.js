@@ -962,8 +962,8 @@ window.routeConfigs = {
   "64": {title: "Ligne 64 • Grenet", type: "frequent_pointe",
     files: {currentShapes: "../GeoJSON/curr-064.geojson", newShapes: "../GeoJSON/064.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Nord – ", 
-                      inbound: "Sud – "},
+    directionLabels: {outbound: "Nord – Terminus Grenet / De Serres", 
+                      inbound: "Sud – Station Côte-Vertu"},
     branchStyles: {
       "640007": {line: {color: "#781B7D", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},

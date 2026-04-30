@@ -311,6 +311,7 @@
 {"type":"Feature","properties":{"stop_id":"A0228","stop_name":"Forest / Pelletier (––)"},"geometry":{"type":"Point","coordinates":[-73.630206,45.589126]}},
 {"type":"Feature","properties":{"stop_id":"A0229","stop_name":"Centre de transport Anjou (––)"},"geometry":{"type":"Point","coordinates":[-73.582892,45.619238]}},
 {"type":"Feature","properties":{"stop_id":"A0230","stop_name":"Secant / J.-René-Ouimet (––)"},"geometry":{"type":"Point","coordinates":[-73.583742,45.620737]}},
+{"type":"Feature","properties":{"stop_id":"A0231","stop_name":"Rodolphe-Pagé / Stuart-Graham (––)"},"geometry":{"type":"Point","coordinates":[-73.753913,45.450163]}},
 {"type":"Feature","properties":{"stop_id":"A9993","stop_name":"Station Anjou (localisation provisoire) (––)"},"geometry":{"type":"Point","coordinates":[-73.560248,45.601091]}},
 {"type":"Feature","properties":{"stop_id":"A9994","stop_name":"Station Anjou (localisation provisoire) (––)"},"geometry":{"type":"Point","coordinates":[-73.560462,45.601061]}},
 {"type":"Feature","properties":{"stop_id":"A9995","stop_name":"Station Anjou (localisation provisoire) (––)"},"geometry":{"type":"Point","coordinates":[-73.560662,45.601275]}},

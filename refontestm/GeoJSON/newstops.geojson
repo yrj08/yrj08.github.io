@@ -34,7 +34,7 @@
 {"type":"Feature","properties":{"stop_id":"57108","stop_name":"Carr. Angrignon entrée est (Angrignon / No 2221) (57108)"},"geometry":{"type":"Point","coordinates":[-73.612799,45.449002]}},
 {"type":"Feature","properties":{"stop_id":"57109","stop_name":"Carr. Angrignon entrée nord (Angrignon / No 2500) (57109)"},"geometry":{"type":"Point","coordinates":[-73.617895,45.449632]}},
 {"type":"Feature","properties":{"stop_id":"57505","stop_name":"Terminus Dorval (57505)"},"geometry":{"type":"Point","coordinates":[-73.743173,45.448549]}},
-{"type":"Feature","properties":{"stop_id":"57566","stop_name":"YUL Aéroport Montréal-Trudeau (57566)"},"geometry":{"type":"Point","coordinates":[-73.751742,45.455112]}},
+{"type":"Feature","properties":{"stop_id":"57566","stop_name":"YUL Aéroport Montréal-Trudeau (57566)","icons":["rem.png"]},"geometry":{"type":"Point","coordinates":[-73.751742,45.455112]}},
 {"type":"Feature","properties":{"stop_id":"58098","stop_name":"Saint-Charles / Claude (58098)"},"geometry":{"type":"Point","coordinates":[-73.875081,45.467875]}},
 {"type":"Feature","properties":{"stop_id":"58591","stop_name":"Lakeshore / Macdonald (58591)"},"geometry":{"type":"Point","coordinates":[-73.940448,45.403648]}},
 {"type":"Feature","properties":{"stop_id":"59237","stop_name":"Armand-Chaput / No 11400 (59237)"},"geometry":{"type":"Point","coordinates":[-73.529748,45.657786]}},

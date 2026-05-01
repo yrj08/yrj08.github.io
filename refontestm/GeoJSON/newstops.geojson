@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "features": [
-{"type":"Feature","properties":{"stop_id":"50314","stop_name":"Millen / Henri-Bourassa (50314)"},"geometry":{"type":"Point","coordinates":[-73.668103,45.556965]},"icons":["orange.png"]},
+{"type":"Feature","properties":{"stop_id":"50314","stop_name":"<img src="images/orange.png" width="12" height="12">Millen / Henri-Bourassa (50314)"},"geometry":{"type":"Point","coordinates":[-73.668103,45.556965]},"icons":["orange.png"]},
 {"type":"Feature","properties":{"stop_id":"50536","stop_name":"de Louvain / Saint-Hubert (50536)"},"geometry":{"type":"Point","coordinates":[-73.649386,45.553768]}},
 {"type":"Feature","properties":{"stop_id":"51242","stop_name":"Décarie / Brillon (51242)"},"geometry":{"type":"Point","coordinates":[-73.618819,45.478879]},"icons":["orange.png"]},
 {"type":"Feature","properties":{"stop_id":"51905","stop_name":"Papineau / escalier des Carrières (51905)"},"geometry":{"type":"Point","coordinates":[-73.587893,45.538996]}},

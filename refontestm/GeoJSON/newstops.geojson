@@ -53,7 +53,7 @@
 {"type":"Feature","properties":{"stop_id":"60591","stop_name":"Henri-Bourassa / 40e Avenue (60591)"},"geometry":{"type":"Point","coordinates":[-73.51195,45.664495]}},
 {"type":"Feature","properties":{"stop_id":"60684","stop_name":"Gowans / Saint-Jacques (60684)"},"geometry":{"type":"Point","coordinates":[-73.651695,45.442399]}},
 {"type":"Feature","properties":{"stop_id":"60709","stop_name":"Côte-Saint-Paul / Saint-Ambroise (60709)"},"geometry":{"type":"Point","coordinates":[-73.593816,45.467836]}},
-{"type":"Feature","properties":{"stop_id":"60745","stop_name":"Robert-Bourassa / De La Gauchetière (60745)"},"geometry":{"type":"Point","coordinates":[-73.565527,45.500737]}},
+{"type":"Feature","properties":{"stop_id":"60745","stop_name":"Robert-Bourassa / De La Gauchetière (60745)","icons":["orange.png","rem.png","exo13.png"]},"geometry":{"type":"Point","coordinates":[-73.565527,45.500737]}},
 {"type":"Feature","properties":{"stop_id":"60774","stop_name":"Jean-Talon / No 4290 (60774)"},"geometry":{"type":"Point","coordinates":[-73.589431,45.568569]}},
 {"type":"Feature","properties":{"stop_id":"60775","stop_name":"Jean-Talon / No 4325 (60775)"},"geometry":{"type":"Point","coordinates":[-73.58932,45.568986]}},
 {"type":"Feature","properties":{"stop_id":"60783","stop_name":"Rachel / De Chambly (60783)"},"geometry":{"type":"Point","coordinates":[-73.558244,45.549386]}},

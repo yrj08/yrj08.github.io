@@ -97,6 +97,11 @@ function createNetworkMap({ mapId, routeConfigs }) {
           feature.geometry.coordinates[0]
         ],
         name: feature.properties.stop_name,
+        icons:
+          feature.properties.icons ||
+          (feature.properties.icon
+            ? [feature.properties.icon]
+            : []),
         services: []
       };
     }
@@ -153,7 +158,10 @@ function createNetworkMap({ mapId, routeConfigs }) {
         weight: isHighlighted ? 4 : 3
       });
 
-      const stopName = stop.name;
+      const stopName = formatStopName({
+        stop_name: stop.name,
+        icons: stop.icons
+      });
       
       const html = `
         <div style="font-size:16px; font-weight:bold; margin-bottom:6px;">

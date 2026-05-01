@@ -5,11 +5,39 @@ function createNetworkMap({ mapId, routeConfigs }) {
 
   const map = L.map(mapId).setView([45.55, -73.7], 11);
   map.on("click", () => {
-    highlightedLayers.forEach(l => l.setStyle(l.defaultStyle));
+    highlightedLayers.forEach(l => {
+      l.options.pane = l.defaultPane;
+      l.setStyle(l.defaultStyle);
+    });
     highlightedLayers = [];
     updateStops();
     map.closePopup();
   });
+
+  // ---- PANES (bottom -> top)
+  map.createPane("pane_rapid_lines");
+  map.getPane("pane_rapid_lines").style.zIndex = 200;
+  
+  map.createPane("pane_rapid_stops");
+  map.getPane("pane_rapid_stops").style.zIndex = 250;
+  
+  map.createPane("pane_frequent_journee_lines");
+  map.getPane("pane_frequent_journee_lines").style.zIndex = 300;
+
+  map.createPane("pane_frequent_pointe_lines");
+  map.getPane("pane_frequent_pointe_lines").style.zIndex = 350;
+  
+  map.createPane("pane_regulier_lines");
+  map.getPane("pane_regulier_lines").style.zIndex = 400;
+  
+  map.createPane("pane_pointe_lines");
+  map.getPane("pane_pointe_lines").style.zIndex = 450;
+  
+  map.createPane("pane_bus_stops");
+  map.getPane("pane_bus_stops").style.zIndex = 500;
+  
+  map.createPane("pane_highlight");
+  map.getPane("pane_highlight").style.zIndex = 900;
 
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: "&copy; OpenStreetMap contributors"
@@ -39,6 +67,16 @@ function createNetworkMap({ mapId, routeConfigs }) {
     lourd_ca:         {color: "#5AB6B2"},
     lourd_ma:         {color: "#CA5898"}
   };
+
+  function getPaneForRouteType(type) {
+    if (type?.startsWith("lourd_")) return "pane_rapid_lines";
+    if (type === "frequent_journee") return "pane_frequent_journee_lines";
+    if (type === "frequent_pointe") return "pane_frequent_pointe_lines";
+    if (type === "regulier") return "pane_regulier_lines";
+    if (type === "pointe") return "pane_pointe_lines";
+  
+    return "pane_regulier_lines";
+  }
   
   function safeFetch(url) {
     if (!url) return Promise.resolve(null);
@@ -95,10 +133,22 @@ function createNetworkMap({ mapId, routeConfigs }) {
 
       if (visible.length === 0) return;
 
+      const primaryService = visible[0];
+      const primaryCfg = routeConfigs[primaryService.routeId];
+      const primaryColor =
+        ROUTE_TYPE_STYLES[primaryCfg.type]?.color || "#000";
+      
+      const isRapid = primaryCfg.type?.startsWith("lourd_");
+      
       const marker = L.circleMarker(stop.coords, {
+        pane: "pane_bus_stops",
         radius: isHighlighted ? 5 : 4,
-        color: isHighlighted ? "#ff0000" : "#000",
-        fillColor: "#fff",
+      
+        color: isHighlighted
+          ? "#ff0000"
+          : (isRapid ? primaryColor : "#000"),
+      
+        fillColor: isRapid ? primaryColor : "#fff",
         fillOpacity: 1,
         weight: isHighlighted ? 4 : 3
       });
@@ -164,18 +214,27 @@ function createNetworkMap({ mapId, routeConfigs }) {
         const style = {
           color: base.color,
           weight: base.weight || 4,
-          opacity: f.properties.direction === "inbound" ? 0.6 : 1
+          opacity: 1
         };
 
-        const line = L.geoJSON(f, { style });
+        const line = L.geoJSON(f, {
+          style,
+          pane: getPaneForRouteType(cfg.type)
+        });
         
         line.eachLayer(l => {
+          l.defaultPane = getPaneForRouteType(cfg.type);
+        
           l._routeMeta = {
             routeId: routeId,
             direction: f.properties.direction
           };
         
-          l.defaultStyle = { ...style };
+          l.defaultStyle = {
+            ...style,
+            pane: l.defaultPane
+          };
+        
           allLineLayers.push(l);
         });
 
@@ -198,11 +257,14 @@ function createNetworkMap({ mapId, routeConfigs }) {
               l._routeMeta.routeId === clickedRouteId &&
               l._routeMeta.direction === clickedDirection
             ) {
-              l.setStyle({
-                color: "#ffff00",
-                weight: 8,
-                opacity: 1
-              });
+          l.setStyle({
+            color: "#ffff00",
+            weight: 8,
+            opacity: 1,
+            pane: "pane_highlight"
+          });
+          
+          l.bringToFront();
         
               highlightedLayers.push(l);
             }
@@ -238,7 +300,7 @@ function createNetworkMap({ mapId, routeConfigs }) {
 
   Promise.all(loadPromises).then(() => {
 
-    const control = L.control.layers(null, routeLayers).addTo(map);
+    L.control.layers(null, routeLayers).addTo(map);
 
     Object.entries(routeLayers).forEach(([name, layer]) => {
       layer.addTo(map);

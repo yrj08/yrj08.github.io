@@ -17,11 +17,11 @@ function formatStopName(stopProps, imagePath = "../GeoJSON/images/") {
         margin-right:4px;
         border-radius:3px;
       "
+      alt=""
     >
   `).join("");
 
   return `${iconsHtml}${stopName}`;
 }
 
-// expose globally
 window.formatStopName = formatStopName;

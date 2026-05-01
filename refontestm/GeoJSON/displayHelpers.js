@@ -1,6 +1,6 @@
 // displayHelpers.js
 
-function formatStopName(stopProps, imagePath = "../images/") {
+function formatStopName(stopProps, imagePath = "images/") {
   const stopName = stopProps.stop_name || "";
 
   const icons =

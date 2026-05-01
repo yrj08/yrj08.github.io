@@ -143,7 +143,7 @@ function generateStopTable({
 
     tr.innerHTML = `
       <td>${idx + 1}</td>
-      <td>${stop.properties.stop_name}</td>
+      <td>${formatStopName(stop.properties)}</td>
       <td>${delta != null ? Math.round(delta) : "––"}</td>
       <td>${delta != null ? (cumulative / 1000).toFixed(2) : "––"}</td>
     `;
@@ -168,7 +168,7 @@ function generateStopTable({
 
         tr.innerHTML = `
           <td>––</td>
-          <td>${stop.properties.stop_name}</td>
+          <td>${formatStopName(stop.properties)}</td>
           <td>––</td>
           <td>––</td>
         `;

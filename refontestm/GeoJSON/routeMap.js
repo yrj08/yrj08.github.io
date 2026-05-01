@@ -102,7 +102,7 @@ function createRouteMap(config) {
       if (!stopFeature) return;
   
       const coords = stopFeature.geometry.coordinates;
-      const name = stopFeature.properties.stop_name;
+      const popupHtml = formatStopName(stopFeature.properties);
   
       const color = stopStyle.color || lineColor;
       const radius = stopStyle.radius || 5;
@@ -133,7 +133,7 @@ function createRouteMap(config) {
         });
       }
   
-      marker.bindPopup(name);
+      marker.bindPopup(popupHtml);
       group.addLayer(marker);
     });
   

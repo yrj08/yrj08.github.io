@@ -11,7 +11,7 @@
                   "10324","10325","10326"],
         "direction": "outbound",
         "headsign": "A1-A4 • Brossard ⇋ Deux-Montagnes",
-        "branch": "A1-A4"
+        "branch": "remA4"
       },
       "geometry": {
         "type": "LineString",

@@ -61,11 +61,11 @@ function createNetworkMap({ mapId, routeConfigs }) {
     lourd_rem:        {color: "#73A400", weight: 7},
     lourd_jaune:      {color: "#FFD900", weight: 7},
     lourd_bleue:      {color: "#0095E6", weight: 7},
-    lourd_vh:         {color: "#F16179"},
-    lourd_sj:         {color: "#FBD06C"},
-    lourd_sh:         {color: "#999AC6"},
-    lourd_ca:         {color: "#5AB6B2"},
-    lourd_ma:         {color: "#CA5898"}
+    lourd_vh:         {color: "#F16179", weight: 5},
+    lourd_sj:         {color: "#FBD06C", weight: 5},
+    lourd_sh:         {color: "#999AC6", weight: 5},
+    lourd_ca:         {color: "#5AB6B2", weight: 5},
+    lourd_ma:         {color: "#CA5898", weight: 5}
   };
 
   function getPaneForRouteType(type) {
@@ -144,19 +144,27 @@ function createNetworkMap({ mapId, routeConfigs }) {
         ROUTE_TYPE_STYLES[primaryCfg.type]?.color || "#000";
       
       const isRapid = primaryCfg.type?.startsWith("lourd_");
-      
+
       const marker = L.circleMarker(stop.coords, {
         pane: "pane_bus_stops",
-        radius: isHighlighted ? 5 : 4,
+      
+        radius: isHighlighted
+          ? 7
+          : (isRapid ? 6 : 4),
       
         color: isHighlighted
           ? "#ff0000"
           : (isRapid ? primaryColor : "#000"),
       
-        fillColor: isRapid ? primaryColor : "#fff",
+        fillColor: "#fff",
+      
         fillOpacity: 1,
-        weight: isHighlighted ? 4 : 3
+      
+        weight: isHighlighted
+          ? 4
+          : (isRapid ? 4 : 3)
       });
+      
 
       const stopName = formatStopName({
         stop_name: stop.name,

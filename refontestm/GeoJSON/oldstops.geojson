@@ -104,10 +104,9 @@
 {"type":"Feature","properties":{"stop_id":"10515","stop_name":"Césira-Parisotto","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.5810842,45.5833943]}},
 {"type":"Feature","properties":{"stop_id":"10516","stop_name":"Madeleine-Parent","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.5745369,45.5922105]}},
 {"type":"Feature","properties":{"stop_id":"10517","stop_name":"Anjou","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.5598418,45.6014593]}},
-
-
-
-
+{"type":"Feature","properties":{"stop_id":"21101","stop_name":"Lucien-L'Allier"},"geometry":{"type":"Point","coordinates":[-73.5699218 45.4953066]}},
+{"type":"Feature","properties":{"stop_id":"21102","stop_name":"Vendôme"},"geometry":{"type":"Point","coordinates":[-73.6034978 45.4735869]}},
+{"type":"Feature","properties":{"stop_id":"21103","stop_name":"Montréal-Ouest"},"geometry":{"type":"Point","coordinates":[-73.6420861 45.4535319]}},
 {"type":"Feature","properties":{"stop_id":"21104","stop_name":"Lachine","icons":["exo11.png"]},"geometry":{"type":"Point","coordinates":[-73.7111713,45.4486991]}},
 {"type":"Feature","properties":{"stop_id":"21105","stop_name":"Dorval","icons":["exo11.png"]},"geometry":{"type":"Point","coordinates":[-73.7432759,45.4492176]}},
 {"type":"Feature","properties":{"stop_id":"21106","stop_name":"Pine Beach","icons":["exo11.png"]},"geometry":{"type":"Point","coordinates":[-73.7643411,45.4496337]}},

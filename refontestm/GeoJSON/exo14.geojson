@@ -7,7 +7,7 @@
       "properties": {
         "route": "exo14",
         "variant": "main",
-        "stops": ["21201","21202","21203","21404","21405","21406","21407","21408",
+        "stops": ["21101","21102","21103","21404","21405","21406","21407","21408",
                   "21409"],
         "direction": "outbound",
         "headsign": "Lucien-L'Allier ⇋ Candiac",

@@ -1,6 +1,34 @@
 {
   "type": "FeatureCollection",
   "features": [
+{"type":"Feature","properties":{"stop_id":"10101","stop_name":"Angrignon","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.6037915,45.4462908]}},
+{"type":"Feature","properties":{"stop_id":"10102","stop_name":"Monk","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5931084,45.451375]}},
+{"type":"Feature","properties":{"stop_id":"10103","stop_name":"Jolicoeur","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5820846,45.4567975]}},
+{"type":"Feature","properties":{"stop_id":"10104","stop_name":"Verdun","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5715265,45.459229]}},
+{"type":"Feature","properties":{"stop_id":"10105","stop_name":"De L'Église","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5669075,45.4634096]}},
+{"type":"Feature","properties":{"stop_id":"10106","stop_name":"LaSalle","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5661582,45.4708124]}},
+{"type":"Feature","properties":{"stop_id":"10107","stop_name":"Charlevoix","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5693792,45.4782818]}},
+{"type":"Feature","properties":{"stop_id":"10108","stop_name":"Lionel-Groulx","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5798973,45.4828127]}}
+{"type":"Feature","properties":{"stop_id":"10109","stop_name":"Atwater","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5863479,45.4898543]}},
+{"type":"Feature","properties":{"stop_id":"10110","stop_name":"Guy-Concordia","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5789724,45.4957558]}},
+{"type":"Feature","properties":{"stop_id":"10111","stop_name":"Peel","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5744772,45.5009243]}},
+{"type":"Feature","properties":{"stop_id":"10112","stop_name":"McGill","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5715689,45.5044676]}},
+{"type":"Feature","properties":{"stop_id":"10113","stop_name":"Place-des-Arts","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5694526,45.5072689]}},
+{"type":"Feature","properties":{"stop_id":"10114","stop_name":"Saint-Laurent","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5648324,45.5108506]}},
+{"type":"Feature","properties":{"stop_id":"10115","stop_name":"Berri-UQAM","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5613917,45.515013]}},
+{"type":"Feature","properties":{"stop_id":"10116","stop_name":"Beaudry","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.557216,45.5195799]}},
+{"type":"Feature","properties":{"stop_id":"10117","stop_name":"Papineau","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5529679,45.5241056]}},
+{"type":"Feature","properties":{"stop_id":"10118","stop_name":"Frontenac","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5522134,45.5331236]}},
+{"type":"Feature","properties":{"stop_id":"10119","stop_name":"Préfontaine","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5544364,45.5415272]}},
+{"type":"Feature","properties":{"stop_id":"10120","stop_name":"Joliette","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.551604,45.54705]}},
+{"type":"Feature","properties":{"stop_id":"10121","stop_name":"Pie-IX","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5519096,45.5539909]}},
+{"type":"Feature","properties":{"stop_id":"10122","stop_name":"Viau","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5472001,45.5609825]}},
+{"type":"Feature","properties":{"stop_id":"10123","stop_name":"Assomption","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5473572,45.5692704]}},
+{"type":"Feature","properties":{"stop_id":"10124","stop_name":"Cadillac","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5463466,45.576957]}},
+{"type":"Feature","properties":{"stop_id":"10125","stop_name":"Langelier","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5427201,45.58291]}},
+{"type":"Feature","properties":{"stop_id":"10126","stop_name":"Radisson","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5390865,45.5894455]}},
+{"type":"Feature","properties":{"stop_id":"10127","stop_name":"Honoré-Beaugrand","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5344995,45.5968455]}},
+
 
 
 

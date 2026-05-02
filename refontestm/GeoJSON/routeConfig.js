@@ -49,47 +49,54 @@ window.routeConfigs = {
           stop: {radius: 7, weight: 3, color: "#0095E6", fillOpacity: 1, shape: "circle"}}},
     changements: ``,
     pourquoi: ``},
-
-  "0": {title: "Modes lourds", type: "modes_lourds",
-    files: {currentShapes: "../GeoJSON/curr-000.geojson", newShapes: "../GeoJSON/000.geojson", 
+  
+  "exo11": {title: "exo11 • Vaudreuil", type: "lourd_vh",
+    files: {currentShapes: "../GeoJSON/curr-exo11.geojson", newShapes: "../GeoJSON/exo11.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "", inbound: ""},
+    directionLabels: {outbound: "Lucien-L'Allier ⇋ Vaudreuil / Hudson"},
     branchStyles: {
       "vh": {line: {color: "#F16179", weight: 5, opacity: 1},
-          stop: {radius: 5, weight: 3, color: "#F16179", fillOpacity: 1, shape: "circle"}},
-      "sj": {line: {color: "#FBD06C", weight: 5, opacity: 1},
-          stop: {radius: 5, weight: 3, color: "#FBD06C", fillOpacity: 1, shape: "circle"}},
-      "sh": {line: {color: "#999AC6", weight: 5, opacity: 1},
-          stop: {radius: 5, weight: 3, color: "#999AC6", fillOpacity: 1, shape: "circle"}},
-      "ca": {line: {color: "#5AB6B2", weight: 5, opacity: 1},
-          stop: {radius: 5, weight: 3, color: "#5AB6B2", fillOpacity: 1, shape: "circle"}},
-      "ma": {line: {color: "#CA5898", weight: 5, opacity: 1},
-          stop: {radius: 5, weight: 3, color: "#CA5898", fillOpacity: 1, shape: "circle"}},
-      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
-          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+          stop: {radius: 5, weight: 3, color: "#F16179", fillOpacity: 1, shape: "circle"}}},
     changements: ``,
     pourquoi: ``},
 
-
-
-  
-  "exo11": {title: "Modes lourds", type: "lourds_vh",
-    files: {currentShapes: "../GeoJSON/curr-511.geojson", newShapes: "../GeoJSON/511.geojson", 
+  "exo12": {title: "exo12 • Saint-Jérôme", type: "lourd_sj",
+    files: {currentShapes: "../GeoJSON/curr-exo12.geojson", newShapes: "../GeoJSON/exo12.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "", inbound: ""},
+    directionLabels: {outbound: "Lucien-L'Allier / De La Concorde ⇋ Saint-Jérôme"},
     branchStyles: {
-      "vh": {line: {color: "#F16179", weight: 5, opacity: 1},
-          stop: {radius: 5, weight: 3, color: "#F16179", fillOpacity: 1, shape: "circle"}},
       "sj": {line: {color: "#FBD06C", weight: 5, opacity: 1},
-          stop: {radius: 5, weight: 3, color: "#FBD06C", fillOpacity: 1, shape: "circle"}},
+          stop: {radius: 5, weight: 3, color: "#FBD06C", fillOpacity: 1, shape: "circle"}}},
+    changements: ``,
+    pourquoi: ``},
+
+  "exo13": {title: "exo13 • Mont-Saint-Hilaire", type: "lourd_sh",
+    files: {currentShapes: "../GeoJSON/curr-exo13.geojson", newShapes: "../GeoJSON/exo13.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Gare Centrale ⇋ Mont-Saint-Hilaire"},
+    branchStyles: {
       "sh": {line: {color: "#999AC6", weight: 5, opacity: 1},
-          stop: {radius: 5, weight: 3, color: "#999AC6", fillOpacity: 1, shape: "circle"}},
+          stop: {radius: 5, weight: 3, color: "#999AC6", fillOpacity: 1, shape: "circle"}}},
+    changements: ``,
+    pourquoi: ``},
+
+  "exo14": {title: "exo14 • Candiac", type: "lourd_ca",
+    files: {currentShapes: "../GeoJSON/curr-exo14.geojson", newShapes: "../GeoJSON/exo14.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Lucien-L'Allier ⇋ Candiac"},
+    branchStyles: {
       "ca": {line: {color: "#5AB6B2", weight: 5, opacity: 1},
-          stop: {radius: 5, weight: 3, color: "#5AB6B2", fillOpacity: 1, shape: "circle"}},
+          stop: {radius: 5, weight: 3, color: "#5AB6B2", fillOpacity: 1, shape: "circle"}}},
+    changements: ``,
+    pourquoi: ``},
+  
+  "exo15": {title: "exo15 • Mascouche", type: "lourd_ma",
+    files: {currentShapes: "../GeoJSON/curr-exo15.geojson", newShapes: "../GeoJSON/exo15.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Côte-de-Liesse ⇋ Mascouche"},
+    branchStyles: {
       "ma": {line: {color: "#CA5898", weight: 5, opacity: 1},
-          stop: {radius: 5, weight: 3, color: "#CA5898", fillOpacity: 1, shape: "circle"}},
-      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
-          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+          stop: {radius: 5, weight: 3, color: "#CA5898", fillOpacity: 1, shape: "circle"}}},
     changements: ``,
     pourquoi: ``},
   

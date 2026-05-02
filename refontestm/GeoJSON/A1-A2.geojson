@@ -10,7 +10,7 @@
                   "10311","10312","10313","10314","10315","10341","10342"],
         "direction": "outbound",
         "headsign": "A1-A2 • Brossard ⇋ YUL Aéroport Montréal-Trudeau",
-        "branch": "remA2"
+        "branch": "A1-A2"
       },
       "geometry": {
         "type": "LineString",

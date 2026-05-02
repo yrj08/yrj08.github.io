@@ -8,7 +8,7 @@
 {"type":"Feature","properties":{"stop_id":"10105","stop_name":"De L'Église","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5669075,45.4634096]}},
 {"type":"Feature","properties":{"stop_id":"10106","stop_name":"LaSalle","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5661582,45.4708124]}},
 {"type":"Feature","properties":{"stop_id":"10107","stop_name":"Charlevoix","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5693792,45.4782818]}},
-{"type":"Feature","properties":{"stop_id":"10108","stop_name":"Lionel-Groulx","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5798973,45.4828127]}}
+{"type":"Feature","properties":{"stop_id":"10108","stop_name":"Lionel-Groulx","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5798973,45.4828127]}},
 {"type":"Feature","properties":{"stop_id":"10109","stop_name":"Atwater","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5863479,45.4898543]}},
 {"type":"Feature","properties":{"stop_id":"10110","stop_name":"Guy-Concordia","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5789724,45.4957558]}},
 {"type":"Feature","properties":{"stop_id":"10111","stop_name":"Peel","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.5744772,45.5009243]}},

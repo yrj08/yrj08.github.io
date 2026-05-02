@@ -2,6 +2,18 @@
   "type": "FeatureCollection",
   "features": [
 
+
+
+
+{"type":"Feature","properties":{"stop_id":"10401","stop_name":"Berri-UQAM","icons":["jaune.png"]},"geometry":{"type":"Point","coordinates":[-73.5609275,45.5139859]}},
+{"type":"Feature","properties":{"stop_id":"10402","stop_name":"Jean-Drapeau","icons":["jaune.png"]},"geometry":{"type":"Point","coordinates":[-73.5331512,45.5124313]}},
+{"type":"Feature","properties":{"stop_id":"10403","stop_name":"Longueuil–Université-de-Sherbrooke","icons":["jaune.png"]},"geometry":{"type":"Point","coordinates":[-73.5220121,45.5248629]}},
+
+
+
+
+
+
 {"type":"Feature","properties":{"stop_id":"50101","stop_name":"Louis-H.-La Fontaine / Curatteau (50101)"},"geometry":{"type":"Point","coordinates":[-73.542634,45.594058]}},
 {"type":"Feature","properties":{"stop_id":"50102","stop_name":"Saint-Jacques / No 6640 (50102)"},"geometry":{"type":"Point","coordinates":[-73.625831,45.460511]}},
 {"type":"Feature","properties":{"stop_id":"50103","stop_name":"Saint-Jacques / No 6710 (50103)"},"geometry":{"type":"Point","coordinates":[-73.626973,45.458946]}},

@@ -73,21 +73,11 @@ window.routeConfigs = {
 
 
   
-  "11": {title: "Modes lourds", type: "modes_lourds",
-    files: {currentShapes: "../GeoJSON/curr-000.geojson", newShapes: "../GeoJSON/000.geojson", 
+  "exo11": {title: "Modes lourds", type: "lourds_vh",
+    files: {currentShapes: "../GeoJSON/curr-511.geojson", newShapes: "../GeoJSON/511.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "", inbound: ""},
     branchStyles: {
-      "verte": {line: {color: "#00B300", weight: 7, opacity: 1},
-          stop: {radius: 7, weight: 3, color: "#00B300", fillOpacity: 1, shape: "circle"}},
-      "orange": {line: {color: "#D95700", weight: 7, opacity: 1},
-          stop: {radius: 7, weight: 3, color: "#D95700", fillOpacity: 1, shape: "circle"}},
-      "jaune": {line: {color: "#FFD900", weight: 7, opacity: 1},
-          stop: {radius: 7, weight: 3, color: "#FFD900", fillOpacity: 1, shape: "circle"}},
-      "bleue": {line: {color: "#0095E6", weight: 7, opacity: 1},
-          stop: {radius: 7, weight: 3, color: "#0095E6", fillOpacity: 1, shape: "circle"}},
-      "rem": {line: {color: "#73A400", weight: 7, opacity: 1},
-          stop: {radius: 7, weight: 3, color: "#73A400", fillOpacity: 1, shape: "circle"}},
       "vh": {line: {color: "#F16179", weight: 5, opacity: 1},
           stop: {radius: 5, weight: 3, color: "#F16179", fillOpacity: 1, shape: "circle"}},
       "sj": {line: {color: "#FBD06C", weight: 5, opacity: 1},

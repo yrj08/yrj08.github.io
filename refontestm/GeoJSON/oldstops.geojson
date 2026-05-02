@@ -107,9 +107,17 @@
 
 
 
-
-
-
+{"type":"Feature","properties":{"stop_id":"21501","stop_name":"Côte-de-Liesse","icons":["exo15.png"]},"geometry":{"type":"Point","coordinates":[-73.6615176,45.5218411]}},
+{"type":"Feature","properties":{"stop_id":"21502","stop_name":"Ahuntsic","icons":["exo15.png"]},"geometry":{"type":"Point","coordinates":[-73.6624980,45.5353792]}},
+{"type":"Feature","properties":{"stop_id":"21503","stop_name":"Sauvé","icons":["exo15.png"]},"geometry":{"type":"Point","coordinates":[-73.6543450,45.5495542]}},
+{"type":"Feature","properties":{"stop_id":"21504","stop_name":"Saint-Michel–Montréal-Nord","icons":["exo15.png"]},"geometry":{"type":"Point","coordinates":[-73.6298922,45.5833055]}},
+{"type":"Feature","properties":{"stop_id":"21505","stop_name":"Saint-Léonard–Montréal-Nord","icons":["exo15.png"]},"geometry":{"type":"Point","coordinates":[-73.6149546,45.6014136]}},
+{"type":"Feature","properties":{"stop_id":"21506","stop_name":"Anjou","icons":["exo15.png"]},"geometry":{"type":"Point","coordinates":[-73.5963617,45.6182705]}},
+{"type":"Feature","properties":{"stop_id":"21507","stop_name":"Rivière-des-Prairies","icons":["exo15.png"]},"geometry":{"type":"Point","coordinates":[-73.5383306,45.6612247]}},
+{"type":"Feature","properties":{"stop_id":"21508","stop_name":"Pointe-aux-Trembles","icons":["exo15.png"]},"geometry":{"type":"Point","coordinates":[-73.5057193,45.6748157]}},
+{"type":"Feature","properties":{"stop_id":"21509","stop_name":"Repentigny","icons":["exo15.png"]},"geometry":{"type":"Point","coordinates":[-73.4860665,45.7356871]}},
+{"type":"Feature","properties":{"stop_id":"21510","stop_name":"Terrebonne","icons":["exo15.png"]},"geometry":{"type":"Point","coordinates":[-73.5213385,45.7283516]}},
+{"type":"Feature","properties":{"stop_id":"21511","stop_name":"Mascouche","icons":["exo15.png"]},"geometry":{"type":"Point","coordinates":[-73.5987596,45.7297467]}},
 {"type":"Feature","properties":{"stop_id":"50101","stop_name":"Louis-H.-La Fontaine / Curatteau (50101)"},"geometry":{"type":"Point","coordinates":[-73.542634,45.594058]}},
 {"type":"Feature","properties":{"stop_id":"50102","stop_name":"Saint-Jacques / No 6640 (50102)"},"geometry":{"type":"Point","coordinates":[-73.625831,45.460511]}},
 {"type":"Feature","properties":{"stop_id":"50103","stop_name":"Saint-Jacques / No 6710 (50103)"},"geometry":{"type":"Point","coordinates":[-73.626973,45.458946]}},

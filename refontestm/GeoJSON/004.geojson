@@ -7,7 +7,7 @@
         "route": "4",
         "variant": "main",
         "direction": "outbound",
-        "headsign": "Ligne 4 - Jaune",
+        "headsign": "Berri-UQAM ⇋ Longueuil-U.-de-S.",
         "stops": ["10401","10402","10403"],
         "branch": "jaune"
       },

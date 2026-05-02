@@ -40,7 +40,7 @@ window.routeConfigs = {
     changements: ``,
     pourquoi: ``},
 
-  "A1-A2": {title: "REM • Réseau express métropolitain", type: "lourd_remA2",
+  "A1-A2": {title: "REM A1-A2 • Réseau express métropolitain", type: "lourd_remA2",
     files: {currentShapes: "../GeoJSON/curr-A1-A2.geojson", newShapes: "../GeoJSON/A1-A2.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Brossard ⇋ YUL Aéroport Montréal-Trudeau"},
@@ -50,7 +50,7 @@ window.routeConfigs = {
     changements: ``,
     pourquoi: ``},
 
-  "A1-A3": {title: "REM • Réseau express métropolitain", type: "lourd_remA3",
+  "A1-A3": {title: "REM A1-A3 • Réseau express métropolitain", type: "lourd_remA3",
     files: {currentShapes: "../GeoJSON/curr-A1-A3.geojson", newShapes: "../GeoJSON/A1-A3.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Brossard ⇋ Anse-à-l'Orme"},
@@ -60,7 +60,7 @@ window.routeConfigs = {
     changements: ``,
     pourquoi: ``},
   
-  "A1-A4": {title: "REM • Réseau express métropolitain", type: "lourd_remA4",
+  "A1-A4": {title: "REM A1-A4 • Réseau express métropolitain", type: "lourd_remA4",
     files: {currentShapes: "../GeoJSON/curr-A1-A4.geojson", newShapes: "../GeoJSON/A1-A4.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Brossard ⇋ Deux-Montagnes"},

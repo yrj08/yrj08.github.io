@@ -1,6 +1,6 @@
 window.routeConfigs = {
   
-  "350": {title: "Ligne 350 • Verdun / LaSalle",
+  "350": {title: "Ligne 350 • Verdun / LaSalle", type: "nuit",
     files: {currentShapes: "../refontestm/GeoJSON/curr-350.geojson", newShapes: "../refontestm/GeoJSON/350.geojson", 
             currentStops: "../refontestm/GeoJSON/oldstops.geojson", newStops: "../refontestm/GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Frontenac", 
@@ -54,7 +54,7 @@ window.routeConfigs = {
         nombre d'arrêts.</li>
     `},
 
-  "352": {title: "Ligne 352 • Centrale",
+  "352": {title: "Ligne 352 • Centrale", type: "nuit",
     files: {currentShapes: "../refontestm/GeoJSON/curr-352.geojson", newShapes: "../refontestm/GeoJSON/352.geojson", 
             currentStops: "../refontestm/GeoJSON/oldstops.geojson", newStops: "../refontestm/GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Place-des-Arts", 
@@ -82,7 +82,7 @@ window.routeConfigs = {
         demande plus forte.</li>
     `},
   
-  "353": {title: "Ligne 353 • Lacordaire / Maurice-Duplessis",
+  "353": {title: "Ligne 353 • Lacordaire / Maurice-Duplessis", type: "nuit",
     files: {currentShapes: "../refontestm/GeoJSON/curr-353.geojson", newShapes: "../refontestm/GeoJSON/353.geojson", 
             currentStops: "../refontestm/GeoJSON/oldstops.geojson", newStops: "../refontestm/GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Gare Rivière-des-Prairies", 
@@ -111,7 +111,7 @@ window.routeConfigs = {
         nombre d'arrêts.</li>
     `},
 
-  "354": {title: "Ligne 354 • Des Sources / YUL Aéroport",
+  "354": {title: "Ligne 354 • Des Sources / YUL Aéroport", type: "nuit",
     files: {currentShapes: "../refontestm/GeoJSON/curr-354.geojson", newShapes: "../refontestm/GeoJSON/354.geojson", 
             currentStops: "../refontestm/GeoJSON/oldstops.geojson", newStops: "../refontestm/GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Place-des-Arts", 
@@ -145,7 +145,7 @@ window.routeConfigs = {
         en service pendant la nuit.</li>
     `},
 
-  "355": {title: "Ligne 355 • Pie-IX",
+  "355": {title: "Ligne 355 • Pie-IX", type: "nuit",
     files: {currentShapes: "../refontestm/GeoJSON/curr-355.geojson", newShapes: "../refontestm/GeoJSON/355.geojson", 
             currentStops: "../refontestm/GeoJSON/oldstops.geojson", newStops: "../refontestm/GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – Carrefour Henri-Bourassa / Pie-IX", 
@@ -183,7 +183,7 @@ window.routeConfigs = {
         nombre d'arrêts.</li>
     `},
 
-  "356": {title: "Ligne 356 • Sherbrooke / YUL Aéroport",
+  "356": {title: "Ligne 356 • Sherbrooke / YUL Aéroport", type: "nuit",
     files: {currentShapes: "../refontestm/GeoJSON/curr-356.geojson", newShapes: "../refontestm/GeoJSON/356.geojson", 
             currentStops: "../refontestm/GeoJSON/oldstops.geojson", newStops: "../refontestm/GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Frontenac", 
@@ -216,7 +216,7 @@ window.routeConfigs = {
         nombre d'arrêts.</li>
     `},
 
-  "357": {title: "Ligne 357 • Saint-Michel",
+  "357": {title: "Ligne 357 • Saint-Michel", type: "nuit",
     files: {currentShapes: "../refontestm/GeoJSON/curr-357.geojson", newShapes: "../refontestm/GeoJSON/357.geojson", 
             currentStops: "../refontestm/GeoJSON/oldstops.geojson", newStops: "../refontestm/GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – Saint-Michel / Henri-Bourassa", 
@@ -244,7 +244,7 @@ window.routeConfigs = {
         nombre d'arrêts.</li>
     `},
   
-  "359": {title: "Ligne 359 • Papineau",
+  "359": {title: "Ligne 359 • Papineau", type: "nuit",
     files: {currentShapes: "../refontestm/GeoJSON/curr-359.geojson", newShapes: "../refontestm/GeoJSON/359.geojson", 
             currentStops: "../refontestm/GeoJSON/oldstops.geojson", newStops: "../refontestm/GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – Henri-Bourassa / De Saint-Firmin", 
@@ -265,7 +265,7 @@ window.routeConfigs = {
         nombre d'arrêts.</li>
     `},
   
-  "361": {title: "Ligne 361 • Saint-Denis",
+  "361": {title: "Ligne 361 • Saint-Denis", type: "nuit",
     files: {currentShapes: "../refontestm/GeoJSON/curr-361.geojson", newShapes: "../refontestm/GeoJSON/361.geojson", 
             currentStops: "../refontestm/GeoJSON/oldstops.geojson", newStops: "../refontestm/GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – Station Henri-Bourassa", 
@@ -299,7 +299,7 @@ window.routeConfigs = {
         nombre d'arrêts.</li>
     `},
 
-  "362": {title: "Ligne 362 • Hochelaga / Notre-Dame",
+  "362": {title: "Ligne 362 • Hochelaga / Notre-Dame", type: "nuit",
     files: {currentShapes: "../refontestm/GeoJSON/curr-362.geojson", newShapes: "../refontestm/GeoJSON/362.geojson", 
             currentStops: "../refontestm/GeoJSON/oldstops.geojson", newStops: "../refontestm/GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – 100e Avenue / Bureau", 
@@ -323,7 +323,7 @@ window.routeConfigs = {
         nombre d'arrêts.</li>
     `},
 
-  "363": {title: "Ligne 363 • Saint-Laurent",
+  "363": {title: "Ligne 363 • Saint-Laurent", type: "nuit",
     files: {currentShapes: "../refontestm/GeoJSON/curr-363.geojson", newShapes: "../refontestm/GeoJSON/363.geojson", 
             currentStops: "../refontestm/GeoJSON/oldstops.geojson", newStops: "../refontestm/GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – Station Henri-Bourassa", 
@@ -351,7 +351,7 @@ window.routeConfigs = {
         nombre d'arrêts.</li>
     `},
 
-  "364": {title: "Ligne 364 • Sherbrooke / Joseph-Renaud",
+  "364": {title: "Ligne 364 • Sherbrooke / Joseph-Renaud", type: "nuit",
     files: {currentShapes: "../refontestm/GeoJSON/curr-364.geojson", newShapes: "../refontestm/GeoJSON/364.geojson", 
             currentStops: "../refontestm/GeoJSON/oldstops.geojson", newStops: "../refontestm/GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Centre de transport Anjou", 
@@ -373,7 +373,7 @@ window.routeConfigs = {
         nombre d'arrêts.</li>
     `},
 
-  "365": {title: "Ligne 365 • Du Parc",
+  "365": {title: "Ligne 365 • Du Parc", type: "nuit",
     files: {currentShapes: "../refontestm/GeoJSON/curr-365.geojson", newShapes: "../refontestm/GeoJSON/365.geojson", 
             currentStops: "../refontestm/GeoJSON/oldstops.geojson", newStops: "../refontestm/GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – Terminus Grenet / De Serres", 
@@ -395,7 +395,7 @@ window.routeConfigs = {
         nombre d'arrêts.</li>
     `},
   
-  "368": {title: "Ligne 368 • Édouard-Montpetit",
+  "368": {title: "Ligne 368 • Édouard-Montpetit", type: "nuit",
     files: {currentShapes: "../refontestm/GeoJSON/curr-368.geojson", newShapes: "../refontestm/GeoJSON/368.geojson", 
             currentStops: "../refontestm/GeoJSON/oldstops.geojson", newStops: "../refontestm/GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – du Havre / Sainte-Catherine", 
@@ -417,7 +417,7 @@ window.routeConfigs = {
         nombre d'arrêts.</li>
     `},
   
-  "369": {title: "Ligne 369 • Côte-des-Neiges",
+  "369": {title: "Ligne 369 • Côte-des-Neiges", type: "nuit",
     files: {currentShapes: "../refontestm/GeoJSON/curr-369.geojson", newShapes: "../refontestm/GeoJSON/369.geojson", 
             currentStops: "../refontestm/GeoJSON/oldstops.geojson", newStops: "../refontestm/GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – Station Côte-de-Liesse", 
@@ -448,7 +448,7 @@ window.routeConfigs = {
         nombre d'arrêts.</li>
     `},
 
-  "370": {title: "Ligne 370 • Rosemont",
+  "370": {title: "Ligne 370 • Rosemont", type: "nuit",
     files: {currentShapes: "../refontestm/GeoJSON/curr-370.geojson", newShapes: "../refontestm/GeoJSON/370.geojson", 
             currentStops: "../refontestm/GeoJSON/oldstops.geojson", newStops: "../refontestm/GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Honoré-Beaugrand", 
@@ -472,7 +472,7 @@ window.routeConfigs = {
         nombre d'arrêts.</li>
     `},
 
-  "371": {title: "Ligne 371 • Décarie",
+  "371": {title: "Ligne 371 • Décarie", type: "nuit",
     files: {currentShapes: "../refontestm/GeoJSON/curr-371.geojson", newShapes: "../refontestm/GeoJSON/371.geojson", 
             currentStops: "../refontestm/GeoJSON/oldstops.geojson", newStops: "../refontestm/GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – Terminus Grenet / De Serres", 
@@ -505,7 +505,7 @@ window.routeConfigs = {
         nombre d'arrêts.</li>
     `},
 
-  "372": {title: "Ligne 372 • Jean-Talon",
+  "372": {title: "Ligne 372 • Jean-Talon", type: "nuit",
     files: {currentShapes: "../refontestm/GeoJSON/curr-372.geojson", newShapes: "../refontestm/GeoJSON/372.geojson", 
             currentStops: "../refontestm/GeoJSON/oldstops.geojson", newStops: "../refontestm/GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Gare Rivière-des-Prairies", 
@@ -544,7 +544,7 @@ window.routeConfigs = {
         nombre d'arrêts.</li>
     `},
   
-  "375": {title: "Ligne 375 • Côte-de-Liesse / YUL Aéroport",
+  "375": {title: "Ligne 375 • Côte-de-Liesse / YUL Aéroport", type: "nuit",
     files: {currentShapes: "../refontestm/GeoJSON/curr-375.geojson", newShapes: "../refontestm/GeoJSON/375.geojson", 
             currentStops: "../refontestm/GeoJSON/oldstops.geojson", newStops: "../refontestm/GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Côte-Vertu", 
@@ -572,7 +572,7 @@ window.routeConfigs = {
         nombre d'arrêts.</li>
     `},
   
-  "376": {title: "Ligne 376 • Brunswick / Anse-à-l'Orme",
+  "376": {title: "Ligne 376 • Brunswick / Anse-à-l'Orme", type: "nuit",
     files: {currentShapes: "../refontestm/GeoJSON/curr-376.geojson", newShapes: "../refontestm/GeoJSON/376.geojson", 
             currentStops: "../refontestm/GeoJSON/oldstops.geojson", newStops: "../refontestm/GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Namur", 
@@ -611,7 +611,7 @@ window.routeConfigs = {
         nombre d'arrêts.</li>
     `},
 
-  "378": {title: "Ligne 378 • Sauvé / Côte-Vertu",
+  "378": {title: "Ligne 378 • Sauvé / Côte-Vertu", type: "nuit",
     files: {currentShapes: "../refontestm/GeoJSON/curr-378.geojson", newShapes: "../refontestm/GeoJSON/378.geojson", 
             currentStops: "../refontestm/GeoJSON/oldstops.geojson", newStops: "../refontestm/GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Saint-Michel / Sauvé", 
@@ -636,7 +636,7 @@ window.routeConfigs = {
         nombre d'arrêts.</li>
     `},
   
-  "380": {title: "Ligne 380 • Henri-Bourassa",
+  "380": {title: "Ligne 380 • Henri-Bourassa", type: "nuit",
     files: {currentShapes: "../refontestm/GeoJSON/curr-380.geojson", newShapes: "../refontestm/GeoJSON/380.geojson", 
             currentStops: "../refontestm/GeoJSON/oldstops.geojson", newStops: "../refontestm/GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Centre de transport Anjou", 
@@ -669,7 +669,7 @@ window.routeConfigs = {
         nombre d'arrêts.</li>
     `},
 
-  "382": {title: "Ligne 382 • Pierrefonds / Saint-Charles",
+  "382": {title: "Ligne 382 • Pierrefonds / Saint-Charles", type: "nuit",
     files: {currentShapes: "../refontestm/GeoJSON/curr-382.geojson", newShapes: "../refontestm/GeoJSON/382.geojson", 
             currentStops: "../refontestm/GeoJSON/oldstops.geojson", newStops: "../refontestm/GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Guy-Concordia", 

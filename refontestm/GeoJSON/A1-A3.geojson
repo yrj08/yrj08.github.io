@@ -11,7 +11,7 @@
                   "10334"],
         "direction": "outbound",
         "headsign": "A1-A3 • Brossard ⇋ Anse-à-l'Orme",
-        "branch": "remA3"
+        "branch": "A1-A3"
       },
       "geometry": {
         "type": "LineString",

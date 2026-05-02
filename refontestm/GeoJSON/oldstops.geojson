@@ -112,7 +112,7 @@
 {"type":"Feature","properties":{"stop_id":"21503","stop_name":"Sauvé","icons":["exo15.png"]},"geometry":{"type":"Point","coordinates":[-73.6543450,45.5495542]}},
 {"type":"Feature","properties":{"stop_id":"21504","stop_name":"Saint-Michel–Montréal-Nord","icons":["exo15.png"]},"geometry":{"type":"Point","coordinates":[-73.6298922,45.5833055]}},
 {"type":"Feature","properties":{"stop_id":"21505","stop_name":"Saint-Léonard–Montréal-Nord","icons":["exo15.png"]},"geometry":{"type":"Point","coordinates":[-73.6149546,45.6014136]}},
-{"type":"Feature","properties":{"stop_id":"21506","stop_name":"Anjou","icons":["exo15.png"]},"geometry":{"type":"Point","coordinates":[-73.5963617,45.6182705]}},
+{"type":"Feature","properties":{"stop_id":"21506","stop_name":"Anjou","icons":["exo15.png"]},"geometry":{"type":"Point","coordinates":[-73.5962571,45.6182311]}},
 {"type":"Feature","properties":{"stop_id":"21507","stop_name":"Rivière-des-Prairies","icons":["exo15.png"]},"geometry":{"type":"Point","coordinates":[-73.5383306,45.6612247]}},
 {"type":"Feature","properties":{"stop_id":"21508","stop_name":"Pointe-aux-Trembles","icons":["exo15.png"]},"geometry":{"type":"Point","coordinates":[-73.5057193,45.6748157]}},
 {"type":"Feature","properties":{"stop_id":"21509","stop_name":"Repentigny","icons":["exo15.png"]},"geometry":{"type":"Point","coordinates":[-73.4860665,45.7356871]}},

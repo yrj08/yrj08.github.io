@@ -19,16 +19,6 @@ window.routeConfigs = {
           stop: {radius: 7, weight: 3, color: "#D95700", fillOpacity: 1, shape: "circle"}}},
     changements: ``,
     pourquoi: ``},
-
-  "3": {title: "REM • Réseau express métropolitain", type: "lourd_rem",
-    files: {currentShapes: "../GeoJSON/curr-003.geojson", newShapes: "../GeoJSON/003.geojson", 
-            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Brossard ⇋ YUL Aéroport / Anse-à-l'Orme / Deux-Montagnes"},
-    branchStyles: {
-      "rem": {line: {color: "#73A400", weight: 7, opacity: 1},
-          stop: {radius: 7, weight: 3, color: "#73A400", fillOpacity: 1, shape: "circle"}}},
-    changements: ``,
-    pourquoi: ``},
   
   "4": {title: "Ligne 4 • Jaune", type: "lourd_jaune",
     files: {currentShapes: "../GeoJSON/curr-004.geojson", newShapes: "../GeoJSON/004.geojson", 
@@ -47,6 +37,36 @@ window.routeConfigs = {
     branchStyles: {
       "bleue": {line: {color: "#0095E6", weight: 7, opacity: 1},
           stop: {radius: 7, weight: 3, color: "#0095E6", fillOpacity: 1, shape: "circle"}}},
+    changements: ``,
+    pourquoi: ``},
+
+  "A1-A2": {title: "REM • Réseau express métropolitain", type: "lourd_rem",
+    files: {currentShapes: "../GeoJSON/curr-remA2.geojson", newShapes: "../GeoJSON/remA2.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Brossard ⇋ YUL Aéroport Montréal-Trudeau"},
+    branchStyles: {
+      "remA2": {line: {color: "#73A400", weight: 7, opacity: 1},
+          stop: {radius: 7, weight: 3, color: "#73A400", fillOpacity: 1, shape: "circle"}}},
+    changements: ``,
+    pourquoi: ``},
+
+  "A1-A3": {title: "REM • Réseau express métropolitain", type: "lourd_rem",
+    files: {currentShapes: "../GeoJSON/curr-remA3.geojson", newShapes: "../GeoJSON/remA3.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Brossard ⇋ Anse-à-l'Orme"},
+    branchStyles: {
+      "remA3": {line: {color: "#73A400", weight: 7, opacity: 1},
+          stop: {radius: 7, weight: 3, color: "#73A400", fillOpacity: 1, shape: "circle"}}},
+    changements: ``,
+    pourquoi: ``},
+
+  "A1-A4": {title: "REM • Réseau express métropolitain", type: "lourd_rem",
+    files: {currentShapes: "../GeoJSON/curr-remA4.geojson", newShapes: "../GeoJSON/remA4.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Brossard ⇋ Deux-Montagnes"},
+    branchStyles: {
+      "remA4": {line: {color: "#73A400", weight: 7, opacity: 1},
+          stop: {radius: 7, weight: 3, color: "#73A400", fillOpacity: 1, shape: "circle"}}},
     changements: ``,
     pourquoi: ``},
   

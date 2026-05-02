@@ -8,6 +8,7 @@
         "variant": "main",
         "direction": "outbound",
         "headsign": "Ligne 4 - Jaune",
+        "stops": ["10401","10402","10403"],
         "branch": "jaune"
       },
       "geometry": {
@@ -23,55 +24,6 @@
                         [-73.5307418,45.514101],[-73.5235717,45.5193261],[-73.5230871,45.5198638],
                         [-73.5226883,45.5204616],[-73.5224454,45.5210337],[-73.5222883,45.5217561],
                         [-73.522089,45.5236085],[-73.5218834,45.5261858]]
-      }
-    },
-
-    {
-      "type": "Feature",
-      "properties": {
-        "route": "4",
-        "variant": "main",
-        "stop_name": "Berri-UQAM",
-        "branch": "jaune"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.5609275,
-          45.5139859
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "route": "4",
-        "variant": "main",
-        "stop_name": "Jean-Drapeau",
-        "branch": "jaune"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.5331512,
-          45.5124313
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "route": "4",
-        "variant": "main",
-        "stop_name": "Longueuil–Université-de-Sherbrooke",
-        "branch": "jaune"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.5220121,
-          45.5248629
-        ]
       }
     }
   ]

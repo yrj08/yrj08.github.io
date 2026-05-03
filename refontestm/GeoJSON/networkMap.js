@@ -56,6 +56,7 @@ function createNetworkMap({ mapId, routeConfigs }) {
     frequent_pointe:  {color: "#8B469E"},
     nuit:             {color: "#000000"},
     saisonnier:       {color: "#FF9300"},
+    tc:               {color: "#D9B75F"},
     lourd_verte:      {color: "#00B300", weight: 7},
     lourd_orange:     {color: "#D95700", weight: 7},
     lourd_rem:        {color: "#73A400", weight: 7},
@@ -124,53 +125,53 @@ function createNetworkMap({ mapId, routeConfigs }) {
   function updateStops() {
     stopLayer.clearLayers();
 
+    const normalMarkers = [];
+    const highlightedMarkers = [];
+    
     Object.values(stops).forEach(stop => {
       const visible = stop.services.filter(s =>
         activeRoutes.has(s.routeId)
       );
-
+    
+      if (visible.length === 0) return;
+    
       const isHighlighted = visible.some(s =>
         highlightedLayers.some(l =>
           l._routeMeta.routeId === s.routeId &&
           l._routeMeta.direction === s.direction
         )
       );
-
-      if (visible.length === 0) return;
-
+    
       const primaryService = visible[0];
       const primaryCfg = routeConfigs[primaryService.routeId];
       const primaryColor =
         ROUTE_TYPE_STYLES[primaryCfg.type]?.color || "#000";
-      
-      const isRapid = primaryCfg.type?.startsWith("lourd_");
-
+      const isRapid = primaryCfg.type.startsWith("lourd_");
+    
       const marker = L.circleMarker(stop.coords, {
         pane: "pane_bus_stops",
-      
+    
         radius: isHighlighted
           ? 7
-          : (isRapid ? 6 : 4),
-      
+          : (isRapid ? 7 : 4),
+    
         color: isHighlighted
           ? "#ff0000"
           : (isRapid ? primaryColor : "#000"),
-      
+    
         fillColor: "#fff",
-      
         fillOpacity: 1,
-      
+    
         weight: isHighlighted
           ? 4
           : (isRapid ? 4 : 3)
       });
-      
-
+    
       const stopName = formatStopName({
         stop_name: stop.name,
         icons: stop.icons
       });
-      
+    
       const html = `
         <div style="font-size:16px; font-weight:bold; margin-bottom:6px;">
           ${stopName}
@@ -178,35 +179,45 @@ function createNetworkMap({ mapId, routeConfigs }) {
         ${visible
           .sort((a, b) => a.routeId.localeCompare(b.routeId, undefined, { numeric: true }))
           .map(s => {
-          const cfg = routeConfigs[s.routeId];
-          const color =
-            ROUTE_TYPE_STYLES[cfg.type]?.color || "#333";
-      
-          return `
-            <div style="margin:3px 0;">
-              <span style="
-                display:inline-block;
-                min-width:32px;
-                text-align:center;
-                background:${color};
-                color:#fff;
-                font-weight:bold;
-                border-radius:4px;
-                padding:2px 6px;
-                margin-right:6px;
-              ">
-                ${s.routeId}
-              </span>
-              ${s.headsign}
-            </div>
-          `;
-        }).join("")}
+            const cfg = routeConfigs[s.routeId];
+            const color = ROUTE_TYPE_STYLES[cfg.type]?.color || "#333";
+    
+            return `
+              <div style="margin:3px 0;">
+                <span style="
+                  display:inline-block;
+                  min-width:32px;
+                  text-align:center;
+                  background:${color};
+                  color:#fff;
+                  font-weight:bold;
+                  border-radius:4px;
+                  padding:2px 6px;
+                  margin-right:6px;
+                ">
+                  ${s.routeId}
+                </span>
+                ${s.headsign}
+              </div>
+            `;
+          }).join("")}
       `;
-      
+    
       marker.bindPopup(html);
-
-      stopLayer.addLayer(marker);
+    
+      if (isHighlighted) {
+        highlightedMarkers.push(marker);
+      } else {
+        normalMarkers.push(marker);
+      }
     });
+    
+    // normal first
+    normalMarkers.forEach(m => stopLayer.addLayer(m));
+    
+    // highlighted last = on top
+    highlightedMarkers.forEach(m => stopLayer.addLayer(m));
+    
   }
 
   const loadPromises = Object.entries(routeConfigs).map(([routeId, cfg]) => {

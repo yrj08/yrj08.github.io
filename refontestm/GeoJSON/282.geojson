@@ -7,10 +7,10 @@
                 "route": "282",
                 "direction": "outbound",
                 "branch": "2820000",
-                "variant": "tc",
+                "variant": "main",
                 "stops": ["69151","69152","69153","69154","69155","69156","69157","69158",
                           "69159","69160","69161","69162","69163","69489","69490"],
-                "headsign": "Taxi collectif Côte-Vertu Ouest"
+                "headsign": "Côte-Vertu Ouest ⇋ Stations Côte-Vertu / Montpellier"
             },
             "geometry": {
                 "type": "MultiPolygon",

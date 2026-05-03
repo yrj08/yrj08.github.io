@@ -9155,7 +9155,7 @@
 {"type":"Feature","properties":{"stop_id":"69446","stop_name":"Hôpital Sainte-Anne (69446)"},"geometry":{"type":"Point","coordinates":[-73.949763,45.412570]}},
 {"type":"Feature","properties":{"stop_id":"69447","stop_name":"Clinique médicale Square Bellevue (69447)"},"geometry":{"type":"Point","coordinates":[-73.949257,45.413948]}},
 {"type":"Feature","properties":{"stop_id":"69448","stop_name":"Sainte-Anne / Marguerite-Bourgeoys (69448)"},"geometry":{"type":"Point","coordinates":[-73.956204,45.404970]}},
-{"type":"Feature","properties":{"stop_id":"69449","stop_name":"Terminus Macdonald (69449)"},"geometry":{"type":"Point","coordinates":[-73.939698,45.403735]}},
+{"type":"Feature","properties":{"stop_id":"69449","stop_name":"Terminus Macdonald (69449)","icons":["bus.png"]},"geometry":{"type":"Point","coordinates":[-73.939698,45.403735]}},
 {"type":"Feature","properties":{"stop_id":"69450","stop_name":"Hôpital Sainte-Anne (69450)"},"geometry":{"type":"Point","coordinates":[-73.949246,45.411374]}},
 {"type":"Feature","properties":{"stop_id":"69451","stop_name":"Morgan / face à Prestige (69451)"},"geometry":{"type":"Point","coordinates":[-73.915553,45.425844]}},
 {"type":"Feature","properties":{"stop_id":"69452","stop_name":"Morgan / No 575 (69452)"},"geometry":{"type":"Point","coordinates":[-73.915433,45.426412]}},

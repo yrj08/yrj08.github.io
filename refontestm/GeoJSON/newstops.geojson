@@ -318,7 +318,7 @@
 {"type":"Feature","properties":{"stop_id":"A0234","stop_name":"Queen-Mary / Clanranald (––)"},"geometry":{"type":"Point","coordinates":[-73.631396,45.480952]}},
 {"type":"Feature","properties":{"stop_id":"A0235","stop_name":"Queen-Mary / Coolbrook (––)"},"geometry":{"type":"Point","coordinates":[-73.629931,45.482540]}},
 {"type":"Feature","properties":{"stop_id":"A0236","stop_name":"Décarie / De Maisonneuve (––)","icons":["orange.png","exo11.png","exo12.png","exo14.png"]},"geometry":{"type":"Point","coordinates":[-73.606187,45.473050]}},
-{"type":"Feature","properties":{"stop_id":"A0237","stop_name":"René-Lévesque / Lucien-L'Allier (––)","icons":["orange.png","exo11.png","exo12.png","exo14.png"]},"geometry":{"type":"Point","coordinates":[-73.573092,45.496030]}},
+{"type":"Feature","properties":{"stop_id":"A0237","stop_name":"René-Lévesque / Crescent (––)","icons":["orange.png","exo11.png","exo12.png","exo14.png"]},"geometry":{"type":"Point","coordinates":[-73.573092,45.496030]}},
 {"type":"Feature","properties":{"stop_id":"A0238","stop_name":"René-Lévesque / Lucien-L'Allier (––)","icons":["orange.png","exo11.png","exo12.png","exo14.png"]},"geometry":{"type":"Point","coordinates":[-73.573106,45.495585]}},
 {"type":"Feature","properties":{"stop_id":"A9993","stop_name":"Station Anjou (localisation provisoire) (––)","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.560248,45.601091]}},
 {"type":"Feature","properties":{"stop_id":"A9994","stop_name":"Station Anjou (localisation provisoire) (––)","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.560462,45.601061]}},

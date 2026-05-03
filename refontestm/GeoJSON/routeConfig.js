@@ -3215,7 +3215,7 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},  
 
-  "281": {title: "Ligne 281 • Senneville / Sainte-Anne-de-Bellevue", type: "regulier",
+  "281": {title: "Ligne 281 • Senneville / Sainte-Anne-de-Bellevue", type: "tc_reg",
     files: {currentShapes: "../GeoJSON/curr-281.geojson", newShapes: "../GeoJSON/281.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Senneville / SADB ⇋ Station Anse-à-l'Orme / Gare SADB"},
@@ -3231,12 +3231,42 @@ window.routeConfigs = {
       <li>N/A</li>
     `},
   
-  "282": {title: "Ligne 282 • Côte-Vertu Ouest", type: "regulier",
+  "282": {title: "Ligne 282 • Côte-Vertu Ouest", type: "tc_reg",
     files: {currentShapes: "../GeoJSON/curr-282.geojson", newShapes: "../GeoJSON/282.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Côte-Vertu Ouest ⇋ Stations Côte-Vertu / Montpellier"},
     branchStyles: {
       "2820000": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Aucune modification.</li>
+    `,
+    pourquoi: `
+      <li>N/A</li>
+    `},
+
+  "283": {title: "Ligne 283 • Technoparc", type: "aboli",
+    files: {currentShapes: "../GeoJSON/curr-283.geojson", newShapes: "../GeoJSON/283.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Technoparc ⇋ Station Sunnybrooke"},
+    branchStyles: {
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Retrait du service à compter de l'ouverture de l'antenne YUL Aéroport du REM.</li>
+    `,
+    pourquoi: `
+      <li>Service devenu redondant suite à l'ouverture complète du REM dans le secteur.</li>
+    `},
+
+  "284": {title: "Ligne 284 • Baie-D'Urfé", type: "tc_reg",
+    files: {currentShapes: "../GeoJSON/curr-284.geojson", newShapes: "../GeoJSON/284.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Baie-D'Urfé ⇋ Gare Baie-D'Urfé"},
+    branchStyles: {
+      "2840000": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},

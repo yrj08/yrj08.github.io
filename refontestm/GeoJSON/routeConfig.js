@@ -3215,7 +3215,23 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},  
 
-  "282": {title: "Ligne 282 • Taxi collectif Côte-Vertu Ouest", type: "tc",
+  "281": {title: "Ligne 281 • Senneville / Sainte-Anne-de-Bellevue", type: "regulier",
+    files: {currentShapes: "../GeoJSON/curr-281.geojson", newShapes: "../GeoJSON/281.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Senneville / SADB ⇋ Station Anse-à-l'Orme / Gare SADB"},
+    branchStyles: {
+      "2810000": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Aucune modification.</li>
+    `,
+    pourquoi: `
+      <li>N/A</li>
+    `},
+  
+  "282": {title: "Ligne 282 • Côte-Vertu Ouest", type: "regulier",
     files: {currentShapes: "../GeoJSON/curr-282.geojson", newShapes: "../GeoJSON/282.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Côte-Vertu Ouest ⇋ Stations Côte-Vertu / Montpellier"},

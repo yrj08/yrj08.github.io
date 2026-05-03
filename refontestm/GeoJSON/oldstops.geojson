@@ -1433,7 +1433,7 @@
 {"type":"Feature","properties":{"stop_id":"51520","stop_name":"Villeray / Saint-Michel (51520)"},"geometry":{"type":"Point","coordinates":[-73.603847,45.561075]}},
 {"type":"Feature","properties":{"stop_id":"51521","stop_name":"Maurice-Duplessis / 5e Avenue (51521)"},"geometry":{"type":"Point","coordinates":[-73.602124,45.623875]}},
 {"type":"Feature","properties":{"stop_id":"51522","stop_name":"Station Beaubien (51522)","icons":["orange.png"]},"geometry":{"type":"Point","coordinates":[-73.604135,45.535077]}},
-{"type":"Feature","properties":{"stop_id":"51523","stop_name":"Décarie / De Maisonneuve (51523)"},"geometry":{"type":"Point","coordinates":[-73.606232,45.473208]}},
+{"type":"Feature","properties":{"stop_id":"51523","stop_name":"Décarie / De Maisonneuve (51523)","icons":["orange.png"]},"geometry":{"type":"Point","coordinates":[-73.606232,45.473208]}},
 {"type":"Feature","properties":{"stop_id":"51524","stop_name":"Jarry / 22e Avenue (51524)"},"geometry":{"type":"Point","coordinates":[-73.603212,45.571027]}},
 {"type":"Feature","properties":{"stop_id":"51525","stop_name":"Bernard / de l'Esplanade (51525)"},"geometry":{"type":"Point","coordinates":[-73.604308,45.525129]}},
 {"type":"Feature","properties":{"stop_id":"51526","stop_name":"Bernard / de l'Esplanade (51526)"},"geometry":{"type":"Point","coordinates":[-73.604441,45.524767]}},

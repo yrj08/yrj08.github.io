@@ -1,5 +1,45 @@
 window.routeConfigs = {
 
+  "1": {title: "Ligne 1 • Verte", type: "lourd_verte",
+    files: {currentShapes: "../GeoJSON/curr-001.geojson", newShapes: "../GeoJSON/001.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Angrignon ⇋ Honoré-Beaugrand"},
+    branchStyles: {
+      "verte": {line: {color: "#00B300", weight: 7, opacity: 1},
+          stop: {radius: 7, weight: 3, color: "#00B300", fillOpacity: 1, shape: "circle"}}},
+    changements: ``,
+    pourquoi: ``},
+
+  "2": {title: "Ligne 2 • Orange", type: "lourd_orange",
+    files: {currentShapes: "../GeoJSON/curr-002.geojson", newShapes: "../GeoJSON/002.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Côte-Vertu ⇋ Montmorency"},
+    branchStyles: {
+      "orange": {line: {color: "#D95700", weight: 7, opacity: 1},
+          stop: {radius: 7, weight: 3, color: "#D95700", fillOpacity: 1, shape: "circle"}}},
+    changements: ``,
+    pourquoi: ``},
+  
+  "4": {title: "Ligne 4 • Jaune", type: "lourd_jaune",
+    files: {currentShapes: "../GeoJSON/curr-004.geojson", newShapes: "../GeoJSON/004.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Berri-UQAM ⇋ Longueuil-U.-de-S."},
+    branchStyles: {
+      "jaune": {line: {color: "#FFD900", weight: 7, opacity: 1},
+          stop: {radius: 7, weight: 3, color: "#FFD900", fillOpacity: 1, shape: "circle"}}},
+    changements: ``,
+    pourquoi: ``},
+
+  "5": {title: "Ligne 5 • Bleue", type: "lourd_bleue",
+    files: {currentShapes: "../GeoJSON/curr-005.geojson", newShapes: "../GeoJSON/005.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Snowdon ⇋ Anjou"},
+    branchStyles: {
+      "bleue": {line: {color: "#0095E6", weight: 7, opacity: 1},
+          stop: {radius: 7, weight: 3, color: "#0095E6", fillOpacity: 1, shape: "circle"}}},
+    changements: ``,
+    pourquoi: ``},
+
   "A1-A2": {title: "REM A1-A2 • Réseau express métropolitain", type: "lourd_rem",
     files: {currentShapes: "../GeoJSON/curr-A1-A2.geojson", newShapes: "../GeoJSON/A1-A2.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
@@ -19,7 +59,7 @@ window.routeConfigs = {
           stop: {radius: 7, weight: 3, color: "#73A400", fillOpacity: 1, shape: "circle"}}},
     changements: ``,
     pourquoi: ``},
-
+  
   "A1-A4": {title: "REM A1-A4 • Réseau express métropolitain", type: "lourd_rem",
     files: {currentShapes: "../GeoJSON/curr-A1-A4.geojson", newShapes: "../GeoJSON/A1-A4.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},

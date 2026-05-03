@@ -2723,7 +2723,7 @@ window.routeConfigs = {
   "202": {title: "Ligne 202 • Dawson", type: "regulier",
     files: {currentShapes: "../GeoJSON/curr-202.geojson", newShapes: "../GeoJSON/202.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est – Stuart-Graham / No 951", 
+    directionLabels: {outbound: "Est – YUL Aéroport", 
                       inbound: "Ouest – Station Fairview–Pointe-Claire"},
     branchStyles: {
       "2028888": {line: {color: "#009EE0", weight: 4, opacity: 1},
@@ -3198,7 +3198,7 @@ window.routeConfigs = {
     files: {currentShapes: "../GeoJSON/curr-232.geojson", newShapes: "../GeoJSON/232.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Côte-de-Liesse", 
-                      inbound: "Ouest – Terminus Dorval"},
+                      inbound: "Ouest – Stuart-Graham / No 951"},
     branchStyles: {
       "2328888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},

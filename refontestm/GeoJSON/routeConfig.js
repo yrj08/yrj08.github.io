@@ -3280,7 +3280,7 @@ window.routeConfigs = {
   "285": {title: "Ligne 285 • Anjou / Rivière-des-Prairies", type: "tc_pointe",
     files: {currentShapes: "../GeoJSON/curr-285.geojson", newShapes: "../GeoJSON/285.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Anjou/RDP ⇋ Gare Anjou"},
+    directionLabels: {outbound: "Anjou / RDP ⇋ Gare Anjou"},
     branchStyles: {
       "2850000": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
@@ -3309,10 +3309,11 @@ window.routeConfigs = {
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
-      <li>Aucune modification.</li>
+      <li>Ajout de quelques arrêts sur René-Huguet et 48e Avenue pour 
+          compenser au retrait de la ligne 191.</li>
     `,
     pourquoi: `
-      <li>N/A</li>
+      <li>Pour remplir le vide laissé par le retrait de la ligne 191.</li>
     `},
 
   "288": {title: "Ligne 288 • Gare Anjou / Parc Industriel", type: "aboli",
@@ -3329,7 +3330,103 @@ window.routeConfigs = {
       <li>N/A</li>
     `},
   
+  "289": {title: "Ligne 289 • Pointe-aux-Prairies", type: "tc_reg",
+    files: {currentShapes: "../GeoJSON/curr-289.geojson", newShapes: "../GeoJSON/289.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Pointe-aux-Prairies ⇋ Gare Rivière-des-Prairies"},
+    branchStyles: {
+      "2890000": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Aucune modification.</li>
+    `,
+    pourquoi: `
+      <li>N/A</li>
+    `},
 
+  "290": {title: "Ligne 290 • Île-Bizard", type: "tc_reg",
+    files: {currentShapes: "../GeoJSON/curr-290.geojson", newShapes: "../GeoJSON/290.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Île-Bizard"},
+    branchStyles: {
+      "2890000": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Aucune modification.</li>
+    `,
+    pourquoi: `
+      <li>N/A</li>
+    `},
+
+  "292": {title: "Ligne 292 • Parc Jean-Drapeau", type: "tc_reg",
+    files: {currentShapes: "../GeoJSON/curr-292.geojson", newShapes: "../GeoJSON/292.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Parc Jean-Drapeau ⇋ Station Jean-Drapeau"},
+    branchStyles: {
+      "2920000": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Aucune modification.</li>
+    `,
+    pourquoi: `
+      <li>N/A</li>
+    `},
+
+  "293": {title: "Ligne 293 • Parc industriel Lachine / Gare Dorval", type: "tc_reg",
+    files: {currentShapes: "../GeoJSON/curr-293.geojson", newShapes: "../GeoJSON/293.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Parc industriel Lachine ⇋ Gare Dorval"},
+    branchStyles: {
+      "2930000": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Ajout d'un arrêt au Terminus CAE.</li>
+      <li>Ajustement de certains arrêts dans la zone desservie.</li>
+    `,
+    pourquoi: `
+      <li>L'ajout d'un arrêt au Terminus CAE favorise la connexion vers la ligne orange
+          et le REM (via la ligne 100 Crémazie).</li>
+    `},
+
+  "294": {title: "Ligne 294 • Parc industriel Baie-D'Urfé", type: "tc_reg",
+    files: {currentShapes: "../GeoJSON/curr-294.geojson", newShapes: "../GeoJSON/294.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Parc industriel Baie-D'Urfé ⇋ Station Anse-à-l'Orme"},
+    branchStyles: {
+      "2940000": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Aucune modification.</li>
+    `,
+    pourquoi: `
+      <li>N/A</li>
+    `},
+  
+  "295": {title: "Ligne 295 • Beaurepaire", type: "tc_reg",
+    files: {currentShapes: "../GeoJSON/curr-295.geojson", newShapes: "../GeoJSON/295.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Beaurepaire ⇋ Gare Beaurepaire"},
+    branchStyles: {
+      "2950000": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Aucune modification.</li>
+    `,
+    pourquoi: `
+      <li>N/A</li>
+    `},
   
   "350": {title: "Ligne 350 • Verdun / LaSalle", type: "nuit",
     files: {currentShapes: "../GeoJSON/curr-350.geojson", newShapes: "../GeoJSON/350.geojson", 

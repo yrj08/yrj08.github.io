@@ -3215,6 +3215,48 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},  
 
+  "270": {title: "Ligne 270 • Navette Or par taxi - Pointe-Claire", type: "aboli",
+    files: {currentShapes: "../GeoJSON/curr-270.geojson", newShapes: "../GeoJSON/270.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Nord"},
+    branchStyles: {
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Retrait du service proposé.</li>
+    `,
+    pourquoi: `
+      <li>Service devenu redondant suite à la refonte de l'ouest.</li>
+    `},
+
+  "271": {title: "Ligne 271 • Navette Or par taxi - Dorval", type: "aboli",
+    files: {currentShapes: "../GeoJSON/curr-271.geojson", newShapes: "../GeoJSON/271.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est"},
+    branchStyles: {
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Retrait du service proposé.</li>
+    `,
+    pourquoi: `
+      <li>Service devenu redondant suite à la refonte de l'ouest.</li>
+    `},
+
+  "272": {title: "Ligne 272 • Navette Or par taxi - Île-des-Soeurs", type: "aboli",
+    files: {currentShapes: "../GeoJSON/curr-272.geojson", newShapes: "../GeoJSON/272.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est"},
+    branchStyles: {
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Retrait du service proposé.</li>
+    `,
+    pourquoi: `
+      <li>Service devenu redondant suite aux changements proposés des circuits 12 et 168.</li>
+    `},
+  
   "281": {title: "Ligne 281 • Senneville / Sainte-Anne-de-Bellevue", type: "tc_reg",
     files: {currentShapes: "../GeoJSON/curr-281.geojson", newShapes: "../GeoJSON/281.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
@@ -3349,7 +3391,7 @@ window.routeConfigs = {
   "290": {title: "Ligne 290 • Île-Bizard", type: "tc_reg",
     files: {currentShapes: "../GeoJSON/curr-290.geojson", newShapes: "../GeoJSON/290.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Île-Bizard"},
+    directionLabels: {outbound: "Île-Bizard ⇋ Chevremont / Jacques-Bizard"},
     branchStyles: {
       "2890000": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},

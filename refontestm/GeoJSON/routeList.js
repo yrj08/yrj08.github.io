@@ -69,16 +69,18 @@ function createRouteRow(routeId, cfg) {
   const routeName =
     cfg.title.replace(/^Ligne\s+\S+\s+•\s*/, "");
 
-  const directions =
-    Object.values(cfg.directionLabels || {}).join(" • ");
+  const directions = Object.values(cfg.directionLabels || {});
+  const dir1 = directions[0] || "";
+  const dir2 = directions[1] || "";
 
   return `
     <div style="
       display:grid;
-      grid-template-columns:70px 1fr 140px;
-      gap:12px;
+      grid-template-columns: 58px 190px 260px 260px;
+      gap:10px;
       align-items:center;
-      margin-bottom:10px;
+      margin-bottom:5px;
+      font-size:15px;
     ">
       <a
         href="route.html?route=${routeId}"
@@ -86,12 +88,12 @@ function createRouteRow(routeId, cfg) {
       >
         <span style="
           display:inline-block;
-          min-width:56px;
+          min-width:48px;
           text-align:center;
-          padding:6px 10px;
-          border-radius:8px;
+          padding:4px 8px;
+          border-radius:7px;
           font-weight:bold;
-          font-size:18px;
+          font-size:16px;
           background:${style.bg};
           color:${style.text};
           border:2px solid ${style.border};
@@ -101,19 +103,26 @@ function createRouteRow(routeId, cfg) {
       </a>
 
       <div style="
-        font-weight:bold;
-        font-size:16px;
+        font-weight:600;
+        white-space:nowrap;
       ">
         ${routeName}
       </div>
 
       <div style="
-        text-align:right;
-        font-size:14px;
-        color:#555;
+        text-align:left;
+        color:#444;
         white-space:nowrap;
       ">
-        ${directions}
+        ${dir1}
+      </div>
+
+      <div style="
+        text-align:left;
+        color:#444;
+        white-space:nowrap;
+      ">
+        ${dir2}
       </div>
     </div>
   `;

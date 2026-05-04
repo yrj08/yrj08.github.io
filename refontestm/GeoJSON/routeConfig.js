@@ -1,16 +1,6 @@
 window.routeConfigs = {
 
-  "test": {title: "Ligne 0 • Test", type: "lourd_test",
-    files: {currentShapes: "../GeoJSON/test.geojson", newShapes: "../GeoJSON/test2.geojson", 
-            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Test distance"},
-    branchStyles: {
-      "test": {line: {color: "#FFFFFF", weight: 1, opacity: 0.1},
-          stop: {radius: 1, weight: 1, color: "#FFFFFF", fillOpacity: 0.1, shape: "circle"}}},
-    changements: ``,
-    pourquoi: ``},
-  
-  "1": {title: "Ligne 1 • Verte", type: "lourd_verte",
+  "1": {title: "Ligne 1 • Verte", type: "lourd_verte", showInList: false,
     files: {currentShapes: "../GeoJSON/curr-001.geojson", newShapes: "../GeoJSON/001.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Angrignon ⇋ Honoré-Beaugrand"},
@@ -20,7 +10,7 @@ window.routeConfigs = {
     changements: ``,
     pourquoi: ``},
 
-  "2": {title: "Ligne 2 • Orange", type: "lourd_orange",
+  "2": {title: "Ligne 2 • Orange", type: "lourd_orange", showInList: false,
     files: {currentShapes: "../GeoJSON/curr-002.geojson", newShapes: "../GeoJSON/002.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Côte-Vertu ⇋ Montmorency"},
@@ -30,7 +20,7 @@ window.routeConfigs = {
     changements: ``,
     pourquoi: ``},
   
-  "4": {title: "Ligne 4 • Jaune", type: "lourd_jaune",
+  "4": {title: "Ligne 4 • Jaune", type: "lourd_jaune", showInList: false,
     files: {currentShapes: "../GeoJSON/curr-004.geojson", newShapes: "../GeoJSON/004.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Berri-UQAM ⇋ Longueuil-U.-de-S."},
@@ -40,7 +30,7 @@ window.routeConfigs = {
     changements: ``,
     pourquoi: ``},
 
-  "5": {title: "Ligne 5 • Bleue", type: "lourd_bleue",
+  "5": {title: "Ligne 5 • Bleue", type: "lourd_bleue", showInList: false,
     files: {currentShapes: "../GeoJSON/curr-005.geojson", newShapes: "../GeoJSON/005.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Snowdon ⇋ Anjou"},
@@ -50,7 +40,7 @@ window.routeConfigs = {
     changements: ``,
     pourquoi: ``},
 
-  "A1-A2": {title: "REM A1-A2 • Réseau express métropolitain", type: "lourd_rem",
+  "A1-A2": {title: "REM A1-A2 • Réseau express métropolitain", type: "lourd_rem", showInList: false,
     files: {currentShapes: "../GeoJSON/curr-A1-A2.geojson", newShapes: "../GeoJSON/A1-A2.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Brossard ⇋ YUL Aéroport Montréal-Trudeau"},
@@ -60,7 +50,7 @@ window.routeConfigs = {
     changements: ``,
     pourquoi: ``},
 
-  "A1-A3": {title: "REM A1-A3 • Réseau express métropolitain", type: "lourd_rem",
+  "A1-A3": {title: "REM A1-A3 • Réseau express métropolitain", type: "lourd_rem", showInList: false,
     files: {currentShapes: "../GeoJSON/curr-A1-A3.geojson", newShapes: "../GeoJSON/A1-A3.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Brossard ⇋ Anse-à-l'Orme"},
@@ -70,7 +60,7 @@ window.routeConfigs = {
     changements: ``,
     pourquoi: ``},
   
-  "A1-A4": {title: "REM A1-A4 • Réseau express métropolitain", type: "lourd_rem",
+  "A1-A4": {title: "REM A1-A4 • Réseau express métropolitain", type: "lourd_rem", showInList: false,
     files: {currentShapes: "../GeoJSON/curr-A1-A4.geojson", newShapes: "../GeoJSON/A1-A4.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Brossard ⇋ Deux-Montagnes"},
@@ -80,7 +70,7 @@ window.routeConfigs = {
     changements: ``,
     pourquoi: ``},
   
-  "exo11": {title: "exo11 • Vaudreuil", type: "lourd_vh",
+  "exo11": {title: "exo11 • Vaudreuil", type: "lourd_vh", showInList: false,
     files: {currentShapes: "../GeoJSON/curr-exo11.geojson", newShapes: "../GeoJSON/exo11.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Lucien-L'Allier ⇋ Vaudreuil / Hudson"},
@@ -90,7 +80,7 @@ window.routeConfigs = {
     changements: ``,
     pourquoi: ``},
 
-  "exo12": {title: "exo12 • Saint-Jérôme", type: "lourd_sj",
+  "exo12": {title: "exo12 • Saint-Jérôme", type: "lourd_sj", showInList: false,
     files: {currentShapes: "../GeoJSON/curr-exo12.geojson", newShapes: "../GeoJSON/exo12.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Lucien-L'Allier / De La Concorde ⇋ Saint-Jérôme"},
@@ -100,7 +90,7 @@ window.routeConfigs = {
     changements: ``,
     pourquoi: ``},
 
-  "exo13": {title: "exo13 • Mont-Saint-Hilaire", type: "lourd_sh",
+  "exo13": {title: "exo13 • Mont-Saint-Hilaire", type: "lourd_sh", showInList: false,
     files: {currentShapes: "../GeoJSON/curr-exo13.geojson", newShapes: "../GeoJSON/exo13.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Gare Centrale ⇋ Mont-Saint-Hilaire"},
@@ -110,7 +100,7 @@ window.routeConfigs = {
     changements: ``,
     pourquoi: ``},
 
-  "exo14": {title: "exo14 • Candiac", type: "lourd_ca",
+  "exo14": {title: "exo14 • Candiac", type: "lourd_ca", showInList: false,
     files: {currentShapes: "../GeoJSON/curr-exo14.geojson", newShapes: "../GeoJSON/exo14.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Lucien-L'Allier ⇋ Candiac"},
@@ -120,7 +110,7 @@ window.routeConfigs = {
     changements: ``,
     pourquoi: ``},
   
-  "exo15": {title: "exo15 • Mascouche", type: "lourd_ma",
+  "exo15": {title: "exo15 • Mascouche", type: "lourd_ma", showInList: false,
     files: {currentShapes: "../GeoJSON/curr-exo15.geojson", newShapes: "../GeoJSON/exo15.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Côte-de-Liesse ⇋ Mascouche"},

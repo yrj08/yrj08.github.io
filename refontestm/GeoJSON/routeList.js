@@ -76,7 +76,7 @@ function createRouteRow(routeId, cfg) {
   return `
     <div style="
       display:grid;
-      grid-template-columns: 58px 190px 260px 260px;
+      grid-template-columns: 60px 220px 270px 270px;
       gap:10px;
       align-items:center;
       margin-bottom:5px;
@@ -88,9 +88,9 @@ function createRouteRow(routeId, cfg) {
       >
         <span style="
           display:inline-block;
-          min-width:48px;
+          min-width:40px;
           text-align:center;
-          padding:4px 8px;
+          padding:2px 4px;
           border-radius:7px;
           font-weight:bold;
           font-size:16px;

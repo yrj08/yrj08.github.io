@@ -3398,10 +3398,11 @@ window.routeConfigs = {
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
-      <li>Aucune modification.</li>
+      <li>Retrait de l'arrêt Chevremont / No 320 (rabattement avec les lignes 
+          207/227 maintenu via l'arrêt du terminus).</li>
     `,
     pourquoi: `
-      <li>N/A</li>
+      <li>Simplification du service.</li>
     `},
 
   "292": {title: "Ligne 292 • Parc Jean-Drapeau", type: "tc_reg",

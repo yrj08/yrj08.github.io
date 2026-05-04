@@ -4685,7 +4685,7 @@ window.routeConfigs = {
       <li>Permet de relier plusieurs stations du REM lorsque celui-ci n'est pas en exploitation.</li>
     `},
 
-  "767": {title: "Ligne 767 • La Ronde / Station Jean-Drapeau", type: "saisonnier",
+  "767": {title: "Ligne 767 • La Ronde / Station Jean-Drapeau", type: "regulier",
     files: {currentShapes: "../GeoJSON/curr-767.geojson", newShapes: "../GeoJSON/767.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – La Ronde", 
@@ -4704,7 +4704,7 @@ window.routeConfigs = {
       <li>N/A</li>
     `},
 
-  "768": {title: "Ligne 768 • Plage Jean-Doré", type: "saisonnier",
+  "768": {title: "Ligne 768 • Plage Jean-Doré", type: "regulier",
     files: {currentShapes: "../GeoJSON/curr-768.geojson", newShapes: "../GeoJSON/768.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Jean-Drapeau", 
@@ -4724,7 +4724,7 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale et assurer un service bi-directionnel direct au plage.</li>
     `},
 
-  "769": {title: "Ligne 769 • La Ronde / Station Papineau", type: "saisonnier",
+  "769": {title: "Ligne 769 • La Ronde / Station Papineau", type: "regulier",
     files: {currentShapes: "../GeoJSON/curr-769.geojson", newShapes: "../GeoJSON/769.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – Station Papineau", 

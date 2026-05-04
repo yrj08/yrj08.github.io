@@ -1,14 +1,4 @@
 window.routeConfigs = {
-
-  "test": {title: "Ligne 0 • Test", type: "lourd_test",
-    files: {currentShapes: "../GeoJSON/curr-test.geojson", newShapes: "../GeoJSON/test.geojson", 
-            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Test distance"},
-    branchStyles: {
-      "test": {line: {color: "#FFFFFF", weight: 1, opacity: 0.1},
-          stop: {radius: 1, weight: 1, color: "#FFFFFF", fillOpacity: 0.1, shape: "circle"}}},
-    changements: ``,
-    pourquoi: ``},
   
   "1": {title: "Ligne 1 • Verte", type: "lourd_verte",
     files: {currentShapes: "../GeoJSON/curr-001.geojson", newShapes: "../GeoJSON/001.geojson", 

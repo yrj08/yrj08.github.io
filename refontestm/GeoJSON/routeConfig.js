@@ -3393,7 +3393,7 @@ window.routeConfigs = {
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Île-Bizard ⇋ Chevremont / Jacques-Bizard"},
     branchStyles: {
-      "2890000": {line: {color: "#009EE0", weight: 4, opacity: 1},
+      "2900000": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},

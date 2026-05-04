@@ -76,7 +76,7 @@ function createRouteRow(routeId, cfg) {
   return `
     <div style="
       display:grid;
-      grid-template-columns: 60px 220px 270px 270px;
+      grid-template-columns: 60px 280px 280px 280px;
       gap:10px;
       align-items:center;
       margin-bottom:5px;

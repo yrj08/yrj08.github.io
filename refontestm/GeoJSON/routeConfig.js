@@ -3250,7 +3250,7 @@ window.routeConfigs = {
   "283": {title: "Ligne 283 • Technoparc", type: "aboli",
     files: {currentShapes: "../GeoJSON/curr-283.geojson", newShapes: "../GeoJSON/283.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Technoparc ⇋ Station Sunnybrooke"},
+    directionLabels: {outbound: "Nord"},
     branchStyles: {
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -3276,6 +3276,60 @@ window.routeConfigs = {
     pourquoi: `
       <li>N/A</li>
     `},
+
+  "285": {title: "Ligne 285 • Anjou / Rivière-des-Prairies", type: "tc_pointe",
+    files: {currentShapes: "../GeoJSON/curr-285.geojson", newShapes: "../GeoJSON/285.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Anjou/RDP ⇋ Gare Anjou"},
+    branchStyles: {
+      "2850000": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Service fusionné avec la ligne 288 Gare Anjou / Parc Industriel.</li>
+      <li>Retrait du service dans le parc industriel : service remplacé par des 
+          modifications proposées à la ligne 188.</li>
+      <li>Service vers le secteur Des Sciences maintenu pour compenser au retrait
+          proposé de la ligne 39 dans ce secteur.</li>
+      <li>Ajout d'un arrêt au terminus Cégep Marie-Victorin.</li>
+    `,
+    pourquoi: `
+      <li>Permet de maintenir un service vers les quartiers résidentiels depuis
+          la gare Anjou d'exo et d'autres lignes express.</li>
+    `},
+
+  "287": {title: "Ligne 287 • Gare Lachine", type: "tc_pointe",
+    files: {currentShapes: "../GeoJSON/curr-287.geojson", newShapes: "../GeoJSON/287.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Lachine ⇋ Gare Lachine"},
+    branchStyles: {
+      "2870000": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Aucune modification.</li>
+    `,
+    pourquoi: `
+      <li>N/A</li>
+    `},
+
+  "288": {title: "Ligne 288 • Gare Anjou / Parc Industriel", type: "aboli",
+    files: {currentShapes: "../GeoJSON/curr-288.geojson", newShapes: "../GeoJSON/288.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Nord"},
+    branchStyles: {
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Service fusionné avec la ligne 285.</li>
+    `,
+    pourquoi: `
+      <li>N/A</li>
+    `},
+  
+
   
   "350": {title: "Ligne 350 • Verdun / LaSalle", type: "nuit",
     files: {currentShapes: "../GeoJSON/curr-350.geojson", newShapes: "../GeoJSON/350.geojson", 

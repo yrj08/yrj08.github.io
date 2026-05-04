@@ -661,7 +661,7 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
-  "41": {title: "Ligne 41 • Ahuntsic / Saint-Michel", type: "regulier",
+  "41": {title: "Ligne 41 • Ahuntsic / Saint-Michel", type: "aboli",
     files: {currentShapes: "../GeoJSON/curr-041.geojson", newShapes: "../GeoJSON/041.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est", inbound: "Ouest"},

@@ -1378,7 +1378,7 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
-  "97": {title: "Ligne 97 • Du Mont-Royal", type: "regulier",
+  "97": {title: "Ligne 97 • Mont-Royal", type: "regulier",
     files: {currentShapes: "../GeoJSON/curr-097.geojson", newShapes: "../GeoJSON/097.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Préfontaine", 

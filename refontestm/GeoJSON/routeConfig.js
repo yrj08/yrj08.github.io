@@ -935,7 +935,7 @@ window.routeConfigs = {
   "61": {title: "Ligne 61 • Wellington", type: "regulier",
     files: {currentShapes: "../GeoJSON/curr-061.geojson", newShapes: "../GeoJSON/061.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est – Station McGill", 
+    directionLabels: {outbound: "Est – Station Square-Victoria–OACI", 
                       inbound: "Ouest – Place LaSalle"},
     branchStyles: {
       "618888": {line: {color: "#009EE0", weight: 4, opacity: 1},

@@ -177,7 +177,7 @@
         "direction": "inbound",
         "route": "364",
         "branch": "3649999",
-        "headsign": "Ouest - Station Guy-Concordia",
+        "headsign": "Ouest - Station Atwater",
         "variant": "main",
         "stops": ["A0229","A0230","54705","54725","54726","54556","54568","54587",
                   "54597","54620","54611","54608","54607","54630","54647","54662",

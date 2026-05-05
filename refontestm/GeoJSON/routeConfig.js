@@ -3691,7 +3691,7 @@ window.routeConfigs = {
     files: {currentShapes: "../GeoJSON/curr-357.geojson", newShapes: "../GeoJSON/357.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – Saint-Michel / Henri-Bourassa", 
-                      inbound: "Sud – Station Guy-Concordia"},
+                      inbound: "Sud – Station Atwater"},
     branchStyles: {
       "3578888": {line: {color: "#000000", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
@@ -3860,7 +3860,7 @@ window.routeConfigs = {
     files: {currentShapes: "../GeoJSON/curr-364.geojson", newShapes: "../GeoJSON/364.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Centre de transport Anjou", 
-                      inbound: "Ouest – Station Guy-Concordia"},
+                      inbound: "Ouest – Station Atwater"},
     branchStyles: {
       "3648888": {line: {color: "#000000", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
@@ -3926,7 +3926,7 @@ window.routeConfigs = {
     files: {currentShapes: "../GeoJSON/curr-369.geojson", newShapes: "../GeoJSON/369.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – Station Côte-de-Liesse", 
-                      inbound: "Sud – Saint-Mathieu / René-Lévesque"},
+                      inbound: "Sud – Station Atwater"},
     branchStyles: {
       "3698888": {line: {color: "#000000", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
@@ -3939,12 +3939,9 @@ window.routeConfigs = {
     changements: `
       <li>Prolongement du parcours via Décarie, Sainte-Croix et Hodge 
         jusqu'au REM Côte-de-Liesse;</li>
-      <li>Retrait du service entre Atwater et Guy-Concordia;</li>
       <li>Retrait de quelques arrêts trop rapprochés.</li>
     `,
     pourquoi: `
-      <li>Permettre de créer un pôle d'échange plus sécuritaire à la 
-        station Guy-Concordia au lieu d'Atwater;</li>
       <li>Permettre de desservir un quartier défavorisé et créer un pôle 
         d'échange au REM Côte-de-Liesse;</li>
       <li>Permettre de relier des stations du REM lorsque ce dernier 

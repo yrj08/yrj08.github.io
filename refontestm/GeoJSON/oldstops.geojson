@@ -3785,6 +3785,7 @@
 {"type":"Feature","properties":{"stop_id":"54292","stop_name":"de Carignan / de Marseille (54292)"},"geometry":{"type":"Point","coordinates":[-73.540853,45.578757]}},
 {"type":"Feature","properties":{"stop_id":"54294","stop_name":"Station Saint-Michel (Saint-Michel / Shaughnessy) (54294)","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.600006,45.559709]}},
 {"type":"Feature","properties":{"stop_id":"54297","stop_name":"Dudemaine / Laforest (54297)"},"geometry":{"type":"Point","coordinates":[-73.687388,45.539799]}},
+{"type":"Feature","properties":{"stop_id":"54298","stop_name":"Pie-IX / Jean-Talon (54298)","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.591736,45.566591]}},
 {"type":"Feature","properties":{"stop_id":"54299","stop_name":"Saint-Patrick / Briand (54299)"},"geometry":{"type":"Point","coordinates":[-73.596585,45.463701]}},
 {"type":"Feature","properties":{"stop_id":"54303","stop_name":"Cirque du Soleil (54303)"},"geometry":{"type":"Point","coordinates":[-73.614852,45.561695]}},
 {"type":"Feature","properties":{"stop_id":"54305","stop_name":"Papineau / Jacques-Casault (54305)"},"geometry":{"type":"Point","coordinates":[-73.624084,45.555379]}},

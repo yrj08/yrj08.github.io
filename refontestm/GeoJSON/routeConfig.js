@@ -1742,7 +1742,7 @@ window.routeConfigs = {
     directionLabels: {outbound: "Est – Saint-Michel / Sauvé", 
                       inbound: "Ouest – Place Vertu"},
     branchStyles: {
-      "1219001": {line: {color: "#781B7D", weight: 4, opacity: 1},
+      "1210001": {line: {color: "#781B7D", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},
       "1210002": {line: {color: "#8B469E", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#8B469E", fillOpacity: 1, shape: "circle"}},
@@ -4571,7 +4571,7 @@ window.routeConfigs = {
   "475": {title: "Ligne 475 • Express Dollard-des-Ormeaux", type: "pointe",
     files: {currentShapes: "../GeoJSON/curr-475.geojson", newShapes: "../GeoJSON/475.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est – Station Du Collège", 
+    directionLabels: {outbound: "Est – Station Montpellier", 
                       inbound: "Ouest – Cégep Gérald-Godin"},
     branchStyles: {
       "4758888": {line: {color: "#009EE0", weight: 4, opacity: 1},

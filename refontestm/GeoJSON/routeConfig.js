@@ -1321,7 +1321,7 @@ window.routeConfigs = {
   "93": {title: "Ligne 93 • Jean-Talon", type: "regulier",
     files: {currentShapes: "../GeoJSON/curr-093.geojson", newShapes: "../GeoJSON/093.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est – Station Vertières", 
+    directionLabels: {outbound: "Est – Station Anjou", 
                       inbound: "Ouest – Station Parc"},
     branchStyles: {
       "938888": {line: {color: "#009EE0", weight: 4, opacity: 1},
@@ -1331,10 +1331,14 @@ window.routeConfigs = {
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
-      <li></li>
+      <li>Fusion des lignes 93 et 141 (jusqu'aux Galeries d'Anjou) suite à l'ouverture du 
+          prolongement de la ligne bleue (PLB) pour offrir un service parallèle au métro.</li>
+      <li>Diminution de fréquence par rapport à la ligne 141 actuelle.</li>
       <li>Retrait de quelques arrêts trop rapprochés.</li>
     `,
     pourquoi: `
+      <li>Offrir un service de base de surface pour compléter le métro et offrir une solution
+          de rechange en cas de panne.</li>
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
@@ -1967,23 +1971,26 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
-  "141": {title: "Ligne 141 • Jean-Talon", type: "regulier",
+  "141": {title: "Ligne 141 • Hochelaga / des Ormeaux", type: "frequent_journee",
     files: {currentShapes: "../GeoJSON/curr-141.geojson", newShapes: "../GeoJSON/141.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est – Station Anjou", 
-                      inbound: "Ouest – Station Saint-Michel"},
+    directionLabels: {outbound: "Est – Georges-V / Notre-Dame", 
+                      inbound: "Ouest – Galeries d'Anjou"},
     branchStyles: {
-      "1418888": {line: {color: "#009EE0", weight: 4, opacity: 1},
-          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "1419999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
-          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "1418888": {line: {color: "#781B7D", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},
+      "1419999": {line: {color: "#8B469E", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#8B469E", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
-      <li></li>
+      <li>Retrait du service à l'ouest des Galeries d'Anjou (service fusionné avec la ligne 93). 
+          Prolongement à l'est du métro Honoré-Beaugrand via Hochelaga pour remplacer ce tronçon 
+          de la ligne 189.</li>
       <li>Retrait de quelques arrêts trop rapprochés.</li>
     `,
     pourquoi: `
+      <li>Permettre une ligne à haute fréquence dans le secteur;</li>
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
@@ -2372,26 +2379,6 @@ window.routeConfigs = {
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
       "1800013": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
-      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
-          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
-    changements: `
-      <li></li>
-      <li>Retrait de quelques arrêts trop rapprochés.</li>
-    `,
-    pourquoi: `
-      <li>Améliorer la vitesse commerciale.</li>
-    `},
-
-  "182": {title: "Ligne 182 • Hochelaga / des Ormeaux", type: "frequent_journee",
-    files: {currentShapes: "../GeoJSON/curr-182.geojson", newShapes: "../GeoJSON/182.geojson", 
-            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est – Georges-V / Notre-Dame", 
-                      inbound: "Ouest – Station Anjou"},
-    branchStyles: {
-      "1828888": {line: {color: "#781B7D", weight: 4, opacity: 1},
-          stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},
-      "1829999": {line: {color: "#8B469E", weight: 4, opacity: 1},
-          stop: {radius: 4, weight: 3, color: "#8B469E", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `

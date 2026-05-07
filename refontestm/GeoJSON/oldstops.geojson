@@ -1631,6 +1631,7 @@
 {"type":"Feature","properties":{"stop_id":"51746","stop_name":"Bélanger / Saint-Michel (51746)"},"geometry":{"type":"Point","coordinates":[-73.593994,45.557202]}},
 {"type":"Feature","properties":{"stop_id":"51747","stop_name":"Monk / Jacques-Hertel (51747)"},"geometry":{"type":"Point","coordinates":[-73.596625,45.459891]}},
 {"type":"Feature","properties":{"stop_id":"51748","stop_name":"Saint-Laurent / Fairmount (51748)"},"geometry":{"type":"Point","coordinates":[-73.594362,45.523823]}},
+{"type":"Feature","properties":{"stop_id":"51749","stop_name":"Jean-Talon / 19e Avenue (51749)"},"geometry":{"type":"Point","coordinates":[-73.593322,45.564309]}},
 {"type":"Feature","properties":{"stop_id":"51750","stop_name":"du Parc / Saint-Joseph (51750)"},"geometry":{"type":"Point","coordinates":[-73.594163,45.518983]}},
 {"type":"Feature","properties":{"stop_id":"51751","stop_name":"du Parc / Saint-Joseph (51751)"},"geometry":{"type":"Point","coordinates":[-73.594623,45.519009]}},
 {"type":"Feature","properties":{"stop_id":"51752","stop_name":"De Gaspé / Maguire (51752)"},"geometry":{"type":"Point","coordinates":[-73.594426,45.526219]}},

@@ -246,7 +246,7 @@
 {"type":"Feature","properties":{"stop_id":"A0162","stop_name":"des Grandes-Prairies / 25e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.623844,45.583443]}},
 {"type":"Feature","properties":{"stop_id":"A0163","stop_name":"Louis-H.-La Fontaine / Villars (––)"},"geometry":{"type":"Point","coordinates":[-73.552790,45.599226]}},
 {"type":"Feature","properties":{"stop_id":"A0164","stop_name":"Louis-H.-La Fontaine / Wilfrid-Pelletier (––)"},"geometry":{"type":"Point","coordinates":[-73.555024,45.600232]}},
-{"type":"Feature","properties":{"stop_id":"A0165","stop_name":"Louis-H.-La Fontaine / de Châteauneuf (––)","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.560570,45.602656]}},
+{"type":"Feature","properties":{"stop_id":"A0165","stop_name":"Louis-H.-La Fontaine / de Châteauneuf (––)","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.557691,45.601397]}},
 {"type":"Feature","properties":{"stop_id":"A0166","stop_name":"Louis-H.-La Fontaine / des Roseraies (––)"},"geometry":{"type":"Point","coordinates":[-73.550027,45.597246]}},
 {"type":"Feature","properties":{"stop_id":"A0167","stop_name":"Louis-H.-La Fontaine / Beaubien (––)"},"geometry":{"type":"Point","coordinates":[-73.553541,45.598821]}},
 {"type":"Feature","properties":{"stop_id":"A0168","stop_name":"Louis-H.-La Fontaine / Galeries d'Anjou (––)","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.559679,45.601525]}},

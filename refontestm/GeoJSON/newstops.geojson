@@ -84,7 +84,7 @@
 {"type":"Feature","properties":{"stop_id":"62618","stop_name":"Station Bonaventure (Gauchetière / Mansfield) (62618)","icons":["orange.png","rem.png","exo13.png"]},"geometry":{"type":"Point","coordinates":[-73.566229,45.499402]}},
 {"type":"Feature","properties":{"stop_id":"A0001","stop_name":"Sauvé / Saint-Urbain (––)"},"geometry":{"type":"Point","coordinates":[-73.660917,45.545147]}},
 {"type":"Feature","properties":{"stop_id":"A0002","stop_name":"Sauvé / Waverly (––)"},"geometry":{"type":"Point","coordinates":[-73.661175,45.545017]}},
-{"type":"Feature","properties":{"stop_id":"A0003","stop_name":"Bégin / Thimens (––)"},"geometry":{"type":"Point","coordinates":[-73.714428,45.494861]}},
+{"type":"Feature","properties":{"stop_id":"A0003","stop_name":"Côte-Vertu / Hervé-Saint-Martin (––)"},"geometry":{"type":"Point","coordinates":[-73.733079,45.474489]}},
 {"type":"Feature","properties":{"stop_id":"A0004","stop_name":"Henri-Bourassa / Christophe-Colomb (––)"},"geometry":{"type":"Point","coordinates":[-73.662045,45.562782]}},
 {"type":"Feature","properties":{"stop_id":"A0005","stop_name":"Henri-Bourassa / Francis (––)"},"geometry":{"type":"Point","coordinates":[-73.660606,45.565551]}},
 {"type":"Feature","properties":{"stop_id":"A0006","stop_name":"Henri-Bourassa / Laperle (––)"},"geometry":{"type":"Point","coordinates":[-73.660139,45.567439]}},

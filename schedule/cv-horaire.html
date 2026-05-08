@@ -7,8 +7,9 @@
   <style>
     body {
       font-family: "Helvetica Neue", Arial, sans-serif;
-      margin: 20px;
+      margin: 12px;
       background: #f7f7f7;
+      font-size: 13px;
     }
 
     h1, h2 {
@@ -24,28 +25,59 @@
 
     th, td {
       border: 1px solid #ccc;
-      padding: 8px;
+      padding: 3px 5px;
       text-align: left;
       vertical-align: top;
+      line-height: 1.2;
     }
 
     th {
       background: #eaeaea;
     }
 
-    .hour-cell {
-      width: 60px;
+     .hour-cell {
+      width: 42px;
       font-weight: bold;
       background: #f2f2f2;
+      white-space: nowrap;
     }
 
     .minute {
       display: inline-block;
-      padding: 3px 6px;
-      margin: 2px;
+      padding: 1px 4px;
+      margin: 1px;
+      border-radius: 3px;
+      color: white;
+      font-size: 0.82em;
+    }
+
+    .controls {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    .grid-selector {
+      display: grid;
+      grid-template-columns: 90px repeat(3, 100px);
+      gap: 4px;
+      align-items: center;
+    }
+
+    .selector-btn, .route-btn {
+      padding: 6px;
+      border: 1px solid #999;
+      background: white;
+      cursor: pointer;
       border-radius: 4px;
-      color: black;
-      font-size: 0.9em;
+      text-align: center;
+      font-size: 12px;
+    }
+
+    .active {
+      background: #0074D9;
+      color: white;
     }
 
     .upload-section {
@@ -57,9 +89,23 @@
 <body>
   <h1>Transit Timetable Generator</h1>
 
-  <div class="upload-section">
-    <button id="loadBtn">Load Timetables</button>
-    <p>CSV files are loaded automatically from the same folder as this HTML file.</p>
+  <div class="controls">
+    <div>
+      <strong>Select route:</strong>
+      <div id="routeFilters"></div>
+    </div>
+
+    <div class="grid-selector" id="fileSelector">
+      <div></div><div>Weekday</div><div>Saturday</div><div>Sunday</div>
+      <div>Westbound</div>
+      <button class="selector-btn" data-file="weekday_west.csv">Weekday</button>
+      <button class="selector-btn" data-file="saturday_west.csv">Saturday</button>
+      <button class="selector-btn" data-file="sunday_west.csv">Sunday</button>
+      <div>Eastbound</div>
+      <button class="selector-btn" data-file="weekday_east.csv">Weekday</button>
+      <button class="selector-btn" data-file="saturday_east.csv">Saturday</button>
+      <button class="selector-btn" data-file="sunday_east.csv">Sunday</button>
+    </div>
   </div>
 
   <div id="output"></div>
@@ -74,7 +120,11 @@
       '380': '#EFC4FF'
     };
 
-    document.getElementById('loadBtn').addEventListener('click', async () => {
+    let selectedRoutes = new Set();
+
+    init();
+
+    async function init() {
       const files = [
         'weekday_west.csv',
         'weekday_east.csv',
@@ -84,25 +134,80 @@
         'sunday_east.csv'
       ];
 
+      let allRows = [];
+      for (const file of files) {
+        try {
+          const rows = await loadCSV(file);
+          allRows = allRows.concat(rows);
+        } catch (err) {
+          console.error(`Could not load ${file}`, err);
+        }
+      }
+
+      const routes = [...new Set(allRows.map(r => r.route))]
+        .sort((a, b) => Number(a) - Number(b));
+
+      renderRouteFilters(routes);
+
+      document.querySelectorAll('.selector-btn').forEach(btn => {
+        btn.addEventListener('click', async () => {
+          document.querySelectorAll('.selector-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          renderFile(btn.dataset.file);
+        });
+      });
+
+      renderFile('weekday_west.csv');
+    }
+
+    async function renderFile(fileName) {
       const output = document.getElementById('output');
       output.innerHTML = '';
 
-      for (const fileName of files) {
-        try {
-          const response = await fetch(fileName);
-          const text = await response.text();
-          const rows = parseCSV(text);
-          const grouped = groupByHour(rows);
+      const rows = await loadCSV(fileName);
+      const filtered = selectedRoutes.size
+        ? rows.filter(r => selectedRoutes.has(r.route))
+        : rows;
 
-          const section = document.createElement('div');
-          section.innerHTML = `<h2>${fileName}</h2>`;
-          section.appendChild(buildTable(grouped));
-          output.appendChild(section);
-        } catch (err) {
-          console.error(`Could not load ${fileName}`, err);
-        }
-      }
-    });
+      const grouped = groupByHour(filtered);
+      const section = document.createElement('div');
+      section.innerHTML = `<h2>${fileName}</h2>`;
+      section.appendChild(buildTable(grouped));
+      output.appendChild(section);
+    }
+
+    async function loadCSV(fileName) {
+      const response = await fetch(fileName);
+      const text = await response.text();
+      return parseCSV(text);
+    }
+
+    function renderRouteFilters(routes) {
+      const container = document.getElementById('routeFilters');
+      routes.forEach(route => {
+        const btn = document.createElement('button');
+        btn.className = 'route-btn';
+        btn.textContent = route;
+        btn.style.backgroundColor = ROUTE_COLORS[route] || '#eee';
+        btn.style.color = 'black';
+        btn.style.fontWeight = 'bold';
+
+        btn.addEventListener('click', () => {
+          if (selectedRoutes.has(route)) {
+            selectedRoutes.delete(route);
+            btn.classList.remove('active');
+          } else {
+            selectedRoutes.add(route);
+            btn.classList.add('active');
+          }
+
+          const activeBtn = document.querySelector('.selector-btn.active') || document.querySelector('.selector-btn');
+          renderFile(activeBtn.dataset.file);
+        });
+
+        container.appendChild(btn);
+      });
+    }
 
     function parseCSV(text) {
       return text.trim().split(/\r?\n/).map(line => {
@@ -123,41 +228,34 @@
       return grouped;
     }
 
-    function chunkArray(array, size) {
-      const result = [];
-      for (let i = 0; i < array.length; i += size) {
-        result.push(array.slice(i, i + size));
-      }
-      return result;
-    }
+    
 
     function buildTable(grouped) {
       const table = document.createElement('table');
       table.innerHTML = '<tr><th>Hour</th><th>Departures</th></tr>';
 
       Object.keys(grouped).sort().forEach(hour => {
-        const chunks = chunkArray(grouped[hour], 20);
+        const tr = document.createElement('tr');
+        const hourTd = document.createElement('td');
+        hourTd.className = 'hour-cell';
+        hourTd.textContent = `${hour}h`;
+        tr.appendChild(hourTd);
 
-        chunks.forEach((chunk, index) => {
-          const tr = document.createElement('tr');
+        const depTd = document.createElement('td');
+        depTd.style.maxWidth = '900px';
+        depTd.style.wordBreak = 'break-word';
 
-          const hourTd = document.createElement('td');
-          hourTd.className = 'hour-cell';
-          hourTd.textContent = index === 0 ? `${hour}h` : '';
-          tr.appendChild(hourTd);
-
-          const depTd = document.createElement('td');
-          chunk.forEach(dep => {
-            const span = document.createElement('span');
-            span.className = 'minute';
-            span.textContent = dep.minute;
-            span.style.backgroundColor = ROUTE_COLORS[dep.route] || '#666';
-            depTd.appendChild(span);
-          });
-
-          tr.appendChild(depTd);
-          table.appendChild(tr);
+        grouped[hour].forEach(dep => {
+          const span = document.createElement('span');
+          span.className = 'minute';
+          span.textContent = dep.minute;
+          span.style.backgroundColor = ROUTE_COLORS[dep.route] || '#eee';
+          span.style.color = 'black';
+          depTd.appendChild(span);
         });
+
+        tr.appendChild(depTd);
+        table.appendChild(tr);
       });
 
       return table;

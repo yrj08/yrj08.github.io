@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Transit Timetable Generator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #f7f7f7;
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 30px;
+      background: white;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: #eaeaea;
+    }
+
+    .hour-cell {
+      width: 60px;
+      font-weight: bold;
+      background: #f2f2f2;
+    }
+
+    .minute {
+      display: inline-block;
+      padding: 3px 6px;
+      margin: 2px;
+      border-radius: 4px;
+      color: white;
+      font-size: 0.9em;
+    }
+
+    .upload-section {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Transit Timetable Generator</h1>
+
+  <div class="upload-section">
+    <button id="loadBtn">Load Timetables</button>
+    <p>CSV files are loaded automatically from the same folder as this HTML file.</p>
+  </div>
+
+  <div id="output"></div>
+
+  <script>
+    const ROUTE_COLORS = {
+      '121': '#FFFBE4',
+      '171': '#CEFFC9',
+      '174': '#FFDDA4',
+      '177': '#C9F0FF',
+      '378': '#FFD2D2',
+      '380': '#EFC4FF'
+    };
+
+    document.getElementById('loadBtn').addEventListener('click', async () => {
+      const files = [
+        'weekday_west.csv',
+        'weekday_east.csv',
+        'saturday_west.csv',
+        'saturday_east.csv',
+        'sunday_west.csv',
+        'sunday_east.csv'
+      ];
+
+      const output = document.getElementById('output');
+      output.innerHTML = '';
+
+      for (const fileName of files) {
+        try {
+          const response = await fetch(fileName);
+          const text = await response.text();
+          const rows = parseCSV(text);
+          const grouped = groupByHour(rows);
+
+          const section = document.createElement('div');
+          section.innerHTML = `<h2>${fileName}</h2>`;
+          section.appendChild(buildTable(grouped));
+          output.appendChild(section);
+        } catch (err) {
+          console.error(`Could not load ${fileName}`, err);
+        }
+      }
+    });
+
+    function parseCSV(text) {
+      return text.trim().split(/\r?\n/).map(line => {
+        const [route, time] = line.split(',');
+        return { route: route.trim(), time: time.trim() };
+      });
+    }
+
+    function groupByHour(rows) {
+      const grouped = {};
+
+      rows.forEach(({ route, time }) => {
+        const [hour, minute] = time.split(':');
+        if (!grouped[hour]) grouped[hour] = [];
+        grouped[hour].push({ route, minute });
+      });
+
+      return grouped;
+    }
+
+    function chunkArray(array, size) {
+      const result = [];
+      for (let i = 0; i < array.length; i += size) {
+        result.push(array.slice(i, i + size));
+      }
+      return result;
+    }
+
+    function buildTable(grouped) {
+      const table = document.createElement('table');
+      table.innerHTML = '<tr><th>Hour</th><th>Departures</th></tr>';
+
+      Object.keys(grouped).sort().forEach(hour => {
+        const chunks = chunkArray(grouped[hour], 20);
+
+        chunks.forEach((chunk, index) => {
+          const tr = document.createElement('tr');
+
+          const hourTd = document.createElement('td');
+          hourTd.className = 'hour-cell';
+          hourTd.textContent = index === 0 ? `${hour}h` : '';
+          tr.appendChild(hourTd);
+
+          const depTd = document.createElement('td');
+          chunk.forEach(dep => {
+            const span = document.createElement('span');
+            span.className = 'minute';
+            span.textContent = dep.minute;
+            span.style.backgroundColor = ROUTE_COLORS[dep.route] || '#666';
+            depTd.appendChild(span);
+          });
+
+          tr.appendChild(depTd);
+          table.appendChild(tr);
+        });
+      });
+
+      return table;
+    }
+  </script>
+</body>
+</html>

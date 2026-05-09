@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -95,20 +95,20 @@
   <h1>Horaires – Axe Côte-Vertu</h1>
 
   <p>Horaire du 18 mai au 14 juin 2026</p>
-  
+
   <div class="controls">
     <div>
-      <strong>Lignes:</strong>
+      <strong>Select route:</strong>
       <div id="routeFilters"></div>
     </div>
 
     <div class="grid-selector" id="fileSelector">
-      <div></div><div>Semaine</div><div>Samedi</div><div>Dimanche</div>
-      <div>Direction Ouest</div>
+      <div></div><div>Weekday</div><div>Saturday</div><div>Sunday</div>
+      <div>Direction Ouest<br>Côte-Vertu / Muir</div>
       <button class="selector-btn" data-file="weekday_west.csv">Semaine</button>
       <button class="selector-btn" data-file="saturday_west.csv">Samedi</button>
       <button class="selector-btn" data-file="sunday_west.csv">Dimanche</button>
-      <div>Direction Est</div>
+      <div>Direction Est<br>Métro Côte-Vertu</div>
       <button class="selector-btn" data-file="weekday_east.csv">Semaine</button>
       <button class="selector-btn" data-file="saturday_east.csv">Samedi</button>
       <button class="selector-btn" data-file="sunday_east.csv">Dimanche</button>
@@ -159,7 +159,7 @@
       document.querySelectorAll('.selector-btn').forEach(btn => {
         btn.addEventListener('click', () => {
           document.querySelectorAll('.selector-btn').forEach(b => b.classList.remove('active'));
-          btn.classList.add('active');
+          btn.classList.remove('inactive-route');
           renderFile(btn.dataset.file);
         });
       });
@@ -193,7 +193,7 @@
         selectedRoutes.add(route);
 
         const btn = document.createElement('button');
-        btn.className = 'route-btn active';
+        btn.className = 'route-btn';
         btn.textContent = route;
         btn.style.backgroundColor = ROUTE_COLORS[route] || '#eee';
         btn.style.color = 'black';
@@ -202,7 +202,6 @@
         btn.addEventListener('click', () => {
           if (selectedRoutes.has(route)) {
             selectedRoutes.delete(route);
-            btn.classList.remove('active');
             btn.classList.add('inactive-route');
           } else {
             selectedRoutes.add(route);
@@ -219,7 +218,9 @@
     }
 
     function parseCSV(text) {
-      return text.trim().split(/\r?\n/).map(line => {
+      return text.trim().split(/
+?
+/).map(line => {
         const [route, time] = line.split(',');
         return { route: route.trim(), time: time.trim() };
       });

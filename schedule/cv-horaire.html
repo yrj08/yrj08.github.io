@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Transit Timetable Generator</title>
+  <title>Horaires</title>
   <style>
     body {
       font-family: "Helvetica Neue", Arial, sans-serif;
@@ -44,11 +44,11 @@
 
     .minute {
       display: inline-block;
-      padding: 1px 4px;
+      padding: 2px 5px;
       margin: 1px;
       border-radius: 3px;
       color: white;
-      font-size: 0.82em;
+      font-size: 13px;
     }
 
     .controls {
@@ -76,8 +76,13 @@
     }
 
     .active {
-      background: #0074D9;
-      color: white;
+      background: #d9d9d9 !important;
+      color: black !important;
+    }
+
+    .inactive-route {
+      opacity: 0.35;
+      filter: grayscale(60%);
     }
 
     .upload-section {
@@ -157,7 +162,7 @@
         });
       });
 
-      renderFile('weekday_west.csv');
+      // no default file selected on load
     }
 
     async function renderFile(fileName) {
@@ -192,24 +197,25 @@
         btn.style.color = 'black';
         btn.style.fontWeight = 'bold';
 
+        btn.classList.add('active');
+        selectedRoutes.add(route);
+
         btn.addEventListener('click', () => {
           if (selectedRoutes.has(route)) {
             selectedRoutes.delete(route);
             btn.classList.remove('active');
+            btn.classList.add('inactive-route');
           } else {
             selectedRoutes.add(route);
             btn.classList.add('active');
+            btn.classList.remove('inactive-route');
           }
 
-          const activeBtn = document.querySelector('.selector-btn.active') || document.querySelector('.selector-btn');
-          renderFile(activeBtn.dataset.file);
+          const activeBtn = document.querySelector('.selector-btn.active');
+          if (activeBtn) renderFile(activeBtn.dataset.file);
         });
 
-        container.appendChild(btn);
-      });
-    }
-
-    function parseCSV(text) {
+        container.appendChild(btn);on parseCSV(text) {
       return text.trim().split(/\r?\n/).map(line => {
         const [route, time] = line.split(',');
         return { route: route.trim(), time: time.trim() };

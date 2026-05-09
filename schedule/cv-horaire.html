@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Horaires</title>
+  <title>Transit Timetable Generator</title>
   <style>
     body {
       font-family: "Helvetica Neue", Arial, sans-serif;
@@ -161,6 +161,7 @@
           renderFile(btn.dataset.file);
         });
       });
+      });
 
       // no default file selected on load
     }
@@ -189,15 +190,16 @@
 
     function renderRouteFilters(routes) {
       const container = document.getElementById('routeFilters');
+      container.innerHTML = '';
+
       routes.forEach(route => {
         const btn = document.createElement('button');
-        btn.className = 'route-btn';
+        btn.className = 'route-btn active';
         btn.textContent = route;
         btn.style.backgroundColor = ROUTE_COLORS[route] || '#eee';
         btn.style.color = 'black';
         btn.style.fontWeight = 'bold';
 
-        btn.classList.add('active');
         selectedRoutes.add(route);
 
         btn.addEventListener('click', () => {
@@ -212,10 +214,16 @@
           }
 
           const activeBtn = document.querySelector('.selector-btn.active');
-          if (activeBtn) renderFile(activeBtn.dataset.file);
+          if (activeBtn) {
+            renderFile(activeBtn.dataset.file);
+          }
         });
 
-        container.appendChild(btn);on parseCSV(text) {
+        container.appendChild(btn);
+      });
+    }
+
+    function parseCSV(text) {
       return text.trim().split(/\r?\n/).map(line => {
         const [route, time] = line.split(',');
         return { route: route.trim(), time: time.trim() };

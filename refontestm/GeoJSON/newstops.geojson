@@ -321,6 +321,8 @@
 {"type":"Feature","properties":{"stop_id":"A0237","stop_name":"René-Lévesque / Crescent (––)","icons":["orange.png","exo11.png","exo12.png","exo14.png"]},"geometry":{"type":"Point","coordinates":[-73.573092,45.496030]}},
 {"type":"Feature","properties":{"stop_id":"A0238","stop_name":"René-Lévesque / Lucien-L'Allier (––)","icons":["orange.png","exo11.png","exo12.png","exo14.png"]},"geometry":{"type":"Point","coordinates":[-73.573106,45.495585]}},
 {"type":"Feature","properties":{"stop_id":"A0239","stop_name":"Marcel-Laurin / No 2100 (––)"},"geometry":{"type":"Point","coordinates":[-73.703221,45.519433]}},
+{"type":"Feature","properties":{"stop_id":"A0240","stop_name":"du Collège / Crevier (––)"},"geometry":{"type":"Point","coordinates":[-73.677459,45.507437]}},
+{"type":"Feature","properties":{"stop_id":"A0241","stop_name":"du Collège / Crevier (––)"},"geometry":{"type":"Point","coordinates":[-73.677397,45.507631]}},
 {"type":"Feature","properties":{"stop_id":"A9001","stop_name":"Cégep Marie-Victorin (––)","icons":["bus.png"]},"geometry":{"type":"Point","coordinates":[-73.607063,45.617981]}},
 {"type":"Feature","properties":{"stop_id":"A9002","stop_name":"Rita-Levi-Montalcini / Samuel-Morse (––)"},"geometry":{"type":"Point","coordinates":[-73.583361,45.641483]}},
 {"type":"Feature","properties":{"stop_id":"A9003","stop_name":"Fairway / François-Lenoir (––)"},"geometry":{"type":"Point","coordinates":[-73.701388,45.454309]}},

@@ -158,7 +158,7 @@
       document.querySelectorAll('.selector-btn').forEach(btn => {
         btn.addEventListener('click', () => {
           document.querySelectorAll('.selector-btn').forEach(b => b.classList.remove('active'));
-          btn.classList.remove('inactive-route');
+          btn.classList.add('active');
           renderFile(btn.dataset.file);
         });
       });
@@ -217,9 +217,7 @@
     }
 
     function parseCSV(text) {
-      return text.trim().split(/
-?
-/).map(line => {
+      return text.trim().split(/\r?\n/).map(line => {
         const [route, time] = line.split(',');
         return { route: route.trim(), time: time.trim() };
       });

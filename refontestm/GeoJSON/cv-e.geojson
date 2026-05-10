@@ -4,7 +4,7 @@
         {
             "type": "Feature",
             "properties": {
-                "route": "cv_ouest",
+                "route": "cv_est",
                 "direction": "121",
                 "branch": "1210001",
                 "variant": "main",
@@ -229,7 +229,7 @@
         {
             "type": "Feature",
             "properties": {
-                "route": "cv_ouest",
+                "route": "cv_est",
                 "direction": "171",
                 "branch": "1710019",
                 "variant": "main",
@@ -376,7 +376,7 @@
         {
             "type": "Feature",
             "properties": {
-                "route": "cv_ouest",
+                "route": "cv_est",
                 "direction": "174",
                 "branch": "1740005",
                 "variant": "main",
@@ -541,7 +541,7 @@
         {
             "type": "Feature",
             "properties": {
-                "route": "cv_ouest",
+                "route": "cv_est",
                 "direction": "177",
                 "branch": "1770007",
                 "variant": "main",
@@ -756,7 +756,7 @@
         {
             "type": "Feature",
             "properties": {
-                "route": "cv_ouest",
+                "route": "cv_est",
                 "direction": "378",
                 "branch": "3780002",
                 "variant": "main",
@@ -1255,7 +1255,7 @@
         {
             "type": "Feature",
             "properties": {
-                "route": "cv_ouest",
+                "route": "cv_est",
                 "direction": "380",
                 "branch": "3800005",
                 "variant": "main",

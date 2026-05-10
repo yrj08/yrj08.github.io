@@ -327,6 +327,8 @@
 {"type":"Feature","properties":{"stop_id":"A0243","stop_name":"Bernard / Champagneur (––)"},"geometry":{"type":"Point","coordinates":[-73.608926,45.520002]}},
 {"type":"Feature","properties":{"stop_id":"A0244","stop_name":"Bernard / Querbes (––)"},"geometry":{"type":"Point","coordinates":[-73.607299,45.521819]}},
 {"type":"Feature","properties":{"stop_id":"A0245","stop_name":"Bernard / Querbes (––)"},"geometry":{"type":"Point","coordinates":[-73.607281,45.521601]}},
+{"type":"Feature","properties":{"stop_id":"A0246","stop_name":"Beaubien / Saint-Urbain (––)"},"geometry":{"type":"Point","coordinates":[-73.610492,45.529608]}},
+{"type":"Feature","properties":{"stop_id":"A0247","stop_name":"Beaubien / Jeanne-Mance (––)"},"geometry":{"type":"Point","coordinates":[-73.612199,45.527491]}},
 {"type":"Feature","properties":{"stop_id":"A9001","stop_name":"Cégep Marie-Victorin (––)","icons":["bus.png"]},"geometry":{"type":"Point","coordinates":[-73.607063,45.617981]}},
 {"type":"Feature","properties":{"stop_id":"A9002","stop_name":"Rita-Levi-Montalcini / Samuel-Morse (––)"},"geometry":{"type":"Point","coordinates":[-73.583361,45.641483]}},
 {"type":"Feature","properties":{"stop_id":"A9003","stop_name":"Fairway / François-Lenoir (––)"},"geometry":{"type":"Point","coordinates":[-73.701388,45.454309]}},

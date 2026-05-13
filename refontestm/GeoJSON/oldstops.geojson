@@ -323,6 +323,7 @@
 {"type":"Feature","properties":{"stop_id":"50273","stop_name":"de l'Acadie / Persillier (50273)"},"geometry":{"type":"Point","coordinates":[-73.673923,45.534095]}},
 {"type":"Feature","properties":{"stop_id":"50274","stop_name":"Gouin / Clark (50274)"},"geometry":{"type":"Point","coordinates":[-73.675208,45.550819]}},
 {"type":"Feature","properties":{"stop_id":"50275","stop_name":"Gouin / Clark (50275)"},"geometry":{"type":"Point","coordinates":[-73.675455,45.550546]}},
+{"type":"Feature","properties":{"stop_id":"50276","stop_name":"Meilleur / Henri-Bourassa (50276)"},"geometry":{"type":"Point","coordinates":[-73.67485,45.543293]}},
 {"type":"Feature","properties":{"stop_id":"50278","stop_name":"Henri-Bourassa / Meilleur (SAAQ) (50278)"},"geometry":{"type":"Point","coordinates":[-73.675518,45.542645]}},
 {"type":"Feature","properties":{"stop_id":"50279","stop_name":"Henri-Bourassa / Tanguay (50279)"},"geometry":{"type":"Point","coordinates":[-73.674593,45.544659]}},
 {"type":"Feature","properties":{"stop_id":"50282","stop_name":"Saint-Laurent / Gouin (50282)"},"geometry":{"type":"Point","coordinates":[-73.673997,45.551173]}},

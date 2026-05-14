@@ -1221,7 +1221,7 @@ window.routeConfigs = {
   "81": {title: "Ligne 81 • Saint-Jean-Baptiste", type: "regulier",
     files: {currentShapes: "../GeoJSON/curr-081.geojson", newShapes: "../GeoJSON/081.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Nord – Gare Rivière-des-Prairies", 
+    directionLabels: {outbound: "Nord – Rodolphe-Forget / Fernand-Forest", 
                       inbound: "Sud – Prince-Albert / 9e Avenue"},
     branchStyles: {
       "818888": {line: {color: "#009EE0", weight: 4, opacity: 1},
@@ -4275,7 +4275,7 @@ window.routeConfigs = {
   "428": {title: "Ligne 428 • Express Parcs Industriels de l'Est", type: "pointe",
     files: {currentShapes: "../GeoJSON/curr-428.geojson", newShapes: "../GeoJSON/428.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Nord – Rodolphe-Forget / Fernand-Forest", 
+    directionLabels: {outbound: "Nord – Maurice-Duplessis / 71e Avenue", 
                       inbound: "Sud – Station Radisson"},
     branchStyles: {
       "4288888": {line: {color: "#009EE0", weight: 4, opacity: 1},
@@ -4285,7 +4285,7 @@ window.routeConfigs = {
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
-      <li>Trajet à l'Est de Rodolphe-Forget supprimé; service remplacé par des 
+      <li>Trajet à l'Est de 71e Avenue supprimé; service remplacé par des 
           modifications à la ligne 40;</li>
       <li>Trajet via Du Golf pour remplacer la ligne 448 (trajet industriel).</li>
     `,
@@ -4422,7 +4422,7 @@ window.routeConfigs = {
   "448": {title: "Ligne 448 • Express Maurice-Duplessis", type: "pointe",
     files: {currentShapes: "../GeoJSON/curr-448.geojson", newShapes: "../GeoJSON/448.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est – Rodolphe-Forget / Fernand-Forest", 
+    directionLabels: {outbound: "Est – Maurice-Duplessis / 71e Avenue", 
                       inbound: "Ouest – Station Radisson"},
     branchStyles: {
       "4488888": {line: {color: "#009EE0", weight: 4, opacity: 1},

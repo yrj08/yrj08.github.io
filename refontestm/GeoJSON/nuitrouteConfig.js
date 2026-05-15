@@ -617,7 +617,7 @@ window.routeConfigs = {
   "375": {title: "Ligne 375 • Côte-de-Liesse / YUL Aéroport", type: "nuit",
     files: {currentShapes: "../GeoJSON/curr-375.geojson", newShapes: "../GeoJSON/375.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est – Station Côte-Vertu", 
+    directionLabels: {outbound: "Est – Place de la Côte-Vertu / Lebeau", 
                       inbound: "Ouest – Saint-Jean / Gouin"},
     branchStyles: {
       "3758888": {line: {color: "#000000", weight: 4, opacity: 1},

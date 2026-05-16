@@ -297,7 +297,7 @@ window.routeConfigs = {
     files: {currentShapes: "../GeoJSON/curr-020.geojson", newShapes: "../GeoJSON/020.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Parc Frédéric-Back", 
-                      inbound: "Ouest – Gare Ahuntsic"},
+                      inbound: "Ouest – Station Montpellier"},
     branchStyles: {
       "208888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},

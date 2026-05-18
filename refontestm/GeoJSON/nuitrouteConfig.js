@@ -642,10 +642,10 @@ window.routeConfigs = {
         nombre d'arrêts.</li>
     `},
   
-  "376": {title: "Ligne 376 • Brunswick / Anse-à-l'Orme", type: "nuit",
+  "376": {title: "Ligne 376 • Brunswick / Centre-Ville", type: "nuit",
     files: {currentShapes: "../GeoJSON/curr-376.geojson", newShapes: "../GeoJSON/376.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est – Station Namur", 
+    directionLabels: {outbound: "Est – Station Guy-Concordia", 
                       inbound: "Ouest – Gare Sainte-Anne-de-Bellevue"},
     branchStyles: {
       "3768888": {line: {color: "#000000", weight: 4, opacity: 1},
@@ -742,7 +742,7 @@ window.routeConfigs = {
   "382": {title: "Ligne 382 • Pierrefonds / Saint-Charles", type: "nuit",
     files: {currentShapes: "../GeoJSON/curr-382.geojson", newShapes: "../GeoJSON/382.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est – Station Guy-Concordia", 
+    directionLabels: {outbound: "Est – Station Namur", 
                       inbound: "Ouest – Gare Beaconsfield"},
     branchStyles: {
       "3828888": {line: {color: "#000000", weight: 4, opacity: 1},

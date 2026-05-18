@@ -4061,10 +4061,10 @@ window.routeConfigs = {
         nombre d'arrêts.</li>
     `},
   
-  "376": {title: "Ligne 376 • Brunswick / Anse-à-l'Orme", type: "nuit",
+  "376": {title: "Ligne 376 • Brunswick / Centre-Ville", type: "nuit",
     files: {currentShapes: "../GeoJSON/curr-376.geojson", newShapes: "../GeoJSON/376.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est – Station Namur", 
+    directionLabels: {outbound: "Est – Station Guy-Concordia", 
                       inbound: "Ouest – Gare Sainte-Anne-de-Bellevue"},
     branchStyles: {
       "3768888": {line: {color: "#000000", weight: 4, opacity: 1},
@@ -4078,8 +4078,7 @@ window.routeConfigs = {
         Service redirigé vers Sainte-Anne-de-Bellevue en remplacement partiel 
         de la ligne 354 via les axes Brunswick, Transcanadienne, Sainte-Marie 
         et des Anciens-Combattants;</li>
-      <li>Retrait du service entre Namur et Atwater; remplacé par une 
-        correspondance garantie avec la ligne 382 express vers Guy-Concordia;</li>
+      <li>Terminus au centre-ville déplacé à la station Guy-Concordia;</li>
       <li>Ajout du service via Davignon et Saint-Régis;</li>
       <li>En direction est, légère modification du trajet via Côte-de-Liesse 
         entre Cavendish et jonction A40-A520 pour permettre l'ajout d'un 
@@ -4090,9 +4089,6 @@ window.routeConfigs = {
       <li>Permettre d'élargir la zone desservie par le réseau de nuit;</li>
       <li>Permettre d'assurer un lien vers les stations du REM sur l'antenne 
         Anse-à-l'Orme lorsque celui-ci n'est pas en exploitation durant la nuit;</li>
-      <li>Les modifications entre Atwater et Namur permettent un plus grand nombre 
-        de correspondances depuis le centre-ville: la ligne 382 dessert plus 
-        de stations sur la branche ouest de la ligne orange;</li>
       <li>Permettre d'harmoniser la desserte de jour et de nuit;</li>
       <li>Permettre une correspondance avec la nouvelle ligne 375 à la jonction 
         des autoroutes 40 et 520;</li>
@@ -4161,7 +4157,7 @@ window.routeConfigs = {
   "382": {title: "Ligne 382 • Pierrefonds / Saint-Charles", type: "nuit",
     files: {currentShapes: "../GeoJSON/curr-382.geojson", newShapes: "../GeoJSON/382.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est – Station Guy-Concordia", 
+    directionLabels: {outbound: "Est – Station Namur", 
                       inbound: "Ouest – Gare Beaconsfield"},
     branchStyles: {
       "3828888": {line: {color: "#000000", weight: 4, opacity: 1},

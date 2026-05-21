@@ -518,7 +518,7 @@
                 "route": "196",
                 "direction": "outbound",
                 "branch": "1968888",
-                "variant": "short",
+                "variant": "secondaire",
                 "stops": ["62028","55849","55847","55439","55350","55446",
                           "55466","55487","61769","60288"],
                 "headsign": "(X) Nord - Station Côte-Vertu"
@@ -613,7 +613,7 @@
                 "route": "196",
                 "direction": "inbound",
                 "branch": "1969999",
-                "variant": "short",
+                "variant": "secondaire",
                 "stops": ["60289","55554","55488","55464","55785","55432","55437","55346",
                           "55848","55845"],
                 "headsign": "(X) Sud - Montée de Liesse / No 360"

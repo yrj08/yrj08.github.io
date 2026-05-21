@@ -616,7 +616,7 @@
                 "variant": "short",
                 "stops": ["60289","55554","55488","55464","55785","55432","55437","55346",
                           "55848","55845"],
-                "headsign": "Sud (X) - Montée de Liesse / No 360"
+                "headsign": "(X) Sud - Montée de Liesse / No 360"
             },
             "geometry": {
                 "type": "LineString",

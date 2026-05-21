@@ -2617,6 +2617,10 @@ window.routeConfigs = {
           stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},
       "1960016": {line: {color: "#8B469E", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#8B469E", fillOpacity: 1, shape: "circle"}},
+      "1968888": {line: {color: "#781B7D", weight: 4, opacity: 1, dashArray: "5,10"},
+          stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},
+      "1969999": {line: {color: "#8B469E", weight: 4, opacity: 1, dashArray: "5,10"},
+          stop: {radius: 4, weight: 3, color: "#8B469E", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `

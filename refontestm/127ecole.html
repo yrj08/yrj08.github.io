@@ -1,3 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Ajout ligne 127 École</title>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="../trajetsnuit/routeMap.js"></script>
+
+<style>
+body {margin: 25px;}
+#map {height: 80vh;}
+</style>
+</head>
+  
+<body>
 <h1>Création d'un 127E vers REM Bois-Franc en remplacement de certains 64E</h1>
 
 <p>La ligne 171 est désormais remplacée par la ligne 177, maintenant aux 30 minutes 
@@ -13,7 +30,7 @@
   voyage (identifiant 294188962), pour tous les jours où des données ont été 
   enregistrées :</p>
 
-<img src="171crowding.png" 
+<img src="SuggestionFigures/171crowding.png" 
   alt="Figure montrant l'achalandage du premier 171 ouest prolongé de l'après-midi 
   de l'école Saint-Laurent au bout de ligne" 
   width="483" height="356">
@@ -24,7 +41,30 @@
   le REM Bois-Franc sera bonifié avec la ligne 127E. Le tracé suggéré est présenté 
   ci-dessous :</p>
 
-<img src="127ecole.png" 
+<!--<img src="SuggestionFigures/127ecole.png" 
   alt="Tracé suggéré pour la ligne 127 École dans les deux directions, 
   avec terminus à l'école Saint-Laurent" 
-  width="703" height="575">
+  width="703" height="575">-->
+  
+<div id="map"></div>
+
+
+<script>
+createRouteMap({
+  geojsonFile: "127ecole.geojson",
+
+  outboundRouteLabel: "Tracé direction nord",
+  inboundRouteLabel: "Tracé direction sud",
+  outboundStopsLabel: "Arrêts direction nord",
+  inboundStopsLabel: "Arrêts direction sud",
+
+  branchStyles: {
+    "127-N": {color: "#009EE0", shape: "circle", radius: 5, weight: 5},
+    "127-S": {color: "#5DBDEA", shape: "circle", radius: 5, weight: 5}
+  }
+
+});
+</script>
+
+</body>
+</html>

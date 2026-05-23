@@ -8185,7 +8185,7 @@
 {"type":"Feature","properties":{"stop_id":"61864","stop_name":"Lachapelle / Périnault (61864)"},"geometry":{"type":"Point","coordinates":[-73.715679,45.527434]}},
 {"type":"Feature","properties":{"stop_id":"61865","stop_name":"Lachapelle / Ranger (61865)"},"geometry":{"type":"Point","coordinates":[-73.718190,45.529044]}},
 {"type":"Feature","properties":{"stop_id":"61866","stop_name":"Laurentien / Périnault (61866)"},"geometry":{"type":"Point","coordinates":[-73.717064,45.526686]}},
-{"type":"Feature","properties":{"stop_id":"61871","stop_name":"Centre Cartierville (61871)"},"geometry":{"type":"Point","coordinates":[-73.720794,45.528135]}},
+{"type":"Feature","properties":{"stop_id":"61871","stop_name":"Centre Cartierville (61871)"},"geometry":{"type":"Point","coordinates":[-73.720249,45.527887]}},
 {"type":"Feature","properties":{"stop_id":"61872","stop_name":"Saint-François / No 2000 (61872)"},"geometry":{"type":"Point","coordinates":[-73.778759,45.477483]}},
 {"type":"Feature","properties":{"stop_id":"61873","stop_name":"Saint-François / No 2025 (61873)"},"geometry":{"type":"Point","coordinates":[-73.779828,45.477097]}},
 {"type":"Feature","properties":{"stop_id":"61877","stop_name":"Sherbrooke / Pierre-Bernard (61877)"},"geometry":{"type":"Point","coordinates":[-73.528703,45.607397]}},

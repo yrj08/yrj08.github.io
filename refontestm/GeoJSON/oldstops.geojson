@@ -7643,7 +7643,7 @@
 {"type":"Feature","properties":{"stop_id":"60393","stop_name":"24e Avenue / Saint-Antoine (60393)"},"geometry":{"type":"Point","coordinates":[-73.685561,45.439997]}},
 {"type":"Feature","properties":{"stop_id":"60394","stop_name":"Rochon / Cardinal (60394)"},"geometry":{"type":"Point","coordinates":[-73.687168,45.514299]}},
 {"type":"Feature","properties":{"stop_id":"60395","stop_name":"Perras / No 10955 (60395)"},"geometry":{"type":"Point","coordinates":[-73.544255,45.670145]}},
-{"type":"Feature","properties":{"stop_id":"60396","stop_name":"Broadway / Prince-Albert (60396)"},"geometry":{"type":"Point","coordinates":[-73.498757,45.630752]}},
+{"type":"Feature","properties":{"stop_id":"60396","stop_name":"Broadway / Prince-Albert (60396)"},"geometry":{"type":"Point","coordinates":[-73.499310,45.630831]}},
 {"type":"Feature","properties":{"stop_id":"60397","stop_name":"Notre-Dame / 19e Avenue (60397)"},"geometry":{"type":"Point","coordinates":[-73.681309,45.435007]}},
 {"type":"Feature","properties":{"stop_id":"60398","stop_name":"Saint-Antoine / Place d'Accueil (60398)"},"geometry":{"type":"Point","coordinates":[-73.691310,45.439846]}},
 {"type":"Feature","properties":{"stop_id":"60400","stop_name":"de l'Île-des-Soeurs / Hall (60400)"},"geometry":{"type":"Point","coordinates":[-73.548194,45.452648]}},

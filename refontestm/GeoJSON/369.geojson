@@ -120,8 +120,8 @@
       "type": "Feature",
       "properties": {
         "direction": "outbound",
-        "variant": "short",
-        "headsign": "Nord - Station Namur",
+        "variant": "secondaire",
+        "headsign": "(X) Nord - Station Namur",
         "branch": "3698887",
         "route": "369",
         "stops": ["52330","52201","52113","53761","51840","51732","51626",

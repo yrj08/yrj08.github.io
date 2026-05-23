@@ -246,7 +246,7 @@
       "type": "Feature",
       "properties": {
         "direction": "inbound",
-        "branch": "3759999",
+        "branch": "3758999",
         "route": "375",
         "headsign": "Ouest - Saint-Jean / Gouin",
         "variant": "main",
@@ -513,9 +513,9 @@
       "type": "Feature",
       "properties": {
         "direction": "inbound",
-        "branch": "3759998",
+        "branch": "3759999",
         "route": "375",
-        "headsign": "Ouest - YUL Aéroport",
+        "headsign": "(X) Ouest - YUL Aéroport",
         "variant": "secondaire",
         "stops": ["55737","55733","55718","55707","55689","55661","60289","A0233",
                   "55677","55706","55723","55701","55679","55669","55645",

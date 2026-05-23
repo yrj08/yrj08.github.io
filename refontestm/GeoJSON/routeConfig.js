@@ -3513,8 +3513,8 @@ window.routeConfigs = {
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
-      <li>Retrait du service via métro Atwater : pôle d'échange déplacé à la station 
-        Guy-Concordia;</li>
+      <li>Retrait du service via métro Atwater : pôle d'échange déplacé aux alentours 
+        de la station Guy-Concordia sur René-Lévesque;</li>
       <li>Ajustement du parcours entre Papineau et Frontenac pour compenser au retrait 
         de la ligne 358;</li>
       <li>Retrait du service à l'ouest de Shevchenko jusqu'au Terminus Lafleur / Newman; 
@@ -3575,7 +3575,8 @@ window.routeConfigs = {
         lieu de desservir presque toutes les stations sur la ligne verte du 
         métro;</li>
       <li>Élargir le bassin desservi par les lignes de nuit en créant une 
-        nouvelle desserte via Notre-Dame, Monk, et Jolicoeur;</li>
+        nouvelle desserte via Notre-Dame, Monk, et Jolicoeur pour desservir
+        notamment Griffintown;</li>
       <li>Concorder avec le réseau de jour en suivant (plus ou moins) la ligne 
         110 Centrale à l'ouest du boul. Angrignon;</li>
       <li>Permettre de concentrer les ressources sur la ligne 350 avec une 
@@ -3619,7 +3620,9 @@ window.routeConfigs = {
     branchStyles: {
       "3548888": {line: {color: "#000000", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
-      "3549999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
+      "3548999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
+      "3549999": {line: {color: "#6F6F6F", weight: 4, opacity: 1, dashArray: "5,10"},
           stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -3691,7 +3694,9 @@ window.routeConfigs = {
     branchStyles: {
       "3568888": {line: {color: "#000000", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
-      "3569999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
+      "3568999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
+      "3569999": {line: {color: "#6F6F6F", weight: 4, opacity: 1, dashArray: "5,10"},
           stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -3703,6 +3708,8 @@ window.routeConfigs = {
         Guy / Côte-des-Neiges);</li>
       <li>Ajout du service sur Cherrier et retrait du service sur Sherbrooke 
         entre Atateken et Berri;</li>
+      <li>Création d'une ligne courte 356X entre métro Sherbrooke et Gare 
+          Montréal-Ouest les samedi soir;</li>
       <li>Retrait de quelques arrêts trop rapprochés.</li>
     `,
     pourquoi: `
@@ -3712,6 +3719,7 @@ window.routeConfigs = {
       <li>Reprendre un segment (Cherrier) délaissé par le retrait de la 
         ligne 360 sur ce tronçon ainsi qu'une meilleure correspondance vers d'autres 
         lignes à la station Sherbrooke;</li>
+      <li>Concentrer le niveau de service là où l'achalandage est plus élevé;</li>
       <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
         nombre d'arrêts.</li>
     `},
@@ -3724,18 +3732,18 @@ window.routeConfigs = {
     branchStyles: {
       "3578888": {line: {color: "#000000", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
-      "3579999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
+      "3578999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
+      "3579999": {line: {color: "#6F6F6F", weight: 4, opacity: 1, dashArray: "5,10"},
           stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
-      <li>Prolongement du parcours vers station Lionel-Groulx via boul. 
+      <li>Prolongement du parcours vers station Atwater via boul. 
         René-Lévesque;</li>
       <li>Retrait de quelques arrêts trop rapprochés.</li>
     `,
     pourquoi: `
-      <li>Créer un pôle d'échange plus sécuritaire et convivial pour la clientèle et 
-        pour les employés (par rapport à Atwater sur la ligne 355 actuelle);</li>
       <li>Remplacer les segments délaissés suite aux modifications à la 
         ligne 355;</li>
       <li>Élargir le bassin desservi par des lignes directes, sans 
@@ -3807,8 +3815,10 @@ window.routeConfigs = {
     branchStyles: {
       "3618888": {line: {color: "#000000", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
-      "3619999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
+      "3618999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
+      "3619888": {line: {color: "#000000", weight: 4, opacity: 1, dashArray: "5,10"},
+          stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
       "3618888_cancelled": {line: {color: "#FF2600", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#FF2600", fillOpacity: 1, shape: "circle"}},
       "3619999_cancelled": {line: {color: "#FFA59B", weight: 4, opacity: 1},
@@ -3841,7 +3851,11 @@ window.routeConfigs = {
     branchStyles: {
       "3628888": {line: {color: "#000000", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
-      "3629999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
+      "3628999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
+      "3629888": {line: {color: "#000000", weight: 4, opacity: 1, dashArray: "5,10"},
+          stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
+      "3629999": {line: {color: "#6F6F6F", weight: 4, opacity: 1, dashArray: "5,10"},
           stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -3915,16 +3929,19 @@ window.routeConfigs = {
     branchStyles: {
       "3658888": {line: {color: "#000000", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
-      "3659999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
+      "3658999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
+      "3659999": {line: {color: "#6F6F6F", weight: 4, opacity: 1, dashArray: "5,10"},
           stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
-      <li></li>
+      <li>Retrait du service sur Acadie (entre Jean-Talon et Jarry) et ajout du service
+          sur Champagneur/Bloomfield;</li>
       <li>Retrait de quelques arrêts trop rapprochés.</li>
     `,
     pourquoi: `
-      <li></li>
+      <li>Améliorer la desserte dans Parc-Extension et concorder à la ligne 179;</li>
       <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
         nombre d'arrêts.</li>
     `},

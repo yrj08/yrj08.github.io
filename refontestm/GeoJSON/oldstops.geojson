@@ -3504,7 +3504,7 @@
 {"type":"Feature","properties":{"stop_id":"53887","stop_name":"Royalmount / No 5780 (53887)"},"geometry":{"type":"Point","coordinates":[-73.672378,45.489713]}},
 {"type":"Feature","properties":{"stop_id":"53888","stop_name":"Royalmount / No 5800 (53888)"},"geometry":{"type":"Point","coordinates":[-73.672048,45.489800]}},
 {"type":"Feature","properties":{"stop_id":"53889","stop_name":"Royalmount / No 6111 (53889)"},"geometry":{"type":"Point","coordinates":[-73.673476,45.488841]}},
-{"type":"Feature","properties":{"stop_id":"53890","stop_name":"Royalmount / No 6000 (53890)"},"geometry":{"type":"Point","coordinates":[-73.673432,45.488712]}},
+{"type":"Feature","properties":{"stop_id":"53890","stop_name":"Royalmount / No 6000 (53890)"},"geometry":{"type":"Point","coordinates":[-73.673389,45.488746]}},
 {"type":"Feature","properties":{"stop_id":"53891","stop_name":"Royalmount / No 6150 (53891)"},"geometry":{"type":"Point","coordinates":[-73.675694,45.485612]}},
 {"type":"Feature","properties":{"stop_id":"53892","stop_name":"Jean-Talon / No 5005 (53892)"},"geometry":{"type":"Point","coordinates":[-73.650532,45.496568]}},
 {"type":"Feature","properties":{"stop_id":"53894","stop_name":"Atwater / du Centre (53894)"},"geometry":{"type":"Point","coordinates":[-73.573760,45.476052]}},

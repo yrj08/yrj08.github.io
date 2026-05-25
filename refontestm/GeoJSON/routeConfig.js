@@ -4517,7 +4517,7 @@ window.routeConfigs = {
     directionLabels: {outbound: "Est – Galeries d'Anjou", 
                       inbound: "Ouest – YUL Aéroport"},
     branchStyles: {
-      "4608004": {line: {color: "#009EE0", weight: 4, opacity: 1},
+      "4600004": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
       "4608001": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},

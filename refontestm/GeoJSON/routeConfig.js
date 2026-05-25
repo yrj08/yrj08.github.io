@@ -2746,12 +2746,16 @@ window.routeConfigs = {
   "202": {title: "Ligne 202 • Dawson", type: "regulier",
     files: {currentShapes: "../GeoJSON/curr-202.geojson", newShapes: "../GeoJSON/202.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est – YUL Aéroport", 
+    directionLabels: {outbound: "Est – Station Côte-de-Liesse", 
                       inbound: "Ouest – Station Fairview–Pointe-Claire"},
     branchStyles: {
       "2028888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "2029999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+      "2028999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "2029888": {line: {color: "#009EE0", weight: 4, opacity: 1, dashArray: "5,10"},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "2029999": {line: {color: "#5DBDEA", weight: 4, opacity: 1, dashArray: "5,10"},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -2887,11 +2891,15 @@ window.routeConfigs = {
     files: {currentShapes: "../GeoJSON/curr-209.geojson", newShapes: "../GeoJSON/209.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – Station Pierrefonds–Roxboro", 
-                      inbound: "Sud – YUL Aéroport"},
+                      inbound: "Sud – Stuart-Graham / No 751"},
     branchStyles: {
       "2090011": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
       "2090010": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "2099888": {line: {color: "#009EE0", weight: 4, opacity: 1, dashArray: "5,10"},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "2099999": {line: {color: "#5DBDEA", weight: 4, opacity: 1, dashArray: "5,10"},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -3221,28 +3229,7 @@ window.routeConfigs = {
     `,
     pourquoi: `
       <li>Améliorer la vitesse commerciale.</li>
-    `},
-
-  "232": {title: "Ligne 232 • Côte-de-Liesse", type: "regulier",
-    files: {currentShapes: "../GeoJSON/curr-232.geojson", newShapes: "../GeoJSON/232.geojson", 
-            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est – Station Côte-de-Liesse", 
-                      inbound: "Ouest – Stuart-Graham / No 951"},
-    branchStyles: {
-      "2328888": {line: {color: "#009EE0", weight: 4, opacity: 1},
-          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "2329999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
-          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}}},
-    changements: `
-      <li>Reprend la portion du trajet sur la ligne 202 entre Dorval et Côte-de-Liesse;</li>
-      <li>Trajet via du Collège au lieu de Saint-Louis pour conformer au trajet de la ligne 128;</li>
-      <li>Retrait de quelques arrêts trop rapprochés.</li>
-    `,
-    pourquoi: `
-      <li>Permet de concentrer les ressources sur le segment plus achalandé;</li>
-      <li>Permet d'améliorer la ponctualité;</li>
-      <li>Améliorer la vitesse commerciale.</li>
-    `},  
+    `}, 
 
   "270": {title: "Ligne 270 • Navette Or par taxi - Pointe-Claire", type: "aboli",
     files: {currentShapes: "../GeoJSON/curr-270.geojson", newShapes: "../GeoJSON/270.geojson", 

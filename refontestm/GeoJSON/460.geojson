@@ -1185,11 +1185,11 @@
                 "route": "460",
                 "direction": "outbound",
                 "branch": "4609888",
-                "variant": "main",
+                "variant": "secondaire",
                 "stops": ["57568","57524","57313","57312","55468","55480","55520",
                           "55842","55601","56110","62433","56141","56145","50561","50671",
                           "50770","50976","51178","51343","51472","51541","51548"],
-                "headsign": "Est - Galeries d'Anjou"
+                "headsign": "(X) Est - Jarry / Pie-IX"
             },
             "geometry": {
                 "type": "LineString",

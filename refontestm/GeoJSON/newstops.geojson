@@ -77,7 +77,7 @@
 {"type":"Feature","properties":{"stop_id":"61816","stop_name":"de Monkland / Décarie (61816)","icons":["orange.png"]},"geometry":{"type":"Point","coordinates":[-73.619642,45.478989]}},
 {"type":"Feature","properties":{"stop_id":"61994","stop_name":"Station Du Collège (du Collège / Décarie) (61994)","icons":["orange.png"]},"geometry":{"type":"Point","coordinates":[-73.674627,45.509668]}},
 {"type":"Feature","properties":{"stop_id":"62002","stop_name":"Station Du Collège (Cartier / Ouimet) (62002)","icons":["orange.png"]},"geometry":{"type":"Point","coordinates":[-73.672892,45.508637]}},
-{"type":"Feature","properties":{"stop_id":"62005","stop_name":"Station Du Collège (Saint-Louis / Décarie) (62005)","icons":["orange.png"]},"geometry":{"type":"Point","coordinates":[-73.672197,45.508362]}},
+
 {"type":"Feature","properties":{"stop_id":"62211","stop_name":"Hochelaga / De Chambly (62211)","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.551201,45.547398]}},
 {"type":"Feature","properties":{"stop_id":"62239","stop_name":"Côte-Saint-Paul / Monk (62239)"},"geometry":{"type":"Point","coordinates":[-73.599123,45.465394]}},
 {"type":"Feature","properties":{"stop_id":"62240","stop_name":"Côte-Saint-Paul / Centre Gadbois (62240)"},"geometry":{"type":"Point","coordinates":[-73.595591,45.465737]}},
@@ -333,6 +333,7 @@
 {"type":"Feature","properties":{"stop_id":"A0248","stop_name":"Alexis-Nihon / du Collège (––)"},"geometry":{"type":"Point","coordinates":[-73.685164,45.501621]}},
 {"type":"Feature","properties":{"stop_id":"A0249","stop_name":"Cavendish / Parc Marcel-Laurin (––)"},"geometry":{"type":"Point","coordinates":[-73.708838,45.504125]}},
 {"type":"Feature","properties":{"stop_id":"A0250","stop_name":"Transcanadienne / Côte-de-Liesse (––)"},"geometry":{"type":"Point","coordinates":[-73.682995,45.494463]}},
+{"type":"Feature","properties":{"stop_id":"A0251","stop_name":"Station Du Collège (du Collège / Décarie) (––)","icons":["orange.png"]},"geometry":{"type":"Point","coordinates":[-73.674639,45.509824]}},
 {"type":"Feature","properties":{"stop_id":"A9001","stop_name":"Cégep Marie-Victorin (––)","icons":["bus.png"]},"geometry":{"type":"Point","coordinates":[-73.607063,45.617981]}},
 {"type":"Feature","properties":{"stop_id":"A9002","stop_name":"Rita-Levi-Montalcini / Samuel-Morse (––)"},"geometry":{"type":"Point","coordinates":[-73.583361,45.641483]}},
 {"type":"Feature","properties":{"stop_id":"A9003","stop_name":"Fairway / François-Lenoir (––)"},"geometry":{"type":"Point","coordinates":[-73.701388,45.454309]}},

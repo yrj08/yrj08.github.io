@@ -3548,7 +3548,7 @@ window.routeConfigs = {
   "352": {title: "Ligne 352 • Centrale", type: "nuit",
     files: {currentShapes: "../GeoJSON/curr-352.geojson", newShapes: "../GeoJSON/352.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est – Station McGill", 
+    directionLabels: {outbound: "Est – Station Sherbrooke", 
                       inbound: "Ouest – Terminus Lafleur / Newman"},
     branchStyles: {
       "3528888": {line: {color: "#000000", weight: 4, opacity: 1},

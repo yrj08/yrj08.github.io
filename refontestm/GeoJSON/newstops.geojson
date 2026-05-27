@@ -325,7 +325,7 @@
 {"type":"Feature","properties":{"stop_id":"A0239","stop_name":"Marcel-Laurin / No 2100 (––)"},"geometry":{"type":"Point","coordinates":[-73.703221,45.519433]}},
 {"type":"Feature","properties":{"stop_id":"A0240","stop_name":"du Collège / Crevier (––)"},"geometry":{"type":"Point","coordinates":[-73.677459,45.507437]}},
 {"type":"Feature","properties":{"stop_id":"A0241","stop_name":"du Collège / Crevier (––)"},"geometry":{"type":"Point","coordinates":[-73.677397,45.507631]}},
-{"type":"Feature","properties":{"stop_id":"A0242","stop_name":"TBD (––)"},"geometry":{"type":"Point","coordinates":[-73.608909,45.519786]}},
+{"type":"Feature","properties":{"stop_id":"A0242","stop_name":"Saint-Laurent / Viger (––)"},"geometry":{"type":"Point","coordinates":[-73.558415,45.507332]}},
 {"type":"Feature","properties":{"stop_id":"A0243","stop_name":"Notre-Dame / Saint-Henri (––)","icons":["orange.png"]},"geometry":{"type":"Point","coordinates":[-73.584533,45.477594]}},
 {"type":"Feature","properties":{"stop_id":"A0244","stop_name":"Bernard / De L'Épée (––)"},"geometry":{"type":"Point","coordinates":[-73.607778,45.521292]}},
 {"type":"Feature","properties":{"stop_id":"A0245","stop_name":"TBD (––)"},"geometry":{"type":"Point","coordinates":[-73.607281,45.521601]}},

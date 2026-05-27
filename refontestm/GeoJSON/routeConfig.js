@@ -3679,27 +3679,18 @@ window.routeConfigs = {
     files: {currentShapes: "../GeoJSON/curr-355.geojson", newShapes: "../GeoJSON/355.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – Carrefour Henri-Bourassa / Pie-IX", 
-                      inbound: "Sud – Station Place-d'Armes"},
+                      inbound: "Sud – Station Atwater"},
     branchStyles: {
       "3558888": {line: {color: "#000000", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
-      "3559999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
+      "3558999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
-      "3558888_cancelled": {line: {color: "#FF2600", weight: 4, opacity: 1},
-          stop: {radius: 4, weight: 3, color: "#FF2600", fillOpacity: 1, shape: "circle"}},
-      "3559999_cancelled": {line: {color: "#FFA59B", weight: 4, opacity: 1},
-          stop: {radius: 4, weight: 3, color: "#FFA59B", fillOpacity: 1, shape: "circle"}},
-      "3558888_temporary": {line: {color: "#1F3BFF", weight: 4, opacity: 1},
-          stop: {radius: 4, weight: 3, color: "#1F3BFF", fillOpacity: 1, shape: "circle"}},
-      "3559999_temporary": {line: {color: "#7498FF", weight: 4, opacity: 1},
-          stop: {radius: 4, weight: 3, color: "#7498FF", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
-      <li>Retrait du service sur René-Lévesque: tronçon remplacé par un prolongement 
-        de la ligne 357);</li>
-      <li>Ajout du service via Ontario pour compenser 
-        au retrait de la ligne 360;</li>
+      <li>Retrait du service sur René-Lévesque entre Atateken et De Lorimier: nouveau 
+          trajet via Atateken et Ontario pour remplacer des modifications proposées 
+          à la ligne 360;</li>
       <li>Retrait de quelques arrêts trop rapprochés.</li>
     `,
     pourquoi: `
@@ -3755,26 +3746,20 @@ window.routeConfigs = {
     files: {currentShapes: "../GeoJSON/curr-357.geojson", newShapes: "../GeoJSON/357.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – Saint-Michel / Henri-Bourassa", 
-                      inbound: "Sud – Station Atwater"},
+                      inbound: "Sud – Station Frontenac"},
     branchStyles: {
       "3578888": {line: {color: "#000000", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
       "3578999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
-      "3579999": {line: {color: "#6F6F6F", weight: 4, opacity: 1, dashArray: "5,10"},
-          stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
-      <li>Prolongement du parcours vers station Atwater via boul. 
-        René-Lévesque;</li>
+      <li>Légère modification du trajet autour de la station Frontenac;</li>
       <li>Retrait de quelques arrêts trop rapprochés.</li>
     `,
     pourquoi: `
-      <li>Remplacer les segments délaissés suite aux modifications à la 
-        ligne 355;</li>
-      <li>Élargir le bassin desservi par des lignes directes, sans 
-        correspondances depuis le centre-ville;</li>
+      <li>Permettre d'optimiser les trajets à la station Frontenac;</li>
       <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
         nombre d'arrêts.</li>
     `},
@@ -3976,7 +3961,7 @@ window.routeConfigs = {
   "368": {title: "Ligne 368 • Édouard-Montpetit", type: "nuit",
     files: {currentShapes: "../GeoJSON/curr-368.geojson", newShapes: "../GeoJSON/368.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est – du Havre / Sainte-Catherine", 
+    directionLabels: {outbound: "Est – Station Frontenac", 
                       inbound: "Ouest – Station Côte-Vertu"},
     branchStyles: {
       "3688888": {line: {color: "#000000", weight: 4, opacity: 1},

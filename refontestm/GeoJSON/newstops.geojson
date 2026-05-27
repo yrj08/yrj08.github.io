@@ -6,7 +6,7 @@
 {"type":"Feature","properties":{"stop_id":"51242","stop_name":"Décarie / Brillon (51242)","icons":["orange.png"]},"geometry":{"type":"Point","coordinates":[-73.618819,45.478879]}},
 {"type":"Feature","properties":{"stop_id":"51702","stop_name":"Saint-Jacques / Saint-Rémi (51702)"},"geometry":{"type":"Point","coordinates":[-73.596641,45.474033]}},
 {"type":"Feature","properties":{"stop_id":"51905","stop_name":"Papineau / escalier des Carrières (51905)"},"geometry":{"type":"Point","coordinates":[-73.587893,45.538996]}},
-{"type":"Feature","properties":{"stop_id":"52004","stop_name":"Notre-Dame / Beaudoin (52004)"},"geometry":{"type":"Point","coordinates":[-73.586614,45.475046]}},
+{"type":"Feature","properties":{"stop_id":"52004","stop_name":"Notre-Dame / Beaudoin (52004)"},"geometry":{"type":"Point","coordinates":[-73.586574,45.475113]}},
 {"type":"Feature","properties":{"stop_id":"53047","stop_name":"Station Papineau (Cartier / Sainte-Catherine) (53047)","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.552124,45.523512]}},
 {"type":"Feature","properties":{"stop_id":"53082","stop_name":"Station Assomption (53082)","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.547025,45.569087]}},
 {"type":"Feature","properties":{"stop_id":"53133","stop_name":"Perras / 87e Avenue (53133)"},"geometry":{"type":"Point","coordinates":[-73.541705,45.671189]}},

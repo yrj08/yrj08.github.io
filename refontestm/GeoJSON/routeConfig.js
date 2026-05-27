@@ -3746,7 +3746,7 @@ window.routeConfigs = {
     files: {currentShapes: "../GeoJSON/curr-357.geojson", newShapes: "../GeoJSON/357.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – Saint-Michel / Henri-Bourassa", 
-                      inbound: "Sud – Station Frontenac"},
+                      inbound: "Sud – du Havre / Sainte-Catherine"},
     branchStyles: {
       "3578888": {line: {color: "#000000", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
@@ -3759,7 +3759,8 @@ window.routeConfigs = {
       <li>Retrait de quelques arrêts trop rapprochés.</li>
     `,
     pourquoi: `
-      <li>Permettre d'optimiser les trajets à la station Frontenac;</li>
+      <li>Permettre d'optimiser les trajets à la station Frontenac, de réduire le nombre 
+          de lignes qui s'y terminent et de concorder le trajet avec la ligne 94;</li>
       <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
         nombre d'arrêts.</li>
     `},

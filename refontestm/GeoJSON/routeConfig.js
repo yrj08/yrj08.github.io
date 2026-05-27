@@ -133,10 +133,16 @@ window.routeConfigs = {
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
-      <li></li>
+      <li>Trajet en direction sud redirigé sur Papineau entre Rachel et métro Papineau;</li>
+      <li>Point de départ ajusté à la station Papineau;</li>
+      <li>Terminus nord ajusté à l'intersection de Crémazie et Fabre;</li>
       <li>Retrait de quelques arrêts trop rapprochés.</li>
     `,
     pourquoi: `
+      <li>Améliorer l'efficacité du service vers la station Papineau en évitant 
+          les multiples détours via les rues Parthenais, Sherbrooke, D'Iberville 
+          et Ontario;</li>
+      <li>Permet un service bi-directionnel sur Crémazie;</li>
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
@@ -148,7 +154,11 @@ window.routeConfigs = {
     branchStyles: {
       "118888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "119999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+      "118999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "119888": {line: {color: "#009EE0", weight: 4, opacity: 1, dashArray: "5,10"},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "119999": {line: {color: "#5DBDEA", weight: 4, opacity: 1, dashArray: "5,10"},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -159,6 +169,8 @@ window.routeConfigs = {
           en remplacement de la ligne 711;</li>
       <li>Retrait du service sur Mont-Royal. Service redirigé sur Laurier en 
           remplacement de la ligne 711;</li>
+      <li>Création d'une ligne courte 11X entre les stations Snowdon et Laurier durant 
+          les heures d'affluence (en pointe et durant les fins de semaine);</li>
       <li>Retrait de quelques arrêts trop rapprochés.</li>
     `,
     pourquoi: `
@@ -169,6 +181,7 @@ window.routeConfigs = {
           de façon significative;</li>
       <li>Permet aux usagers d'accéder plus facilement le centre-ville et le 
           métro Snowdon sans correspondance vers la ligne 165;</li>
+      <li>Permet de concentrer les ressources sur les tronçons les plus achalandés;</li>
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
@@ -180,22 +193,24 @@ window.routeConfigs = {
     branchStyles: {
       "120001": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "128888": {line: {color: "#009EE0", weight: 4, opacity: 1, dashArray: "5,10"},
-          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
       "120002": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "128888": {line: {color: "#009EE0", weight: 4, opacity: 1, dashArray: "5,10"},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
       "129999": {line: {color: "#5DBDEA", weight: 4, opacity: 1, dashArray: "5,10"},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
       <li>Modification du terminus De L'Église à l'édicule Galt;</li>
-      <li>Création des lignes courtes 12X pour remplacer la ligne 172;</li>
+      <li>Création des lignes courtes 12X aux heures de pointe pour partiellement 
+          remplacer la ligne 172;</li>
       <li>Retrait du service au delà de la boucle Pointe-Sud;</li>
       <li>Retrait de quelques arrêts trop rapprochés.</li>
     `,
     pourquoi: `
       <li>Permet un meilleur niveau de service entre Pointe-Sud et REM;</li>
+      <li>Permet une optimisation des ressources;</li>
       <li>Améliorer la vitesse commerciale.</li>
     `},
   
@@ -212,10 +227,11 @@ window.routeConfigs = {
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
-      <li></li>
+      <li>Terminus nord à la station Henri-Bourassa (sur Millen) en tout temps;</li>
       <li>Retrait de quelques arrêts trop rapprochés.</li>
     `,
     pourquoi: `
+      <li>Permet un rabattement vers le métro en tout temps;</li>
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
@@ -246,10 +262,15 @@ window.routeConfigs = {
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
-      <li></li>
+      <li>Prolongement du trajet à l'ouest vers la Place Vertu via Côte-Vertu et Cavendish;</li>
+      <li>Retrait du service entre Acadie et Parc; terminus déplacé à la station Acadie;</li>
       <li>Retrait de quelques arrêts trop rapprochés.</li>
     `,
     pourquoi: `
+      <li>Permet un rabattement avec plusieurs lignes majeures dans l'arrondissement 
+          Saint-Laurent et améliorer l'accès à la Place Vertu et aux industries;</li>
+      <li>Permet un accès plus rapide à la ligne bleue ainsi qu'au Campus MIL et 
+          d'éviter la congestion dans Parc-Extension;</li>
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
@@ -261,15 +282,24 @@ window.routeConfigs = {
     branchStyles: {
       "178888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "179999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+      "178999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "179888": {line: {color: "#009EE0", weight: 4, opacity: 1, dashArray: "5,10"},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
-      <li></li>
+      <li>Trajet prolongé au sud vers la station Lionel-Groulx;</li>
+      <li>Retrait du service sur Girouard (remplacé par des modifications à la ligne 24) 
+          et ajout du service sur Sherbrooke en remplacement de la ligne 24;</li>
+      <li>Maintien des trajets ligne courte le matin en direction nord;</li>
       <li>Retrait de quelques arrêts trop rapprochés.</li>
     `,
     pourquoi: `
+      <li>Permet de renforcer la ligne orange du métro en permettant une correspondance 
+          à la ligne verte à la station Lionel-Groulx;</li>
+      <li>Permet une desserte à la station Villa-Maria;</li>
+      <li>Permet une amélioration du service sur l'axe Girouard;</li>
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
@@ -286,10 +316,16 @@ window.routeConfigs = {
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
-      <li></li>
+      <li>Retrait du service à l'ouest de la station Beaubien;</li>
+      <li>Retrait du service sur L.-H.-La Fontaine et ajout du service via 
+          Bois-de-Coulonge et Honoré-Beaugrand;</li>
       <li>Retrait de quelques arrêts trop rapprochés.</li>
     `,
     pourquoi: `
+      <li>Concentrer les ressources sur la portion plus achalandée, puisque 
+          le tronçon à l'ouest de la station Beaubien est déjà desservie par 
+          la ligne 160;</li>
+      <li>Améliorer la desserte vers le métro Honoré-Beaugrand;</li>
       <li>Améliorer la vitesse commerciale.</li>
     `},
 

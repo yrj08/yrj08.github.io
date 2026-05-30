@@ -2971,27 +2971,28 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
-  "211": {title: "Ligne 211 • Bord-du-Lac", type: "frequent_pointe",
+  "211": {title: "Ligne 211 • Bord-du-Lac", type: "regulier",
     files: {currentShapes: "../GeoJSON/curr-211.geojson", newShapes: "../GeoJSON/211.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Lionel-Groulx", 
                       inbound: "Ouest – Station Anse-à-l'Orme"},
     branchStyles: {
-      "2110016": {line: {color: "#781B7D", weight: 4, opacity: 1},
-          stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},
-      "2110017": {line: {color: "#8B469E", weight: 4, opacity: 1},
-          stop: {radius: 4, weight: 3, color: "#8B469E", fillOpacity: 1, shape: "circle"}},
-      "2110015": {line: {color: "#781B7D", weight: 4, opacity: 1, dashArray: "5,10"},
-          stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},
-      "2110018": {line: {color: "#8B469E", weight: 4, opacity: 1, dashArray: "5,10"},
-          stop: {radius: 4, weight: 3, color: "#8B469E", fillOpacity: 1, shape: "circle"}},
+      "2110016": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "2110017": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "2110015": {line: {color: "#009EE0", weight: 4, opacity: 1, dashArray: "5,10"},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "2110018": {line: {color: "#5DBDEA", weight: 4, opacity: 1, dashArray: "5,10"},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
-      <li></li>
+      <li>Diminution de fréquence en raison de faible achalandage observé;</li>
       <li>Retrait de quelques arrêts trop rapprochés.</li>
     `,
     pourquoi: `
+      <li>Permet une meilleure utilisation des ressources;</li>
       <li>Améliorer la vitesse commerciale.</li>
     `},
 

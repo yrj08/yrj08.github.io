@@ -1906,7 +1906,7 @@ window.routeConfigs = {
     files: {currentShapes: "../GeoJSON/curr-127.geojson", newShapes: "../GeoJSON/127.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – Station Bois-Franc", 
-                      inbound: "Sud – Station Du Collège"},
+                      inbound: "Sud – Station Côte-de-Liesse"},
     branchStyles: {
       "1278888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
@@ -1927,7 +1927,7 @@ window.routeConfigs = {
     files: {currentShapes: "../GeoJSON/curr-128.geojson", newShapes: "../GeoJSON/128.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – Muir / Montpellier", 
-                      inbound: "Sud – Station Côte-de-Liesse"},
+                      inbound: "Sud – Station Du Collège"},
     branchStyles: {
       "1280023": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},

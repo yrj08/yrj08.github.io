@@ -8,7 +8,7 @@
                 "direction": "all",
                 "branch": "current",
                 "variant": "current",
-                "stops": [
+                "stops": ["51491",
                     "50377",
                     "50398",
                     "50410",

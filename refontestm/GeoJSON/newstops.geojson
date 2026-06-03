@@ -348,8 +348,6 @@
 {"type":"Feature","properties":{"stop_id":"A9993","stop_name":"Station Anjou (localisation provisoire) (––)","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.560248,45.601091]}},
 {"type":"Feature","properties":{"stop_id":"A9994","stop_name":"Station Anjou (localisation provisoire) (––)","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.560462,45.601061]}},
 {"type":"Feature","properties":{"stop_id":"A9996","stop_name":"Station Vertières (localisation provisoire) (––)","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.590132,45.566855]}},
-{"type":"Feature","properties":{"stop_id":"A9997","stop_name":"Station Vertières (localisation provisoire) (––)","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.590355,45.566949]}},
-{"type":"Feature","properties":{"stop_id":"A9998","stop_name":"Côte-Sainte-Catherine / Maplewood (––)"},"geometry":{"type":"Point","coordinates":[-73.594684,45.515841]}},
-{"type":"Feature","properties":{"stop_id":"A9999","stop_name":"Christophe-Colomb / Mistral (––)"},"geometry":{"type":"Point","coordinates":[-73.627758,45.549369]}}
+{"type":"Feature","properties":{"stop_id":"A9997","stop_name":"Station Vertières (localisation provisoire) (––)","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.590355,45.566949]}}
   ]
 }

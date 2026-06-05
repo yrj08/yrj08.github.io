@@ -253,22 +253,29 @@ window.routeConfigs = {
     files: {currentShapes: "../GeoJSON/curr-016.geojson", newShapes: "../GeoJSON/016.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Acadie", 
-                      inbound: "Ouest – Boucle Thimens"},
+                      inbound: "Ouest – Levy / No 5060"},
     branchStyles: {
       "168888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "169999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+      "168999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "169888": {line: {color: "#009EE0", weight: 4, opacity: 1, dashArray: "5,10"},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "169999": {line: {color: "#5DBDEA", weight: 4, opacity: 1, dashArray: "5,10"},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
-      <li>Prolongement du trajet à l'ouest vers la Place Vertu via Côte-Vertu et Cavendish;</li>
+      <li>Prolongement du trajet à l'ouest vers Levy (en semaine durant la journée et 
+          en pointe en fins de semaine) via Côte-Vertu, Cavendish et Poirier en remplacement 
+          du parcours 70 actuel;</li>
       <li>Retrait du service entre Acadie et Parc; terminus déplacé à la station Acadie;</li>
       <li>Retrait de quelques arrêts trop rapprochés.</li>
     `,
     pourquoi: `
       <li>Permet un rabattement avec plusieurs lignes majeures dans l'arrondissement 
-          Saint-Laurent et améliorer l'accès à la Place Vertu et aux industries;</li>
+          Saint-Laurent et améliorer l'accès à la Place Vertu et aux industries, ainsi 
+          qu'améliorer l'utilité de la ligne 70 actuelle;</li>
       <li>Permet un accès plus rapide à la ligne bleue ainsi qu'au Campus MIL et 
           d'éviter la congestion dans Parc-Extension;</li>
       <li>Améliorer la vitesse commerciale.</li>
@@ -1142,28 +1149,19 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
-  "70": {title: "Ligne 70 • Poirier", type: "regulier",
+  "70": {title: "Ligne 70 • Poirier", type: "aboli",
     files: {currentShapes: "../GeoJSON/curr-070.geojson", newShapes: "../GeoJSON/070.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est – Station Côte-Vertu", 
-                      inbound: "Ouest – Levy / No 5060"},
+    directionLabels: {outbound: "Est", inbound: "Ouest"},
     branchStyles: {
-      "708888": {line: {color: "#009EE0", weight: 4, opacity: 1},
-          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "708999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
-          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
-      "709888": {line: {color: "#009EE0", weight: 4, opacity: 1, dashArray: "5,10"},
-          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "709999": {line: {color: "#5DBDEA", weight: 4, opacity: 1, dashArray: "5,10"},
-          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
-      <li>Aucune modification de trajet; ajout d'un arrêt à Côte-Vertu / Marcel-Laurin;</li>
-      <li>Retrait de quelques arrêts trop rapprochés ailleurs sur le parcours.</li>
+      <li>Ligne fusionnée avec la ligne 16 Graham.</li>
     `,
     pourquoi: `
-      <li>Améliorer la vitesse commerciale.</li>
+      <li>Améliorer l'efficacité et l'utilité des lignes 16 et 70 en bonifiant les 
+          correspondances possibles.</li>
     `},
 
   "71": {title: "Ligne 71 • Pointe-Saint-Charles", type: "regulier",

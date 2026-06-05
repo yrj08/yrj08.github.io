@@ -1213,19 +1213,19 @@ window.routeConfigs = {
     files: {currentShapes: "../GeoJSON/curr-073.geojson", newShapes: "../GeoJSON/073.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Boucle - Cavendish / Griffith", 
-                      inbound: "Boucle - Station Côte-Vertu"},
+                      inbound: "Boucle - Station Du Collège"},
     branchStyles: {
-      "739999": {line: {color: "#009EE0", weight: 4, opacity: 1},
+      "738888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "738888": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+      "739999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
-      <li>Aucune modification de trajet: desserte en boucle maintenue avec deux 
-          directions indiquées pour mieux guider la clientèle.</li>
-      <li>Service redirigé vers Côte-Vertu puisque toutes les autres lignes du 
-          secteur se dirige vers Du Collège ou De La Savane;</li>
+      <li>Desserte en boucle maintenue avec deux directions indiquées pour mieux 
+          guider la clientèle.</li>
+      <li>Service redirigé via Côte-de-Liesse pour renforcer la desserte sur la 
+          ligne 220 en pointe;</li>
       <li>Retrait de quelques arrêts trop rapprochés.</li>
     `,
     pourquoi: `

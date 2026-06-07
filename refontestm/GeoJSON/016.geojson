@@ -998,7 +998,7 @@
                 "route": "16",
                 "direction": "outbound",
                 "branch": "169888",
-                "variant": "secondaire",
+                "variant": "tertiaire",
                 "stops": ["60593","60564","61632","55816","55893","55892",
                           "55503","55519","55556","55581","55604","60288"],
                 "headsign": "(X) Est - Station Côte-Vertu"
@@ -1079,7 +1079,7 @@
                 "route": "16",
                 "direction": "inbound",
                 "branch": "169999",
-                "variant": "secondaire",
+                "variant": "tertiaire",
                 "stops": ["55890","55594","55580","55554","55518","55502","55886",
                           "55773","A0249","61633","60563","60594","60569","60593"],
                 "headsign": "(X) Ouest - Raymond-Lasnier / Beaulac"

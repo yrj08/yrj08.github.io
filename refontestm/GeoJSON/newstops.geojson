@@ -330,7 +330,7 @@
 {"type":"Feature","properties":{"stop_id":"A0242","stop_name":"Saint-Laurent / Viger (––)"},"geometry":{"type":"Point","coordinates":[-73.558415,45.507332]}},
 {"type":"Feature","properties":{"stop_id":"A0243","stop_name":"Notre-Dame / Saint-Henri (––)","icons":["orange.png"]},"geometry":{"type":"Point","coordinates":[-73.584533,45.477594]}},
 {"type":"Feature","properties":{"stop_id":"A0244","stop_name":"Bernard / De L'Épée (––)"},"geometry":{"type":"Point","coordinates":[-73.607778,45.521292]}},
-{"type":"Feature","properties":{"stop_id":"A0245","stop_name":"Côte-Vertu / Crevier (––)"},"geometry":{"type":"Point","coordinates":[-73.685492,45.511932]}},
+{"type":"Feature","properties":{"stop_id":"A0245","stop_name":"Jean-Meunier / d'Amos (––)"},"geometry":{"type":"Point","coordinates":[-73.622062,45.604069]}},
 {"type":"Feature","properties":{"stop_id":"A0246","stop_name":"Beaubien / Saint-Urbain (––)"},"geometry":{"type":"Point","coordinates":[-73.610492,45.529608]}},
 {"type":"Feature","properties":{"stop_id":"A0247","stop_name":"Beaubien / Jeanne-Mance (––)"},"geometry":{"type":"Point","coordinates":[-73.612199,45.527491]}},
 {"type":"Feature","properties":{"stop_id":"A0248","stop_name":"Alexis-Nihon / du Collège (––)"},"geometry":{"type":"Point","coordinates":[-73.685164,45.501621]}},

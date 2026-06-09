@@ -4870,6 +4870,78 @@ window.routeConfigs = {
     `,
     pourquoi: `
       <li>N/A</li>
+    `},
+
+  "811": {title: "Ligne 811 • Navette services santé", type: "aboli",
+    files: {currentShapes: "../GeoJSON/curr-811.geojson", newShapes: "../GeoJSON/811.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Ouest"},
+    branchStyles: {
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Retrait du service temporaire; ligne partiellement remplacée par des trajets 
+          ligne courte sur la ligne 131.</li>
+    `,
+    pourquoi: `
+      <li>Améliorer la desserte vers l'hôpital Rosemont-Maisonneuve.</li>
+    `},
+
+  "814": {title: "Ligne 814 • Jean-Talon Est / Bélanger", type: "aboli",
+    files: {currentShapes: "../GeoJSON/curr-814.geojson", newShapes: "../GeoJSON/814.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est"},
+    branchStyles: {
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Retrait du service temporaire dès la fin des travaux sur Jean-Talon.</li>
+    `,
+    pourquoi: `
+      <li>Ligne devenue redondante dès la réouverture complète de Jean-Talon.</li>
+    `},
+
+  "815": {title: "Ligne 815 • REM des Sources / YUL Aéroport", type: "aboli",
+    files: {currentShapes: "../GeoJSON/curr-815.geojson", newShapes: "../GeoJSON/815.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Nord", inbound: "Sud"},
+    branchStyles: {
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Retrait du service temporaire.</li>
+    `,
+    pourquoi: `
+      <li>Ligne devenue dedondante dès l'ouverture de l'antenne A2 du REM.</li>
+    `},
+
+  "822": {title: "Ligne 822 • Navette Longue-Pointe", type: "aboli",
+    files: {currentShapes: "../GeoJSON/curr-822.geojson", newShapes: "../GeoJSON/822.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Boucle"},
+    branchStyles: {
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Retrait du service temporaire.</li>
+    `,
+    pourquoi: `
+      <li>Ligne remplacée par d'autres dessertes locales du secteur.</li>
+    `},
+
+  "872": {title: "Ligne 872 • Île-des-Soeurs", type: "aboli",
+    files: {currentShapes: "../GeoJSON/curr-872.geojson", newShapes: "../GeoJSON/872.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Nord", inbound: "Sud"},
+    branchStyles: {
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Retrait du service temporaire; ligne remplacée par des modifications aux 
+          lignes 12, 168, 172 et 176.</li>
+    `,
+    pourquoi: `
+      <li>Permettre de concentrer les ressources ailleurs.</li>
     `}
   
 };

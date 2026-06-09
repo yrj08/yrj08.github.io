@@ -1,19 +1,24 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "direction": "outbound",
-        "branch": "8150017",
-        "route": "815",
-        "variant": "main",
-        "headsign": "Nord - Station Des Sources",
-        "stops": ["60443","62824"]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "route": "10",
+                "direction": "all",
+                "branch": "current",
+                "variant": "current",
+                "stops": [
+                    "60443",
+                    "62824",
+                    "62825"
+                ],
+                "headsign": "Service actuel"
+            },
+            "geometry": {
+                "type": "MultiLineString",
+                "coordinates": [
+                    [
 [-73.753015, 45.454704],
 [-73.752988, 45.454779],
 [-73.752904, 45.455121],
@@ -153,22 +158,8 @@
 [-73.790557, 45.476052],
 [-73.790868, 45.475891],
 [-73.791569, 45.476653]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "direction": "outbound",
-        "branch": "8150016",
-        "route": "815",
-        "variant": "main",
-        "headsign": "Sud - YUL Aéroport",
-        "stops": ["62825","60443"]
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
+        ],
+        [
 [-73.790462, 45.477366],
 [-73.790331, 45.477222],
 [-73.790127, 45.476999],
@@ -273,7 +264,7 @@
 [-73.753009, 45.454516],
 [-73.753022, 45.45468],
 [-73.753013, 45.454704]
-        ]
+        ]]
       }
     }
   ]

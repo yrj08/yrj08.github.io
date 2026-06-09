@@ -3666,11 +3666,11 @@ window.routeConfigs = {
         nombre d'arrêts.</li>
     `},
 
-  "354": {title: "Ligne 354 • Des Sources / YUL Aéroport", type: "nuit",
+  "354": {title: "Ligne 354 • Saint-Jean / YUL Aéroport", type: "nuit",
     files: {currentShapes: "../GeoJSON/curr-354.geojson", newShapes: "../GeoJSON/354.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Place-des-Arts", 
-                      inbound: "Ouest – Station Pierrefonds–Roxboro"},
+                      inbound: "Ouest – Saint-Jean / Gouin"},
     branchStyles: {
       "3548888": {line: {color: "#000000", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
@@ -3964,7 +3964,7 @@ window.routeConfigs = {
   "365": {title: "Ligne 365 • Du Parc", type: "nuit",
     files: {currentShapes: "../GeoJSON/curr-365.geojson", newShapes: "../GeoJSON/365.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Nord – Terminus Grenet / De Serres", 
+    directionLabels: {outbound: "Nord – Centre de transport Saint-Laurent", 
                       inbound: "Sud – Station Place-d'Armes"},
     branchStyles: {
       "3658888": {line: {color: "#000000", weight: 4, opacity: 1},
@@ -4134,36 +4134,6 @@ window.routeConfigs = {
         nombre d'arrêts.</li>
     `},
   
-  "375": {title: "Ligne 375 • Côte-de-Liesse / YUL Aéroport", type: "nuit",
-    files: {currentShapes: "../GeoJSON/curr-375.geojson", newShapes: "../GeoJSON/375.geojson", 
-            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est – Station Côte-Vertu", 
-                      inbound: "Ouest – Saint-Jean / Gouin"},
-    branchStyles: {
-      "3758888": {line: {color: "#000000", weight: 4, opacity: 1},
-          stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
-      "3758999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
-          stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
-      "3759888": {line: {color: "#000000", weight: 4, opacity: 1, dashArray: "5,10"},
-          stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
-      "3759999": {line: {color: "#6F6F6F", weight: 4, opacity: 1, dashArray: "5,10"},
-          stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}}},
-    changements: `
-      <li>Nouvelle ligne desservant les axes Saint-Louis, Côte-de-Liesse, 
-        Cardinal, A-20 et Saint-Jean pour reprendre les axes délaissés 
-        suite aux modifications des lignes 354, 378 et 382. Ajout du 
-        service sur Saint-Louis et Saint-Jean (entre A-20 et Hymus) 
-        par rapport au réseau actuel;</li>
-      <li>Retrait de quelques arrêts trop rapprochés.</li>
-    `,
-    pourquoi: `
-      <li>Permet d'élargir le bassin desservi par le réseau de nuit;</li>
-      <li>Permet de réduire la longueur de la ligne 356 par des modifications 
-        aux lignes 354 et 356;</li>
-      <li>Améliorer la vitesse commerciale et ponctualité en réduisant le 
-        nombre d'arrêts.</li>
-    `},
-  
   "376": {title: "Ligne 376 • Brunswick / Centre-Ville", type: "nuit",
     files: {currentShapes: "../GeoJSON/curr-376.geojson", newShapes: "../GeoJSON/376.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
@@ -4201,15 +4171,17 @@ window.routeConfigs = {
         nombre d'arrêts.</li>
     `},
 
-  "378": {title: "Ligne 378 • Sauvé / Côte-Vertu", type: "nuit",
+  "378": {title: "Ligne 378 • Sauvé / YUL Aéroport", type: "nuit",
     files: {currentShapes: "../GeoJSON/curr-378.geojson", newShapes: "../GeoJSON/378.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Saint-Michel / Sauvé", 
-                      inbound: "Ouest – Centre de transport Saint-Laurent"},
+                      inbound: "Ouest – Station Pierrefonds–Roxboro"},
     branchStyles: {
       "3788888": {line: {color: "#000000", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
-      "3789999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
+      "3788999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
+      "3789999": {line: {color: "#6F6F6F", weight: 4, opacity: 1, dashArray: "5,10"},
           stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},

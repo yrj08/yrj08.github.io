@@ -34,6 +34,7 @@
 {"type":"Feature","properties":{"stop_id":"56225","stop_name":"Victoria / The Boulevard (56225)"},"geometry":{"type":"Point","coordinates":[-73.615965,45.484671]}},
 {"type":"Feature","properties":{"stop_id":"56488","stop_name":"Gowans / des Érables (56488)"},"geometry":{"type":"Point","coordinates":[-73.653126,45.442960]}},
 {"type":"Feature","properties":{"stop_id":"56682","stop_name":"Gaétan-Laberge / Gilberte-Dubé (56682)"},"geometry":{"type":"Point","coordinates":[-73.562301,45.469859]}},
+{"type":"Feature","properties":{"stop_id":"56907","stop_name":"Senkus / Saint-Patrick (56907)"},"geometry":{"type":"Point","coordinates":[-73.625614,45.450756]}},
 {"type":"Feature","properties":{"stop_id":"57108","stop_name":"Carr. Angrignon entrée est (Angrignon / No 2221) (57108)"},"geometry":{"type":"Point","coordinates":[-73.612799,45.449002]}},
 {"type":"Feature","properties":{"stop_id":"57109","stop_name":"Carr. Angrignon entrée nord (Angrignon / No 2500) (57109)"},"geometry":{"type":"Point","coordinates":[-73.617895,45.449632]}},
 {"type":"Feature","properties":{"stop_id":"57505","stop_name":"Terminus Dorval (57505)","icons":["exo11.png"]},"geometry":{"type":"Point","coordinates":[-73.743173,45.448549]}},

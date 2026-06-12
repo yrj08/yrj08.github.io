@@ -6316,7 +6316,7 @@
 {"type":"Feature","properties":{"stop_id":"57216","stop_name":"Victoria / 21e Avenue (57216)"},"geometry":{"type":"Point","coordinates":[-73.683362,45.435686]}},
 {"type":"Feature","properties":{"stop_id":"57217","stop_name":"Provost / 20e Avenue (57217)"},"geometry":{"type":"Point","coordinates":[-73.682351,45.441954]}},
 {"type":"Feature","properties":{"stop_id":"57219","stop_name":"Duff Court / Esther-Blondin (57219)"},"geometry":{"type":"Point","coordinates":[-73.680094,45.446030]}},
-{"type":"Feature","properties":{"stop_id":"57221","stop_name":"Provost / Esther-Blondin (57221)"},"geometry":{"type":"Point","coordinates":[-73.679853,45.441989]}},
+{"type":"Feature","properties":{"stop_id":"57221","stop_name":"Provost / Esther-Blondin (57221)"},"geometry":{"type":"Point","coordinates":[-73.680079,45.441989]}},
 {"type":"Feature","properties":{"stop_id":"57222","stop_name":"Esther-Blondin / Provost (57222)"},"geometry":{"type":"Point","coordinates":[-73.680327,45.442339]}},
 {"type":"Feature","properties":{"stop_id":"57223","stop_name":"Provost / 18e Avenue (57223)"},"geometry":{"type":"Point","coordinates":[-73.680558,45.441880]}},
 {"type":"Feature","properties":{"stop_id":"57225","stop_name":"Victoria / 18e Avenue (57225)"},"geometry":{"type":"Point","coordinates":[-73.679942,45.436059]}},

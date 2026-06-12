@@ -1238,24 +1238,19 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
-  "74": {title: "Ligne 74 • Bridge", type: "pointe",
+  "74": {title: "Ligne 74 • Bridge", type: "aboli",
     files: {currentShapes: "../GeoJSON/curr-074.geojson", newShapes: "../GeoJSON/074.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Nord – Gare Lucien-L'Allier", 
-                      inbound: "Sud – Carrie-Derick / Marc-Cantin"},
+    directionLabels: {outbound: "Nord", inbound: "Sud"},
     branchStyles: {
-      "748888": {line: {color: "#009EE0", weight: 4, opacity: 1},
-          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "749999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
-          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
-      <li></li>
-      <li>Retrait de quelques arrêts trop rapprochés.</li>
+      <li>Service remplacé par des modifications à la ligne 168.</li>
     `,
     pourquoi: `
-      <li>Améliorer la vitesse commerciale.</li>
+      <li>Permettre de concentrer les ressources ailleurs en raison de faible 
+          achalandage observé.</li>
     `},
   
   "79": {title: "Ligne 79 • Gouin", type: "regulier",
@@ -2292,16 +2287,16 @@ window.routeConfigs = {
   "168": {title: "Ligne 168 • Cité-du-Havre", type: "regulier",
     files: {currentShapes: "../GeoJSON/curr-168.geojson", newShapes: "../GeoJSON/168.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Nord – Station Bonaventure", 
+    directionLabels: {outbound: "Nord – Gare Lucien-L'Allier", 
                       inbound: "Sud – André-Prévost / Serge-Garant"},
     branchStyles: {
       "1688888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "1689999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+      "1688999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
-      "1688880": {line: {color: "#009EE0", weight: 4, opacity: 1, dashArray: "5,10"},
+      "1689888": {line: {color: "#009EE0", weight: 4, opacity: 1, dashArray: "5,10"},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "1689990": {line: {color: "#5DBDEA", weight: 4, opacity: 1, dashArray: "5,10"},
+      "1689999": {line: {color: "#5DBDEA", weight: 4, opacity: 1, dashArray: "5,10"},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},

@@ -154,7 +154,7 @@
 {"type":"Feature","properties":{"stop_id":"A0066","stop_name":"Saint-Patrick / No 5870 (––)"},"geometry":{"type":"Point","coordinates":[-73.602866,45.460948]}},
 {"type":"Feature","properties":{"stop_id":"A0067","stop_name":"Saint-Patrick / Irwin (––)"},"geometry":{"type":"Point","coordinates":[-73.613026,45.457584]}},
 {"type":"Feature","properties":{"stop_id":"A0068","stop_name":"Saint-Patrick / No 6000 (––)"},"geometry":{"type":"Point","coordinates":[-73.609132,45.458866]}},
-{"type":"Feature","properties":{"stop_id":"A0069","stop_name":"TBD (––)"},"geometry":{"type":"Point","coordinates":[-73.580341,45.561988]}},
+{"type":"Feature","properties":{"stop_id":"A0069","stop_name":"Elm / Fairway (––)"},"geometry":{"type":"Point","coordinates":[-73.865299,45.431049]}},
 {"type":"Feature","properties":{"stop_id":"A0070","stop_name":"Beaubien / Cartier (––)"},"geometry":{"type":"Point","coordinates":[-73.596394,45.543547]}},
 {"type":"Feature","properties":{"stop_id":"A0071","stop_name":"Notre-Dame / Pie-IX (––)"},"geometry":{"type":"Point","coordinates":[-73.533423,45.547497]}},
 {"type":"Feature","properties":{"stop_id":"A0072","stop_name":"Royalmount / No 6000 (––)"},"geometry":{"type":"Point","coordinates":[-73.673462,45.488686]}},

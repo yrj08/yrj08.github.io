@@ -29,7 +29,7 @@
 {"type":"Feature","properties":{"stop_id":"55519","stop_name":"Côte-Vertu / Bertrand (55519)"},"geometry":{"type":"Point","coordinates":[-73.696144,45.503437]}},
 {"type":"Feature","properties":{"stop_id":"55551","stop_name":"Thimens / Marcel-Laurin (55551)"},"geometry":{"type":"Point","coordinates":[-73.692831,45.513346]}},
 {"type":"Feature","properties":{"stop_id":"55839","stop_name":"Station Du Collège (Cartier / Ouimet) (55839)","icons":["orange.png"]},"geometry":{"type":"Point","coordinates":[-73.672753,45.508761]}},
-{"type":"Feature","properties":{"stop_id":"55944","stop_name":"Station Côte-Vertu (Côte-Vertu / Décarie) (55944)"},"geometry":{"type":"Point","coordinates":[-73.683484,45.513835]}},
+{"type":"Feature","properties":{"stop_id":"55944","stop_name":"Station Côte-Vertu (Côte-Vertu / Décarie) (55944)","icons":["orange.png"]},"geometry":{"type":"Point","coordinates":[-73.683484,45.513835]}},
 {"type":"Feature","properties":{"stop_id":"55983","stop_name":"Jules-Poitras / Henri-Bourassa (55983)"},"geometry":{"type":"Point","coordinates":[-73.684064,45.529225]}},
 {"type":"Feature","properties":{"stop_id":"55997","stop_name":"Dutrisac / Henri-Bourassa (55997)","icons":["rem.png"]},"geometry":{"type":"Point","coordinates":[-73.692354,45.527969]}},
 {"type":"Feature","properties":{"stop_id":"56225","stop_name":"Victoria / The Boulevard (56225)"},"geometry":{"type":"Point","coordinates":[-73.615965,45.484671]}},

@@ -2996,20 +2996,18 @@ window.routeConfigs = {
     files: {currentShapes: "../GeoJSON/curr-211.geojson", newShapes: "../GeoJSON/211.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Lionel-Groulx", 
-                      inbound: "Ouest – Station Anse-à-l'Orme"},
+                      inbound: "Ouest – Gare Beaconsfield"},
     branchStyles: {
       "2110016": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
       "2110017": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
-      "2110015": {line: {color: "#009EE0", weight: 4, opacity: 1, dashArray: "5,10"},
-          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "2110018": {line: {color: "#5DBDEA", weight: 4, opacity: 1, dashArray: "5,10"},
-          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
-      <li>Diminution de fréquence en raison de faible achalandage observé;</li>
+      <li>Diminution de fréquence et retrait du service à l'ouest de la gare 
+          Beaconsfield en raison de faible achalandage observé. Service remplacé 
+          par des modifications aux lignes 221 et 222;</li>
       <li>Retrait de quelques arrêts trop rapprochés.</li>
     `,
     pourquoi: `
@@ -3147,7 +3145,7 @@ window.routeConfigs = {
     files: {currentShapes: "../GeoJSON/curr-221.geojson", newShapes: "../GeoJSON/221.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – Station Fairview–Pointe-Claire", 
-                      inbound: "Sud – Gare Beaconsfield"},
+                      inbound: "Sud – Station Kirkland"},
     branchStyles: {
       "2210002": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
@@ -3166,12 +3164,12 @@ window.routeConfigs = {
   "222": {title: "Ligne 222 • Senneville", type: "pointe",
     files: {currentShapes: "../GeoJSON/curr-222.geojson", newShapes: "../GeoJSON/222.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Boucle - Senneville", 
-                      inbound: "Boucle - Station Anse-à-l'Orme"},
+    directionLabels: {outbound: "Ouest - Senneville", 
+                      inbound: "Est - Gare Beaconsfield"},
     branchStyles: {
-      "2229999": {line: {color: "#009EE0", weight: 4, opacity: 1},
+      "2228888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "2228888": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+      "2229999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
@@ -3184,7 +3182,7 @@ window.routeConfigs = {
           des confusions.</li>
     `},
 
-  "223": {title: "Ligne 223 • Parc Industriel Baie-D'Urfé", type: "pointe",
+  "223": {title: "Ligne 223 • Parc Industriel Baie-D'Urfé", type: "regulier",
     files: {currentShapes: "../GeoJSON/curr-223.geojson", newShapes: "../GeoJSON/223.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Boucle - Parc Industriel Baie-D'Urfé", 

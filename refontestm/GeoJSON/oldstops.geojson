@@ -1423,7 +1423,6 @@
 {"type":"Feature","properties":{"stop_id":"51503","stop_name":"du Parc / Bernard (51503)"},"geometry":{"type":"Point","coordinates":[-73.605730,45.523673]}},
 {"type":"Feature","properties":{"stop_id":"51504","stop_name":"Bernard / du Parc (51504)"},"geometry":{"type":"Point","coordinates":[-73.605557,45.523524]}},
 {"type":"Feature","properties":{"stop_id":"51505","stop_name":"Saint-Laurent / de Bellechasse (51505)"},"geometry":{"type":"Point","coordinates":[-73.605738,45.529042]}},
-{"type":"Feature","properties":{"stop_id":"51507","stop_name":"Christophe-Colomb / Saint-Zotique (51507)"},"geometry":{"type":"Point","coordinates":[-73.605186,45.539345]}},
 {"type":"Feature","properties":{"stop_id":"51508","stop_name":"Station Beaubien (Saint-Denis / Beaubien) (51508)","icons":["orange.png"]},"geometry":{"type":"Point","coordinates":[-73.604813,45.534008]}},
 {"type":"Feature","properties":{"stop_id":"51509","stop_name":"Beaubien / Saint-Denis (51509)"},"geometry":{"type":"Point","coordinates":[-73.604990,45.534149]}},
 {"type":"Feature","properties":{"stop_id":"51511","stop_name":"Beaubien / Saint-Denis (51511)"},"geometry":{"type":"Point","coordinates":[-73.605056,45.533853]}},

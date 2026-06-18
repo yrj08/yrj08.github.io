@@ -6,16 +6,17 @@
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-<script src="../trajetsnuit/routeMap.js"></script>
+<script src="../../trajetsnuit/routeMap.js"></script>
 
 <style>
-body {margin: 25px;}
+body {margin: 20px;}
 #map {height: 80vh;}
 </style>
 </head>
   
 <body>
 <h1>Création d'un 127E vers REM Bois-Franc en remplacement de certains 64E</h1>
+<h3>Dossier W260223046</h3>
 
 <p>La ligne 171 est désormais remplacée par la ligne 177, maintenant aux 30 minutes 
   vers l'est le matin et vers l'ouest l'après-midi vers un quartier industriel. Outre 
@@ -30,7 +31,7 @@ body {margin: 25px;}
   voyage (identifiant 294188962), pour tous les jours où des données ont été 
   enregistrées :</p>
 
-<img src="SuggestionFigures/171crowding.png" 
+<img src="../SuggestionFigures/171crowding.png" 
   alt="Figure montrant l'achalandage du premier 171 ouest prolongé de l'après-midi 
   de l'école Saint-Laurent au bout de ligne" 
   width="483" height="356">
@@ -51,7 +52,7 @@ body {margin: 25px;}
 
 <script>
 createRouteMap({
-  geojsonFile: "127ecole.geojson",
+  geojsonFile: "../127ecole.geojson",
 
   outboundRouteLabel: "Tracé direction nord",
   inboundRouteLabel: "Tracé direction sud",

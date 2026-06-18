@@ -63,6 +63,8 @@
 {"type":"Feature","properties":{"stop_id":"10302","stop_name":"Du Quartier","icons":["rem.png"]},"geometry":{"type":"Point","coordinates":[-73.433592,45.446902]}},
 {"type":"Feature","properties":{"stop_id":"10303","stop_name":"Panama","icons":["rem.png"]},"geometry":{"type":"Point","coordinates":[-73.4701805,45.4649455]}},
 {"type":"Feature","properties":{"stop_id":"10304","stop_name":"Île-des-Soeurs","icons":["rem.png"]},"geometry":{"type":"Point","coordinates":[-73.5385425,45.470331]}},
+{"type":"Feature","properties":{"stop_id":"10305","stop_name":"Bridge-Bonaventure (nom et emplacement provisoire)","icons":["rem.png"]},"geometry":{"type":"Point","coordinates":[-73.5564689,45.4880552]}},
+{"type":"Feature","properties":{"stop_id":"10306","stop_name":"Griffintown–Bernard-Landry","icons":["rem.png"]},"geometry":{"type":"Point","coordinates":[-73.5587247,45.4962665]}},
 {"type":"Feature","properties":{"stop_id":"10307","stop_name":"Gare Centrale","icons":["orange.png","rem.png","exo13.png"]},"geometry":{"type":"Point","coordinates":[-73.566929,45.5000105]}},
 {"type":"Feature","properties":{"stop_id":"10308","stop_name":"McGill","icons":["verte.png","rem.png"]},"geometry":{"type":"Point","coordinates":[-73.5723945,45.502673]}},
 {"type":"Feature","properties":{"stop_id":"10309","stop_name":"Édouard-Montpetit","icons":["bleue.png","rem.png"]},"geometry":{"type":"Point","coordinates":[-73.612708,45.510103]}},
@@ -122,7 +124,6 @@
 {"type":"Feature","properties":{"stop_id":"21116","stop_name":"Dorion","icons":["exo11.png"]},"geometry":{"type":"Point","coordinates":[-74.0084911,45.38652]}},
 {"type":"Feature","properties":{"stop_id":"21117","stop_name":"Vaudreuil","icons":["exo11.png"]},"geometry":{"type":"Point","coordinates":[-74.0515258,45.3993955]}},
 {"type":"Feature","properties":{"stop_id":"21118","stop_name":"Hudson","icons":["exo11.png"]},"geometry":{"type":"Point","coordinates":[-74.1411393,45.4596413]}},
-
 {"type":"Feature","properties":{"stop_id":"21204","stop_name":"Parc","icons":["bleue.png","exo12.png"]},"geometry":{"type":"Point","coordinates":[-73.6239476,45.5316097]}},
 {"type":"Feature","properties":{"stop_id":"21205","stop_name":"Chabanel","icons":["exo12.png"]},"geometry":{"type":"Point","coordinates":[-73.6573736,45.5368901]}},
 {"type":"Feature","properties":{"stop_id":"21206","stop_name":"Bois-de-Boulogne","icons":["exo12.png"]},"geometry":{"type":"Point","coordinates":[-73.6770247,45.5401968]}},
@@ -141,7 +142,6 @@
 {"type":"Feature","properties":{"stop_id":"21305","stop_name":"Saint-Basile-le-Grand","icons":["exo13.png"]},"geometry":{"type":"Point","coordinates":[-73.3054633,45.5235068]}},
 {"type":"Feature","properties":{"stop_id":"21306","stop_name":"McMasterville","icons":["exo13.png"]},"geometry":{"type":"Point","coordinates":[-73.2305178,45.5456791]}},
 {"type":"Feature","properties":{"stop_id":"21307","stop_name":"Mont Saint-Hilaire","icons":["exo13.png"]},"geometry":{"type":"Point","coordinates":[-73.1791413,45.5772546]}},
-
 {"type":"Feature","properties":{"stop_id":"21404","stop_name":"Du Canal","icons":["exo14.png"]},"geometry":{"type":"Point","coordinates":[-73.6558571,45.4381351]}},
 {"type":"Feature","properties":{"stop_id":"21405","stop_name":"LaSalle","icons":["exo14.png"]},"geometry":{"type":"Point","coordinates":[-73.6570942,45.4255007]}},
 {"type":"Feature","properties":{"stop_id":"21406","stop_name":"Sainte-Catherine","icons":["exo14.png"]},"geometry":{"type":"Point","coordinates":[-73.6000988,45.3820931]}},

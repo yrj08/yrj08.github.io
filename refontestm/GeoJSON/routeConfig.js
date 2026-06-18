@@ -344,7 +344,7 @@ window.routeConfigs = {
     files: {currentShapes: "../GeoJSON/curr-020.geojson", newShapes: "../GeoJSON/020.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Parc Frédéric-Back", 
-                      inbound: "Ouest – Station Montpellier"},
+                      inbound: "Ouest – Sauvé / de l'Acadie"},
     branchStyles: {
       "208888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
@@ -989,7 +989,7 @@ window.routeConfigs = {
     files: {currentShapes: "../GeoJSON/curr-057.geojson", newShapes: "../GeoJSON/057.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – Station Atwater", 
-                      inbound: "Sud – Dick-Irvin / Charon"},
+                      inbound: "Sud – Bridge / Wellington"},
     branchStyles: {
       "570001": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
@@ -2042,7 +2042,7 @@ window.routeConfigs = {
     files: {currentShapes: "../GeoJSON/curr-140.geojson", newShapes: "../GeoJSON/140.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – d'Amos / Lacordaire", 
-                      inbound: "Ouest – Gare Ahuntsic"},
+                      inbound: "Ouest – Sauvé / de l'Acadie"},
     branchStyles: {
       "1408888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},

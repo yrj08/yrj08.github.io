@@ -541,7 +541,7 @@ window.routeConfigs = {
   "32": {title: "Ligne 32 • Lacordaire", type: "frequent_pointe",
     files: {currentShapes: "../GeoJSON/curr-032.geojson", newShapes: "../GeoJSON/032.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Nord – Ozias-Leduc / Paul-Letondal", 
+    directionLabels: {outbound: "Nord – Gouin / Ozias-Leduc", 
                       inbound: "Sud – Station Assomption"},
     branchStyles: {
       "328888": {line: {color: "#781B7D", weight: 4, opacity: 1},
@@ -561,7 +561,7 @@ window.routeConfigs = {
   "33": {title: "Ligne 33 • Langelier", type: "frequent_pointe",
     files: {currentShapes: "../GeoJSON/curr-033.geojson", newShapes: "../GeoJSON/033.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Nord – Ozias-Leduc / Paul-Letondal", 
+    directionLabels: {outbound: "Nord – Gouin / Ozias-Leduc", 
                       inbound: "Sud – Hector-Barsalou / De Boucherville"},
     branchStyles: {
       "338888": {line: {color: "#781B7D", weight: 4, opacity: 1},

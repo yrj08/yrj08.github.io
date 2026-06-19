@@ -337,6 +337,7 @@
 {"type":"Feature","properties":{"stop_id":"A0250","stop_name":"Transcanadienne / Côte-de-Liesse (––)"},"geometry":{"type":"Point","coordinates":[-73.682995,45.494463]}},
 {"type":"Feature","properties":{"stop_id":"A0251","stop_name":"Station Du Collège (du Collège / Décarie) (––)","icons":["orange.png"]},"geometry":{"type":"Point","coordinates":[-73.674639,45.509824]}},
 {"type":"Feature","properties":{"stop_id":"A0252","stop_name":"Station Parc (Ogilvy / Hutchison) (––)","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.624207,45.530675]}},
+{"type":"Feature","properties":{"stop_id":"A0253","stop_name":"Autoroute 20 / Fénelon (––)"},"geometry":{"type":"Point","coordinates":[-73.750719,45.448941]}},
 {"type":"Feature","properties":{"stop_id":"A9001","stop_name":"Cégep Marie-Victorin (––)","icons":["bus.png"]},"geometry":{"type":"Point","coordinates":[-73.607063,45.617981]}},
 {"type":"Feature","properties":{"stop_id":"A9002","stop_name":"Rita-Levi-Montalcini / Samuel-Morse (––)"},"geometry":{"type":"Point","coordinates":[-73.583361,45.641483]}},
 {"type":"Feature","properties":{"stop_id":"A9003","stop_name":"Fairway / François-Lenoir (––)"},"geometry":{"type":"Point","coordinates":[-73.701388,45.454309]}},

@@ -2700,7 +2700,7 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
-  "196": {title: "Ligne 196 • Parc Industriel Saint-Laurent", type: "frequent_pointe",
+  "196": {title: "Ligne 196 • Parc Industriel Lachine", type: "frequent_pointe",
     files: {currentShapes: "../GeoJSON/curr-196.geojson", newShapes: "../GeoJSON/196.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord - Station Côte-Vertu", 
@@ -3964,6 +3964,8 @@ window.routeConfigs = {
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
       "3658999": {line: {color: "#6F6F6F", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
+      "3659888": {line: {color: "#000000", weight: 4, opacity: 1, dashArray: "5,10"},
+          stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
       "3659999": {line: {color: "#6F6F6F", weight: 4, opacity: 1, dashArray: "5,10"},
           stop: {radius: 4, weight: 3, color: "#6F6F6F", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
@@ -4544,10 +4546,6 @@ window.routeConfigs = {
       "4608888": {line: {color: "#009EE0", weight: 4, opacity: 1, dashArray: "5,10"},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
       "4608999": {line: {color: "#5DBDEA", weight: 4, opacity: 1, dashArray: "5,10"},
-          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
-      "4609888": {line: {color: "#009EE0", weight: 4, opacity: 1, dashArray: "5,10"},
-          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "4609999": {line: {color: "#5DBDEA", weight: 4, opacity: 1, dashArray: "5,10"},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},

@@ -59,6 +59,7 @@
 {"type":"Feature","properties":{"stop_id":"60774","stop_name":"Jean-Talon / No 4290 (60774)"},"geometry":{"type":"Point","coordinates":[-73.589431,45.568569]}},
 {"type":"Feature","properties":{"stop_id":"60775","stop_name":"Jean-Talon / No 4325 (60775)"},"geometry":{"type":"Point","coordinates":[-73.58932,45.568986]}},
 {"type":"Feature","properties":{"stop_id":"60783","stop_name":"Rachel / De Chambly (60783)"},"geometry":{"type":"Point","coordinates":[-73.558244,45.549386]}},
+{"type":"Feature","properties":{"stop_id":"60807","stop_name":"Station Côte-Vertu (Gohier / Côte-Vertu) (60807)","icons":["orange.png"]},"geometry":{"type":"Point","coordinates":[-73.683369,45.513488]}},
 {"type":"Feature","properties":{"stop_id":"60907","stop_name":"Joliette / Charles-Wilson (60907)"},"geometry":{"type":"Point","coordinates":[-73.537551,45.542701]}},
 {"type":"Feature","properties":{"stop_id":"60988","stop_name":"De Cadillac / Hochelaga (60988)"},"geometry":{"type":"Point","coordinates":[-73.536176,45.573302]}},
 {"type":"Feature","properties":{"stop_id":"60989","stop_name":"De Cadillac / Hochelaga (60989)"},"geometry":{"type":"Point","coordinates":[-73.535542,45.573215]}},

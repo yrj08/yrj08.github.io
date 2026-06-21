@@ -113,11 +113,11 @@ window.routeConfigs = {
     changements: ``,
     pourquoi: ``},
 
-  "354": {title: "Ligne 354 • Des Sources / YUL Aéroport", type: "nuit",
+  "354": {title: "Ligne 354 • Sainte-Anne-de-Bellevue / Centre-Ville", type: "nuit",
     files: {currentShapes: "../GeoJSON/curr-354.geojson", newShapes: "../GeoJSON/354.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Place-des-Arts", 
-                      inbound: "Ouest – Saint-Jean / Gouin"},
+                      inbound: "Ouest – Gare Sainte-Anne-de-Bellevue"},
     branchStyles: {
       "3548888": {line: {color: "#000000", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
@@ -342,11 +342,11 @@ window.routeConfigs = {
     changements: ``,
     pourquoi: ``},
   
-  "376": {title: "Ligne 376 • Brunswick / Centre-Ville", type: "nuit",
+  "376": {title: "Ligne 376 • Pierrefonds / Centre-Ville", type: "nuit",
     files: {currentShapes: "../GeoJSON/curr-376.geojson", newShapes: "../GeoJSON/376.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Guy-Concordia", 
-                      inbound: "Ouest – Gare Sainte-Anne-de-Bellevue"},
+                      inbound: "Ouest – Usine de filtration de Pierrefonds"},
     branchStyles: {
       "3768888": {line: {color: "#000000", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#000000", fillOpacity: 1, shape: "circle"}},
@@ -357,7 +357,7 @@ window.routeConfigs = {
     changements: ``,
     pourquoi: ``},
 
-  "378": {title: "Ligne 378 • Sauvé / Côte-Vertu", type: "nuit",
+  "378": {title: "Ligne 378 • Sauvé / YUL Aéroport", type: "nuit",
     files: {currentShapes: "../GeoJSON/curr-378.geojson", newShapes: "../GeoJSON/378.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Saint-Michel / Sauvé", 

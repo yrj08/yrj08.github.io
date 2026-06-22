@@ -1738,7 +1738,7 @@ window.routeConfigs = {
   "114": {title: "Ligne 114 • Angrignon", type: "regulier",
     files: {currentShapes: "../GeoJSON/curr-114.geojson", newShapes: "../GeoJSON/114.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Nord – Gare Montréal-Ouest", 
+    directionLabels: {outbound: "Nord – Gowans / des Érables", 
                       inbound: "Sud – Place LaSalle"},
     branchStyles: {
       "1148888": {line: {color: "#009EE0", weight: 4, opacity: 1},
@@ -1838,7 +1838,7 @@ window.routeConfigs = {
   "123": {title: "Ligne 123 • Dollard / Shevchenko", type: "regulier",
     files: {currentShapes: "../GeoJSON/curr-123.geojson", newShapes: "../GeoJSON/123.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Nord – Saint-Jacques / Richardson", 
+    directionLabels: {outbound: "Nord – Gare Montréal-Ouest", 
                       inbound: "Sud – Place LaSalle"},
     branchStyles: {
       "1238888": {line: {color: "#009EE0", weight: 4, opacity: 1},

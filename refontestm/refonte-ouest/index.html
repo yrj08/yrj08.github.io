@@ -25,18 +25,18 @@ body {margin: 20px; line-height: 1.4;}
 
 <h2 id="postmortem">Constats post-mise en service et interventions moyen/long terme suggérées</h2>
 
-<p>Note: plusieurs parcours faisant partie de la refonte comporte des segments en dehors de la zone de refonte. Ces analyses ne concernent que les sections du trajet dans la zone de refonte.</p>
+<p>Note: plusieurs parcours faisant partie de la refonte comporte des segments en dehors de la zone de refonte. Ces analyses ne concernent que les sections du trajet dans la zone de refonte. Pour tous les parcours, des optimisations de distance inter-arrêts devront être considérées, et ne sont pas indiquées dans le tableau suivant.</p>
     
 <table border="1" class="dataframe">
   <tbody>
     <tr style="text-align: left;">
       <th>Ligne d'autobus</th>
       <th>Constats et problématiques</th>
-      <th>Interventions suggérées</th>
+      <th colspan="2">Interventions suggérées</th>
       <th>Notes</th>
     </tr>
     <tr style="text-align: left;">
-      <th>11 • Parc du Mont-Royal</th>
+      <th><a href="../routes/route.html?route=11">11 • Parc du Mont-Royal</a></th>
       <td>
         <ul>
           <li>Il existe seulement quelques départs qui ne passent pas par Ridgewood, ce qui porte confusion tant qu'aux opérateurs qu'aux clients. Quel est l'utilité de ces départs?</li>
@@ -45,6 +45,7 @@ body {margin: 20px; line-height: 1.4;}
           <li>Il existe un problème de congestion et de vitesse commerciale sur l'avenue du Mont-Royal.</li>
         </ul>
       </td>
+      <th style="background-color:#9DCFEC;">Modification de trajet</th>
       <td>
         <ul>
           <li>Fusion des lignes 11 et 711 résultant en un seul trajet entre le métro Snowdon et Parc La Fontaine via boul. Saint-Joseph.</li>
@@ -54,7 +55,7 @@ body {margin: 20px; line-height: 1.4;}
       <td></td>
     </tr>
     <tr style="text-align: left;">
-      <th>13 • Christophe-Colomb</th>
+      <th><a href="../routes/route.html?route=13">13 • Christophe-Colomb</a></th>
       <td>
         <ul>
           <li>L'accès au metro Henri-Bourassa doit se faire en tout temps: la ligne 31 n’a pas besoin d’accéder la boucle principale car elle dédouble la ligne orange dans ses heures d’exploitation.</li>
@@ -62,6 +63,7 @@ body {margin: 20px; line-height: 1.4;}
           <li>Après 20h, quelques départs en direction nord sont toujours dirigés vers Georges-Baril / Henri-Bourassa même si les départs sont au métro Henri-Bourassa.</li>  
         </ul>
       </td>
+      <th style="background-color:#EEEA79;">Intervention mineure</th>
       <td>
         <ul>
           <li>Révision des horaires.</li>
@@ -71,12 +73,13 @@ body {margin: 20px; line-height: 1.4;}
       <td></td>
     </tr>
     <tr style="text-align: left;">
-      <th>16 • Graham</th>
+      <th><a href="../routes/route.html?route=16">16 • Graham</a></th>
       <td>
         <ul>
           <li>Ne dessert pas les stations de la ligne orange ni les lignes principales via boul. Côte-Vertu ou Cavendish.</li>
         </ul>
       </td>
+      <th style="background-color:#9DCFEC;">Modification de trajet</th>
       <td>
         <ul>
           <li>Prolonger la ligne jusqu'au boucle Thimens ou fusionner avec la ligne 70 (voir ligne 70).</li>
@@ -85,12 +88,13 @@ body {margin: 20px; line-height: 1.4;}
       <td></td>
     </tr>
     <tr style="text-align: left;">
-      <th>17 • Décarie</th>
+      <th><a href="../routes/route.html?route=17">17 • Décarie</a></th>
       <td>
         <ul>
           <li>La fréquence de 40 minutes en fin de semaine n'a pas été ajusté malgré l'ajout d'un bus, résultant en battements de plus de 30 minutes à Côte-Vertu.</li>
         </ul>
       </td>
+      <th style="background-color:#EEEA79;">Intervention mineure</th>
       <td>
         <ul>
           <li>Révision des horaires.</li>
@@ -99,86 +103,231 @@ body {margin: 20px; line-height: 1.4;}
       <td></td>
     </tr>
     <tr style="text-align: left;">
-      <th></th>
+      <th><a href="../routes/route.html?route=18">18 • Beaubien</a></th>
       <td>
         <ul>
-          <li></li>
-          <li></li>
+          <li>Le niveau service à l'ouest de la station Beaubien demeure trop élevé, surtout que la ligne 160 dessert cet axe de façon assez fréquente.</li>
+          <li>Plusieurs assignations comportent des intercalages 18X vers 18 (et vice-versa), causant des HLP entre Saint-Zotique et station Beaubien. Les horaires devraient être revus pour diminuer le nombre de ces intercalages.</li>
         </ul>
       </td>
+      <th style="background-color:#EEEA79;">Intervention mineure</th>
       <td>
         <ul>
-          <li></li>
-          <li></li>
-        </ul>
-      </td>
-      <td></td>
-    </tr>
-    <tr style="text-align: left;">
-      <th></th>
-      <td>
-        <ul>
-          <li></li>
-          <li></li>
-        </ul>
-      </td>
-      <td>
-        <ul>
-          <li></li>
-          <li></li>
+          <li>Diminution de niveau de serivce à l'ouest du métro Beaubien</li>
+          <li>Révision des horaires.</li>
         </ul>
       </td>
       <td></td>
     </tr>
     <tr style="text-align: left;">
-      <th></th>
+      <th><a href="../routes/route.html?route=20">20 • Crémazie / Marché Central</a></th>
       <td>
         <ul>
-          <li></li>
-          <li></li>
+          <li>L’achalandage ne justifie pas une fréquence de 20 minutes ou moins en tout temps. La ligne 19 était aux 20 minutes puisqu’il n’y avait que deux véhicules sur toute la ligne, mais ce n’est plus le cas depuis la refonte.</li>
+          <li>L’arrivée et le départ ne sont pas alignés aux terminus, créant de très longs battements;</li>
+          <li>Aucune connexion vers l'axe Sauvé (ou REM) malgré la proximité, laissant la ligne 54 seule comme connexion.</li>
         </ul>
       </td>
+      <th style="background-color:#9DCFEC;">Modification de trajet</th>
       <td>
         <ul>
-          <li></li>
-          <li></li>
-        </ul>
-      </td>
-      <td></td>
-    </tr>
-    <tr style="text-align: left;">
-      <th></th>
-      <td>
-        <ul>
-          <li></li>
-          <li></li>
-        </ul>
-      </td>
-      <td>
-        <ul>
-          <li></li>
-          <li></li>
+          <li>Réduction de fréquence hors pointe</li>
+          <li>Prolonger le parcours vers Sauvé / de l'Acadie via Chabanel, Charles-De La Tour et de Louvain en remplacement aux modifications proposées à la ligne 54</li>
         </ul>
       </td>
       <td></td>
     </tr>
     <tr style="text-align: left;">
-      <th></th>
+      <th><a href="../routes/route.html?route=31">31 • Saint-Denis</a></th>
       <td>
         <ul>
-          <li></li>
-          <li></li>
+          <li>Le point de départ à Henri-Bourassa n'a pas besoin d'être dans la boucle d'autobus, puisque cette ligne offre un service local en complément au métro. Un arrêt sur Millen est largement suffisant.</li>
+          <li>Service sur Viger/Saint-Antoine vers Atateken inutile.</li>
         </ul>
       </td>
+      <th style="background-color:#EEEA79;">Intervention mineure</th>
       <td>
         <ul>
-          <li></li>
-          <li></li>
+          <li>Ajustement du terminus nord à Millen / Henri-Bourassa dans les deux directions.</li>
+          <li><u>Dès la fin de travaux sur Berri</u>: retrait du service au sud de la station Berri-UQAM.</li>
         </ul>
       </td>
       <td></td>
     </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=51">51 • Édouard-Montpetit</a></th>
+      <td>
+        <ul>
+          <li>Niveau de service à l'est de la station Snowdon demeure trop élevé par rapport à la demande.</li>
+        </ul>
+      </td>
+      <th style="background-color:#EEEA79;">Intervention mineure</th>
+      <td>
+        <ul>
+          <li>Réduction du niveau de service à l'est de Snowdon.</li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=54">54 • Charland / Chabanel</a></th>
+      <td>
+        <ul>
+          <li>Le détour via de Louvain fait perdre plusieurs minutes en raison de longue attente pour les virages à gauche: plusieurs cycles sont nécessaires pour passer par une gare déjà desservie par les lignes 20 et 140. Une correspondance vers exo15-Mascouche est toujours disponible à la gare Côte-de-Liesse.</li>
+        </ul>
+      </td>
+      <th style="background-color:#9DCFEC;">Modification de trajet</th>
+      <td>
+        <ul>
+          <li><a href="route54chabanel.html">W260219846</a> Simplification du trajet en passant uniquement par Chabanel;</li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=55">55 • Saint-Laurent</a></th>
+      <td>
+        <ul>
+          <li>Le terminus sur Millen ne permet pas d'intercaler avec d'autres lignes à Henri-Bourassa.</li>
+        </ul>
+      </td>
+      <th style="background-color:#EEEA79;">Intervention mineure</th>
+      <td>
+        <ul>
+          <li>Déplacer le terminus à Henri-Bourassa dans la boucle principale.</li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=56">56 • Saint-Hubert</a></th>
+      <td></td>
+      <th>Maintien du service</th>
+      <td>
+        <ul>
+          <li>Aucune modification de trajet proposée.</li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=64">64 • Grenet</a></th>
+      <td>
+        <ul>
+          <li>Terminus nord loin des autres lignes du secteur (par ex. 79).</li>
+        </ul>
+      </td>
+      <th style="background-color:#EEEA79;">Intervention mineure</th>
+      <td>
+        <ul>
+          <li>Déplacement du terminus Grenet / De Serres vers l'arrêt 50151 Grenet / Gouin (en déplaçant la ligne 117).</li>
+          <li>Parcours en direction sud via (D) Gouin, (D) De Serres et (G) Grenet et retrait du service sur Ranger et De Mésy.</li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route="></a></th>
+      <td>
+        <ul>
+          <li></li>
+          <li></li>
+        </ul>
+      </td>
 
+      <td>
+        <ul>
+          <li></li>
+          <li></li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route="></a></th>
+      <td>
+        <ul>
+          <li></li>
+          <li></li>
+        </ul>
+      </td>
+
+      <td>
+        <ul>
+          <li></li>
+          <li></li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route="></a></th>
+      <td>
+        <ul>
+          <li></li>
+          <li></li>
+        </ul>
+      </td>
+
+      <td>
+        <ul>
+          <li></li>
+          <li></li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route="></a></th>
+      <td>
+        <ul>
+          <li></li>
+          <li></li>
+        </ul>
+      </td>
+
+      <td>
+        <ul>
+          <li></li>
+          <li></li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route="></a></th>
+      <td>
+        <ul>
+          <li></li>
+          <li></li>
+        </ul>
+      </td>
+
+      <td>
+        <ul>
+          <li></li>
+          <li></li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route="></a></th>
+      <td>
+        <ul>
+          <li></li>
+          <li></li>
+        </ul>
+      </td>
+
+      <td>
+        <ul>
+          <li></li>
+          <li></li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
       
 
   </tbody>

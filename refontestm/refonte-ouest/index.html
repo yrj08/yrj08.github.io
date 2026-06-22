@@ -82,7 +82,7 @@ body {margin: 20px; line-height: 1.4;}
       <th style="background-color:#9DCFEC;">Modification de trajet</th>
       <td>
         <ul>
-          <li>Prolonger la ligne jusqu'au boucle Thimens ou fusionner avec la ligne 70 (voir ligne 70).</li>
+          <li>Prolonger la ligne jusqu'au boucle Thimens, ou fusionner avec la ligne 70 (voir ligne 70).</li>
         </ul>
       </td>
       <td></td>
@@ -227,18 +227,216 @@ body {margin: 20px; line-height: 1.4;}
       <td></td>
     </tr>
     <tr style="text-align: left;">
-      <th><a href="../routes/route.html?route="></a></th>
+      <th><a href="../routes/route.html?route=68">68 • Pierrefonds</a></th>
       <td>
         <ul>
-          <li></li>
-          <li></li>
+          <li>En semaine, aucun service vers REM Anse-à-l'Orme durant la journée, mais un service est offert en fins de semaine.</li>
+          <li>L'achalandage généralement faible à l'ouest de Saint-Charles</li>
+          <li>Des 68 et 68X chevauchent, causant quelques dédoublement de départs</li>
         </ul>
       </td>
-
+      <th style="background-color:#EEEA79;">Intervention mineure</th>
       <td>
         <ul>
-          <li></li>
-          <li></li>
+          <li>Ajustement des horaires.</li>
+          <li>Ajustement du trajet 68X pour débuter son trajet à Pierrefonds / Saint-Charles.</li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=69">69 • Henri-Bourassa</a></th>
+      <td></td>
+      <th>Maintien du service</th>
+      <td>
+        <ul>
+          <li>Aucune modification de trajet proposée.</li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=70">70 • Poirier</a></th>
+      <td>
+        <ul>
+          <li>Achalandage devenu extrêmement faible puisque la desserte devient uniquement industriel aux arrêts limités sur Côte-Vertu. Service de fin de semaine presque inutile.</li>
+          <li>Horaire non optimisé: départs en direction ouest arrive au terminus peu après l'heure de départ en direction est, causant de très longs battements.</li>
+        </ul>
+      </td>
+      <th style="background-color:#F0AA9C;">Retrait du service</th>
+      <td>
+        <ul>
+          <li>Retrait du service et fusion avec la ligne 16, avec passage via Cavendish, Côte-Vertu (en desservant les arrêts locaux), Décarie et du Collège pour améliorer l'accès à la ligne orange de la ligne 16.</li>
+          <li>Maintien du terminus actuel (Decelles / Abbott) pour la ligne 16E École depuis/vers LaurenHill.</li>
+          <li>Après 21h30 en semaine, ligne courte 16X en service entre Levy et station Côte-Vertu jusqu'à 23h30. Fin de service à 21h30 en fin de semaine. Durant les heures d'exploitations, tous les départs terminent à No 5060 Levy.</li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=72">72 • Alfred-Nobel</a></th>
+      <td>
+        <ul>
+          <li>Manque d'opportunité de correspondance avec d'autres lignes tout au long de Côte-Vertu;</li>
+          <li>Les lignes 196 et 225 sont les seules lignes locales qui ramassent toute la charge sur Côte-Vertu. Ces deux parcours sont très longs et les bus sont souvent bien remplis rendu sur Côte-Vertu. Avoir plus de lignes s'arrêtant sur </li>
+        </ul>
+      </td>
+      <th style="background-color:#EEEA79;">Intervention mineure</th>
+      <td>
+        <ul>
+          <li>Terminus déplacé dans la boucle d'autobus en échange de la ligne 216;</li>
+          <li>Ajout de trois arrêts sur Côte-Vertu pour faciliter des correspondances: Montée de Liesse, Bégin et Place Vertu.</li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=73">73 • Dalton</a></th>
+      <td>
+        <ul>
+          <li>Pour toutes les lignes en boucle ayant une seule direction, avoir toute la ligne indiquée direction « ouest » n'aide pas le client à reconnaître le sens du trajet sur le tronçon où les deux directions circulent ensemble. Deux <a href="https://gtfs.org/documentation/schedule/schedule-best-practices/#loop-routes">meilleures pratiques</a> permettent aux clients de se repérer adéquatement tout en indiquant que le client peut rester à bord dans la boucle: (1) utiliser des champs « <i>stop_headsigns</i> » et changer l'indication de direction au milieu du parcours, ou (2) coder l'aller et le retour séparément en deux voyages et les lier par « <i>block_id</i> ». Puisque ce parcours est clairement constitué d'un aller et d'un retour, la deuxième option est préférable ici.</li>
+          <li>Achalandage très faible mais peu d'arrêts locaux offerts sur Saint-Louis.</li>
+        </ul>
+      </td>
+      <th style="background-color:#EEEA79;">Intervention mineure</th>
+      <td>
+        <ul>
+          <li>Scinder le parcours en direction est et ouest en reliant les deux directions par un « <i>block_id</i> » pour indiquer qu'un client peut demeurer à bord;</li>
+          <li>Déplacement du terminus dans la boucle Saint-Louis (jumelé à la ligne 175) et ajout d'arrêts locaux sur Saint-Louis pour compléter les lignes 175 et 202.</li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=79">79 • Gouin</a></th>
+      <td>
+        <ul>
+          <li>L'achalandage est concentré sur la portion entre Grenet et station Henri-Bourassa. En pointe AM (dir. est) et PM (dir. ouest) le niveau actuel de service est insuffisant.</li>
+        </ul>
+      </td>
+      <th style="background-color:#EEEA79;">Intervention mineure</th>
+      <td>
+        <ul>
+          <li>Création d'une ligne courte 79X entre Gouin / Grenet et station Henri-Bourassa en service aux heures de pointe.</li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=92">92 • Jean-Talon Ouest</a></th>
+      <td></td>
+      <th>Maintien du service</th>
+      <td>
+        <ul>
+          <li>Aucune modification de trajet proposée.</li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=100">100 • Crémazie</a></th>
+      <td></td>
+      <th>Maintien du service</th>
+      <td>
+        <ul>
+          <li>Aucune modification de trajet proposée.</li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=117">117 • O'Brien</a></th>
+      <td>
+        <ul>
+          <li>Fréquence atroce en mi-journée: un départ aux 50 minutes, un seul véhicule avec 2 minutes de battement à chaque terminus. Le bus est souvent plus de 10 minutes en retard rendu en après-midi. Pourquoi ne pas avoir deux bus aux 30 minutes?</li>
+          <li>La vaste majorité des usagers descendent à l'arrêt O'Brien / Côte-Vertu et complète leur trajet vers le métro à pied. Peu d'utilisation entre Côte-Vertu et Du Collège et problème de congestion sur Sainte-Croix.</li>
+        </ul>
+      </td>
+      <th style="background-color:#9DCFEC;">Modification de trajet</th>
+      <td>
+        <ul>
+          <li>Ajustement des horaires en ajoutant un deuxième bus en mi-journée et amélioration de fréquences</li>
+          <li>Trajet dévié sur Décarie au lieu de Sainte-Croix au sud de Côte-Vertu pour passer par la station Côte-Vertu.</li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=119">119 • Rockland</a></th>
+      <td></td>
+      <th>Maintien du service</th>
+      <td>
+        <ul>
+          <li>Aucune modification de trajet proposée.</li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=120">120 • Royalmount</a></th>
+      <td>
+        <ul>
+          <li>Le service est unidirectionnel. En direction nord (pointe AM), le service termine sur Décarie devant la station De La Savane, mais ne peut pas facilement faire un HLP vers la station De La Savane puisque la rue De Sorel est maintenant fermée. Au contraire, en pointe PM, un HLP de Namur vers De La Savane est plus facile.</li>
+        </ul>
+      </td>
+      <th style="background-color:#EEEA79;">Intervention mineure</th>
+      <td>
+        <ul>
+          <li>Direction nord: terminus à l'arrêt Bougainville / De Sorel (jumelé à la ligne 92 Ouest).</li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=121">121 • Sauvé / Côte-Vertu</a></th>
+      <td></td>
+      <th>Maintien du service</th>
+      <td>
+        <ul>
+          <li>Aucune modification de trajet proposée.</li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=124">124 • Victoria</a></th>
+      <td></td>
+      <th>Maintien du service</th>
+      <td>
+        <ul>
+          <li>Aucune modification de trajet proposée.</li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=127">127 • Alexis-Nihon</a></th>
+      <td>
+        <ul>
+          <li>Cette ligne ne termine pas dans la boucle d'autobus à Bois-Franc. En ce moment, seulement la ligne 69 utilise la boucle d'autobus. Il y a suffisamment d'espace pour y accommoder une autre ligne.</li>
+          <li>La ligne possède de très longs battements.</li>
+        </ul>
+      </td>
+      <th style="background-color:#9DCFEC;">Modification de trajet</th>
+      <td>
+        <ul>
+          <li>Intégrer la ligne dans la boucle d'autobus à Bois-Franc, à côté de la ligne 69.</li>
+          <li>Échanger la portion du trajet entre Du Collège et Côte-de-Liesse avec la ligne 128, en passant par Marcel-Laurin et du Collège au lieu de Saint-Louis.</li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=128">128 • Saint-Laurent</a></th>
+      <td>
+        <ul>
+          <li>Puisque cette ligne n'a pas été modifiée, elle demeure trop longue, ce qui cause des enjeux de ponctualité ainsi des horaires aux intervalles irrégulières, surtout en pointe.</li>
+        </ul>
+      </td>
+      <th style="background-color:#9DCFEC;">Modification de trajet</th>
+      <td>
+        <ul>
+          <li>Échanger la portion du trajet entre Du Collège et Côte-de-Liesse avec la ligne 127, en passant par Saint-Louis et Décarie au lieu de du Collège.</li>
         </ul>
       </td>
       <td></td>
@@ -311,23 +509,8 @@ body {margin: 20px; line-height: 1.4;}
       </td>
       <td></td>
     </tr>
-    <tr style="text-align: left;">
-      <th><a href="../routes/route.html?route="></a></th>
-      <td>
-        <ul>
-          <li></li>
-          <li></li>
-        </ul>
-      </td>
 
-      <td>
-        <ul>
-          <li></li>
-          <li></li>
-        </ul>
-      </td>
-      <td></td>
-    </tr>
+
       
 
   </tbody>

@@ -831,15 +831,17 @@ body {margin: 20px; line-height: 1.4;}
       <th><a href="../routes/route.html?route=211">211 • Bord-du-Lac</a></th>
       <td>
         <ul>
-          <li></li>
-          <li></li>
+          <li>Le niveau de service est vraiment trop élevé pour l'achalandage. En fait, presqu'aucun voyage n'atteint même le seuil de 23 passagers (places debout seulement). En effet, la vaste majorité de la clientèle utilise la portion du trajet entre Fénelon et Lionel-Groulx (donc moins que la moitié du trajet). Ce niveau de service ne justifie certainement pas un service fréquent en pointe. En d'autres mots, l'achalandage est extrêmement faible sur Sherbrooke et Elm.</li>
+          <li>Les fréquences de passage sont aussi inégales en raison de l'antenne via Elm: par exemple, 08h07, 08h19, 08h35, 08h42, 08h54 (dir. est, Gare Beaconsfield).</li>
+          <li>La ligne duplique aussi la ligne 221 entre Beaconsfield et Saint-Jean. Bien que ces deux lignes ont des destinations différentes, il s'agit bien d'une duplication de service, surtout que le REM permet aussi d'atteindre le centre-ville rapidement.</li>
+          <li>Les deux branches (Sherbrooke et Elm) causent des confusions aux clients et aux opérateurs, surtout que la girouette n'offre aucune information quant à la destination du bus.</li>
         </ul>
       </td>
       <th style="background-color:#9DCFEC;">Modification de trajet</th>
       <td>
         <ul>
-          <li></li>
-          <li></li>
+          <li>Retrait de tous les service à l'ouest de la gare Beaconsfield: l'antenne Sherbrooke remplacé par la ligne 221 et Elm par la ligne 222.</li>
+          <li>Réduction du niveau de service et retrait du service fréquent en pointe.</li>
         </ul>
       </td>
       <td></td>
@@ -891,15 +893,13 @@ body {margin: 20px; line-height: 1.4;}
       <th><a href="../routes/route.html?route=216">216 • Transcanadienne</a></th>
       <td>
         <ul>
-          <li></li>
-          <li></li>
+          <li>Cette ligne occupe un quai favorable à Côte-Vertu (la plus proche des lignes 121/174/177) et très proche de l'édicule du métro, mais est seulement en service en pointe avec un achalandage modeste.</li>
         </ul>
       </td>
       <th style="background-color:#EEEA79;">Intervention mineure</th>
       <td>
         <ul>
-          <li></li>
-          <li></li>
+          <li>Déplacement du terminus à l'arrêt 61004 sur Gohier (échange avec la ligne 72).</li>
         </ul>
       </td>
       <td></td>
@@ -932,18 +932,149 @@ body {margin: 20px; line-height: 1.4;}
       <td></td>
     </tr>
     <tr style="text-align: left;">
-      <th><a href="../routes/route.html?route="></a></th>
+      <th><a href="../routes/route.html?route=221">221 • Saint-Jean</a></th>
+      <td>
+        <ul>
+          <li>Cette ligne roule en parallèle avec la ligne 202 Dawson jusqu'à l'autoroute 20. Il est pertinent de s'assurer l'intercalage des passages sur ces deux lignes.</li>
+        </ul>
+      </td>
+      <th style="background-color:#9DCFEC;">Modification de trajet</th>
+      <td>
+        <ul>
+          <li>Prolongement du trajet vers REM Kirkland via Sherbrooke pour remplacer la ligne 211. Cela se rapproche également du parcours de l'ancienne ligne 217.</li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=222">222 • Senneville</a></th>
       <td>
         <ul>
           <li></li>
           <li></li>
         </ul>
       </td>
-
+      <th style="background-color:#9DCFEC;">Modification de trajet</th>
       <td>
         <ul>
           <li></li>
           <li></li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=223">223 • Parc Industriel Baie-D'Urfé</a></th>
+      <td>
+        <ul>
+          <li>Pour toutes les lignes en boucle ayant une seule direction, avoir toute la ligne indiquée direction « sud » n'aide pas le client à reconnaître le sens du trajet sur le tronçon où les deux directions circulent ensemble. Deux <a href="https://gtfs.org/documentation/schedule/schedule-best-practices/#loop-routes">meilleures pratiques</a> permettent aux clients de se repérer adéquatement tout en indiquant que le client peut rester à bord dans la boucle: (1) utiliser des champs « <i>stop_headsigns</i> » et changer l'indication de direction au milieu du parcours, ou (2) coder l'aller et le retour séparément en deux voyages et les lier par « <i>block_id</i> ». Puisque ce parcours est clairement constitué d'une boucle uni-directionnelle faisant le tour de tout le parc industriel, la direction devrait s'appeler « boucle » et des « <i>stop_headsigns</i> » devront être appliquées pour indiquer le sens du trajet.</li>
+        </ul>
+      </td>
+      <th style="background-color:#EEEA79;">Intervention mineure</th>
+      <td>
+        <ul>
+          <li>Aucune modification de trajet proposée.</li>
+          <li>Appliquer des « <i>stop_headsigns</i> » pour indiquer les deux directions dans le même voyage. Par exemple:
+              <table>
+                <tr>
+                  <td>Séq.</td>
+                  <td>Arrêt / intersection</td>
+                  <td><i>stop_headsign</i></td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Station Anse-à-l'Orme (62572)</td>
+                  <td>Boucle - Parc Industriel Baie-D'Urfé</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Morgan / face à Prestige (58551)</td>
+                  <td>Boucle - Parc Industriel Baie-D'Urfé</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Morgan / Clark-Graham (58531)</td>
+                  <td>Boucle - Parc Industriel Baie-D'Urfé</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Clark-Graham / No 20275 (58545)</td>
+                  <td>Boucle - Station Anse-à-l'Orme</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Clark-Graham / No 20425 (58534)</td>
+                  <td>Boucle - Station Anse-à-l'Orme</td>
+                </tr>
+                <tr style="text-align: center;">
+                  <td colspan="3">• • •</td>
+                </tr>
+                <tr>
+                  <td>18</td>
+                  <td>Morgan / No 575 (62531)</td>
+                  <td>Boucle - Station Anse-à-l'Orme</td>
+                </tr>
+                <tr>
+                  <td>19</td>
+                  <td>Station Anse-à-l'Orme (62572)</td>
+                  <td>Boucle - Station Anse-à-l'Orme</td>
+                </tr>
+              </table>
+          </li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=225">225 • Hymus</a></th>
+      <td>
+        <ul>
+          <li></li>
+          <li></li>
+        </ul>
+      </td>
+      <th style="background-color:#9DCFEC;">Modification de trajet</th>
+      <td>
+        <ul>
+          <li></li>
+          <li></li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=227">227 • Île-Bizard</a></th>
+      <td></td>
+      <th>Maintien du service</th>
+      <td>
+        <ul>
+          <li>Aucune modification de trajet proposée.</li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=229">229 • Transcanadienne / Brunswick</a></th>
+      <td></td>
+      <th>Maintien du service</th>
+      <td>
+        <ul>
+          <li>Aucune modification de trajet proposée.</li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=230">230 • Saint-Louis</a></th>
+      <td>
+        <ul>
+          <li>Similairement à la ligne 211, les deux parcours ne sont pas clairement indiqués sur les outils d'information. Il n'y a aucune indication de direction sur les girouettes.</li>
+        </ul>
+      </td>
+      <th style="background-color:#EEEA79;">Intervention mineure</th>
+      <td>
+        <ul>
+          <li>Ajustement du terminus nord (par exemple en déplaçant sur René-Émard).</li>
         </ul>
       </td>
       <td></td>
@@ -999,7 +1130,23 @@ body {margin: 20px; line-height: 1.4;}
       </td>
       <td></td>
     </tr>
-      
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route="></a></th>
+      <td>
+        <ul>
+          <li></li>
+          <li></li>
+        </ul>
+      </td>
+
+      <td>
+        <ul>
+          <li></li>
+          <li></li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
       
 <!--200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 214, 215, 216, 218, 220, 221, 222, 223, 225, 227, 229, 230, 281, 282, 294, 295, 356, 365, 370, 380, 411, 460, 468, 470, 475, 711-->
       

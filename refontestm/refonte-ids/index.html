@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Refonte Île-des-Soeurs 2023</title>
+
+<style>
+body {margin: 20px; line-height: 1.4;}
+</style>
+    
+</head>
+<body>
+  <p><a href="../">← Retour à la page précédente</a></p>
+    
+<h3>Ce site n'est pas affilié à la Société de transport de Montréal (STM) et les informations
+      présentées ci-dessous ne servent qu'à des fins de suggestion. Veuillez utiliser le site web
+      officiel de la <a href="https://www.stm.info">STM</a> pour planifier votre trajet.</h3>
+    
+<h1>Refonte Île-des-Soeurs (2023): constats et suggestions</h1>
+
+<p>
+    <a href="#postmortem">Constats post-mise en service et interventions suggérées</a><br>
+    <a href="#carteinterv">Résumé graphique des interventions suggérées</a><br>
+    <a href="#sac-commentaires">Suggestions mineures pré-mise en service</a>
+</p>
+
+<h2 id="postmortem">Constats post-mise en service et interventions moyen/long terme suggérées</h2>
+
+<p>Note: plusieurs parcours faisant partie de la refonte comporte des segments en dehors de la zone de refonte. Ces analyses ne concernent que les sections du trajet dans la zone de refonte. Pour tous les parcours, des optimisations de distance inter-arrêts devront être considérées, et ne sont pas indiquées dans le tableau suivant.</p>
+    
+<table border="1" class="dataframe">
+  <tbody>
+    <tr style="text-align: left;">
+      <th>Ligne d'autobus</th>
+      <th>Constats et problématiques</th>
+      <th colspan="2">Interventions suggérées</th>
+      <th>Notes</th>
+    </tr>
+    <tr style="text-align: center;">
+      <th colspan="5">Réseau régulier</th>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=12">12 • Île-des-Soeurs</a></th>
+      <td>
+        <ul>
+          <li>Cette ligne roule en parallèle aux lignes 172 et 872 sans nécessairement que les passages soient étalés.</li>
+        </ul>
+      </td>
+      <th style="background-color:#9DCFEC;">Modification de trajet</th>
+      <td>
+        <ul>
+          <li>Fusion des lignes 12 et 172, avec certains passages de la ligne 172 convertis en 12X ligne courte entre le carrefour René-Lévesque / de l'Île-des-Soeurs et REM Île-des-Soeurs.</li>
+          <li>Point de départ à l'édicule Galt en direction sud.</li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=74">74 • Bridge</a></th>
+      <td>
+        <ul>
+          <li>L'achalandage est très faible sur cette ligne. Bien que certaines plaintes concernent le manque de station à Griffintown, peu d'usagers ont besoin d'effectuer le trajet Gare Centrale-Griffintown. De plus, les lignes 168 et 777, en service à tous les jours, répond largement à ce besoin.</li>
+          <li>La section du trajet desservant Marc-Cantin et Carrie-Derick ne génère aucun achalandage. Certaines entreprises offrent des navettes privées.</li>
+          <li>Le trajet en direction sud ne dessert pas Bridge en pointe PM.</li>
+          <li>Le secteur Bridge est déjà desservi par plusieurs lignes allant au centre-ville: 61, 71, 107. Une simple déviation de la ligne 168 permet largement cette desserte.</li>
+        </ul>
+      </td>
+      <th style="background-color:#F0AA9C;">Retrait du service</th>
+      <td>
+        <ul>
+          <li>Retrait du service et fusion avec la ligne 168 Cité-du-Havre: aucun remplacement pour la portion du trajet sur Carrie-Derick / Marc-Cantin. Possiblité d'ajout d'arrêts sur la ligne 168 dans ce secteur une fois la reconfiguration de l'Autoroute Bonaventure complétée.</li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=168">168 • Cité-du-Havre</a></th>
+      <td>
+        <ul>
+          <li>Cette ligne roule en parallèle à la ligne 176 sans nécessairement que les passages soient étalés.</li>
+          <li>Le plan original prévoit terminer cette ligne à la gare Lucien-L'Allier. Maintenant que la station McGill du REM est opérationnelle, cette ligne devrait retourner dans sa configuration souhaitée.</li>
+        </ul>
+      </td>
+      <th style="background-color:#9DCFEC;">Modification de trajet</th>
+      <td>
+        <ul>
+          <li>Fusion des lignes 168 et 176, avec certains départs de la ligne 176 convertis en 168X ligne courte entre Serge-Garant et REM Île-des-Soeurs.</li>
+          <li>Ajout de passage via des Irlandais, Bridge et Wellington pour remplacer la ligne 74.</li>
+          <li>Déplacement du terminus nord vers Torrance / de la Montagne via René-Lévesque.</li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=172">172 • Du Golf</a></th>
+      <td>
+        <ul>
+          <li>Chevauche la ligne 12 sur une majeure partie de la ligne 12.</li>
+          <li>Niveau de service trop élevé par rapport à l'achalandage extrêmement faible</li>
+        </ul>
+      </td>
+      <th style="background-color:#F0AA9C;">Retrait du service</th>
+      <td>
+        <ul>
+          <li>Fusion avec la ligne 12 pour devenir sa ligne courte 12X.</li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=176">176 • Berlioz</a></th>
+      <td>
+        <ul>
+          <li>Chevauche la ligne 168 sur tout son trajet.</li>
+          <li>Niveau de service trop élevé par rapport à l'achalandage extrêmement faible</li>
+        </ul>
+      </td>
+      <th style="background-color:#F0AA9C;">Retrait du service</th>
+      <td>
+        <ul>
+          <li>Fusion avec la ligne 168 pour devenir sa ligne courte 168X.</li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+    <tr style="text-align: left;">
+      <th><a href="../routes/route.html?route=872">872 • Île-des-Soeurs</a></th>
+      <td>
+        <ul>
+          <li>Ligne temporaire avec un achalandage plutôt faible pendant les travaux du REM vers McGill.</li>
+        </ul>
+      </td>
+      <th style="background-color:#F0AA9C;">Retrait du service</th>
+      <td>
+        <ul>
+          <li>Retrait du service temporaire.</li>
+        </ul>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="carteinterv">Résumé graphique des interventions suggérées</h2>
+
+    <h4 id="berlioz">Axe Berlioz/Robert-Bourassa (lignes 74, 168, 176 et 872)</h4>
+    
+    <h4 id="dugolf">Axe Du Golf/Verdun (lignes 12, 172 et 872)</h4>
+    
+
+
+</body>
+</html>

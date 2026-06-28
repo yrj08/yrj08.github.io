@@ -189,7 +189,7 @@ window.routeConfigs = {
     files: {currentShapes: "../GeoJSON/curr-012.geojson", newShapes: "../GeoJSON/012.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord – Station De L'Église", 
-                      inbound: "Sud – Pointe-Sud"},
+                      inbound: "Sud – André-Prévost / Serge-Garant"},
     branchStyles: {
       "120001": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
@@ -2680,7 +2680,7 @@ window.routeConfigs = {
     files: {currentShapes: "../GeoJSON/curr-195.geojson", newShapes: "../GeoJSON/195.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Station Angrignon", 
-                      inbound: "Ouest – Terminus Dorval"},
+                      inbound: "Ouest – YUL Aéroport"},
     branchStyles: {
       "1950004": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
@@ -3160,8 +3160,8 @@ window.routeConfigs = {
   "222": {title: "Ligne 222 • Senneville", type: "pointe",
     files: {currentShapes: "../GeoJSON/curr-222.geojson", newShapes: "../GeoJSON/222.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Ouest - Senneville", 
-                      inbound: "Est - Gare Beaconsfield"},
+    directionLabels: {outbound: "Est - Gare Beaconsfield", 
+                      inbound: "Ouest - Senneville"},
     branchStyles: {
       "2228888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},

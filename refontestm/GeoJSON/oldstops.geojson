@@ -1816,7 +1816,7 @@
 {"type":"Feature","properties":{"stop_id":"51962","stop_name":"Laurendeau / Jolicoeur (51962)"},"geometry":{"type":"Point","coordinates":[-73.588495,45.457464]}},
 {"type":"Feature","properties":{"stop_id":"51963","stop_name":"Jolicoeur / Dubois (51963)"},"geometry":{"type":"Point","coordinates":[-73.589101,45.456914]}},
 {"type":"Feature","properties":{"stop_id":"51964","stop_name":"Saint-Antoine / du Couvent (51964)"},"geometry":{"type":"Point","coordinates":[-73.587694,45.479705]}},
-{"type":"Feature","properties":{"stop_id":"51965","stop_name":"Station Laurier Sud (Rivard / Gilford) (51965)"},"geometry":{"type":"Point","coordinates":[-73.586813,45.526517]}},
+{"type":"Feature","properties":{"stop_id":"51965","stop_name":"Station Laurier Sud (Rivard / Gilford) (51965)","icons":["orange.png"]},"geometry":{"type":"Point","coordinates":[-73.586813,45.526517]}},
 {"type":"Feature","properties":{"stop_id":"51966","stop_name":"du Mont-Royal / Saint-Laurent (51966)"},"geometry":{"type":"Point","coordinates":[-73.586394,45.519985]}},
 {"type":"Feature","properties":{"stop_id":"51967","stop_name":"Bélanger / 26e Avenue (51967)"},"geometry":{"type":"Point","coordinates":[-73.585315,45.567397]}},
 {"type":"Feature","properties":{"stop_id":"51968","stop_name":"Bélanger / 26e Avenue (51968)"},"geometry":{"type":"Point","coordinates":[-73.585300,45.567168]}},

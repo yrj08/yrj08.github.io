@@ -343,6 +343,7 @@
 {"type":"Feature","properties":{"stop_id":"A0254","stop_name":"Sainte-Catherine / Clarke (––)"},"geometry":{"type":"Point","coordinates":[-73.588985,45.484953]}},
 {"type":"Feature","properties":{"stop_id":"A0255","stop_name":"Cavendish / Kildare (––)"},"geometry":{"type":"Point","coordinates":[-73.661140,45.476061]}},
 {"type":"Feature","properties":{"stop_id":"A0256","stop_name":"Kildare / No 6500 (––)"},"geometry":{"type":"Point","coordinates":[-73.658249,45.479289]}},
+{"type":"Feature","properties":{"stop_id":"A0257","stop_name":"Angrignon / Lionel-Boyer (––)"},"geometry":{"type":"Point","coordinates":[-73.606653,45.447201]}},
 {"type":"Feature","properties":{"stop_id":"A9001","stop_name":"Cégep Marie-Victorin (––)","icons":["bus.png"]},"geometry":{"type":"Point","coordinates":[-73.607063,45.617981]}},
 {"type":"Feature","properties":{"stop_id":"A9002","stop_name":"Rita-Levi-Montalcini / Samuel-Morse (––)"},"geometry":{"type":"Point","coordinates":[-73.583361,45.641483]}},
 {"type":"Feature","properties":{"stop_id":"A9003","stop_name":"Fairway / François-Lenoir (––)"},"geometry":{"type":"Point","coordinates":[-73.701388,45.454309]}},

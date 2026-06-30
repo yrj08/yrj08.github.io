@@ -260,7 +260,7 @@
 {"type":"Feature","properties":{"stop_id":"A0171","stop_name":"Claveau / Grenache (––)"},"geometry":{"type":"Point","coordinates":[-73.571872,45.611499]}},
 {"type":"Feature","properties":{"stop_id":"A0172","stop_name":"Henri-Bourassa / No 12200 (––)"},"geometry":{"type":"Point","coordinates":[-73.525912,45.657264]}},
 {"type":"Feature","properties":{"stop_id":"A0173","stop_name":"Henri-Bourassa / Armand-Chaput (––)"},"geometry":{"type":"Point","coordinates":[-73.526722,45.657143]}},
-{"type":"Feature","properties":{"stop_id":"A0174","stop_name":"Gagné / Centre Lecavalier (––)""icons":["bus.png"]},"geometry":{"type":"Point","coordinates":[-73.610181,45.425977]}},
+{"type":"Feature","properties":{"stop_id":"A0174","stop_name":"Gagné / Centre Lecavalier (––)","icons":["bus.png"]},"geometry":{"type":"Point","coordinates":[-73.610181,45.425977]}},
 {"type":"Feature","properties":{"stop_id":"A0175","stop_name":"Gare Pointe-aux-Trembles (––)","icons":["exo15.png"]},"geometry":{"type":"Point","coordinates":[-73.505183,45.674704]}},
 {"type":"Feature","properties":{"stop_id":"A0176","stop_name":"Gare Pointe-aux-Trembles (––)","icons":["exo15.png"]},"geometry":{"type":"Point","coordinates":[-73.505753,45.674594]}},
 {"type":"Feature","properties":{"stop_id":"A0177","stop_name":"Meilleur / Lauraine-Vaillancourt (––)"},"geometry":{"type":"Point","coordinates":[-73.666499,45.540537]}},

@@ -8,7 +8,7 @@
                 "direction": "all",
                 "branch": "current",
                 "variant": "current",
-                "stops": ["62800",
+                "stops": [
                     "51157",
                     "51251",
                     "51253",
@@ -74,7 +74,8 @@
                     "62679",
                     "62680",
                     "62681",
-                    "62682"
+                    "62682",
+                    "62800"
                 ],
                 "headsign": "Service actuel"
             },

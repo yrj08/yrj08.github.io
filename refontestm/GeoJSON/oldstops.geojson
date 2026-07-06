@@ -1062,7 +1062,7 @@
 {"type":"Feature","properties":{"stop_id":"51100","stop_name":"Pie-IX / 48e Rue (51100)"},"geometry":{"type":"Point","coordinates":[-73.622653,45.580461]}},
 {"type":"Feature","properties":{"stop_id":"51101","stop_name":"Côte-des-Neiges / Saint-Kevin (51101)"},"geometry":{"type":"Point","coordinates":[-73.625423,45.497811]}},
 {"type":"Feature","properties":{"stop_id":"51102","stop_name":"Côte-des-Neiges / Saint-Kevin (51102)"},"geometry":{"type":"Point","coordinates":[-73.625001,45.497461]}},
-{"type":"Feature","properties":{"stop_id":"51105","stop_name":"Crémazie / Fabre (51105)"},"geometry":{"type":"Point","coordinates":[-73.623645,45.553278]}},
+{"type":"Feature","properties":{"stop_id":"51105","stop_name":"Crémazie / Fabre (51105)"},"geometry":{"type":"Point","coordinates":[-73.623439,45.553394]}},
 {"type":"Feature","properties":{"stop_id":"51106","stop_name":"Crémazie / Fabre (51106)"},"geometry":{"type":"Point","coordinates":[-73.624128,45.553675]}},
 {"type":"Feature","properties":{"stop_id":"51107","stop_name":"Papineau / Crémazie (coin Sud-Est) (51107)"},"geometry":{"type":"Point","coordinates":[-73.619768,45.553676]}},
 {"type":"Feature","properties":{"stop_id":"51108","stop_name":"Papineau / Crémazie (coin Nord-Ouest) (51108)"},"geometry":{"type":"Point","coordinates":[-73.622966,45.554788]}},

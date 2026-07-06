@@ -81,6 +81,7 @@
 {"type":"Feature","properties":{"stop_id":"61840","stop_name":"Station Du Collège (du Collège / Ouimet) (61840)","icons":["orange.png"]},"geometry":{"type":"Point","coordinates":[-73.674359,45.509884]}},
 {"type":"Feature","properties":{"stop_id":"61994","stop_name":"Station Du Collège (du Collège / Décarie) (61994)","icons":["orange.png"]},"geometry":{"type":"Point","coordinates":[-73.674627,45.509668]}},
 {"type":"Feature","properties":{"stop_id":"62002","stop_name":"Station Du Collège (Cartier / Ouimet) (62002)","icons":["orange.png"]},"geometry":{"type":"Point","coordinates":[-73.672892,45.508637]}},
+{"type":"Feature","properties":{"stop_id":"62204","stop_name":"Côte-Vertu / No 4625 (62204)"},"geometry":{"type":"Point","coordinates":[-73.717764,45.486755]}},
 {"type":"Feature","properties":{"stop_id":"62211","stop_name":"Hochelaga / De Chambly (62211)","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.551201,45.547398]}},
 {"type":"Feature","properties":{"stop_id":"62239","stop_name":"Côte-Saint-Paul / Monk (62239)"},"geometry":{"type":"Point","coordinates":[-73.599123,45.465394]}},
 {"type":"Feature","properties":{"stop_id":"62240","stop_name":"Côte-Saint-Paul / Centre Gadbois (62240)"},"geometry":{"type":"Point","coordinates":[-73.595591,45.465737]}},

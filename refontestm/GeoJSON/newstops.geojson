@@ -100,7 +100,7 @@
 {"type":"Feature","properties":{"stop_id":"A0012","stop_name":"Lucerne / Mitchell (––)"},"geometry":{"type":"Point","coordinates":[-73.656445,45.506045]}},
 {"type":"Feature","properties":{"stop_id":"A0013","stop_name":"Lucerne / Mitchell (––)"},"geometry":{"type":"Point","coordinates":[-73.656774,45.506016]}},
 {"type":"Feature","properties":{"stop_id":"A0014","stop_name":"Côte-Vertu / O'Brien (––)"},"geometry":{"type":"Point","coordinates":[-73.680492,45.516049]}},
-{"type":"Feature","properties":{"stop_id":"A0015","stop_name":"Millen / Henri-Bourassa (––)","icons":["orange.png"]},"geometry":{"type":"Point","coordinates":[-73.667836,45.556888]}},
+{"type":"Feature","properties":{"stop_id":"A0015","stop_name":"TBD (––)","icons":["orange.png"]},"geometry":{"type":"Point","coordinates":[-73.667836,45.556888]}},
 {"type":"Feature","properties":{"stop_id":"A0016","stop_name":"Jules-Poitras / Henri-Bourassa (––)"},"geometry":{"type":"Point","coordinates":[-73.683279,45.529258]}},
 {"type":"Feature","properties":{"stop_id":"A0017","stop_name":"René-Lévesque / Lambert-Closse (––)"},"geometry":{"type":"Point","coordinates":[-73.582248,45.488485]}},
 {"type":"Feature","properties":{"stop_id":"A0018","stop_name":"Côte-des-Neiges / Goyer (––)"},"geometry":{"type":"Point","coordinates":[-73.636668,45.502952]}},

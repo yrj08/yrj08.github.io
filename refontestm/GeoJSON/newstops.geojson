@@ -1,7 +1,6 @@
 {
   "type": "FeatureCollection",
   "features": [
-{"type":"Feature","properties":{"stop_id":"50314","stop_name":"Millen / Henri-Bourassa (50314)","icons":["orange.png"]},"geometry":{"type":"Point","coordinates":[-73.668103,45.556965]}},
 {"type":"Feature","properties":{"stop_id":"50536","stop_name":"de Louvain / Saint-Hubert (50536)"},"geometry":{"type":"Point","coordinates":[-73.649386,45.553768]}},
 {"type":"Feature","properties":{"stop_id":"51242","stop_name":"Décarie / Brillon (51242)","icons":["orange.png"]},"geometry":{"type":"Point","coordinates":[-73.618819,45.478879]}},
 {"type":"Feature","properties":{"stop_id":"51702","stop_name":"Saint-Jacques / Saint-Rémi (51702)"},"geometry":{"type":"Point","coordinates":[-73.596641,45.474033]}},

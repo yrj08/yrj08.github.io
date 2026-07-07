@@ -1564,7 +1564,7 @@
 {"type":"Feature","properties":{"stop_id":"51669","stop_name":"Armand-Bombardier / Philippe-Lebon (51669)"},"geometry":{"type":"Point","coordinates":[-73.594742,45.636568]}},
 {"type":"Feature","properties":{"stop_id":"51670","stop_name":"Armand-Bombardier / Philippe-Lebon (51670)"},"geometry":{"type":"Point","coordinates":[-73.595223,45.636639]}},
 {"type":"Feature","properties":{"stop_id":"51671","stop_name":"du Parc / Fairmount (51671)"},"geometry":{"type":"Point","coordinates":[-73.597286,45.520366]}},
-{"type":"Feature","properties":{"stop_id":"51672","stop_name":"Station Rosemont (De Chateaubriand / Rosemont) (51672)"},"geometry":{"type":"Point","coordinates":[-73.597533,45.532556]}},
+{"type":"Feature","properties":{"stop_id":"51672","stop_name":"De Chateaubriand / Rosemont (51672)"},"geometry":{"type":"Point","coordinates":[-73.597533,45.532556]}},
 {"type":"Feature","properties":{"stop_id":"51673","stop_name":"du Parc / Fairmount (51673)"},"geometry":{"type":"Point","coordinates":[-73.597760,45.520389]}},
 {"type":"Feature","properties":{"stop_id":"51674","stop_name":"Saint-Viateur / De Gaspé (51674)"},"geometry":{"type":"Point","coordinates":[-73.597355,45.527512]}},
 {"type":"Feature","properties":{"stop_id":"51676","stop_name":"Papineau / Beaubien (51676)"},"geometry":{"type":"Point","coordinates":[-73.596433,45.543149]}},

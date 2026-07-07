@@ -7976,7 +7976,7 @@
 {"type":"Feature","properties":{"stop_id":"61301","stop_name":"Saint-Hubert / Saint-Grégoire (61301)"},"geometry":{"type":"Point","coordinates":[-73.591675,45.530728]}},
 {"type":"Feature","properties":{"stop_id":"61302","stop_name":"Saint-Grégoire / Chambord (61302)"},"geometry":{"type":"Point","coordinates":[-73.588181,45.534689]}},
 {"type":"Feature","properties":{"stop_id":"61309","stop_name":"Saint-Jean / Brunswick (61309)"},"geometry":{"type":"Point","coordinates":[-73.829966,45.468052]}},
-{"type":"Feature","properties":{"stop_id":"61311","stop_name":"Sherbrooke / Stationnement incitatif (61311)","icons":["bus.png"]},"geometry":{"type":"Point","coordinates":[-73.505455,45.668343]}},
+{"type":"Feature","properties":{"stop_id":"61311","stop_name":"Sherbrooke / Stationnement incitatif (61311)","icons":["bus.png"]},"geometry":{"type":"Point","coordinates":[-73.505474,45.668362]}},
 {"type":"Feature","properties":{"stop_id":"61315","stop_name":"Rosemont / Marquette (61315)"},"geometry":{"type":"Point","coordinates":[-73.592037,45.539949]}},
 {"type":"Feature","properties":{"stop_id":"61317","stop_name":"Terminus Dorval (61317)","icons":["exo11.png"]},"geometry":{"type":"Point","coordinates":[-73.743943,45.448104]}},
 {"type":"Feature","properties":{"stop_id":"61320","stop_name":"de Verdun / Brault (61320)"},"geometry":{"type":"Point","coordinates":[-73.572819,45.447564]}},

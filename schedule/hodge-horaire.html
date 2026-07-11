@@ -60,7 +60,7 @@
 
     .grid-selector {
       display: grid;
-      grid-template-columns: 90px repeat(3, 100px);
+      grid-template-columns: 180px repeat(3, 90px);
       gap: 4px;
       align-items: center;
     }
@@ -94,7 +94,7 @@
 <body>
   <h1>Horaires – Axe Hodge</h1>
 
-  <p>Horaire du 18 mai au 14 juin 2026</p>
+  <p>Horaire en vigueur du 15 juin 2026 au 23 août 2026</p>
 
   <div class="controls">
     <div>
@@ -103,11 +103,11 @@
     </div>
 
     <div class="grid-selector" id="fileSelector">
-      <div>Direction Ouest (vers Sainte-Croix)<br>Stinson / Montpellier</div>
+      <div>Ouest (vers Sainte-Croix)<br><a href="https://www.transsee.ca/stopsched?s=stm.124.62418_0&s=stm.128.62669_1&s=stm.202.62409_1&s=stm.380.62418_0&hasonly=1&only=1&ok=OK">Station Côte-de-Liesse</a></div>
       <button class="selector-btn" data-file="hodge_weekday_west.csv">Semaine</button>
       <button class="selector-btn" data-file="hodge_saturday_west.csv">Samedi</button>
       <button class="selector-btn" data-file="hodge_sunday_west.csv">Dimanche</button>
-      <div>Direction Est (vers REM Côte-de-Liesse)<br>Hodge / Sainte-Croix</div>
+      <div>Est (vers REM Côte-de-Liesse)<br><a href="https://www.transsee.ca/stopsched?s=stm.124.55739&s=stm.128.55742&s=stm.202.55742&s=stm.380.55742&hasonly=1&only=1&ok=OK">Hodge / Sainte-Croix</a></div>
       <button class="selector-btn" data-file="hodge_weekday_east.csv">Semaine</button>
       <button class="selector-btn" data-file="hodge_saturday_east.csv">Samedi</button>
       <button class="selector-btn" data-file="hodge_sunday_east.csv">Dimanche</button>

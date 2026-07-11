@@ -7985,7 +7985,6 @@
 {"type":"Feature","properties":{"stop_id":"61324","stop_name":"Station Jolicoeur (61324)","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.581806,45.456966]}},
 {"type":"Feature","properties":{"stop_id":"61326","stop_name":"Station Jolicoeur (Drake / Holy Cross) (61326)","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.582199,45.456548]}},
 {"type":"Feature","properties":{"stop_id":"61328","stop_name":"Station Lionel-Groulx (61328)","icons":["verte.png","orange.png"]},"geometry":{"type":"Point","coordinates":[-73.580902,45.482905]}},
-{"type":"Feature","properties":{"stop_id":"61329","stop_name":"Station Lionel-Groulx (61329)","icons":["verte.png","orange.png"]},"geometry":{"type":"Point","coordinates":[-73.581111,45.482786]}},
 {"type":"Feature","properties":{"stop_id":"61330","stop_name":"Station Lionel-Groulx (61330)","icons":["verte.png","orange.png"]},"geometry":{"type":"Point","coordinates":[-73.580546,45.483130]}},
 {"type":"Feature","properties":{"stop_id":"61331","stop_name":"Station Lionel-Groulx (61331)","icons":["verte.png","orange.png"]},"geometry":{"type":"Point","coordinates":[-73.580278,45.483291]}},
 {"type":"Feature","properties":{"stop_id":"61332","stop_name":"Station Lionel-Groulx (61332)","icons":["verte.png","orange.png"]},"geometry":{"type":"Point","coordinates":[-73.580068,45.483413]}},

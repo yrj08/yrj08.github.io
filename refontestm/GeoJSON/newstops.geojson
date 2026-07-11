@@ -174,7 +174,7 @@
 {"type":"Feature","properties":{"stop_id":"A0085","stop_name":"Gare Anjou (––)","icons":["exo15.png"]},"geometry":{"type":"Point","coordinates":[-73.595863,45.618212]}},
 {"type":"Feature","properties":{"stop_id":"A0086","stop_name":"Colbert / No 10700 (––)"},"geometry":{"type":"Point","coordinates":[-73.583527,45.614619]}},
 {"type":"Feature","properties":{"stop_id":"A0087","stop_name":"Wellington / Gilberte-Dubé (––)"},"geometry":{"type":"Point","coordinates":[-73.563603,45.471617]}},
-{"type":"Feature","properties":{"stop_id":"A0088","stop_name":"Charlevoix / Saint-Patrick (––)"},"geometry":{"type":"Point","coordinates":[-73.571392,45.479663]}},
+{"type":"Feature","properties":{"stop_id":"A0088","stop_name":"TBD (––)"},"geometry":{"type":"Point","coordinates":[-73.571392,45.479663]}},
 {"type":"Feature","properties":{"stop_id":"A0089","stop_name":"Charlevoix / Saint-Patrick (––)"},"geometry":{"type":"Point","coordinates":[-73.571959,45.479835]}},
 {"type":"Feature","properties":{"stop_id":"A0090","stop_name":"Station Frontenac (Frontenac / Ontario) (––)","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.551624,45.532632]}},
 {"type":"Feature","properties":{"stop_id":"A0091","stop_name":"Honoré-Beaugrand / Notre-Dame (––)"},"geometry":{"type":"Point","coordinates":[-73.509203,45.588512]}},

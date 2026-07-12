@@ -3479,7 +3479,7 @@
 {"type":"Feature","properties":{"stop_id":"53865","stop_name":"Côte-des-Neiges / De La Peltrie (53865)"},"geometry":{"type":"Point","coordinates":[-73.630248,45.499904]}},
 {"type":"Feature","properties":{"stop_id":"53866","stop_name":"des Pins / No 1550 (53866)"},"geometry":{"type":"Point","coordinates":[-73.587054,45.497496]}},
 {"type":"Feature","properties":{"stop_id":"53867","stop_name":"des Pins / Côte-des-Neiges (53867)"},"geometry":{"type":"Point","coordinates":[-73.587843,45.496478]}},
-{"type":"Feature","properties":{"stop_id":"53868","stop_name":"d'Argenson / Voie ferrée (53868)"},"geometry":{"type":"Point","coordinates":[-73.570337,45.475994]}},
+{"type":"Feature","properties":{"stop_id":"53868","stop_name":"D'Argenson / Grand Trunk (53868)"},"geometry":{"type":"Point","coordinates":[-73.570337,45.475994]}},
 {"type":"Feature","properties":{"stop_id":"53869","stop_name":"De Condé / du Centre (53869)"},"geometry":{"type":"Point","coordinates":[-73.558187,45.484973]}},
 {"type":"Feature","properties":{"stop_id":"53870","stop_name":"du Centre / De Condé (53870)"},"geometry":{"type":"Point","coordinates":[-73.558380,45.485228]}},
 {"type":"Feature","properties":{"stop_id":"53871","stop_name":"Peel / Ottawa (53871)"},"geometry":{"type":"Point","coordinates":[-73.559560,45.494012]}},

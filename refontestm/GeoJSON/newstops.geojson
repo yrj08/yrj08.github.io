@@ -93,7 +93,7 @@
 {"type":"Feature","properties":{"stop_id":"A0004","stop_name":"Van Horne / Mountain Sights (––)"},"geometry":{"type":"Point","coordinates":[-73.641254,45.490866]}},
 {"type":"Feature","properties":{"stop_id":"A0005","stop_name":"Côte-Sainte-Catherine / Mountain Sights (––)"},"geometry":{"type":"Point","coordinates":[-73.636375,45.488694]}},
 {"type":"Feature","properties":{"stop_id":"A0006","stop_name":"Côte-Sainte-Catherine / Mountain Sights (––)"},"geometry":{"type":"Point","coordinates":[-73.636354,45.488429]}},
-{"type":"Feature","properties":{"stop_id":"A0007","stop_name":"René-Lévesque / Sanguinet (––)"},"geometry":{"type":"Point","coordinates":[-73.559139,45.511951]}},
+{"type":"Feature","properties":{"stop_id":"A0007","stop_name":"René-Lévesque / Sanguinet (CHUM) (––)"},"geometry":{"type":"Point","coordinates":[-73.559139,45.511951]}},
 {"type":"Feature","properties":{"stop_id":"A0008","stop_name":"TBD (––)"},"geometry":{"type":"Point","coordinates":[-73.667050,45.558854]}},
 {"type":"Feature","properties":{"stop_id":"A0009","stop_name":"Station Bois-Franc (––)","icons":["rem.png"]},"geometry":{"type":"Point","coordinates":[-73.711492,45.521597]}},
 {"type":"Feature","properties":{"stop_id":"A0010","stop_name":"Cavendish / Henri-Bourassa (––)"},"geometry":{"type":"Point","coordinates":[-73.719628,45.513305]}},

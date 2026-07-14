@@ -348,6 +348,7 @@
 {"type":"Feature","properties":{"stop_id":"A0259","stop_name":"Provost / 37e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.697759,45.442007]}},
 {"type":"Feature","properties":{"stop_id":"A0260","stop_name":"Provost / 37e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.698043,45.441920]}},
 {"type":"Feature","properties":{"stop_id":"A0261","stop_name":"Provost / 32e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.693898,45.441873]}},
+{"type":"Feature","properties":{"stop_id":"A0262","stop_name":"Saint-Patrick / Beauchamp (––)"},"geometry":{"type":"Point","coordinates":[-73.659517,45.433661]}},
 {"type":"Feature","properties":{"stop_id":"A9001","stop_name":"Cégep Marie-Victorin (––)","icons":["bus.png"]},"geometry":{"type":"Point","coordinates":[-73.607063,45.617981]}},
 {"type":"Feature","properties":{"stop_id":"A9002","stop_name":"Rita-Levi-Montalcini / Samuel-Morse (––)"},"geometry":{"type":"Point","coordinates":[-73.583361,45.641483]}},
 {"type":"Feature","properties":{"stop_id":"A9003","stop_name":"Fairway / François-Lenoir (––)"},"geometry":{"type":"Point","coordinates":[-73.701388,45.454309]}},

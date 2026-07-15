@@ -78,7 +78,6 @@
 {"type":"Feature","properties":{"stop_id":"61806","stop_name":"Saint-Laurent / De Maisonneuve (61806)","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.564873,45.510425]}},
 {"type":"Feature","properties":{"stop_id":"61812","stop_name":"24e Avenue / Everett (61812)"},"geometry":{"type":"Point","coordinates":[-73.592841,45.568645]}},
 {"type":"Feature","properties":{"stop_id":"61816","stop_name":"de Monkland / Décarie (61816)","icons":["orange.png"]},"geometry":{"type":"Point","coordinates":[-73.619642,45.478989]}},
-{"type":"Feature","properties":{"stop_id":"61840","stop_name":"Station Du Collège (du Collège / Ouimet) (61840)","icons":["orange.png"]},"geometry":{"type":"Point","coordinates":[-73.674359,45.509884]}},
 {"type":"Feature","properties":{"stop_id":"61994","stop_name":"Station Du Collège (du Collège / Décarie) (61994)","icons":["orange.png"]},"geometry":{"type":"Point","coordinates":[-73.674627,45.509668]}},
 {"type":"Feature","properties":{"stop_id":"62002","stop_name":"Station Du Collège (Cartier / Ouimet) (62002)","icons":["orange.png"]},"geometry":{"type":"Point","coordinates":[-73.672892,45.508637]}},
 {"type":"Feature","properties":{"stop_id":"62204","stop_name":"Côte-Vertu / No 4625 (62204)"},"geometry":{"type":"Point","coordinates":[-73.717764,45.486755]}},

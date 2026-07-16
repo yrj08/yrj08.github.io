@@ -47,6 +47,7 @@
 {"type":"Feature","properties":{"stop_id":"60191","stop_name":"Louis-H.-La Fontaine / Ravenel (60191)"},"geometry":{"type":"Point","coordinates":[-73.581857,45.611632]}},
 {"type":"Feature","properties":{"stop_id":"60195","stop_name":"Thimens / Alexis-Nihon (60195)"},"geometry":{"type":"Point","coordinates":[-73.697452,45.509760]}},
 {"type":"Feature","properties":{"stop_id":"60248","stop_name":"Guizot / de l'Esplanade (60248)"},"geometry":{"type":"Point","coordinates":[-73.637333,45.53702]}},
+{"type":"Feature","properties":{"stop_id":"60257","stop_name":"Station Du Collège (Décarie / Cartier) (60257)","icons":["orange.png"]},"geometry":{"type":"Point","coordinates":[-73.673005,45.508311]}},
 {"type":"Feature","properties":{"stop_id":"60341","stop_name":"Broadway / Forsyth (60341)"},"geometry":{"type":"Point","coordinates":[-73.515093,45.633317]}},
 {"type":"Feature","properties":{"stop_id":"60441","stop_name":"de l'Assomption / Pierre-De Coubertin (60441)"},"geometry":{"type":"Point","coordinates":[-73.542831,45.567895]}},
 {"type":"Feature","properties":{"stop_id":"60442","stop_name":"de l'Assomption / Pierre-De Coubertin (60442)"},"geometry":{"type":"Point","coordinates":[-73.543245,45.567829]}},

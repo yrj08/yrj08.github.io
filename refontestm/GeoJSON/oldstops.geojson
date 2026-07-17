@@ -8598,7 +8598,7 @@
 {"type":"Feature","properties":{"stop_id":"62515","stop_name":"Saint-Louis / Broadview (62515)"},"geometry":{"type":"Point","coordinates":[-73.799000,45.459404]}},
 {"type":"Feature","properties":{"stop_id":"62516","stop_name":"Saint-Louis / Sunnyside (62516)"},"geometry":{"type":"Point","coordinates":[-73.804027,45.456864]}},
 {"type":"Feature","properties":{"stop_id":"62517","stop_name":"Saint-Louis / Hornell (62517)"},"geometry":{"type":"Point","coordinates":[-73.806254,45.455740]}},
-{"type":"Feature","properties":{"stop_id":"62518","stop_name":"Station Fairview-Pointe-Claire (62518)","icons":["rem.png"]},"geometry":{"type":"Point","coordinates":[-73.834855,45.460504]}},
+{"type":"Feature","properties":{"stop_id":"62518","stop_name":"Station Fairview-Pointe-Claire (62518)","icons":["rem.png"]},"geometry":{"type":"Point","coordinates":[-73.835547,45.461136]}},
 {"type":"Feature","properties":{"stop_id":"62519","stop_name":"Saint-Jean / Duke-of-Kent (62519)"},"geometry":{"type":"Point","coordinates":[-73.818633,45.451264]}},
 {"type":"Feature","properties":{"stop_id":"62520","stop_name":"Saint-Jean / Cardiff (62520)"},"geometry":{"type":"Point","coordinates":[-73.819458,45.453248]}},
 {"type":"Feature","properties":{"stop_id":"62521","stop_name":"Sainte-Marie / Morgan (62521)"},"geometry":{"type":"Point","coordinates":[-73.917557,45.429236]}},

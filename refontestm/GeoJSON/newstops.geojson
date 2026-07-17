@@ -290,7 +290,7 @@
 {"type":"Feature","properties":{"stop_id":"A0203","stop_name":"d'Amiens / Salk (––)"},"geometry":{"type":"Point","coordinates":[-73.619571,45.597492]}},
 {"type":"Feature","properties":{"stop_id":"A0204","stop_name":"de Châteauneuf / Louis-H.-La Fontaine (––)","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.559371,45.602653]}},
 {"type":"Feature","properties":{"stop_id":"A0205","stop_name":"de l'Acadie / Gouin (––)"},"geometry":{"type":"Point","coordinates":[-73.702076,45.543060]}},
-{"type":"Feature","properties":{"stop_id":"A0206","stop_name":"Larrey / L.-J.-Forget (––)"},"geometry":{"type":"Point","coordinates":[-73.583108,45.618991]}},
+{"type":"Feature","properties":{"stop_id":"A0206","stop_name":"Larrey / L.-J.-Forget (––)","icons":["bus.png"]},"geometry":{"type":"Point","coordinates":[-73.583108,45.618991]}},
 {"type":"Feature","properties":{"stop_id":"A0207","stop_name":"Hochelaga / Bourbonnière (––)"},"geometry":{"type":"Point","coordinates":[-73.549637,45.550197]}},
 {"type":"Feature","properties":{"stop_id":"A0208","stop_name":"Hochelaga / Bourbonnière (––)"},"geometry":{"type":"Point","coordinates":[-73.549535,45.549920]}},
 {"type":"Feature","properties":{"stop_id":"A0209","stop_name":"23e Avenue / Everett (––)"},"geometry":{"type":"Point","coordinates":[-73.593576,45.568245]}},

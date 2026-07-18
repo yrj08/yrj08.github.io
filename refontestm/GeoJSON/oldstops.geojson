@@ -803,7 +803,7 @@
 {"type":"Feature","properties":{"stop_id":"50827","stop_name":"Fielding / Hingston (50827)"},"geometry":{"type":"Point","coordinates":[-73.637929,45.475192]}},
 {"type":"Feature","properties":{"stop_id":"50828","stop_name":"Fielding / Hingston (50828)"},"geometry":{"type":"Point","coordinates":[-73.637969,45.474963]}},
 {"type":"Feature","properties":{"stop_id":"50829","stop_name":"Champagneur / Jarry (50829)"},"geometry":{"type":"Point","coordinates":[-73.636116,45.530288]}},
-{"type":"Feature","properties":{"stop_id":"50830","stop_name":"Jarry / Champagneur (50830)"},"geometry":{"type":"Point","coordinates":[-73.636254,45.530566]}},
+{"type":"Feature","properties":{"stop_id":"50830","stop_name":"Jarry / Champagneur (50830)"},"geometry":{"type":"Point","coordinates":[-73.636203,45.530680]}},
 {"type":"Feature","properties":{"stop_id":"50831","stop_name":"Université Concordia / Campus Loyola (50831)"},"geometry":{"type":"Point","coordinates":[-73.639039,45.457543]}},
 {"type":"Feature","properties":{"stop_id":"50832","stop_name":"Earnscliffe / Dupuis (50832)"},"geometry":{"type":"Point","coordinates":[-73.637099,45.484832]}},
 {"type":"Feature","properties":{"stop_id":"50833","stop_name":"Émile-Journault / André-Grasset (50833)"},"geometry":{"type":"Point","coordinates":[-73.635452,45.557743]}},

@@ -72,7 +72,7 @@
 {"type":"Feature","properties":{"stop_id":"61625","stop_name":"Boucle Thimens (61625)"},"geometry":{"type":"Point","coordinates":[-73.707814,45.501661]}},
 {"type":"Feature","properties":{"stop_id":"61660","stop_name":"Station Angrignon (61660)","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.602744,45.446423]}},
 {"type":"Feature","properties":{"stop_id":"61669","stop_name":"de l'Île-des-Soeurs / René-Lévesque (61669)"},"geometry":{"type":"Point","coordinates":[-73.544996,45.466046]}},
-{"type":"Feature","properties":{"stop_id":"61694","stop_name":"de la Montagne / des Canadiens-de-Montréal (61694)"},"geometry":{"type":"Point","coordinates":[-73.570657,45.495832]}},
+{"type":"Feature","properties":{"stop_id":"61694","stop_name":"de la Montagne / des Canadiens-de-Montréal (61694)","icons":["orange.png","exo11.png","exo12.png","exo14.png"]},"geometry":{"type":"Point","coordinates":[-73.570657,45.495832]}},
 {"type":"Feature","properties":{"stop_id":"61737","stop_name":"YUL Aéroport Montréal-Trudeau (61737)","icons":["rem.png"]},"geometry":{"type":"Point","coordinates":[-73.751751,45.455258]}},
 {"type":"Feature","properties":{"stop_id":"61769","stop_name":"Côte-Vertu / Alexis-Nihon (61769)"},"geometry":{"type":"Point","coordinates":[-73.692829,45.506042]}},
 {"type":"Feature","properties":{"stop_id":"61806","stop_name":"Saint-Laurent / De Maisonneuve (61806)","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.564873,45.510425]}},

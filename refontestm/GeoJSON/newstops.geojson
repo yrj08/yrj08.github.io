@@ -87,7 +87,7 @@
 {"type":"Feature","properties":{"stop_id":"62361","stop_name":"Terminus Roger-Rousseau (62361)"},"geometry":{"type":"Point","coordinates":[-73.551446,45.620086]}},
 {"type":"Feature","properties":{"stop_id":"62780","stop_name":"Station Côte-de-Liesse (Stinson / Hodge) (62780)","icons":["rem.png","exo15.png"]},"geometry":{"type":"Point","coordinates":[-73.661980,45.520892]}},
 {"type":"Feature","properties":{"stop_id":"A0001","stop_name":"Sauvé / Saint-Urbain (––)"},"geometry":{"type":"Point","coordinates":[-73.660917,45.545147]}},
-{"type":"Feature","properties":{"stop_id":"A0002","stop_name":"Sauvé / Waverly (––)"},"geometry":{"type":"Point","coordinates":[-73.661175,45.545017]}},
+{"type":"Feature","properties":{"stop_id":"A0002","stop_name":"Sauvé / Grande Allée (––)"},"geometry":{"type":"Point","coordinates":[-73.659618,45.547558]}},
 {"type":"Feature","properties":{"stop_id":"A0003","stop_name":"Côte-Vertu / Hervé-Saint-Martin (––)"},"geometry":{"type":"Point","coordinates":[-73.733079,45.474489]}},
 {"type":"Feature","properties":{"stop_id":"A0004","stop_name":"Van Horne / Mountain Sights (––)"},"geometry":{"type":"Point","coordinates":[-73.641254,45.490866]}},
 {"type":"Feature","properties":{"stop_id":"A0005","stop_name":"Côte-Sainte-Catherine / Mountain Sights (––)"},"geometry":{"type":"Point","coordinates":[-73.636375,45.488694]}},

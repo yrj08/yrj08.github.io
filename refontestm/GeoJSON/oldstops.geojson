@@ -422,7 +422,7 @@
 {"type":"Feature","properties":{"stop_id":"50390","stop_name":"Saint-Laurent / Sauvé (50390)"},"geometry":{"type":"Point","coordinates":[-73.659487,45.546952]}},
 {"type":"Feature","properties":{"stop_id":"50391","stop_name":"Sauvé / Saint-Laurent (50391)"},"geometry":{"type":"Point","coordinates":[-73.659863,45.547129]}},
 {"type":"Feature","properties":{"stop_id":"50392","stop_name":"Saint-Laurent / Sauvé (50392)"},"geometry":{"type":"Point","coordinates":[-73.660089,45.546953]}},
-{"type":"Feature","properties":{"stop_id":"50393","stop_name":"Sauvé / Grande Allée (50393)"},"geometry":{"type":"Point","coordinates":[-73.659353,45.547425]}},
+{"type":"Feature","properties":{"stop_id":"50393","stop_name":"Sauvé / Grande Allée (50393)"},"geometry":{"type":"Point","coordinates":[-73.659321,45.547483]}},
 {"type":"Feature","properties":{"stop_id":"50395","stop_name":"Fleury / Georges-Baril (50395)"},"geometry":{"type":"Point","coordinates":[-73.659019,45.558504]}},
 {"type":"Feature","properties":{"stop_id":"50396","stop_name":"Fleury / Georges-Baril (50396)"},"geometry":{"type":"Point","coordinates":[-73.658962,45.558285]}},
 {"type":"Feature","properties":{"stop_id":"50397","stop_name":"Royalmount / Paré (50397)"},"geometry":{"type":"Point","coordinates":[-73.675424,45.486602]}},

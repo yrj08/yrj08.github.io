@@ -368,9 +368,10 @@
 {"type":"Feature","properties":{"stop_id":"A9906","stop_name":"Henri-Bourassa / Laperle (––)"},"geometry":{"type":"Point","coordinates":[-73.660139,45.567439]}},
 {"type":"Feature","properties":{"stop_id":"A9907","stop_name":"Henri-Bourassa / Christophe-Colomb (––)"},"geometry":{"type":"Point","coordinates":[-73.663173,45.562537]}},
 {"type":"Feature","properties":{"stop_id":"A9908","stop_name":"Henri-Bourassa / Péloquin (––)"},"geometry":{"type":"Point","coordinates":[-73.667050,45.558854]}},
-{"type":"Feature","properties":{"stop_id":"A9993","stop_name":"Station Anjou (localisation provisoire) (––)","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.560248,45.601091]}},
-{"type":"Feature","properties":{"stop_id":"A9994","stop_name":"Station Anjou (localisation provisoire) (––)","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.560462,45.601061]}},
-{"type":"Feature","properties":{"stop_id":"A9995","stop_name":"Station Anjou (localisation provisoire) (––)","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.560661,45.601273]}},
+{"type":"Feature","properties":{"stop_id":"A9992","stop_name":"Station Anjou (localisation provisoire) (––)","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.559231,45.601045]}},
+{"type":"Feature","properties":{"stop_id":"A9993","stop_name":"Station Anjou (localisation provisoire) (––)","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.559409,45.601121]}},
+{"type":"Feature","properties":{"stop_id":"A9994","stop_name":"Station Anjou (localisation provisoire) (––)","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.559481,45.600873]}},
+{"type":"Feature","properties":{"stop_id":"A9995","stop_name":"Station Anjou (localisation provisoire) (––)","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.559312,45.600801]}},
 {"type":"Feature","properties":{"stop_id":"A9996","stop_name":"Station Vertières (localisation provisoire) (––)","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.590132,45.566855]}},
 {"type":"Feature","properties":{"stop_id":"A9997","stop_name":"Station Vertières (localisation provisoire) (––)","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.590355,45.566949]}}
   ]

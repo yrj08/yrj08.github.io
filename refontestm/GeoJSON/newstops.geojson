@@ -21,6 +21,7 @@
 {"type":"Feature","properties":{"stop_id":"54619","stop_name":"Roi-René / de Châteauneuf (54619)"},"geometry":{"type":"Point","coordinates":[-73.554882,45.612340]}},
 {"type":"Feature","properties":{"stop_id":"54667","stop_name":"Yves-Prévost / Des Ormeaux (54667)"},"geometry":{"type":"Point","coordinates":[-73.543442,45.609564]}},
 {"type":"Feature","properties":{"stop_id":"54695","stop_name":"Larrey / L.-J.-Forget (54695)","icons":["bus.png"]},"geometry":{"type":"Point","coordinates":[-73.584025,45.618141]}},
+{"type":"Feature","properties":{"stop_id":"54713","stop_name":"Louis-H.-La Fontaine / Galeries d'Anjou (54713)"},"geometry":{"type":"Point","coordinates":[-73.565044,45.602695]}},
 {"type":"Feature","properties":{"stop_id":"54722","stop_name":"Louis-H.-La Fontaine / de la Seine (54722)"},"geometry":{"type":"Point","coordinates":[-73.549830,45.597904]}},
 {"type":"Feature","properties":{"stop_id":"54739","stop_name":"De La Vérendrye / Rhéaume (54739)"},"geometry":{"type":"Point","coordinates":[-73.546249,45.612934]}},
 {"type":"Feature","properties":{"stop_id":"55053","stop_name":"Henri-Bourassa / de London (55053)"},"geometry":{"type":"Point","coordinates":[-73.644131,45.593636]}},
@@ -351,6 +352,9 @@
 {"type":"Feature","properties":{"stop_id":"A0263","stop_name":"6e Avenue / Saint-Joseph (––)"},"geometry":{"type":"Point","coordinates":[-73.669249,45.432043]}},
 {"type":"Feature","properties":{"stop_id":"A0264","stop_name":"Saint-Patrick / No 7000 (––)"},"geometry":{"type":"Point","coordinates":[-73.622370,45.453096]}},
 {"type":"Feature","properties":{"stop_id":"A0265","stop_name":"Rochon / Cardinal (––)"},"geometry":{"type":"Point","coordinates":[-73.687281,45.514101]}},
+{"type":"Feature","properties":{"stop_id":"A0266","stop_name":"Métropolitain / de Neuville (––)"},"geometry":{"type":"Point","coordinates":[-73.571866,45.599059]}},
+{"type":"Feature","properties":{"stop_id":"A0267","stop_name":"Métropolitain / Jean-Talon (––)"},"geometry":{"type":"Point","coordinates":[-73.569524,45.600742]}},
+{"type":"Feature","properties":{"stop_id":"A0268","stop_name":"Louis-H.-La Fontaine / Galeries d'Anjou (––)"},"geometry":{"type":"Point","coordinates":[-73.564410,45.602524]}},
 {"type":"Feature","properties":{"stop_id":"A9001","stop_name":"Cégep Marie-Victorin (––)","icons":["bus.png"]},"geometry":{"type":"Point","coordinates":[-73.607063,45.617981]}},
 {"type":"Feature","properties":{"stop_id":"A9002","stop_name":"Rita-Levi-Montalcini / Samuel-Morse (––)"},"geometry":{"type":"Point","coordinates":[-73.583361,45.641483]}},
 {"type":"Feature","properties":{"stop_id":"A9003","stop_name":"Fairway / François-Lenoir (––)"},"geometry":{"type":"Point","coordinates":[-73.701388,45.454309]}},
@@ -366,6 +370,7 @@
 {"type":"Feature","properties":{"stop_id":"A9908","stop_name":"Henri-Bourassa / Péloquin (––)"},"geometry":{"type":"Point","coordinates":[-73.667050,45.558854]}},
 {"type":"Feature","properties":{"stop_id":"A9993","stop_name":"Station Anjou (localisation provisoire) (––)","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.560248,45.601091]}},
 {"type":"Feature","properties":{"stop_id":"A9994","stop_name":"Station Anjou (localisation provisoire) (––)","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.560462,45.601061]}},
+{"type":"Feature","properties":{"stop_id":"A9995","stop_name":"Station Anjou (localisation provisoire) (––)","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.560661,45.601273]}},
 {"type":"Feature","properties":{"stop_id":"A9996","stop_name":"Station Vertières (localisation provisoire) (––)","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.590132,45.566855]}},
 {"type":"Feature","properties":{"stop_id":"A9997","stop_name":"Station Vertières (localisation provisoire) (––)","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.590355,45.566949]}}
   ]

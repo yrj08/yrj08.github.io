@@ -2054,11 +2054,11 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
-  "141": {title: "Ligne 141 • Hochelaga / des Ormeaux", type: "frequent_journee",
+  "141": {title: "Ligne 141 • de Châteauneuf / des Ormeaux", type: "frequent_pointe",
     files: {currentShapes: "../GeoJSON/curr-141.geojson", newShapes: "../GeoJSON/141.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est – Georges-V / Notre-Dame", 
-                      inbound: "Ouest – Galeries d'Anjou"},
+    directionLabels: {outbound: "Est – Station Honoré-Beaugrand", 
+                      inbound: "Ouest – Centre communautaire d'Anjou"},
     branchStyles: {
       "1418888": {line: {color: "#781B7D", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},
@@ -2067,13 +2067,13 @@ window.routeConfigs = {
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
-      <li>Retrait du service à l'ouest des Galeries d'Anjou (service fusionné avec la ligne 93). 
-          Prolongement à l'est du métro Honoré-Beaugrand via Hochelaga pour remplacer ce tronçon 
-          de la ligne 189.</li>
+      <li>Retrait du service à l'ouest des Galeries d'Anjou (ce tronçon sera fusionné avec la ligne 93).</li>
       <li>Retrait de quelques arrêts trop rapprochés.</li>
+      <li>Diminution du service par rapport à la ligne 141 actuelle: la ligne demeure fréquente en pointe.</li>
     `,
     pourquoi: `
-      <li>Permettre une ligne à haute fréquence dans le secteur;</li>
+      <li>Préserver une ligne à haute fréquence dans le secteur et de concentrer les ressources 
+          sur les tronçons plus achalandés (projetés);</li>
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
@@ -2476,6 +2476,29 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
+  "182": {title: "Ligne 182 • Hochelaga", type: "frequent_pointe",
+    files: {currentShapes: "../GeoJSON/curr-182.geojson", newShapes: "../GeoJSON/182.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – Georges-V / Notre-Dame", 
+                      inbound: "Ouest – Station Honoré-Beaugrand"},
+    branchStyles: {
+      "1828888": {line: {color: "#781B7D", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#781B7D", fillOpacity: 1, shape: "circle"}},
+      "1829999": {line: {color: "#8B469E", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#8B469E", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Isolement du tronçon Hochelaga pour remplacer celui de la ligne 189, étant donné son 
+          achalandage plus important observé.</li>
+      <li>Retrait de quelques arrêts trop rapprochés.</li>
+    `,
+    pourquoi: `
+      <li>Permettre une ligne fréquente en pointe dans le secteur et de concentrer les ressources 
+          sur les segments plus achalandés;</li>
+      <li>Améliorer la vitesse commerciale.</li>
+    `},
+  
   "183": {title: "Ligne 183 • Gouin Est", type: "regulier",
     files: {currentShapes: "../GeoJSON/curr-183.geojson", newShapes: "../GeoJSON/183.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},

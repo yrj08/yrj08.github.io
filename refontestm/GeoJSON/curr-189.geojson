@@ -9,6 +9,7 @@
                 "branch": "current",
                 "variant": "current",
                 "stops": [
+                    "53251",
                     "53306",
                     "53307",
                     "53346",

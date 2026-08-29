@@ -112,7 +112,7 @@
 {"type":"Feature","properties":{"stop_id":"A0021","stop_name":"De Lorimier / René-Lévesque (––)"},"geometry":{"type":"Point","coordinates":[-73.548175,45.523899]}},
 {"type":"Feature","properties":{"stop_id":"A0022","stop_name":"du Parc / Sherbrooke (––)"},"geometry":{"type":"Point","coordinates":[-73.572027,45.508819]}},
 {"type":"Feature","properties":{"stop_id":"A0023","stop_name":"du Parc / Sherbrooke (––)"},"geometry":{"type":"Point","coordinates":[-73.572206,45.508713]}},
-{"type":"Feature","properties":{"stop_id":"A0024","stop_name":"TBD (––)"},"geometry":{"type":"Point","coordinates":[-73.593120,45.537122]}},
+{"type":"Feature","properties":{"stop_id":"A0024","stop_name":"Place de la Côte-Vertu / Lebeau (––)"},"geometry":{"type":"Point","coordinates":[-73.667079,45.529297]}},
 {"type":"Feature","properties":{"stop_id":"A0025","stop_name":"Saint-Donat / de Verneuil (––)"},"geometry":{"type":"Point","coordinates":[-73.538840,45.603237]}},
 {"type":"Feature","properties":{"stop_id":"A0026","stop_name":"Robitaille / Des Ormeaux (––)"},"geometry":{"type":"Point","coordinates":[-73.543253,45.609638]}},
 {"type":"Feature","properties":{"stop_id":"A0027","stop_name":"Saint-Donat / de Verneuil (––)"},"geometry":{"type":"Point","coordinates":[-73.539279,45.603304]}},

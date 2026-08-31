@@ -360,7 +360,7 @@
 {"type":"Feature","properties":{"stop_id":"A9001","stop_name":"Cégep Marie-Victorin (––)","icons":["bus.png"]},"geometry":{"type":"Point","coordinates":[-73.607063,45.617981]}},
 {"type":"Feature","properties":{"stop_id":"A9002","stop_name":"Rita-Levi-Montalcini / Samuel-Morse (––)"},"geometry":{"type":"Point","coordinates":[-73.583361,45.641483]}},
 {"type":"Feature","properties":{"stop_id":"A9003","stop_name":"Fairway / François-Lenoir (––)"},"geometry":{"type":"Point","coordinates":[-73.701388,45.454309]}},
-{"type":"Feature","properties":{"stop_id":"A9004","stop_name":"Louis-A.-Amos / 23e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.699641,45.467247]}},
+{"type":"Feature","properties":{"stop_id":"A9004","stop_name":"Louis-A.-Amos / J.-B.-Deschamps (––)"},"geometry":{"type":"Point","coordinates":[-73.699641,45.467247]}},
 {"type":"Feature","properties":{"stop_id":"A9005","stop_name":"Louis-A.-Amos / 32e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.707020,45.461850]}},
 {"type":"Feature","properties":{"stop_id":"A9006","stop_name":"Lindsay / 55e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.723291,45.455619]}},
 {"type":"Feature","properties":{"stop_id":"A9007","stop_name":"Guthrie / Meloche (––)"},"geometry":{"type":"Point","coordinates":[-73.726257,45.451972]}},

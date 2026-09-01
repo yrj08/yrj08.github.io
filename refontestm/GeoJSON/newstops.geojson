@@ -368,6 +368,7 @@
 {"type":"Feature","properties":{"stop_id":"A9009","stop_name":"Daoust / No 21000 (––)"},"geometry":{"type":"Point","coordinates":[-73.923446,45.430711]}},
 {"type":"Feature","properties":{"stop_id":"A9010","stop_name":"Bombardier (––)"},"geometry":{"type":"Point","coordinates":[-73.730251,45.475000]}},
 {"type":"Feature","properties":{"stop_id":"A9011","stop_name":"Côte-Vertu / Centre de formation (––)"},"geometry":{"type":"Point","coordinates":[-73.733085,45.474157]}},
+{"type":"Feature","properties":{"stop_id":"A9012","stop_name":"Côte-Vertu / Air Canada (––)"},"geometry":{"type":"Point","coordinates":[-73.737055,45.471044]}},
 {"type":"Feature","properties":{"stop_id":"A9904","stop_name":"Henri-Bourassa / Christophe-Colomb (––)"},"geometry":{"type":"Point","coordinates":[-73.662045,45.562782]}},
 {"type":"Feature","properties":{"stop_id":"A9905","stop_name":"Henri-Bourassa / Francis (––)"},"geometry":{"type":"Point","coordinates":[-73.660606,45.565551]}},
 {"type":"Feature","properties":{"stop_id":"A9906","stop_name":"Henri-Bourassa / Laperle (––)"},"geometry":{"type":"Point","coordinates":[-73.660139,45.567439]}},

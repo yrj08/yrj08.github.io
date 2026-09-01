@@ -1980,7 +1980,7 @@
 {"type":"Feature","properties":{"stop_id":"52161","stop_name":"Christophe-Colomb / du Mont-Royal (52161)"},"geometry":{"type":"Point","coordinates":[-73.579412,45.528043]}},
 {"type":"Feature","properties":{"stop_id":"52162","stop_name":"du Mont-Royal / Christophe-Colomb (52162)"},"geometry":{"type":"Point","coordinates":[-73.579226,45.527875]}},
 {"type":"Feature","properties":{"stop_id":"52163","stop_name":"Bélanger / 40e Avenue (52163)"},"geometry":{"type":"Point","coordinates":[-73.578287,45.575483]}},
-{"type":"Feature","properties":{"stop_id":"52164","stop_name":"Bélanger / 40e Avenue (52164)"},"geometry":{"type":"Point","coordinates":[-73.578319,45.575201]}},
+{"type":"Feature","properties":{"stop_id":"52164","stop_name":"Bélanger / 40e Avenue (52164)"},"geometry":{"type":"Point","coordinates":[-73.577793,45.575842]}},
 {"type":"Feature","properties":{"stop_id":"52165","stop_name":"Collège Jean-Eudes (Rosemont / 14e Avenue) (52165)"},"geometry":{"type":"Point","coordinates":[-73.578549,45.555525]}},
 {"type":"Feature","properties":{"stop_id":"52166","stop_name":"Sherbrooke / Redpath (52166)"},"geometry":{"type":"Point","coordinates":[-73.580323,45.498117]}},
 {"type":"Feature","properties":{"stop_id":"52167","stop_name":"Sherbrooke / Bishop (52167)"},"geometry":{"type":"Point","coordinates":[-73.580064,45.498138]}},

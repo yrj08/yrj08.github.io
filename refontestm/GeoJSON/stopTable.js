@@ -386,7 +386,7 @@ function buildBranchSelector({
 
   const heading = document.createElement("div");
 
-  heading.innerHTML = "<strong>Branches :</strong>";
+  heading.innerHTML = "<strong>Trajet :</strong>";
   heading.style.marginBottom = "2px";
 
   selector.appendChild(heading);
@@ -434,7 +434,7 @@ function buildBranchSelector({
    */
   addOption(
     "all",
-    "Toutes les branches",
+    "Tous les trajets",
     true,
     () => {
       buildAllBranchesTable({

@@ -386,7 +386,7 @@ function buildBranchSelector({
 
   const heading = document.createElement("div");
 
-  heading.innerHTML = "<strong>Trajet :</strong>";
+  heading.innerHTML = "<strong>Trajet(s) :</strong>";
   heading.style.marginBottom = "2px";
 
   selector.appendChild(heading);

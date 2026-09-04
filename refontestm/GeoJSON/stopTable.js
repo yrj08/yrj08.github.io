@@ -373,8 +373,10 @@ function buildBranchSelector({
   direction
 }) {
 
+  container.innerHTML = "";
+
   /*
-   * Selector container.
+   * Selector container
    */
   const selector = document.createElement("div");
 
@@ -382,16 +384,21 @@ function buildBranchSelector({
   selector.style.fontSize = "15px";
   selector.style.lineHeight = "1.7";
 
-  /*
-   * Heading.
-   */
   const heading = document.createElement("div");
 
   heading.innerHTML = "<strong>Branches :</strong>";
-
   heading.style.marginBottom = "2px";
 
   selector.appendChild(heading);
+
+
+  /*
+   * Separate container for the table.
+   *
+   * This is important because the table-building functions
+   * clear their container before rebuilding the table.
+   */
+  const tableContainer = document.createElement("div");
 
 
   /*
@@ -433,7 +440,7 @@ function buildBranchSelector({
       buildAllBranchesTable({
         branches,
         stopsLookup,
-        container
+        container: tableContainer
       });
     }
   );
@@ -444,15 +451,8 @@ function buildBranchSelector({
    */
   branches.forEach(branch => {
 
-    /*
-     * Use the headsign from the branch.
-     */
     let label = branch.headsign || branch.branch;
 
-    /*
-     * If there are multiple features belonging to this branch,
-     * use the first non-empty headsign.
-     */
     const headsignFeature =
       branch.features.find(f => f.properties.headsign);
 
@@ -468,14 +468,18 @@ function buildBranchSelector({
         buildBranchTable({
           branch,
           stopsLookup,
-          container
+          container: tableContainer
         });
       }
     );
   });
 
 
+  /*
+   * Add selector first, then table.
+   */
   container.appendChild(selector);
+  container.appendChild(tableContainer);
 
 
   /*
@@ -484,7 +488,7 @@ function buildBranchSelector({
   buildAllBranchesTable({
     branches,
     stopsLookup,
-    container
+    container: tableContainer
   });
 }
 

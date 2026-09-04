@@ -225,8 +225,17 @@ function createRouteMap(config) {
     fetchGeoJSON(newStops)
   ]).then(([currShapes, newShapesData, currStops, newStopsData]) => {
 
-    buildStopLookup(currStops, "current");
-    buildStopLookup(newStopsData, "new");
+    try {
+
+      console.log("GeoJSON loaded:", {
+        currentShapes: currShapes,
+        newShapes: newShapesData,
+        currentStops: currStops,
+        newStops: newStopsData
+      });
+
+      buildStopLookup(currStops, "current");
+      buildStopLookup(newStopsData, "new");
 
     const currentBranches = processShapes(currShapes, "current");
     const newBranches = processShapes(newShapesData, "new");
@@ -339,5 +348,11 @@ function createRouteMap(config) {
     if (!rightDir) {
       document.getElementById("table-right").parentElement.style.display = "none";
     }
+
+    } catch (error) {
+      console.error("Error while building route map:", error);
+      console.error(error.stack);
+    }
+
   });
 }

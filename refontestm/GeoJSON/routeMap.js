@@ -316,9 +316,9 @@ function createRouteMap(config) {
         shapes: newShapesData,
         stopsLookup: stopLookup,
         direction: leftDir,
-        containerId: "table-left"
+        containerId: "table-left",
+        directionLabels: directionLabels
       });
-    }
 
     // RIGHT COLUMN
     if (rightDir) {
@@ -329,9 +329,9 @@ function createRouteMap(config) {
         shapes: newShapesData,
         stopsLookup: stopLookup,
         direction: rightDir,
-        containerId: "table-right"
+        containerId: "table-right",
+        directionLabels: directionLabels
       });
-    }
     
     // Optional: hide right column if unused
     if (!rightDir) {

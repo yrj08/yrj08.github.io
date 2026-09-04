@@ -319,6 +319,7 @@ function createRouteMap(config) {
         containerId: "table-left",
         directionLabels: directionLabels
       });
+    }
 
     // RIGHT COLUMN
     if (rightDir) {
@@ -332,6 +333,7 @@ function createRouteMap(config) {
         containerId: "table-right",
         directionLabels: directionLabels
       });
+    }
     
     // Optional: hide right column if unused
     if (!rightDir) {

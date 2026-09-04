@@ -311,7 +311,7 @@ function createRouteMap(config) {
     if (leftDir) {
       document.getElementById("title-left").innerText =
         directionLabels[leftDir] || leftDir;
-    
+
       generateStopTable({
         shapes: newShapesData,
         stopsLookup: stopLookup,
@@ -325,7 +325,7 @@ function createRouteMap(config) {
     if (rightDir) {
       document.getElementById("title-right").innerText =
         directionLabels[rightDir] || rightDir;
-    
+
       generateStopTable({
         shapes: newShapesData,
         stopsLookup: stopLookup,
@@ -334,7 +334,7 @@ function createRouteMap(config) {
         directionLabels: directionLabels
       });
     }
-    
+
     // Optional: hide right column if unused
     if (!rightDir) {
       document.getElementById("table-right").parentElement.style.display = "none";

@@ -340,7 +340,7 @@ window.routeConfigs = {
     files: {currentShapes: "../GeoJSON/curr-020.geojson", newShapes: "../GeoJSON/020.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – Parc Frédéric-Back", 
-                      inbound: "Ouest – Sauvé / de l'Acadie"},
+                      inbound: "Ouest – Gare Ahuntsic"},
     branchStyles: {
       "208888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
@@ -2038,7 +2038,7 @@ window.routeConfigs = {
     files: {currentShapes: "../GeoJSON/curr-140.geojson", newShapes: "../GeoJSON/140.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Est – d'Amos / Lacordaire", 
-                      inbound: "Ouest – Sauvé / de l'Acadie"},
+                      inbound: "Ouest – Gare Ahuntsic"},
     branchStyles: {
       "1408888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
@@ -3183,22 +3183,15 @@ window.routeConfigs = {
   "222": {title: "Ligne 222 • Senneville", type: "pointe",
     files: {currentShapes: "../GeoJSON/curr-222.geojson", newShapes: "../GeoJSON/222.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Est - Gare Beaconsfield", 
-                      inbound: "Ouest - Senneville"},
+    directionLabels: {outbound: "Ouest", inbound: "Ouest"},
     branchStyles: {
-      "2228888": {line: {color: "#009EE0", weight: 4, opacity: 1},
-          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "2229999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
-          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
-      <li>Aucune modification de trajet: desserte en boucle maintenue avec deux 
-          directions indiquées pour mieux guider la clientèle.</li>
+      <li>Abandon du circuit en raison du faible achalandage observé.</li>
     `,
     pourquoi: `
-      <li>Améliorer l'expérience client en ayant deux destinations pour éviter 
-          des confusions.</li>
+      <li></li>
     `},
 
   "223": {title: "Ligne 223 • Parc Industriel Baie-D'Urfé", type: "regulier",

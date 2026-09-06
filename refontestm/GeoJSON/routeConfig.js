@@ -3026,7 +3026,8 @@ window.routeConfigs = {
     changements: `
       <li>Diminution de fréquence et retrait du service à l'ouest de la gare 
           Beaconsfield en raison de faible achalandage observé. Service remplacé 
-          par des modifications aux lignes 221 et 222;</li>
+          par des modifications à la ligne 221, à l'exception du segment Elm où le service 
+          est appelé à être aboli en raison du faible achalandage.</li>
       <li>Retrait de quelques arrêts trop rapprochés.</li>
     `,
     pourquoi: `
@@ -3183,7 +3184,7 @@ window.routeConfigs = {
   "222": {title: "Ligne 222 • Senneville", type: "aboli",
     files: {currentShapes: "../GeoJSON/curr-222.geojson", newShapes: "../GeoJSON/222.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Ouest", inbound: "Ouest"},
+    directionLabels: {outbound: "Ouest"},
     branchStyles: {
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},

@@ -3180,7 +3180,7 @@ window.routeConfigs = {
       <li>Améliorer la vitesse commerciale.</li>
     `},
 
-  "222": {title: "Ligne 222 • Senneville", type: "pointe",
+  "222": {title: "Ligne 222 • Senneville", type: "aboli",
     files: {currentShapes: "../GeoJSON/curr-222.geojson", newShapes: "../GeoJSON/222.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Ouest", inbound: "Ouest"},

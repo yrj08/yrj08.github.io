@@ -68,6 +68,7 @@
 {"type":"Feature","properties":{"stop_id":"61055","stop_name":"Cavendish / Mackle (61055)"},"geometry":{"type":"Point","coordinates":[-73.666138,45.478099]}},
 {"type":"Feature","properties":{"stop_id":"61086","stop_name":"Gouin / Grenet (61086)","icons":["bus.png"]},"geometry":{"type":"Point","coordinates":[-73.719591,45.532332]}},
 {"type":"Feature","properties":{"stop_id":"61126","stop_name":"De Salaberry / de Madrid (61126)"},"geometry":{"type":"Point","coordinates":[-73.803604,45.485447]}},
+{"type":"Feature","properties":{"stop_id":"61234","stop_name":"Sainte-Marie / de l'Anse-à-l'Orme (61234)"},"geometry":{"type":"Point","coordinates":[-73.898515,45.436265]}},
 {"type":"Feature","properties":{"stop_id":"61390","stop_name":"Station Henri-Bourassa (61390)","icons":["orange.png"]},"geometry":{"type":"Point","coordinates":[-73.667649,45.555849]}},
 {"type":"Feature","properties":{"stop_id":"61558","stop_name":"Décarie / No 1000 (CUSM) (61558)"},"geometry":{"type":"Point","coordinates":[-73.603233,45.471740]}},
 {"type":"Feature","properties":{"stop_id":"61565","stop_name":"Station De L'Église (Galt / Wellington) (61565)","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.567319,45.461872]}},

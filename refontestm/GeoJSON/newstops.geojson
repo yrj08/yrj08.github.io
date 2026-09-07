@@ -375,6 +375,7 @@
 {"type":"Feature","properties":{"stop_id":"A9015","stop_name":"Elm / Shannon Park (––)"},"geometry":{"type":"Point","coordinates":[-73.869329,45.430494]}},
 {"type":"Feature","properties":{"stop_id":"A9016","stop_name":"Elm / Fairway (––)"},"geometry":{"type":"Point","coordinates":[-73.864976,45.431171]}},
 {"type":"Feature","properties":{"stop_id":"A9017","stop_name":"Elm / Westcroft (––)"},"geometry":{"type":"Point","coordinates":[-73.862356,45.431584]}},
+{"type":"Feature","properties":{"stop_id":"A9018","stop_name":"Transcanadienne / No 22555 (––)"},"geometry":{"type":"Point","coordinates":[-73.965751,45.422849]}},
 {"type":"Feature","properties":{"stop_id":"A9904","stop_name":"Henri-Bourassa / Christophe-Colomb (––)"},"geometry":{"type":"Point","coordinates":[-73.662045,45.562782]}},
 {"type":"Feature","properties":{"stop_id":"A9905","stop_name":"Henri-Bourassa / Francis (––)"},"geometry":{"type":"Point","coordinates":[-73.660606,45.565551]}},
 {"type":"Feature","properties":{"stop_id":"A9906","stop_name":"Henri-Bourassa / Laperle (––)"},"geometry":{"type":"Point","coordinates":[-73.660139,45.567439]}},

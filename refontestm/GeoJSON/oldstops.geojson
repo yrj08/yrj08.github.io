@@ -8728,7 +8728,7 @@
 {"type":"Feature","properties":{"stop_id":"62743","stop_name":"École secondaire Saint-Georges (62743)"},"geometry":{"type":"Point","coordinates":[-73.949553,45.413553]}},
 {"type":"Feature","properties":{"stop_id":"62744","stop_name":"des Anciens-Combattants / No 555 (62744)"},"geometry":{"type":"Point","coordinates":[-73.949608,45.417057]}},
 {"type":"Feature","properties":{"stop_id":"62749","stop_name":"Graham / Wicksteed (62749)"},"geometry":{"type":"Point","coordinates":[-73.639902,45.517082]}},
-{"type":"Feature","properties":{"stop_id":"62752","stop_name":"des Bruants / Jacques-Bizard (62752)"},"geometry":{"type":"Point","coordinates":[-73.876559,45.503394]}},
+{"type":"Feature","properties":{"stop_id":"62752","stop_name":"des Bruants / Jacques-Bizard (62752)"},"geometry":{"type":"Point","coordinates":[-73.876424,45.503315]}},
 {"type":"Feature","properties":{"stop_id":"62753","stop_name":"Christophe-Colomb / Crémazie (62753)"},"geometry":{"type":"Point","coordinates":[-73.630157,45.551194]}},
 {"type":"Feature","properties":{"stop_id":"62754","stop_name":"Jean-Talon / Pontoise (62754)"},"geometry":{"type":"Point","coordinates":[-73.580406,45.582289]}},
 {"type":"Feature","properties":{"stop_id":"62755","stop_name":"Antonio-Dagenais / du Mans (62755)"},"geometry":{"type":"Point","coordinates":[-73.582917,45.583416]}},

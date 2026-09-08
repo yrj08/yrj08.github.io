@@ -12,7 +12,7 @@
                           "57849","57847","57845","58132","58129","58127","58123","58114",
                           "58056","58062","58047","58045","58065","58038","58043","58064",
                           "58049","58051","58052","58058","58035","62638","62639","62630"],
-                "headsign": "Nord - Bellevue / Laurier"
+                "headsign": "Nord - Bellevue / Chevremont"
             },
             "geometry": {
                 "type": "LineString",
@@ -520,7 +520,7 @@
                 "branch": "2278888",
                 "variant": "main",
                 "stops": ["62638","62639","62630"],
-                "headsign": "(X) Nord - Bellevue / Laurier"
+                "headsign": "(X) Nord - Station Fairview–Pointe-Claire"
             },
             "geometry": {
                 "type": "LineString",

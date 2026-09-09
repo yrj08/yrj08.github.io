@@ -152,14 +152,18 @@ window.routeConfigs = {
     directionLabels: {outbound: "Est – Christophe-Colomb / Rachel", 
                       inbound: "Ouest – Station Snowdon"},
     branchStyles: {
-      "118888": {line: {color: "#009EE0", weight: 4, opacity: 1},
+      "110888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "118999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+      "110999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
-      "119888": {line: {color: "#009EE0", weight: 4, opacity: 1, dashArray: "5,10"},
+      "111888": {line: {color: "#009EE0", weight: 4, opacity: 1, dashArray: "5,10"},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "119999": {line: {color: "#5DBDEA", weight: 4, opacity: 1, dashArray: "5,10"},
+      "111999": {line: {color: "#5DBDEA", weight: 4, opacity: 1, dashArray: "5,10"},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "119888": {line: {color: "#E28336", weight: 4, opacity: 1, dashArray: "5,10"},
+          stop: {radius: 4, weight: 3, color: "#E28336", fillOpacity: 1, shape: "circle"}},
+      "119999": {line: {color: "#FFC476", weight: 4, opacity: 1, dashArray: "5,10"},
+          stop: {radius: 4, weight: 3, color: "#FFC476", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
@@ -171,6 +175,8 @@ window.routeConfigs = {
           remplacement de la ligne 711;</li>
       <li>Création d'une ligne courte 11X entre les stations Snowdon et Laurier durant 
           les heures d'affluence (en pointe et durant les fins de semaine);</li>
+      <li>Ajout d'un trajet temporaire via des Pins en service lors de la fermeture de 
+          la voie Camillien-Houde, conjointement avec la navette 804.</li>
       <li>Retrait de quelques arrêts trop rapprochés.</li>
     `,
     pourquoi: `

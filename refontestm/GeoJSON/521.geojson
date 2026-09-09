@@ -9,7 +9,7 @@
                 "branch": "5210000",
                 "variant": "main",
                 "stops": ["62613","62602","60288"],
-                "headsign": "Est - Station Côte-Vertu via Kirkland"
+                "headsign": "Est - Station Côte-Vertu"
             },
             "geometry": {
                 "type": "LineString",
@@ -335,7 +335,7 @@
                 "branch": "5210001",
                 "variant": "main",
                 "stops": ["60601","62603","62613"],
-                "headsign": "Ouest - Station Anse-à-l'Orme via Kirkland"
+                "headsign": "Ouest - Station Anse-à-l'Orme"
             },
             "geometry": {
                 "type": "LineString",

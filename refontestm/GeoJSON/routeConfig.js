@@ -4876,12 +4876,31 @@ window.routeConfigs = {
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
-      <li>Ajustement de quai à Jean-Drapeau.</li>
+      <li>Ajustement des quais aux stations Jean-Drapeau et Bonaventure.</li>
     `,
     pourquoi: `
       <li>N/A</li>
     `},
 
+  "804": {title: "Ligne 804 • Belvédère Kondiaronk", type: "regulier",
+    files: {currentShapes: "../GeoJSON/curr-804.geojson", newShapes: "../GeoJSON/804.geojson", 
+            currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
+    directionLabels: {outbound: "Est – Station Laurier", 
+                      inbound: "Ouest – Parc du Mont-Royal"},
+    branchStyles: {
+      "8040020": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "8040021": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
+          stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
+    changements: `
+      <li>Navette saisonnière: ajustement d'arrêts desservis.</li>
+    `,
+    pourquoi: `
+      <li>Service spécial lors de fermeture de la voie Camillien-Houde.</li>
+    `},
+  
   "811": {title: "Ligne 811 • Navette services santé", type: "aboli",
     files: {currentShapes: "../GeoJSON/curr-811.geojson", newShapes: "../GeoJSON/811.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},

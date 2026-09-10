@@ -3390,18 +3390,25 @@ window.routeConfigs = {
       <li>N/A</li>
     `},
 
-  "283": {title: "Ligne 283 • Technoparc", type: "aboli",
+  "283": {title: "Ligne 283 • Technoparc Montréal", type: "tc_reg",
     files: {currentShapes: "../GeoJSON/curr-283.geojson", newShapes: "../GeoJSON/283.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "Nord"},
     branchStyles: {
+      "2830000": {line: {color: "#009EE0", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
-      <li>Retrait du service à compter de l'ouverture de l'antenne YUL Aéroport du REM.</li>
+      <li>Retrait du service actuel de pointe à compter de l'ouverture de l'antenne YUL 
+          Aéroport du REM: nouveau service disponible en fin de semaine pour relever les 
+          lignes 72 et 225 avec une connexion au REM Marie-Curie dans les secteurs 
+          industriels Technoparc et limitrophes (élargissement du bassin de desserte).</li>
     `,
     pourquoi: `
-      <li>Service devenu redondant suite à l'ouverture complète du REM dans le secteur.</li>
+      <li>Service actuel devenu redondant suite à l'ouverture complète du REM dans le 
+          secteur, mais il existe une possiblité de bonifier la desserte actuel dans 
+          ce secteur industriel en pleine croissance.</li>
     `},
 
   "284": {title: "Ligne 284 • Baie-D'Urfé", type: "tc_reg",

@@ -3393,7 +3393,7 @@ window.routeConfigs = {
   "283": {title: "Ligne 283 • Technoparc Montréal", type: "tc_reg",
     files: {currentShapes: "../GeoJSON/curr-283.geojson", newShapes: "../GeoJSON/283.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
-    directionLabels: {outbound: "Nord"},
+    directionLabels: {outbound: "Technoparc ⇋ Station Marie-Curie"},
     branchStyles: {
       "2830000": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},

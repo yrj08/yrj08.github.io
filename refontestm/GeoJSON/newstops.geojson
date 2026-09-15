@@ -6,7 +6,6 @@
 {"type":"Feature","properties":{"stop_id":"51702","stop_name":"Saint-Jacques / Saint-Rémi (51702)"},"geometry":{"type":"Point","coordinates":[-73.596641,45.474033]}},
 {"type":"Feature","properties":{"stop_id":"51905","stop_name":"Papineau / escalier des Carrières (51905)"},"geometry":{"type":"Point","coordinates":[-73.587893,45.538996]}},
 {"type":"Feature","properties":{"stop_id":"52004","stop_name":"Notre-Dame / Beaudoin (52004)"},"geometry":{"type":"Point","coordinates":[-73.586574,45.475113]}},
-{"type":"Feature","properties":{"stop_id":"52771","stop_name":"Sherbrooke / Gascon (52771)"},"geometry":{"type":"Point","coordinates":[-73.560907,45.537003]}},
 {"type":"Feature","properties":{"stop_id":"53047","stop_name":"Station Papineau (Cartier / Sainte-Catherine) (53047)","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.552124,45.523512]}},
 {"type":"Feature","properties":{"stop_id":"53082","stop_name":"Station Assomption (53082)","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.547025,45.569087]}},
 {"type":"Feature","properties":{"stop_id":"53277","stop_name":"Station Honoré-Beaugrand (Terminus Sud) (53277)","icons":["verte.png"]},"geometry":{"type":"Point","coordinates":[-73.534164,45.596717]}},

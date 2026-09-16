@@ -4016,7 +4016,7 @@
 {"type":"Feature","properties":{"stop_id":"54598","stop_name":"Jarry / Ray-Lawson (54598)"},"geometry":{"type":"Point","coordinates":[-73.562544,45.616530]}},
 {"type":"Feature","properties":{"stop_id":"54599","stop_name":"Jarry / Ray-Lawson (54599)"},"geometry":{"type":"Point","coordinates":[-73.562749,45.616504]}},
 {"type":"Feature","properties":{"stop_id":"54600","stop_name":"Bourgneuf / Bodinier (54600)"},"geometry":{"type":"Point","coordinates":[-73.561371,45.603833]}},
-{"type":"Feature","properties":{"stop_id":"54601","stop_name":"de Châteauneuf / Goncourt (54601)"},"geometry":{"type":"Point","coordinates":[-73.558914,45.603660]}},
+{"type":"Feature","properties":{"stop_id":"54601","stop_name":"de Châteauneuf / Goncourt (54601)","icons":["bleue.png"]},"geometry":{"type":"Point","coordinates":[-73.558914,45.603660]}},
 {"type":"Feature","properties":{"stop_id":"54602","stop_name":"des Galeries-d'Anjou / Saint-Zotique (54602)"},"geometry":{"type":"Point","coordinates":[-73.559305,45.596209]}},
 {"type":"Feature","properties":{"stop_id":"54603","stop_name":"des Galeries-d'Anjou / Saint-Zotique (54603)"},"geometry":{"type":"Point","coordinates":[-73.559714,45.596121]}},
 {"type":"Feature","properties":{"stop_id":"54604","stop_name":"de Châteauneuf / Boreau (54604)"},"geometry":{"type":"Point","coordinates":[-73.559059,45.604651]}},

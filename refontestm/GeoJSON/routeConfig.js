@@ -4638,19 +4638,31 @@ window.routeConfigs = {
     directionLabels: {outbound: "Est – Cégep Marie-Victorin", 
                       inbound: "Ouest – Station Du Ruisseau"},
     branchStyles: {
-      "4698888": {line: {color: "#009EE0", weight: 4, opacity: 1},
+      "4690888": {line: {color: "#009EE0", weight: 4, opacity: 1},
           stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
-      "4699999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+      "4690999": {line: {color: "#5DBDEA", weight: 4, opacity: 1},
+          stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
+      "4691888": {line: {color: "#009EE0", weight: 4, opacity: 1, dashArray: "5,10"},
+          stop: {radius: 4, weight: 3, color: "#009EE0", fillOpacity: 1, shape: "circle"}},
+      "4691999": {line: {color: "#5DBDEA", weight: 4, opacity: 1, dashArray: "5,10"},
           stop: {radius: 4, weight: 3, color: "#5DBDEA", fillOpacity: 1, shape: "circle"}},
       "current": {line: {color: "#FFB350", weight: 10, opacity: 1},
           stop: {radius: 5, weight: 5, color: "#FFB350", fillOpacity: 1, shape: "circle"}}},
     changements: `
-      <li>;</li>
-      <li>;</li>
+      <li>Trajet principal (en service en pointe et durant la journée) redirigé vers le cégep 
+          Marie-Victorin en remplacement des 49X;</li>
+      <li>Ajout de quelques arrêts express entre la station Henri-Bourassa et 
+          Bellevois / L'Archevêque;</li>
+      <li>Prolongement du trajet vers l'ouest jusqu'au REM Du Ruisseau avec un seul arrêt 
+          au collège du Bois-de-Boulogne;</li>
+      <li>En direction de pointe seulement, quelques voyages seront conservés sur Rolland 
+          au nord de Maurice-Duplessis;</li>
       <li>Retrait de quelques arrêts trop rapprochés.</li>
     `,
     pourquoi: `
-      <li>;</li>
+      <li>Permettre de créer une ligne express structurante permettant de traverser l'île 
+          de façon rapide et efficace sur l'axe Henri-Bourassa;</li>
+      <li>Améliorer l'interconnexion avec le REM;</li>
       <li>Améliorer la vitesse commerciale.</li>
     `},
 

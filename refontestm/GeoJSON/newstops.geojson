@@ -144,7 +144,7 @@
 {"type":"Feature","properties":{"stop_id":"A0051","stop_name":"Provost / 13e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.675775,45.442037]}},
 {"type":"Feature","properties":{"stop_id":"A0052","stop_name":"Vézina / Macdonald (––)"},"geometry":{"type":"Point","coordinates":[-73.650657,45.489197]}},
 {"type":"Feature","properties":{"stop_id":"A0053","stop_name":"Wilfrid-Pelletier / Joseph-Renaud (––)"},"geometry":{"type":"Point","coordinates":[-73.553408,45.605523]}},
-{"type":"Feature","properties":{"stop_id":"A0054","stop_name":"TBD (––)"},"geometry":{"type":"Point","coordinates":[-73.856507,45.432772]}},
+{"type":"Feature","properties":{"stop_id":"A0054","stop_name":"Léger / Langelier (––)"},"geometry":{"type":"Point","coordinates":[-73.622116,45.623190]}},
 {"type":"Feature","properties":{"stop_id":"A0055","stop_name":"Bridge / Wellington (––)","icons":["rem.png"]},"geometry":{"type":"Point","coordinates":[-73.557583,45.487278]}},
 {"type":"Feature","properties":{"stop_id":"A0056","stop_name":"28e Avenue / Remembrance (––)","icons":["bus.png"]},"geometry":{"type":"Point","coordinates":[-73.688705,45.437560]}},
 {"type":"Feature","properties":{"stop_id":"A0057","stop_name":"Senneville / Transcanadienne (––)"},"geometry":{"type":"Point","coordinates":[-73.968376,45.421895]}},

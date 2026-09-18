@@ -407,6 +407,8 @@
 {"type":"Feature","properties":{"stop_id":"A9046","stop_name":"Armand-Bombardier / Maurice-Duplessis (––)"},"geometry":{"type":"Point","coordinates":[-73.589696,45.631849]}},
 {"type":"Feature","properties":{"stop_id":"A9047","stop_name":"Rita-Levi-Montalcini / Maurice-Duplessis (––)"},"geometry":{"type":"Point","coordinates":[-73.580439,45.638866]}},
 {"type":"Feature","properties":{"stop_id":"A9048","stop_name":"Claveau / Grenache (––)"},"geometry":{"type":"Point","coordinates":[-73.572273,45.611530]}},
+{"type":"Feature","properties":{"stop_id":"A9049","stop_name":"René-Huguet / 51e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.713878,45.441447]}},
+{"type":"Feature","properties":{"stop_id":"A9050","stop_name":"48e Avenue / Acadia (––)"},"geometry":{"type":"Point","coordinates":[-73.709541,45.439251]}},
 {"type":"Feature","properties":{"stop_id":"A9904","stop_name":"Henri-Bourassa / Christophe-Colomb (––)"},"geometry":{"type":"Point","coordinates":[-73.662045,45.562782]}},
 {"type":"Feature","properties":{"stop_id":"A9905","stop_name":"Henri-Bourassa / Francis (––)"},"geometry":{"type":"Point","coordinates":[-73.660606,45.565551]}},
 {"type":"Feature","properties":{"stop_id":"A9906","stop_name":"Henri-Bourassa / Laperle (––)"},"geometry":{"type":"Point","coordinates":[-73.660139,45.567439]}},

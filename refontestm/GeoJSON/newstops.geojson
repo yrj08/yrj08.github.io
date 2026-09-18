@@ -359,7 +359,7 @@
 {"type":"Feature","properties":{"stop_id":"A0266","stop_name":"Métropolitain / de Neuville (––)"},"geometry":{"type":"Point","coordinates":[-73.571866,45.599059]}},
 {"type":"Feature","properties":{"stop_id":"A0267","stop_name":"Métropolitain / Jean-Talon (––)"},"geometry":{"type":"Point","coordinates":[-73.569524,45.600742]}},
 {"type":"Feature","properties":{"stop_id":"A0268","stop_name":"Louis-H.-La Fontaine / Galeries d'Anjou (––)"},"geometry":{"type":"Point","coordinates":[-73.564410,45.602524]}},
-{"type":"Feature","properties":{"stop_id":"A9001","stop_name":"Cégep Marie-Victorin (––)","icons":["bus.png"]},"geometry":{"type":"Point","coordinates":[-73.607063,45.617981]}},
+{"type":"Feature","properties":{"stop_id":"A9001","stop_name":"Maurice-Duplessis / 27e Avenue (––)"},"geometry":{"type":"Point","coordinates":[-73.585691,45.634510]}},
 {"type":"Feature","properties":{"stop_id":"A9002","stop_name":"Rita-Levi-Montalcini / Samuel-Morse (––)"},"geometry":{"type":"Point","coordinates":[-73.583361,45.641483]}},
 {"type":"Feature","properties":{"stop_id":"A9003","stop_name":"Fairway / François-Lenoir (––)"},"geometry":{"type":"Point","coordinates":[-73.701388,45.454309]}},
 {"type":"Feature","properties":{"stop_id":"A9004","stop_name":"Louis-A.-Amos / J.-B.-Deschamps (––)"},"geometry":{"type":"Point","coordinates":[-73.699641,45.467247]}},

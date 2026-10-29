@@ -1,0 +1,7 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+{"type":"Feature","properties":{"stop_id":"0001","stop_name":"王家港","icons":["M1.png"]},"geometry":{"type":"Point","coordinates":[120.157315,35.942253]}},
+{"type":"Feature","properties":{"stop_id":"0002","stop_name":"石油大学","icons":["M1.png"]},"geometry":{"type":"Point","coordinates":[120.166993,35.945346]}}
+  ]
+}

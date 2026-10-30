@@ -2491,7 +2491,7 @@
 {"type":"Feature","properties":{"stop_id":"52769","stop_name":"Rachel / Dézéry (52769)"},"geometry":{"type":"Point","coordinates":[-73.560811,45.544904]}},
 {"type":"Feature","properties":{"stop_id":"52770","stop_name":"Frontenac / Sherbrooke (52770)"},"geometry":{"type":"Point","coordinates":[-73.560766,45.536505]}},
 {"type":"Feature","properties":{"stop_id":"52772","stop_name":"Sherbrooke / Gascon (52772)"},"geometry":{"type":"Point","coordinates":[-73.560725,45.536865]}},
-{"type":"Feature","properties":{"stop_id":"52773","stop_name":"du Mont-Royal / Bourbonnière (52773)"},"geometry":{"type":"Point","coordinates":[-73.560607,45.553162]}},
+{"type":"Feature","properties":{"stop_id":"52773","stop_name":"du Mont-Royal / 18e Avenue (52773)"},"geometry":{"type":"Point","coordinates":[-73.560607,45.553162]}},
 {"type":"Feature","properties":{"stop_id":"52774","stop_name":"du Mont-Royal / Bourbonnière (52774)"},"geometry":{"type":"Point","coordinates":[-73.560739,45.553218]}},
 {"type":"Feature","properties":{"stop_id":"52775","stop_name":"Dickson / Rosemont (52775)"},"geometry":{"type":"Point","coordinates":[-73.559753,45.578650]}},
 {"type":"Feature","properties":{"stop_id":"52776","stop_name":"Rosemont / Lacordaire (52776)"},"geometry":{"type":"Point","coordinates":[-73.559990,45.578797]}},

@@ -1,0 +1,24 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+
+    {
+      "type": "Feature",
+      "properties": {
+        "route": "M1",
+        "variant": "main",
+        "stops": ["0001","0002"],
+        "direction": "outbound",
+        "headsign": "王家港 ⇋ 兴国路",
+        "branch": "M1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+[120.157315,35.942253],
+[120.166993,35.945346]
+        ]
+      }
+    }
+  ]
+}

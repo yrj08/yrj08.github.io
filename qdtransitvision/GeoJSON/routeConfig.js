@@ -1,6 +1,6 @@
 window.routeConfigs = {
 
-  "1": {title: "地铁1号线", type: "metro",
+  "M1": {title: "地铁1号线", type: "metro",
     files: {currentShapes: "../GeoJSON/curr-M1.geojson", newShapes: "../GeoJSON/M1.geojson", 
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "王家港 ⇋ 兴国路"},

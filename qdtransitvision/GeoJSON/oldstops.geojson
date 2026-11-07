@@ -2,6 +2,20 @@
   "type": "FeatureCollection",
   "features": [
 {"type":"Feature","properties":{"stop_id":"0001","stop_name":"王家港","icons":["M1.png"]},"geometry":{"type":"Point","coordinates":[120.157315,35.942253]}},
-{"type":"Feature","properties":{"stop_id":"0002","stop_name":"石油大学","icons":["M1.png"]},"geometry":{"type":"Point","coordinates":[120.166993,35.945346]}}
+{"type":"Feature","properties":{"stop_id":"0002","stop_name":"石油大学","icons":["M1.png"]},"geometry":{"type":"Point","coordinates":[120.166993,35.945346]}},
+{"type":"Feature","properties":{"stop_id":"0003","stop_name":"太行山路","icons":["M1.png"]},"geometry":{"type":"Point","coordinates":[120.174672,35.950099]}},
+{"type":"Feature","properties":{"stop_id":"0004","stop_name":"井冈山路","icons":["M1.png"]},"geometry":{"type":"Point","coordinates":[120.182152,35.953894]}},
+{"type":"Feature","properties":{"stop_id":"0005","stop_name":"丁家河","icons":["M1.png"]},"geometry":{"type":"Point","coordinates":[120.195842,35.958202]}},
+{"type":"Feature","properties":{"stop_id":"0006","stop_name":"薛家岛","icons":["M1.png"]},"geometry":{"type":"Point","coordinates":[120.214106,35.961502]}},
+{"type":"Feature","properties":{"stop_id":"0007","stop_name":"天目山路","icons":["M1.png"]},"geometry":{"type":"Point","coordinates":[120.222994,35.964832]}},
+{"type":"Feature","properties":{"stop_id":"0008","stop_name":"安子","icons":["M1.png"]},"geometry":{"type":"Point","coordinates":[120.228606,35.971553]}},
+{"type":"Feature","properties":{"stop_id":"0009","stop_name":"新港山路","icons":["M1.png"]},"geometry":{"type":"Point","coordinates":[120.238862,35.973101]}},
+{"type":"Feature","properties":{"stop_id":"0010","stop_name":"南北屯","icons":["M1.png"]},"geometry":{"type":"Point","coordinates":[120.258668,35.977066]}},
+{"type":"Feature","properties":{"stop_id":"0011","stop_name":"山里","icons":["M1.png"]},"geometry":{"type":"Point","coordinates":[120.282376,35.985525]}},
+{"type":"Feature","properties":{"stop_id":"0012","stop_name":"凤凰岛","icons":["M1.png"]},"geometry":{"type":"Point","coordinates":[120.288041,35.999056]}},
+{"type":"Feature","properties":{"stop_id":"0013","stop_name":"团岛","icons":["M1.png"]},"geometry":{"type":"Point","coordinates":[120.294569,36.057161]}},
+{"type":"Feature","properties":{"stop_id":"0014","stop_name":"西镇","icons":["M1.png"]},"geometry":{"type":"Point","coordinates":[120.301554,36.061060]}},
+{"type":"Feature","properties":{"stop_id":"0015","stop_name":"青岛站","icons":["M1.png"]},"geometry":{"type":"Point","coordinates":[120.309423,36.064191]}},
+{"type":"Feature","properties":{"stop_id":"0016","stop_name":"中山路","icons":["M1.png"]},"geometry":{"type":"Point","coordinates":[120.316429,36.072022]}}
   ]
 }

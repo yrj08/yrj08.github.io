@@ -5,8 +5,8 @@ window.routeConfigs = {
             currentStops: "../GeoJSON/oldstops.geojson", newStops: "../GeoJSON/newstops.geojson"},
     directionLabels: {outbound: "王家港 ⇋ 兴国路"},
     branchStyles: {
-      "verte": {line: {color: "#00B300", weight: 7, opacity: 1},
-          stop: {radius: 7, weight: 3, color: "#00B300", fillOpacity: 1, shape: "circle"}}},
+      "M1": {line: {color: "#EAAA00", weight: 7, opacity: 1},
+          stop: {radius: 7, weight: 3, color: "#EAAA00", fillOpacity: 1, shape: "circle"}}},
     changements: ``,
     pourquoi: ``}
   

@@ -3,7 +3,7 @@ const allLineLayers = [];
 
 function createNetworkMap({ mapId, routeConfigs }) {
 
-  const map = L.map(mapId).setView([45.55, -73.7], 11);
+  const map = L.map(mapId).setView([36.12, 120.28], 11);
   map.on("click", () => {
     highlightedLayers.forEach(l => {
       l.options.pane = l.defaultPane;
@@ -59,20 +59,26 @@ function createNetworkMap({ mapId, routeConfigs }) {
     tc_reg:           {color: "#009EE0", weight: 3, opacity: 0.6},
     tc_pointe:        {color: "#5DBDEA", weight: 3, opacity: 0.6},
     tc_or:            {color: "#D9B75F", weight: 3, opacity: 0.6},
-    lourd_verte:      {color: "#00B300", weight: 7},
-    lourd_orange:     {color: "#D95700", weight: 7},
-    lourd_rem:        {color: "#73A400", weight: 7},
-    lourd_jaune:      {color: "#FFD900", weight: 7},
-    lourd_bleue:      {color: "#0095E6", weight: 7},
-    lourd_vh:         {color: "#F16179", weight: 5},
-    lourd_sj:         {color: "#FBD06C", weight: 5},
-    lourd_sh:         {color: "#999AC6", weight: 5},
-    lourd_ca:         {color: "#5AB6B2", weight: 5},
-    lourd_ma:         {color: "#CA5898", weight: 5}
+    M1:               {color: "#EAAA00", weight: 7},
+    M2:               {color: "#AF272F", weight: 7},
+    M3:               {color: "#0057B8", weight: 7},
+    M4:               {color: "#007A33", weight: 7},
+    M5:               {color: "#981D97", weight: 7},
+    M6:               {color: "#6CACE4", weight: 5},
+    M7:               {color: "#AD96DC", weight: 5},
+    M8:               {color: "#DF1995", weight: 5},
+    M9:               {color: "#64A70B", weight: 5},
+    M10:              {color: "#844B18", weight: 5},
+    M11:              {color: "#304299", weight: 5},
+    M12:              {color: "#8246AF", weight: 5},
+    M13:              {color: "#00AB84", weight: 5},
+    M14:              {color: "#FF585D", weight: 5},
+    M15:              {color: "#F2ACB9", weight: 5},
+    M16:              {color: "#71DBD4", weight: 5}
   };
 
   function getPaneForRouteType(type) {
-    if (type?.startsWith("lourd_")) return "pane_rapid_lines";
+    if (type?.startsWith("M")) return "pane_rapid_lines";
     if (type === "frequent_journee") return "pane_frequent_journee_lines";
     if (type === "frequent_pointe") return "pane_frequent_pointe_lines";
     if (type === "regulier") return "pane_regulier_lines";
